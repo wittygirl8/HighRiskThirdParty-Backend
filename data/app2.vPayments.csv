@@ -1,0 +1,31 @@
+﻿ThirdPartyPaymentsLineId,InvoiceGIDate,InvoiceLineAmountLocal,Currency,AllText,VendorNumber,VendorName,GIAccountDescription,PaymentType,PaymentSubtype,BusinessAcitvity
+81234567,15-01-2020,1000,BRL,0,92648571,Pedro Souza,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+82345678,20-02-2020,824,EUR,0,92648571,Pedro Souza,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+83456789,10-03-2020,2905,BRL,0,93456128,Rafael Costa,Hotel & Accomidation,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+84567890,25-04-2020,1350,BRL,0,91827364,Thiago Martins,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+85678901,30-05-2020,2000,BRL,0,91827364,Thiago Martins,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+86789012,18-06-2020,2769,EUR,0,94567812,Ana López,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+87890123,22-07-2020,1000,EUR,0,95382467,Pedro Sánchez,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+88901234,14-08-2020,234,EUR,0,95382467,Pedro Sánchez,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+89012345,05-09-2020,3982,USD,0,96412753,Jessica Brown,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+80123456,12-10-2020,2456,USD,0,97531984,Robert Davis,Air Fares,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81234567,01-01-2020,2905,BRL,0,91827364,Instituto Esperança Brasil,Employee Training,Monetory TOV,PaidScholarship,Training
+81236745,15-02-2020,1350,BRL,0,91827365,Fundação Vida Verde,Digital Production,Monetory TOV,N/A,Others
+81237456,23-03-2020,1000,BRL,0,91827436,Rede Solidariedade Brasil,Postage & Couriers,Monetory TOV,Logistics,Logistic
+81245673,09-04-2020,1000,BRL,0,91827436,Rede Solidariedade Brasil,Marketing,CERPS Invoice,Networking,Marketing
+81246735,30-05-2020,3982,BRL,0,91827634,Associação Nova Esperança,Employee Training,Monetory TOV,PaidScholarship,Training
+81254367,07-06-2020,2456,BRL,0,91827643,Projeto Cidadania e Futuro,Digital Production,Monetory TOV,N/A,Others
+81256734,19-07-2020,1000,BRL,0,91828436,Aliança Social Brasileira,Postage & Couriers,Monetory TOV,Logistics,Logistic
+81263457,28-08-2020,352,BRL,0,91828436,Aliança Social Brasileira,Marketing,CERPS Invoice,Networking,Marketing
+81264573,14-09-2020,2760,EUR,0,91828463,Fundación Luz de Esperanza,Employee Training,Monetory TOV,PaidScholarship,Training
+81265347,22-10-2020,956,EUR,0,91832746,Centro de Acción Social Iberia,Digital Production,Monetory TOV,N/A,Others
+81273465,06-11-2020,2000,EUR,0,91832746,Centro de Acción Social Iberia,Postage & Couriers,Monetory TOV,Logistics,Logistic
+81274536,18-12-2020,2698,EUR,0,91832764,Asociación Progreso y Bienestar,Marketing,CERPS Invoice,Networking,Marketing
+81275634,03-01-2021,3952,USD,0,91834627,Nationwide Hope Foundation,Employee Training,Monetory TOV,PaidScholarship,Training
+81276345,21-02-2021,926,USD,0,91835467,American Heart of Service,Digital Production,Monetory TOV,N/A,Others
+81276543,12-03-2021,3000,USD,0,91835467,American Heart of Service,Postage & Couriers,Monetory TOV,Logistics,Logistic
+81284365,25-04-2021,2000,USD,0,91835647,Bright Future Initiative,Marketing,CERPS Invoice,Networking,Marketing
+81284635,10-05-2021,398,USD,0,91835647,Bright Future Initiative,Employee Training,CERPS Invoice,PaidScholarship,Training
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

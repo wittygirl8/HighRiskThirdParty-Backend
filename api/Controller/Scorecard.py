@@ -17,6 +17,7 @@ class ScorecardController:
     
     @staticmethod
     def dashboard_risk_table(data):
+        print("router passed, entered controller")
         _obj = Scorecard()
         return _obj.dashboard_risk_table(data)
     

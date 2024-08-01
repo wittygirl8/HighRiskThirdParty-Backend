@@ -1,0 +1,28 @@
+﻿COUNTRY,additional_info,aka,designation,id,link,orgkey,source,hcp_id,hco_id
+BRAZIL,Focus on renewable energy projects.,NULL,President,B001X001,https://www.alpha-initiative.org/,orgK990234987824,openai,4983,B001
+BRAZIL,Local education outreach programs.,NULL,Executive Director,B001X002,https://www.beta-alliance.org/,NULL,openai,9235,B001
+BRAZIL,Support for clean water access.,NULL,Chief Operating Officer,B002X001,https://www.gamma-fund.org/,NULL,openai,7666,B002
+BRAZIL,NULL,NULL, Chairperson,B003X001,https://www.delta-coalition.org/,orgK984567123456,openai,6402,B003
+BRAZIL,NULL,NULL,Vice President,B004X001,https://www.epsilon-society.org/,NULL,openai,2553,B004
+BRAZIL,NULL,NULL,Chief Financial Officer,B004X002,https://www.zeta-trust.org/,orgK876543210987,openai,4146,B004
+BRAZIL,Disaster relief and recovery.,NULL,Secretary-General,B005X001,https://www.eta-network.org/,NULL,openai,2354,B005
+BRAZIL,NULL,NULL,Chief Strategy Officer,B005X002,https://www.theta-project.org/,NULL,openai,8861,B005
+BRAZIL,NULL,NULL,Director of Operations,B006X001,https://www.iota-group.org/,orgK123456789012,openai,8252,B006
+BRAZIL,NULL,NULL,Chief Development Officer,B006X002,https://www.kappa-foundation.org/,NULL,openai,9501,B006
+BRAZIL,Community health initiatives.,NULL,Head of Policy,B006X003,https://www.lambda-team.org/,NULL,openai,7368,B006
+BRAZIL,NULL,NULL, Chief Communications Officer,B007X001,https://www.mu-partnership.org/,orgK567890123456,openai,7545,B007
+BRAZIL,NULL,NULL,Chief Program Officer,B007X002,https://www.nu-organization.org/,NULL,openai,7722,B007
+SPAIN,Environmental conservation efforts.,NULL,Treasurer,S001X001,https://www.xi-association.org/,orgK345678901234,openai,7899,S001
+SPAIN,NULL,NULL,Board Chair,S001X002,https://www.omicron-service.org/,NULL,openai,8076,S001
+SPAIN,NULL,NULL,President,S002X001,https://www.alpha-initiative.org/,NULL,openai,8253,S002
+SPAIN,NULL,NULL,Vice President,S003X001,https://www.beta-alliance.org/,NULL,openai,8430,S003
+SPAIN,NULL,NULL,Director of Operations,S004X001,https://www.gamma-fund.org/,NULL,openai,8607,S004
+SPAIN,NULL,NULL,Board Chair,S004X002,https://www.delta-coalition.org/,NULL,openai,8784,S004
+USA,NULL,NULL,President,U001X001,https://www.epsilon-society.org/,NULL,openai,8961,U001
+USA,NULL,NULL,Vice President,U001X002,https://www.zeta-trust.org/,NULL,openai,9138,U001
+USA,NULL,NULL,Director of Operations,U002X001,https://www.eta-network.org/,NULL,openai,9315,U002
+USA,NULL,NULL,Board Chair,U002X002,https://www.theta-project.org/,NULL,openai,9492,U002
+USA,NULL,NULL,President,U003X001,https://www.iota-group.org/,NULL,openai,9669,U003
+USA,NULL,NULL,Vice President,U003X002,https://www.kappa-foundation.org/,NULL,openai,9846,U003
+USA,NULL,NULL,Director of Operations,U004X001,https://www.lambda-team.org/,NULL,openai,10023,U004
+USA,NULL,NULL,Board Chair,U004X002,https://www.mu-partnership.org/,NULL,openai,10200,U004

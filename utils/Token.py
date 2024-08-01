@@ -6,6 +6,7 @@ from flask_jwt_extended import (
     verify_jwt_in_request, create_access_token, get_jwt_identity
 )
 from functools import wraps
+import logging
 
 """
 blacklist.py
@@ -17,12 +18,16 @@ BLACKLIST = set()
 
 
 def get_access_token(user, additional_claims):
-    x =  create_access_token(identity=user,
-                               additional_claims=additional_claims,
-                               expires_delta=datetime.timedelta(hours=10),  # minutes=15),
-                               fresh=True)
-    print(x)
-    return x
+    try:
+        token = create_access_token(identity=user,
+                                    additional_claims=additional_claims,
+                                    expires_delta=datetime.timedelta(hours=10),
+                                    fresh=True)
+        logging.info(f"Access token created: {token}")
+        return token
+    except Exception as e:
+        logging.error(f"Error creating access token: {str(e)}")
+        return None
 
 def admin_required():
     def wrapper(fn):

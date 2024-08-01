@@ -14,6 +14,8 @@ from api.Router.User import auth, user_api_v1
 from api.Router.Scorecard import scorecard_api_v1
 from api.Router.Deepdive import deepdive_api_v1
 
+
+
 def create_app(config_object='settings'):
     app = Flask(__name__)
     app.config.from_object(config_object)
@@ -26,7 +28,7 @@ def create_app(config_object='settings'):
         app.logger = logging.getLogger('file')
     except Exception as e:
         app.logger.info("No logging config file found, using default logger: {}".format(e))
-
+    app.config['JWT_SECRET_KEY'] = 'your_jwt_secret_key'
     jwt = JWTManager(app)
 
     app.config['MAX_CONTENT_LENGTH'] = 512 * 1024 * 1024  # 512 MB

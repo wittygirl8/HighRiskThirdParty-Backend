@@ -31,13 +31,14 @@ class Scorecard:
             print(data)
             country = data.get('country')
             org = data.get('orgType')
-    
+
             if country == 'null':
                 return True, "dashboard_stats", []
 
-            query = f'''select * from [app2].[vCountryHcoSummary] where country = '{country}' '''
-
-            summary_df = db.select_df(query)
+            csv_file_path = r'data/app2.vCountryHcoSummary.csv'
+            # Read the CSV file
+            summary_df = pd.read_csv(csv_file_path)
+            summary_df = summary_df[summary_df['country'].str.lower() == country.lower()]
 
             metric_summary = list()
             for rowIndex, row in summary_df.iterrows():
@@ -72,16 +73,16 @@ class Scorecard:
     
             if country == 'null':
                 return True, "dashboard_risk_table", []
-            
-            query = f''' select [OriginalEntityId], [Name], [RiskScore] from [app2].[vHcoRiskScore] where country = '{country}' '''
-
-            risk_score_df = db.select_df(query)
+            file_path = 'data/app2.vHcoRiskScore.csv'
+            df = pd.read_csv(file_path)
+            filtered_df = df[df['Country'].str.lower() == country.lower()]
+            risk_score_df = filtered_df[['OriginalEntityID', 'Name', 'RiskScore']]
 
             risk_score_data = list()
             for rowIndex, row in risk_score_df.iterrows():
                 risk_score_data.append(
                     {
-                        'id': row['OriginalEntityId'],
+                        'id': row['OriginalEntityID'],
                         'name': row['Name'],
                         'riskscore': row['RiskScore']
                     }
@@ -97,9 +98,13 @@ class Scorecard:
             traceback.print_exc()
             return False, "Something went wrong"
 
+    import pandas as pd
+
+    import pandas as pd
+
     def dashboard_business_activities(self, data):
         """
-        Business Activites should return in the format
+        Business Activities should return in the format
         businessActivitiesData = [
             {
                 'id': HCO id,
@@ -110,62 +115,65 @@ class Scorecard:
         """
 
         try:
-            print(data)
+            print("entered service")
+            csv_file_path = 'data/app2.vMultipleActivityPayments.csv'
+            data_df = pd.read_csv(csv_file_path)
+
+            # Extract the required data from the input
             country = data.get('country')
+            print(country)
             org = data.get('orgType')
-    
+
             if country == 'null':
                 return True, "dashboard_business_activities", []
 
             currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
 
-            business_activities_query = f'''select distinct [BusinessActivity] from [app2].[vMultiActivityPayments]'''
-            business_activities = db.select_df(business_activities_query)['BusinessActivity'].values
+            if country not in currency_mapping:
+                return False, "Invalid country"
 
-            result_cols = ', '.join([f"ISNULL([{col}], 0) AS [{col}]" for col in business_activities])
-            pivot_cols = ', '.join([f"[{col}]" for col in business_activities])
+            # Filter data based on provided country and organization type
+            filtered_df = data_df[
+                (data_df['Country'].str.lower() == country) &
+                (data_df['ID'].str[0].isin(['B', 'S', 'U'])) &
+                (data_df['Currency'] == currency_mapping[country])
+                ]
 
-            query = f'''select 
-                        [ID],
-                        [Name],
-                        ''' + result_cols + f''' 
-                        FROM (
-                            select 
-                            [ID], [Name], BusinessActivity, SUM([InvoiceLineAmountLocal]) as [Amount] from [app2].[vMultiActivityPayments] 
-                            where country = '{country}' and LEFT([ID], 1) IN ('B', 'S', 'U') and currency = '{currency_mapping[country]}' 
-                            group by [ID], [Name], BusinessActivity) A
-                        PIVOT
-                        (sum([Amount]) for BusinessActivity IN (
-                            ''' + pivot_cols + f''')) B;
-                    '''
+            # Aggregate the data
+            grouped_df = filtered_df.groupby(['ID', 'Name', 'BusinessActivity'], as_index=False).agg(
+                {'InvoiceLineAmountLocal': 'sum'})
 
-            activity_payment_df = db.select_df(query)
+            # Pivot the table
+            pivot_df = grouped_df.pivot_table(
+                index=['ID', 'Name'],
+                columns='BusinessActivity',
+                values='InvoiceLineAmountLocal',
+                fill_value=0
+            ).reset_index()
 
-            activity_payments = list()
-            for rowIndex, row in activity_payment_df.iterrows():
-                activity_payment = dict()
-                activity_payment['id'] = row['ID']
-                activity_payment['Name'] = row['Name']
-                activity_payment['sortTotal'] = 0
+            # Prepare the output data
+            activity_payments = []
+            for _, row in pivot_df.iterrows():
+                activity_payment = {
+                    'id': row['ID'],
+                    'Name': row['Name'],
+                    'sortTotal': 0
+                }
 
-                for col in business_activities:
-                    if col in activity_payment_df:
-                        activity_payment[col] = '{:,.2f}'.format(row[col]) + ' ' + str(currency_mapping[country])
-                        activity_payment['sortTotal'] += row[col]
-                        continue
-                    
-                    activity_payment[col] = 0
+                for col in pivot_df.columns[2:]:  # Skip 'ID' and 'Name'
+                    activity_payment[col] = '{:,.2f}'.format(row[col]) + ' ' + currency_mapping[country]
+                    activity_payment['sortTotal'] += row[col]
 
-                activity_payments.append(
-                    activity_payment
-                )
+                activity_payments.append(activity_payment)
 
+            # Sort by total and return the top results
             activity_payments.sort(reverse=True, key=lambda x: x['sortTotal'])
             lengthLimit = min(5, len(activity_payments))
-            return True, 'dashboard_business_activities', activity_payments[0:lengthLimit]
-        
+            return True, 'dashboard_business_activities', activity_payments[:lengthLimit]
+
         except Exception as e:
-            print("Scorecard.dashboard_business_activities(): " + str(e))
+            print("dashboard_business_activities(): " + str(e))
+            import traceback
             traceback.print_exc()
             return False, "Something went wrong"
 
@@ -196,9 +204,10 @@ class Scorecard:
             org = data.get('orgType')
             if country == 'null':
                 return True, "dashboard_connections_table", []
-            
-            query = f'''select OriginalEntityId, Name, NetworkConnectedHCOs from [app2].[vHcoNetworkSummary] where Country = '{country}' '''
-            connections_df = db.select_df(query)
+            csv_file_path = r'data/app2.vHCONetworkSummary.csv'
+            connections_df = pd.read_csv(csv_file_path)
+            connections_df = connections_df[['OriginalEntityId', 'Name', 'NetworkConnectedHCOs', 'Country']]
+            connections_df = connections_df[connections_df['Country'].str.lower() == country.lower()]
 
             connectionsData = {
                 'None': 0,
@@ -260,27 +269,31 @@ class Scorecard:
             
             currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
 
-            query = f'''select 
-                        [ID],
-                        [Name],
-                        ISNULL([BRAZIL], 0)     AS [BRAZIL],
-                        ISNULL([SPAIN], 0)      AS [SPAIN],
-                        ISNULL([USA], 0)        AS [USA]
-                    from (
-                    select [ID], [Name], InvoiceLineAmountLocal as [Amount], Country from [app2].[vMultiCountryPayments]) A
-                    pivot
-                    (sum([Amount]) for [country] IN ([BRAZIL], [SPAIN], [USA])) B; '''
+            csv_file_path = r'data/app2.vMultipleCountryPayments.csv'
+            df = pd.read_csv(csv_file_path)
+            pivot_df = df.pivot_table(
+                index=['ID', 'Name'],  # Columns to group by
+                columns='Country',  # Column to pivot
+                values='InvoiceLineAmountLocal',  # Values to aggregate
+                aggfunc='sum',  # Aggregation function
+                fill_value=0  # Fill missing values with 0
+            ).reset_index()
 
-            inter_country_payment_df = db.select_df(query)
+            pivot_df.columns.name = None  # Remove the columns' name
+            inter_country_payment_df = pivot_df.rename(columns={
+                'BRAZIL': 'Brazil',
+                'SPAIN': 'Spain',
+                'USA': 'USA'
+            })
 
             inter_country_payments = list()
             for rowIndex, row in inter_country_payment_df.iterrows():
                 inter_country_payment = {
                     'id': row['ID'],
                     'Name': row['Name'],
-                    'Brazil': '{:,.2f}'.format(row['BRAZIL']) + ' BRL', 
-                    'Spain': '{:,.2f}'.format(row['SPAIN']) + ' EUR', 
-                    'USA': '{:,.2f}'.format(row['USA']) + ' USD',
+                    'Brazil': '{:,.2f}'.format(row['brazil']) + ' BRL',
+                    'Spain': '{:,.2f}'.format(row['spain']) + ' EUR',
+                    # 'USA': '{:,.2f}'.format(row['usa']) + ' USD',
                 }
                 inter_country_payments.append(inter_country_payment)
 
@@ -391,9 +404,10 @@ class Scorecard:
             org = data.get('orgType')
             if country == 'null':
                 return True, "dashboard_connections_table", []
-            
-            query = f'''select OriginalEntityId, Name, NetworkConnectedHCOs from [app2].[vHcoNetworkSummary] where Country = '{country}' '''
-            connections_df = db.select_df(query)
+            file_path = 'data/app2.vHCONetworkSummary.csv'
+            df = pd.read_csv(file_path)
+            filtered_df = df[df['Country'].str.lower() == country.lower()]
+            connections_df = filtered_df[['OriginalEntityId', 'Name', 'NetworkConnectedHCOs']]
 
             connectionsTableData = list()
 

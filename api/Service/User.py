@@ -12,19 +12,22 @@ class User:
         try:
             username = data.get("username")
             app.logger.info(data.get("password"))
-            password = base64.b64decode(data.get("password")).decode("utf-8")
-            user = db.select(f"SELECT * FROM [app].[user] where username='{username}' and password='{password}' "
-                             f"and isActive=1")
+            # password = base64.b64decode(data.get("password")).decode("utf-8")
+            password=data.get("password")
+            # user = db.select(f"SELECT * FROM [app].[user] where username='{username}' and password='{password}' "
+            #                  f"and isActive=1")
+            print(password)
+            user = [{'username': username, 'password':password,'name':'admin','type':'admin','isActive':1}]
             if user:
                 user = user[0]
                 country = []
-                if "type" in data and data["type"] == "admin":
-                    pass
-                else:
-                    access = db.select(f"SELECT * FROM app.access a join app.country c on c.id = a.country_id "
-                                       f"where user_id='{user['id']}'")
-                    for each in access:
-                        country.append(each["code"])
+                # if "type" in data and data["type"] == "admin":
+                #     pass
+                # else:
+                #     access = db.select(f"SELECT * FROM app.access a join app.country c on c.id = a.country_id "
+                #                        f"where user_id='{user['id']}'")
+                #     for each in access:
+                #         country.append(each["code"])
                 user["country"] = country
                 return user
         except Exception as e:

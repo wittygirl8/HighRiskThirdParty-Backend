@@ -8,10 +8,14 @@ class UserController:
     @staticmethod
     def login(data):
         user = User().login(data)
+        print(user)
         claims = User.get_claims(user)
+        print(claims)
         access_token = None
         if user:
+            print('y')
             access_token = get_access_token(user, claims)
+            print(access_token)
         return access_token
 
     @staticmethod

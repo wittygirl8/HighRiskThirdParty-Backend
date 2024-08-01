@@ -35,8 +35,11 @@ def dashboard_stats():
 @scorecard_api_v1.route('/dashboard/riskTable', methods=['GET'])
 @jwt_required()
 def dashboard_risk_table():
+    print("hi")
     data = Utils.get_request_data(request)
+    print(data)
     _ret = Controller.dashboard_risk_table(data)
+    print("controller passed")
     if _ret[0]:
         return Utils.create_response(_ret[1], data=_ret[2])
     else:
@@ -46,6 +49,8 @@ def dashboard_risk_table():
 @scorecard_api_v1.route('/dashboard/businessActivities', methods=['GET'])
 @jwt_required()
 def dashboard_business_activities():
+    d=request.get_json()
+    print(d)
     data = Utils.get_request_data(request)
     _ret = Controller.dashboard_business_activities(data)
     if _ret[0]:
