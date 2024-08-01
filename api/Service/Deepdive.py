@@ -491,6 +491,7 @@ class Deepdive:
                 df_edges = pd.read_csv(file_path1)
                 file_path2 = 'data/app2.vHco.csv'
                 df_hco = pd.read_csv(file_path2)
+
                 merged_df = pd.merge(df_hco, df_edges, left_on='ID', right_on='hco_id')
                 query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from [app2].[vHco] a join [app2].[vAllEdges] b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
             else:
