@@ -913,9 +913,18 @@ class Deepdive:
 
             timeline_list = []
             if 'B' in data['id'] or 'S' in data['id'] or 'U' in data['id']:
-                query = f"select HCO from [app2].[vHco] where ID = '{iden}'"
+                query = (f"select HCO from [app2].[vHco] where I"
+                         f"D = '{iden}'")
                 db = MSSQLConnection()
-                entity = db.select_df(query)
+                # entity = db.select_df(query)
+                file_path = 'data/app2.vHco.csv'
+                df = pd.read_csv(file_path)
+
+                print("df_", df)
+                entity = df[df['ID'] == iden].rename(columns={'NAME': 'HCO'})
+                print("entity____", entity)
+
+
                 for i, row in entity.iterrows():
                     entity_name = row['HCO']
                     break
@@ -940,7 +949,15 @@ class Deepdive:
             else:
                 query = f"select hcp_name from [app2].[vHcp] where Id = '{iden}'"
                 db = MSSQLConnection()
-                entity = db.select_df(query)
+                # entity = db.select_df(query)
+                file_path = 'data/app2.vHCP.csv'
+                df = pd.read_csv(file_path, encoding='latin1')
+                # pd.read_csv(file_path, encoding='latin1')
+                print("df____", df)
+                entity = df[df['id'] == iden]
+
+                print("entity____", entity)
+                entity_name = ''
                 for i, row in entity.iterrows():
                     entity_name = row['hcp_name']
                     break
