@@ -1002,13 +1002,19 @@ class Deepdive:
 
             query = f"select ID, [Name], PaymentAmount, InteractionCount, LOWER(Country) as Country from [app2].[vAllNodes] where ID = '{iden}'"
             db = MSSQLConnection()
-            entity = db.select_df(query)
+            # entity = db.select_df(query)
+            file_path = 'data/app2.AllNodes.csv'
+            df = pd.read_csv(file_path)
+            entity = df[df['ID'] == iden][['ID', 'Name', 'PaymentAmount', 'InteractionCount', 'COUNTRY']].rename(columns={'COUNTRY': 'Country'})
+                      # .rename(columns={'COUNTRY': 'Country'}))
+
+            print("entity", entity)
             if not entity.empty:
                 for i, row in entity.iterrows():
                     payment_amount = row['PaymentAmount']
                     total_interactions = row['InteractionCount']
                     entity_name = row['Name']
-                    currency = currency_mapping[row['Country']]
+                    currency = currency_mapping[row['Country'].lower()]
                     break
 
             return_dict['totalPaymentMade'] = '{:,.2f}'.format(payment_amount) + ' ' + currency # format with thousands separaters and 2dp
