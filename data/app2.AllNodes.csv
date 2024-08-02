@@ -1,4 +1,4 @@
-﻿ID,COUNTRY,Name,NodeType,InteractionId,PaymentId,PaymentCount,PaymentAmount,InteractionCount 
+﻿ID,COUNTRY,Name,NodeType,InteractionId,PaymentId,PaymentCount,PaymentAmount,InteractionCount
 B001,Brazil,Instituto Esperança Brasil,HCO,NULL,91827364,1,2905,0
 B002,Brazil,Fundação Vida Verde,HCO,NULL,91827365,1,1350,0
 B003,Brazil,Rede Solidariedade Brasil,HCO,NULL,91827436,2,2000,0

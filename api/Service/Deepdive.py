@@ -60,7 +60,7 @@ class Deepdive:
         """ Graph with selectable org type. If only HCOs or HCPs are selected,
             pairs of edges are joined between them if there is a common middle node """
         try:
-            print(data)
+            print("data________", data)
             country = data['country']
             conn = data.get('connection')
             link = data.get('link')
@@ -68,12 +68,19 @@ class Deepdive:
             if country == 'null':
                 return True, "graph_by_country", []
 
+            # Read the CSV data into a DataFrame
+            file_path = 'data/app2.AllNodes.csv'
+            df = pd.read_csv(file_path)
+
+            print("vAllNodes________", df)
+
             # get payment range
             currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
             # set default minimum to 1 and default to no max
             payment_min = data['min'] if (data['min'] not in ('0', 'null')) else 1 #(10000 if country == 'usa' else 5000)
-            payment_max = data['max'] if (data['max'] not in ('0', 'null')) else None 
+            payment_max = data['max'] if (data['max'] not in ('0', 'null')) else None
 
+            print("payment_max", payment_max)
             # query nodes and edges
             edgeSource = 'vAllEdges' if conn == 'weak' else 'vStrongEdges'
 
@@ -81,23 +88,57 @@ class Deepdive:
             
             # condition for inPaymentRange; add 1 to capture fractions
             query_ext = f' and PaymentAmount <= ({payment_max} + 1)' if payment_max is not None else ''
-            
+
             # condition for node type - HCO ids start with a country initial
             if org == 'hco':
-                org_ext = f" and LEFT([ID], 1) IN ('B', 'S', 'U')" 
+                # org_ext = f" and LEFT([ID], 1) IN ('B', 'S', 'U')"
+                org_ext = df['ID'].str[0].isin(['B', 'S', 'U'])
             elif org == 'hcp':
-                org_ext = f" and LEFT([ID], 1) NOT IN ('B', 'S', 'U')"
+                org_ext = ~df['ID'].str[0].isin(['B', 'S', 'U'])
+                # org_ext = f" and LEFT([ID], 1) NOT IN ('B', 'S', 'U')"
             else:
-                org_ext = ''
+                org_ext = ''  # No additional filter
 
-            query = f"select [id] as [node_id], [Name] as VendorName, PaymentAmount, InteractionCount, \
-                      case when PaymentAmount >= {payment_min}" + query_ext + f" then 1 else 0 end as [inPaymentRange], \
-                      case when LEFT([ID], 1) IN ('B', 'S', 'U') then 'HCO' else 'HCP' end as [NodeType] \
-                      FROM [app2].[vAllNodes] \
-                      WHERE country = '{country}'" + org_ext
+            # query = f"select [id] as [node_id], [Name] as VendorName, PaymentAmount, InteractionCount, \
+            #           case when PaymentAmount >= {payment_min}" + query_ext + f" then 1 else 0 end as [inPaymentRange], \
+            #           case when LEFT([ID], 1) IN ('B', 'S', 'U') then 'HCO' else 'HCP' end as [NodeType] \
+            #           FROM [app2].[vAllNodes] \
+            #           WHERE country = '{country}'" + org_ext
+            # print("________query1________", query)
+            # all_nodes = db.select_df(query)
 
-            all_nodes = db.select_df(query)
-            
+            # Apply the query filters and transformations
+            print("_______result1____")
+            # result = df[(df['COUNTRY'] == data['country'])  & (df['PaymentAmount'] >= payment_min) & org_ext].copy() if org_ext else df[(df['COUNTRY'] == data['country']) & (df['PaymentAmount'] >= payment_min)].copy()
+            result = df[
+                (df['COUNTRY'] == data['country']) &
+                (df['PaymentAmount'] >= payment_min) &
+                (org_ext if isinstance(org_ext, pd.Series) else True)
+                ].copy() if org != 'null' else df[
+                (df['COUNTRY'] == data['country']) &
+                (df['PaymentAmount'] >= payment_min)
+                ].copy()
+            # if payment_min is not None:
+            #     result = result[result['PaymentAmount'] >= payment_min]
+            print("_______result0____", result)
+
+            if payment_max is not None:
+                result = result[result['PaymentAmount'] <= int(payment_max)]
+
+            print("_______result____", result)
+            result['node_id'] = result['ID']
+            result['VendorName'] = result['Name']
+            result['inPaymentRange'] = result['PaymentAmount'].apply(lambda x: 1 if x >= 1 else 0)
+            result['NodeType'] = result['ID'].apply(lambda x: 'HCO' if x[0] in ['B', 'S', 'U'] else 'HCP')
+
+            print("_______result2____", result.columns)
+            # Select the required columns
+            all_nodes = result[
+                ['node_id', 'VendorName', 'PaymentAmount', 'InteractionCount', 'inPaymentRange', 'NodeType']]
+
+            # Display the result
+            print("all_nodes_______", all_nodes)
+
             # set base nodes as nodes connected to GSK
             # base_nodes = all_nodes[(all_nodes['PaymentAmount'] > 0) | (all_nodes['InteractionCount'] > 0)]
             # too many HCPs with interaction but no payments
@@ -109,22 +150,62 @@ class Deepdive:
             # if org is hcp or hco only, collapse edge pairs where there is a middle node in common
             subqueryA = f"select hco_id, hcp_id from [app2].{edgeSource} where country = '{country}'"
 
+            file_path = 'data/app2.vAllEdges.csv' if conn == 'weak' else 'data/app2.vStrongEdges.csv'
+            df2 = pd.read_csv(file_path)
+
             if org == 'hco':
+                # Filter for Country records
+                df2 = df2[df2['COUNTRY'] == data['country']]
+
+                # Perform self join on hcp_id and apply the condition hco_id_A < hco_id_B
+                result2 = df2.merge(df2, on='hcp_id', suffixes=('_A', '_B'))
+                result2 = result2[result2['hco_id_A'] < result2['hco_id_B']]
+
+                # Select and rename the required columns
+                result2 = result2[['hco_id_A', 'hco_id_B']].rename(columns={'hco_id_A': 'from_id', 'hco_id_B': 'to_id'})
+
+                print("result576236_____", result2)
+
                 # allow multiple edges between two HCO to enable increased thickness for multiple connections
                 query = f'with t1 as ({subqueryA}) \
                         select A.[hco_id] as [from_id], B.[hco_id] as [to_id] from t1 A \
                         inner join t1 B on A.hcp_id = B.hcp_id where A.hco_id < B.hco_id'
             elif org == 'hcp':
+                # Filter for Country records
+                df2 = df2[df2['COUNTRY'] == data['country']]
+
+                # Perform the inner join on the hcp_id and apply the condition A.hco_id < B.hco_id
+                result2 = df2.merge(df2, on='hcp_id')
+                result2 = result2[result2['hco_id_x'] < result2['hco_id_y']]
+
+                # Select the required columns and rename them
+                result2 = result2[['hco_id_x', 'hco_id_y']]
+                result2.columns = ['from_id', 'to_id']
                 query = f'with t1 as ({subqueryA}) \
                         select distinct A.[hcp_id] as [from_id], B.[hcp_id] as [to_id] from t1 A \
                         inner join t1 B on A.hco_id = B.hco_id where A.hcp_id < B.hcp_id'
             else:
+                # Creating the temporary table t1
+                t1 = df2[df2['COUNTRY'] == data['country']][['hcp_id', 'hco_id']]
+
+
+                # [['hcp_id', 'hco_id']]
+
+                # Performing the self-join and filtering as per the query
+                result2 = pd.merge(t1, t1, on='hcp_id')
+                result2 = result2[result2['hco_id_x'] != result2['hco_id_y']]
+                result2 = result2[['hcp_id', 'hco_id_x', 'hco_id_y']].drop_duplicates().rename(columns={'hcp_id': 'from_id', 'hco_id_x': 'to_id'})
+                print("t1_____", result2)
+                # Renaming columns to match the query output
+                # result2.columns = ['from_id', 'to_id']
+
                 # only include edges where the hcp can join two different hcos
                 query = f'with t1 as ({subqueryA}) \
                         select distinct A.[hcp_id] as [from_id], A.[hco_id] as [to_id] from t1 A \
                         inner join t1 B on A.hcp_id = B.hcp_id where A.hco_id <> B.hco_id'
-
-            orgType_edges = db.select_df(query)
+            # print("________query2________", query)
+            # orgType_edges = db.select_df(query)
+            orgType_edges = result2
 
             # join to the base nodes 
             orgType_edges = orgType_edges.merge(
