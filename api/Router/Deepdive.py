@@ -16,6 +16,8 @@ def data_by_user():
     data = Utils.get_request_data(request)
     print(data)
     _ret = Controller.get_country(data)
+    print("passed service",_ret)
+    print(_ret[2])
     if _ret[0]:
         return Utils.create_response(_ret[1], data=_ret[2])
     else:

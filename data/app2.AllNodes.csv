@@ -1,16 +1,16 @@
 ﻿ID,country,Name,NodeType,InteractionId,PaymentId,PaymentCount,PaymentAmount,InteractionCount
-B001,Brazil,Instituto Esperança Brasil,HCO,NULL,91827364,1,2905,0
-B002,Brazil,Fundação Vida Verde,HCO,NULL,91827365,1,1350,0
-B003,Brazil,Rede Solidariedade Brasil,HCO,NULL,91827436,2,2000,0
-B004,Brazil,Centro de Ação Humanitária do Amazonas,HCO,exist,NULL,0,2769,1
-B005,Brazil,Associação Nova Esperança,HCO,NULL,91827634,1,3982,0
-B006,Brazil,Projeto Cidadania e Futuro,HCO,NULL,91827643,1,2456,0
-B007,Brazil,Aliança Social Brasileira,HCO,exist,91828436,2,1352,1
-S001,Spain,Fundación Luz de Esperanza,HCO,NULL,91828463,1,2760,0
-S002,Spain,Red Solidaridad España,HCO,NULL,NULL,0,2345,0
-S003,Spain,Centro de Acción Social Iberia,HCO,NULL,91832746,2,2956,0
-S004,Spain,Asociación Progreso y Bienestar,HCO,exist,91832764,1,2698,2
-U001,USA,Nationwide Hope Foundation,HCO,NULL,91834627,1,3952,0
-U002,USA,United Community Aid Network,HCO,NULL,NULL,0,2609,0
-U003,USA,American Heart of Service,HCO,exist,91835467,2,3926,2
-U004,USA,Bright Future Initiative,HCO,exist,91835647,2,2398,1
+B001,brazil,Instituto Esperança Brasil,HCO,NULL,91827364,1,2905,0
+B002,brazil,Fundação Vida Verde,HCO,NULL,91827365,1,1350,0
+B003,brazil,Rede Solidariedade Brasil,HCO,NULL,91827436,2,2000,0
+B004,brazil,Centro de Ação Humanitária do Amazonas,HCO,exist,NULL,0,2769,1
+B005,brazil,Associação Nova Esperança,HCO,NULL,91827634,1,3982,0
+B006,brazil,Projeto Cidadania e Futuro,HCO,NULL,91827643,1,2456,0
+B007,brazil,Aliança Social Brasileira,HCO,exist,91828436,2,1352,1
+S001,spain,Fundación Luz de Esperanza,HCO,NULL,91828463,1,2760,0
+S002,spain,Red Solidaridad España,HCO,NULL,NULL,0,2345,0
+S003,spain,Centro de Acción Social Iberia,HCO,NULL,91832746,2,2956,0
+S004,spain,Asociación Progreso y Bienestar,HCO,exist,91832764,1,2698,2
+U001,usa,Nationwide Hope Foundation,HCO,NULL,91834627,1,3952,0
+U002,usa,United Community Aid Network,HCO,NULL,NULL,0,2609,0
+U003,usa,American Heart of Service,HCO,exist,91835467,2,3926,2
+U004,usa,Bright Future Initiative,HCO,exist,91835647,2,2398,1

@@ -39,6 +39,7 @@ class Deepdive:
                 print("in else")
                 country_df = pd.read_csv('data/app.country.csv')
                 users = country_df[['id', 'name', 'code']]
+                users = json.loads(users.to_json(orient='records'))
             print(users)
             return True, "access countries", users
         except Exception as e:
@@ -116,11 +117,11 @@ class Deepdive:
             print("_______result1____")
             # result = df[(df['COUNTRY'] == data['country'])  & (df['PaymentAmount'] >= payment_min) & org_ext].copy() if org_ext else df[(df['COUNTRY'] == data['country']) & (df['PaymentAmount'] >= payment_min)].copy()
             result = df[
-                (df['COUNTRY'] == data['country']) &
+                (df['country'] == data['country']) &
                 (df['PaymentAmount'] >= payment_min) &
                 (org_ext if isinstance(org_ext, pd.Series) else True)
                 ].copy() if org != 'null' else df[
-                (df['COUNTRY'] == data['country']) &
+                (df['country'] == data['country']) &
                 (df['PaymentAmount'] >= payment_min)
                 ].copy()
             # if payment_min is not None:
@@ -160,7 +161,7 @@ class Deepdive:
 
             if org == 'hco':
                 # Filter for Country records
-                df2 = df2[df2['COUNTRY'] == data['country']]
+                df2 = df2[df2['country'] == data['country']]
 
                 # Perform self join on hcp_id and apply the condition hco_id_A < hco_id_B
                 result2 = df2.merge(df2, on='hcp_id', suffixes=('_A', '_B'))
@@ -177,7 +178,7 @@ class Deepdive:
                         inner join t1 B on A.hcp_id = B.hcp_id where A.hco_id < B.hco_id'
             elif org == 'hcp':
                 # Filter for Country records
-                df2 = df2[df2['COUNTRY'] == data['country']]
+                df2 = df2[df2['country'] == data['country']]
 
                 # Perform the inner join on the hcp_id and apply the condition A.hco_id < B.hco_id
                 result2 = df2.merge(df2, on='hcp_id')
@@ -191,7 +192,7 @@ class Deepdive:
                         inner join t1 B on A.hco_id = B.hco_id where A.hcp_id < B.hcp_id'
             else:
                 # Creating the temporary table t1
-                t1 = df2[df2['COUNTRY'] == data['country']][['hcp_id', 'hco_id']]
+                t1 = df2[df2['country'] == data['country']][['hcp_id', 'hco_id']]
 
 
                 # [['hcp_id', 'hco_id']]
@@ -1067,7 +1068,7 @@ class Deepdive:
             # entity = db.select_df(query)
             file_path = 'data/app2.AllNodes.csv'
             df = pd.read_csv(file_path)
-            entity = df[df['ID'] == iden][['ID', 'Name', 'PaymentAmount', 'InteractionCount', 'COUNTRY']].rename(columns={'COUNTRY': 'Country'})
+            entity = df[df['ID'] == iden][['ID', 'Name', 'PaymentAmount', 'InteractionCount', 'country']].rename(columns={'country': 'Country'})
                       # .rename(columns={'COUNTRY': 'Country'}))
 
             print("entity", entity)
