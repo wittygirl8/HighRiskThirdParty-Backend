@@ -116,6 +116,8 @@ class Deepdive:
             # Apply the query filters and transformations
             print("_______result1____")
             # result = df[(df['COUNTRY'] == data['country'])  & (df['PaymentAmount'] >= payment_min) & org_ext].copy() if org_ext else df[(df['COUNTRY'] == data['country']) & (df['PaymentAmount'] >= payment_min)].copy()
+            # Convert df['ID'] to string
+            df['PaymentAmount'] = df['PaymentAmount'].astype(str)
             result = df[
                 (df['country'] == data['country']) &
                 (df['PaymentAmount'] >= payment_min) &
@@ -984,18 +986,20 @@ class Deepdive:
                 df = pd.read_csv(file_path)
 
                 print("df_", df)
+                # Convert df['ID'] to string
+                df['ID'] = df['ID'].astype(str)
                 entity = df[df['ID'] == iden].rename(columns={'NAME': 'HCO'})
                 print("entity____", entity)
 
-
+                entity_name = ""
                 for i, row in entity.iterrows():
                     entity_name = row['HCO']
                     break
                 with open("./data/outputhco.json", encoding='latin-1') as inputfile:
                     hco_news = json.load(inputfile)
-
+                print("entity_name", entity_name)
                 for article in hco_news:
-                    if article['hco'] == entity_name:
+                    if article['hco'].encode('ISO-8859-1').decode('utf-8') == entity_name:
                         event_dict = dict()
                         event_dict["id"] = data['id']
                         event_dict["title"] = article['title']
@@ -1028,7 +1032,7 @@ class Deepdive:
                     hco_news = json.load(inputfile)
 
                 for article in hco_news:
-                    if article['hcp'] == entity_name:
+                    if article['hcp'].encode('ISO-8859-1').decode('utf-8') == entity_name:
                         event_dict = dict()
                         event_dict["id"] = data['id']
                         event_dict["title"] = article['title']
