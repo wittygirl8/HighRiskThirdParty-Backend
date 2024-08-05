@@ -329,26 +329,42 @@ class Scorecard:
             print(data)
             country = data.get('country')
             org = data.get('orgType')
-    
+            media_coverage_df = pd.read_csv('data/app2.vMediaCoverage.csv')
+            hcos_df = pd.read_csv('data/app2.vHco.csv')
+            hcps_df = pd.read_csv('data/app2.vHCP.csv',encoding='ISO-8859-1')
             if country == 'null':
                 return True, "dashboard_media_coverage", []
 
             if org == 'hco':
-                query = f'''select DISTINCT MAX(B.[ID]) AS ID, A.[HCO/HCP], A.[Positive Count], A.[Negative Count] 
-                          from (select * from [app2].[media_coverage] where Country = '{country}' and EntityType = 'HCO') A 
-                          INNER JOIN [app2].[hcos] B ON A.[HCO/HCP] = B.[hco] AND A.[Country] = B.[Country] 
-                          group by A.[HCO/HCP], A.[Positive Count], A.[Negative Count]'''
+                filtered_media_coverage_df = media_coverage_df[
+                    (media_coverage_df['Country'] == country) &
+                    (media_coverage_df['EntityType'] == org)
+                    ]
+                merged_df = pd.merge(
+                    filtered_media_coverage_df,
+                    hcos_df,
+                    left_on=['HCO/HCP', 'Country'],
+                    right_on=['NAME', 'COUNTRY']
+                )
             else:
-                query = f'''select DISTINCT MAX(B.[ID]) AS ID, A.[HCO/HCP], A.[Positive Count], A.[Negative Count] 
-                          from (select * from [app2].[media_coverage] where Country = '{country}' and EntityType = 'HCP') A 
-                          INNER JOIN [app2].[hcps] B ON A.[HCO/HCP] = B.[hcp_name] AND A.[Country] = B.[Country] 
-                          group by A.[HCO/HCP], A.[Positive Count], A.[Negative Count]'''
-            media_df = db.select_df(query)
-
+                filtered_media_coverage_df = media_coverage_df[
+                    (media_coverage_df['Country'] == country) &
+                    (media_coverage_df['EntityType'] == 'HCP')
+                    ]
+                print(filtered_media_coverage_df.columns)
+                merged_df = pd.merge(
+                    filtered_media_coverage_df,
+                    hcps_df,
+                    left_on=['HCO/HCP', 'Country'],
+                    right_on=['hcp_name', 'country']
+                )
+            media_df=merged_df
+            print(media_df.columns)
+            print(media_df[['id_x','id_y']])
             media_data_list = list()
             for rowIndex, row in media_df.iterrows():
                 media_data_dict = {
-                    'id': row['ID'],
+                    'id': row['id_y'],
                     'name': row['HCO/HCP'],
                     'positive_count': row['Positive Count'],
                     'negative_count': row['Negative Count']

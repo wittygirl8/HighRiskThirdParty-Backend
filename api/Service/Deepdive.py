@@ -25,15 +25,20 @@ class Deepdive:
 
     def get_countries(self, data):  # tbd
         try:
-
             user = data["user"]
             if user["type"].strip() != "admin":
                 print("in if")
-                users = db.select(f"SELECT c.id,c.name as country, c.code FROM [app].[country] c join [app].[access] a "
-                                  f"on c.id=a.[country_id] where a.user_id='{user['id']}'")
+                print("in if")
+                access_df = pd.read_csv('data/app.access.csv')
+                country_df = pd.read_csv('data/app.country.csv')
+                merged_df = pd.merge(access_df, country_df, left_on='country_id', right_on='id', how='inner')
+                user_access_df = merged_df[merged_df['user_id'] == user['id']]
+                user = user_access_df[['id', 'name', 'code']]
+                users = user.rename(columns={'name': 'country'})
             else:
                 print("in else")
-                users = db.select(f"SELECT [id],[name],[code]FROM [app].[country]")
+                country_df = pd.read_csv('data/app.country.csv')
+                users = country_df[['id', 'name', 'code']]
             print(users)
             return True, "access countries", users
         except Exception as e:
@@ -656,25 +661,40 @@ class Deepdive:
             conn = data.get('connection')
             # query nodes and edges
             edgeSource = 'vAllEdges' if conn == 'weak' else 'vStrongEdges'
+            data_df = pd.read_csv(f'data/app2.{edgeSource}.csv')
 
             extra_edges_final = pd.DataFrame(columns=['hcp_id', 'hco_id'])
             if iden == 'null':
                 True, "null_data", []
             
             if 'B' in iden or 'S' in iden or 'U' in iden:
-                query = f"select 10001 as 'gsk', hco_id as 'hco', hcp_id as 'hcp', count(*) as count from [app2].[{edgeSource}] where hco_id = '{iden}' group by hco_id, hcp_id"
+                filtered_df = data_df[data_df['hco_id'] == iden]
             else:
-                query = f"select 10001 as 'gsk', hco_id as 'hco', hcp_id as 'hcp', count(*) as count from [app2].[{edgeSource}] where hcp_id = '{iden}'  group by hco_id, hcp_id"
+                filtered_df = data_df[data_df['hcp_id'] == iden]
+            result_df = (filtered_df
+                         .groupby(['hco_id', 'hcp_id'])
+                         .size()
+                         .reset_index(name='count')
+                         .assign(gsk=10001))
 
-            edges = db.select_df(query)
+            # Rename columns to match the SQL output
+            result_df = result_df.rename(columns={'hco_id': 'hco', 'hcp_id': 'hcp'})
+            edges=result_df
             print(edges.shape[0])
             edges_list = []
             if 'B' in iden or 'S' in iden or 'U' in iden:
                 char_first = iden[0]
                 hcps = edges[['hcp']]
+                filtered_df = data_df[
+                    (data_df['hco_id'] != iden) &
+                    (data_df['hco_id'].str.startswith(char_first))
+                    ]
+                result_df = (filtered_df
+                             .groupby(['hcp_id', 'hco_id'])
+                             .size()
+                             .reset_index(name='count'))
 
-                query = f"select hcp_id as 'hcp_id', hco_id as 'hco_id', count(*) as count from [app2].[{edgeSource}] where hco_id <> '{iden}' and hco_id like'{char_first}%' group by hcp_id, hco_id"
-                extra_edges = db.select_df(query)
+                extra_edges = result_df
                 if not extra_edges.empty:
                     print("inif")
                     extra_edges_final = hcps.merge(extra_edges, how='inner', left_on=['hcp'], right_on=['hcp_id'])
@@ -740,25 +760,36 @@ class Deepdive:
                 hcos = edges[['hco']]
 
             hcos = hcos.drop_duplicates()
-
-            query = f"SELECT a.Id as 'id', a.hcp_name, a.country, max(b.designation) as 'designation' FROM [app2].[vHcp] a \
-            join [app2].[{edgeSource}] b on a.Id = b.hcp_id group by a.Id, a.hcp_name, a.country "
-            # Execute the query
-            df = db.select_df(query)
+            vHcp_df = pd.read_csv('data/app2.vHCP.csv',encoding='ISO-8859-1')
+            merged_df = pd.merge(vHcp_df, data_df, left_on='id', right_on='hcp_id')
+            print(merged_df.columns)
+            print(merged_df)
+            result_df = (merged_df
+                         .groupby(['hcp_id', 'hcp_name', 'country_x'])
+                         .agg(designation=('designation', 'max'))
+                         .reset_index()
+                         .rename(columns={'hcp_id': 'id','country_x': 'country'}))
+            df = result_df
             nodes_df = df[['id', 'hcp_name', 'designation', 'country']]
+            print(nodes_df)
 
             nodes_merged = hcps.merge(nodes_df, how='inner', left_on=["hcp"], right_on=["id"])
             print(nodes_merged)
             nodes_merged = nodes_merged.drop_duplicates(subset=['id'])
 
-            query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from [app2].[vHco] a join [app2].[{edgeSource}] b on a.ID = b.hco_id group by a.COUNTRY, a.HCO, a.ID"
-            
+            vHco_df = pd.read_csv('data/app2.vHco.csv')
+            merged_df = pd.merge(vHco_df, data_df, left_on='ID', right_on='hco_id')
+            print(merged_df.columns)
+            result_df = (merged_df
+                         .groupby(['COUNTRY', 'NAME', 'ID'])
+                         .agg(max_hco_id=('hco_id', 'max'))
+                         .reset_index())
             # Execute the query
-            hco_df = db.select_df(query)
+            hco_df = result_df
 
-            nodes_hco_df = hco_df.rename(columns={'HCO': 'label', 'ID': 'id', 'COUNTRY': 'country'})
+            nodes_hco_df = hco_df.rename(columns={'NAME': 'label', 'ID': 'id', 'COUNTRY': 'country'})
             nodes_hco_merged = hcos.merge(nodes_hco_df, how='inner', left_on=["hco"], right_on=["id"])
-
+            print(nodes_hco_merged.columns)
             a = 0
             for i, row in nodes_hco_merged.iterrows():
                 a += 1
@@ -808,6 +839,7 @@ class Deepdive:
 
     def timeline(self, data):  # tbd
         try:
+            print(type(datetime))
             # YOUR CODE HERE
             # REMOVE THIS ONCE IMPLEMENTED
             # _ret = self.read_json("chronology.json")
@@ -818,18 +850,19 @@ class Deepdive:
                 True, "null_data", []
 
             if 'B' in data['id'] or 'S' in data['id'] or 'U' in data['id']:
-                query = f"select HCO, payment_hco_id from [app2].[vHco] where ID = '{iden}'"
-                db = MSSQLConnection()
-                entity = db.select_df(query)
+                df = pd.read_csv('data/app2.vHco.csv')
+                df_filtered = df[df['ID'] == iden]
+                entity = df_filtered[['NAME', 'payment_hco_id']]
                 for i, row in entity.iterrows():
-                    entity_name = row['HCO']
+                    entity_name = row['NAME']
                     payment_id = row['payment_hco_id']
                     break
                 with open("./data/outputhco.json", encoding='latin-1') as inputfile:
                     hco_news = json.load(inputfile)
 
                 for article in hco_news:
-                    if article['hco'] == entity_name:
+                    print(article['hco'])
+                    if article['hco'].encode('ISO-8859-1').decode('utf-8') == entity_name:
                         event_dict = dict()
                         event_dict["id"] = data['id']
                         event_dict["tag"] = article['hco'] + ' : ' + ' External News Event'
@@ -840,9 +873,9 @@ class Deepdive:
                         event_dict['description'] = article['link']
                         timeline_list.append(event_dict)
             else:
-                db = MSSQLConnection()
-                query = f"select hcp_name, payment_hcp_id from [app2].[vHcp] where Id = '{iden}'"
-                entity = db.select_df(query)
+                df = pd.read_csv('data/app2.vHCP.csv')
+                df_filtered = df[df['ID'] == iden]
+                entity = df_filtered[['hcp_name', 'payment_hcp_id']]
                 for i, row in entity.iterrows():
                     entity_name = row['hcp_name']
                     payment_id = row['payment_hcp_id']
@@ -851,7 +884,7 @@ class Deepdive:
                     hco_news = json.load(inputfile)
 
                 for article in hco_news:
-                    if article['hcp'] == entity_name:
+                    if article['hcp'].encode('ISO-8859-1').decode('utf-8') == entity_name:
                         event_dict = dict()
                         event_dict["id"] = data['id']
                         event_dict["tag"] = article['hco'] + ' : ' + article['hcp'] + ' : ' + ' External News Event'
@@ -861,12 +894,20 @@ class Deepdive:
                             datetime.datetime.strptime(article['date'], "%Y-%m-%d").timestamp())
                         event_dict['description'] = article['link']
                         timeline_list.append(event_dict)
+
+            print(entity_name, payment_id, timeline_list)
             import time
             time.sleep(1)  # testing reduced time here; was 5
             # interactions:
-            db = MSSQLConnection()
-            query = f"SELECT [InteractionType],[InteractionSubtype],[InteractionTopic],[ParentCallId],[InteractionStart],[HcpName] FROM [app2].[vInteractions] where [ID] = '{iden}' order by [InteractionStart]"
-            interactions = db.select_df(query)
+            file_path = 'data/app2.vInteractions.csv'
+            df = pd.read_csv(file_path, encoding='ISO-8859-1')
+            print(df)
+            df_filtered = df[df['ID'] == iden]
+            print('afterfiltering', df_filtered)
+            df_filtered = df_filtered[
+                ['InteractionType', 'InteractionSubtype', 'InteractionTopic', 'ParentCallId', 'InteractionStart',
+                 'HcpName']]
+            interactions = df_filtered.sort_values(by='InteractionStart')
             if not interactions.empty:
                 for i, row in interactions.iterrows():
                     event_dict = dict()
@@ -879,9 +920,12 @@ class Deepdive:
                     timeline_list.append(event_dict)
 
             # payments
-            query = f"SELECT [ThirdPartyPaymentsLineId],[InvoiceGlDate],[PaymentType],[PaymentSubtype],[InvoiceLineAmountLocal],[AllText],[Currency],\
-                        [VendorNumber],[VendorName] FROM [app2].[vPayments] where [VendorNumber] = '{payment_id}' order by [InvoiceGlDate]"
-            payments = db.select_df(query)
+            df = pd.read_csv('data/app2.vPayments.csv')
+            df_filtered = df[df['VendorNumber'] == payment_id]
+            df_filtered = df_filtered[
+                ['ThirdPartyPaymentsLineId', 'InvoiceGIDate', 'PaymentType', 'PaymentSubtype', 'InvoiceLineAmountLocal',
+                 'AllText', 'Currency', 'VendorNumber', 'VendorName']]
+            payments = df_filtered.sort_values(by='InvoiceGIDate')
             if not payments.empty:
                 for i, row in payments.iterrows():
                     event_dict = dict()
@@ -890,11 +934,29 @@ class Deepdive:
                     event_dict["category"] = row['PaymentType']
                     event_dict['date'] = str(row['InvoiceGlDate'])
                     event_dict['sortdate'] = row['InvoiceGlDate']
-                    event_dict['description'] = '{:,.2f}'.format(row['InvoiceLineAmountLocal']) + ' ' + str(row['Currency']) + ' | ' + row['AllText'] # format with thousands separaters and 2dp
+                    event_dict['description'] = '{:,.2f}'.format(row['InvoiceLineAmountLocal']) + ' ' + str(
+                        row['Currency']) + ' | ' + row['AllText']  # format with thousands separaters and 2dp
                     timeline_list.append(event_dict)
 
-            newlist = sorted(timeline_list, key=lambda d: d['sortdate'])
-            _ret = newlist
+            # def convert_to_date(date_str):
+            #     # Define the date formats you expect
+            #     formats = ("%Y-%m-%d", "%d/%m/%Y", "%m/%d/%Y")  # Add other formats if needed
+            #
+            #     for fmt in formats:
+            #         try:
+            #             return datetime.strptime(date_str, fmt).date()
+            #         except ValueError:
+            #             continue
+            #
+            #     raise ValueError(f"Unrecognized date format: {date_str}")
+            #
+            # for item in timeline_list:
+            #     item['sortdate'] = convert_to_date(item['sortdate'])
+            #
+            # newlist = sorted(timeline_list, key=lambda d: d['sortdate'])
+            # _ret = newlist
+            _ret = timeline_list
+            print(_ret)
             return True, "timeline", _ret
 
         except Exception as e:

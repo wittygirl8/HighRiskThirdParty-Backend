@@ -1,5 +1,6 @@
 import base64
 import traceback
+import pandas as pd
 
 from utils.db import MSSQLConnection
 
@@ -13,21 +14,30 @@ class User:
             username = data.get("username")
             app.logger.info(data.get("password"))
             # password = base64.b64decode(data.get("password")).decode("utf-8")
-            password=data.get("password")
-            # user = db.select(f"SELECT * FROM [app].[user] where username='{username}' and password='{password}' "
-            #                  f"and isActive=1")
+            password = data.get("password")
+            df = pd.read_csv('data/app.user.csv')
+            print(df)
+            user = df[(df['username'] == username) &
+                      (df['password'] == password) &
+                      (df['isActive'] == 1)]
+            print(user)
+            print(username)
             print(password)
-            user = [{'username': username, 'password':password,'name':'admin','type':'admin','isActive':1}]
-            if user:
-                user = user[0]
+            # user = [{'username': username, 'password':password,'name':'admin','type':'admin','isActive':1}]
+            if not user.empty:
+                user = user.iloc[0].to_dict()
                 country = []
-                # if "type" in data and data["type"] == "admin":
-                #     pass
-                # else:
-                #     access = db.select(f"SELECT * FROM app.access a join app.country c on c.id = a.country_id "
-                #                        f"where user_id='{user['id']}'")
-                #     for each in access:
-                #         country.append(each["code"])
+                if "type" in user and user["type"] == "admin":
+                    pass
+                else:
+                    access_df = pd.read_csv('data/app.access.csv')
+                    country_df = pd.read_csv('data/app.country.csv')
+                    merged_df = pd.merge(access_df, country_df, left_on='country_id', right_on='id', how='left')
+                    print(merged_df)
+                    user_access_df = merged_df[merged_df['user_id'] == user['id']]
+                    print(user_access_df)
+                    country = user_access_df['code'].tolist()
+                    print('list', country)
                 user["country"] = country
                 return user
         except Exception as e:

@@ -1,4 +1,4 @@
-﻿COUNTRY,additional_info,aka,designation,id,link,orgkey,source,hcp_id,hco_id
+﻿country,additional_info,aka,designation,id,link,orgkey,source,hcp_id,hco_id
 BRAZIL,Focus on renewable energy projects.,NULL,President,B001X001,https://www.alpha-initiative.org/,orgK990234987824,openai,4983,B001
 BRAZIL,Local education outreach programs.,NULL,Executive Director,B001X002,https://www.beta-alliance.org/,NULL,openai,9235,B001
 BRAZIL,Support for clean water access.,NULL,Chief Operating Officer,B002X001,https://www.gamma-fund.org/,NULL,openai,7666,B002

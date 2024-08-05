@@ -1,22 +1,19 @@
 Country,ParentCallId,HcpName,HcpId,ID,InteractionType,InteractionSubtype,InteractionTopic,InteractionStart
-BRAZIL,y14Nn540174pVyU,Pedro Souza,m83Qq565778iRvY,7666,Interaction - MSL,Web Call - Detail Only,Metreleptin,22-07-2020
-BRAZIL,w67Cf091827tHrC,Pedro Souza,m83Qq565778iRvY,7666,Interaction - Rep,F2F - Detail Only,Salicylic Acid,14-08-2020
-BRAZIL,k64Ah371764yBqB,Lucas Santos,j60Zh036003wPbU,2553,Interaction - Rep,F2F - Detail Only,mucor racemosus,05-09-2020
-BRAZIL,j14Em234510sDtK,Lucas Santos,j60Zh036003wPbU,2553,Interaction - MSL,Email - Detail Only,norgestimate and ethinyl estradiol,12-10-2020
-BRAZIL,i28Cu675827mDjT,Sofia Fernandes,h25Ex351474nWnN,8861,Interaction - Rep,F2F - Group Detail,venlafaxine hydrochloride,07-01-2021
-SPAIN,a88Ny367455uPuC,María Fernández,b76Im304462qJoA,7899,Interaction - Rep,Web Call - Detail Only,Amlodipine Besylate,14-02-2021
-SPAIN,p07Xq032956wGxJ,María Fernández,b76Im304462qJoA,7899,Interaction - Rep,Email - Detail Only,ALCOHOL,21-03-2021
-SPAIN,z50Wk153937iVxP,Carmen Rodríguez,a49Qv810855eYkT,8607,Interaction - MSL,F2F - Detail Only,Sodium Fluoride,30-04-2021
-USA,h68Si864198jOaY,Jessica Brown,k11Vq755899vCtM,9492,Interaction - Rep,Web Call - Detail Only,Maximum Strength Pepto Bismol,12-01-2022
-USA,z54Vl115850lWlW,Ashley Wilson,m24Sc190870cKmF,10200,Interaction - Rep,F2F - Group Detail,Indomethacin,22-07-2020
-USA,c85Hh988242rKaW,Ashley Wilson,m24Sc190870cKmF,10200,Interaction - MSL,Web Call - Detail Only,risedronate sodium,14-08-2020
-BRAZIL,x23Lt482913qZmH,Centro de Ação Humanitária do Amazonas,a48Rk729850jLpW,B004,Interaction - MSL,Web Call - Detail Only,Metreleptin,02-01-2021
-BRAZIL,m79Re305692uXyK,Aliança Social Brasileira,n72Fg908764dZvX,B007,Interaction - Rep,F2F - Detail Only,Salicylic Acid,16-02-2021
-SPAIN,b46Fd274839wLpQ,Asociación Progreso y Bienestar,c57Wm340292hQsN,S004,Interaction - Rep,F2F - Detail Only,mucor racemosus,24-03-2021
-SPAIN,t85Nk761429vCjM,Asociación Progreso y Bienestar,c57Wm340292hQsN,S004,Interaction - MSL,Email - Detail Only,norgestimate and ethinyl estradiol,10-04-2021
-USA,r91Gh540873kFwN,American Heart of Service,t89Jp452761wMqY,U003,Interaction - Rep,F2F - Group Detail,venlafaxine hydrochloride,29-05-2021
-USA,d34Js192780xVqL,American Heart of Service,t89Jp452761wMqY,U003,Interaction - Rep,Web Call - Detail Only,Amlodipine Besylate,08-06-2021
-USA,h27Wm638451rTpX,Bright Future Initiative,r50Vb190336nWpL,U004,Interaction - Rep,Email - Detail Only,ALCOHOL,20-07-2021
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
+BRAZIL,y14Nn540174pVyU,Pedro Souza,m83Qq565778iRvY,7666,Interaction - MSL,Web Call - Detail Only,Metreleptin,2020-07-22
+BRAZIL,w67Cf091827tHrC,Pedro Souza,m83Qq565778iRvY,7666,Interaction - Rep,F2F - Detail Only,Salicylic Acid,2020-08-14
+BRAZIL,k64Ah371764yBqB,Lucas Santos,j60Zh036003wPbU,2553,Interaction - Rep,F2F - Detail Only,mucor racemosus,2020-09-05
+BRAZIL,j14Em234510sDtK,Lucas Santos,j60Zh036003wPbU,2553,Interaction - MSL,Email - Detail Only,norgestimate and ethinyl estradiol,2020-10-12
+BRAZIL,i28Cu675827mDjT,Sofia Fernandes,h25Ex351474nWnN,8861,Interaction - Rep,F2F - Group Detail,venlafaxine hydrochloride,2021-01-07
+SPAIN,a88Ny367455uPuC,María Fernández,b76Im304462qJoA,7899,Interaction - Rep,Web Call - Detail Only,Amlodipine Besylate,2021-02-14
+SPAIN,p07Xq032956wGxJ,María Fernández,b76Im304462qJoA,7899,Interaction - Rep,Email - Detail Only,ALCOHOL,2021-03-21
+SPAIN,z50Wk153937iVxP,Carmen Rodríguez,a49Qv810855eYkT,8607,Interaction - MSL,F2F - Detail Only,Sodium Fluoride,2021-04-30
+USA,h68Si864198jOaY,Jessica Brown,k11Vq755899vCtM,9492,Interaction - Rep,Web Call - Detail Only,Maximum Strength Pepto Bismol,2022-01-12
+USA,z54Vl115850lWlW,Ashley Wilson,m24Sc190870cKmF,10200,Interaction - Rep,F2F - Group Detail,Indomethacin,2020-07-22
+USA,c85Hh988242rKaW,Ashley Wilson,m24Sc190870cKmF,10200,Interaction - MSL,Web Call - Detail Only,risedronate sodium,2020-08-14
+BRAZIL,x23Lt482913qZmH,Centro de Ação Humanitária do Amazonas,a48Rk729850jLpW,B004,Interaction - MSL,Web Call - Detail Only,Metreleptin,2021-01-02
+BRAZIL,m79Re305692uXyK,Aliança Social Brasileira,n72Fg908764dZvX,B007,Interaction - Rep,F2F - Detail Only,Salicylic Acid,2021-02-16
+SPAIN,b46Fd274839wLpQ,Asociación Progreso y Bienestar,c57Wm340292hQsN,S004,Interaction - Rep,F2F - Detail Only,mucor racemosus,2021-03-24
+SPAIN,t85Nk761429vCjM,Asociación Progreso y Bienestar,c57Wm340292hQsN,S004,Interaction - MSL,Email - Detail Only,norgestimate and ethinyl estradiol,2021-04-10
+USA,r91Gh540873kFwN,American Heart of Service,t89Jp452761wMqY,U003,Interaction - Rep,F2F - Group Detail,venlafaxine hydrochloride,2021-05-29
+USA,d34Js192780xVqL,American Heart of Service,t89Jp452761wMqY,U003,Interaction - Rep,Web Call - Detail Only,Amlodipine Besylate,2021-06-08
+USA,h27Wm638451rTpX,Bright Future Initiative,r50Vb190336nWpL,U004,Interaction - Rep,Email - Detail Only,ALCOHOL,2021-07-20
