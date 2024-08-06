@@ -176,7 +176,7 @@ class Deepdive:
                 result2 = df2.merge(df2, on='hcp_id', suffixes=('_A', '_B'))
                 print(result2)
                 print(result2[['hco_id_A','hco_id_B']])
-                result2 = result2[result2['hco_id_A'] < result2['hco_id_B']]
+                result2 = result2[result2['hco_id_A'] != result2['hco_id_B']]
 
                 # Select and rename the required columns
                 result2 = result2[['hco_id_A', 'hco_id_B']].rename(columns={'hco_id_A': 'from_id', 'hco_id_B': 'to_id'})
@@ -192,8 +192,9 @@ class Deepdive:
                 df2 = df2[df2['country'] == data['country']]
 
                 # Perform the inner join on the hcp_id and apply the condition A.hco_id < B.hco_id
-                result2 = df2.merge(df2, on='hcp_id')
-                result2 = result2[result2['hco_id_x'] < result2['hco_id_y']]
+                result2 = df2.merge(df2, on='hco_id')
+                print("result2", result2)
+                result2 = result2[result2['hcp_id_x'] != result2['hcp_id_y']]
 
                 # Select the required columns and rename them
                 result2 = result2[['hco_id_x', 'hco_id_y']]
