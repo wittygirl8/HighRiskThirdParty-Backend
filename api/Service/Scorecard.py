@@ -38,7 +38,7 @@ class Scorecard:
             csv_file_path = r'data/app2.vCountryHcoSummary.csv'
             # Read the CSV file
             summary_df = pd.read_csv(csv_file_path)
-            summary_df = summary_df[summary_df['country'].str.lower() == country.lower()]
+            summary_df = summary_df[summary_df['COUNTRY'].str.lower() == country.lower()]
 
             metric_summary = list()
             for rowIndex, row in summary_df.iterrows():
@@ -117,7 +117,7 @@ class Scorecard:
         try:
             print("entered service")
             csv_file_path = 'data/app2.vMultipleActivityPayments.csv'
-            data_df = pd.read_csv(csv_file_path)
+            data_df = pd.read_csv(csv_file_path, encoding='ISO-8859-1')
 
             # Extract the required data from the input
             country = data.get('country')
@@ -131,14 +131,18 @@ class Scorecard:
 
             if country not in currency_mapping:
                 return False, "Invalid country"
-
+            print(data_df.columns)
+            value_to_find = 'B003'
+            columns_with_value = data_df.columns[data_df.apply(lambda col: value_to_find in col.values)]
+            print('coulmn',columns_with_value[0])
+            data_df = data_df.rename(columns={columns_with_value[0]: 'ID'})
+            print('after',data_df.columns)
             # Filter data based on provided country and organization type
             filtered_df = data_df[
                 (data_df['Country'].str.lower() == country) &
                 (data_df['ID'].str[0].isin(['B', 'S', 'U'])) &
                 (data_df['Currency'] == currency_mapping[country])
                 ]
-
             # Aggregate the data
             grouped_df = filtered_df.groupby(['ID', 'Name', 'BusinessActivity'], as_index=False).agg(
                 {'InvoiceLineAmountLocal': 'sum'})
@@ -205,7 +209,8 @@ class Scorecard:
             if country == 'null':
                 return True, "dashboard_connections_table", []
             csv_file_path = r'data/app2.vHCONetworkSummary.csv'
-            connections_df = pd.read_csv(csv_file_path)
+            connections_df = pd.read_csv(csv_file_path, encoding='ISO-8859-1')
+            connections_df = connections_df.rename(columns={'COUNTRY': 'Country'})
             connections_df = connections_df[['OriginalEntityId', 'Name', 'NetworkConnectedHCOs', 'Country']]
             connections_df = connections_df[connections_df['Country'].str.lower() == country.lower()]
 
@@ -330,22 +335,28 @@ class Scorecard:
             country = data.get('country')
             org = data.get('orgType')
             media_coverage_df = pd.read_csv('data/app2.vMediaCoverage.csv')
+            media_coverage_df['Country'] = media_coverage_df['Country'].str.lower()
             hcos_df = pd.read_csv('data/app2.vHco.csv')
+            hcos_df['COUNTRY'] = hcos_df['COUNTRY'].str.lower()
             hcps_df = pd.read_csv('data/app2.vHCP.csv',encoding='ISO-8859-1')
+            hcps_df['country'] = hcps_df['country'].str.lower()
+            hcps_df = hcps_df.rename(columns={'id': 'ID'})
             if country == 'null':
                 return True, "dashboard_media_coverage", []
 
             if org == 'hco':
                 filtered_media_coverage_df = media_coverage_df[
                     (media_coverage_df['Country'] == country) &
-                    (media_coverage_df['EntityType'] == org)
+                    (media_coverage_df['EntityType'] == 'HCO')
                     ]
+                print('filtered',filtered_media_coverage_df)
                 merged_df = pd.merge(
                     filtered_media_coverage_df,
                     hcos_df,
                     left_on=['HCO/HCP', 'Country'],
                     right_on=['NAME', 'COUNTRY']
                 )
+                print('merged',merged_df)
             else:
                 filtered_media_coverage_df = media_coverage_df[
                     (media_coverage_df['Country'] == country) &
@@ -360,11 +371,11 @@ class Scorecard:
                 )
             media_df=merged_df
             print(media_df.columns)
-            print(media_df[['id_x','id_y']])
+            # print(media_df[['id_x','id_y']])
             media_data_list = list()
             for rowIndex, row in media_df.iterrows():
                 media_data_dict = {
-                    'id': row['id_y'],
+                    'id': row['ID'],
                     'name': row['HCO/HCP'],
                     'positive_count': row['Positive Count'],
                     'negative_count': row['Negative Count']
@@ -394,6 +405,7 @@ class Scorecard:
                 }
 
             media_data['datasets'] = [positive_data, negative_data]
+            print(media_data)
 
             return True, 'dashboard_media_coverage', media_data
         
@@ -421,7 +433,8 @@ class Scorecard:
             if country == 'null':
                 return True, "dashboard_connections_table", []
             file_path = 'data/app2.vHCONetworkSummary.csv'
-            df = pd.read_csv(file_path)
+            df = pd.read_csv(file_path, encoding='latin-1')
+            df = df.rename(columns={'COUNTRY': 'Country'})
             filtered_df = df[df['Country'].str.lower() == country.lower()]
             connections_df = filtered_df[['OriginalEntityId', 'Name', 'NetworkConnectedHCOs']]
 
@@ -437,7 +450,6 @@ class Scorecard:
                     priority = 'Medium'
                 else:
                     priority = 'Low'
-
                 connectionsTableData.append(
                         {
                             'id': row['OriginalEntityId'],

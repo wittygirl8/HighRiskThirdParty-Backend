@@ -51,13 +51,15 @@ class Deepdive:
 
         if color == "#fb7e81":
             for article in hco_news:
-                if (article['hco'] == title) and (article["sentiment"].lower() == "negative." or article["sentiment"].lower() == "negative"):
+                if (article['hco'] == title) and (
+                        article["sentiment"].lower() == "negative." or article["sentiment"].lower() == "negative"):
                     return True
 
         if color == "#95c0f9":
             for article in hcp_news:
 
-                if (article['hcp'] == title) and (article["sentiment"].lower() == "negative." or article["sentiment"].lower() == "negative"):
+                if (article['hcp'] == title) and (
+                        article["sentiment"].lower() == "negative." or article["sentiment"].lower() == "negative"):
                     return True
 
         return False
@@ -83,7 +85,8 @@ class Deepdive:
             # get payment range
             currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
             # set default minimum to 1 and default to no max
-            payment_min = data['min'] if (data['min'] not in ('0', 'null')) else 1 #(10000 if country == 'usa' else 5000)
+            payment_min = data['min'] if (
+                        data['min'] not in ('0', 'null')) else 1  # (10000 if country == 'usa' else 5000)
             payment_max = data['max'] if (data['max'] not in ('0', 'null')) else None
 
             print("payment_max", payment_max)
@@ -91,7 +94,7 @@ class Deepdive:
             edgeSource = 'vAllEdges' if conn == 'weak' else 'vStrongEdges'
 
             # get all nodes from selected country with amount and indicator for payment range
-            
+
             # condition for inPaymentRange; add 1 to capture fractions
             query_ext = f' and PaymentAmount <= ({payment_max} + 1)' if payment_max is not None else ''
 
@@ -117,18 +120,19 @@ class Deepdive:
             print("_______result1____")
             # result = df[(df['COUNTRY'] == data['country'])  & (df['PaymentAmount'] >= payment_min) & org_ext].copy() if org_ext else df[(df['COUNTRY'] == data['country']) & (df['PaymentAmount'] >= payment_min)].copy()
             # Convert df['ID'] to string
-            df['PaymentAmount'] = df['PaymentAmount'].astype(str)
+            df['PaymentAmount'] = df['PaymentAmount'].astype(int)
             result = df[
                 (df['country'] == data['country']) &
-                (df['PaymentAmount'] >= payment_min) &
+                (df['PaymentAmount'] >= int(payment_min)) &
                 (org_ext if isinstance(org_ext, pd.Series) else True)
                 ].copy() if org != 'null' else df[
                 (df['country'] == data['country']) &
-                (df['PaymentAmount'] >= payment_min)
+                (df['PaymentAmount'] >= int(payment_min))
                 ].copy()
             # if payment_min is not None:
             #     result = result[result['PaymentAmount'] >= payment_min]
             print("_______result0____", result)
+            result['PaymentAmount'] = result['PaymentAmount'].astype(int)
 
             if payment_max is not None:
                 result = result[result['PaymentAmount'] <= int(payment_max)]
@@ -151,22 +155,27 @@ class Deepdive:
             # base_nodes = all_nodes[(all_nodes['PaymentAmount'] > 0) | (all_nodes['InteractionCount'] > 0)]
             # too many HCPs with interaction but no payments
             base_nodes = all_nodes[(all_nodes['PaymentAmount'] > 0)]
-            
+
             payment_max = base_nodes['PaymentAmount'].max() if payment_max is None else payment_max
-            
+
             # get edges between nodes in selected country
             # if org is hcp or hco only, collapse edge pairs where there is a middle node in common
             subqueryA = f"select hco_id, hcp_id from [app2].{edgeSource} where country = '{country}'"
 
             file_path = 'data/app2.vAllEdges.csv' if conn == 'weak' else 'data/app2.vStrongEdges.csv'
+            print('filepath',file_path)
             df2 = pd.read_csv(file_path)
+            df2['country'] = df2['country'].str.lower()
+
 
             if org == 'hco':
                 # Filter for Country records
                 df2 = df2[df2['country'] == data['country']]
-
+                print(df2)
                 # Perform self join on hcp_id and apply the condition hco_id_A < hco_id_B
                 result2 = df2.merge(df2, on='hcp_id', suffixes=('_A', '_B'))
+                print(result2)
+                print(result2[['hco_id_A','hco_id_B']])
                 result2 = result2[result2['hco_id_A'] < result2['hco_id_B']]
 
                 # Select and rename the required columns
@@ -196,13 +205,13 @@ class Deepdive:
                 # Creating the temporary table t1
                 t1 = df2[df2['country'] == data['country']][['hcp_id', 'hco_id']]
 
-
                 # [['hcp_id', 'hco_id']]
 
                 # Performing the self-join and filtering as per the query
                 result2 = pd.merge(t1, t1, on='hcp_id')
                 result2 = result2[result2['hco_id_x'] != result2['hco_id_y']]
-                result2 = result2[['hcp_id', 'hco_id_x', 'hco_id_y']].drop_duplicates().rename(columns={'hcp_id': 'from_id', 'hco_id_x': 'to_id'})
+                result2 = result2[['hcp_id', 'hco_id_x', 'hco_id_y']].drop_duplicates().rename(
+                    columns={'hcp_id': 'from_id', 'hco_id_x': 'to_id'})
                 print("t1_____", result2)
                 # Renaming columns to match the query output
                 # result2.columns = ['from_id', 'to_id']
@@ -215,7 +224,7 @@ class Deepdive:
             # orgType_edges = db.select_df(query)
             orgType_edges = result2
 
-            # join to the base nodes 
+            # join to the base nodes
             orgType_edges = orgType_edges.merge(
                 base_nodes[['node_id', 'inPaymentRange']], how='left', left_on=['from_id'], right_on=['node_id']
             )
@@ -223,20 +232,22 @@ class Deepdive:
                 base_nodes[['node_id', 'inPaymentRange']], how='left', left_on=['to_id'], right_on=['node_id'],
                 suffixes=['_from', '_to']
             )
-            
-            # filter to include only edges either to or from one of the base nodes
-            orgType_edges = orgType_edges[~(pd.isna(orgType_edges['node_id_from'])) | ~(pd.isna(orgType_edges['node_id_to'])) ]
 
+            # filter to include only edges either to or from one of the base nodes
+            orgType_edges = orgType_edges[
+                ~(pd.isna(orgType_edges['node_id_from'])) | ~(pd.isna(orgType_edges['node_id_to']))]
 
             # look for additional nodes that join to an in-scope edge but are not in the base nodes
             additional_nodes = all_nodes.merge(
-                orgType_edges[pd.isna(orgType_edges['node_id_from'])][['from_id']].drop_duplicates(), how='left', left_on=['node_id'], right_on=['from_id']
+                orgType_edges[pd.isna(orgType_edges['node_id_from'])][['from_id']].drop_duplicates(), how='left',
+                left_on=['node_id'], right_on=['from_id']
             )
             additional_nodes = additional_nodes.merge(
-                orgType_edges[pd.isna(orgType_edges['node_id_to'])][['to_id']].drop_duplicates(), how='left', left_on=['node_id'], right_on=['to_id']
+                orgType_edges[pd.isna(orgType_edges['node_id_to'])][['to_id']].drop_duplicates(), how='left',
+                left_on=['node_id'], right_on=['to_id']
             )
-            additional_nodes = additional_nodes[~(pd.isna(additional_nodes['from_id'])) | ~(pd.isna(additional_nodes['to_id'])) ]
-
+            additional_nodes = additional_nodes[
+                ~(pd.isna(additional_nodes['from_id'])) | ~(pd.isna(additional_nodes['to_id']))]
 
             # node has page, shape, color, id, label, title, designation
             # edge has from, to, page
@@ -295,7 +306,7 @@ class Deepdive:
                 edge_dict['from'] = row['from_id']
                 edge_dict['to'] = row['to_id']
                 edge_dict['page'] = 1
-                #edge_dict['width'] = row['inPaymentRange_from'] + row['inPaymentRange_to'] + 1
+                # edge_dict['width'] = row['inPaymentRange_from'] + row['inPaymentRange_to'] + 1
                 edges_list.append(edge_dict)
 
             final_result = dict()
@@ -308,7 +319,7 @@ class Deepdive:
             final_result['graph'] = graph
             final_result['events'] = {}
 
-            if link.lower() == 'negative' :
+            if link.lower() == 'negative':
                 neg_nodes_list = []
                 neg_nodes_list.append(x)
                 with open("./data/outputhco.json", encoding='latin-1') as inputfile:
@@ -373,7 +384,6 @@ class Deepdive:
 
             edges_list = []
 
-
             if conn == 'weak':
                 file_path1 = 'data/app2.vAllEdges.csv'
                 df = pd.read_csv(file_path1)
@@ -401,7 +411,7 @@ class Deepdive:
 
             hcp_edges = final_df
             print(hcp_edges.shape[0])
-            file_path2='data/app2.vHCP.csv'
+            file_path2 = 'data/app2.vHCP.csv'
             df = pd.read_csv(file_path2)
             filtered_df = df[df['country'] == country]
             hcp_names = filtered_df[['Id', 'hcp_name']].drop_duplicates()
@@ -412,8 +422,6 @@ class Deepdive:
             filtered_df = df[df['country'] == country]
             hco_names = filtered_df[['Id', 'hco_name']].drop_duplicates()
             hco_names.rename(columns={'Id': 'hco_id'}, inplace=True)
-
-
 
             merged_hcp = hcp_edges.merge(hcp_names, how='left', left_on=['to'], right_on=['hcp_id'])
             merged_hcp['hcp_name'] = merged_hcp['hcp_name'].str.lower()
@@ -548,7 +556,7 @@ class Deepdive:
 
             if conn == 'weak':
                 file_path1 = 'data/app2.vAllEdges.csv'
-                df_edges= pd.read_csv(file_path1)
+                df_edges = pd.read_csv(file_path1)
                 file_path2 = 'data/app2.vHCP.csv'
                 df_hcp = pd.read_csv(file_path2)
                 df_hcp_country = df_hcp[df_hcp['country'] == country]
@@ -556,7 +564,7 @@ class Deepdive:
                 result_df = merged_df.groupby(['id', 'hcp_name', 'country']).agg(
                     designation=('designation', 'max')
                 ).reset_index()
-                df=result_df
+                df = result_df
             else:
 
                 file_path1 = 'data/app2.vStrongEdges.csv'
@@ -662,6 +670,7 @@ class Deepdive:
             # return True, "data_by_node", _ret
             iden = data['id']
             conn = data.get('connection')
+            print(iden, conn)
             # query nodes and edges
             edgeSource = 'vAllEdges' if conn == 'weak' else 'vStrongEdges'
             data_df = pd.read_csv(f'data/app2.{edgeSource}.csv')
@@ -669,7 +678,7 @@ class Deepdive:
             extra_edges_final = pd.DataFrame(columns=['hcp_id', 'hco_id'])
             if iden == 'null':
                 True, "null_data", []
-            
+
             if 'B' in iden or 'S' in iden or 'U' in iden:
                 filtered_df = data_df[data_df['hco_id'] == iden]
             else:
@@ -682,7 +691,8 @@ class Deepdive:
 
             # Rename columns to match the SQL output
             result_df = result_df.rename(columns={'hco_id': 'hco', 'hcp_id': 'hcp'})
-            edges=result_df
+            edges = result_df
+            print(edges)
             print(edges.shape[0])
             edges_list = []
             if 'B' in iden or 'S' in iden or 'U' in iden:
@@ -763,7 +773,7 @@ class Deepdive:
                 hcos = edges[['hco']]
 
             hcos = hcos.drop_duplicates()
-            vHcp_df = pd.read_csv('data/app2.vHCP.csv',encoding='ISO-8859-1')
+            vHcp_df = pd.read_csv('data/app2.vHCP.csv', encoding='ISO-8859-1')
             merged_df = pd.merge(vHcp_df, data_df, left_on='id', right_on='hcp_id')
             print(merged_df.columns)
             print(merged_df)
@@ -771,7 +781,7 @@ class Deepdive:
                          .groupby(['hcp_id', 'hcp_name', 'country_x'])
                          .agg(designation=('designation', 'max'))
                          .reset_index()
-                         .rename(columns={'hcp_id': 'id','country_x': 'country'}))
+                         .rename(columns={'hcp_id': 'id', 'country_x': 'country'}))
             df = result_df
             nodes_df = df[['id', 'hcp_name', 'designation', 'country']]
             print(nodes_df)
@@ -1072,8 +1082,9 @@ class Deepdive:
             # entity = db.select_df(query)
             file_path = 'data/app2.AllNodes.csv'
             df = pd.read_csv(file_path)
-            entity = df[df['ID'] == iden][['ID', 'Name', 'PaymentAmount', 'InteractionCount', 'country']].rename(columns={'country': 'Country'})
-                      # .rename(columns={'COUNTRY': 'Country'}))
+            entity = df[df['ID'] == iden][['ID', 'Name', 'PaymentAmount', 'InteractionCount', 'country']].rename(
+                columns={'country': 'Country'})
+            # .rename(columns={'COUNTRY': 'Country'}))
 
             print("entity", entity)
             if not entity.empty:
@@ -1084,7 +1095,8 @@ class Deepdive:
                     currency = currency_mapping[row['Country'].lower()]
                     break
 
-            return_dict['totalPaymentMade'] = '{:,.2f}'.format(payment_amount) + ' ' + currency # format with thousands separaters and 2dp
+            return_dict['totalPaymentMade'] = '{:,.2f}'.format(
+                payment_amount) + ' ' + currency  # format with thousands separaters and 2dp
 
             return_dict['totalInteraction'] = str(total_interactions)
             return_dict['selectedName'] = entity_name

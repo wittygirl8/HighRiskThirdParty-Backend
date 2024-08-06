@@ -49,10 +49,10 @@ def dashboard_risk_table():
 @scorecard_api_v1.route('/dashboard/businessActivities', methods=['GET'])
 @jwt_required()
 def dashboard_business_activities():
-    d=request.get_json()
-    print(d)
+    print('xyz')
     data = Utils.get_request_data(request)
     _ret = Controller.dashboard_business_activities(data)
+    print('_ret',_ret)
     if _ret[0]:
         return Utils.create_response(_ret[1], data=_ret[2])
     else:
