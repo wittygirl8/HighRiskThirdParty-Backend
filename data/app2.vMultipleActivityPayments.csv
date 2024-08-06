@@ -1,11 +1,11 @@
 ﻿id,Name,VendorNumber,Country,BusinessActivity,InvoiceLineAmountLocal,InvoiceLineCount,Currency
-B003,Rede Solidariedade Brasil,91827436,brazil,Postage & Couriers,1000,1,BRL
-B003,Rede Solidariedade Brasil,91827436,brazil,Marketing,1000,1,BRL
-B007,Aliança Social Brasileira,91828436,brazil,Postage & Couriers,1000,1,BRL
-B007,Aliança Social Brasileira,91828436,brazil,Marketing,352,1,BRL
-S003,Centro de Acción Social Iberia,91832746,spain,Digital Production,956,1,EUR
-S003,Centro de Acción Social Iberia,91832746,spain,Postage & Couriers,2000,1,EUR
-U003,American Heart of Service,91835467,usa,Digital Production,926,1,USD
+B003,Rede Solidariedade Brasil,91827436,brazil,Travel Expenses,1000,1,BRL
+B003,Rede Solidariedade Brasil,91827436,brazil,Sponsorships,1000,1,BRL
+B007,Aliança Social Brasileira,91828436,brazil,Market Research,1000,1,BRL
+B007,Aliança Social Brasileira,91828436,brazil,HCP Fee for Service - Travel Expenses,352,1,BRL
+S003,Centro de Acción Social Iberia,91832746,spain,HCP Fee for Service,956,1,EUR
+S003,Centro de Acción Social Iberia,91832746,spain,Grants & Donations,2000,1,EUR
+U003,American Heart of Service,91835467,usa,Gifts,926,1,USD
 U003,American Heart of Service,91835467,usa,Other HCO Expenditure,3000,1,USD
 U004,Bright Future Initiative,91835647,usa,Entertainment,2000,1,USD
 U004,Bright Future Initiative,91835647,usa,Membership Fees,398,1,USD
