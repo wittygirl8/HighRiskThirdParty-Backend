@@ -1,19 +1,237 @@
-Country,ParentCallId,HcpName,HcpId,ID,InteractionType,InteractionSubtype,InteractionTopic,InteractionStart
-BRAZIL,y14Nn540174pVyU,Pedro Souza,m83Qq565778iRvY,7666,Interaction - MSL,Web Call - Detail Only,Metreleptin,2020-07-22
-BRAZIL,w67Cf091827tHrC,Pedro Souza,m83Qq565778iRvY,7666,Interaction - Rep,F2F - Detail Only,Salicylic Acid,2020-08-14
-BRAZIL,k64Ah371764yBqB,Lucas Santos,j60Zh036003wPbU,2553,Interaction - Rep,F2F - Detail Only,mucor racemosus,2020-09-05
-BRAZIL,j14Em234510sDtK,Lucas Santos,j60Zh036003wPbU,2553,Interaction - MSL,Email - Detail Only,norgestimate and ethinyl estradiol,2020-10-12
-BRAZIL,i28Cu675827mDjT,Sofia Fernandes,h25Ex351474nWnN,8861,Interaction - Rep,F2F - Group Detail,venlafaxine hydrochloride,2021-01-07
-SPAIN,a88Ny367455uPuC,Mar�a Fern�ndez,b76Im304462qJoA,7899,Interaction - Rep,Web Call - Detail Only,Amlodipine Besylate,2021-02-14
-SPAIN,p07Xq032956wGxJ,Mar�a Fern�ndez,b76Im304462qJoA,7899,Interaction - Rep,Email - Detail Only,ALCOHOL,2021-03-21
-SPAIN,z50Wk153937iVxP,Carmen Rodr�guez,a49Qv810855eYkT,8607,Interaction - MSL,F2F - Detail Only,Sodium Fluoride,2021-04-30
-USA,h68Si864198jOaY,Jessica Brown,k11Vq755899vCtM,9492,Interaction - Rep,Web Call - Detail Only,Maximum Strength Pepto Bismol,2022-01-12
-USA,z54Vl115850lWlW,Ashley Wilson,m24Sc190870cKmF,10200,Interaction - Rep,F2F - Group Detail,Indomethacin,2020-07-22
-USA,c85Hh988242rKaW,Ashley Wilson,m24Sc190870cKmF,10200,Interaction - MSL,Web Call - Detail Only,risedronate sodium,2020-08-14
-BRAZIL,x23Lt482913qZmH,Centro de A��o Humanit�ria do Amazonas,a48Rk729850jLpW,B004,Interaction - MSL,Web Call - Detail Only,Metreleptin,2021-01-02
-BRAZIL,m79Re305692uXyK,Alian�a Social Brasileira,n72Fg908764dZvX,B007,Interaction - Rep,F2F - Detail Only,Salicylic Acid,2021-02-16
-SPAIN,b46Fd274839wLpQ,Asociaci�n Progreso y Bienestar,c57Wm340292hQsN,S004,Interaction - Rep,F2F - Detail Only,mucor racemosus,2021-03-24
-SPAIN,t85Nk761429vCjM,Asociaci�n Progreso y Bienestar,c57Wm340292hQsN,S004,Interaction - MSL,Email - Detail Only,norgestimate and ethinyl estradiol,2021-04-10
-USA,r91Gh540873kFwN,American Heart of Service,t89Jp452761wMqY,U003,Interaction - Rep,F2F - Group Detail,venlafaxine hydrochloride,2021-05-29
-USA,d34Js192780xVqL,American Heart of Service,t89Jp452761wMqY,U003,Interaction - Rep,Web Call - Detail Only,Amlodipine Besylate,2021-06-08
-USA,h27Wm638451rTpX,Bright Future Initiative,r50Vb190336nWpL,U004,Interaction - Rep,Email - Detail Only,ALCOHOL,2021-07-20
+﻿Country,ParentCallId,HcpName,HcpId,ID,InteractionType,InteractionSubtype,InteractionTopic,InteractionStart
+BRAZIL,y14Nn540174pVyU,Pedro Souza,m83Qq565778iRvY,7666,Interaction - MSL,Web Call - Detail Only,Metreleptin,22-07-2020
+BRAZIL,w67Cf091827tHrC,Pedro Souza,m83Qq565778iRvY,7666,Interaction - Rep,F2F - Detail Only,Salicylic Acid,14-08-2020
+BRAZIL,k64Ah371764yBqB,Lucas Santos,j60Zh036003wPbU,2553,Interaction - Rep,F2F - Detail Only,mucor racemosus,05-09-2020
+BRAZIL,j14Em234510sDtK,Lucas Santos,j60Zh036003wPbU,2553,Interaction - MSL,Email - Detail Only,norgestimate and ethinyl estradiol,12-10-2020
+BRAZIL,i28Cu675827mDjT,Sofia Fernandes,h25Ex351474nWnN,8861,Interaction - Rep,F2F - Group Detail,venlafaxine hydrochloride,07-01-2021
+SPAIN,a88Ny367455uPuC,María Fernández,b76Im304462qJoA,7899,Interaction - Rep,Web Call - Detail Only,Amlodipine Besylate,14-02-2021
+SPAIN,p07Xq032956wGxJ,María Fernández,b76Im304462qJoA,7899,Interaction - Rep,Email - Detail Only,ALCOHOL,21-03-2021
+SPAIN,z50Wk153937iVxP,Carmen Rodríguez,a49Qv810855eYkT,8607,Interaction - MSL,F2F - Detail Only,Sodium Fluoride,30-04-2021
+USA,h68Si864198jOaY,Jessica Brown,k11Vq755899vCtM,9492,Interaction - Rep,Web Call - Detail Only,Maximum Strength Pepto Bismol,12-01-2022
+USA,z54Vl115850lWlW,Ashley Wilson,m24Sc190870cKmF,10200,Interaction - Rep,F2F - Group Detail,Indomethacin,22-07-2020
+USA,c85Hh988242rKaW,Ashley Wilson,m24Sc190870cKmF,10200,Interaction - MSL,Web Call - Detail Only,risedronate sodium,14-08-2020
+BRAZIL,x23Lt482913qZmH,Centro de Ação Humanitária do Amazonas,a48Rk729850jLpW,B004,Interaction - MSL,Web Call - Detail Only,Metreleptin,02-01-2021
+BRAZIL,m79Re305692uXyK,Aliança Social Brasileira,n72Fg908764dZvX,B007,Interaction - Rep,F2F - Detail Only,Salicylic Acid,16-02-2021
+SPAIN,b46Fd274839wLpQ,Asociación Progreso y Bienestar,c57Wm340292hQsN,S004,Interaction - Rep,F2F - Detail Only,mucor racemosus,24-03-2021
+SPAIN,t85Nk761429vCjM,Asociación Progreso y Bienestar,c57Wm340292hQsN,S004,Interaction - MSL,Email - Detail Only,norgestimate and ethinyl estradiol,10-04-2021
+USA,r91Gh540873kFwN,American Heart of Service,t89Jp452761wMqY,U003,Interaction - Rep,F2F - Group Detail,venlafaxine hydrochloride,29-05-2021
+USA,d34Js192780xVqL,American Heart of Service,t89Jp452761wMqY,U003,Interaction - Rep,Web Call - Detail Only,Amlodipine Besylate,08-06-2021
+USA,h27Wm638451rTpX,Bright Future Initiative,r50Vb190336nWpL,U004,Interaction - Rep,Email - Detail Only,ALCOHOL,20-07-2021
+Brazil,w15Tb604823dYzL,Hospital das Clínicas de São Paulo,x82Wq739405dLtN,B008,Interaction - Rep,Web Call - Detail Only,Acetaminophen,15-01-2022
+Brazil,j92Pv173649rQaB,Hospital de Câncer de Barretos,h64Yr512983zWvJ,B009,Interaction - MSL,Email - Detail Only,Diphenhydramine Hydrochloride,03-02-2022
+Brazil,u81Xy352970kFzC,Hospital Israelita Albert Einstein,k29Vp846731mTzB,B010,Interaction - Rep,F2F - Group Detail,Albuterol Sulfate,22-03-2022
+Brazil,q47Wm284651pVsJ,Hospital Sírio-Libanês,j45Nb908273xQkL,B011,Interaction - MSL,F2F - Detail Only,Amoxicillin Trihydrate,11-04-2022
+Brazil,r64Nc891273jWuL,Fundação Oswaldo Cruz (Fiocruz),r73Fp206481vMsY,B012,Interaction - Rep,Web Call - Detail Only,Hydrochlorothiazide,19-05-2022
+Brazil,k29Zq470826vTpY,Hospital de Coração de São Paulo,z81Lk349270wQxR,B013,Interaction - MSL,Email - Detail Only,Cetirizine Hydrochloride,26-06-2022
+Brazil,v36Lj750498dRaQ,Instituto do Coração (InCor),t50Xc987214jHuM,B014,Interaction - Rep,F2F - Group Detail,Chlorpheniramine Maleate,07-07-2022
+Brazil,a93Fb182764xHwM,Hospital São Luiz,p37Wm690482dZnY,B015,Interaction - MSL,Web Call - Detail Only,Atorvastatin Calcium,13-08-2022
+Spain,m54Wz647092kJtN,Fundación Esperanza Solidaria,a56Vb429830qKjT,S005,Interaction - Rep,F2F - Detail Only,Ibuprofen,04-09-2022
+Spain,p68Tr390215vCuL,Centro de Apoyo y Esperanza,w62Qc814759nMrL,S006,Interaction - MSL,Email - Detail Only,Hydrocodone Bitartrate,20-10-2022
+Spain,i54Wd721639xTjM,Red de Solidaridad y Progreso,s94Xp305670vJkB,S007,Interaction - Rep,Web Call - Detail Only,Metformin Hydrochloride,15-11-2022
+Spain,i23Xe471850wQzK,Red de Solidaridad y Progreso,s94Xp305670vJkB,S007,Interaction - MSL,F2F - Detail Only,Simvastatin,02-12-2022
+Spain,s70Hd284956rVzB,Asociación Nueva Luz,n81Wt492306vKxY,S008,Interaction - Rep,F2F - Group Detail,Lorazepam,10-01-2023
+Spain,d94Ny365702pMxL,Fundación Esperanza y Futuro,d72Lm540198rQbN,S009,Interaction - MSL,Email - Detail Only,Doxycycline Hyclate,24-02-2023
+Spain,j68Lq385740pZbR,Centro de Acción Social Esperanza,u35Vp809176xJkR,S010,Interaction - Rep,Web Call - Detail Only,Lisinopril,12-03-2023
+Spain,b15Fw728904qUoT,Centro de Acción Social Esperanza,u35Vp809176xJkR,S010,Interaction - MSL,F2F - Detail Only,Sertraline Hydrochloride,18-04-2023
+Spain,h82Xt457319jLrY,Red de Apoyo Integral,f83Wm915742dKtN,S011,Interaction - Rep,Web Call - Detail Only,Montelukast Sodium,05-05-2023
+Spain,q53Zb610478vKcM,Asociación Progreso Solidario,m41Lc678293wQxY,S012,Interaction - MSL,F2F - Detail Only,Citalopram Hydrobromide,22-06-2023
+Spain,r72Wm983405xTpL,Fundación Luz y Esperanza,q54Yr297186zPjB,S013,Interaction - Rep,Email - Detail Only,Clopidogrel Bisulfate,09-07-2023
+Spain,u46Vn295807jYpQ,Centro de Bienestar y Solidaridad,x76Np410395vMkL,S014,Interaction - MSL,F2F - Group Detail,Ranitidine Hydrochloride,30-08-2023
+Spain,j58Lq173942dKxR,Red Esperanza y Desarrollo,k19Wc854207dZrY,S015,Interaction - MSL,Web Call - Detail Only,Losartan Potassium,17-09-2023
+USA,x94Fp806273vCuN,National Wellness Foundation,p84Lm739210vQxM,U005,Interaction - MSL,Email - Detail Only,Diazepam,25-10-2023
+USA,t39Nc562701wZyM,United Health Care Network,s97Xb406581jNpL,U006,Interaction - Rep,F2F - Detail Only,Naproxen Sodium,11-11-2023
+USA,k84Zj723691pTqB,American Care Alliance,t28Fp634920dWrJ,U007,Interaction - Rep,Web Call - Detail Only,Furosemide,19-12-2023
+USA,v27Yx469018rFuL,Future Health Initiative,h53Vq791480mKxN,U008,Interaction - Rep,F2F - Group Detail,Gabapentin,03-01-2022
+USA,m61Wb384720jRpN,Hope and Healing Foundation,j62Lc843520wMbY,U009,Interaction - Rep,Web Call - Detail Only,Prednisone,27-02-2022
+USA,r58Pz120394kVxJ,Nationwide Health Support Network,z78Wp195732dQkR,U010,Interaction - MSL,F2F - Detail Only,Hydroxychloroquine Sulfate,08-03-2022
+USA,u90Qm254781dKsT,Unified Care Solutions,u49Rq205861vFzM,U011,Interaction - MSL,Email - Detail Only,Venlafaxine Hydrochloride,14-04-2022
+USA,t47Nc912503vXyL,Unified Care Solutions,u49Rq205861vFzM,U011,Interaction - Rep,Web Call - Detail Only,Tamsulosin Hydrochloride,23-05-2022
+USA,h74Xt391506wLjQ,Bright Horizons Health Foundation,w35Lm904817dQxY,U012,Interaction - Rep,F2F - Detail Only,Tramadol Hydrochloride,10-06-2022
+USA,d15Vn682940rPzY,National Health and Wellness Network,f92Xc168530vMkp,U013,Interaction - Rep,Email - Detail Only,Ezetimibe,02-07-2022
+USA,s82Fb470163kMxL,American Wellness Partners,e74Wp269803dNzJ,U014,Interaction - Rep,Web Call - Detail Only,Duloxetine Hydrochloride,29-08-2022
+USA,k91Xp680472dWzQ,American Wellness Partners,e74Wp269803dNzJ,U014,Interaction - Rep,F2F - Detail Only,Pantoprazole Sodium,16-09-2022
+USA,p97Jr248305vQwN,Comprehensive Care Initiative,s91Lc305684wXyM,U015,Interaction - Rep,F2F - Group Detail,Amoxicillin,01-10-2022
+BRAZIL,v36Tq547908jFuM,Bruno Carvalho,t67Qb290483dKzN,1024,Interaction - MSL,Email - Detail Only,Clonazepam,22-11-2022
+BRAZIL,r29Fb620371wJxL,Camila Araújo,k42Wp759816vJrY,1059,Interaction - Rep,Web Call - Detail Only,Metoprolol Succinate,13-12-2022
+BRAZIL,u58Wm314926pKzT,Leonardo Silva,x83Np416290dQkM,1137,Interaction - MSL,F2F - Detail Only,Ciprofloxacin Hydrochloride,07-01-2023
+BRAZIL,d84Nt290571vLrY,Mariana Costa,p75Vm820369wLxY,1166,Interaction - Rep,Web Call - Detail Only,Loratadine,25-02-2023
+BRAZIL,h73Jx415896wQpM,André Oliveira,h29Lb354680dQxJ,1298,Interaction - MSL,Email - Detail Only,Azithromycin,14-03-2023
+BRAZIL,s95Lc680473dTpN,Larissa Lima,j54Yr903826mQkN,1345,Interaction - MSL,F2F - Group Detail,Codeine Phosphate,30-04-2023
+BRAZIL,j24Vb361907kQxR,Diego Pereira,z68Xp471290vWbM,1406,Interaction - MSL,Web Call - Detail Only,Terbinafine Hydrochloride,12-05-2023
+BRAZIL,p87Xy570984vCuL,Tatiane Santos,u71Lc829405dZrY,1583,Interaction - Rep,F2F - Detail Only,Guaifenesin,22-06-2023
+BRAZIL,r31Fd726408wTmJ,Ricardo Almeida,r84Qm507913wNpL,1624,Interaction - Rep,Email - Detail Only,Methylprednisolone,04-07-2023
+BRAZIL,m96Np354710jYxL,Vanessa Rodrigues,t29Wp684731dKxJ,1749,Interaction - MSL,F2F - Group Detail,Chloroquine Phosphate,21-08-2023
+BRAZIL,t52Wz184920kQrM,Eduardo Martins,f61Yr293478vMqb,1823,Interaction - Rep,Web Call - Detail Only,Risperidone,10-09-2023
+BRAZIL,u77Lc398471vJxN,Beatriz Fernandes,e97Lc840215dQxN,1934,Interaction - Rep,Email - Detail Only,Fexofenadine Hydrochloride,15-10-2023
+BRAZIL,k83Wp162594dTrQ,Gustavo Rocha,k38Wp751962vJrY,2047,Interaction - Rep,F2F - Detail Only,Amlodipine Besylate,03-11-2023
+BRAZIL,v65Nb407193pLzM,Roberta Souza,p54Xb620973dMkL,2132,Interaction - MSL,Web Call - Detail Only,Nifedipine,18-12-2023
+BRAZIL,h24Xy781605wQjR,Vinícius Santos,s83Vq194860mQxY,2261,Interaction - Rep,F2F - Detail Only,Sildenafil Citrate,09-01-2022
+BRAZIL,d92Lq743608vMxT,Clara Moreira,w92Np317605dQkR,2394,Interaction - MSL,Email - Detail Only,Bupropion Hydrochloride,19-02-2022
+BRAZIL,x71Np305972dQkL,Daniel Ferreira,x49Br274163qMpT,2456,Interaction - Rep,F2F - Detail Only,Trazodone Hydrochloride,11-03-2022
+BRAZIL,t38Jr460259wMqN,Júlia Almeida,t85Jv690731dQzL,2578,Interaction - Rep,Email - Detail Only,Diphenhydramine,27-04-2022
+BRAZIL,k94Xp680317dWzQ,Alexandre Campos,k56Wp392084mZyN,2634,Interaction - MSL,F2F - Group Detail,Sodium Bicarbonate,16-05-2022
+BRAZIL,p82Jr348726vQxM,Monique Lima,p71Qx840215dLtR,2765,Interaction - MSL,Web Call - Detail Only,Ketoconazole,03-06-2022
+BRAZIL,e75Lc290347dJkY,Henrique Costa,e29Nc307194vKjM,2841,Interaction - Rep,Email - Detail Only,Quetiapine Fumarate,20-07-2022
+BRAZIL,s41Np591204dQwN,Ana Paula Oliveira,r64Lp152907wXyJ,2957,Interaction - Rep,F2F - Detail Only,Fenofibrate,08-08-2022
+BRAZIL,v63Tq708194jLpM,Felipe Martins,s78Xq410296dMkN,3078,Interaction - Rep,Web Call - Detail Only,Dexamethasone,12-09-2022
+BRAZIL,r29Fb481906wJxL,Natália Ribeiro,w53Np294018vQxL,3189,Interaction - MSL,F2F - Group Detail,Chlorpromazine Hydrochloride,23-10-2022
+BRAZIL,u58Wm320971pQxR,Rodrigo Lima,j37Vb610492kZrY,3224,Interaction - Rep,Web Call - Detail Only,Triamcinolone Acetonide,06-11-2022
+BRAZIL,d84Nt752309vLrY,Érica Almeida,f92Lr470183dJmN,3317,Interaction - MSL,F2F - Detail Only,Hydroxyzine Hydrochloride,15-12-2022
+BRAZIL,h73Jx420587wQpM,Marcelo Silva,u84Qx273591wKvL,3428,Interaction - Rep,Email - Detail Only,Topiramate,01-01-2023
+BRAZIL,p95Lc614270dTpN,Letícia Carvalho,t27Np649803dQxM,3551,Interaction - Rep,Web Call - Detail Only,Azathioprine,13-02-2023
+BRAZIL,j24Vb387916kQxR,Everton Gomes,v65Wp392740dLyJ,3678,Interaction - Rep,F2F - Detail Only,Nitrofurantoin,28-03-2023
+BRAZIL,r87Xy560934vCuL,Ingrid Souza,p48Lm731905vQkN,3749,Interaction - MSL,Email - Detail Only,Erythromycin Ethylsuccinate,11-04-2023
+BRAZIL,m96Np374820jYxL,Luciano Pereira,e91Xq276340dWbM,3881,Interaction - MSL,Web Call - Detail Only,Ropinirole Hydrochloride,26-05-2023
+BRAZIL,t52Wz183704kQrM,Alessandra Oliveira,k73Np584920vLxY,3972,Interaction - MSL,F2F - Detail Only,Valacyclovir Hydrochloride,04-06-2023
+BRAZIL,u77Lc395162vJxN,Sérgio Costa,r56Jm420983dQyL,4034,Interaction - Rep,F2F - Group Detail,Dipyridamole,21-07-2023
+BRAZIL,k83Wp175948dTrQ,Daniela Ribeiro,s84Wp163270dKxN,4187,Interaction - Rep,Email - Detail Only,Desloratadine,08-08-2023
+BRAZIL,v65Nb420398pLzM,João Pedro Lima,w29Qx405691mJpR,4295,Interaction - MSL,F2F - Group Detail,Nabumetone,24-09-2023
+BRAZIL,h24Xy786409wQjR,Renata Gonçalves,j68Lb739405dQyN,4312,Interaction - Rep,Web Call - Detail Only,Vardenafil Hydrochloride,10-10-2023
+BRAZIL,d92Lq748305vMxT,Matheus Silva,f51Xq284730vLpM,4456,Interaction - Rep,F2F - Detail Only,Nabumetone,18-11-2023
+BRAZIL,x73Np410296dQkL,Priscila Almeida,t94Np658102dJkY,4568,Interaction - Rep,Email - Detail Only,Methadone Hydrochloride,05-12-2023
+BRAZIL,t47Jr284590wMqN,Rafael Oliveira,k32Wr790468vQxL,4689,Interaction - MSL,Web Call - Detail Only,Propranolol Hydrochloride,03-02-2022
+BRAZIL,k85Xp370421dWzQ,Lívia Rocha,p87Lc302951dZrN,4721,Interaction - Rep,F2F - Detail Only,Sildenafil Citrate,17-03-2022
+BRAZIL,p92Jr359680vQxM,Alan Ferreira,e45Xq290736wJmY,4832,Interaction - MSL,F2F - Group Detail,Anastrozole,23-04-2022
+BRAZIL,e84Lc273915dJkY,Aline Santos,s91Np486204dKxL,4910,Interaction - Rep,Email - Detail Only,Mirtazapine,15-05-2022
+BRAZIL,s56Np490871dQwN,Carlos Eduardo Silva,w78Vp165902dQzN,5043,Interaction - MSL,Web Call - Detail Only,Levofloxacin,08-06-2022
+BRAZIL,v71Tq609254jLpM,Patrícia Costa,j64Lp382907mQxY,5167,Interaction - Rep,F2F - Detail Only,Esomeprazole Magnesium,27-07-2022
+BRAZIL,r32Fb481975wJxL,Jorge Almeida,f83Jv570239dLrM,5238,Interaction - MSL,Web Call - Detail Only,Quinapril Hydrochloride,12-08-2022
+BRAZIL,u65Wm314920pQxR,Sandra Mendes,t29Qx681743dMkN,5346,Interaction - Rep,F2F - Detail Only,Meloxicam,05-09-2022
+BRAZIL,d89Nt752614vLrY,Thiago Fernandes,p56Np274901wLxY,5479,Interaction - MSL,Email - Detail Only,Benzonatate,20-10-2022
+BRAZIL,h24Jx398764wQpM,Ana Clara Souza,k84Lb397205dQmJ,5590,Interaction - MSL,F2F - Group Detail,Oseltamivir Phosphate,09-11-2022
+BRAZIL,p94Lc680257dTpN,Wellington Campos,e71Xq549620vWpL,5632,Interaction - Rep,Web Call - Detail Only,Cefuroxime Axetil,16-12-2022
+BRAZIL,j57Vb293864kQxR,Fernanda Oliveira,s93Np281740dQyN,5781,Interaction - Rep,Web Call - Detail Only,Meclizine Hydrochloride,02-01-2023
+SPAIN,r83Xy510972vCuL,Luis Pérez,w50Jr637492vLxM,5893,Interaction - MSL,Email - Detail Only,Olanzapine,19-02-2023
+SPAIN,m46Np284710jYxL,Isabel Gómez,j87Lb904326dQkN,5924,Interaction - Rep,F2F - Detail Only,Doxazosin Mesylate,09-03-2023
+SPAIN,t53Wz178946kQrM,Javier González,f29Xq451607dMyp,6035,Interaction - Rep,Web Call - Detail Only,Tadalafil,28-04-2023
+SPAIN,u79Lc302471vJxN,Laura Torres,t64Np318290vQxL,6178,Interaction - Rep,F2F - Group Detail,Telmisartan,15-05-2023
+SPAIN,k91Wp154702dTrQ,Francisco Ruiz,k73Wr509184dJmY,6289,Interaction - MSL,Web Call - Detail Only,Ranitidine,02-06-2023
+SPAIN,v64Nb370921pLzM,Marta Morales,p90Lc287430dQxN,6354,Interaction - Rep,F2F - Detail Only,Clarithromycin,19-07-2023
+SPAIN,h25Xy785460wQjR,Andrés Martínez,e84Xq162395wLpM,6472,Interaction - MSL,Email - Detail Only,Glyburide,06-08-2023
+SPAIN,d93Lq728905vMxT,Paula Hernández,s58Np940271dKxY,6548,Interaction - Rep,Web Call - Detail Only,Ethinyl Estradiol,25-09-2023
+SPAIN,x82Np394617dQkL,Sergio Romero,w12Jv736405dQmN,6679,Interaction - MSL,F2F - Detail Only,Omeprazole,10-10-2023
+SPAIN,t56Jr270491wMqN,Clara Castro,j54Lp370928dQyL,6743,Interaction - Rep,Email - Detail Only,Doxepin Hydrochloride,22-11-2023
+SPAIN,k94Xp381267dWzQ,Alberto Moreno,f91Xq624783vMkN,6881,Interaction - MSL,Web Call - Detail Only,Fentanyl Citrate,12-12-2023
+SPAIN,p83Jr460728vQxM,Beatriz Ortega,t86Np159407dQxL,6987,Interaction - MSL,F2F - Detail Only,Epinephrine,14-01-2022
+SPAIN,e72Lc314560dJkY,Manuel Navarro,k35Wr284916dLpY,7043,Interaction - Rep,Email - Detail Only,Tizanidine Hydrochloride,29-02-2022
+SPAIN,s49Np295873dQwN,Elena Vargas,p74Lc308295dQmJ,7165,Interaction - Rep,Web Call - Detail Only,Rivastigmine,08-03-2022
+SPAIN,v67Tq481209jLpM,Francisco Javier Ruiz,e29Np541706wXyL,7238,Interaction - MSL,F2F - Detail Only,Buspirone Hydrochloride,19-04-2022
+SPAIN,r24Fb370964wJxL,Natalia Delgado,s77Jv930485dQxM,7351,Interaction - Rep,F2F - Detail Only,Nystatin,11-05-2022
+SPAIN,u58Wm479610pQxR,Ricardo Moreno,x82Np461739dQkM,7498,Interaction - MSL,Email - Detail Only,Loratadine,23-06-2022
+SPAIN,d85Nt293476vLrY,Adriana Gómez,t95Jr203846wLxY,7589,Interaction - Rep,F2F - Detail Only,Methocarbamol,02-07-2022
+SPAIN,h73Jx482519wQpM,Javier Sánchez,k37Wp849216dQzL,7623,Interaction - Rep,Email - Detail Only,Butalbital,13-08-2022
+SPAIN,p94Lc617283dTpN,Raquel Ramírez,p64Xq750291vJmN,7745,Interaction - Rep,F2F - Group Detail,Dextromethorphan Hydrobromide,26-09-2022
+SPAIN,j36Vb284710kQxR,Alejandro López,e91Nc327405dLxY,7869,Interaction - MSL,Web Call - Detail Only,Spironolactone,15-10-2022
+SPAIN,r91Xy560297vCuL,Verónica Díaz,r72Lb984601dQxM,7951,Interaction - MSL,Email - Detail Only,Lisinopril,01-11-2022
+SPAIN,m84Np372690jYxL,Guillermo López,s43Wp295670vKjN,8047,Interaction - MSL,F2F - Detail Only,Vitamins B12,22-12-2022
+SPAIN,t65Wz189304kQrM,María José Romero,w56Np781403dQyL,8192,Interaction - Rep,Web Call - Detail Only,Dextroamphetamine Sulfate,03-01-2023
+SPAIN,u77Lc395782vJxN,Sergio García,j29Xq348195dMkR,8284,Interaction - Rep,F2F - Group Detail,Bupropion,21-02-2023
+SPAIN,k89Wp167302dTrQ,Patricia Pérez,f84Lp920736wQxM,8396,Interaction - MSL,Web Call - Detail Only,Clobetasol Propionate,09-03-2023
+SPAIN,v52Nb483920pLzM,Miguel Ángel Morales,u93Wp158274dJkL,8457,Interaction - Rep,F2F - Detail Only,Diphenhydramine Hydrochloride,17-04-2023
+SPAIN,h24Xy781540wQjR,Teresa González,t61Np405827dQxY,8564,Interaction - MSL,Email - Detail Only,Probenecid,05-05-2023
+SPAIN,d92Lq735184vMxT,Hugo Pérez,v29Xq376540dMkN,8641,Interaction - Rep,Web Call - Detail Only,Hydrocortisone,20-06-2023
+SPAIN,x47Np680529dQkL,Laura Fernández,p85Jr290374dQxL,8732,Interaction - MSL,F2F - Detail Only,Guaifenesin,08-07-2023
+SPAIN,t63Jr290784wMqN,Antonio Ortega,e74Lc302519vJmY,8859,Interaction - MSL,Email - Detail Only,Meclizine,29-08-2023
+SPAIN,k85Xp374920dWzQ,Paula Ruiz,k82Np619405dQxR,8945,Interaction - Rep,Web Call - Detail Only,Varenicline Tartrate,11-09-2023
+SPAIN,p92Jr481607vQxM,Enrique Fernández,r56Xq473920wLpN,9071,Interaction - Rep,F2F - Detail Only,Temazepam,19-10-2023
+SPAIN,e74Lc298560dJkY,Marta López,s71Wp294806dQyM,9136,Interaction - MSL,F2F - Group Detail,Isosorbide Mononitrate,03-11-2023
+SPAIN,s56Np394827dQwN,Ramón Castillo,w39Np680152dKxL,9268,Interaction - Rep,Email - Detail Only,Phenobarbital,15-12-2023
+SPAIN,v31Tq482570jLpM,Laura Rodríguez,j47Lc302960dQxY,9384,Interaction - MSL,F2F - Group Detail,Terazosin Hydrochloride,10-01-2022
+SPAIN,r29Fb510672wJxL,Pablo Martínez,f25Np871409vMkR,9472,Interaction - Rep,Web Call - Detail Only,Topiramate,28-02-2022
+SPAIN,u64Wm397280pQxR,Silvia Sánchez,t68Xq539207dQxM,9531,Interaction - Rep,F2F - Detail Only,Sumatriptan Succinate,14-03-2022
+SPAIN,d87Nt293764vLrY,Juan Carlos Ruiz,k91Lp276340dJmN,9654,Interaction - Rep,F2F - Detail Only,Cyclobenzaprine Hydrochloride,23-04-2022
+SPAIN,h23Jx480975wQpM,Carmen Gómez,p84Np509726dQyL,9742,Interaction - MSL,Email - Detail Only,Baclofen,07-05-2022
+SPAIN,p91Lc680459dTpN,Rafael Martín,e59Jr384620vKxM,9820,Interaction - MSL,Web Call - Detail Only,Vasopressin,16-06-2022
+SPAIN,j34Vb295716kQxR,Mercedes Fernández,s76Lc401829dQxN,9935,Interaction - MSL,F2F - Detail Only,Tretinoin,05-07-2022
+SPAIN,r86Xy570284vCuL,Daniel Ramos,w83Np527194dJkY,10076,Interaction - Rep,Email - Detail Only,Rofecoxib,18-08-2022
+SPAIN,m95Np372609jYxL,Pilar Sánchez,j54Xq920736dMkL,10142,Interaction - Rep,Web Call - Detail Only,Naltrexone Hydrochloride,25-09-2022
+SPAIN,t64Wz183970kQrM,Jesús Pérez,f72Wp384105dQyN,10258,Interaction - Rep,F2F - Detail Only,Furosemide,09-10-2022
+SPAIN,u77Lc391820vJxN,Aurora García,t39Lc820745vJmM,10379,Interaction - MSL,F2F - Detail Only,Risedronate Sodium,22-11-2022
+SPAIN,k92Wp470256dTrQ,Roberto Morales,k68Np195204dQxY,10462,Interaction - Rep,Email - Detail Only,Ampicillin,06-12-2022
+SPAIN,v63Nb405971pLzM,Clara Fernández,p92Jr740816dLxN,10593,Interaction - MSL,F2F - Detail Only,Nifedipine,04-01-2023
+SPAIN,h24Xy782460wQjR,Vicente Ruiz,e84Xq253910dMkR,10784,Interaction - MSL,Email - Detail Only,Rizatriptan Benzoate,19-02-2023
+SPAIN,d94Lq738291vMxT,Alicia Gómez,s51Wp697284dQxL,10871,Interaction - Rep,F2F - Group Detail,Rifampin,08-03-2023
+USA,x56Np390874dQkL,John Anderson,w72Np310458dJkM,11035,Interaction - Rep,Web Call - Detail Only,Tadalafil,25-04-2023
+USA,t71Jr460295wMqN,Olivia Taylor,j36Lc590174dQyN,11197,Interaction - MSL,Email - Detail Only,Methotrexate,14-05-2023
+USA,k84Xp379621dWzQ,Daniel White,f48Xq251670vQxL,11328,Interaction - Rep,F2F - Detail Only,Labetalol Hydrochloride,03-06-2023
+USA,p95Jr284730vQxM,Ava Harris,t57Np304628dMkY,11469,Interaction - MSL,F2F - Detail Only,Sodium Chloride,21-07-2023
+USA,e62Lc309754dJkY,Matthew Clark,k29Wp851403dJmR,11582,Interaction - Rep,Email - Detail Only,Hydromorphone Hydrochloride,09-08-2023
+USA,s48Np391680dQwN,Mia Lewis,p83Jr492760dQxL,11749,Interaction - Rep,Web Call - Detail Only,Dicyclomine Hydrochloride,30-09-2023
+USA,v75Tq482307jLpM,Christopher Lee,e74Lc328951dQyN,11862,Interaction - Rep,F2F - Detail Only,Metoprolol Tartrate,13-10-2023
+USA,r27Fb590614wJxL,Sophia Walker,s69Np750243dMkM,12004,Interaction - MSL,Email - Detail Only,Atenolol,22-11-2023
+USA,u53Wm392184pQxR,Andrew Hall,w15Xq842390dLxY,12189,Interaction - Rep,Web Call - Detail Only,Propofol,05-12-2023
+USA,d89Nt274960vLrY,Isabella Young,j84Wp259731dQxR,12374,Interaction - MSL,F2F - Detail Only,Fluoxetine Hydrochloride,12-01-2022
+USA,h74Jx481592wQpM,Joshua King,f92Lc470586vJkN,12593,Interaction - MSL,F2F - Group Detail,Alprazolam,26-02-2022
+USA,p91Lc620384dTpN,Emma Scott,t63Np194728dQyM,12685,Interaction - MSL,Email - Detail Only,Lansoprazole,09-03-2022
+USA,j36Vb293460kQxR,Ryan Adams,k51Jr387406dLxN,12843,Interaction - Rep,F2F - Group Detail,Gabapentin,21-04-2022
+USA,r84Xy570923vCuL,Charlotte Nelson,p72Xq295841dMkL,12956,Interaction - Rep,Web Call - Detail Only,Naproxen,12-05-2022
+USA,m47Np392581jYxL,Brandon Carter,e89Np640372dQxY,13078,Interaction - Rep,F2F - Detail Only,Pregabalin,27-06-2022
+USA,t62Wz184370kQrM,Lily Mitchell,s94Wp310286dQyM,13291,Interaction - Rep,F2F - Detail Only,Clindamycin,04-07-2022
+USA,u78Lc390476vJxN,Nathan Perez,w28Lc745903dJkN,13406,Interaction - MSL,Email - Detail Only,Digoxin,23-08-2022
+USA,k91Wp274630dTrQ,Grace Roberts,j56Xq294705dQxL,13579,Interaction - Rep,Web Call - Detail Only,Sulfamethoxazole,11-09-2022
+USA,v54Nb608372pLzM,Benjamin Turner,f84Np372691dMkY,13742,Interaction - MSL,F2F - Detail Only,Terbinafine,30-10-2022
+USA,h23Xy781940wQjR,Zoe Phillips,t91Wp460823dJmN,13868,Interaction - MSL,Email - Detail Only,Imipramine Hydrochloride,13-11-2022
+USA,d93Lq459721vMxT,William Collins,k73Lc518920dQxR,14055,Interaction - Rep,Email - Detail Only,Nifedipine,29-12-2022
+USA,x67Np341290dQkL,Ella Murphy,p65Jr293476dQyL,14223,Interaction - Rep,F2F - Detail Only,Benzodiazepine,08-01-2023
+USA,t58Jr294860wMqN,James Brown,e42Np785903dMkM,14392,Interaction - MSL,Email - Detail Only,Moxifloxacin,17-02-2023
+USA,k82Xp740215dWzQ,Abigail Cooper,s87Xq146290dLxY,14567,Interaction - Rep,F2F - Group Detail,Methyldopa,04-03-2023
+USA,p64Jr395820vQxM,Alexander Green,w39Wp284750dQyN,14680,Interaction - MSL,Web Call - Detail Only,Cimetidine,22-04-2023
+USA,e91Lc284760dJkY,Emily Richardson,j78Lc351920dMkL,14839,Interaction - Rep,Email - Detail Only,Nabumetone,07-05-2023
+USA,s75Np401273dQwN,Thomas Morgan,f61Np490726dQxM,14952,Interaction - Rep,F2F - Detail Only,Pravastatin Sodium,19-06-2023
+USA,v62Tq490571jLpM,Natalie Baker,t29Jr583940dLxN,15034,Interaction - Rep,F2F - Detail Only,Lamotrigine,03-07-2023
+USA,r28Fb370962wJxL,Ethan Brooks,k84Xq720396dQyL,15189,Interaction - MSL,Email - Detail Only,Levetiracetam,20-08-2023
+USA,u56Wm481293pQxR,Hannah Gray,p73Lc185290dMkY,15324,Interaction - Rep,Web Call - Detail Only,Phenytoin Sodium,10-09-2023
+USA,d89Nt275460vLrY,Lucas Hughes,e54Np391724dJkR,15467,Interaction - MSL,F2F - Detail Only,Diazepam,25-10-2023
+USA,h74Jx384970wQpM,Chloe Barnes,s92Wp670405dQxN,15678,Interaction - Rep,Email - Detail Only,Chlorothiazide,12-11-2023
+USA,p92Lc615830dTpN,Jack Wilson,w17Xq830491dLxM,15823,Interaction - MSL,Web Call - Detail Only,Aripiprazole,29-12-2023
+USA,j31Vb293760kQxR,Mia Sanders,j64Np205871dQyL,15984,Interaction - MSL,F2F - Detail Only,Hydrochlorothiazide,06-01-2022
+USA,r86Xy590274vCuL,Samuel Price,f29Lc736480vMkN,16145,Interaction - Rep,F2F - Group Detail,Terbutaline Sulfate,18-02-2022
+USA,m48Np374620jYxL,Scarlett Wood,t85Wp492370dJkM,16297,Interaction - MSL,Email - Detail Only,Meclizine,07-03-2022
+USA,t63Wz184970kQrM,Henry James,k41Xq287659dQxL,16408,Interaction - Rep,F2F - Group Detail,Benztropine Mesylate,22-04-2022
+USA,u77Lc392584vJxN,Aurora Cox,p90Np743610dQyN,16579,Interaction - MSL,Email - Detail Only,Promethazine Hydrochloride,09-05-2022
+USA,k91Wp470283dTrQ,Owen Campbell,e76Jr591403dMkY,16731,Interaction - MSL,Web Call - Detail Only,Nitroglycerin,24-06-2022
+USA,v53Nb680192pLzM,Aria Morris,s63Lc428905dQxM,16842,Interaction - Rep,F2F - Detail Only,Dobutamine Hydrochloride,08-07-2022
+USA,h25Xy781490wQjR,Caleb Stewart,w29Np174680dJkL,17096,Interaction - Rep,Email - Detail Only,Piroxicam,17-08-2022
+USA,d94Lq370962vMxT,Evelyn Rivera,j85Xq692740dQyN,17245,Interaction - MSL,Web Call - Detail Only,Methylphenidate Hydrochloride,25-09-2022
+USA,x56Np284710dQkL,Gabriel Simmons,f94Wp305182dMkR,17432,Interaction - Rep,F2F - Detail Only,Dexlansoprazole,04-10-2022
+USA,t75Jr460239wMqN,Stella Ward,t58Lc410273dQxY,17594,Interaction - MSL,F2F - Group Detail,Erythromycin,22-11-2022
+USA,k84Xp291760dWzQ,Logan Hughes,k72Np195804dJmM,17783,Interaction - Rep,Email - Detail Only,Verapamil Hydrochloride,12-12-2022
+USA,p97Jr374850vQxM,Alice James,p36Jr847290dQxL,17942,Interaction - MSL,Web Call - Detail Only,Prednisolone,05-01-2023
+USA,e62Lc305472dJkY,Eli Bennett,e83Xq249617dMkN,18065,Interaction - MSL,F2F - Detail Only,Ketorolac Tromethamine,19-02-2023
+USA,s48Np291604dQwN,Mila Murphy,s94Wp560273dQyL,18239,Interaction - Rep,Web Call - Detail Only,Quetiapine,10-03-2023
+USA,v71Tq490283jLpM,Adam Rogers,w17Lc438920dJkM,18356,Interaction - MSL,Web Call - Detail Only,Phenylephrine Hydrochloride,27-04-2023
+USA,r29Fb378492wJxL,Nora Ward,j52Np691734dQxN,18572,Interaction - MSL,F2F - Detail Only,Midazolam,16-05-2023
+BRAZIL,u64Wm395820pQxR,Camila Andrade,f81Xq290746dMkY,1001,Interaction - Rep,F2F - Group Detail,Fluticasone Propionate,01-06-2023
+BRAZIL,d87Nt273951vLrY,Bruno Carvalho,t74Wp530291dQxL,1002,Interaction - Rep,Email - Detail Only,Duloxetine,19-07-2023
+BRAZIL,h24Jx482736wQpM,Luis Gómez,k29Lc471820dJmN,1003,Interaction - Rep,F2F - Group Detail,Trimethoprim,09-08-2023
+BRAZIL,p84Lc691204dTpN,Isabel Moreno,p83Jr629405dQyM,1004,Interaction - MSL,Email - Detail Only,Diphenhydramine,27-09-2023
+BRAZIL,j35Vb293684kQxR,Diego Pereira,e76Np184920dQxL,1005,Interaction - Rep,Web Call - Detail Only,Hydrocodone,14-10-2023
+BRAZIL,r92Xy570293vCuL,Tatiane Santos,s54Xq273968dMkN,1006,Interaction - MSL,F2F - Detail Only,Isotretinoin,01-11-2023
+BRAZIL,m47Np389620jYxL,Ricardo Almeida,w91Wp460785dJkR,1007,Interaction - Rep,Email - Detail Only,Chlorpromazine,22-12-2023
+BRAZIL,t64Wz184395kQrM,Vanessa Rodrigues,j37Lc920471dQyN,1008,Interaction - MSL,Web Call - Detail Only,Brompheniramine Maleate,07-01-2022
+BRAZIL,u78Lc392710vJxN,Eduardo Martins,f82Np309164dMkL,1009,Interaction - MSL,F2F - Detail Only,Drospirenone,20-02-2022
+BRAZIL,k93Wp470254dTrQ,Beatriz Fernandes,t61Xq758209dQxM,1010,Interaction - Rep,Email - Detail Only,Tramadol,10-03-2022
+SPAIN,v62Nb351984pLzM,Luis Pérez,k84Wp192736dJmN,1011,Interaction - Rep,F2F - Detail Only,Acetazolamide,29-04-2022
+SPAIN,h24Xy781903wQjR,Isabel Gómez,p50Lc347928dQyL,1012,Interaction - Rep,Email - Detail Only,Desvenlafaxine,14-05-2022
+SPAIN,d93Lq470295vMxT,Javier González,e94Np615830dQxR,1013,Interaction - MSL,F2F - Group Detail,Nortriptyline Hydrochloride,01-06-2022
+SPAIN,x56Np284731dQkL,Laura Torres,s23Xq780951dMkM,1014,Interaction - Rep,Web Call - Detail Only,Sodium Valproate,19-07-2022
+SPAIN,t78Jr293640wMqN,Francisco Ruiz,w68Wp294703dQxY,1015,Interaction - Rep,Email - Detail Only,Nebivolol,11-08-2022
+SPAIN,k84Xp716395dWzQ,Marta Morales,j54Lc382710dQyL,1016,Interaction - Rep,F2F - Detail Only,Dantrolene Sodium,24-09-2022
+SPAIN,p95Jr470284vQxM,Andrés Martínez,x37Np405812dQkL,1017,Interaction - MSL,Web Call - Detail Only,Dexlansoprazole,22-11-2023
+SPAIN,e74Lc308259dJkY,Paula Hernández,t64Xq297541dJmN,1018,Interaction - Rep,F2F - Group Detail,Erythromycin,05-12-2023
+SPAIN,s61Np295470dQwN,Sergio Romero,k29Lp583610dQxY,1019,Interaction - MSL,Web Call - Detail Only,Verapamil Hydrochloride,12-01-2022
+SPAIN,v37Tq481930jLpM,Clara Castro,p82Jr460973dMkL,1020,Interaction - Rep,F2F - Detail Only,Prednisolone,26-02-2022
+USA,r29Fb374620wJxL,John Anderson,e75Np391264dQyM,1021,Interaction - MSL,Email - Detail Only,Ketorolac Tromethamine,09-03-2022
+USA,u54Wm291768pQxR,Olivia Taylor,s41Xq284957dLxN,1022,Interaction - MSL,Web Call - Detail Only,Quetiapine,21-04-2022
+USA,d82Nt395740vLrY,Daniel White,w93Wp162740dQxR,1023,Interaction - Rep,F2F - Detail Only,Phenylephrine Hydrochloride,12-05-2022
+USA,h76Jx480295wQpM,Ava Harris,j54Lc371290dMkY,1025,Interaction - MSL,Email - Detail Only,Midazolam,27-06-2022
+USA,p91Lc365208dTpN,Matthew Clark,f68Np594820dQxM,1026,Interaction - MSL,Web Call - Detail Only,Dicyclomine Hydrochloride,04-07-2022
+USA,j37Vb293760kQxR,Mia Lewis,t29Jr840573dLxN,1027,Interaction - Rep,F2F - Detail Only,Metoprolol Tartrate,23-08-2022
+USA,r84Xy570293vCuL,Christopher Lee,k57Xq206491dQyL,1028,Interaction - MSL,Email - Detail Only,Atenolol,11-09-2022
+USA,m95Np378264jYxL,Sophia Walker,p84Lc390217dMkN,1029,Interaction - Rep,F2F - Detail Only,Diphenhydramine,30-10-2022
+USA,t62Wz184395kQrM,Andrew Hall,e61Np740592dQxR,1030,Interaction - Rep,Email - Detail Only,Hydrocodone,13-11-2022
+USA,u78Lc391704vJxN,Isabella Young,s95Wp182347dJmM,1031,Interaction - Rep,F2F - Group Detail,Hydromorphone Hydrochloride,29-12-2022
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

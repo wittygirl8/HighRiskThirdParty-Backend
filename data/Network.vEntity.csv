@@ -1,0 +1,224 @@
+﻿EntityId,EntityType,EntityName,CountryId,CountryName
+1,HCO,GSK,1,All
+1,HCO,Instituto Esperança Brasil,2,BRAZIL
+2,HCO,Fundação Vida Verde,2,BRAZIL
+3,HCO,Rede Solidariedade Brasil,2,Brazil
+4,HCO,Centro de Ação Humanitária do Amazonas,2,Brazil
+5,HCO,Associação Nova Esperança,2,Brazil
+6,HCO,Projeto Cidadania e Futuro,2,Brazil
+7,HCO,Aliança Social Brasileira,2,Brazil
+8,HCO,Fundación Luz de Esperanza,3,Spain
+9,HCO,Red Solidaridad España,3,Spain
+10,HCO,Centro de Acción Social Iberia,3,Spain
+11,HCO,Asociación Progreso y Bienestar,3,Spain
+12,HCO,Nationwide Hope Foundation,4,USA
+13,HCO,United Community Aid Network,4,USA
+14,HCO,American Heart of Service,4,USA
+15,HCO,Bright Future Initiative,4,USA
+16,HCP,João Silva,2,BRAZIL
+17,HCP,Maria Oliveira,2,BRAZIL
+18,HCP,Pedro Souza,2,BRAZIL
+19,HCP,Ana Lima,2,BRAZIL
+20,HCP,Lucas Santos,2,BRAZIL
+21,HCP,Gabriel Pereira,2,BRAZIL
+22,HCP,Rafael Costa,2,BRAZIL
+23,HCP,Sofia Fernandes,2,BRAZIL
+24,HCP,Matheus Almeida,2,BRAZIL
+25,HCP,Juliana Ribeiro,2,BRAZIL
+26,HCP,Thiago Martins,2,BRAZIL
+27,HCP,Isabella Gomes,2,BRAZIL
+28,HCP,Felipe Rocha,2,BRAZIL
+29,HCP,María Fernández,3,SPAIN
+30,HCP,José Martínez,3,SPAIN
+31,HCP,Ana López,3,SPAIN
+32,HCP,Juan García,3,SPAIN
+33,HCP,Carmen Rodríguez,3,SPAIN
+34,HCP,Pedro Sánchez,3,SPAIN
+35,HCP,James Smith,4,USA
+36,HCP,Emily Johnson,4,USA
+37,HCP,Michael Williams,4,USA
+38,HCP,Jessica Brown,4,USA
+39,HCP,David Jones,4,USA
+40,HCP,Sarah Miller,4,USA
+41,HCP,Robert Davis,4,USA
+42,HCP,Ashley Wilson,4,USA
+43,HCO,Hospital das Clínicas de São Paulo,2,BRAZIL
+44,HCO,Hospital de Câncer de Barretos,2,BRAZIL
+45,HCO,Hospital Israelita Albert Einstein,2,BRAZIL
+46,HCO,Hospital Sírio-Libanês,2,BRAZIL
+47,HCO,Fundação Oswaldo Cruz (Fiocruz),2,BRAZIL
+48,HCO,Hospital de Coração de São Paulo,2,BRAZIL
+49,HCO,Instituto do Coração (InCor),2,BRAZIL
+50,HCO,Hospital São Luiz,2,BRAZIL
+51,HCO,Fundación Esperanza Solidaria,3,SPAIN
+52,HCO,Centro de Apoyo y Esperanza,3,SPAIN
+53,HCO,Red de Solidaridad y Progreso,3,SPAIN
+54,HCO,Asociación Nueva Luz,3,SPAIN
+55,HCO,Fundación Esperanza y Futuro,3,SPAIN
+56,HCO,Centro de Acción Social Esperanza,3,SPAIN
+57,HCO,Red de Apoyo Integral,3,SPAIN
+58,HCO,Asociación Progreso Solidario,3,SPAIN
+59,HCO,Fundación Luz y Esperanza,3,SPAIN
+60,HCO,Centro de Bienestar y Solidaridad,3,SPAIN
+61,HCO,Red Esperanza y Desarrollo,3,SPAIN
+62,HCO,National Wellness Foundation,4,USA
+63,HCO,United Health Care Network,4,USA
+64,HCO,American Care Alliance,4,USA
+65,HCO,Future Health Initiative,4,USA
+66,HCO,Hope and Healing Foundation,4,USA
+67,HCO,Nationwide Health Support Network,4,USA
+68,HCO,Unified Care Solutions,4,USA
+69,HCO,Bright Horizons Health Foundation,4,USA
+70,HCO,National Health and Wellness Network,4,USA
+71,HCO,American Wellness Partners,4,USA
+72,HCO,Comprehensive Care Initiative,4,USA
+73,HCP,Bruno Carvalho,2,BRAZIL
+74,HCP,Camila Araújo,2,BRAZIL
+75,HCP,Leonardo Silva,2,BRAZIL
+76,HCP,Mariana Costa,2,BRAZIL
+77,HCP,André Oliveira,2,BRAZIL
+78,HCP,Larissa Lima,2,BRAZIL
+79,HCP,Diego Pereira,2,BRAZIL
+80,HCP,Tatiane Santos,2,BRAZIL
+81,HCP,Ricardo Almeida,2,BRAZIL
+82,HCP,Vanessa Rodrigues,2,BRAZIL
+83,HCP,Eduardo Martins,2,BRAZIL
+84,HCP,Beatriz Fernandes,2,BRAZIL
+85,HCP,Gustavo Rocha,2,BRAZIL
+86,HCP,Roberta Souza,2,BRAZIL
+87,HCP,Vinícius Santos,2,BRAZIL
+88,HCP,Clara Moreira,2,BRAZIL
+89,HCP,Daniel Ferreira,2,BRAZIL
+90,HCP,Júlia Almeida,2,BRAZIL
+91,HCP,Alexandre Campos,2,BRAZIL
+92,HCP,Monique Lima,2,BRAZIL
+93,HCP,Henrique Costa,2,BRAZIL
+94,HCP,Ana Paula Oliveira,2,BRAZIL
+95,HCP,Felipe Martins,2,BRAZIL
+96,HCP,Natália Ribeiro,2,BRAZIL
+97,HCP,Rodrigo Lima,2,BRAZIL
+98,HCP,Érica Almeida,2,BRAZIL
+99,HCP,Marcelo Silva,2,BRAZIL
+100,HCP,Letícia Carvalho,2,BRAZIL
+101,HCP,Everton Gomes,2,BRAZIL
+102,HCP,Ingrid Souza,2,BRAZIL
+103,HCP,Luciano Pereira,2,BRAZIL
+104,HCP,Alessandra Oliveira,2,BRAZIL
+105,HCP,Sérgio Costa,2,BRAZIL
+106,HCP,Daniela Ribeiro,2,BRAZIL
+107,HCP,João Pedro Lima,2,BRAZIL
+108,HCP,Renata Gonçalves,2,BRAZIL
+109,HCP,Matheus Silva,2,BRAZIL
+110,HCP,Priscila Almeida,2,BRAZIL
+111,HCP,Rafael Oliveira,2,BRAZIL
+112,HCP,Lívia Rocha,2,BRAZIL
+113,HCP,Alan Ferreira,2,BRAZIL
+114,HCP,Aline Santos,2,BRAZIL
+115,HCP,Carlos Eduardo Silva,2,BRAZIL
+116,HCP,Patrícia Costa,2,BRAZIL
+117,HCP,Jorge Almeida,2,BRAZIL
+118,HCP,Sandra Mendes,2,BRAZIL
+119,HCP,Thiago Fernandes,2,BRAZIL
+120,HCP,Ana Clara Souza,2,BRAZIL
+121,HCP,Wellington Campos,2,BRAZIL
+122,HCP,Fernanda Oliveira,2,BRAZIL
+123,HCP,Luis Pérez,3,SPAIN
+124,HCP,Isabel Gómez,3,SPAIN
+125,HCP,Javier González,3,SPAIN
+126,HCP,Laura Torres,3,SPAIN
+127,HCP,Francisco Ruiz,3,SPAIN
+128,HCP,Marta Morales,3,SPAIN
+129,HCP,Andrés Martínez,3,SPAIN
+130,HCP,Paula Hernández,3,SPAIN
+131,HCP,Sergio Romero,3,SPAIN
+132,HCP,Clara Castro,3,SPAIN
+133,HCP,Alberto Moreno,3,SPAIN
+134,HCP,Beatriz Ortega,3,SPAIN
+135,HCP,Manuel Navarro,3,SPAIN
+136,HCP,Elena Vargas,3,SPAIN
+137,HCP,Francisco Javier Ruiz,3,SPAIN
+138,HCP,Natalia Delgado,3,SPAIN
+139,HCP,Ricardo Moreno,3,SPAIN
+140,HCP,Adriana Gómez,3,SPAIN
+141,HCP,Javier Sánchez,3,SPAIN
+142,HCP,Raquel Ramírez,3,SPAIN
+143,HCP,Alejandro López,3,SPAIN
+144,HCP,Verónica Díaz,3,SPAIN
+145,HCP,Guillermo López,3,SPAIN
+146,HCP,María José Romero,3,SPAIN
+147,HCP,Sergio García,3,SPAIN
+148,HCP,Patricia Pérez,3,SPAIN
+149,HCP,Miguel Ángel Morales,3,SPAIN
+150,HCP,Teresa González,3,SPAIN
+151,HCP,Hugo Pérez,3,SPAIN
+152,HCP,Laura Fernández,3,SPAIN
+153,HCP,Antonio Ortega,3,SPAIN
+154,HCP,Paula Ruiz,3,SPAIN
+155,HCP,Enrique Fernández,3,SPAIN
+156,HCP,Marta López,3,SPAIN
+157,HCP,Ramón Castillo,3,SPAIN
+158,HCP,Laura Rodríguez,3,SPAIN
+159,HCP,Pablo Martínez,3,SPAIN
+160,HCP,Silvia Sánchez,3,SPAIN
+161,HCP,Juan Carlos Ruiz,3,SPAIN
+162,HCP,Carmen Gómez,3,SPAIN
+163,HCP,Rafael Martín,3,SPAIN
+164,HCP,Mercedes Fernández,3,SPAIN
+165,HCP,Daniel Ramos,3,SPAIN
+166,HCP,Pilar Sánchez,3,SPAIN
+167,HCP,Jesús Pérez,3,SPAIN
+168,HCP,Aurora García,3,SPAIN
+169,HCP,Roberto Morales,3,SPAIN
+170,HCP,Clara Fernández,3,SPAIN
+171,HCP,Vicente Ruiz,3,SPAIN
+172,HCP,Alicia Gómez,3,SPAIN
+173,HCP,John Anderson,4,USA
+174,HCP,Olivia Taylor,4,USA
+175,HCP,Daniel White,4,USA
+176,HCP,Ava Harris,4,USA
+177,HCP,Matthew Clark,4,USA
+178,HCP,Mia Lewis,4,USA
+179,HCP,Christopher Lee,4,USA
+180,HCP,Sophia Walker,4,USA
+181,HCP,Andrew Hall,4,USA
+182,HCP,Isabella Young,4,USA
+183,HCP,Joshua King,4,USA
+184,HCP,Emma Scott,4,USA
+185,HCP,Ryan Adams,4,USA
+186,HCP,Charlotte Nelson,4,USA
+187,HCP,Brandon Carter,4,USA
+188,HCP,Lily Mitchell,4,USA
+189,HCP,Nathan Perez,4,USA
+190,HCP,Grace Roberts,4,USA
+191,HCP,Benjamin Turner,4,USA
+192,HCP,Zoe Phillips,4,USA
+193,HCP,William Collins,4,USA
+194,HCP,Ella Murphy,4,USA
+195,HCP,James Brown,4,USA
+196,HCP,Abigail Cooper,4,USA
+197,HCP,Alexander Green,4,USA
+198,HCP,Emily Richardson,4,USA
+199,HCP,Thomas Morgan,4,USA
+200,HCP,Natalie Baker,4,USA
+201,HCP,Ethan Brooks,4,USA
+202,HCP,Hannah Gray,4,USA
+203,HCP,Lucas Hughes,4,USA
+204,HCP,Chloe Barnes,4,USA
+205,HCP,Jack Wilson,4,USA
+206,HCP,Mia Sanders,4,USA
+207,HCP,Samuel Price,4,USA
+208,HCP,Scarlett Wood,4,USA
+209,HCP,Henry James,4,USA
+210,HCP,Aurora Cox,4,USA
+211,HCP,Owen Campbell,4,USA
+212,HCP,Aria Morris,4,USA
+213,HCP,Caleb Stewart,4,USA
+214,HCP,Evelyn Rivera,4,USA
+215,HCP,Gabriel Simmons,4,USA
+216,HCP,Stella Ward,4,USA
+217,HCP,Logan Hughes,4,USA
+218,HCP,Alice James,4,USA
+219,HCP,Eli Bennett,4,USA
+220,HCP,Mila Murphy,4,USA
+221,HCP,Adam Rogers,4,USA
+222,HCP,Nora Ward,4,USA

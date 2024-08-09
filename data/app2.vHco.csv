@@ -2,15 +2,45 @@
 Brazil,Instituto Esperança Brasil,B001,https://www.institutoesperancabrasil.org/,NULL,NULL,orgK990234984753,9900123456,0,124,0
 Brazil,Fundação Vida Verde,B002,NULL,NULL,NULL,NULL,9900789345,2,2309,0
 Brazil,Rede Solidariedade Brasil,B003,NULL,NULL,NULL,orgK990876543210,NULL,0,3410,0
-Brazil,Centro de Ação Humanitária do Amazonas,B004,https://www.rede-solidariedade-brasil.org/,NULL,NULL,orgK990123456789,9900234567,3,2210,0
+Brazil,Centro de Ação Humanitária do Amazonas,B004,https://www.rede-solidariedade-brasil.org/,NULL,NULL,orgK990123456789,9900234567,3,2210,1
 Brazil,Associação Nova Esperança,B005,NULL,NULL,NULL,NULL,9900987654,1,234,0
 Brazil,Projeto Cidadania e Futuro,B006,https://www.associacaonovaesperanca.org/,NULL,NULL,orgK990345678901,9900456789,1,23089,0
-Brazil,Aliança Social Brasileira,B007,NULL,NULL,NULL,orgK990567890123,9900765432,3,999,0
+Brazil,Aliança Social Brasileira,B007,NULL,NULL,NULL,orgK990567890123,9900765432,3,999,1
 Spain,Fundación Luz de Esperanza,S001,NULL,NULL,NULL,NULL,9900345678,2,24509,0
 Spain,Red Solidaridad España,S002,https://www.projetocidadaniaefuturo.org/,NULL,NULL,orgK990234567890,NULL,0,550,0
 Spain,Centro de Acción Social Iberia,S003,NULL,NULL,NULL,orgK990456789012,9900129876,1,789,0
-Spain,Asociación Progreso y Bienestar,S004,NULL,NULL,NULL,NULL,9900567890,1,3234,0
+Spain,Asociación Progreso y Bienestar,S004,NULL,NULL,NULL,NULL,9900567890,1,3234,2
 USA,Nationwide Hope Foundation,U001,https://www.redsolidaridadespana.org/,NULL,NULL,orgK990678901234,9900432109,2,870,0
 USA,United Community Aid Network,U002,NULL,NULL,NULL,orgK990789012345,9900871234,3,34564,0
-USA,American Heart of Service,U003,NULL,NULL,NULL,NULL,9900650987,1,4335,0
-USA,Bright Future Initiative,U004,https://www.brightfutureinitiative.org/,NULL,NULL,orgK990890123456,9900237890,3,5332,0
+USA,American Heart of Service,U003,NULL,NULL,NULL,NULL,9900650987,1,4335,2
+USA,Bright Future Initiative,U004,https://www.brightfutureinitiative.org/,NULL,NULL,orgK990890123456,9900237890,3,5332,1
+Brazil,Hospital das Clínicas de São Paulo,B008,www.hospitaldasclinicas.com.br,NULL,NULL,orgK991234567890,NULL,NULL,NULL,0
+Brazil,Hospital de Câncer de Barretos,B009,www.hospitaldecancerbarretos.com.br,NULL,NULL,NULL,9900543210,2,17312,0
+Brazil,Hospital Israelita Albert Einstein,B010,www.hospitalalberteinstein.org.br,NULL,NULL,orgK993456789012,9900876543,1,16457,0
+Brazil,Hospital Sírio-Libanês,B011,www.hospitalsiriolibanes.com.br,NULL,NULL,orgK994567890123,NULL,NULL,NULL,1
+Brazil,Fundação Oswaldo Cruz (Fiocruz),B012,www.fiocruz.org.br,NULL,NULL,NULL,9900678901,2,13789,0
+Brazil,Hospital de Coração de São Paulo,B013,www.hospitalcoracaosaopaulo.com.br,NULL,NULL,orgK996789012345,9900923456,1,12345,0
+Brazil,Instituto do Coração (InCor),B014,www.incor.org.br,NULL,NULL,orgK997890123456,9900765433,2,15234,1
+Brazil,Hospital São Luiz,B015,www.hospitalsaoluiz.com.br,NULL,NULL,NULL,NULL,NULL,NULL,0
+Spain,Fundación Esperanza Solidaria,S005,www.fundacionesperanzasolidaria.org,NULL,NULL,orgK990112345678,9900345679,1,17890,0
+Spain,Centro de Apoyo y Esperanza,S006,www.centroapoyoyesperanza.org,NULL,NULL,orgK990223456789,9900654321,2,14678,0
+Spain,Red de Solidaridad y Progreso,S007,www.redsolidaridadyprogreso.org,NULL,NULL,NULL,NULL,NULL,NULL,2
+Spain,Asociación Nueva Luz,S008,www.asociacionnuevaluz.org,NULL,NULL,NULL,9900987655,2,15543,0
+Spain,Fundación Esperanza y Futuro,S009,www.fundacionesperanzayfuturo.org,NULL,NULL,orgK990556789012,9900234568,1,19234,0
+Spain,Centro de Acción Social Esperanza,S010,www.centroaccionalsocialesperanza.org,NULL,NULL,NULL,9900871235,2,16543,2
+Spain,Red de Apoyo Integral,S011,www.redapoyointegral.org,NULL,NULL,NULL,NULL,NULL,NULL,1
+Spain,Asociación Progreso Solidario,S012,www.asociacionprogresosolidario.org,NULL,NULL,orgK990889012345,9900567891,1,12123,0
+Spain,Fundación Luz y Esperanza,S013,www.fundacionluzyesperanza.org,NULL,NULL,orgK991001234567,9900543211,2,17321,0
+Spain,Centro de Bienestar y Solidaridad,S014,www.centrobienestarysolidaridad.org,NULL,NULL,orgK991112345678,NULL,NULL,NULL,0
+Spain,Red Esperanza y Desarrollo,S015,www.redesperanzaydesarrollo.org,NULL,NULL,NULL,9900237891,1,16342,1
+USA,National Wellness Foundation,U005,www.nationalwellnessfoundation.org,NULL,NULL,orgK990112345678,9900984321,2,17984,0
+USA,United Health Care Network,U006,www.unitedhealthcarenetwork.org,NULL,NULL,NULL,9900650988,1,12456,0
+USA,American Care Alliance,U007,www.americancarealliance.org,NULL,NULL,orgK990334567890,NULL,NULL,NULL,1
+USA,Future Health Initiative,U008,www.futurehealthinitiative.org,NULL,NULL,NULL,9900123457,2,19876,0
+USA,Hope and Healing Foundation,U009,www.hopeandhealingfoundation.org,NULL,NULL,orgK990556789012,NULL,NULL,NULL,0
+USA,Nationwide Health Support Network,U010,www.nationwidehealthsupport.org,NULL,NULL,NULL,9900789346,1,13789,0
+USA,Unified Care Solutions,U011,www.unifiedcaresolutions.org,NULL,NULL,orgK990778901234,NULL,NULL,NULL,2
+USA,Bright Horizons Health Foundation,U012,www.brighthorizonshealth.org,NULL,NULL,NULL,9900432111,2,14567,0
+USA,National Health and Wellness Network,U013,www.nationalhealthandwellness.org,NULL,NULL,orgK991001234567,9900765434,1,17234,0
+USA,American Wellness Partners,U014,www.americanwellnesspartners.org,NULL,NULL,orgK991112345678,NULL,NULL,NULL,2
+USA,Comprehensive Care Initiative,U015,www.comprehensivecareinitiative.org,NULL,NULL,NULL,9900456799,2,17543,1

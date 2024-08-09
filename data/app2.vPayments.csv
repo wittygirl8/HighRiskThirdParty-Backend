@@ -26,6 +26,229 @@
 81276543,12-03-2021,3000,USD,0,91835467,American Heart of Service,Postage & Couriers,Monetory TOV,Logistics,Logistic
 81284365,25-04-2021,2000,USD,0,91835647,Bright Future Initiative,Marketing,CERPS Invoice,Networking,Marketing
 81284635,10-05-2021,398,USD,0,91835647,Bright Future Initiative,Employee Training,CERPS Invoice,PaidScholarship,Training
+81284677,10-05-2022,7317,BRL,0,9900543210,Hospital de Câncer de Barretos,Vehicle Parking,CERPS Invoice,PaymentSubtype,Travel Expenses
+81284678,11-05-2022,10000,BRL,0,9900543210,Hospital de Câncer de Barretos,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81284679,12-05-2022,17317,EUR,0,9900543211,Fundación Luz y Esperanza,Hotel & Accomidation,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81284680,13-05-2022,17316,EUR,0,9900543211,Fundación Luz y Esperanza,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81284681,14-05-2022,16457,BRL,0,9900876543,Hospital Israelita Albert Einstein,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81284682,15-05-2022,6894,BRL,0,9900678901,Fundação Oswaldo Cruz (Fiocruz),Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81284683,16-05-2022,6895,BRL,0,9900678901,Fundação Oswaldo Cruz (Fiocruz),Taxi Fares,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81284684,17-05-2022,12345,BRL,0,9900923456,Hospital de Coração de São Paulo,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81284685,18-05-2022,7617,BRL,0,9900765433,Instituto do Coração (InCor),Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81284686,19-05-2022,7617,BRL,0,9900765433,Instituto do Coração (InCor),Air Fares,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81284687,20-05-2022,8992,USD,0,9900984321,National Wellness Foundation,Employee Training,Monetory TOV,PaidTravel Expenses,Membership Fees
+81284688,21-05-2022,8992,USD,0,9900984321,National Wellness Foundation,Digital Production,Monetory TOV,PaidScholarship,Other HCO Expenditure
+81284689,22-05-2022,12456,USD,0,9900650988,United Health Care Network,Postage & Couriers,Monetory TOV,N/A,Logistic
+81284690,23-05-2022,9938,USD,0,9900123457,Future Health Initiative,Marketing,CERPS Invoice,Logistics,Membership Fees
+81284691,24-05-2022,9938,USD,0,9900123457,Future Health Initiative,Employee Training,Monetory TOV,Networking,Other HCO Expenditure
+81284692,25-05-2022,13789,USD,0,9900789346,Nationwide Health Support Network,Digital Production,Monetory TOV,PaidScholarship,Others
+81284693,26-05-2022,7283,USD,0,9900432111,Bright Horizons Health Foundation,Postage & Couriers,Monetory TOV,N/A,Grants & Donations
+81284694,27-05-2022,7284,USD,0,9900432111,Bright Horizons Health Foundation,Marketing,CERPS Invoice,Logistics,Gifts
+81284695,28-05-2022,8772,USD,0,9900456799,Comprehensive Care Initiative,Employee Training,Monetory TOV,Networking,Training
+81284696,29-05-2022,8771,USD,0,9900456799,Comprehensive Care Initiative,Digital Production,Monetory TOV,PaidScholarship,Others
+71284697,29-05-2022,17890,EUR,0,9900345679,Fundación Esperanza Solidaria,Digital Production,Monetory TOV,PaidScholarship,Others
+71284698,29-05-2022,4678,EUR,0,9900654321,Centro de Apoyo y Esperanza,Digital Production,Monetory TOV,PaidScholarship,Others
+71284699,29-05-2022,10000,EUR,0,9900654321,Centro de Apoyo y Esperanza,Digital Production,Monetory TOV,PaidScholarship,Others
+81284697,30-05-2022,7771,EUR,0,9900987655,"Asociación Nueva Luz	",Postage & Couriers,Monetory TOV,N/A,Logistic
+81284698,31-05-2022,7772,EUR,0,9900987655,"Asociación Nueva Luz	",Postage & Couriers,Monetory TOV,N/A,Logistic
+81284699,01-06-2022,19234,EUR,0,9900234568,Fundación Esperanza y Futuro,Employee Training,Monetory TOV,Networking,Training
+81284700,02-06-2022,8271,EUR,0,9900871235,Centro de Acción Social Esperanza,Digital Production,Monetory TOV,PaidScholarship,Others
+81284701,03-06-2022,8272,EUR,0,9900871235,Centro de Acción Social Esperanza,Digital Production,Monetory TOV,PaidScholarship,Others
+81284702,04-06-2022,12123,EUR,0,9900567891,Asociación Progreso Solidario,Marketing,CERPS Invoice,Logistics,Marketing
+81284703,05-06-2022,16342,EUR,0,9900237891,Red Esperanza y Desarrollo,Employee Training,CERPS Invoice,Networking,Training
+81284704,06-06-2022,17234,USD,0,9900765432,National Health and Wellness Network,Employee Training,CERPS Invoice,PaidScholarship,Training
+81284705,07-06-2022,4416,BRL,0,90358472,Leonardo Silva,Employee Training,CERPS Invoice,PaidTravel Expenses,Entertainment
+81284706,08-06-2022,4416,BRL,0,90358472,Leonardo Silva,Digital Production,CERPS Invoice,PaidTravel Expenses,Gifts
+81284707,09-06-2022,4416,BRL,0,90358472,Leonardo Silva,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Membership Fees
+81284708,10-06-2022,7216,BRL,0,95647238,Diego Pereira,Marketing,CERPS Invoice,PaidTravel Expenses,Grants & Donations
+81284709,11-06-2022,7216,BRL,0,95647238,Diego Pereira,Employee Training,CERPS Invoice,PaidTravel Expenses,HCP Fee for Service
+81284710,12-06-2022,3593,BRL,0,98764523,Eduardo Martins,Digital Production,CERPS Invoice,PaidTravel Expenses,"HCP Fee for Service - Travel Expenses
+"
+81284711,13-06-2022,3593,BRL,0,98764523,Eduardo Martins,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Market Research
+81284712,14-06-2022,3593,BRL,0,98764523,Eduardo Martins,Marketing,CERPS Invoice,PaidTravel Expenses,Other HCO Expenditure
+81284713,15-06-2022,3593,BRL,0,98764523,Eduardo Martins,Employee Training,CERPS Invoice,PaidTravel Expenses,Sponsorships
+81284714,16-06-2022,3593,BRL,0,98764523,Eduardo Martins,Digital Production,CERPS Invoice,PaidTravel Expenses,Travel Expenses
+81284715,17-06-2022,2865,BRL,0,67428391,Vinícius Santos,Postage & Couriers,Monetory TOV,PaidScholarship,Travel Expenses
+81284716,18-06-2022,2865,BRL,0,67428391,Vinícius Santos,Marketing,Monetory TOV,N/A,Training
+81284717,19-06-2022,2865,BRL,0,67428391,Vinícius Santos,Employee Training,Monetory TOV,Logistics,Others
+81284718,20-06-2022,2864,BRL,0,67428391,Vinícius Santos,Digital Production,CERPS Invoice,Networking,Logistic
+81284719,21-06-2022,3919,BRL,0,83749216,Felipe Martins,Postage & Couriers,Monetory TOV,PaidScholarship,Marketing
+81284720,22-06-2022,3919,BRL,0,83749216,Felipe Martins,Marketing,Monetory TOV,N/A,Training
+81284721,23-06-2022,3919,BRL,0,83749216,Felipe Martins,Employee Training,Monetory TOV,Logistics,Others
+81284722,24-06-2022,3919,BRL,0,83749216,Felipe Martins,Vehicle Parking,CERPS Invoice,Networking,Logistic
+81284723,25-06-2022,3745,BRL,0,94928537,Érica Almeida,Vehicle Parking,Monetory TOV,PaidScholarship,Marketing
+81284724,26-06-2022,3745,BRL,0,94928537,Érica Almeida,Hotel & Accomidation,Monetory TOV,N/A,Training
+81284725,27-06-2022,3745,BRL,0,94928537,Érica Almeida,Other Travel Cost,Monetory TOV,Logistics,Others
+81284726,28-06-2022,7938,BRL,0,19273645,Ingrid Souza,Other Travel Cost,CERPS Invoice,Networking,Logistic
+81284727,29-06-2022,7938,BRL,0,19273645,Ingrid Souza,Vehicle Parking,Monetory TOV,PaidScholarship,Marketing
+81284728,30-06-2022,3271,BRL,0,83456721,Daniela Ribeiro,Taxi Fares,Monetory TOV,N/A,Training
+81284729,01-07-2022,3270,BRL,0,83456721,Daniela Ribeiro,Taxi Fares,Monetory TOV,Logistics,Others
+81284730,02-07-2022,3270,BRL,0,83456721,Daniela Ribeiro,Other Travel Cost,CERPS Invoice,Networking,Logistic
+81284731,03-07-2022,3270,BRL,0,83456721,Daniela Ribeiro,Air Fares,CERPS Invoice,PaidScholarship,Marketing
+81284732,04-07-2022,3270,BRL,0,83456721,Daniela Ribeiro,Employee Training,CERPS Invoice,PaymentSubtype,Training
+81284733,05-07-2022,17894,BRL,0,12567893,Matheus Silva,Digital Production,CERPS Invoice,PaidTravel Expenses,Training
+81284734,06-07-2022,7176,BRL,0,98712345,Alan Ferreira,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Entertainment
+81284735,07-07-2022,7176,BRL,0,98712345,Alan Ferreira,Marketing,Monetory TOV,PaidTravel Expenses,Gifts
+81284736,08-07-2022,4226,BRL,0,56782934,Patrícia Costa,Employee Training,Monetory TOV,PaidTravel Expenses,Membership Fees
+81284737,09-07-2022,4226,BRL,0,56782934,Patrícia Costa,Digital Production,CERPS Invoice,PaidTravel Expenses,Grants & Donations
+81284738,10-07-2022,4226,BRL,0,56782934,Patrícia Costa,Postage & Couriers,Monetory TOV,PaidTravel Expenses,HCP Fee for Service
+81284739,11-07-2022,3441,BRL,0,31457892,Ana Clara Souza,Marketing,Monetory TOV,PaidTravel Expenses,"HCP Fee for Service - Travel Expenses
+"
+81284740,12-07-2022,3441,BRL,0,31457892,Ana Clara Souza,Employee Training,Monetory TOV,PaidTravel Expenses,Market Research
+81284741,13-07-2022,3441,BRL,0,31457892,Ana Clara Souza,Digital Production,CERPS Invoice,PaidTravel Expenses,Other HCO Expenditure
+81284742,14-07-2022,3441,BRL,0,31457892,Ana Clara Souza,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Sponsorships
+81284743,15-07-2022,3047,EUR,0,64982371,Isabel Gómez,Marketing,Monetory TOV,PaidScholarship,Travel Expenses
+81284744,16-07-2022,3047,EUR,0,64982371,Isabel Gómez,Employee Training,Monetory TOV,N/A,Travel Expenses
+81284745,17-07-2022,3047,EUR,0,64982371,Isabel Gómez,Digital Production,CERPS Invoice,Logistics,Training
+81284746,18-07-2022,3047,EUR,0,64982371,Isabel Gómez,Postage & Couriers,CERPS Invoice,Networking,Others
+81284747,19-07-2022,3047,EUR,0,64982371,Isabel Gómez,Marketing,CERPS Invoice,PaidScholarship,Logistic
+81284748,20-07-2022,18923,EUR,0,95763482,Marta Morales,Employee Training,CERPS Invoice,N/A,Marketing
+81284749,21-07-2022,3752,EUR,0,28973416,Sergio Romero,Employee Training,CERPS Invoice,Logistics,Training
+81284750,22-07-2022,3752,EUR,0,28973416,Sergio Romero,Hotel & Accomidation,CERPS Invoice,Networking,Others
+81284751,23-07-2022,3752,EUR,0,28973416,Sergio Romero,Other Travel Cost,CERPS Invoice,PaidScholarship,Logistic
+81284752,24-07-2022,4108,EUR,0,74529368,Alberto Moreno,Other Travel Cost,CERPS Invoice,N/A,Marketing
+81284753,25-07-2022,4108,EUR,0,74529368,Alberto Moreno,Vehicle Parking,CERPS Invoice,Logistics,Training
+81284754,26-07-2022,4108,EUR,0,74529368,Alberto Moreno,Taxi Fares,CERPS Invoice,Networking,Others
+81284755,27-07-2022,4108,EUR,0,74529368,Alberto Moreno,Taxi Fares,CERPS Invoice,PaidScholarship,Logistic
+81284756,28-07-2022,3905,EUR,0,12897643,Adriana Gómez,Other Travel Cost,CERPS Invoice,N/A,Marketing
+81284757,29-07-2022,3905,EUR,0,12897643,Adriana Gómez,Air Fares,Monetory TOV,Logistics,Training
+81284758,30-07-2022,3905,EUR,0,12897643,Adriana Gómez,Employee Training,Monetory TOV,Networking,Others
+81284759,31-07-2022,3905,EUR,0,12897643,Adriana Gómez,Digital Production,Monetory TOV,PaidScholarship,Logistic
+81284760,01-08-2022,3905,EUR,0,12897643,Adriana Gómez,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Marketing
+81284761,02-08-2022,3946,EUR,0,45678921,Raquel Ramírez,Marketing,Monetory TOV,PaidTravel Expenses,Training
+81284762,03-08-2022,3946,EUR,0,45678921,Raquel Ramírez,Employee Training,Monetory TOV,PaidTravel Expenses,Training
+81284763,04-08-2022,3946,EUR,0,45678921,Raquel Ramírez,Digital Production,Monetory TOV,PaidTravel Expenses,Entertainment
+81284764,05-08-2022,3946,EUR,0,45678921,Raquel Ramírez,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Gifts
+81284765,06-08-2022,16789,EUR,0,27348956,Guillermo López,Marketing,Monetory TOV,PaidTravel Expenses,Membership Fees
+81284766,07-08-2022,8271,EUR,0,65472891,Patricia Pérez,Employee Training,Monetory TOV,PaidTravel Expenses,Grants & Donations
+81284767,08-08-2022,8272,EUR,0,65472891,Patricia Pérez,Digital Production,Monetory TOV,PaidTravel Expenses,HCP Fee for Service
+81284768,09-08-2022,3992,EUR,0,89427365,Hugo Pérez,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,"HCP Fee for Service - Travel Expenses
+"
+81284769,10-08-2022,3992,EUR,0,89427365,Hugo Pérez,Marketing,Monetory TOV,PaidTravel Expenses,Market Research
+81284770,11-08-2022,3992,EUR,0,89427365,Hugo Pérez,Employee Training,Monetory TOV,PaidScholarship,Other HCO Expenditure
+81284771,12-08-2022,2651,EUR,0,73928416,Antonio Ortega,Digital Production,Monetory TOV,N/A,Sponsorships
+81284772,13-08-2022,2651,EUR,0,73928416,Antonio Ortega,Postage & Couriers,CERPS Invoice,Logistics,Travel Expenses
+81284773,14-08-2022,2651,EUR,0,73928416,Antonio Ortega,Marketing,CERPS Invoice,Networking,Travel Expenses
+81284774,15-08-2022,2651,EUR,0,73928416,Antonio Ortega,Employee Training,CERPS Invoice,PaidScholarship,Training
+81284775,16-08-2022,2651,EUR,0,73928416,Antonio Ortega,Vehicle Parking,CERPS Invoice,N/A,Others
+81284776,17-08-2022,4448,EUR,0,98674512,Marta López,Vehicle Parking,CERPS Invoice,Logistics,Logistic
+81284777,18-08-2022,4448,EUR,0,98674512,Marta López,Hotel & Accomidation,CERPS Invoice,Networking,Marketing
+81284778,19-08-2022,4448,EUR,0,98674512,Marta López,Other Travel Cost,CERPS Invoice,PaidScholarship,Training
+81284779,20-08-2022,4448,EUR,0,98674512,Marta López,Other Travel Cost,CERPS Invoice,N/A,Others
+81284780,21-08-2022,7739,EUR,0,56748329,Pablo Martínez,Vehicle Parking,CERPS Invoice,Logistics,Logistic
+81284781,22-08-2022,7739,EUR,0,56748329,Pablo Martínez,Taxi Fares,CERPS Invoice,Networking,Marketing
+81284782,23-08-2022,13579,EUR,0,98327456,Rafael Martín,Taxi Fares,CERPS Invoice,PaidScholarship,Training
+81284783,24-08-2022,4152,EUR,0,29873415,Pilar Sánchez,Other Travel Cost,CERPS Invoice,N/A,Others
+81284784,25-08-2022,4152,EUR,0,29873415,Pilar Sánchez,Air Fares,CERPS Invoice,Logistics,Logistic
+81284785,26-08-2022,4152,EUR,0,29873415,Pilar Sánchez,Employee Training,Monetory TOV,Networking,Marketing
+81284786,27-08-2022,4586,EUR,0,78654329,Roberto Morales,Digital Production,Monetory TOV,PaidScholarship,Training
+81284787,28-08-2022,4586,EUR,0,78654329,Roberto Morales,Postage & Couriers,Monetory TOV,PaymentSubtype,Others
+81284788,29-08-2022,4586,EUR,0,78654329,Roberto Morales,Marketing,CERPS Invoice,PaidTravel Expenses,Logistic
+81284789,30-08-2022,4587,EUR,0,78654329,Roberto Morales,Employee Training,Monetory TOV,PaidTravel Expenses,Marketing
+81284790,31-08-2022,3298,EUR,0,94783216,Alicia Gómez,Digital Production,Monetory TOV,PaidTravel Expenses,Training
+81284791,01-09-2022,3297,EUR,0,94783216,Alicia Gómez,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Training
+81284792,02-09-2022,3297,EUR,0,94783216,Alicia Gómez,Marketing,CERPS Invoice,PaidTravel Expenses,Entertainment
+81284793,03-09-2022,3297,EUR,0,94783216,Alicia Gómez,Employee Training,Monetory TOV,PaidTravel Expenses,Gifts
+81284794,04-09-2022,3297,EUR,0,94783216,Alicia Gómez,Digital Production,Monetory TOV,PaidTravel Expenses,Membership Fees
+81284795,05-09-2022,8882,USD,0,35876492,Daniel White,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Grants & Donations
+81284796,06-09-2022,8883,USD,0,35876492,Daniel White,Marketing,CERPS Invoice,PaidTravel Expenses,HCP Fee for Service
+81284797,07-09-2022,4418,USD,0,27349658,Mia Lewis,Employee Training,Monetory TOV,PaidTravel Expenses,"HCP Fee for Service - Travel Expenses
+"
+81284798,08-09-2022,4419,USD,0,27349658,Mia Lewis,Digital Production,Monetory TOV,PaidScholarship,Market Research
+81284799,09-09-2022,4419,USD,0,27349658,Mia Lewis,Postage & Couriers,Monetory TOV,N/A,Other HCO Expenditure
+81284800,10-09-2022,4533,USD,0,56782134,Sophia Walker,Marketing,CERPS Invoice,Logistics,Sponsorships
+81284801,11-09-2022,4532,USD,0,56782134,Sophia Walker,Employee Training,CERPS Invoice,Networking,Travel Expenses
+81284802,12-09-2022,4532,USD,0,56782134,Sophia Walker,Employee Training,CERPS Invoice,PaidScholarship,Others
+81284803,13-09-2022,4532,USD,0,56782134,Sophia Walker,Employee Training,CERPS Invoice,N/A,Logistic
+81284804,14-09-2022,14987,USD,0,39487126,"Isabella Young	",Digital Production,Monetory TOV,Logistics,Marketing
+81284805,15-09-2022,14987,USD,0,39487126,"Isabella Young	",Postage & Couriers,Monetory TOV,Networking,Training
+81284806,16-09-2022,14987,USD,0,39487126,"Isabella Young	",Marketing,Monetory TOV,PaidScholarship,Others
+81284807,17-09-2022,14988,USD,0,39487126,"Isabella Young	",Employee Training,CERPS Invoice,N/A,Logistic
+81284808,18-09-2022,14987,USD,0,39487126,"Isabella Young	",Digital Production,Monetory TOV,Logistics,Marketing
+81284809,19-09-2022,15678,USD,0,76439528,Emma Scott,Postage & Couriers,Monetory TOV,Networking,Training
+81284810,20-09-2022,8961,USD,0,89234716,Brandon Carter,Marketing,Monetory TOV,PaidScholarship,Training
+81284811,21-09-2022,8962,USD,0,89234716,Brandon Carter,Employee Training,CERPS Invoice,N/A,Entertainment
+81284812,22-09-2022,5594,USD,0,15478239,Grace Roberts,Digital Production,Monetory TOV,Logistics,Gifts
+81284813,23-09-2022,5594,USD,0,15478239,Grace Roberts,Postage & Couriers,Monetory TOV,Networking,Membership Fees
+81284814,24-09-2022,5594,USD,0,15478239,Grace Roberts,Marketing,Monetory TOV,PaidScholarship,Grants & Donations
+81284815,25-09-2022,17945,USD,0,29387465,William Collins,Employee Training,CERPS Invoice,PaidTravel Expenses,HCP Fee for Service
+81284816,26-09-2022,17945,USD,0,29387465,William Collins,Digital Production,CERPS Invoice,PaidTravel Expenses,Others
+81284817,27-09-2022,17945,USD,0,29387465,William Collins,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Logistic
+81284818,28-09-2022,17946,USD,0,29387465,William Collins,Marketing,CERPS Invoice,PaidTravel Expenses,Marketing
+81284819,29-09-2022,2469,USD,0,53829174,James Brown,Employee Training,CERPS Invoice,PaidTravel Expenses,Training
+81284820,30-09-2022,2469,USD,0,53829174,James Brown,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Others
+81284821,01-10-2022,2470,USD,0,53829174,James Brown,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Logistic
+81284822,02-10-2022,2470,USD,0,53829174,James Brown,Hotel & Accomidation,CERPS Invoice,PaidTravel Expenses,Marketing
+81284823,03-10-2022,2470,USD,0,53829174,James Brown,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Training
+81284824,04-10-2022,19027,USD,0,67943285,Alexander Green,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Training
+81284825,05-10-2022,7178,USD,0,90127384,Thomas Morgan,Vehicle Parking,CERPS Invoice,PaidScholarship,Entertainment
+81284826,06-10-2022,7178,USD,0,90127384,Thomas Morgan,Taxi Fares,CERPS Invoice,N/A,Gifts
+81284827,07-10-2022,5631,USD,0,83657249,Ethan Brooks,Taxi Fares,Monetory TOV,Logistics,Membership Fees
+81284828,08-10-2022,5632,USD,0,83657249,Ethan Brooks,Other Travel Cost,Monetory TOV,Networking,Grants & Donations
+81284829,09-10-2022,5632,USD,0,83657249,Ethan Brooks,Air Fares,Monetory TOV,PaidScholarship,HCP Fee for Service
+81284830,10-10-2022,3920,USD,0,26748391,Lucas Hughes,Employee Training,CERPS Invoice,N/A,Others
+81284831,11-10-2022,3920,USD,0,26748391,Lucas Hughes,Digital Production,Monetory TOV,Logistics,Logistic
+81284832,12-10-2022,3919,USD,0,26748391,Lucas Hughes,Postage & Couriers,Monetory TOV,Networking,Marketing
+81284833,13-10-2022,3919,USD,0,26748391,Lucas Hughes,Marketing,Monetory TOV,PaidScholarship,Training
+81284834,14-10-2022,3686,USD,0,95126374,Jack Wilson,Employee Training,CERPS Invoice,N/A,Others
+81284835,15-10-2022,3686,USD,0,95126374,Jack Wilson,Digital Production,Monetory TOV,Logistics,Logistic
+81284836,16-10-2022,3686,USD,0,95126374,Jack Wilson,Postage & Couriers,Monetory TOV,Networking,Marketing
+81284837,17-10-2022,3686,USD,0,95126374,Jack Wilson,Marketing,Monetory TOV,PaidScholarship,Training
+81284838,18-10-2022,3686,USD,0,95126374,Jack Wilson,Employee Training,CERPS Invoice,N/A,Training
+81284839,19-10-2022,16543,USD,0,37489216,Samuel Price,Digital Production,Monetory TOV,Logistics,Entertainment
+81284840,20-10-2022,6178,USD,0,67982354,Henry James,Postage & Couriers,Monetory TOV,Networking,Gifts
+81284841,21-10-2022,6178,USD,0,67982354,Henry James,Marketing,Monetory TOV,PaidScholarship,Membership Fees
+81284842,22-10-2022,5975,USD,0,19578362,Owen Campbell,Employee Training,CERPS Invoice,PaymentSubtype,Grants & Donations
+81284843,23-10-2022,5975,USD,0,19578362,Owen Campbell,Digital Production,CERPS Invoice,PaidTravel Expenses,HCP Fee for Service
+81284844,24-10-2022,5975,USD,0,19578362,Owen Campbell,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Membership Fees
+81284845,25-10-2022,3694,USD,0,94723681,Aria Morris,Marketing,CERPS Invoice,PaidTravel Expenses,Grants & Donations
+81284846,26-10-2022,3695,USD,0,94723681,Aria Morris,Employee Training,CERPS Invoice,PaidTravel Expenses,HCP Fee for Service
+81284847,27-10-2022,3695,USD,0,94723681,Aria Morris,Employee Training,CERPS Invoice,PaidTravel Expenses,Others
+81284848,28-10-2022,3695,USD,0,94723681,Aria Morris,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Logistic
+81284849,29-10-2022,3825,USD,0,28479513,Evelyn Rivera,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Marketing
+81284850,30-10-2022,3825,USD,0,28479513,Evelyn Rivera,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Training
+81284851,31-10-2022,3825,USD,0,28479513,Evelyn Rivera,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Others
+81284852,01-11-2022,3825,USD,0,28479513,Evelyn Rivera,Air Fares,CERPS Invoice,PaidTravel Expenses,Logistic
+81284853,02-11-2022,3824,USD,0,28479513,Evelyn Rivera,Employee Training,CERPS Invoice,PaidScholarship,Marketing
+81284854,03-11-2022,12478,USD,0,59847236,Stella Ward,Digital Production,CERPS Invoice,N/A,Training
+81284855,04-11-2022,6789,USD,0,67192834,Logan Hughes,Postage & Couriers,Monetory TOV,Logistics,Training
+81284856,05-11-2022,6790,USD,0,67192834,Logan Hughes,Marketing,Monetory TOV,Networking,Entertainment
+81284857,06-11-2022,6292,USD,0,39482716,Alice James,Employee Training,Monetory TOV,PaidScholarship,Gifts
+81284858,07-11-2022,6292,USD,0,39482716,Alice James,Digital Production,CERPS Invoice,N/A,Membership Fees
+81284859,08-11-2022,6292,USD,0,39482716,Alice James,Postage & Couriers,Monetory TOV,Logistics,Grants & Donations
+81284860,09-11-2022,4224,USD,0,57492831,Eli Bennett,Marketing,Monetory TOV,Networking,HCP Fee for Service
+81284861,10-11-2022,4223,USD,0,57492831,Eli Bennett,Employee Training,Monetory TOV,PaidScholarship,Training
+81284862,11-11-2022,4223,USD,0,57492831,Eli Bennett,Digital Production,CERPS Invoice,N/A,Entertainment
+81284863,12-11-2022,4223,USD,0,57492831,Eli Bennett,Postage & Couriers,Monetory TOV,Logistics,Gifts
+81284864,13-11-2022,3869,USD,0,85237491,Mila Murphy,Marketing,Monetory TOV,Networking,Membership Fees
+81284865,14-11-2022,3869,USD,0,85237491,Mila Murphy,Employee Training,Monetory TOV,PaidScholarship,Grants & Donations
+81284866,15-11-2022,3869,USD,0,85237491,Mila Murphy,Digital Production,CERPS Invoice,N/A,HCP Fee for Service
+81284867,16-11-2022,3869,USD,0,85237491,Mila Murphy,Postage & Couriers,Monetory TOV,Logistics,Membership Fees
+81284868,17-11-2022,3869,USD,0,85237491,Mila Murphy,Marketing,Monetory TOV,Networking,Grants & Donations
+81284869,18-11-2022,14321,USD,0,93874625,Adam Rogers,Employee Training,Monetory TOV,PaidScholarship,HCP Fee for Service
+81284870,19-11-2022,9528,USD,0,27964385,Nora Ward,Employee Training,CERPS Invoice,Logistics,Others
+81284871,20-11-2022,9528,USD,0,27964385,Nora Ward,Postage & Couriers,CERPS Invoice,Networking,Logistic
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 ,,,,,,,,,,

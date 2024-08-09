@@ -1,0 +1,46 @@
+﻿ID,country,Name,NodeType,InteractionId,PaymentId,PaymentCount,PaymentAmount,InteractionCount
+B001,brazil,Instituto Esperança Brasil,HCO,NULL,91827364,1,2905,0
+B002,brazil,Fundação Vida Verde,HCO,NULL,91827365,1,1350,0
+B003,brazil,Rede Solidariedade Brasil,HCO,NULL,91827436,2,2000,0
+B004,brazil,Centro de Ação Humanitária do Amazonas,HCO,exist,NULL,0,2769,1
+B005,brazil,Associação Nova Esperança,HCO,NULL,91827634,1,3982,0
+B006,brazil,Projeto Cidadania e Futuro,HCO,NULL,91827643,1,2456,0
+B007,brazil,Aliança Social Brasileira,HCO,exist,91828436,2,1352,1
+S001,spain,Fundación Luz de Esperanza,HCO,NULL,91828463,1,2760,0
+S002,spain,Red Solidaridad España,HCO,NULL,NULL,0,2345,0
+S003,spain,Centro de Acción Social Iberia,HCO,NULL,91832746,2,2956,0
+S004,spain,Asociación Progreso y Bienestar,HCO,exist,91832764,1,2698,2
+U001,usa,Nationwide Hope Foundation,HCO,NULL,91834627,1,3952,0
+U002,usa,United Community Aid Network,HCO,NULL,NULL,0,2609,0
+U003,usa,American Heart of Service,HCO,exist,91835467,2,3926,2
+U004,usa,Bright Future Initiative,HCO,exist,91835647,2,2398,1
+B008,brazil,Hospital das Clínicas de São Paulo,HCO,NULL,NULL,NULL,NULL,0
+B009,brazil,Hospital de Câncer de Barretos,HCO,NULL,9900543210,2,17312,0
+B010,brazil,Hospital Israelita Albert Einstein,HCO,NULL,9900876543,1,16457,0
+B011,brazil,Hospital Sírio-Libanês,HCO,exist,NULL,NULL,NULL,1
+B012,brazil,Fundação Oswaldo Cruz (Fiocruz),HCO,NULL,9900678901,2,13789,0
+B013,brazil,Hospital de Coração de São Paulo,HCO,NULL,9900923456,1,12345,0
+B014,brazil,Instituto do Coração (InCor),HCO,exist,9900765432,2,15234,1
+B015,brazil,Hospital São Luiz,HCO,NULL,NULL,NULL,NULL,0
+S005,spain,Fundación Esperanza Solidaria,HCO,NULL,9900345678,1,17890,0
+S006,spain,Centro de Apoyo y Esperanza,HCO,NULL,9900654321,2,14678,0
+S007,spain,Red de Solidaridad y Progreso,HCO,exist,NULL,NULL,NULL,2
+S008,spain,Asociación Nueva Luz,HCO,NULL,9900987654,2,15543,0
+S009,spain,Fundación Esperanza y Futuro,HCO,NULL,9900234567,1,19234,0
+S010,spain,Centro de Acción Social Esperanza,HCO,exist,9900871234,2,16543,2
+S011,spain,Red de Apoyo Integral,HCO,exist,NULL,NULL,NULL,1
+S012,spain,Asociación Progreso Solidario,HCO,NULL,9900567890,1,12123,0
+S013,spain,Fundación Luz y Esperanza,HCO,NULL,9900543210,2,17321,0
+S014,spain,Centro de Bienestar y Solidaridad,HCO,NULL,NULL,NULL,NULL,0
+S015,spain,Red Esperanza y Desarrollo,HCO,exist,9900237890,1,16342,1
+U005,usa,National Wellness Foundation,HCO,NULL,9900984321,2,17984,0
+U006,usa,United Health Care Network,HCO,NULL,9900650987,1,12456,0
+U007,usa,American Care Alliance,HCO,exist,NULL,NULL,NULL,1
+U008,usa,Future Health Initiative,HCO,NULL,9900123456,2,19876,0
+U009,usa,Hope and Healing Foundation,HCO,NULL,NULL,NULL,NULL,0
+U010,usa,Nationwide Health Support Network,HCO,NULL,9900789345,1,13789,0
+U011,usa,Unified Care Solutions,HCO,exist,NULL,NULL,NULL,2
+U012,usa,Bright Horizons Health Foundation,HCO,NULL,9900432109,2,14567,0
+U013,usa,National Health and Wellness Network,HCO,NULL,9900765432,1,17234,0
+U014,usa,American Wellness Partners,HCO,exist,NULL,NULL,NULL,2
+U015,usa,Comprehensive Care Initiative,HCO,exist,9900456789,2,17543,1
