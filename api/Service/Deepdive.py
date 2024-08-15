@@ -85,8 +85,7 @@ class Deepdive:
             # get payment range
             currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
             # set default minimum to 1 and default to no max
-            payment_min = data['min'] if (
-                        data['min'] not in ('0', 'null')) else 1  # (10000 if country == 'usa' else 5000)
+            payment_min = data['min'] if (data['min'] not in ('0', 'null')) else 1  # (10000 if country == 'usa' else 5000)
             payment_max = data['max'] if (data['max'] not in ('0', 'null')) else None
 
             print("payment_max", payment_max)
@@ -96,7 +95,7 @@ class Deepdive:
             # get all nodes from selected country with amount and indicator for payment range
 
             # condition for inPaymentRange; add 1 to capture fractions
-            query_ext = f' and PaymentAmount <= ({payment_max} + 1)' if payment_max is not None else ''
+            # query_ext = f' and PaymentAmount <= ({payment_max} + 1)' if payment_max is not None else ''
 
             # condition for node type - HCO ids start with a country initial
             if org == 'hco':
@@ -775,6 +774,7 @@ class Deepdive:
 
             hcos = hcos.drop_duplicates()
             vHcp_df = pd.read_csv('data/app2.vHCP.csv', encoding='ISO-8859-1')
+            vHcp_df.rename(columns={'ï»¿id': 'id'}, inplace=True)
             merged_df = pd.merge(vHcp_df, data_df, left_on='id', right_on='hcp_id')
             print(merged_df.columns)
             print(merged_df)
@@ -888,7 +888,9 @@ class Deepdive:
                         timeline_list.append(event_dict)
             else:
                 df = pd.read_csv('data/app2.vHCP.csv')
-                df_filtered = df[df['ID'] == iden]
+                df['id'] = df['id'].astype(str)
+                df_filtered = df[df['id'] == iden]
+                print("found id",df_filtered)
                 entity = df_filtered[['hcp_name', 'payment_hcp_id']]
                 for i, row in entity.iterrows():
                     entity_name = row['hcp_name']
@@ -940,16 +942,19 @@ class Deepdive:
                 ['ThirdPartyPaymentsLineId', 'InvoiceGIDate', 'PaymentType', 'PaymentSubtype', 'InvoiceLineAmountLocal',
                  'AllText', 'Currency', 'VendorNumber', 'VendorName']]
             payments = df_filtered.sort_values(by='InvoiceGIDate')
+            print("error", payments.columns)
             if not payments.empty:
                 for i, row in payments.iterrows():
                     event_dict = dict()
                     event_dict["id"] = data['id']
-                    event_dict["tag"] = row['PaymentSubtype'] + ' for ' + row["VendorName"]
+                    event_dict["tag"] = str(row['PaymentSubtype']) + ' for ' + str(row["VendorName"])
                     event_dict["category"] = row['PaymentType']
-                    event_dict['date'] = str(row['InvoiceGlDate'])
-                    event_dict['sortdate'] = row['InvoiceGlDate']
-                    event_dict['description'] = '{:,.2f}'.format(row['InvoiceLineAmountLocal']) + ' ' + str(
-                        row['Currency']) + ' | ' + row['AllText']  # format with thousands separaters and 2dp
+                    event_dict['date'] = str(row['InvoiceGIDate'])
+                    event_dict['sortdate'] = row['InvoiceGIDate']
+                    x = '{:,.2f}'.format(row['InvoiceLineAmountLocal'])
+                    print("type",type(x))
+                    x=str(x)
+                    event_dict['description'] = x + ' ' + str(row['Currency']) + ' | ' + str(row['AllText'])  # format with thousands separaters and 2dp
                     timeline_list.append(event_dict)
 
             # def convert_to_date(date_str):
@@ -989,9 +994,9 @@ class Deepdive:
 
             timeline_list = []
             if 'B' in data['id'] or 'S' in data['id'] or 'U' in data['id']:
-                query = (f"select HCO from [app2].[vHco] where I"
-                         f"D = '{iden}'")
-                db = MSSQLConnection()
+                # query = (f"select HCO from [app2].[vHco] where I"
+                #          f"D = '{iden}'")
+                # db = MSSQLConnection()
                 # entity = db.select_df(query)
                 file_path = 'data/app2.vHco.csv'
                 df = pd.read_csv(file_path)
@@ -1032,6 +1037,7 @@ class Deepdive:
                 df = pd.read_csv(file_path, encoding='latin1')
                 # pd.read_csv(file_path, encoding='latin1')
                 print("df____", df)
+                df.rename(columns={'ï»¿id': 'id'}, inplace=True)
                 entity = df[df['id'] == iden]
 
                 print("entity____", entity)
@@ -1083,6 +1089,8 @@ class Deepdive:
             # entity = db.select_df(query)
             file_path = 'data/app2.AllNodes.csv'
             df = pd.read_csv(file_path)
+            print(type(iden))
+            df['ID'] = df['ID'].astype(str)
             entity = df[df['ID'] == iden][['ID', 'Name', 'PaymentAmount', 'InteractionCount', 'country']].rename(
                 columns={'country': 'Country'})
             # .rename(columns={'COUNTRY': 'Country'}))
@@ -1096,8 +1104,7 @@ class Deepdive:
                     currency = currency_mapping[row['Country'].lower()]
                     break
 
-            return_dict['totalPaymentMade'] = '{:,.2f}'.format(
-                payment_amount) + ' ' + currency  # format with thousands separaters and 2dp
+            return_dict['totalPaymentMade'] = '{:,.2f}'.format(payment_amount) + ' ' + currency  # format with thousands separaters and 2dp
 
             return_dict['totalInteraction'] = str(total_interactions)
             return_dict['selectedName'] = entity_name

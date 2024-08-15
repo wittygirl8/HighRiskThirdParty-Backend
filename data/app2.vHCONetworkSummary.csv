@@ -14,33 +14,33 @@ U001,USA,Nationwide Hope Foundation,6,1,4,1,1,1,1,3952,3952,3952
 U002,USA,United Community Aid Network,10,0,2,4,1,3,0,2609,2609,2609
 U003,USA,American Heart of Service,11,0,3,2,4,2,2,3926,3926,3926
 U004,USA,Bright Future Initiative,12,1,1,2,2,1,2,2398,2398,2398
-B008,Brazil,Hospital das Clínicas de São Paulo,7,1,2,3,2,1,NULL,NULL,NULL,NULL
+B008,Brazil,Hospital das Clínicas de São Paulo,7,1,2,3,2,1,0,0,0,0
 B009,Brazil,Hospital de Câncer de Barretos,13,0,1,1,0,2,2,17312,17312,17312
 B010,Brazil,Hospital Israelita Albert Einstein,18,1,4,4,1,0,1,16457,16457,16457
-B011,Brazil,Hospital Sírio-Libanês,8,1,0,0,3,3,NULL,NULL,NULL,NULL
+B011,Brazil,Hospital Sírio-Libanês,8,1,0,0,3,3,0,0,0,0
 B012,Brazil,Fundação Oswaldo Cruz (Fiocruz),3,0,3,2,2,1,2,13789,13789,13789
 B013,Brazil,Hospital de Coração de São Paulo,12,1,2,3,4,2,1,12345,12345,12345
 B014,Brazil,Instituto do Coração (InCor),14,1,1,1,0,1,2,15234,15234,15234
-B015,Brazil,Hospital São Luiz,9,0,3,4,1,3,NULL,NULL,NULL,NULL
+B015,Brazil,Hospital São Luiz,9,0,3,4,1,3,0,0,0,0
 S005,Spain,Fundación Esperanza Solidaria,17,1,0,2,3,2,1,17890,17890,17890
 S006,Spain,Centro de Apoyo y Esperanza,22,0,4,0,2,0,2,14678,14678,14678
-S007,Spain,Red de Solidaridad y Progreso,11,1,2,1,4,1,NULL,NULL,NULL,NULL
+S007,Spain,Red de Solidaridad y Progreso,11,1,2,1,4,1,0,0,0,0
 S008,Spain,Asociación Nueva Luz,6,0,1,3,0,3,2,15543,15543,15543
 S009,Spain,Fundación Esperanza y Futuro,1,1,3,2,2,2,1,19234,19234,19234
 S010,Spain,Centro de Acción Social Esperanza,2,0,4,4,4,1,2,16543,16543,16543
-S011,Spain,Red de Apoyo Integral,8,1,0,0,1,3,NULL,NULL,NULL,NULL
+S011,Spain,Red de Apoyo Integral,8,1,0,0,1,3,0,0,0,0
 S012,Spain,Asociación Progreso Solidario,3,0,1,1,2,0,1,12123,12123,12123
 S013,Spain,Fundación Luz y Esperanza,19,1,2,3,1,1,2,17321,17321,17321
-S014,Spain,Centro de Bienestar y Solidaridad,13,1,3,2,3,2,NULL,NULL,NULL,NULL
+S014,Spain,Centro de Bienestar y Solidaridad,13,1,3,2,3,2,0,0,0,0
 S015,Spain,Red Esperanza y Desarrollo,7,0,4,4,0,3,1,16342,16342,16342
 U005,USA,National Wellness Foundation,12,1,0,0,4,1,2,17984,17984,17984
 U006,USA,United Health Care Network,2,0,2,2,2,2,1,12456,12456,12456
-U007,USA,American Care Alliance,5,1,1,4,1,0,NULL,NULL,NULL,NULL
+U007,USA,American Care Alliance,5,1,1,4,1,0,0,0,0,0
 U008,USA,Future Health Initiative,17,0,3,1,3,3,2,19876,19876,19876
-U009,USA,Hope and Healing Foundation,2,1,4,3,4,1,NULL,NULL,NULL,NULL
+U009,USA,Hope and Healing Foundation,2,1,4,3,4,1,0,0,0,0
 U010,USA,Nationwide Health Support Network,11,1,0,0,0,2,1,13789,13789,13789
-U011,USA,Unified Care Solutions,9,0,1,2,1,3,NULL,NULL,NULL,NULL
+U011,USA,Unified Care Solutions,9,0,1,2,1,3,0,0,0,0
 U012,USA,Bright Horizons Health Foundation,16,1,2,4,0,0,2,14567,14567,14567
 U013,USA,National Health and Wellness Network,1,0,4,1,1,1,1,17234,17234,17234
-U014,USA,American Wellness Partners,8,1,3,3,2,2,NULL,NULL,NULL,NULL
+U014,USA,American Wellness Partners,8,1,3,3,2,2,0,0,0,0
 U015,USA,Comprehensive Care Initiative,18,0,0,0,4,3,2,17543,17543,17543
