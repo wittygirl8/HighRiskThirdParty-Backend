@@ -77,7 +77,7 @@ class Deepdive:
                 return True, "graph_by_country", []
 
             # Read the CSV data into a DataFrame
-            file_path = 'data/app2.AllNodes.csv'
+            file_path = 'data/app2.vAllNodes.csv'
             df = pd.read_csv(file_path)
 
             print("vAllNodes________", df)
