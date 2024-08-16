@@ -77,7 +77,7 @@ class Deepdive:
                 return True, "graph_by_country", []
 
             # Read the CSV data into a DataFrame
-            file_path = 'data/app2.vAllNodes.csv'
+            file_path = 'data/app2.AllNodes.csv'
             df = pd.read_csv(file_path)
 
             print("vAllNodes________", df)
@@ -196,7 +196,7 @@ class Deepdive:
                 result2 = result2[result2['hcp_id_x'] != result2['hcp_id_y']]
 
                 # Select the required columns and rename them
-                result2 = result2[['hco_id_x', 'hco_id_y']]
+                result2 = result2[['hcp_id_x', 'hcp_id_y']]
                 result2.columns = ['from_id', 'to_id']
                 query = f'with t1 as ({subqueryA}) \
                         select distinct A.[hcp_id] as [from_id], B.[hcp_id] as [to_id] from t1 A \
@@ -223,6 +223,9 @@ class Deepdive:
             # print("________query2________", query)
             # orgType_edges = db.select_df(query)
             orgType_edges = result2
+            base_nodes['node_id'] = base_nodes['node_id'].astype(str)
+            orgType_edges['from_id'] = orgType_edges['from_id'].astype(str)
+            orgType_edges['to_id'] = orgType_edges['from_id'].astype(str)
 
             # join to the base nodes
             orgType_edges = orgType_edges.merge(
@@ -682,7 +685,10 @@ class Deepdive:
             if 'B' in iden or 'S' in iden or 'U' in iden:
                 filtered_df = data_df[data_df['hco_id'] == iden]
             else:
+                iden = str(iden)
+                data_df['hcp_id'] = data_df['hcp_id'].astype(str)
                 filtered_df = data_df[data_df['hcp_id'] == iden]
+                print("filtered",filtered_df)
             result_df = (filtered_df
                          .groupby(['hco_id', 'hcp_id'])
                          .size()
@@ -775,6 +781,8 @@ class Deepdive:
             hcos = hcos.drop_duplicates()
             vHcp_df = pd.read_csv('data/app2.vHCP.csv', encoding='ISO-8859-1')
             vHcp_df.rename(columns={'ï»¿id': 'id'}, inplace=True)
+            vHcp_df['id'] = vHcp_df['id'].astype(str)
+            data_df['hcp_id'] = data_df['hcp_id'].astype(str)
             merged_df = pd.merge(vHcp_df, data_df, left_on='id', right_on='hcp_id')
             print(merged_df.columns)
             print(merged_df)
@@ -786,7 +794,8 @@ class Deepdive:
             df = result_df
             nodes_df = df[['id', 'hcp_name', 'designation', 'country']]
             print(nodes_df)
-
+            hcps['hcp'] = hcps['hcp'].astype(str)
+            nodes_df['id'] = nodes_df['id'].astype(str)
             nodes_merged = hcps.merge(nodes_df, how='inner', left_on=["hcp"], right_on=["id"])
             print(nodes_merged)
             nodes_merged = nodes_merged.drop_duplicates(subset=['id'])
@@ -1031,13 +1040,17 @@ class Deepdive:
                         timeline_list.append(event_dict)
             else:
                 query = f"select hcp_name from [app2].[vHcp] where Id = '{iden}'"
-                db = MSSQLConnection()
-                # entity = db.select_df(query)
+                # db = MSSQLConnection()
+                # # entity = db.select_df(query)
+                print("hcp news")
                 file_path = 'data/app2.vHCP.csv'
                 df = pd.read_csv(file_path, encoding='latin1')
                 # pd.read_csv(file_path, encoding='latin1')
                 print("df____", df)
                 df.rename(columns={'ï»¿id': 'id'}, inplace=True)
+                print(df.columns)
+                iden = str(iden)
+                df['id'] = df['id'].astype(str)
                 entity = df[df['id'] == iden]
 
                 print("entity____", entity)
