@@ -26,14 +26,23 @@ def data_by_user():
 
 @deepdive_api_v1.route('/graph/country', methods=['GET'])
 @jwt_required()
-def graph_by_country():
+def data_by_country():
     data = Utils.get_request_data(request)
     print(data, "--------------------------------------------------------")
-    _ret = Controller.graph_by_country(data)
+    _ret = Controller.data_by_country(data)
     if _ret[0]:
         return Utils.create_response(_ret[1], data=_ret[2])
     else:
         return Utils.create_response(_ret[1], code=RetCodes.Not_Found)
+
+# def graph_by_country():
+#     data = Utils.get_request_data(request)
+#     print(data, "--------------------------------------------------------")
+#     _ret = Controller.graph_by_country(data)
+#     if _ret[0]:
+#         return Utils.create_response(_ret[1], data=_ret[2])
+#     else:
+#         return Utils.create_response(_ret[1], code=RetCodes.Not_Found)
 
 
 @deepdive_api_v1.route('/graph/node', methods=['GET'])

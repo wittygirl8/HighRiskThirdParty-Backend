@@ -223,6 +223,7 @@ class Deepdive:
             # print("________query2________", query)
             # orgType_edges = db.select_df(query)
             orgType_edges = result2
+            print("______________orgType_edges______________", orgType_edges)
             base_nodes['node_id'] = base_nodes['node_id'].astype(str)
             orgType_edges['from_id'] = orgType_edges['from_id'].astype(str)
             orgType_edges['to_id'] = orgType_edges['from_id'].astype(str)
@@ -304,6 +305,7 @@ class Deepdive:
                 node_dict['size'] = 50 if row['inPaymentRange'] == 1 else 10
                 nodes_list.append(node_dict)
 
+            print("orgType_edges______________________", orgType_edges)
             for rowIndex, row in orgType_edges.iterrows():
                 edge_dict = dict()
                 edge_dict['from'] = row['from_id']
@@ -351,7 +353,7 @@ class Deepdive:
             # if data["country"].strip().lower() == "usa":
             #     _ret = self.read_json("usa.json")
             # TILL HERE
-            print(data)
+            print("data____________",data)
             country = data['country']
             conn = data.get('connection')
             if country == 'null':
@@ -361,11 +363,16 @@ class Deepdive:
             currency = currency_mapping.get(country.lower())
             file_path = 'data/app2.vPayments.csv'
             df = pd.read_csv(file_path)
-            filtered_df = df[df['Currency'].str.lower() == currency_mapping.get(country)]
+            print("currency_mapping.get(country)___", type(currency_mapping.get(country)), type(df['Currency']))
+            filtered_df = df[df['Currency'] == currency_mapping.get(country)]
             payments = filtered_df[['VendorName', 'InvoiceLineAmountLocal', 'Currency']]
-            print(payments.shape[0])
+            print("payments___________", payments.head(3))
+            print("payments.shape[0]___", payments.shape[0])
+            payments = payments.copy()  # Make a copy of the DataFrame
+            payments.loc[:, 'Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4, labels=['Q1', 'Q2', 'Q3', 'Q4'])
+            payments = payments.copy()  # Make a copy of the DataFrame
             payments['Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4, labels=['Q1', 'Q2', 'Q3', 'Q4'])
-
+            print("payments_hgygg__________", payments)
             if (data['min'] == '0' and data['max'] == '0') or (data['min'] == 'null' and data['max'] == 'null'):
                 if country == 'usa':
                     min = 10000
@@ -379,18 +386,18 @@ class Deepdive:
 
             # payments = payments[payments['InvoiceLineAmountLocal']>=10000]
 
-            payments = payments[
-                (payments['InvoiceLineAmountLocal'] >= min) & (payments['InvoiceLineAmountLocal'] <= max)]
+            payments = payments[(payments['InvoiceLineAmountLocal'] >= min) & (payments['InvoiceLineAmountLocal'] <= max)]
             print(payments.shape[0])
             payments['VendorName'] = payments['VendorName'].str.lower()
             payments = payments[['VendorName']].drop_duplicates()
 
             edges_list = []
 
+            print("payments", payments)
             if conn == 'weak':
                 file_path1 = 'data/app2.vAllEdges.csv'
                 df = pd.read_csv(file_path1)
-                df_country = df[df['country'] == country]
+                df_country = df[df['country'] == country.upper()]
                 count_hco_df = df_country.groupby('hcp_id').agg(
                     count_hco=('hco_id', 'nunique')
                 ).reset_index()
@@ -402,7 +409,7 @@ class Deepdive:
             else:
                 file_path1 = 'data/app2.vStrongEdges.csv'
                 df = pd.read_csv(file_path1)
-                df_country = df[df['country'] == country]
+                df_country = df[df['country'] == country.upper()]
                 count_hco_df = df_country.groupby('hcp_id').agg(
                     count_hco=('hco_id', 'nunique')
                 ).reset_index()
@@ -413,31 +420,36 @@ class Deepdive:
                 final_df.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
 
             hcp_edges = final_df
-            print(hcp_edges.shape[0])
+            print("hcp_edges.shape[0]", hcp_edges.shape[0])
             file_path2 = 'data/app2.vHCP.csv'
             df = pd.read_csv(file_path2)
-            filtered_df = df[df['country'] == country]
-            hcp_names = filtered_df[['Id', 'hcp_name']].drop_duplicates()
-            hcp_names.rename(columns={'Id': 'hcp_id'}, inplace=True)
+
+            filtered_df = df[df['country'] == country.upper()]
+            print("filtered_df__vHCP__________", filtered_df)
+            hcp_names = filtered_df[['id', 'hcp_name']].drop_duplicates()
+            hcp_names.rename(columns={'id': 'hcp_id'}, inplace=True)
 
             file_path2 = 'data/app2.vHco.csv'
             df = pd.read_csv(file_path2)
-            filtered_df = df[df['country'] == country]
-            hco_names = filtered_df[['Id', 'hco_name']].drop_duplicates()
-            hco_names.rename(columns={'Id': 'hco_id'}, inplace=True)
+            filtered_df = df[df['COUNTRY'] == country.upper()]
 
+            hco_names = filtered_df[['ID', 'NAME']].drop_duplicates()
+            hco_names.rename(columns={'ID': 'internal_hco_id'}, inplace=True)
+            print("filtered_df__vHco__________", filtered_df.head())
             merged_hcp = hcp_edges.merge(hcp_names, how='left', left_on=['to'], right_on=['hcp_id'])
             merged_hcp['hcp_name'] = merged_hcp['hcp_name'].str.lower()
-            merged_hcp_hco = merged_hcp.merge(hco_names, how='left', left_on=['from'], right_on=['hco_id'])
-            merged_hcp_hco['hco_name'] = merged_hcp_hco['hco_name'].str.lower()
+            print("merged_hcp", merged_hcp)
+            merged_hcp_hco = merged_hcp.merge(hco_names, how='left', left_on=['from'], right_on=['internal_hco_id'])
+            print("merged_hcp_hco", merged_hcp_hco)
+            merged_hcp_hco['hco_name'] = merged_hcp_hco['NAME'].str.lower()
 
-            print(merged_hcp_hco.shape[0])
+            print("merged_hcp_hco.shape[0]", merged_hcp_hco.shape[0])
 
             distinct_hcps = merged_hcp_hco[['to', 'hcp_name']].drop_duplicates()
 
             distinct_hcos = merged_hcp_hco[['from', 'hco_name']].drop_duplicates()
-            print(distinct_hcps.shape[0])
-            print(distinct_hcos.shape[0])
+            print("distinct_hcps.shape[0]", distinct_hcps.shape[0])
+            print("distinct_hcos.shape[0]", distinct_hcos.shape[0])
 
             merged_hcp_payments = distinct_hcps.merge(payments, how='inner', left_on=['hcp_name'],
                                                       right_on=['VendorName'])
@@ -445,8 +457,8 @@ class Deepdive:
             merged_hco_payments = distinct_hcos.merge(payments, how='inner', left_on=['hco_name'],
                                                       right_on=['VendorName'])
 
-            print(merged_hcp_payments.shape[0])
-            print(merged_hco_payments.shape[0])
+            print("merged_hcp_payments.shape[0]", merged_hcp_payments.shape[0])
+            print("merged_hco_payments.shape[0]", merged_hco_payments.shape[0])
 
             # for those HCPs which do not ahve payments but are a part of the hcos and have multiple connections
             if conn == 'weak':
@@ -463,17 +475,41 @@ class Deepdive:
                 additional_hcps.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
 
             else:
-                file_path1 = 'data/app2.vStrongEdges.csv'
-                df = pd.read_csv(file_path1)
-                df_country = df[df['country'] == country]
-                count_hco_df = df_country.groupby('hcp_id').agg(
-                    count_hco=('hco_id', 'nunique')
-                ).reset_index()
-                count_hco_df = count_hco_df[count_hco_df['count_hco'] > 1]
-                merged_df = pd.merge(df_country, count_hco_df, on='hcp_id')
-                final_df = merged_df.groupby(['hco_id', 'hcp_id']).size().reset_index(name='count')
-                additional_hcps = final_df[final_df['count'] == 1]
+                query = f"select \
+                                            a.hco_id as 'from', a.hcp_id as 'to', count(*) as 'count' \
+                                            from [app2].[vStrongEdges] a \
+                                            join \
+                                            (select hcp_id, count(distinct hco_id) as count_hco from [app2].[vStrongEdges] where country = '{country}' group by hcp_id having count(distinct hco_id) > 1)b \
+                                            on a.hcp_id = b.hcp_id \
+                                            where a.country = '{country}' \
+                                            group by a.hco_id, a.hcp_id \
+                                            having count(*) =1"
 
+                file_path1 = 'data/app2.vStrongEdges.csv'
+                df_strong_edges = pd.read_csv(file_path1)
+                # Filter data by country
+                df_country = df_strong_edges[df_strong_edges['country'] == country.upper()]
+
+                # Get the count of distinct hco_id per hcp_id
+                count_hco_per_hcp = df_country.groupby('hcp_id')['hco_id'].nunique().reset_index()
+                count_hco_per_hcp.columns = ['hcp_id', 'count_hco']
+
+                # Filter to only include hcp_id with more than 1 distinct hco_id
+                filtered_hcp = count_hco_per_hcp[count_hco_per_hcp['count_hco'] > 1]
+
+                # Join to get the relevant rows
+                df_filtered = df_country.merge(filtered_hcp, on='hcp_id')
+
+                # Group by hco_id and hcp_id, and count occurrences
+                grouped_df = df_filtered.groupby(['hco_id', 'hcp_id']).size().reset_index(name='count')
+
+                # Filter groups where count is 1
+                additional_hcps = grouped_df[grouped_df['count'] == 1]
+
+                # Rename columns to match SQL output
+                additional_hcps.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
+
+            print("additional_hcps", additional_hcps)
             rel_hcps = additional_hcps.merge(merged_hco_payments, how="inner", left_on=["from"], right_on=['from'])
 
             print(rel_hcps.shape[0])
@@ -486,10 +522,10 @@ class Deepdive:
             print(rel_hcps)
 
             merged_hco_payments_edges = merged_hco_payments[['from', 'VendorName']].drop_duplicates()
-            print(merged_hco_payments_edges.shape[0])
+            print("____merged_hco_payments_edges.shape[0]______",merged_hco_payments_edges.shape[0])
 
             merged_hcp_payments_edges = merged_hcp_payments[['to', 'VendorName']].drop_duplicates()
-            print(merged_hcp_payments_edges)
+            print("merged_hcp_payments_edges_____",merged_hcp_payments_edges)
 
             merged_hcp_payments_edges = merged_hcp_payments_edges.rename(
                 columns={'to': 'hcp_id_distinct_payments', 'VendorName': 'vn_distinct_payments'})
@@ -504,22 +540,23 @@ class Deepdive:
             print(final_hcps)
             print(final_hcps.shape[0])
 
+            print("merged_hco_payments_edges", merged_hco_payments_edges)
             # Removing the connections back to GSK for now
-            # for i,row in merged_hco_payments_edges.iterrows():
-            #     edges_dict = dict()
+            for i,row in merged_hco_payments_edges.iterrows():
+                edges_dict = dict()
 
-            #     edges_dict['to'] = row['from']
-            #     edges_dict['from'] = '10001'
-            #     edges_dict['page'] = 1
-            #     edges_list.append(edges_dict)
+                edges_dict['to'] = row['from']
+                edges_dict['from'] = '10001'
+                edges_dict['page'] = 1
+                edges_list.append(edges_dict)
 
-            # for i,row in hcp_edges.iterrows():
-            #     edges_dict = dict()
+            for i,row in hcp_edges.iterrows():
+                edges_dict = dict()
 
-            #     edges_dict['to'] = row['to']
-            #     edges_dict['from'] = '10001'
-            #     edges_dict['page'] = 1
-            #     edges_list.append(edges_dict)
+                edges_dict['to'] = row['to']
+                edges_dict['from'] = '10001'
+                edges_dict['page'] = 1
+                edges_list.append(edges_dict)
 
             for i, row in final_hcps.iterrows():
                 hcp_dict = dict()
@@ -528,7 +565,7 @@ class Deepdive:
                 hcp_dict['page'] = 1
 
                 edges_list.append(hcp_dict)
-                # print(len(edges_list))
+                print(len(edges_list))
             print(len(edges_list))
 
             node_list = []
@@ -558,32 +595,53 @@ class Deepdive:
             print(hcos_for_nodes.shape[0], ",", hcps_for_nodes.shape[0])
 
             if conn == 'weak':
+                # SELECT a.id, a.hcp_name, a.country, max(b.designation) as 'designation' FROM [app2].[vHcp] a \
+                #                         join [app2].[vAllEdges] b on a.Id = b.hcp_id where a.country = '{country}' group by a.Id, a.hcp_name, a.country
                 file_path1 = 'data/app2.vAllEdges.csv'
                 df_edges = pd.read_csv(file_path1)
                 file_path2 = 'data/app2.vHCP.csv'
                 df_hcp = pd.read_csv(file_path2)
                 df_hcp_country = df_hcp[df_hcp['country'] == country]
-                merged_df = pd.merge(df_hcp_country, df_edges, left_on='id', right_on='hcp_id', how='left')
-                result_df = merged_df.groupby(['id', 'hcp_name', 'country']).agg(
-                    designation=('designation', 'max')
-                ).reset_index()
+
+                # Merge (join) the DataFrames on the id and hcp_id columns
+                filtered_merged_df = pd.merge(df_hcp_country, df_edges, left_on='id', right_on='hcp_id')
+                print("filtered_merged_df", filtered_merged_df)
+                filtered_merged_df.rename(columns={'id_x': 'id', 'country_x': 'country'}, inplace=True)
+                # Group by id, hcp_name, and country, and take the max of designation
+                result_df = filtered_merged_df.groupby(['id', 'hcp_name', 'country'])['designation'].max().reset_index()
+
                 df = result_df
             else:
+                # Load the CSV files into DataFrames
+                df_hcp = pd.read_csv('data/app2.vHCP.csv')
+                df_strong_edges = pd.read_csv('data/app2.vStrongEdges.csv')
 
-                file_path1 = 'data/app2.vStrongEdges.csv'
-                df_edges = pd.read_csv(file_path1)
-                file_path2 = 'data/app2.vHCP.csv'
-                df_hcp = pd.read_csv(file_path2)
-                df_hcp_country = df_hcp[df_hcp['country'] == country]
-                merged_df = pd.merge(df_hcp_country, df_edges, left_on='id', right_on='hcp_id', how='left')
-                result_df = merged_df.groupby(['id', 'hcp_name', 'country']).agg(
-                    designation=('designation', 'max')
-                ).reset_index()
+                # Filter df_hcp by country
+                df_hcp_filtered = df_hcp[df_hcp['country'] == country.upper()]
+
+                # Perform the join between df_hcp and df_strong_edges on the 'Id' column
+                df_joined = pd.merge(df_hcp_filtered, df_strong_edges, left_on='id', right_on='hcp_id')
+                print("df_joined", df_joined.head())
+                # Group by the necessary columns and calculate the max of 'designation'
+                df_joined.rename(columns={'id_x': 'id', 'country_x': 'country'}, inplace=True)
+                result_df = df_joined.groupby(['id', 'hcp_name', 'country'])['designation'].max().reset_index()
+
+                print("result_df", result_df)
+
+                # file_path1 = 'data/app2.vStrongEdges.csv'
+                # df_edges = pd.read_csv(file_path1)
+                # file_path2 = 'data/app2.vHCP.csv'
+                # df_hcp = pd.read_csv(file_path2)
+                # df_hcp_country = df_hcp[df_hcp['country'] == country]
+                # merged_df = pd.merge(df_hcp_country, df_edges, left_on='id', right_on='hcp_id', how='left')
+                # result_df = merged_df.groupby(['id', 'hcp_name', 'country']).agg(
+                #     designation=('designation', 'max')
+                # ).reset_index()
                 df = result_df
             nodes_df = df[['id', 'hcp_name', 'designation', 'country']]
 
             nodes_merged = hcps_for_nodes.merge(nodes_df, how='inner', left_on=["to"], right_on=["id"])
-            print(nodes_merged)
+            print("nodes_df", nodes_df)
             nodes_merged = nodes_merged.drop_duplicates(subset=['id'])
 
             if conn == 'weak':
@@ -595,20 +653,33 @@ class Deepdive:
                 merged_df = pd.merge(df_hco, df_edges, left_on='ID', right_on='hco_id')
                 query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from [app2].[vHco] a join [app2].[vAllEdges] b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
             else:
-                query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from [app2].[vHco] a join [app2].[vStrongEdges] b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
+                # query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from [app2].[vHco] a join [app2].[vStrongEdges] b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
+
+                # Load CSV files into pandas DataFrames
+                df_hco = pd.read_csv('data/app2.vHco.csv')  # Replace with the path to your vHco CSV
+                df_strong_edges = pd.read_csv('data/app2.vStrongEdges.csv')  # Replace with the path to your vStrongEdges CSV
+
+                # Filter the data for the specific country
+                df_hco_filtered = df_hco[df_hco['COUNTRY'] == country.upper()]
+
+                # Perform the join operation (equivalent to SQL JOIN)
+                merged_df = pd.merge(df_hco_filtered, df_strong_edges, left_on='ID', right_on='hco_id', how='inner')
+
+                # Group by COUNTRY, HCO, and ID, and get the maximum hco_id
+                result_df = merged_df.groupby(['COUNTRY', 'NAME', 'ID'])['hco_id'].max().reset_index()
 
             # Execute the query
-            hco_df = db.select_df(query)
+            hco_df = result_df
 
-            nodes_hco_df = hco_df.rename(columns={'HCO': 'label', 'ID': 'id', 'COUNTRY': 'country'})
+            nodes_hco_df = hco_df.rename(columns={'NAME': 'label', 'ID': 'id', 'COUNTRY': 'country'})
 
             nodes_hco_merged = hcos_for_nodes.merge(nodes_hco_df, how='inner', left_on=["from"], right_on=["id"])
 
             # nodes_merged = nodes_merged.drop_duplicates(subset = ['Id'])
             # nodes_hco_merged = nodes_hco_merged.drop_duplicates(subset = ['id'])
 
-            # print(nodes_merged)
-            # print(nodes_hco_merged)
+            print(nodes_merged)
+            print(nodes_hco_merged)
             a = 0
             for i, row in nodes_hco_merged.iterrows():
                 a += 1
