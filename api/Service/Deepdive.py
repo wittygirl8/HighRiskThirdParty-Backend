@@ -356,6 +356,7 @@ class Deepdive:
             print("data____________",data)
             country = data['country']
             conn = data.get('connection')
+            link = data.get('link')
             if country == 'null':
                 True, "data_by_country", []
 
@@ -739,6 +740,22 @@ class Deepdive:
             final_result['events'] = {}
 
             _ret = final_result
+
+            if link.lower() == 'negative':
+                print("negative = data.get('negative')")
+                neg_nodes_list = []
+                neg_nodes_list.append(x)
+                with open("./data/outputhco.json", encoding='latin-1') as inputfile:
+                    hco_news = json.load(inputfile)
+                with open("./data/NewhcpNewsHeadlines.json", encoding='latin-1') as inputfile:
+                    hcp_news = json.load(inputfile)
+                for i in final_node_list:
+                    #print("isNegative____________________________", i["title"])
+                    isNegative = self.get_negative_news(i["title"], hco_news, hcp_news, i["color"])
+                    #print("isNegative____________________________", isNegative)
+                    if isNegative:
+                        neg_nodes_list.append(i)
+                graph['nodes'] = neg_nodes_list
 
             return True, "data_by_country", _ret
         except Exception as e:
