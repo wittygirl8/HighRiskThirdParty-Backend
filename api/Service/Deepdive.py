@@ -421,7 +421,7 @@ class Deepdive:
                 final_df.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
 
             hcp_edges = final_df
-            print("hcp_edges.shape[0]", hcp_edges.shape[0])
+            print("hcp_edges.shape[0]", hcp_edges.shape[0], hcp_edges)
             file_path2 = 'data/app2.vHCP.csv'
             df = pd.read_csv(file_path2)
 
@@ -550,11 +550,11 @@ class Deepdive:
                 edges_dict['from'] = '10001'
                 edges_dict['page'] = 1
                 edges_list.append(edges_dict)
-
+            print("hcp_edges", hcp_edges)
             for i,row in hcp_edges.iterrows():
                 edges_dict = dict()
 
-                edges_dict['to'] = row['to']
+                edges_dict['to'] = row['from']
                 edges_dict['from'] = '10001'
                 edges_dict['page'] = 1
                 edges_list.append(edges_dict)
@@ -606,7 +606,7 @@ class Deepdive:
 
                 # Merge (join) the DataFrames on the id and hcp_id columns
                 filtered_merged_df = pd.merge(df_hcp_country, df_edges, left_on='id', right_on='hcp_id')
-                print("filtered_merged_df", filtered_merged_df)
+                print("filtered_merged_df", filtered_merged_df, filtered_merged_df['id_x'])
                 filtered_merged_df.rename(columns={'id_x': 'id', 'country_x': 'country'}, inplace=True)
                 # Group by id, hcp_name, and country, and take the max of designation
                 result_df = filtered_merged_df.groupby(['id', 'hcp_name', 'country'])['designation'].max().reset_index()
@@ -622,7 +622,7 @@ class Deepdive:
 
                 # Perform the join between df_hcp and df_strong_edges on the 'Id' column
                 df_joined = pd.merge(df_hcp_filtered, df_strong_edges, left_on='id', right_on='hcp_id')
-                print("df_joined", df_joined.head())
+                print("df_joined", df_joined.head(), df_joined['id_x'])
                 # Group by the necessary columns and calculate the max of 'designation'
                 df_joined.rename(columns={'id_x': 'id', 'country_x': 'country'}, inplace=True)
                 result_df = df_joined.groupby(['id', 'hcp_name', 'country'])['designation'].max().reset_index()
