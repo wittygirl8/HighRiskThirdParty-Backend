@@ -601,7 +601,7 @@ class Deepdive:
                 df_edges = pd.read_csv(file_path1)
                 file_path2 = 'data/app2.vHCP.csv'
                 df_hcp = pd.read_csv(file_path2)
-                df_hcp_country = df_hcp[df_hcp['country'] == country]
+                df_hcp_country = df_hcp[df_hcp['country'] == country.upper()]
 
                 # Merge (join) the DataFrames on the id and hcp_id columns
                 filtered_merged_df = pd.merge(df_hcp_country, df_edges, left_on='id', right_on='hcp_id')
@@ -650,7 +650,15 @@ class Deepdive:
                 file_path2 = 'data/app2.vHco.csv'
                 df_hco = pd.read_csv(file_path2)
                 print("xyz")
+                # Merge the DataFrames on ID and hco_id columns
                 merged_df = pd.merge(df_hco, df_edges, left_on='ID', right_on='hco_id')
+
+                # Filter by the specified country
+                filtered_df = merged_df[merged_df['COUNTRY'] == country]
+
+                # Group by COUNTRY, HCO, and ID, then take the max of hco_id
+                result_df = filtered_df.groupby(['COUNTRY', 'NAME', 'ID'])['hco_id'].max().reset_index()
+
                 query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from [app2].[vHco] a join [app2].[vAllEdges] b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
             else:
                 # query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from [app2].[vHco] a join [app2].[vStrongEdges] b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
