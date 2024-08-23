@@ -360,6 +360,7 @@ class Deepdive:
             country = data['country']
             conn = data.get('connection')
             link = data.get('link')
+            orgType = data.get('orgType')
             if country == 'null':
                 True, "data_by_country", []
 
@@ -458,7 +459,7 @@ class Deepdive:
 
             final_df = final_df.fillna('')
             hcp_edges = final_df
-            # print("hcp_edges.shape[0]", hcp_edges.shape[0], hcp_edges)
+            print("hcp_edges.shape[0]", hcp_edges.shape[0], hcp_edges)
             file_path2 = 'data/app2.vHCP.csv'
             df = pd.read_csv(file_path2)
 
@@ -467,6 +468,7 @@ class Deepdive:
             hcp_names = filtered_df[['id', 'hcp_name']].drop_duplicates()
             hcp_names.rename(columns={'id': 'hcp_id'}, inplace=True)
 
+            print("hcp_names______", hcp_names)
             file_path2 = 'data/app2.vHco.csv'
             df = pd.read_csv(file_path2)
             filtered_df = df[df['COUNTRY'] == country.upper()].fillna('')
@@ -689,38 +691,38 @@ class Deepdive:
             print("nodes_df", nodes_df)
             nodes_merged = nodes_merged.drop_duplicates(subset=['id'])
 
-            if conn == 'weak' or conn == 'multiple':
-                file_path1 = 'data/app2.vAllEdges.csv'
-                df_edges = pd.read_csv(file_path1)
-                file_path2 = 'data/app2.vHco.csv'
-                df_hco = pd.read_csv(file_path2)
-                print("xyz")
-                # Merge the DataFrames on ID and hco_id columns
-                merged_df = pd.merge(df_hco, df_edges, left_on='ID', right_on='hco_id')
-
-                # Filter by the specified country
-                filtered_df = merged_df[merged_df['COUNTRY'] == country]
-
-                # Group by COUNTRY, HCO, and ID, then take the max of hco_id
-                result_df = filtered_df.groupby(['COUNTRY', 'NAME', 'ID'])['hco_id'].max().reset_index()
-
-                query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from [app2].[vHco] a join [app2].[vAllEdges] b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
-            else:
+            # if conn == 'weak' or conn == 'multiple':
+            #     file_path1 = 'data/app2.vAllEdges.csv'
+            #     df_edges = pd.read_csv(file_path1)
+            #     file_path2 = 'data/app2.vHco.csv'
+            #     df_hco = pd.read_csv(file_path2)
+            #     print("xyz")
+            #     # Merge the DataFrames on ID and hco_id columns
+            #     merged_df = pd.merge(df_hco, df_edges, left_on='ID', right_on='hco_id')
+            #
+            #     # Filter by the specified country
+            #     filtered_df = merged_df[merged_df['COUNTRY'] == country]
+            #
+            #     # Group by COUNTRY, HCO, and ID, then take the max of hco_id
+            #     result_df = filtered_df.groupby(['COUNTRY', 'NAME', 'ID'])['hco_id'].max().reset_index()
+            #
+            #     query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from [app2].[vHco] a join [app2].[vAllEdges] b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
+            # else:
                 # query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from [app2].[vHco] a join [app2].[vStrongEdges] b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
 
                 # Load CSV files into pandas DataFrames
-                df_hco = pd.read_csv('data/app2.vHco.csv')  # Replace with the path to your vHco CSV
-                df_strong_edges = pd.read_csv(
+            df_hco = pd.read_csv('data/app2.vHco.csv')  # Replace with the path to your vHco CSV
+            df_strong_edges = pd.read_csv(
                     'data/app2.vStrongEdges.csv')  # Replace with the path to your vStrongEdges CSV
 
                 # Filter the data for the specific country
-                df_hco_filtered = df_hco[df_hco['COUNTRY'] == country.upper()]
+            df_hco_filtered = df_hco[df_hco['COUNTRY'] == country.upper()]
 
                 # Perform the join operation (equivalent to SQL JOIN)
-                merged_df = pd.merge(df_hco_filtered, df_strong_edges, left_on='ID', right_on='hco_id', how='inner')
+            merged_df = pd.merge(df_hco_filtered, df_strong_edges, left_on='ID', right_on='hco_id', how='inner')
 
                 # Group by COUNTRY, HCO, and ID, and get the maximum hco_id
-                result_df = merged_df.groupby(['COUNTRY', 'NAME', 'ID'])['hco_id'].max().reset_index()
+            result_df = merged_df.groupby(['COUNTRY', 'NAME', 'ID'])['hco_id'].max().reset_index()
 
             # Execute the query
             hco_df = result_df
@@ -736,36 +738,38 @@ class Deepdive:
             print(nodes_hco_merged)
             a = 0
             nodes_hco_merged = nodes_hco_merged.fillna('')
-            for i, row in nodes_hco_merged.iterrows():
-                a += 1
-                node_hco_dict = dict()
-                node_hco_dict['page'] = 1
+            if (orgType == 'hco' or orgType == 'both'):
+                for i, row in nodes_hco_merged.iterrows():
+                    a += 1
+                    node_hco_dict = dict()
+                    node_hco_dict['page'] = 1
 
-                node_hco_dict['shape'] = 'dot'
-                node_hco_dict['color'] = "#fb7e81"
-                node_hco_dict['id'] = row['id']
-                node_hco_dict['label'] = row['label']
-                node_hco_dict['title'] = row['label']
-                node_hco_dict['designation'] = ""
-                node_list.append(node_hco_dict)
+                    node_hco_dict['shape'] = 'dot'
+                    node_hco_dict['color'] = "#fb7e81"
+                    node_hco_dict['id'] = row['id']
+                    node_hco_dict['label'] = row['label']
+                    node_hco_dict['title'] = row['label']
+                    node_hco_dict['designation'] = ""
+                    node_list.append(node_hco_dict)
             print(f"number of hco nodes is {a}")
             b = 0
             nodes_merged = nodes_merged.fillna('')
-            for i, row in nodes_merged.iterrows():
-                if row['to'] == 'NaN':
-                    print("if in")
-                    continue
-                b += 1
-                node_dict = dict()
-                node_dict['shape'] = 'dot'
-                node_dict['color'] = "#95c0f9"
-                node_dict['id'] = row['id']
-                node_dict['label'] = row['hcp_name']
-                node_dict['title'] = row['hcp_name']
-                node_dict['designation'] = row['designation']
-                node_dict['page'] = 1
+            if (orgType == 'hcp' or orgType == 'both'):
+                for i, row in nodes_merged.iterrows():
+                    if row['to'] == 'NaN':
+                        print("if in")
+                        continue
+                    b += 1
+                    node_dict = dict()
+                    node_dict['shape'] = 'dot'
+                    node_dict['color'] = "#95c0f9"
+                    node_dict['id'] = row['id']
+                    node_dict['label'] = row['hcp_name']
+                    node_dict['title'] = row['hcp_name']
+                    node_dict['designation'] = row['designation']
+                    node_dict['page'] = 1
 
-                node_list.append(node_dict)
+                    node_list.append(node_dict)
             print(f"number of hcp nodes is {b}")
 
             final_result = dict()
@@ -819,6 +823,399 @@ class Deepdive:
             print("Deepdive.data_by_country(): " + str(e))
             traceback.print_exc()
             return False, "Something went wrong"
+
+    def data_by_countrys(self, data):  # tbd
+        try:
+            # YOUR CODE HERE
+            # REMOVE THIS ONCE IMPLEMENTED
+            # if data["country"].strip().lower() == "brazil":
+            #     _ret = self.read_json("brazil.json")
+            # if data["country"].strip().lower() == "spain":
+            #     _ret = self.read_json("spain.json")
+            # if data["country"].strip().lower() == "usa":
+            #     _ret = self.read_json("usa.json")
+            # TILL HERE
+            print(data)
+            country = data['country']
+            conn = data.get('connection')
+            link = data.get('link')
+            if country == 'null':
+                True, "data_by_country", []
+
+            currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
+
+            file_path = 'data/app2.vPayments.csv'
+            df = pd.read_csv(file_path)
+            print("currency_mapping.get(country)___", type(currency_mapping.get(country)), type(df['Currency']))
+            filtered_df = df[df['Currency'] == currency_mapping.get(country)].fillna('')
+            payments = filtered_df[['VendorName', 'InvoiceLineAmountLocal', 'Currency']]
+            print("payments___________", payments.head(3))
+            print("payments.shape[0]___", payments.shape[0])
+            payments = payments.copy()  # Make a copy of the DataFrame
+            payments.loc[:, 'Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4,
+                                                  labels=['Q1', 'Q2', 'Q3', 'Q4'])
+            payments = payments.copy()  # Make a copy of the DataFrame
+            payments['Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4, labels=['Q1', 'Q2', 'Q3', 'Q4'])
+            print("payments_hgygg__________", payments)
+
+            if (data['min'] == '0' and data['max'] == '0') or (data['min'] == 'null' and data['max'] == 'null'):
+                if country == 'usa':
+                    min = 10000
+                else:
+                    min = 5000
+                max = payments['InvoiceLineAmountLocal'].max()
+
+            else:
+                min = int(data['min'])
+                max = int(data['max'])
+
+            # payments = payments[payments['InvoiceLineAmountLocal']>=10000]
+
+            payments = payments[
+                (payments['InvoiceLineAmountLocal'] >= min) & (payments['InvoiceLineAmountLocal'] <= max)]
+            print(payments.shape[0])
+            payments['VendorName'] = payments['VendorName'].str.lower()
+            payments = payments[['VendorName']].drop_duplicates()
+
+            edges_list = []
+
+            if conn == 'multiple':
+                query = f"select \
+                            trim(a.hco_id) as 'from', cast(a.hcp_id as varchar) as 'to', count(*) as 'count' \
+                            from app.FactHcpHco a \
+                            join \
+                            (select hcp_id, count(distinct hco_id) as count_hco from app.FactHcpHco where country = '{country}' group by hcp_id having count(distinct hco_id) > 1)b \
+                            on a.hcp_id = b.hcp_id \
+                            where a.country = '{country}' \
+                            group by trim(a.hco_id), cast(a.hcp_id as varchar) \
+                            having count(*) =1"
+                file_path1 = 'data/app2.vAllEdges.csv'
+                df = pd.read_csv(file_path1)
+                df_country = df[df['country'] == country.upper()].fillna('')
+                count_hco_df = df_country.groupby('hcp_id').agg(
+                    count_hco=('hco_id', 'nunique')
+                ).reset_index()
+                count_hco_df = count_hco_df[count_hco_df['count_hco'] > 1]
+                merged_df = pd.merge(df_country, count_hco_df, on='hcp_id').fillna('')
+                final_df = merged_df.groupby(['hco_id', 'hcp_id']).size().reset_index(name='count')
+                final_df = final_df[final_df['count'] == 1]
+                final_df.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
+
+            else:
+                query = f"select \
+                            trim(a.hco_id) as 'from', cast(a.hcp_id as varchar) as 'to', count(*) as 'count' \
+                            from app.FactHcpHco a \
+                            join \
+                            (select hcp_id, count(distinct hco_id) as count_hco from app.FactHcpHco where country = '{country}' group by hcp_id having count(distinct hco_id) >= 1)b \
+                            on a.hcp_id = b.hcp_id \
+                            where a.country = '{country}' \
+                            group by trim(a.hco_id), cast(a.hcp_id as varchar) \
+                            having count(*) =1"
+                file_path1 = 'data/app2.vAllEdges.csv'
+                df = pd.read_csv(file_path1)
+                df_country = df[df['country'] == country.upper()].fillna('')
+                count_hco_df = df_country.groupby('hcp_id').agg(
+                    count_hco=('hco_id', 'nunique')
+                ).reset_index()
+                count_hco_df = count_hco_df[count_hco_df['count_hco'] >= 1]
+                merged_df = pd.merge(df_country, count_hco_df, on='hcp_id').fillna('')
+                final_df = merged_df.groupby(['hco_id', 'hcp_id']).size().reset_index(name='count')
+                final_df = final_df[final_df['count'] == 1]
+                final_df.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
+
+            hcp_edges = final_df.fillna('')
+            print(hcp_edges.shape[0])
+            query = f"select distinct cast(Id as varchar) as 'hcp_id', hcp_name from dbo.  where country = '{country}'"
+            file_path2 = 'data/app2.vHCP.csv'
+            df = pd.read_csv(file_path2)
+            print("hcp_names", df)
+            filtered_df = df[df['country'] == country.upper()]
+            print("filtered_df__vHCP__________", filtered_df)
+            hcp_names = filtered_df[['id', 'hcp_name']].drop_duplicates()
+            print("filtered_df__vHCPhcp_names__________", hcp_names)
+            print("hcp_names_||||||", hcp_names)
+            # hcp_names = db.select_df(query)
+            query = f"select distinct trim(ID) as 'hco_id', HCO  as 'hco_name' from app.hco where country = '{country}'"
+            file_path2 = 'data/app2.vHco.csv'
+            df = pd.read_csv(file_path2)
+            filtered_df = df[df['COUNTRY'] == country.upper()]
+
+            hco_names = filtered_df[['ID', 'NAME']].drop_duplicates().fillna('')
+            hco_names.rename(columns={'ID': 'hco_id', 'NAME': 'hco_name'}, inplace=True)
+            # hco_names = db.select_df(query)
+            print("hcp_edges", hcp_edges, "hcp_names", hcp_names)
+            merged_hcp = hcp_edges.merge(hcp_names, how='left', left_on=['to'], right_on=['id'])
+            merged_hcp['hcp_name'] = merged_hcp['hcp_name'].str.lower()
+            merged_hcp_hco = merged_hcp.merge(hco_names, how='left', left_on=['from'], right_on=['hco_id'])
+            merged_hcp_hco['hco_name'] = merged_hcp_hco['hco_name'].str.lower()
+
+            print(merged_hcp_hco.shape[0])
+
+            distinct_hcps = merged_hcp_hco[['to', 'hcp_name']].drop_duplicates().fillna('')
+
+            distinct_hcos = merged_hcp_hco[['from', 'hco_name']].drop_duplicates().fillna('')
+            print(distinct_hcps.shape[0])
+            print(distinct_hcos.shape[0])
+
+            merged_hcp_payments = distinct_hcps.merge(payments, how='inner', left_on=['hcp_name'],
+                                                      right_on=['VendorName']).fillna('')
+
+            merged_hco_payments = distinct_hcos.merge(payments, how='inner', left_on=['hco_name'],
+                                                      right_on=['VendorName']).fillna('')
+
+            print(merged_hcp_payments.shape[0])
+            print(merged_hco_payments.shape[0])
+
+            # for those HCPs which do not ahve payments but are a part of the hcos and have multiple connections
+            query = f"select \
+                            trim(a.hco_id) as 'from', cast(a.hcp_id as varchar) as 'to', count(*) as 'count' \
+                            from app.FactHcpHco a \
+                            join \
+                            (select hcp_id, count(distinct hco_id) as count_hco from app.FactHcpHco where country = '{country}' group by hcp_id having count(distinct hco_id) > 1)b \
+                            on a.hcp_id = b.hcp_id \
+                            where a.country = '{country}' \
+                            group by trim(a.hco_id), cast(a.hcp_id as varchar) \
+                            having count(*) =1"
+
+            file_path1 = 'data/app2.vAllEdges.csv'
+            df = pd.read_csv(file_path1)
+            # Step 1: Filter the DataFrame for the specific country
+            df_filtered = df[df['country'] == country]
+
+            # Step 2: Group by hcp_id to find distinct hco_id count per hcp_id
+            hcp_group = df_filtered.groupby('hcp_id')['hco_id'].nunique().reset_index()
+            hcp_group.columns = ['hcp_id', 'count_hco']
+
+            # Step 3: Filter for hcp_ids having count_hco > 1
+            hcp_filtered = hcp_group[hcp_group['count_hco'] > 1]
+
+            # Step 4: Join the filtered hcp_id DataFrame back with the original DataFrame
+            df_joined = df_filtered.merge(hcp_filtered[['hcp_id']], on='hcp_id')
+
+            # Step 5: Group by 'from' (hco_id) and 'to' (hcp_id) and count occurrences
+            df_grouped = df_joined.groupby(['hco_id', 'hcp_id']).size().reset_index(name='count')
+
+            # Step 6: Filter where count is equal to 1 (equivalent to HAVING count(*) = 1)
+            additional_hcps = df_grouped[df_grouped['count'] == 1]
+
+            # count_hco_df = df_country.groupby('hcp_id').agg(
+            #     count_hco=('hco_id', 'nunique')
+            # ).reset_index()
+            # count_hco_df = count_hco_df[count_hco_df['count_hco'] > 1]
+            # merged_df = pd.merge(df_country, count_hco_df, on='hcp_id')
+            # final_df = merged_df.groupby(['hco_id', 'hcp_id']).size().reset_index(name='count')
+            # additional_hcps = final_df[final_df['count'] == 1]
+            print("additional_hcps", additional_hcps)
+            additional_hcps = additional_hcps.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
+
+            # additional_hcps = db.select_df(query)
+            print("merged_hco_payments", merged_hco_payments, "additional_hcps", additional_hcps)
+            rel_hcps = additional_hcps.merge(merged_hco_payments, how="inner", left_on=["from"], right_on=['from'])
+
+            print(rel_hcps.shape[0])
+            print(
+                "---------------------------------------------------------------------------------------------------------------")
+            print(rel_hcps)
+            rel_hcps = rel_hcps[['from', 'to']].fillna('')
+            print(
+                "*******************************************************************************************************************")
+            print(rel_hcps)
+
+            merged_hco_payments_edges = merged_hco_payments[['from', 'VendorName']].drop_duplicates().fillna('')
+            print(merged_hco_payments_edges.shape[0])
+
+            merged_hcp_payments_edges = merged_hcp_payments[['to', 'VendorName']].drop_duplicates().fillna('')
+            print(merged_hcp_payments_edges)
+
+            merged_hcp_payments_edges = merged_hcp_payments_edges.rename(
+                columns={'to': 'hcp_id_distinct_payments', 'VendorName': 'vn_distinct_payments'}).fillna('')
+
+            hcp_edges = merged_hcp_hco.merge(merged_hcp_payments_edges, how='inner', left_on=['to'],
+                                             right_on=['hcp_id_distinct_payments']).fillna('')
+            hcp_edges = hcp_edges[['from', 'to']].fillna('')
+            print(hcp_edges.shape[0])
+
+            final_hcps = pd.concat([hcp_edges, rel_hcps], ignore_index=True).drop_duplicates()
+            print("£££££££££££££££££££££££££££££££££££££££££££££££")
+            print(final_hcps)
+            print(final_hcps.shape[0])
+
+            for i, row in merged_hco_payments_edges.iterrows():
+                edges_dict = dict()
+
+                edges_dict['to'] = row['from']
+                edges_dict['from'] = '10001'
+                edges_dict['page'] = 1
+                edges_list.append(edges_dict)
+
+            for i, row in hcp_edges.iterrows():
+                edges_dict = dict()
+
+                edges_dict['to'] = row['to']
+                edges_dict['from'] = '10001'
+                edges_dict['page'] = 1
+                edges_list.append(edges_dict)
+
+            for i, row in final_hcps.iterrows():
+                hcp_dict = dict()
+                hcp_dict["from"] = row['from']
+                hcp_dict["to"] = row["to"]
+                hcp_dict['page'] = 1
+
+                edges_list.append(hcp_dict)
+                print(len(edges_list))
+            print(len(edges_list))
+
+            node_list = []
+
+            x = {
+                "id": str(10001),
+                "x": 0,
+                "y": 0,
+                "fixed": {
+                    "x": True,
+                    "y": True
+                },
+                "label": "Company",
+                "title": "Company",
+                "color": "#fdfd00",
+                "size": 100,
+                "shape": "image",
+                "image": "https://dieselpunkcore.com/wp-content/uploads/2014/06/logo-placeholder.png",
+            }
+            node_list.append(x)
+
+            final_edges = pd.concat([merged_hco_payments_edges, final_hcps], ignore_index=True).fillna('')
+            print(final_edges)
+            hcos_for_nodes = final_edges[['from']].drop_duplicates()
+            hcps_for_nodes = final_edges[['to']].drop_duplicates()
+
+            print(hcos_for_nodes.shape[0], ",", hcps_for_nodes.shape[0])
+
+            query = f"SELECT cast(a.Id as varchar) as 'id', a.hcp_name, a.country, max(b.designation) as 'designation' FROM dbo.hcp_info a \
+            join app.FactHcpHco b on a.Id = b.hcp_id where a.country = '{country}' group by cast(a.Id as varchar), a.hcp_name, a.country "
+            # Execute the query
+            file_path1 = 'data/app2.vAllEdges.csv'
+            df_edges = pd.read_csv(file_path1)
+            file_path2 = 'data/app2.vHCP.csv'
+            df_hcp = pd.read_csv(file_path2)
+            df_hcp_country = df_hcp[df_hcp['country'] == country.upper()]
+
+            # Merge (join) the DataFrames on the id and hcp_id columns
+            filtered_merged_df = pd.merge(df_hcp_country, df_edges, left_on='id', right_on='hcp_id')
+            print("filtered_merged_df", filtered_merged_df, filtered_merged_df['id_x'])
+            filtered_merged_df.rename(columns={'id_x': 'id', 'country_x': 'country'}, inplace=True)
+            # Group by id, hcp_name, and country, and take the max of designation
+            result_df = filtered_merged_df.groupby(['id', 'hcp_name', 'country'])['designation'].max().reset_index()
+
+            df = result_df.fillna('')
+            nodes_df = df[['id', 'hcp_name', 'designation', 'country']]
+
+            nodes_merged = hcps_for_nodes.merge(nodes_df, how='inner', left_on=["to"], right_on=["id"])
+            print(nodes_merged)
+            nodes_merged = nodes_merged.drop_duplicates(subset=['id'])
+
+            query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from app.hco a join app.FactHcpHco b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
+            file_path1 = 'data/app2.vAllEdges.csv'
+            df_edges = pd.read_csv(file_path1)
+            file_path2 = 'data/app2.vHco.csv'
+            df_hco = pd.read_csv(file_path2)
+            print("xyz")
+            # Merge the DataFrames on ID and hco_id columns
+            merged_df = pd.merge(df_hco, df_edges, left_on='ID', right_on='hco_id')
+
+            # Filter by the specified country
+            filtered_df = merged_df[merged_df['COUNTRY'] == country]
+
+            # Group by COUNTRY, HCO, and ID, then take the max of hco_id
+            result_df = filtered_df.groupby(['COUNTRY', 'NAME', 'ID'])['hco_id'].max().reset_index()
+            # Execute the query
+            hco_df = result_df
+
+            nodes_hco_df = hco_df.rename(columns={'NAME': 'label', 'ID': 'id', 'COUNTRY': 'country'})
+            print("________hcos_for_nodes__________", hcos_for_nodes)
+            nodes_hco_merged = hcos_for_nodes.merge(nodes_hco_df, how='inner', left_on=["from"], right_on=["id"])
+
+            # nodes_merged = nodes_merged.drop_duplicates(subset = ['Id'])
+            # nodes_hco_merged = nodes_hco_merged.drop_duplicates(subset = ['id'])
+
+            print(nodes_merged)
+            print(nodes_hco_merged)
+            a = 0
+            for i, row in nodes_hco_merged.iterrows():
+                a += 1
+                node_hco_dict = dict()
+                node_hco_dict['page'] = 1
+
+                node_hco_dict['shape'] = 'dot'
+                node_hco_dict['color'] = "#fb7e81"
+                node_hco_dict['id'] = row['id']
+                node_hco_dict['label'] = row['label']
+                node_hco_dict['title'] = row['label']
+                node_hco_dict['designation'] = ""
+                node_list.append(node_hco_dict)
+            print(f"number of hco nodes is {a}")
+            b = 0
+            for i, row in nodes_merged.iterrows():
+                if row['to'] == 'NaN':
+                    print("if in")
+                    continue
+                b += 1
+                node_dict = dict()
+                node_dict['shape'] = 'dot'
+                node_dict['color'] = "#95c0f9"
+                node_dict['id'] = row['id']
+                node_dict['label'] = row['hcp_name']
+                node_dict['title'] = row['hcp_name']
+                node_dict['designation'] = row['designation']
+                node_dict['page'] = 1
+
+                node_list.append(node_dict)
+            print(f"number of hcp nodes is {b}")
+
+            final_result = dict()
+            graph = dict()
+
+            final_node_list = []
+            final_edge_list = []
+            for item in node_list:
+                final_node_list.append(item)
+
+            for item in edges_list:
+                final_edge_list.append(item)
+
+            graph['nodes'] = final_node_list
+            graph['edges'] = final_edge_list
+            graph['price_range'] = [min, int(max)]
+            final_result['counter'] = 5
+            final_result['graph'] = graph
+            final_result['events'] = {}
+
+            _ret = final_result
+
+            if link.lower() == 'negative':
+                print("negative = data.get('negative')")
+                neg_nodes_list = []
+                neg_nodes_list.append(x)
+                with open("./data/outputhco.json", encoding='latin-1') as inputfile:
+                    hco_news = json.load(inputfile)
+                with open("./data/NewhcpNewsHeadlines.json", encoding='latin-1') as inputfile:
+                    hcp_news = json.load(inputfile)
+                for i in final_node_list:
+                    print("isNegative____________________________", i["title"])
+                    isNegative = self.get_negative_news(i["title"], hco_news, hcp_news, i["color"])
+                    print("isNegative____________________________", isNegative)
+                    if isNegative:
+                        neg_nodes_list.append(i)
+                graph['nodes'] = neg_nodes_list
+
+            print("_ret____________", type(final_result))
+            return True, "data_by_country", _ret
+        except Exception as e:
+            print("Deepdive.data_by_country(): " + str(e))
+            traceback.print_exc()
+            return False, "Something went wrong"
+
 
     def data_by_node(self, data):  # tbd
         try:
@@ -1107,7 +1504,7 @@ class Deepdive:
             df_filtered = df[df['VendorNumber'] == payment_id]
             df_filtered = df_filtered[
                 ['ThirdPartyPaymentsLineId', 'InvoiceGIDate', 'PaymentType', 'PaymentSubtype', 'InvoiceLineAmountLocal',
-                 'AllText', 'Currency', 'VendorNumber', 'VendorName']]
+                 'BusinessActivity', 'Currency', 'VendorNumber', 'VendorName']]
             payments = df_filtered.sort_values(by='InvoiceGIDate')
             print("error", payments.columns)
             if not payments.empty:
@@ -1122,7 +1519,7 @@ class Deepdive:
                     print("type", type(x))
                     x = str(x)
                     event_dict['description'] = x + ' ' + str(row['Currency']) + ' | ' + str(
-                        row['AllText'])  # format with thousands separaters and 2dp
+                        row['BusinessActivity'])  # format with thousands separaters and 2dp
                     timeline_list.append(event_dict)
 
             # def convert_to_date(date_str):
