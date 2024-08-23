@@ -40,3 +40,8 @@ class DeepdiveController:
     def graph_by_country(data):
         _obj = Deepdive()
         return _obj.graph_by_country(data)
+
+    @staticmethod
+    def data_by_country_g(data):
+        _obj = Deepdive()
+        return _obj.data_by_country_g(data)
