@@ -1,45 +1,1317 @@
-﻿id,HCO/HCP,EntityType,Country,Negative Count,Positive Count,NeutralCount
-1,João Silva,HCP,Brazil,0,1,0
-2,Maria Oliveira,HCP,Brazil,0,0,1
-3,Pedro Souza,HCP,Brazil,0,0,1
-4,Ana Lima,HCP,Brazil,0,0,1
-5,Lucas Santos,HCP,Brazil,0,0,1
-6,Gabriel Pereira,HCP,Brazil,0,0,0
-7,Rafael Costa,HCP,Brazil,0,0,1
-8,Sofia Fernandes,HCP,Brazil,0,0,1
-9,Matheus Almeida,HCP,Brazil,2,0,1
-10,Juliana Ribeiro,HCP,Brazil,2,0,1
-11,Thiago Martins,HCP,Brazil,1,0,0
-12,Isabella Gomes,HCP,Brazil,1,0,0
-13,Felipe Rocha,HCP,Brazil,0,1,0
-14,María Fernández,HCP,Spain,0,0,1
-15,José Martínez,HCP,Spain,0,1,0
-16,Ana López,HCP,Spain,0,1,0
-17,Juan García,HCP,Spain,1,0,0
-18,Carmen Rodríguez,HCP,Spain,1,0,0
-19,Pedro Sánchez,HCP,Spain,0,1,0
-20,James Smith,HCP,USA,0,0,1
-21,Emily Johnson,HCP,USA,0,1,0
-22,Michael Williams,HCP,USA,0,0,1
-23,Jessica Brown,HCP,USA,0,0,1
-24,David Jones,HCP,USA,0,1,0
-25,Sarah Miller,HCP,USA,0,1,0
-26,Robert Davis,HCP,USA,0,1,0
-27,Ashley Wilson,HCP,USA,0,1,0
-28,Instituto Esperança Brasil,HCO,Brazil,0,1,1
-29,Fundação Vida Verde,HCO,Brazil,0,0,1
-30,Rede Solidariedade Brasil,HCO,Brazil,0,0,1
-31,Centro de Ação Humanitária do Amazonas,HCO,Brazil,0,0,1
-32,Associação Nova Esperança,HCO,Brazil,0,0,2
-33,Projeto Cidadania e Futuro,HCO,Brazil,1,0,2
-34,Aliança Social Brasileira,HCO,Brazil,1,1,0
-35,Fundación Luz de Esperanza,HCO,Spain,1,1,2
-36,Red Solidaridad España,HCO,Spain,0,2,0
-37,Centro de Acción Social Iberia,HCO,Spain,0,1,0
-38,Asociación Progreso y Bienestar,HCO,Spain,0,2,0
-39,Nationwide Hope Foundation,HCO,USA,0,1,2
-40,United Community Aid Network,HCO,USA,0,0,2
-41,American Heart of Service,HCO,USA,0,3,0
-42,Bright Future Initiative,HCO,USA,0,2,0
-,,,,,,
-,,,,,,
+HCO/HCP,country,Negative Count,NeutralCount,PositiveCount,EntityType
+Alianca Social Brasileira,Brazil,1,1,0,HCO
+American Care Alliance,USA,1,0,1,HCO
+American Heart of Service,USA,0,2,0,HCO
+American Wellness Partners,USA,1,1,0,HCO
+Asociacian Esperanza Renaciente,Spain,0,1,1,HCO
+Asociacian Esperanza Renueva,Spain,0,2,0,HCO
+Asociacian Esperanza Viva,Spain,0,0,2,HCO
+Asociacian Esperanza para Todos,Spain,0,1,1,HCO
+Asociacian Esperanza y Vida,Spain,0,0,2,HCO
+Asociacian Futuro Salud,Spain,0,1,1,HCO
+Asociacian Nueva Esperanza,Spain,1,1,0,HCO
+Asociacian Nuevas Oportunidades,Spain,0,2,0,HCO
+Asociacian Nuevas Perspectivas,Spain,0,1,1,HCO
+Asociacian Nuevas Vidas,Spain,1,1,0,HCO
+Asociacian Progreso y Salud,Spain,1,0,1,HCO
+Asociacian Progreso y Vida,Spain,0,1,1,HCO
+Asociacian Salud y Futuro,Spain,0,1,1,HCO
+Asociacian Vida Plena,Spain,0,2,0,HCO
+Asociacian Vitalidad,Spain,0,2,0,HCO
+Asociacian Viva la Vida,Spain,0,0,2,HCO
+Asociacian de Bienestar Integral,Spain,1,0,1,HCO
+Asociacian de Bienestar Social,Spain,0,2,0,HCO
+Asociacian de Salud Integral,Spain,0,1,1,HCO
+Asociacian de Salud y Vida,Spain,0,2,0,HCO
+Asociacian de Vida y Bienestar,Spain,0,2,0,HCO
+Asociacian de Vida y Salud,Spain,1,0,1,HCO
+Asociacion Nueva Luz,Spain,0,0,2,HCO
+Asociacion Progreso Solidario,Spain,0,0,2,HCO
+Asociacion Progreso y Bienestar,Spain,0,2,0,HCO
+Associacao Nova Esperanca,Brazil,0,0,2,HCO
+Bright Future Initiative,USA,1,0,1,HCO
+Bright Horizons Health Foundation,USA,1,0,1,HCO
+Centro Clanico Rio Grande,Brazil,0,1,1,HCO
+Centro Macdico Santa Maria,Brazil,0,1,1,HCO
+Centro Macdico Sapso Gabriel,Brazil,0,1,1,HCO
+Centro Macdico Sapso Joapso,Brazil,0,1,1,HCO
+Centro Macdico Sapso Lucas,Brazil,0,2,0,HCO
+Centro Macdico Sapso Marcos,Brazil,1,1,0,HCO
+Centro Macdico Sapso Mateus,Brazil,2,0,0,HCO
+Centro Macdico Sapso Pedro,Brazil,0,2,0,HCO
+Centro Macdico Sapso Rafael,Brazil,1,1,0,HCO
+Centro Macdico y Bienestar,Spain,0,0,2,HCO
+Centro de Acao Humanitaria do Amazonas,Brazil,0,2,0,HCO
+Centro de Accion Social Esperanza,Spain,1,0,1,HCO
+Centro de Accion Social Iberia,Spain,0,0,2,HCO
+Centro de Apoyo Esperanza,Spain,0,1,1,HCO
+Centro de Apoyo y Esperanza,Spain,0,0,2,HCO
+Centro de Bienestar Comunitario,Spain,1,1,0,HCO
+Centro de Bienestar Familiar,Spain,1,1,0,HCO
+Centro de Bienestar Integral,Spain,1,1,0,HCO
+Centro de Bienestar Social,Spain,0,0,2,HCO
+Centro de Bienestar y Salud,Spain,0,0,2,HCO
+Centro de Bienestar y Solidaridad,Spain,0,0,2,HCO
+Centro de Bienestar y Vida,Spain,0,1,1,HCO
+Centro de ReabilitaASSapso Brasil,Brazil,2,0,0,HCO
+Centro de Rehabilitacian Esperanza,Spain,0,1,1,HCO
+Centro de Rehabilitacian Integral,Spain,0,0,2,HCO
+Centro de Rehabilitacian Nueva Vida,Spain,0,0,2,HCO
+Centro de Rehabilitacian San Juan,Spain,1,0,1,HCO
+Centro de Rehabilitacian Vida Nueva,Spain,0,1,1,HCO
+Centro de Rehabilitacian y Progreso,Spain,0,2,0,HCO
+Centro de Rehabilitacian y Vida,Spain,0,2,0,HCO
+Centro de Salud Integral,Spain,1,1,0,HCO
+Centro de Salud Vida,Spain,2,0,0,HCO
+Centro de Salud y Esperanza,Spain,1,1,0,HCO
+Clanica Boa Saaode,Brazil,1,1,0,HCO
+Clanica Santa Maria,Brazil,1,0,1,HCO
+Clanica Sapso Benedito,Brazil,1,1,0,HCO
+Clanica Sapso Carlos,Brazil,0,1,1,HCO
+Clanica Sapso Francisco,Brazil,1,0,1,HCO
+Clanica Sapso Gabriel,Brazil,0,1,1,HCO
+Clanica Sapso Geraldo,Brazil,0,2,0,HCO
+Clanica Sapso Joapso,Brazil,0,1,1,HCO
+Clanica Sapso Jorge,Brazil,2,0,0,HCO
+Clanica Sapso Josac,Brazil,0,1,1,HCO
+Clanica Sapso Judas,Brazil,0,2,0,HCO
+Clanica Sapso Lucas,Brazil,0,2,0,HCO
+Clanica Sapso Marcos,Brazil,0,1,1,HCO
+Clanica Sapso Paulo,Brazil,1,0,1,HCO
+Clanica Sapso Pedro,Brazil,1,1,0,HCO
+Clanica Sapso Rafael,Brazil,0,1,1,HCO
+Clanica Sapso Tomac,Brazil,0,1,1,HCO
+Clanica Sapso Vicente,Brazil,0,2,0,HCO
+Comprehensive Care Initiative,USA,0,2,0,HCO
+Fundacao Oswaldo Cruz (Fiocruz),Brazil,1,0,1,HCO
+Fundacao Vida Verde,Brazil,1,0,1,HCO
+Fundacian Apoyo Vital,Spain,0,1,1,HCO
+Fundacian Apoyo y Salud,Spain,1,1,0,HCO
+Fundacian Bienestar Integral,Spain,1,1,0,HCO
+Fundacian Cuidado Integral,Spain,0,2,0,HCO
+Fundacian Cuidado Pleno,Spain,0,1,1,HCO
+Fundacian Cuidado Responsable,Spain,0,0,2,HCO
+Fundacian Cuidado Total,Spain,0,1,1,HCO
+Fundacian Cuidado de Vida,Spain,0,1,1,HCO
+Fundacian Desarrollo Social,Spain,1,0,1,HCO
+Fundacian Desarrollo Sustentable,Spain,0,1,1,HCO
+Fundacian Desarrollo y Bienestar,Spain,2,0,0,HCO
+Fundacian Desarrollo y Futuro,Spain,2,0,0,HCO
+Fundacian Esperanza,Spain,0,2,0,HCO
+Fundacian Futuro para Todos,Spain,1,0,1,HCO
+Fundacian Futuro y Vida,Spain,1,0,1,HCO
+Fundacian Integral de Salud,Spain,0,1,1,HCO
+Fundacian Integral de Vida,Spain,0,1,1,HCO
+Fundacian Luz,Spain,0,1,1,HCO
+Fundacian Luz y Vida,Spain,0,1,1,HCO
+Fundacian Progreso Social,Spain,1,1,0,HCO
+Fundacian Progreso y Salud,Spain,1,1,0,HCO
+Fundacian Renueva,Spain,1,1,0,HCO
+Fundacian Salud Total,Spain,0,0,2,HCO
+Fundacian Salud y Bienestar,Spain,0,2,0,HCO
+Fundacian Salud y Vida,Spain,1,1,0,HCO
+Fundacian Vida Activa,Spain,0,1,1,HCO
+Fundacian Vida Integral,Spain,0,1,1,HCO
+Fundacian Vida Nueva,Spain,1,1,0,HCO
+Fundacian Vida Plena,Spain,0,2,0,HCO
+Fundacian Vida Saludable,Spain,1,1,0,HCO
+Fundacian Vida Sana,Spain,0,2,0,HCO
+Fundacian Vida en Plenitud,Spain,0,2,0,HCO
+Fundacian Vida y Futuro,Spain,1,1,0,HCO
+Fundacian Vida y Salud,Spain,1,0,1,HCO
+Fundacian de Cuidado Integral,Spain,1,1,0,HCO
+Fundacion Esperanza Solidaria,Spain,1,0,1,HCO
+Fundacion Esperanza y Futuro,Spain,1,0,1,HCO
+Fundacion Luz de Esperanza,Spain,0,2,0,HCO
+Fundacion Luz y Esperanza,Spain,0,0,2,HCO
+Future Health Initiative,USA,0,1,1,HCO
+Future Wellness Foundation,USA,0,2,0,HCO
+Futures for Care,USA,0,2,0,HCO
+Futures for Health,USA,0,2,0,HCO
+Futures for Health Network,USA,0,1,1,HCO
+Futures for Health and Care,USA,0,2,0,HCO
+Futures for Health and Wellness,USA,1,1,0,HCO
+Futures for Wellness,USA,0,1,1,HCO
+Global Care Alliance,USA,0,1,1,HCO
+Global Care Foundation,USA,1,0,1,HCO
+Global Care Initiative,USA,2,0,0,HCO
+Global Care Solutions,USA,0,1,1,HCO
+Global Health Initiative,USA,1,1,0,HCO
+Global Health Network,USA,0,1,1,HCO
+Global Health Organization,USA,0,1,1,HCO
+Global Health Partners,USA,0,2,0,HCO
+Global Health and Care,USA,2,0,0,HCO
+Global Wellness Foundation,USA,1,1,0,HCO
+Global Wellness Health,USA,0,1,1,HCO
+Global Wellness Initiative,USA,0,1,1,HCO
+Global Wellness Network,USA,1,0,1,HCO
+Global Wellness Partnership,USA,0,1,1,HCO
+Global Wellness Society,USA,1,0,1,HCO
+Health Alliance Network,USA,0,2,0,HCO
+Health Care Alliance,USA,0,2,0,HCO
+Health Care United,USA,1,0,1,HCO
+Health First Alliance,USA,0,2,0,HCO
+Health Network Alliance,USA,1,0,1,HCO
+Health Network Foundation,USA,1,1,0,HCO
+Health Network Solutions,USA,1,1,0,HCO
+Health Network Support,USA,1,0,1,HCO
+Health Solutions Group,USA,0,1,1,HCO
+Health and Care Alliance,USA,1,1,0,HCO
+Health and Care Foundation,USA,0,2,0,HCO
+Health and Care Network,USA,1,0,1,HCO
+Health and Wellness Alliance,USA,0,2,0,HCO
+Health and Wellness Foundation,USA,0,1,1,HCO
+Health and Wellness Network,USA,1,1,0,HCO
+Health and Wellness Solutions,USA,0,0,2,HCO
+Hope America Foundation,USA,1,0,1,HCO
+Hope Foundation America,USA,0,1,1,HCO
+Hope and Healing Foundation,USA,0,0,2,HCO
+Hope for Health Foundation,USA,0,1,1,HCO
+Hope for Tomorrow Alliance,USA,0,1,1,HCO
+Hope for Tomorrow Foundation,USA,1,0,1,HCO
+Hope for a Better Future,USA,0,0,2,HCO
+Hope for a Healthy Future,USA,1,1,0,HCO
+Hospice Santa Maria,Brazil,0,1,1,HCO
+Hospital Israelita Albert Einstein,Brazil,0,1,1,HCO
+Hospital Nossa Senhora de FA!tima,Brazil,0,0,2,HCO
+Hospital Santa Clara,Brazil,0,0,2,HCO
+Hospital Santa Helena,Brazil,1,0,1,HCO
+Hospital Santa Maria,Brazil,0,1,1,HCO
+Hospital Santa Marta,Brazil,0,1,1,HCO
+Hospital Santa Teresa,Brazil,2,0,0,HCO
+Hospital Santo AntA'nio,Brazil,1,0,1,HCO
+Hospital Sao Luiz,Brazil,2,0,0,HCO
+Hospital Sapso Bento,Brazil,0,1,1,HCO
+Hospital Sapso Domingos,Brazil,2,0,0,HCO
+Hospital Sapso Francisco,Brazil,1,1,0,HCO
+Hospital Sapso Gabriel,Brazil,0,2,0,HCO
+Hospital Sapso Joapso,Brazil,0,0,2,HCO
+Hospital Sapso Josac,Brazil,0,2,0,HCO
+Hospital Sapso Lucas,Brazil,0,2,0,HCO
+Hospital Sapso Luiz,Brazil,0,2,0,HCO
+Hospital Sapso Marcos,Brazil,1,0,1,HCO
+Hospital Sapso Mateus,Brazil,1,0,1,HCO
+Hospital Sapso Miguel,Brazil,0,1,1,HCO
+Hospital Sapso Paulo Norte,Brazil,0,2,0,HCO
+Hospital Sapso Pedro,Brazil,1,0,1,HCO
+Hospital Sapso Rafael,Brazil,1,0,1,HCO
+Hospital Sirio-Libanes,Brazil,0,1,1,HCO
+Hospital UniversitA!rio,Brazil,0,0,2,HCO
+Hospital Vila Boa,Brazil,0,2,0,HCO
+Hospital Vila Clara,Brazil,0,1,1,HCO
+Hospital Vila Mariana,Brazil,0,1,1,HCO
+Hospital Vila Nova,Brazil,1,1,0,HCO
+Hospital da Boa EsperanASSa,Brazil,0,1,1,HCO
+Hospital da CrianASSa,Brazil,1,0,1,HCO
+Hospital da EsperanASSa,Brazil,0,0,2,HCO
+Hospital da Luz,Brazil,0,0,2,HCO
+Hospital da RedenASSapso,Brazil,1,1,0,HCO
+Hospital da Saaode,Brazil,0,0,2,HCO
+Hospital da Vida,Brazil,0,0,2,HCO
+Hospital das Clanicas,Brazil,0,1,1,HCO
+Hospital das Clinicas de Sao Paulo,Brazil,0,1,1,HCO
+Hospital de Cancer de Barretos,Brazil,0,0,2,HCO
+Hospital de Coracao de Sao Paulo,Brazil,0,0,2,HCO
+Instituto Brasileiro de Cardiologia,Brazil,2,0,0,HCO
+Instituto Brasileiro de Dermatologia,Brazil,1,1,0,HCO
+Instituto Brasileiro de Neurologia,Brazil,0,2,0,HCO
+Instituto Brasileiro de Oftalmologia,Brazil,1,0,1,HCO
+Instituto Brasileiro de Oncologia,Brazil,1,0,1,HCO
+Instituto Brasileiro de Saaode,Brazil,1,0,1,HCO
+Instituto Esperanca Brasil,Brazil,1,0,1,HCO
+Instituto Nacional de Cardiologia,Brazil,0,2,0,HCO
+Instituto Nacional de Oncologia,Brazil,0,2,0,HCO
+Instituto Paulista de CAC/ncer,Brazil,0,1,1,HCO
+Instituto Paulista de Cardiologia,Brazil,0,0,2,HCO
+Instituto Paulista de Endocrinologia,Brazil,1,0,1,HCO
+Instituto Paulista de Ginecologia,Brazil,0,1,1,HCO
+Instituto Paulista de Hematologia,Brazil,1,0,1,HCO
+Instituto Paulista de Nefrologia,Brazil,0,1,1,HCO
+Instituto Paulista de Oftalmologia,Brazil,0,0,2,HCO
+Instituto Paulista de Oncologia,Brazil,0,1,1,HCO
+Instituto Paulista de Pediatria,Brazil,0,1,1,HCO
+Instituto Paulista de Reumatologia,Brazil,0,0,2,HCO
+Instituto Paulista de Saaode,Brazil,0,2,0,HCO
+Instituto Paulista de Urologia,Brazil,1,0,1,HCO
+Instituto Vida e Saaode,Brazil,0,1,1,HCO
+Instituto de CAC/ncer Sapso Paulo,Brazil,2,0,0,HCO
+Instituto de Saaode Central,Brazil,1,1,0,HCO
+Instituto de Saaode da Mulher,Brazil,1,0,1,HCO
+Instituto do CoraASSapso Paulista,Brazil,0,0,2,HCO
+Instituto do Coracao (InCor),Brazil,0,0,2,HCO
+National Care Network,USA,0,2,0,HCO
+National Health Initiative,USA,1,0,1,HCO
+National Health Network,USA,1,0,1,HCO
+National Health Organization,USA,1,0,1,HCO
+National Health Partners,USA,1,0,1,HCO
+National Health Service,USA,0,0,2,HCO
+National Health Services,USA,0,2,0,HCO
+National Health Support,USA,2,0,0,HCO
+National Health and Wellness Network,USA,1,0,1,HCO
+National Wellness Foundation,USA,0,2,0,HCO
+National Wellness Initiative,USA,0,1,1,HCO
+Nationwide Care Network,USA,1,0,1,HCO
+Nationwide Health Alliance,USA,0,1,1,HCO
+Nationwide Health Foundation,USA,1,0,1,HCO
+Nationwide Health Initiative,USA,0,1,1,HCO
+Nationwide Health Partners,USA,0,1,1,HCO
+Nationwide Health Support Network,USA,1,0,1,HCO
+Nationwide Hope Foundation,USA,1,1,0,HCO
+Nationwide Wellness Initiative,USA,0,1,1,HCO
+Nationwide Wellness Network,USA,1,1,0,HCO
+Nationwide Wellness Partners,USA,0,1,1,HCO
+Projeto Cidadania e Futuro,Brazil,1,0,1,HCO
+Red Esperanza y Desarrollo,Spain,0,2,0,HCO
+Red Solidaridad Espana,Spain,0,2,0,HCO
+Red de Apoyo Integral,Spain,0,0,2,HCO
+Red de Apoyo y Bienestar,Spain,0,0,2,HCO
+Red de Bienestar y Progreso,Spain,0,2,0,HCO
+Red de Progreso y Salud,Spain,0,2,0,HCO
+Red de Salud Esperanza,Spain,0,2,0,HCO
+Red de Salud Integral,Spain,0,0,2,HCO
+Red de Salud PAoblica,Spain,0,1,1,HCO
+Red de Salud y Vida,Spain,0,1,1,HCO
+Red de Solidaridad y Progreso,Spain,0,0,2,HCO
+Red de Vida y Progreso,Spain,0,2,0,HCO
+Rede Solidariedade Brasil,Brazil,0,1,1,HCO
+Unified Care Alliance,USA,1,1,0,HCO
+Unified Care Network,USA,0,1,1,HCO
+Unified Care Solutions,USA,0,1,1,HCO
+Unified Health Network,USA,2,0,0,HCO
+Unified Health Partners,USA,1,0,1,HCO
+Unified Health Solutions,USA,0,1,1,HCO
+Unified Wellness Initiative,USA,1,0,1,HCO
+Unified Wellness Partners,USA,0,1,1,HCO
+Unified Wellness Solutions,USA,0,2,0,HCO
+United Care Initiative,USA,0,0,2,HCO
+United Care Network,USA,0,1,1,HCO
+United Community Aid Network,USA,1,1,0,HCO
+United Health Care Network,USA,1,0,1,HCO
+United Health Partners,USA,0,2,0,HCO
+United Wellness Foundation,USA,0,0,2,HCO
+United Wellness Initiative,USA,0,2,0,HCO
+United Wellness Network,USA,0,1,1,HCO
+Wellness Foundation of America,USA,0,0,2,HCO
+Adam Rogers,USA,0,0,2,HCP
+Adrian Costa,SPAIN,1,0,1,HCP
+Adrian Martinez,SPAIN,1,0,1,HCP
+Adrian Mateo Costa,SPAIN,1,0,1,HCP
+Adrian Mateo Martinez,SPAIN,0,1,1,HCP
+Adriana Costa,BRAZIL,0,1,1,HCP
+Adriana Gomez,USA,0,1,1,HCP
+Adriana Gonzalez,USA,1,0,1,HCP
+Adriana Jimenez,SPAIN,1,1,0,HCP
+Adriana John Martinez,USA,1,1,0,HCP
+Adriana Juan Gonzalez,USA,0,2,0,HCP
+Adriana Leandro Silva,BRAZIL,1,1,0,HCP
+Adriana Lee Gonzalez,USA,0,2,0,HCP
+Adriana Lee Martinez,USA,0,1,1,HCP
+Adriana Lopez,USA,0,2,0,HCP
+Adriana Martinez,BRAZIL,0,0,2,HCP
+Adriana Martinez Pedro,BRAZIL,1,0,1,HCP
+Adriana Morales,USA,0,1,1,HCP
+Adriana Ruiz,BRAZIL,1,0,1,HCP
+Adriana Ruiz Jack,BRAZIL,0,1,1,HCP
+Adriana Sanchez,USA,1,1,0,HCP
+Adriana Silva,SPAIN,2,0,0,HCP
+Adriana Torres,SPAIN,2,0,0,HCP
+Alan Ferreira,BRAZIL,1,1,0,HCP
+Alberto Moreno,SPAIN,0,1,1,HCP
+Alejandra Lopez,USA,0,1,1,HCP
+Alejandro Garcia,SPAIN,0,1,1,HCP
+Alejandro Gonzalez,BRAZIL,1,0,1,HCP
+Alejandro Lopez,SPAIN,1,0,1,HCP
+Alejandro Martinez,BRAZIL,0,1,1,HCP
+Alessandra Oliveira,BRAZIL,0,1,1,HCP
+Alexander Green,USA,1,0,1,HCP
+Alexandre Campos,BRAZIL,1,0,1,HCP
+Alexandre Silva,BRAZIL,1,0,1,HCP
+Alfonso Leandro Lopez,SPAIN,1,0,1,HCP
+Alfonso Lopez,SPAIN,1,1,0,HCP
+Alice James,USA,0,1,1,HCP
+Alicia Gomez,SPAIN,1,0,1,HCP
+Aline Costa,BRAZIL,0,1,1,HCP
+Aline Leandro Costa,BRAZIL,1,1,0,HCP
+Aline Pereira,BRAZIL,0,2,0,HCP
+Aline Santos,BRAZIL,1,1,0,HCP
+Alonso Torres,SPAIN,1,0,1,HCP
+Amanda Clark,USA,0,1,1,HCP
+Ana Clara Souza,BRAZIL,0,1,1,HCP
+Ana Costa,SPAIN,2,0,0,HCP
+Ana Fernandes,USA,0,1,1,HCP
+Ana Garcia,SPAIN,1,1,0,HCP
+Ana Gomez,USA,1,1,0,HCP
+Ana Laura Lima,BRAZIL,0,2,0,HCP
+Ana Leandro Costa,BRAZIL,0,1,1,HCP
+Ana Leandro Fernandes,USA,0,2,0,HCP
+Ana Leandro Garcia,SPAIN,1,0,1,HCP
+Ana Lima Fernando,BRAZIL,1,1,0,HCP
+Ana Lima Julia,BRAZIL,0,1,1,HCP
+Ana Lima Pedro,USA,0,2,0,HCP
+Ana Mateo Gomez,USA,0,1,1,HCP
+Ana Oliveira,BRAZIL,0,2,0,HCP
+Ana Oliveira Beatriz,BRAZIL,0,1,1,HCP
+Ana Paula Oliveira,BRAZIL,0,0,2,HCP
+Ana Ruiz,SPAIN,0,1,1,HCP
+Ana Silva,BRAZIL,0,2,0,HCP
+Andre Oliveira,BRAZIL,1,0,1,HCP
+Andrea Costa,BRAZIL,0,2,0,HCP
+Andrea Gomez,USA,0,0,2,HCP
+Andrea Martinez,USA,0,0,2,HCP
+Andrea Ruiz,BRAZIL,0,1,1,HCP
+Andrea Torres,USA,0,1,1,HCP
+Andres Castro,USA,0,2,0,HCP
+Antonio Alvarez,SPAIN,1,0,1,HCP
+Antonio Carlos Silva,BRAZIL,0,2,0,HCP
+Antonio Castro,BRAZIL,0,1,1,HCP
+Antonio Diaz,SPAIN,1,0,1,HCP
+Antonio Fernandez,BRAZIL,0,0,2,HCP
+Antonio Garcia,SPAIN,0,1,1,HCP
+Antonio Gomez,SPAIN,0,1,1,HCP
+Antonio Gonzalez,SPAIN,0,1,1,HCP
+Antonio Herrera,SPAIN,1,1,0,HCP
+Antonio Lee Martinez,SPAIN,0,1,1,HCP
+Antonio Lopez,USA,0,1,1,HCP
+Antonio Lopez Gomez,USA,0,1,1,HCP
+Antonio Lopez Lee,USA,0,1,1,HCP
+Antonio Martinez,SPAIN,1,1,0,HCP
+Antonio Morales,USA,2,0,0,HCP
+Antonio Ortega,SPAIN,0,2,0,HCP
+Antonio RodrigoSilva,SPAIN,1,0,1,HCP
+Antonio Ruiz,USA,0,1,1,HCP
+Antonio Ruiz Fernando,USA,0,1,1,HCP
+Antonio Ruiz Manuel,BRAZIL,0,1,1,HCP
+Antonio Sanchez,USA,1,1,0,HCP
+Antonio Silva,BRAZIL,1,0,1,HCP
+Antonio Torres,SPAIN,0,2,0,HCP
+Antonio Torres Martinez,SPAIN,2,0,0,HCP
+Antonio Vargas,BRAZIL,1,1,0,HCP
+AntonioPedro Silva,SPAIN,1,1,0,HCP
+Aria Morris,USA,0,1,1,HCP
+Ashley Wilson,USA,1,0,1,HCP
+Aurora Cox,USA,0,2,0,HCP
+Aurora Garcia,SPAIN,1,0,1,HCP
+Beatriz Almeida,BRAZIL,0,1,1,HCP
+Beatriz Lima,BRAZIL,1,1,0,HCP
+Beatriz Ortega,SPAIN,1,0,1,HCP
+Benjamin Turner,USA,0,1,1,HCP
+Brandon Carter,USA,0,1,1,HCP
+Bruna Souza,BRAZIL,1,0,1,HCP
+Bruno Carvalho,BRAZIL,0,2,0,HCP
+Bruno Oliveira,BRAZIL,0,1,1,HCP
+Caleb Stewart,USA,0,1,1,HCP
+Camila Araujo,BRAZIL,0,2,0,HCP
+Camila Costa,SPAIN,0,1,1,HCP
+Camila Gomez,USA,1,0,1,HCP
+Camila Herrera,BRAZIL,0,2,0,HCP
+Camila Morales,BRAZIL,0,2,0,HCP
+Camila Oliveira,BRAZIL,1,1,0,HCP
+Camila Romero,SPAIN,1,0,1,HCP
+Camila Sanchez,USA,0,1,1,HCP
+Camila Silva,BRAZIL,2,0,0,HCP
+Camila Vargas,USA,0,1,1,HCP
+Carla Costa,USA,0,1,1,HCP
+Carla Fernandez,BRAZIL,0,1,1,HCP
+Carla Gonzalez,USA,1,1,0,HCP
+Carla Gonzalez Beatriz,BRAZIL,0,2,0,HCP
+Carla Julie Ruiz,USA,0,1,1,HCP
+Carla Leandro Costa,BRAZIL,0,1,1,HCP
+Carla Lee Ruiz,USA,0,1,1,HCP
+Carla Lopez,USA,0,1,1,HCP
+Carla Martinez ,USA,0,1,1,HCP
+Carla Martinez Romero,SPAIN,0,1,1,HCP
+Carla Michael Ruiz,SPAIN,0,1,1,HCP
+Carla Morales,BRAZIL,0,1,1,HCP
+Carla Rodriguez,SPAIN,0,1,1,HCP
+Carla Sanchez,USA,1,0,1,HCP
+Carla Silva,BRAZIL,1,1,0,HCP
+Carla Silva Leandro,BRAZIL,0,0,2,HCP
+Carla Torres,SPAIN,0,0,2,HCP
+Carla Vargas,SPAIN,0,0,2,HCP
+Carlos Antonio Ruiz,USA,0,1,1,HCP
+Carlos Beatriz Torres,USA,1,0,1,HCP
+Carlos Eduardo Silva,BRAZIL,0,0,2,HCP
+Carlos Mariana Silva,BRAZIL,1,1,0,HCP
+Carlos Morales,SPAIN,0,2,0,HCP
+Carlos Morales Beatriz,SPAIN,0,0,2,HCP
+Carlos Torres,USA,0,0,2,HCP
+Carmen Garcia,SPAIN,1,1,0,HCP
+Carmen Gomez,SPAIN,0,0,2,HCP
+Carmen Jimenez,SPAIN,0,2,0,HCP
+Carmen Leandro Garcia,SPAIN,0,0,2,HCP
+Carmen Perez,SPAIN,0,2,0,HCP
+Carmen Perez Romero,SPAIN,0,1,1,HCP
+Carmen Ruiz,SPAIN,0,1,1,HCP
+Carmen Sanchez,SPAIN,0,1,1,HCP
+Carolina Almeida,BRAZIL,1,1,0,HCP
+Carolina Beatriz Gomez,USA,0,1,1,HCP
+Carolina Fernandez,BRAZIL,0,2,0,HCP
+Carolina Gomez,BRAZIL,2,0,0,HCP
+Carolina Jimenez,BRAZIL,1,0,1,HCP
+Carolina Leandro Martinez,BRAZIL,0,0,2,HCP
+Carolina Martinez,USA,0,0,2,HCP
+Carolina Ortega,USA,2,0,0,HCP
+Carolina Silva,BRAZIL,0,1,1,HCP
+Carolina Silva Romero,BRAZIL,1,0,1,HCP
+Charlotte Nelson,USA,0,1,1,HCP
+Chloe Barnes,USA,1,0,1,HCP
+Christopher Taylor,USA,0,2,0,HCP
+Clara Beatriz Morales,SPAIN,1,0,1,HCP
+Clara Fernandez,SPAIN,0,2,0,HCP
+Clara Gonzalez,SPAIN,0,0,2,HCP
+Clara Morales,SPAIN,0,0,2,HCP
+Clara Moreira,BRAZIL,0,1,1,HCP
+Claudia Beatriz,BRAZIL,0,1,1,HCP
+Claudia Beatriz Pereira,BRAZIL,1,0,1,HCP
+Claudia Beatriz Silva,BRAZIL,0,0,2,HCP
+Claudia Castro,BRAZIL,0,1,1,HCP
+Claudia Costa,BRAZIL,0,0,2,HCP
+Claudia Diaz,USA,1,0,1,HCP
+Claudia Hernandez,BRAZIL,0,2,0,HCP
+Claudia Herrera,SPAIN,0,2,0,HCP
+Claudia Martins,USA,1,1,0,HCP
+Claudia Mendoza,SPAIN,0,1,1,HCP
+Claudia Sanchez,USA,0,1,1,HCP
+Claudia Silva,BRAZIL,0,2,0,HCP
+Claudia Torres,SPAIN,0,0,2,HCP
+Cristina Martinez,SPAIN,1,0,1,HCP
+Cristina Ruiz,BRAZIL,0,1,1,HCP
+Daniel Beatriz Silva,USA,1,1,0,HCP
+Daniel Fernando Gomez,USA,0,0,2,HCP
+Daniel Ferreira,BRAZIL,0,1,1,HCP
+Daniel Gomez,USA,0,0,2,HCP
+Daniel Gonzalez,USA,0,0,2,HCP
+Daniel Martinez,SPAIN,0,0,2,HCP
+Daniel Ortiz,BRAZIL,0,0,2,HCP
+Daniel Pedro Martinez,BRAZIL,0,1,1,HCP
+Daniel Ramos,SPAIN,1,1,0,HCP
+Daniel Ruiz,USA,0,0,2,HCP
+Daniel Silva,BRAZIL,1,1,0,HCP
+Daniel Silva Gomez,SPAIN,1,1,0,HCP
+Daniel White,USA,1,1,0,HCP
+Daniela Alvarez,BRAZIL,0,0,2,HCP
+Daniela Carvalho Ruiz,BRAZIL,1,1,0,HCP
+Daniela Castro,SPAIN,0,1,1,HCP
+Daniela Costa,USA,1,0,1,HCP
+Daniela Costa Ruiz,USA,0,2,0,HCP
+Daniela Fernandez,USA,0,1,1,HCP
+Daniela Gonzalez,SPAIN,0,1,1,HCP
+Daniela Leandro Ramirez,USA,0,1,1,HCP
+Daniela Martinez,USA,0,2,0,HCP
+Daniela Mendoza,USA,1,0,1,HCP
+Daniela Pereira,USA,1,0,1,HCP
+Daniela Ramirez,USA,1,0,1,HCP
+Daniela Ribeiro,BRAZIL,0,1,1,HCP
+Daniela Ruiz,USA,0,2,0,HCP
+Daniela Silva,USA,0,0,2,HCP
+Daniela Torres,SPAIN,0,2,0,HCP
+Dario Esteban Ruiz,SPAIN,0,1,1,HCP
+Dario Ruiz,SPAIN,0,1,1,HCP
+David Beatriz Ruiz,USA,1,1,0,HCP
+David Carlos Silva,BRAZIL,1,1,0,HCP
+David Gomez,USA,1,0,1,HCP
+David Gonzalez,USA,0,0,2,HCP
+David Jones,USA,0,1,1,HCP
+David Leandro Gomez,BRAZIL,0,0,2,HCP
+David Lee Silva,USA,1,1,0,HCP
+David Martinez,SPAIN,0,0,2,HCP
+David Pedro Silva,BRAZIL,1,0,1,HCP
+David Ruiz,SPAIN,0,1,1,HCP
+David Sanchez,USA,0,1,1,HCP
+David Silva,USA,1,1,0,HCP
+David Torres,BRAZIL,1,1,0,HCP
+Diego Beatriz Silva,USA,0,0,2,HCP
+Diego Castro,USA,0,1,1,HCP
+Diego Castro Romero,SPAIN,0,2,0,HCP
+Diego Costa Gomez,SPAIN,0,2,0,HCP
+Diego Costa Martinez,SPAIN,0,1,1,HCP
+Diego Fernandez,USA,1,0,1,HCP
+Diego Leandro Fernandez,BRAZIL,1,0,1,HCP
+Diego Martinez,SPAIN,1,0,1,HCP
+Diego Mendoza,SPAIN,2,0,0,HCP
+Diego Pedro Costa,BRAZIL,0,1,1,HCP
+Diego Pereira,BRAZIL,0,2,0,HCP
+Diego Sanchez,USA,0,0,2,HCP
+Diego Silva,BRAZIL,0,0,2,HCP
+Diego Torres,USA,2,0,0,HCP
+Eduardo Martins,BRAZIL,2,0,0,HCP
+Elena  Pedro Costa,SPAIN,0,1,1,HCP
+Elena Alvarez,BRAZIL,0,0,2,HCP
+Elena Beatriz Ruiz,BRAZIL,0,1,1,HCP
+Elena Castro,USA,1,0,1,HCP
+Elena Costa,SPAIN,0,2,0,HCP
+Elena Costa Gonzalez,SPAIN,0,0,2,HCP
+Elena Costa Martinez,BRAZIL,0,1,1,HCP
+Elena Fernandez,USA,1,0,1,HCP
+Elena Garcia,SPAIN,0,1,1,HCP
+Elena Gomez,SPAIN,0,0,2,HCP
+Elena Gonzalez,USA,0,1,1,HCP
+Elena Hugo Sanchez,BRAZIL,2,0,0,HCP
+Elena Julie Torres,BRAZIL,0,2,0,HCP
+Elena Leandro Pereira,BRAZIL,0,0,2,HCP
+Elena Lee Torres,USA,1,0,1,HCP
+Elena Martinez,SPAIN,2,0,0,HCP
+Elena Morales,USA,1,1,0,HCP
+Elena Moreno,BRAZIL,0,0,2,HCP
+Elena Pedro Gomez,SPAIN,0,2,0,HCP
+Elena Pedro Gonzalez,USA,0,1,1,HCP
+Elena Pereira,SPAIN,1,1,0,HCP
+Elena Ruiz,BRAZIL,0,1,1,HCP
+Elena Sanchez,BRAZIL,0,1,1,HCP
+Elena Silva A,BRAZIL,1,0,1,HCP
+Elena Silva B,BRAZIL,1,0,1,HCP
+Elena Silva C,BRAZIL,1,1,0,HCP
+Elena Thomas Torres,SPAIN,0,1,1,HCP
+Elena Torres,SPAIN,1,1,0,HCP
+Elena Torres Gomez,BRAZIL,1,0,1,HCP
+Elena Torres Martinez,SPAIN,0,0,2,HCP
+Elena Vargas,SPAIN,1,1,0,HCP
+Eli Bennett,USA,0,1,1,HCP
+Ella Murphy,USA,0,1,1,HCP
+Emilia Costa,SPAIN,0,2,0,HCP
+Emilia Garcia,SPAIN,0,1,1,HCP
+Emilia Gonzalez,USA,0,2,0,HCP
+Emilia Hugo Pereira,USA,0,0,2,HCP
+Emilia Mendoza,USA,1,0,1,HCP
+Emilia Pereira,USA,0,0,2,HCP
+Emilia Silva,SPAIN,0,2,0,HCP
+Emiliano Perez,SPAIN,0,1,1,HCP
+Emilio Castillo,BRAZIL,1,1,0,HCP
+Emilio Herrera,USA,0,1,1,HCP
+Emilio Pereira,BRAZIL,1,0,1,HCP
+Emilio Silva,SPAIN,0,1,1,HCP
+Emilio Torres,BRAZIL,0,0,2,HCP
+Emilio Torres Vargas,SPAIN,0,0,2,HCP
+Emily Johnson,USA,0,1,1,HCP
+Emily Richardson,USA,1,1,0,HCP
+Emma Lopez,SPAIN,1,1,0,HCP
+Emma Scott,USA,0,1,1,HCP
+Enrique Alvarez,SPAIN,0,2,0,HCP
+Enrique Fernandez,SPAIN,1,0,1,HCP
+Enrique Martinez,SPAIN,2,0,0,HCP
+Enrique Perez,USA,0,1,1,HCP
+Enrique Torres,SPAIN,1,0,1,HCP
+Erica Almeida,BRAZIL,1,0,1,HCP
+Esteban Beatriz Silva,USA,1,0,1,HCP
+Esteban Castro,BRAZIL,0,1,1,HCP
+Esteban Costa,SPAIN,1,1,0,HCP
+Esteban Gael Ruiz,USA,2,0,0,HCP
+Esteban Gonzalez,USA,2,0,0,HCP
+Esteban Hugo Costa,SPAIN,0,1,1,HCP
+Esteban Lopez,USA,0,0,2,HCP
+Esteban Perez,SPAIN,0,1,1,HCP
+Esteban Romero,USA,2,0,0,HCP
+Esteban Ruiz,USA,0,1,1,HCP
+Esteban Silva,BRAZIL,0,2,0,HCP
+Estela Costa,USA,0,2,0,HCP
+Estela Ruiz,USA,1,1,0,HCP
+Estela Silva,SPAIN,0,1,1,HCP
+Ethan Brooks,USA,0,0,2,HCP
+Evelyn Rivera,USA,1,1,0,HCP
+Everton Gomes,BRAZIL,0,0,2,HCP
+Fabio Beatriz Santos,SPAIN,0,2,0,HCP
+Fabio Lima,SPAIN,0,1,1,HCP
+Fabio Lima Hugo,SPAIN,0,2,0,HCP
+Fabio Oliveira,SPAIN,1,0,1,HCP
+Fabio Oliveira Hugo,SPAIN,0,0,2,HCP
+Fabio Santos,SPAIN,0,1,1,HCP
+Felipe Carlos Rocha,USA,1,1,0,HCP
+Felipe Costa Carlos,BRAZIL,1,1,0,HCP
+Felipe Costa Silva,BRAZIL,0,1,1,HCP
+Felipe Garcia,BRAZIL,1,1,0,HCP
+Felipe Gomez,USA,0,1,1,HCP
+Felipe Gomez Hugo,BRAZIL,0,1,1,HCP
+Felipe Gonzalez,USA,1,0,1,HCP
+Felipe Hugo Ramos,USA,0,2,0,HCP
+Felipe Juan Rocha,SPAIN,0,2,0,HCP
+Felipe Lopez,USA,0,1,1,HCP
+Felipe Martins,BRAZIL,0,2,0,HCP
+Felipe Michel Costa,USA,1,0,1,HCP
+Felipe Pedro Costa,BRAZIL,1,1,0,HCP
+Felipe Pedro Rocha,SPAIN,1,1,0,HCP
+Felipe Pereira,BRAZIL,1,1,0,HCP
+Felipe Pereira Romero,BRAZIL,1,0,1,HCP
+Felipe Ramos,USA,1,0,1,HCP
+Felipe Rocha,SPAIN,0,0,2,HCP
+Felipe Ruiz,BRAZIL,0,2,0,HCP
+Felipe Sanchez,USA,0,1,1,HCP
+Felipe Silva,BRAZIL,1,1,0,HCP
+Felipe Torres,SPAIN,0,1,1,HCP
+Fernanda Costa,BRAZIL,1,0,1,HCP
+Fernanda Gael Costa,SPAIN,0,1,1,HCP
+Fernanda Garcia,BRAZIL,0,2,0,HCP
+Fernanda Martinez,BRAZIL,0,1,1,HCP
+Fernanda Oliveira,BRAZIL,0,1,1,HCP
+Fernanda Ruiz,SPAIN,0,0,2,HCP
+Fernanda Silva,BRAZIL,0,1,1,HCP
+FernandaVargas  Costa,SPAIN,1,1,0,HCP
+Fernando Alejandro Costa,USA,0,1,1,HCP
+Fernando Castillo,BRAZIL,0,1,1,HCP
+Fernando Diaz,USA,0,0,2,HCP
+Fernando Gonzalez,BRAZIL,1,0,1,HCP
+Fernando Iker Costa,USA,1,1,0,HCP
+Fernando John Gomez,USA,1,1,0,HCP
+Fernando Lee Gomez,USA,0,1,1,HCP
+Fernando Michael Gomez,USA,0,0,2,HCP
+Fernando Morales Silva,BRAZIL,0,1,1,HCP
+Fernando Nicole Gomez,USA,1,1,0,HCP
+Fernando Silva,USA,0,0,2,HCP
+Fernando Silva Pedro,USA,0,0,2,HCP
+Fernando Vargas,BRAZIL,0,2,0,HCP
+Fernando William Gomez,USA,0,2,0,HCP
+Florencia Costa,SPAIN,0,2,0,HCP
+Florencia Gonzalez,BRAZIL,0,1,1,HCP
+Florencia Hugo Silva,BRAZIL,0,1,1,HCP
+Florencia Silva,BRAZIL,1,1,0,HCP
+Florencia Torres,BRAZIL,0,2,0,HCP
+Francisco Carlos Ruiz,SPAIN,1,0,1,HCP
+Francisco Gomez,USA,1,1,0,HCP
+Francisco Javier Ruiz,SPAIN,1,0,1,HCP
+Francisco Jimenez,USA,0,0,2,HCP
+Francisco Juan  Ruiz,SPAIN,1,1,0,HCP
+Francisco Lee Ruiz,USA,1,0,1,HCP
+Francisco Mendoza,USA,0,1,1,HCP
+Francisco Michael Ruiz,USA,0,2,0,HCP
+Francisco Pedro Ruiz,BRAZIL,0,2,0,HCP
+Francisco Silva,BRAZIL,1,0,1,HCP
+Francisco Vargas,USA,1,0,1,HCP
+Gabriel Almeida,BRAZIL,0,1,1,HCP
+Gabriel Costa,BRAZIL,0,1,1,HCP
+Gabriel David Almeida,BRAZIL,1,1,0,HCP
+Gabriel Fernando Pereira,SPAIN,0,1,1,HCP
+Gabriel Jean Almeida,BRAZIL,1,1,0,HCP
+Gabriel Jean Pereira,BRAZIL,0,1,1,HCP
+Gabriel Juan Pereira,SPAIN,0,0,2,HCP
+Gabriel Pedro Almeida,BRAZIL,0,1,1,HCP
+Gabriel Simmons,USA,1,0,1,HCP
+Gabriela Almeida,BRAZIL,0,1,1,HCP
+Gabriela Pereira,BRAZIL,1,1,0,HCP
+Gabriela Torres,BRAZIL,2,0,0,HCP
+Gael Rodrigo Martinez,BRAZIL,0,1,1,HCP
+Grace Roberts,USA,0,1,1,HCP
+Guillermo Gonzalez,SPAIN,0,1,1,HCP
+Guillermo Lopez,SPAIN,0,1,1,HCP
+Guillermo Martinez,SPAIN,1,0,1,HCP
+Guillermo Ruiz,SPAIN,0,2,0,HCP
+Gustavo Lima,BRAZIL,0,0,2,HCP
+Gustavo Rocha,BRAZIL,1,1,0,HCP
+Hannah Gray,USA,0,0,2,HCP
+Henrique Costa,BRAZIL,0,1,1,HCP
+Henry James,USA,0,1,1,HCP
+Ignacio Martinez,BRAZIL,1,1,0,HCP
+Ignacio Pereira,BRAZIL,1,0,1,HCP
+Ignacio Silva,BRAZIL,0,0,2,HCP
+Iker Alejandro Morales,BRAZIL,0,1,1,HCP
+Ingrid Souza,BRAZIL,0,1,1,HCP
+Isabel Almeida,BRAZIL,0,2,0,HCP
+Isabel Almeida Hugo,BRAZIL,0,1,1,HCP
+Isabel Alvarez,BRAZIL,1,0,1,HCP
+Isabel Fernandez,BRAZIL,0,1,1,HCP
+Isabel Garcia,BRAZIL,0,1,1,HCP
+Isabel Gomez,SPAIN,0,2,0,HCP
+Isabel Jimenez,BRAZIL,0,0,2,HCP
+Isabel Martinez,SPAIN,0,0,2,HCP
+Isabel Mateo Gomez,SPAIN,1,0,1,HCP
+Isabel Morales,BRAZIL,2,0,0,HCP
+Isabel Moreno,SPAIN,0,1,1,HCP
+Isabel Rodriguez,BRAZIL,1,1,0,HCP
+Isabel Ruiz,BRAZIL,1,0,1,HCP
+Isabel Silva,BRAZIL,0,2,0,HCP
+Isabel Torres,BRAZIL,0,2,0,HCP
+IsabelHugo  Martinez,SPAIN,0,1,1,HCP
+Isabella Gomes,BRAZIL,1,0,1,HCP
+Isabella Martinez,BRAZIL,1,1,0,HCP
+Isabella Rocha,BRAZIL,1,0,1,HCP
+Isabella Rodrigues,BRAZIL,0,1,1,HCP
+Isabella Rodrigues Romero,BRAZIL,0,1,1,HCP
+Isabella Ruiz,SPAIN,0,0,2,HCP
+Isabella Torres,SPAIN,0,1,1,HCP
+Isabella Torres Salvador,SPAIN,1,1,0,HCP
+Isabella Young,USA,0,1,1,HCP
+Jack Wilson,USA,0,0,2,HCP
+James Brown,USA,0,1,1,HCP
+James Smith,USA,1,0,1,HCP
+Javier Gomez,SPAIN,0,1,1,HCP
+Javier Gonzalez,USA,1,1,0,HCP
+Javier Perez,SPAIN,0,1,1,HCP
+Javier Perez Salvador,SPAIN,0,0,2,HCP
+Javier Sanchez,SPAIN,0,2,0,HCP
+Javier Torres,SPAIN,1,0,1,HCP
+Jessica Brown,USA,0,0,2,HCP
+Jessica Costa,USA,1,1,0,HCP
+Jessica Gomez,USA,0,1,1,HCP
+Jesus Perez,SPAIN,1,0,1,HCP
+JoAPSo Mateo Silva,BRAZIL,1,0,1,HCP
+JoAPSo Pereira,SPAIN,0,0,2,HCP
+JoAPSo Silva,USA,1,1,0,HCP
+Joao Lucas Lima,SPAIN,0,1,1,HCP
+Joao Pedro Lima,BRAZIL,0,2,0,HCP
+Joao Silva,BRAZIL,0,1,1,HCP
+Joaquin Alvarez,SPAIN,0,1,1,HCP
+Joaquin Castillo,USA,0,1,1,HCP
+Joaquin Fernandez,USA,1,0,1,HCP
+Joaquin Herrera,SPAIN,0,2,0,HCP
+Joaquin Ramirez,BRAZIL,0,2,0,HCP
+Joaquin Torres,USA,0,1,1,HCP
+John Anderson,USA,1,1,0,HCP
+Jorge Almeida,BRAZIL,0,1,1,HCP
+Jorge Gonzalez,USA,0,1,1,HCP
+Jorge Jimenez,SPAIN,2,0,0,HCP
+Jorge Martinez,SPAIN,1,1,0,HCP
+Jorge Martinez Salvador,SPAIN,0,2,0,HCP
+Jorge Ortega,SPAIN,0,2,0,HCP
+Jorge Ruiz,SPAIN,0,2,0,HCP
+Jorge Sanchez,USA,0,2,0,HCP
+Jorge Sanchez Romero,SPAIN,0,1,1,HCP
+Jorge Silva,BRAZIL,1,0,1,HCP
+Jose Gomez,USA,0,2,0,HCP
+Jose Martinez,USA,1,0,1,HCP
+Jose Martinez Romero,SPAIN,1,1,0,HCP
+Jose Ruiz,USA,0,2,0,HCP
+Jose Torres,USA,0,2,0,HCP
+Joshua King,USA,0,2,0,HCP
+Juan Alvarez,SPAIN,0,0,2,HCP
+Juan Carlos Ruiz,SPAIN,0,2,0,HCP
+Juan Castillo,BRAZIL,1,1,0,HCP
+Juan Gomez,USA,0,1,1,HCP
+Juan Lee Castillo,USA,0,1,1,HCP
+Juan Leonardo Costa,SPAIN,0,0,2,HCP
+Juan M Martinez,BRAZIL,1,0,1,HCP
+Juan Martinez,USA,0,1,1,HCP
+Juan Morales,SPAIN,2,0,0,HCP
+Juan Ortega,SPAIN,1,1,0,HCP
+Juan Ortiz,BRAZIL,1,1,0,HCP
+Juan Roberto Silva,SPAIN,0,2,0,HCP
+Juan Sanchez,USA,0,1,1,HCP
+Juan Silva,USA,1,0,1,HCP
+Julia Almeida,BRAZIL,0,2,0,HCP
+Julian Costa,BRAZIL,1,0,1,HCP
+Julian Costa Pedro,BRAZIL,1,1,0,HCP
+Julian Gomez,BRAZIL,0,1,1,HCP
+Julian Gomez Salvador,USA,1,0,1,HCP
+Julian Jimenez,USA,0,1,1,HCP
+Julian Lopez,USA,2,0,0,HCP
+Julian Martinez,SPAIN,0,2,0,HCP
+Julian Mendoza,USA,0,0,2,HCP
+Julian Ortega,USA,1,0,1,HCP
+Julian Ramirez,USA,0,2,0,HCP
+Julian Ruiz,SPAIN,0,1,1,HCP
+Julian Silva,SPAIN,0,1,1,HCP
+Julian Torres,SPAIN,0,1,1,HCP
+Julian Torres Alejandro,USA,0,2,0,HCP
+Julian Torres Iker,SPAIN,0,1,1,HCP
+Juliana Costa,BRAZIL,1,0,1,HCP
+Juliana Gomez,USA,0,2,0,HCP
+Juliana Gomez Sanchez,SPAIN,1,1,0,HCP
+Juliana Jean Ribeiro,USA,0,2,0,HCP
+Juliana Juan Ribeiro,BRAZIL,2,0,0,HCP
+Juliana Juan Torres,USA,0,2,0,HCP
+Juliana Lee Ribeiro,SPAIN,0,1,1,HCP
+Juliana Martinez,USA,0,1,1,HCP
+Juliana Martinez Juan,USA,0,1,1,HCP
+Juliana Martinez Pedro,BRAZIL,1,0,1,HCP
+Juliana Morales,SPAIN,0,1,1,HCP
+Juliana Pereira,BRAZIL,0,1,1,HCP
+Juliana Ribeiro,USA,1,1,0,HCP
+Juliana Sanchez,USA,0,1,1,HCP
+Juliana Silva,BRAZIL,1,0,1,HCP
+Juliana Torres,USA,0,1,1,HCP
+JulianaTorres Silva,USA,0,0,2,HCP
+Julie Gabriel Pereira,BRAZIL,1,0,1,HCP
+Julio Costa,SPAIN,0,1,1,HCP
+Julio Diaz Sanchez,USA,2,0,0,HCP
+Julio Fernandes,USA,0,1,1,HCP
+Julio Fernandes Salvador,USA,1,0,1,HCP
+Julio Fernandez,USA,0,2,0,HCP
+Julio Fernandez Ruiz,BRAZIL,0,2,0,HCP
+Julio Fernandez Salvador,SPAIN,0,2,0,HCP
+Julio Gomez,USA,0,2,0,HCP
+Julio Gomez Pedro,USA,1,0,1,HCP
+Julio Gomez Silva,USA,0,2,0,HCP
+Julio Gonzalez,USA,0,2,0,HCP
+Julio Ruiz,USA,1,0,1,HCP
+Julio Sanchez,USA,0,2,0,HCP
+Julio Silva,SPAIN,0,1,1,HCP
+Larissa Lima,BRAZIL,0,0,2,HCP
+Larissa Silva,BRAZIL,1,0,1,HCP
+Laura Alvarez,SPAIN,0,1,1,HCP
+Laura Diaz,USA,0,1,1,HCP
+Laura Diaz Silva,BRAZIL,0,1,1,HCP
+Laura Garcia,SPAIN,2,0,0,HCP
+Laura Gomez Silva ,USA,1,0,1,HCP
+Laura Gomez Torres,SPAIN,0,0,2,HCP
+Laura Gonzalez,USA,0,0,2,HCP
+Laura Isabela,SPAIN,0,1,1,HCP
+Laura Jean Martinez,SPAIN,0,1,1,HCP
+Laura Jimenez,USA,0,1,1,HCP
+Laura Juan Martinez,SPAIN,0,1,1,HCP
+Laura Juan Silva,SPAIN,2,0,0,HCP
+Laura Juan Torres,USA,0,0,2,HCP
+Laura Julie Jimenez,SPAIN,1,1,0,HCP
+Laura Martinez,BRAZIL,1,1,0,HCP
+Laura Martinez Michael,USA,0,1,1,HCP
+Laura Mendoza,BRAZIL,0,1,1,HCP
+Laura Ramirez,SPAIN,0,1,1,HCP
+Laura Rodriguez,SPAIN,1,0,1,HCP
+Laura Ruiz,USA,1,0,1,HCP
+Laura Silva,USA,0,1,1,HCP
+Laura Silva Vargas,BRAZIL,1,1,0,HCP
+Laura Torres,SPAIN,0,2,0,HCP
+Laura Torres Santos,SPAIN,1,0,1,HCP
+Laura Vargas,BRAZIL,0,1,1,HCP
+Leonardo Costa,SPAIN,0,2,0,HCP
+Leonardo Gomez,USA,0,2,0,HCP
+Leonardo Gomez Gonzalez,BRAZIL,0,2,0,HCP
+Leonardo Gonzalez,USA,1,1,0,HCP
+Leonardo Lee  Costa,SPAIN,1,0,1,HCP
+Leonardo Ramirez,USA,0,2,0,HCP
+Leonardo Silva,SPAIN,1,0,1,HCP
+Leonardo Silva Gomez,BRAZIL,0,1,1,HCP
+Leonardo Torres,SPAIN,1,0,1,HCP
+Leticia Carvalho,BRAZIL,1,0,1,HCP
+Lily Mitchell,USA,1,1,0,HCP
+Lina Torres,SPAIN,1,1,0,HCP
+Livia Rocha,BRAZIL,1,1,0,HCP
+Logan Hughes,USA,1,1,0,HCP
+Luana Costa,BRAZIL,0,1,1,HCP
+Luana Silva,BRAZIL,0,0,2,HCP
+Lucas Almeida,SPAIN,0,0,2,HCP
+Lucas Castro,SPAIN,0,2,0,HCP
+Lucas Costa,BRAZIL,1,0,1,HCP
+Lucas Gomez,SPAIN,1,0,1,HCP
+Lucas Gomez  Oliveira,BRAZIL,1,0,1,HCP
+Lucas Gomez Silva,SPAIN,1,1,0,HCP
+Lucas Hughes,USA,1,1,0,HCP
+Lucas Ikar Silva,BRAZIL,0,1,1,HCP
+Lucas Lee Oliveira,USA,0,1,1,HCP
+Lucas Lima,SPAIN,0,1,1,HCP
+Lucas Lima Lucus,BRAZIL,1,0,1,HCP
+Lucas Mateo Costa,BRAZIL,0,1,1,HCP
+Lucas Michael Lima,BRAZIL,0,1,1,HCP
+Lucas Oliveira,BRAZIL,1,1,0,HCP
+Lucas Pedro Silva,SPAIN,0,0,2,HCP
+Lucas Pereira,SPAIN,0,1,1,HCP
+Lucas Ruiz,SPAIN,1,0,1,HCP
+Lucas Santos Carlos,BRAZIL,0,0,2,HCP
+Lucas Santos Juan,BRAZIL,0,2,0,HCP
+Lucas Santos Maria,SPAIN,0,1,1,HCP
+Lucas Santos Pedro,SPAIN,0,1,1,HCP
+Lucas Torres,SPAIN,1,0,1,HCP
+Lucas Torres Oliveira,BRAZIL,0,1,1,HCP
+Lucia  Julie Romero,SPAIN,0,1,1,HCP
+Lucia Costa,BRAZIL,0,2,0,HCP
+Lucia Fernandez,SPAIN,1,0,1,HCP
+Lucia Gomez,SPAIN,1,1,0,HCP
+Lucia Gonzalez,USA,0,1,1,HCP
+Lucia Gonzalez Rios,USA,1,1,0,HCP
+Lucia Juan Sanchez,SPAIN,2,0,0,HCP
+Lucia Julie Ruiz,BRAZIL,0,0,2,HCP
+Lucia Martinez,SPAIN,1,0,1,HCP
+Lucia Martinez Rios,USA,1,0,1,HCP
+Lucia Martinez Ruiz,BRAZIL,1,1,0,HCP
+Lucia Mendoza,BRAZIL,0,1,1,HCP
+Lucia Pedro Ruiz,SPAIN,1,0,1,HCP
+Lucia Pereira,SPAIN,0,1,1,HCP
+Lucia Ramirez,USA,0,1,1,HCP
+Lucia Romero,USA,1,1,0,HCP
+Lucia Ruiz,BRAZIL,0,2,0,HCP
+Lucia Ruiz Santos,SPAIN,0,2,0,HCP
+Lucia Sanchez,SPAIN,0,2,0,HCP
+Lucia Silva,USA,0,1,1,HCP
+Luciana Juan Martinez,BRAZIL,1,1,0,HCP
+Luciana Julie Santos,BRAZIL,1,1,0,HCP
+Luciana Martinez,SPAIN,0,0,2,HCP
+Luciana Santos,BRAZIL,0,1,1,HCP
+Luciana Souza,BRAZIL,0,1,1,HCP
+Luciana Torres,BRAZIL,0,0,2,HCP
+Luciano Pereira,BRAZIL,0,1,1,HCP
+Luis Gomez,SPAIN,0,1,1,HCP
+Luis Gomez Perez,SPAIN,0,0,2,HCP
+Luis Gonzalez,USA,1,0,1,HCP
+Luis Perez,SPAIN,0,1,1,HCP
+Luiz Almeida,BRAZIL,0,1,1,HCP
+Luiz Gomez Almeida,BRAZIL,0,2,0,HCP
+Luiz Lima,SPAIN,1,1,0,HCP
+Luiz Lima Gomez,SPAIN,0,1,1,HCP
+Luiz Pereira,USA,0,0,2,HCP
+Luiz Pereira Gomez,USA,0,1,1,HCP
+Luna Isabela Mateo Vargas,SPAIN,0,1,1,HCP
+Luna Isabela Vargas,BRAZIL,0,0,2,HCP
+Manuel Gomez,SPAIN,1,1,0,HCP
+Manuel Gonzalez,SPAIN,0,2,0,HCP
+Manuel Lopez,SPAIN,1,0,1,HCP
+Manuel Lopez Salvador,SPAIN,1,1,0,HCP
+Manuel Navarro,SPAIN,0,1,1,HCP
+Manuel Ruiz,BRAZIL,0,1,1,HCP
+Manuel Sanchez,USA,0,2,0,HCP
+Manuel Torres,SPAIN,1,0,1,HCP
+Marcela Gomez,SPAIN,1,1,0,HCP
+Marcela Gomez Salvador,USA,0,2,0,HCP
+Marcela Gonzalez,BRAZIL,1,1,0,HCP
+Marcela Gonzalez Romero,BRAZIL,0,2,0,HCP
+Marcela Oliveira,BRAZIL,1,0,1,HCP
+Marcela Pereira,SPAIN,0,1,1,HCP
+Marcela Ruiz,USA,1,0,1,HCP
+Marcela Salvador Ruiz,BRAZIL,0,1,1,HCP
+Marcela Salvador Silva,SPAIN,0,0,2,HCP
+Marcela Silva,BRAZIL,1,1,0,HCP
+Marcela Torres,SPAIN,0,0,2,HCP
+Marcela Torres Romero,BRAZIL,0,1,1,HCP
+Marcelo Castro,USA,0,0,2,HCP
+Marcelo Castro Romero,BRAZIL,0,1,1,HCP
+Marcelo Fernandez,BRAZIL,0,1,1,HCP
+Marcelo Gomez,BRAZIL,0,1,1,HCP
+Marcelo Lopez,SPAIN,1,1,0,HCP
+Marcelo Martinez,SPAIN,1,1,0,HCP
+Marcelo Ruiz,BRAZIL,1,1,0,HCP
+Marcelo Sanchez,SPAIN,0,1,1,HCP
+Marcelo Silva,SPAIN,1,1,0,HCP
+Marcelo Torres,SPAIN,0,1,1,HCP
+Marcelo Torres Jiminez,SPAIN,0,0,2,HCP
+Marcelo Torres Pedro,BRAZIL,0,2,0,HCP
+Marco Gonzalez,SPAIN,0,1,1,HCP
+Marco Lopez,SPAIN,0,1,1,HCP
+Marco Martinez,SPAIN,0,2,0,HCP
+Marco Silva,SPAIN,0,1,1,HCP
+Marco Torres,SPAIN,0,1,1,HCP
+Marcos Fernandez Rocha,USA,2,0,0,HCP
+Marcos Gomez,USA,1,0,1,HCP
+Marcos Gomez Romero,USA,1,1,0,HCP
+Marcos Perez,USA,1,0,1,HCP
+Marcos Perez Romero,USA,2,0,0,HCP
+Marcos Rocha,USA,1,1,0,HCP
+Marcos Silva,BRAZIL,0,2,0,HCP
+Maria Fernandez,SPAIN,1,1,0,HCP
+Maria Hernandez,BRAZIL,0,0,2,HCP
+Maria Lee Hernandez,BRAZIL,1,0,1,HCP
+Maria Silva,BRAZIL,0,1,1,HCP
+Mariana Costa,USA,0,1,1,HCP
+Mariana Diaz,USA,0,0,2,HCP
+Mariana Gomez,BRAZIL,1,0,1,HCP
+Mariana Gonzalez,BRAZIL,0,2,0,HCP
+Mariana Juan Silva,BRAZIL,0,1,1,HCP
+Mariana Martinez,SPAIN,2,0,0,HCP
+Mariana Mateo Costa,USA,0,1,1,HCP
+Mariana Pedro Silva,BRAZIL,0,1,1,HCP
+Mariana Ruiz,BRAZIL,0,0,2,HCP
+Mariana Silva,SPAIN,0,0,2,HCP
+Mariana Torres Ruiz,USA,1,0,1,HCP
+Mariana Vargas,SPAIN,0,0,2,HCP
+Marina Lee Torres,USA,0,1,1,HCP
+Marina Torres,USA,0,1,1,HCP
+Mario Gonzalez,USA,0,2,0,HCP
+Marta Lopez,SPAIN,0,0,2,HCP
+Marta Morales,SPAIN,1,1,0,HCP
+Martin Fernandez,BRAZIL,0,1,1,HCP
+Martin Silva,SPAIN,1,0,1,HCP
+Martina Castro,BRAZIL,0,1,1,HCP
+Martina Costa,BRAZIL,1,0,1,HCP
+Martina Fernandez,USA,0,1,1,HCP
+Martina Gomez,BRAZIL,1,0,1,HCP
+Martina Gonzalez,USA,0,1,1,HCP
+Martina Juan Gomez,SPAIN,1,1,0,HCP
+Martina Julie Gomez,SPAIN,0,0,2,HCP
+Martina Lee Costa,SPAIN,1,1,0,HCP
+Martina Lee Gonzalez,USA,0,1,1,HCP
+Martina M Pereira,BRAZIL,0,2,0,HCP
+Martina Morales,USA,0,0,2,HCP
+Martina Pedro Gomez,SPAIN,0,1,1,HCP
+Martina Pereira,BRAZIL,0,1,1,HCP
+Martina Ruiz,USA,0,1,1,HCP
+Martina Sanchez,USA,0,1,1,HCP
+Martina Silva,USA,0,0,2,HCP
+Martina omez Fernandez,BRAZIL,1,0,1,HCP
+Mateo Fernandez,BRAZIL,0,2,0,HCP
+Mateo Garcia,SPAIN,0,0,2,HCP
+Mateo Gomez,SPAIN,1,0,1,HCP
+Mateo Torres,SPAIN,0,2,0,HCP
+Matheus Silva,BRAZIL,0,2,0,HCP
+Matias Fernandez,USA,0,2,0,HCP
+Matias Gomez,USA,0,1,1,HCP
+Matias M Fernandez,USA,0,2,0,HCP
+Matias Torres Gomez,USA,1,1,0,HCP
+Mercedes Fernandez,SPAIN,0,0,2,HCP
+Mia Lewis,USA,1,1,0,HCP
+Mia Sanders,USA,1,0,1,HCP
+Michael Daniel Gomez,SPAIN,0,1,1,HCP
+Michael Williams,USA,0,1,1,HCP
+Miguel Diaz,BRAZIL,0,1,1,HCP
+Miguel Gomez,SPAIN,0,0,2,HCP
+Miguel Lopez,USA,0,1,1,HCP
+Miguel Martinez,USA,1,0,1,HCP
+Miguel Ruiz,USA,0,1,1,HCP
+Miguel Sanchez,SPAIN,1,0,1,HCP
+Miguel Torres,USA,0,2,0,HCP
+Miguel Vargas,USA,0,1,1,HCP
+Mila Murphy,USA,0,2,0,HCP
+Monica Fernandez,SPAIN,1,0,1,HCP
+Monica Fernandez Silva,BRAZIL,0,2,0,HCP
+Monica Jimenez,SPAIN,0,1,1,HCP
+Monica Julie Ruiz,SPAIN,1,1,0,HCP
+Monica Morales,SPAIN,0,2,0,HCP
+Monica Ruiz,USA,1,0,1,HCP
+Monica Silva,USA,0,1,1,HCP
+Monique Lima,BRAZIL,0,1,1,HCP
+Natalia Delgado,SPAIN,0,2,0,HCP
+Natalia Fernandez,USA,1,1,0,HCP
+Natalia Gomez,SPAIN,1,0,1,HCP
+Natalia Gomez Romero,BRAZIL,1,0,1,HCP
+Natalia Gonzalez,USA,0,2,0,HCP
+Natalia Martinez,USA,0,0,2,HCP
+Natalia Mateo Ruiz,USA,2,0,0,HCP
+Natalia Ribeiro,BRAZIL,1,0,1,HCP
+Natalia Ruiz,BRAZIL,0,1,1,HCP
+Natalia Ruiz Leandro,SPAIN,1,1,0,HCP
+Natalia Silva,BRAZIL,0,1,1,HCP
+Natalia Silva Martinez,BRAZIL,0,2,0,HCP
+Natalia Torres,BRAZIL,0,1,1,HCP
+Natalie Baker,USA,0,1,1,HCP
+Nathan Perez,USA,0,1,1,HCP
+Nicolas Costa,SPAIN,0,2,0,HCP
+Nicolas Gomez,USA,0,1,1,HCP
+Nicolas Martinez Silva,BRAZIL,2,0,0,HCP
+Nicolas Pedro Ruiz,BRAZIL,0,1,1,HCP
+Nicolas Ruiz,USA,1,1,0,HCP
+Nicolas Silva,BRAZIL,0,2,0,HCP
+Nora Ward,USA,0,2,0,HCP
+Oscar Gonzalez,SPAIN,1,0,1,HCP
+Oscar Jimenez,SPAIN,0,2,0,HCP
+Oscar Jimenez Salvador,SPAIN,1,0,1,HCP
+Oscar Martinez,USA,1,1,0,HCP
+Oscar Martinez Salvador,USA,0,1,1,HCP
+Oscar Martinez Torres,SPAIN,0,2,0,HCP
+Oscar Mateo Jimenez,SPAIN,0,0,2,HCP
+Oscar Mateo Martinez,SPAIN,0,1,1,HCP
+Oscar Ortega,SPAIN,0,1,1,HCP
+Oscar Pereira,USA,2,0,0,HCP
+Oscar Ramirez,USA,2,0,0,HCP
+Oscar Ruiz,USA,1,1,0,HCP
+Oscar Ruiz Romero,SPAIN,0,2,0,HCP
+Oscar Silva,USA,1,0,1,HCP
+Oscar Silva Beatriz,USA,1,0,1,HCP
+Oscar Silva Gonzalez,USA,0,0,2,HCP
+Oscar Silva Salvador,USA,0,2,0,HCP
+Oscar Torres,USA,1,0,1,HCP
+Oscar Vargas,SPAIN,1,1,0,HCP
+Oscar Vargas Beatriz,SPAIN,1,0,1,HCP
+Oscar Vargas Salvador,SPAIN,2,0,0,HCP
+Owen Campbell,USA,0,0,2,HCP
+Pablo Herrera,BRAZIL,1,0,1,HCP
+Pablo Martinez,SPAIN,1,1,0,HCP
+Pablo Martinez Romero,SPAIN,1,0,1,HCP
+Pablo Navarro,SPAIN,0,2,0,HCP
+Paola Martinez,USA,0,1,1,HCP
+Paola Torres,SPAIN,1,0,1,HCP
+Patricia Costa,BRAZIL,0,1,1,HCP
+Patricia Gonzalez,BRAZIL,0,1,1,HCP
+Patricia Lima,BRAZIL,0,1,1,HCP
+Patricia Lopez,USA,1,0,1,HCP
+Patricia Martinez,USA,2,0,0,HCP
+Patricia Mateo Silva,BRAZIL,0,1,1,HCP
+Patricia Pereira,USA,0,0,2,HCP
+Patricia Perez,SPAIN,0,1,1,HCP
+Patricia Ruiz,USA,2,0,0,HCP
+Patricia Ruiz Torres,USA,1,1,0,HCP
+Patricia Silva,BRAZIL,0,0,2,HCP
+Patricia Silva Beatriz,BRAZIL,1,0,1,HCP
+Patricia Torres Martinez,SPAIN,1,0,1,HCP
+Paula Ruiz,SPAIN,1,0,1,HCP
+Paula Torres,SPAIN,0,1,1,HCP
+Paulo MateoMendes,SPAIN,0,2,0,HCP
+Paulo Mendes,SPAIN,1,0,1,HCP
+Paulo Mendes Beatriz,SPAIN,2,0,0,HCP
+Pedro Castillo,USA,0,2,0,HCP
+Pedro Diaz,SPAIN,1,0,1,HCP
+Pedro Garcia,SPAIN,1,1,0,HCP
+Pedro Gomez,USA,2,0,0,HCP
+Pedro Gomez Romero,USA,2,0,0,HCP
+Pedro Leonardo Costa,SPAIN,1,0,1,HCP
+Pedro Lima,BRAZIL,2,0,0,HCP
+Pedro Lopez,SPAIN,0,0,2,HCP
+Pedro M Silva,SPAIN,0,0,2,HCP
+Pedro Martinez,USA,1,0,1,HCP
+Pedro Morales,USA,0,1,1,HCP
+Pedro Rocha,USA,1,0,1,HCP
+Pedro Rocha Romero,USA,0,2,0,HCP
+Pedro Silva,BRAZIL,1,0,1,HCP
+Pedro Souza,BRAZIL,0,0,2,HCP
+Pedro Torres,BRAZIL,1,0,1,HCP
+Petricia Lucas Santos,USA,1,0,1,HCP
+Pilar Sanchez,SPAIN,0,1,1,HCP
+Priscila Almeida,BRAZIL,0,1,1,HCP
+Rafael Costa,USA,1,1,0,HCP
+Rafael Costa Beatriz,SPAIN,1,0,1,HCP
+Rafael Gonzalez,USA,0,2,0,HCP
+Rafael Juan Santos,BRAZIL,0,0,2,HCP
+Rafael Martin,SPAIN,0,0,2,HCP
+Rafael Martinez,SPAIN,1,0,1,HCP
+Rafael Martinez Romero,SPAIN,0,2,0,HCP
+Rafael Mateo Costa,BRAZIL,1,0,1,HCP
+Rafael Oliveira,BRAZIL,0,2,0,HCP
+Rafael Santos,SPAIN,0,2,0,HCP
+Rafael Santos Beatriz,BRAZIL,0,0,2,HCP
+RafaelPocha Gonzalez,USA,0,0,2,HCP
+Ramon Castillo,SPAIN,0,1,1,HCP
+Raquel Fernandez,BRAZIL,0,1,1,HCP
+Raquel Ramirez,SPAIN,0,2,0,HCP
+Raul Fernandez,BRAZIL,0,0,2,HCP
+Raul Gomez,SPAIN,0,1,1,HCP
+Raul Gomez Martinez,BRAZIL,0,0,2,HCP
+Raul Gonzalez,USA,0,2,0,HCP
+Raul Juan Ruiz,BRAZIL,0,1,1,HCP
+Raul Martinez,USA,1,1,0,HCP
+Raul Mateo Silva,BRAZIL,1,0,1,HCP
+Raul Ramirez,USA,0,2,0,HCP
+Raul Ruiz,BRAZIL,0,1,1,HCP
+Raul Sanchez,USA,0,2,0,HCP
+Raul Silva,BRAZIL,2,0,0,HCP
+Raul Silva Beatriz,BRAZIL,0,1,1,HCP
+Raul Torres,SPAIN,1,0,1,HCP
+Raul Torres Beatriz,BRAZIL,0,1,1,HCP
+Raul Torres Salvador,BRAZIL,0,1,1,HCP
+Renata Almeida,BRAZIL,1,1,0,HCP
+Renata Costa,SPAIN,1,0,1,HCP
+Renata Cruz,SPAIN,0,1,1,HCP
+Renata Goncalves,BRAZIL,0,2,0,HCP
+Renata Mateo Costa,BRAZIL,0,1,1,HCP
+Renata Pereira,SPAIN,0,1,1,HCP
+Renata Torres,USA,0,1,1,HCP
+Renato Santos,USA,1,0,1,HCP
+Ricardo Garcia,USA,0,1,1,HCP
+Ricardo Lima,BRAZIL,0,1,1,HCP
+Ricardo Martinez,USA,0,2,0,HCP
+Ricardo Moreno,SPAIN,0,1,1,HCP
+Ricardo Sanchez,USA,0,2,0,HCP
+Ricardo Silva,BRAZIL,0,2,0,HCP
+Robert Davis,USA,0,0,2,HCP
+Roberta Souza,BRAZIL,1,1,0,HCP
+Roberto Carlos Silva,SPAIN,0,1,1,HCP
+Roberto Diaz,USA,1,1,0,HCP
+Roberto Garcia,SPAIN,1,0,1,HCP
+Roberto Gomez,USA,0,1,1,HCP
+Roberto Gomez Martinez,SPAIN,0,2,0,HCP
+Roberto Gonzalez,USA,0,1,1,HCP
+Roberto Juan Ruiz,USA,1,0,1,HCP
+Roberto Lopez,SPAIN,0,2,0,HCP
+Roberto Martinez,USA,1,0,1,HCP
+Roberto Morales,SPAIN,0,0,2,HCP
+Roberto Paul Martinez,USA,0,1,1,HCP
+Roberto Pedro Gomez,USA,1,1,0,HCP
+Roberto Pedro Martinez,SPAIN,0,1,1,HCP
+Roberto Ruiz,USA,0,1,1,HCP
+Roberto Sanchez,USA,0,1,1,HCP
+Roberto Silva,BRAZIL,0,0,2,HCP
+Roberto Torres,USA,2,0,0,HCP
+Rodrigo Lima,BRAZIL,0,1,1,HCP
+Rodrigo Silva,BRAZIL,0,1,1,HCP
+Ryan Adams,USA,1,1,0,HCP
+Samuel Price,USA,1,1,0,HCP
+Samuel Silva,SPAIN,0,1,1,HCP
+Sandra Mendes,BRAZIL,0,2,0,HCP
+Santiago Gonzalez,USA,1,0,1,HCP
+Sarah Miller,USA,0,0,2,HCP
+Scarlett Wood,USA,0,0,2,HCP
+Sergio Costa,BRAZIL,0,2,0,HCP
+Sergio Romero,SPAIN,0,2,0,HCP
+Silvia Martinez,USA,0,1,1,HCP
+Silvia Martinez Romero,BRAZIL,0,0,2,HCP
+Silvia Martinez Ruiz,BRAZIL,1,0,1,HCP
+Silvia Morales,USA,0,2,0,HCP
+Silvia Ruiz,BRAZIL,0,2,0,HCP
+Silvia Sanchez,SPAIN,0,1,1,HCP
+Sofia Almeida,BRAZIL,0,1,1,HCP
+Sofia Castillo,SPAIN,1,0,1,HCP
+Sofia Costa,BRAZIL,0,1,1,HCP
+Sofia Fernandes,BRAZIL,1,0,1,HCP
+Sofia Fernandez,USA,0,0,2,HCP
+Sofia Garcia,BRAZIL,0,0,2,HCP
+Sofia Gomez,USA,0,1,1,HCP
+Sofia Jimenez,SPAIN,1,1,0,HCP
+Sofia JulieMartinez,SPAIN,0,1,1,HCP
+Sofia Lee Fernandes,BRAZIL,0,1,1,HCP
+Sofia Lee Martinez,SPAIN,0,1,1,HCP
+Sofia Lopez,SPAIN,0,1,1,HCP
+Sofia Mateo Castillo,SPAIN,0,1,1,HCP
+Sofia Pedro Garcia,SPAIN,0,0,2,HCP
+Sofia Pedro Martinez,SPAIN,0,1,1,HCP
+Sofia Ramirez,BRAZIL,0,2,0,HCP
+Sofia Ruiz,SPAIN,0,0,2,HCP
+Sofia Sanchez,SPAIN,0,1,1,HCP
+Sofia Torres,SPAIN,2,0,0,HCP
+Sofia Torres Beatriz,SPAIN,0,1,1,HCP
+Sofia Valeria Martinez,USA,1,1,0,HCP
+Sofia Vargas,BRAZIL,0,0,2,HCP
+Sophia Walker,USA,0,2,0,HCP
+Stella Ward,USA,1,0,1,HCP
+Thiago Fernandes,BRAZIL,1,1,0,HCP
+Thiago Martins,SPAIN,0,1,1,HCP
+Thiago MartinsBeatriz,USA,1,1,0,HCP
+Thiago Mateo Martins,BRAZIL,1,1,0,HCP
+Thomas Morgan,USA,0,0,2,HCP
+Tiago Costa,SPAIN,0,1,1,HCP
+Tiago PedroCosta,SPAIN,0,1,1,HCP
+Valentina Castillo,BRAZIL,0,1,1,HCP
+Valentina Diaz,BRAZIL,0,1,1,HCP
+Valentina Garcia,SPAIN,0,2,0,HCP
+Valentina Gomez,USA,0,1,1,HCP
+Valentina Lima,USA,1,1,0,HCP
+Valentina Ortiz,BRAZIL,0,1,1,HCP
+Valentina Romero,USA,0,2,0,HCP
+Valentina Ruiz,USA,1,0,1,HCP
+Valentina Vargas,USA,0,1,1,HCP
+Valeria Diaz,SPAIN,0,0,2,HCP
+Valeria Fernandez,USA,0,2,0,HCP
+Valeria Gomez,SPAIN,0,1,1,HCP
+Valeria Herrera,USA,0,0,2,HCP
+Valeria Juan Gomez,USA,0,0,2,HCP
+Valeria Julie Ruiz,USA,0,2,0,HCP
+Valeria Lopez Gomez,USA,0,1,1,HCP
+Valeria Pedro Gomez,BRAZIL,0,1,1,HCP
+Valeria Ruiz,SPAIN,1,0,1,HCP
+Valeria Sanchez,SPAIN,0,1,1,HCP
+Valeria Silva,SPAIN,0,0,2,HCP
+Valeria Torres,SPAIN,1,1,0,HCP
+Vanessa Gomez,USA,0,1,1,HCP
+Vanessa Silva,BRAZIL,1,1,0,HCP
+Veronica Diaz,SPAIN,0,0,2,HCP
+Veronica Juan Ruiz,USA,0,0,2,HCP
+Veronica Ruiz,USA,0,0,2,HCP
+Veronica Silva,USA,0,2,0,HCP
+Veronica omez Silva,USA,0,0,2,HCP
+Vicente Ruiz,SPAIN,0,1,1,HCP
+Victor Fernandez,SPAIN,0,1,1,HCP
+Victor Gomez,USA,0,2,0,HCP
+Victor Gonzalez,BRAZIL,0,1,1,HCP
+Victor Jimenez,SPAIN,1,1,0,HCP
+Victor Martinez,USA,0,0,2,HCP
+Victor Martinez Romero,SPAIN,0,1,1,HCP
+Victor Mateo Martinez,BRAZIL,1,1,0,HCP
+Victor Oliveira,USA,0,1,1,HCP
+Victor Oliveira Gomez,USA,1,1,0,HCP
+Victor Ortega,SPAIN,0,1,1,HCP
+Victor Ortega Silva,SPAIN,0,2,0,HCP
+Victor Perez,USA,1,1,0,HCP
+Victor Perez Silva,USA,0,0,2,HCP
+Victor Ramirez,USA,1,0,1,HCP
+Victor Ruiz,SPAIN,0,2,0,HCP
+Victor Sanchez,BRAZIL,0,1,1,HCP
+Victor Silva,SPAIN,0,2,0,HCP
+Victor Silva Jimenez,BRAZIL,0,0,2,HCP
+Victor Torres,SPAIN,1,0,1,HCP
+Victoria Costa Torres,USA,0,1,1,HCP
+Victoria Gonzalez,SPAIN,0,2,0,HCP
+Victoria Jimenez,USA,1,1,0,HCP
+Victoria Julie Pereira,SPAIN,0,2,0,HCP
+Victoria Martinez,SPAIN,0,2,0,HCP
+Victoria Martinez Beatriz,SPAIN,1,1,0,HCP
+Victoria Martinez Salvador,SPAIN,0,1,1,HCP
+Victoria Pedro Silva,USA,1,1,0,HCP
+Victoria Pereira,BRAZIL,0,1,1,HCP
+Victoria Ruiz,SPAIN,0,0,2,HCP
+Victoria Silva,SPAIN,1,0,1,HCP
+Victoria Torres,BRAZIL,0,0,2,HCP
+Vinicius Santos,BRAZIL,0,2,0,HCP
+Wellington Campos,BRAZIL,1,1,0,HCP
+William Collins,USA,1,0,1,HCP
+Ximena Pilar Rios,BRAZIL,0,2,0,HCP
+Zoe Phillips,USA,0,1,1,HCP

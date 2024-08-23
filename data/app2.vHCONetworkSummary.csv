@@ -1,46 +1,294 @@
-﻿OriginalEntityId,COUNTRY,Name,NetworkConnectedHCOs,CloseConnectedHCOs,NetworkConnectedHCPs,CloseConnectedHCPs,NetworkPaymentCount,CloseConnectionPaymentCount,DirectPaymentCount,NetworkPaymentAmount,CloseConnectionPaymentAmount,DirectPaymentAmount
-B001,Brazil,Instituto Esperança Brasil,5,1,1,3,1,2,1,2905,2905,2905
-B002,Brazil,Fundação Vida Verde,2,1,4,2,0,3,1,1350,1350,1350
-B003,Brazil,Rede Solidariedade Brasil,3,0,2,1,1,1,2,1764,1764,2000
-B004,Brazil,Centro de Ação Humanitária do Amazonas,2,0,3,1,1,3,0,2769,2769,2769
-B005,Brazil,Associação Nova Esperança,1,1,3,0,4,2,1,3982,3982,3982
-B006,Brazil,Projeto Cidadania e Futuro,1,0,2,1,2,1,1,3412,3412,2456
-B007,Brazil,Aliança Social Brasileira,4,1,1,1,3,3,2,1352,1352,1352
-S001,Spain,Fundación Luz de Esperanza,10,1,1,4,1,1,1,2760,2760,2760
-S002,Spain,Red Solidaridad España,20,1,0,2,1,1,0,2367,2367,2345
-S003,Spain,Centro de Acción Social Iberia,15,1,1,3,4,0,2,3134,3134,2956
-S004,Spain,Asociación Progreso y Bienestar,14,1,1,1,2,0,1,2616,2616,2698
-U001,USA,Nationwide Hope Foundation,6,1,4,1,1,1,1,3952,3952,3952
-U002,USA,United Community Aid Network,10,0,2,4,1,3,0,2609,2609,2609
-U003,USA,American Heart of Service,11,0,3,2,4,2,2,3926,3926,3926
-U004,USA,Bright Future Initiative,12,1,1,2,2,1,2,2398,2398,2398
-B008,Brazil,Hospital das Clínicas de São Paulo,7,1,2,3,2,1,0,0,0,0
-B009,Brazil,Hospital de Câncer de Barretos,13,0,1,1,0,2,2,17312,17312,17312
-B010,Brazil,Hospital Israelita Albert Einstein,18,1,4,4,1,0,1,16457,16457,16457
-B011,Brazil,Hospital Sírio-Libanês,8,1,0,0,3,3,0,0,0,0
-B012,Brazil,Fundação Oswaldo Cruz (Fiocruz),3,0,3,2,2,1,2,13789,13789,13789
-B013,Brazil,Hospital de Coração de São Paulo,12,1,2,3,4,2,1,12345,12345,12345
-B014,Brazil,Instituto do Coração (InCor),14,1,1,1,0,1,2,15234,15234,15234
-B015,Brazil,Hospital São Luiz,9,0,3,4,1,3,0,0,0,0
-S005,Spain,Fundación Esperanza Solidaria,17,1,0,2,3,2,1,17890,17890,17890
-S006,Spain,Centro de Apoyo y Esperanza,22,0,4,0,2,0,2,14678,14678,14678
-S007,Spain,Red de Solidaridad y Progreso,11,1,2,1,4,1,0,0,0,0
-S008,Spain,Asociación Nueva Luz,6,0,1,3,0,3,2,15543,15543,15543
-S009,Spain,Fundación Esperanza y Futuro,1,1,3,2,2,2,1,19234,19234,19234
-S010,Spain,Centro de Acción Social Esperanza,2,0,4,4,4,1,2,16543,16543,16543
-S011,Spain,Red de Apoyo Integral,8,1,0,0,1,3,0,0,0,0
-S012,Spain,Asociación Progreso Solidario,3,0,1,1,2,0,1,12123,12123,12123
-S013,Spain,Fundación Luz y Esperanza,19,1,2,3,1,1,2,17321,17321,17321
-S014,Spain,Centro de Bienestar y Solidaridad,13,1,3,2,3,2,0,0,0,0
-S015,Spain,Red Esperanza y Desarrollo,7,0,4,4,0,3,1,16342,16342,16342
-U005,USA,National Wellness Foundation,12,1,0,0,4,1,2,17984,17984,17984
-U006,USA,United Health Care Network,2,0,2,2,2,2,1,12456,12456,12456
-U007,USA,American Care Alliance,5,1,1,4,1,0,0,0,0,0
-U008,USA,Future Health Initiative,17,0,3,1,3,3,2,19876,19876,19876
-U009,USA,Hope and Healing Foundation,2,1,4,3,4,1,0,0,0,0
-U010,USA,Nationwide Health Support Network,11,1,0,0,0,2,1,13789,13789,13789
-U011,USA,Unified Care Solutions,9,0,1,2,1,3,0,0,0,0
-U012,USA,Bright Horizons Health Foundation,16,1,2,4,0,0,2,14567,14567,14567
-U013,USA,National Health and Wellness Network,1,0,4,1,1,1,1,17234,17234,17234
-U014,USA,American Wellness Partners,8,1,3,3,2,2,0,0,0,0
-U015,USA,Comprehensive Care Initiative,18,0,0,0,4,3,2,17543,17543,17543
+OriginalEntityId,COUNTRY,Name,NetworkConnectedHCOs,CloseConnectedHCOs,NetworkConnectedHCPs,CloseConnectedHCPs,NetworkPaymentCount,CloseConnectionPaymentCount,DirectPaymentCount,NetworkPaymentAmount,CloseConnectionPaymentAmount,DirectPaymentAmount
+B007,Brazil,Alianca Social Brasileira,2,3,3,8,2,1,1,1802,2047,4192
+U007,USA,American Care Alliance,2,4,1,3,1,1,2,2098,4922,4227
+U003,USA,American Heart of Service,2,4,4,8,2,1,2,2000,1425,1282
+U014,USA,American Wellness Partners,4,3,4,2,1,1,2,3747,3190,3963
+S149,Spain,Asociacian de Bienestar Integral,4,2,6,8,1,2,1,3091,1538,1965
+S159,Spain,Asociacian de Bienestar Social,1,3,4,7,2,1,1,4777,4732,2705
+S179,Spain,Asociacian de Salud Integral,1,4,9,2,1,2,2,1416,2809,3668
+S199,Spain,Asociacian de Salud y Vida,4,1,7,8,1,1,1,1464,3827,1447
+S139,Spain,Asociacian de Vida y Bienestar,3,1,7,3,2,2,2,2001,1075,2287
+S209,Spain,Asociacian de Vida y Salud,2,2,5,5,2,1,2,4186,3478,2540
+S185,Spain,Asociacian Esperanza para Todos,4,1,3,4,2,2,2,1403,1687,1095
+S175,Spain,Asociacian Esperanza Renaciente,2,1,8,5,2,1,2,3430,4209,2540
+S195,Spain,Asociacian Esperanza Renueva,3,2,7,7,2,2,1,3132,4875,1015
+S125,Spain,Asociacian Esperanza Viva,2,4,7,9,2,2,2,4953,1520,2477
+S145,Spain,Asociacian Esperanza y Vida,4,1,8,4,2,1,1,3630,1382,3489
+S229,Spain,Asociacian Futuro Salud,3,4,8,5,1,1,1,1869,4984,4635
+S132,Spain,Asociacian Nueva Esperanza,3,3,9,1,2,1,1,2911,4033,2542
+S142,Spain,Asociacian Nuevas Oportunidades,1,3,7,9,2,2,2,3876,1349,3402
+S172,Spain,Asociacian Nuevas Perspectivas,3,3,5,9,1,2,1,4234,1900,1242
+S152,Spain,Asociacian Nuevas Vidas,1,2,2,1,2,2,2,4371,3154,4217
+S103,Spain,Asociacian Progreso y Salud,1,3,5,9,1,2,1,4948,4453,4200
+S129,Spain,Asociacian Progreso y Vida,4,3,3,5,2,2,2,2396,2590,2472
+S223,Spain,Asociacian Salud y Futuro,2,3,3,3,1,2,2,3443,3185,2291
+S122,Spain,Asociacian Vida Plena,3,2,3,2,1,1,2,3232,4602,4442
+S226,Spain,Asociacian Vitalidad,2,1,8,5,2,2,1,3285,4197,1408
+S135,Spain,Asociacian Viva la Vida,3,2,6,9,1,2,1,3907,2815,2271
+S008,Spain,Asociacion Nueva Luz,1,1,2,8,2,2,1,3694,2035,1499
+S012,Spain,Asociacion Progreso Solidario,2,3,1,7,2,2,2,1518,1831,2776
+S004,Spain,Asociacion Progreso y Bienestar,1,3,7,6,2,1,2,3402,3092,3095
+B005,Brazil,Associacao Nova Esperanca,4,4,9,9,1,2,1,3370,2963,2072
+U004,USA,Bright Future Initiative,4,2,2,4,2,1,2,2702,1600,3637
+U012,USA,Bright Horizons Health Foundation,2,4,4,9,1,1,2,3917,3242,4150
+B223,Brazil,Centro Clanico Rio Grande,3,4,2,4,2,2,2,1157,2356,4659
+B004,Brazil,Centro de Acao Humanitaria do Amazonas,4,3,7,8,2,1,1,2377,4076,2774
+S010,Spain,Centro de Accion Social Esperanza,3,3,5,3,1,1,1,4384,4081,3212
+S003,Spain,Centro de Accion Social Iberia,2,1,6,2,2,1,1,4064,3818,4412
+S102,Spain,Centro de Apoyo Esperanza,4,3,9,3,2,1,2,3470,2943,3373
+S006,Spain,Centro de Apoyo y Esperanza,2,3,2,6,2,1,1,3418,2757,2778
+S176,Spain,Centro de Bienestar Comunitario,3,2,1,4,2,1,1,4016,4000,3744
+S206,Spain,Centro de Bienestar Familiar,3,3,3,7,1,2,2,1879,4335,3104
+S186,Spain,Centro de Bienestar Integral,1,3,1,1,2,1,2,1215,1696,1977
+S196,Spain,Centro de Bienestar Social,1,3,1,5,1,1,2,3572,2393,1466
+S146,Spain,Centro de Bienestar y Salud,4,2,5,9,2,1,2,4951,2259,4890
+S014,Spain,Centro de Bienestar y Solidaridad,1,3,3,7,1,1,1,4142,3287,1295
+S156,Spain,Centro de Bienestar y Vida,2,4,6,9,2,1,1,1314,3205,1263
+B229,Brazil,Centro de ReabilitaASSapso Brasil,2,1,4,8,2,2,1,3891,4184,1570
+S123,Spain,Centro de Rehabilitacian Esperanza,2,3,4,4,1,1,2,3437,4200,4241
+S143,Spain,Centro de Rehabilitacian Integral,3,1,4,8,2,2,1,3057,4468,4563
+S173,Spain,Centro de Rehabilitacian Nueva Vida,3,2,5,6,2,2,1,4395,2116,3993
+S203,Spain,Centro de Rehabilitacian San Juan,1,2,9,9,2,1,2,1073,4966,3036
+S183,Spain,Centro de Rehabilitacian Vida Nueva,4,3,2,2,1,2,1,4351,3749,1492
+S153,Spain,Centro de Rehabilitacian y Progreso,3,1,9,1,1,1,1,4430,1129,2259
+S133,Spain,Centro de Rehabilitacian y Vida,4,2,3,2,1,2,1,1604,2496,4585
+S126,Spain,Centro de Salud Integral,3,4,6,7,1,1,1,4148,1416,4217
+S222,Spain,Centro de Salud Vida,3,3,5,3,1,1,2,1647,2579,1833
+S136,Spain,Centro de Salud y Esperanza,2,3,5,2,2,1,2,3277,1187,2664
+B124,Brazil,Centro Macdico Santa Maria,3,2,5,2,1,2,1,1492,2189,4121
+B214,Brazil,Centro Macdico Sapso Gabriel,1,3,4,4,2,2,1,4107,3028,4414
+B144,Brazil,Centro Macdico Sapso Joapso,4,2,1,5,1,2,1,1301,1214,2096
+B134,Brazil,Centro Macdico Sapso Lucas,1,1,2,6,2,1,1,3415,1856,1135
+B194,Brazil,Centro Macdico Sapso Marcos,2,1,7,1,2,1,1,4364,2976,2958
+B154,Brazil,Centro Macdico Sapso Mateus,1,4,1,4,2,2,1,4986,2167,1672
+B184,Brazil,Centro Macdico Sapso Pedro,2,4,1,5,1,1,2,1137,2510,3031
+B174,Brazil,Centro Macdico Sapso Rafael,2,2,4,9,2,1,1,1290,1692,2167
+S225,Spain,Centro Macdico y Bienestar,4,3,3,8,1,2,1,1272,3256,3004
+B228,Brazil,Clanica Boa Saaode,2,4,1,1,1,1,1,4397,4183,4514
+B222,Brazil,Clanica Santa Maria,2,2,1,6,1,1,2,3929,3463,3152
+B143,Brazil,Clanica Sapso Benedito,2,4,1,4,1,2,2,4489,4928,1525
+B193,Brazil,Clanica Sapso Carlos,2,2,7,8,1,1,2,4741,4114,3702
+B128,Brazil,Clanica Sapso Francisco,1,1,1,6,1,1,1,3979,3101,4960
+B153,Brazil,Clanica Sapso Gabriel,3,1,2,3,2,2,1,1296,1585,1080
+B183,Brazil,Clanica Sapso Geraldo,4,4,6,9,2,1,2,4965,1007,3399
+B213,Brazil,Clanica Sapso Joapso,1,3,7,6,1,2,2,3417,1313,4637
+B138,Brazil,Clanica Sapso Jorge,1,2,5,7,2,1,2,3307,3044,4593
+B173,Brazil,Clanica Sapso Josac,1,3,5,3,2,2,2,3196,1951,1895
+B123,Brazil,Clanica Sapso Judas,4,2,3,3,1,1,1,4990,2452,3550
+B148,Brazil,Clanica Sapso Lucas,2,4,1,6,1,2,1,2839,3164,1990
+B158,Brazil,Clanica Sapso Marcos,4,3,9,1,1,2,2,2201,2775,3801
+B198,Brazil,Clanica Sapso Paulo,3,4,6,3,1,2,2,2213,4074,1212
+B133,Brazil,Clanica Sapso Pedro,3,2,3,4,2,2,1,3159,1339,2660
+B218,Brazil,Clanica Sapso Rafael,3,2,3,2,1,1,2,1983,1107,1066
+B178,Brazil,Clanica Sapso Tomac,1,4,1,2,1,1,2,4174,3541,4827
+B203,Brazil,Clanica Sapso Vicente,2,3,4,9,2,2,2,1680,3279,1783
+U015,USA,Comprehensive Care Initiative,2,1,4,3,2,1,2,4776,2862,1653
+B012,Brazil,Fundacao Oswaldo Cruz (Fiocruz),2,4,1,4,1,2,1,4431,4327,2638
+B002,Brazil,Fundacao Vida Verde,2,3,3,3,1,2,1,1701,2030,3518
+S197,Spain,Fundacian Apoyo Vital,3,3,3,6,1,1,1,1764,4939,4236
+S207,Spain,Fundacian Apoyo y Salud,4,4,2,5,1,1,2,3242,4748,1921
+S130,Spain,Fundacian Bienestar Integral,4,1,9,2,2,1,1,4583,2468,1793
+S147,Spain,Fundacian Cuidado de Vida,2,1,5,9,2,1,1,3793,1341,2733
+S157,Spain,Fundacian Cuidado Integral,2,3,4,8,1,1,2,1393,2472,4674
+S187,Spain,Fundacian Cuidado Pleno,1,2,2,1,1,1,2,3936,2543,2234
+S177,Spain,Fundacian Cuidado Responsable,1,1,7,7,2,2,2,2112,4042,3061
+S137,Spain,Fundacian Cuidado Total,1,4,4,1,1,2,1,4742,2555,1351
+S127,Spain,Fundacian de Cuidado Integral,2,3,4,6,2,2,2,2394,2981,2347
+S144,Spain,Fundacian Desarrollo Social,1,2,5,2,1,1,1,2750,4046,1933
+S174,Spain,Fundacian Desarrollo Sustentable,1,3,1,5,1,1,2,2839,3738,2136
+S154,Spain,Fundacian Desarrollo y Bienestar,4,1,2,1,2,2,2,1782,4299,4343
+S184,Spain,Fundacian Desarrollo y Futuro,1,4,9,7,1,2,1,2548,4670,1177
+S221,Spain,Fundacian Esperanza,2,3,1,5,2,1,2,4020,4749,3611
+S204,Spain,Fundacian Futuro para Todos,2,3,5,6,1,1,2,1225,2374,2755
+S194,Spain,Fundacian Futuro y Vida,2,4,1,5,1,1,2,4396,3645,3471
+S140,Spain,Fundacian Integral de Salud,1,1,2,2,2,2,1,2976,1647,4351
+S150,Spain,Fundacian Integral de Vida,1,3,4,6,2,2,1,2568,3822,3567
+S230,Spain,Fundacian Luz,3,1,7,6,2,2,1,2274,4326,1684
+S220,Spain,Fundacian Luz y Vida,1,1,2,6,1,2,2,2786,3924,2748
+S134,Spain,Fundacian Progreso Social,2,1,3,6,1,2,1,4739,3527,4064
+S124,Spain,Fundacian Progreso y Salud,1,3,7,3,1,2,1,3651,1606,3493
+S224,Spain,Fundacian Renueva,1,1,3,3,2,1,2,4694,1045,3567
+S121,Spain,Fundacian Salud Total,1,2,5,7,1,1,2,4996,3375,1744
+S191,Spain,Fundacian Salud y Bienestar,3,4,6,8,1,2,2,3591,4490,4671
+S131,Spain,Fundacian Salud y Vida,1,3,5,1,2,1,2,3090,4279,1135
+S180,Spain,Fundacian Vida Activa,2,1,1,4,2,1,2,1213,4057,1382
+S190,Spain,Fundacian Vida en Plenitud,1,1,7,4,2,1,2,2586,3836,3672
+S160,Spain,Fundacian Vida Integral,2,4,3,1,1,2,2,1245,2188,1891
+S101,Spain,Fundacian Vida Nueva,3,3,3,3,2,1,1,2905,1321,3040
+S141,Spain,Fundacian Vida Plena,4,1,5,8,2,2,2,4013,3112,4147
+S151,Spain,Fundacian Vida Saludable,1,2,3,6,2,1,1,3077,4014,3219
+S201,Spain,Fundacian Vida Sana,1,2,6,9,2,2,2,2403,4810,2446
+S210,Spain,Fundacian Vida y Futuro,1,3,6,2,2,1,1,2068,1103,4682
+S200,Spain,Fundacian Vida y Salud,4,4,1,7,2,1,2,2522,1734,1326
+S005,Spain,Fundacion Esperanza Solidaria,1,4,3,1,2,1,2,4469,3266,2487
+S009,Spain,Fundacion Esperanza y Futuro,1,1,3,4,2,1,1,3259,1933,3451
+S001,Spain,Fundacion Luz de Esperanza,3,1,6,1,2,1,1,4387,4009,1294
+S013,Spain,Fundacion Luz y Esperanza,1,2,3,8,2,2,1,1952,1113,4250
+U008,USA,Future Health Initiative,3,4,2,9,1,2,1,4179,4332,4263
+U228,USA,Future Wellness Foundation,1,1,9,5,2,2,2,4203,4481,2611
+U147,USA,Futures for Care,1,2,2,9,1,2,1,3703,4864,2974
+U127,USA,Futures for Health,1,1,8,1,1,2,1,2493,4501,2976
+U177,USA,Futures for Health and Care,1,2,3,2,1,1,1,3107,2214,4252
+U157,USA,Futures for Health and Wellness,4,1,9,4,1,1,2,2130,3107,4220
+U197,USA,Futures for Health Network,1,4,3,2,2,2,2,4672,4162,1209
+U137,USA,Futures for Wellness,1,3,4,9,2,1,2,1816,3141,1945
+U210,USA,Global Care Alliance,1,4,7,4,2,2,2,1872,4876,3285
+U180,USA,Global Care Foundation,1,2,6,2,1,1,1,4143,1502,2853
+U200,USA,Global Care Initiative,3,2,6,8,1,2,2,1414,4528,1250
+U190,USA,Global Care Solutions,3,4,3,9,1,1,2,2750,4817,3645
+U160,USA,Global Health and Care,3,1,9,8,2,1,2,4568,2383,4540
+U101,USA,Global Health Initiative,4,3,6,4,2,1,2,1798,1572,3606
+U201,USA,Global Health Network,2,2,3,7,1,2,2,1297,3112,1261
+U150,USA,Global Health Organization,1,4,3,7,1,1,1,1778,2467,3046
+U130,USA,Global Health Partners,2,1,8,4,1,1,1,3970,2434,1489
+U131,USA,Global Wellness Foundation,4,2,4,6,1,2,1,3322,4994,2162
+U151,USA,Global Wellness Health,1,1,2,8,1,1,1,4357,3277,1045
+U121,USA,Global Wellness Initiative,3,3,3,2,1,1,1,3602,2386,4828
+U181,USA,Global Wellness Network,2,4,4,2,1,2,1,3468,1807,3652
+U141,USA,Global Wellness Partnership,3,1,5,5,2,2,2,2878,3010,4897
+U191,USA,Global Wellness Society,3,3,1,9,1,1,1,1534,2359,3481
+U202,USA,Health Alliance Network,1,2,1,1,2,1,2,1378,3510,1627
+U149,USA,Health and Care Alliance,4,1,4,1,2,1,2,3408,3693,2578
+U139,USA,Health and Care Foundation,2,4,9,1,2,1,2,3877,1455,2361
+U179,USA,Health and Care Network,4,2,6,8,1,2,1,1101,1405,3420
+U159,USA,Health and Wellness Alliance,4,1,2,8,2,1,2,4385,4973,2448
+U129,USA,Health and Wellness Foundation,4,2,6,9,1,1,2,1086,1431,2901
+U209,USA,Health and Wellness Network,4,4,4,8,2,1,1,1074,3456,1511
+U189,USA,Health and Wellness Solutions,1,2,5,7,1,2,2,2848,3532,2969
+U122,USA,Health Care Alliance,2,2,1,7,1,1,1,2917,3329,1345
+U132,USA,Health Care United,4,4,2,6,2,2,2,3187,4155,2283
+U227,USA,Health First Alliance,3,1,3,5,1,2,2,4616,2491,2714
+U142,USA,Health Network Alliance,2,2,2,7,1,2,2,3381,1032,2791
+U152,USA,Health Network Foundation,3,4,7,4,1,2,1,2389,1591,3926
+U182,USA,Health Network Solutions,1,3,7,2,2,1,1,4065,2902,2900
+U172,USA,Health Network Support,1,2,5,2,1,1,2,4804,3009,3437
+U222,USA,Health Solutions Group,4,2,2,7,1,1,1,2094,3949,3456
+U133,USA,Hope America Foundation,1,2,7,2,1,2,1,2137,4786,1777
+U009,USA,Hope and Healing Foundation,3,2,8,9,1,1,2,4640,1500,4159
+U183,USA,Hope for a Better Future,1,2,6,5,1,2,2,4955,1870,4379
+U173,USA,Hope for a Healthy Future,3,2,5,1,1,2,2,2810,4904,2516
+U102,USA,Hope for Health Foundation,3,4,3,4,2,1,1,2879,3545,1151
+U203,USA,Hope for Tomorrow Alliance,4,3,9,1,2,2,2,2920,4159,4423
+U153,USA,Hope for Tomorrow Foundation,3,2,1,9,1,1,1,1367,1344,1876
+U123,USA,Hope Foundation America,2,3,5,1,2,1,2,1462,1895,1995
+B101,Brazil,Hospice Santa Maria,1,3,8,2,1,2,2,1183,2265,1617
+B209,Brazil,Hospital da Boa EsperanASSa,4,1,5,2,2,1,1,4111,2858,4829
+B149,Brazil,Hospital da CrianASSa,3,4,4,7,1,2,2,4486,1497,2001
+B189,Brazil,Hospital da EsperanASSa,4,3,3,9,2,2,2,3391,2386,2009
+B129,Brazil,Hospital da Luz,2,2,4,9,2,2,1,1696,3960,4814
+B199,Brazil,Hospital da RedenASSapso,1,4,6,3,1,1,1,1387,4807,3960
+B159,Brazil,Hospital da Saaode,3,3,6,6,1,2,2,4959,3423,2369
+B139,Brazil,Hospital da Vida,2,2,6,9,2,1,1,2517,2651,2815
+B225,Brazil,Hospital das Clanicas,1,2,6,5,2,1,2,4608,2148,3113
+B008,Brazil,Hospital das Clinicas de Sao Paulo,3,4,6,5,1,1,2,2446,4074,4059
+B009,Brazil,Hospital de Cancer de Barretos,4,4,5,4,2,2,2,2367,1638,1915
+B013,Brazil,Hospital de Coracao de Sao Paulo,1,1,1,7,1,2,2,3795,1722,2933
+B010,Brazil,Hospital Israelita Albert Einstein,2,4,4,7,2,2,2,3637,2098,1395
+B131,Brazil,Hospital Nossa Senhora de FA!tima,3,3,2,1,2,1,2,3606,4725,4152
+B215,Brazil,Hospital Santa Clara,2,1,9,6,1,1,1,4008,1640,2212
+B141,Brazil,Hospital Santa Helena,2,3,9,7,2,1,1,1805,1740,4368
+B205,Brazil,Hospital Santa Maria,3,1,6,1,1,2,1,2537,1929,2208
+B195,Brazil,Hospital Santa Marta,3,2,9,4,2,2,2,4092,1183,1755
+B185,Brazil,Hospital Santa Teresa,2,1,3,5,1,2,1,2374,3415,2490
+B151,Brazil,Hospital Santo AntA'nio,1,4,3,7,2,1,2,1107,2346,3090
+B015,Brazil,Hospital Sao Luiz,4,4,8,2,1,1,2,2209,3404,3472
+B176,Brazil,Hospital Sapso Bento,3,1,6,1,2,1,1,1592,4178,4875
+B196,Brazil,Hospital Sapso Domingos,4,4,6,8,1,2,2,3118,2410,2329
+B211,Brazil,Hospital Sapso Francisco,4,1,1,4,1,2,1,4699,2269,2853
+B186,Brazil,Hospital Sapso Gabriel,1,1,2,5,1,2,2,1620,2053,1002
+B121,Brazil,Hospital Sapso Joapso,2,3,6,3,2,1,2,4992,4532,3770
+B126,Brazil,Hospital Sapso Josac,1,2,6,5,2,1,1,2552,1752,2227
+B171,Brazil,Hospital Sapso Lucas,1,4,3,8,2,1,1,3757,3274,4330
+B230,Brazil,Hospital Sapso Luiz,4,1,5,6,1,2,2,4047,1811,2028
+B146,Brazil,Hospital Sapso Marcos,1,2,8,5,2,1,2,4620,2739,1680
+B191,Brazil,Hospital Sapso Mateus,1,2,6,9,2,1,2,3631,2632,1533
+B156,Brazil,Hospital Sapso Miguel,3,1,8,5,2,1,2,4301,3997,4420
+B102,Brazil,Hospital Sapso Paulo Norte,3,4,1,3,1,2,2,3269,1975,3284
+B206,Brazil,Hospital Sapso Pedro,2,2,1,8,1,1,2,3074,1821,2393
+B136,Brazil,Hospital Sapso Rafael,3,2,4,8,1,2,2,4134,2094,1975
+B011,Brazil,Hospital Sirio-Libanes,1,3,2,4,1,2,2,4480,1222,3516
+B181,Brazil,Hospital UniversitA!rio,3,4,6,5,1,2,1,3416,4945,1726
+B145,Brazil,Hospital Vila Boa,4,2,3,6,1,1,2,1871,3159,4649
+B155,Brazil,Hospital Vila Clara,1,3,3,6,2,2,1,2903,2130,2098
+B125,Brazil,Hospital Vila Mariana,2,1,2,4,1,1,1,1241,4662,1138
+B135,Brazil,Hospital Vila Nova,2,2,6,9,1,1,2,4721,1316,1096
+B172,Brazil,Instituto Brasileiro de Cardiologia,3,3,4,6,1,1,1,3118,3973,4263
+B192,Brazil,Instituto Brasileiro de Dermatologia,3,4,5,3,1,2,1,1837,4793,3678
+B200,Brazil,Instituto Brasileiro de Neurologia,2,2,6,9,2,1,2,3685,4435,2246
+B210,Brazil,Instituto Brasileiro de Oftalmologia,2,3,1,1,1,1,1,3068,2023,1485
+B152,Brazil,Instituto Brasileiro de Oncologia,2,4,9,8,1,1,2,3740,2107,1173
+B142,Brazil,Instituto Brasileiro de Saaode,3,2,8,7,1,1,1,2319,3782,2820
+B103,Brazil,Instituto de CAC/ncer Sapso Paulo,2,2,8,5,1,2,2,3602,2102,4027
+B224,Brazil,Instituto de Saaode Central,3,2,1,9,2,2,2,3003,4930,1594
+B227,Brazil,Instituto de Saaode da Mulher,4,4,5,7,2,2,1,4093,2295,2221
+B132,Brazil,Instituto do CoraASSapso Paulista,3,3,9,4,2,1,2,2718,3279,4276
+B014,Brazil,Instituto do Coracao (InCor),2,4,2,3,2,2,1,2635,4027,4547
+B001,Brazil,Instituto Esperanca Brasil,4,4,2,3,2,1,2,1347,4396,1278
+B182,Brazil,Instituto Nacional de Cardiologia,4,3,7,8,2,2,1,2388,4215,2011
+B202,Brazil,Instituto Nacional de Oncologia,3,3,7,1,1,2,2,2494,2875,3862
+B127,Brazil,Instituto Paulista de CAC/ncer,4,4,5,2,1,2,2,1717,4338,4362
+B140,Brazil,Instituto Paulista de Cardiologia,1,1,9,4,1,2,2,4047,1919,1722
+B160,Brazil,Instituto Paulista de Endocrinologia,2,1,9,5,1,1,2,1021,2200,4576
+B197,Brazil,Instituto Paulista de Ginecologia,2,4,9,3,1,1,2,4229,4113,3278
+B147,Brazil,Instituto Paulista de Hematologia,2,1,9,7,1,1,2,1073,1876,4968
+B150,Brazil,Instituto Paulista de Nefrologia,2,4,8,6,1,2,2,1593,2274,1108
+B180,Brazil,Instituto Paulista de Oftalmologia,4,2,4,9,1,1,2,1738,3706,2851
+B137,Brazil,Instituto Paulista de Oncologia,2,1,2,5,1,1,2,2749,3069,4240
+B177,Brazil,Instituto Paulista de Pediatria,3,2,6,9,1,2,1,4163,3788,2401
+B157,Brazil,Instituto Paulista de Reumatologia,1,3,4,7,2,1,1,1418,1065,3494
+B130,Brazil,Instituto Paulista de Saaode,1,2,8,6,1,2,2,1354,3141,3399
+B207,Brazil,Instituto Paulista de Urologia,4,4,9,1,2,2,2,4569,4361,4520
+B122,Brazil,Instituto Vida e Saaode,4,4,5,8,2,1,1,1439,1345,2868
+U229,USA,National Care Network,3,1,1,7,2,2,2,3911,4367,3952
+U013,USA,National Health and Wellness Network,4,4,9,6,1,2,2,1571,3937,3535
+U134,USA,National Health Initiative,3,1,7,6,1,2,2,3494,4452,2376
+U124,USA,National Health Network,3,2,2,1,2,2,2,1534,2798,4814
+U154,USA,National Health Organization,3,3,3,7,1,2,1,1780,3487,2732
+U224,USA,National Health Partners,4,2,4,1,2,2,1,1496,1637,3078
+U174,USA,National Health Service,2,1,6,7,2,1,1,3061,3839,1376
+U184,USA,National Health Services,4,3,4,8,2,1,1,4859,1708,2157
+U144,USA,National Health Support,1,4,2,6,2,1,1,4743,2075,2369
+U005,USA,National Wellness Foundation,1,3,8,5,1,1,2,2168,4962,3944
+U204,USA,National Wellness Initiative,4,4,8,3,2,1,1,4456,4627,4048
+U128,USA,Nationwide Care Network,1,1,7,9,2,1,2,2244,1270,1395
+U198,USA,Nationwide Health Alliance,2,1,8,8,1,2,1,4388,3230,1720
+U148,USA,Nationwide Health Foundation,4,4,5,9,1,2,2,2962,1984,3133
+U208,USA,Nationwide Health Initiative,4,3,2,6,2,1,1,3203,3759,1554
+U178,USA,Nationwide Health Partners,1,1,6,8,1,2,1,1499,3176,1099
+U010,USA,Nationwide Health Support Network,1,4,5,8,1,1,2,3304,3225,2220
+U001,USA,Nationwide Hope Foundation,3,4,5,2,2,1,1,2108,1546,3389
+U158,USA,Nationwide Wellness Initiative,4,3,6,5,1,1,1,4452,2728,2386
+U138,USA,Nationwide Wellness Network,4,3,3,6,1,1,1,1127,2777,3880
+U188,USA,Nationwide Wellness Partners,2,3,4,2,2,1,2,3318,1495,2633
+B006,Brazil,Projeto Cidadania e Futuro,2,3,3,9,1,1,1,4659,4869,2847
+S011,Spain,Red de Apoyo Integral,4,2,3,8,2,2,1,4856,4677,4760
+S178,Spain,Red de Apoyo y Bienestar,1,3,2,5,1,1,2,2982,3675,3306
+S148,Spain,Red de Bienestar y Progreso,4,4,6,5,2,2,2,2898,1550,3669
+S158,Spain,Red de Progreso y Salud,3,4,1,6,2,1,1,3763,2429,2939
+S128,Spain,Red de Salud Esperanza,4,3,9,3,2,2,2,4332,1225,1502
+S208,Spain,Red de Salud Integral,2,3,8,6,2,1,2,2572,1516,2626
+S198,Spain,Red de Salud PAoblica,3,2,8,2,1,1,2,4445,2302,1783
+S188,Spain,Red de Salud y Vida,3,3,8,3,1,2,1,4907,4653,2806
+S007,Spain,Red de Solidaridad y Progreso,1,3,6,4,1,2,2,1194,2216,1472
+S138,Spain,Red de Vida y Progreso,3,4,2,4,2,1,2,3775,1566,3274
+S015,Spain,Red Esperanza y Desarrollo,2,4,7,9,2,2,2,2133,3003,1747
+S002,Spain,Red Solidaridad Espana,2,2,1,9,2,2,1,3435,4929,4546
+B003,Brazil,Rede Solidariedade Brasil,2,3,7,2,2,1,2,4197,1433,1353
+U175,USA,Unified Care Alliance,1,2,6,7,2,1,1,1487,4335,2257
+U135,USA,Unified Care Network,4,3,2,8,2,2,2,1199,1004,1575
+U011,USA,Unified Care Solutions,3,3,7,3,2,2,2,2172,1780,2346
+U225,USA,Unified Health Network,1,2,2,8,1,2,2,3508,4915,3724
+U155,USA,Unified Health Partners,4,3,1,6,1,1,1,4927,1813,2795
+U125,USA,Unified Health Solutions,4,3,1,6,2,2,2,1537,3688,1702
+U145,USA,Unified Wellness Initiative,1,4,2,6,1,2,2,3401,2090,4515
+U205,USA,Unified Wellness Partners,3,1,2,3,1,1,1,1957,3404,3815
+U195,USA,Unified Wellness Solutions,4,4,1,9,2,2,2,2480,2201,1366
+U126,USA,United Care Initiative,4,1,5,1,2,2,2,3015,2889,3877
+U103,USA,United Care Network,2,2,2,5,2,2,1,4439,4940,4695
+U002,USA,United Community Aid Network,3,1,4,1,1,1,2,3435,2013,3053
+U006,USA,United Health Care Network,1,2,8,6,1,1,1,4283,4664,3502
+U136,USA,United Health Partners,3,2,4,5,2,2,2,4593,3163,3105
+U176,USA,United Wellness Foundation,2,4,8,4,2,2,1,4591,3679,1971
+U186,USA,United Wellness Initiative,1,4,8,8,1,1,1,4697,1739,2286
+U196,USA,United Wellness Network,1,1,3,6,1,1,2,4260,1108,1653
+U223,USA,Wellness Foundation of America,2,4,3,4,1,1,1,2499,3272,2144

@@ -1,13 +1,13 @@
 ﻿COUNTRY,MetricName,MetricValue
-Brazil,HCOs engaged,2
-Brazil,HCOs linked to engaged HCPs,5
-Brazil,HCOs linked to other HCOs,7
-Brazil,HCOs with spend across business activities,18
-Spain,HCOs engaged,3
-Spain,HCOs linked to engaged HCPs,7
-Spain,HCOs linked to other HCOs,5
-Spain,HCOs with spend across business activities,23
-USA,HCOs engaged,2
-USA,HCOs linked to engaged HCPs,6
-USA,HCOs linked to other HCOs,1
-USA,HCOs with spend across business activities,25
+Brazil,HCOs engaged,100
+Brazil,HCOs linked to engaged HCPs,92
+Brazil,HCOs linked to other HCOs,20
+Brazil,HCOs with spend across business activities,150
+Spain,HCOs engaged,108
+Spain,HCOs linked to engaged HCPs,87
+Spain,HCOs linked to other HCOs,32
+Spain,HCOs with spend across business activities,260
+USA,HCOs engaged,110
+USA,HCOs linked to engaged HCPs,88
+USA,HCOs linked to other HCOs,34
+USA,HCOs with spend across business activities,200

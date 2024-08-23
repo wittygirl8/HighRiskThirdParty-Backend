@@ -366,7 +366,7 @@ class Deepdive:
             file_path = 'data/app2.vPayments.csv'
             df = pd.read_csv(file_path)
             # print("currency_mapping.get(country)___", type(currency_mapping.get(country)), type(df['Currency']))
-            filtered_df = df[df['Currency'] == currency_mapping.get(country)]
+            filtered_df = df[df['Currency'] == currency_mapping.get(country)].fillna('')
             payments = filtered_df[['VendorName', 'InvoiceLineAmountLocal', 'Currency']]
             # print("payments___________", payments.head(3))
             # print("payments.shape[0]___", payments.shape[0])
@@ -409,12 +409,12 @@ class Deepdive:
                             having count(*) =1"
                 file_path1 = 'data/app2.vAllEdges.csv'
                 df = pd.read_csv(file_path1)
-                df_country = df[df['country'] == country.upper()]
+                df_country = df[df['country'] == country.upper()].fillna('')
                 count_hco_df = df_country.groupby('hcp_id').agg(
                     count_hco=('hco_id', 'nunique')
                 ).reset_index()
                 count_hco_df = count_hco_df[count_hco_df['count_hco'] > 1]
-                merged_df = pd.merge(df_country, count_hco_df, on='hcp_id')
+                merged_df = pd.merge(df_country, count_hco_df, on='hcp_id').fillna('')
                 final_df = merged_df.groupby(['hco_id', 'hcp_id']).size().reset_index(name='count')
                 final_df = final_df[final_df['count'] == 1]
                 final_df.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
@@ -452,6 +452,7 @@ class Deepdive:
                 final_df = final_df[final_df['count'] == 1]
                 final_df.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
 
+            final_df = final_df.fillna('')
             hcp_edges = final_df
             # print("hcp_edges.shape[0]", hcp_edges.shape[0], hcp_edges)
             file_path2 = 'data/app2.vHCP.csv'
@@ -464,7 +465,7 @@ class Deepdive:
 
             file_path2 = 'data/app2.vHco.csv'
             df = pd.read_csv(file_path2)
-            filtered_df = df[df['COUNTRY'] == country.upper()]
+            filtered_df = df[df['COUNTRY'] == country.upper()].fillna('')
 
             hco_names = filtered_df[['ID', 'NAME']].drop_duplicates()
             hco_names.rename(columns={'ID': 'internal_hco_id'}, inplace=True)
@@ -544,6 +545,7 @@ class Deepdive:
                 additional_hcps.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
 
             print("additional_hcps", additional_hcps)
+            additional_hcps = additional_hcps.fillna('')
             rel_hcps = additional_hcps.merge(merged_hco_payments, how="inner", left_on=["from"], right_on=['from'])
 
             print(rel_hcps.shape[0])
@@ -575,6 +577,7 @@ class Deepdive:
             print(final_hcps.shape[0])
 
             print("merged_hco_payments_edges", merged_hco_payments_edges)
+            merged_hco_payments_edges = merged_hco_payments_edges.fillna('')
             # Removing the connections back to GSK for now
             for i,row in merged_hco_payments_edges.iterrows():
                 edges_dict = dict()
@@ -583,6 +586,8 @@ class Deepdive:
                 edges_dict['from'] = '10001'
                 edges_dict['page'] = 1
                 edges_list.append(edges_dict)
+
+            hcp_edges = hcp_edges.fillna('')
             # print("hcp_edges", hcp_edges)
             for i,row in hcp_edges.iterrows():
                 edges_dict = dict()
@@ -592,6 +597,7 @@ class Deepdive:
                 edges_dict['page'] = 1
                 edges_list.append(edges_dict)
 
+            final_hcps = final_hcps.fillna('')
             for i, row in final_hcps.iterrows():
                 hcp_dict = dict()
                 hcp_dict["from"] = row['from']
@@ -723,6 +729,7 @@ class Deepdive:
             print(nodes_merged)
             print(nodes_hco_merged)
             a = 0
+            nodes_hco_merged = nodes_hco_merged.fillna('')
             for i, row in nodes_hco_merged.iterrows():
                 a += 1
                 node_hco_dict = dict()
@@ -737,6 +744,7 @@ class Deepdive:
                 node_list.append(node_hco_dict)
             print(f"number of hco nodes is {a}")
             b = 0
+            nodes_merged = nodes_merged.fillna('')
             for i, row in nodes_merged.iterrows():
                 if row['to'] == 'NaN':
                     print("if in")
@@ -766,6 +774,15 @@ class Deepdive:
                 final_edge_list.append(item)
 
             graph['nodes'] = final_node_list
+            # # Convert the list of dictionaries to a DataFrame
+            # df_graph_nodes= pd.DataFrame(graph['nodes'])
+            #
+            # # Replace NaN with the string "NaN"
+            # df_graph_nodes = df_graph_nodes.fillna("NaN")
+            #
+            # # Convert it back to a list of dictionaries
+            # graph['nodes'] = df_graph_nodes.to_dict(orient='records')
+
             graph['edges'] = final_edge_list
             graph['price_range'] = [min, int(max)]
             final_result['counter'] = 5
@@ -790,322 +807,12 @@ class Deepdive:
                         neg_nodes_list.append(i)
                 graph['nodes'] = neg_nodes_list
 
-            return True, "data_by_country", _ret
+            print("_ret____________", type(final_result))
+            return True, "data_by_country", final_result
         except Exception as e:
             print("Deepdive.data_by_country(): " + str(e))
             traceback.print_exc()
             return False, "Something went wrong"
-
-
-    # Gautam's code data_by_country
-    # def data_by_country_g(self, data):  # tbd
-    #     try:
-    #         # YOUR CODE HERE
-    #         # REMOVE THIS ONCE IMPLEMENTED
-    #         # if data["country"].strip().lower() == "brazil":
-    #         #     _ret = self.read_json("brazil.json")
-    #         # if data["country"].strip().lower() == "spain":
-    #         #     _ret = self.read_json("spain.json")
-    #         # if data["country"].strip().lower() == "usa":
-    #         #     _ret = self.read_json("usa.json")
-    #         # TILL HERE
-    #         print(data)
-    #         country = data['country']
-    #         conn = data.get('connection')
-    #         link = data.get('link')
-    #         if country == 'null':
-    #             True, "data_by_country", []
-    #
-    #         currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
-    #
-    #         file_path = 'data/app2.vPayments.csv'
-    #         df = pd.read_csv(file_path)
-    #         print("currency_mapping.get(country)___", type(currency_mapping.get(country)), type(df['Currency']))
-    #         filtered_df = df[df['Currency'] == currency_mapping.get(country)]
-    #         payments = filtered_df[['VendorName', 'InvoiceLineAmountLocal', 'Currency']]
-    #         print("payments___________", payments.head(3))
-    #         print("payments.shape[0]___", payments.shape[0])
-    #         payments = payments.copy()  # Make a copy of the DataFrame
-    #         payments.loc[:, 'Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4,
-    #                                               labels=['Q1', 'Q2', 'Q3', 'Q4'])
-    #         payments = payments.copy()  # Make a copy of the DataFrame
-    #         payments['Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4, labels=['Q1', 'Q2', 'Q3', 'Q4'])
-    #         print("payments_hgygg__________", payments)
-    #
-    #         if (data['min'] == '0' and data['max'] == '0') or (data['min'] == 'null' and data['max'] == 'null'):
-    #             if country == 'usa':
-    #                 min = 10000
-    #             else:
-    #                 min = 5000
-    #             max = payments['InvoiceLineAmountLocal'].max()
-    #
-    #         else:
-    #             min = int(data['min'])
-    #             max = int(data['max'])
-    #
-    #         # payments = payments[payments['InvoiceLineAmountLocal']>=10000]
-    #
-    #         payments = payments[
-    #             (payments['InvoiceLineAmountLocal'] >= min) & (payments['InvoiceLineAmountLocal'] <= max)]
-    #         print(payments.shape[0])
-    #         payments['VendorName'] = payments['VendorName'].str.lower()
-    #         payments = payments[['VendorName']].drop_duplicates()
-    #
-    #         print("payments______________", payments)
-    #         edges_list = []
-    #
-    #         if conn == 'multiple':
-    #             query = f"select \
-    #                         trim(a.hco_id) as 'from', cast(a.hcp_id as varchar) as 'to', count(*) as 'count' \
-    #                         from app.FactHcpHco a \
-    #                         join \
-    #                         (select hcp_id, count(distinct hco_id) as count_hco from app.FactHcpHco where country = '{country}' group by hcp_id having count(distinct hco_id) > 1)b \
-    #                         on a.hcp_id = b.hcp_id \
-    #                         where a.country = '{country}' \
-    #                         group by trim(a.hco_id), cast(a.hcp_id as varchar) \
-    #                         having count(*) =1"
-    #             file_path1 = 'data/app2.vAllEdges.csv'
-    #             df = pd.read_csv(file_path1)
-    #             df_country = df[df['country'] == country.upper()]
-    #             count_hco_df = df_country.groupby('hcp_id').agg(
-    #                 count_hco=('hco_id', 'nunique')
-    #             ).reset_index()
-    #             count_hco_df = count_hco_df[count_hco_df['count_hco'] >= 1]
-    #             merged_df = pd.merge(df_country, count_hco_df, on='hcp_id')
-    #             final_df = merged_df.groupby(['hco_id', 'hcp_id']).size().reset_index(name='count')
-    #             final_df = final_df[final_df['count'] == 1]
-    #             final_df.rename(columns={'hco_id': 'from', 'hcp_id': 'to'}, inplace=True)
-    #         else:
-    #             query = f"select \
-    #                         trim(a.hco_id) as 'from', cast(a.hcp_id as varchar) as 'to', count(*) as 'count' \
-    #                         from app.FactHcpHco a \
-    #                         join \
-    #                         (select hcp_id, count(distinct hco_id) as count_hco from app.FactHcpHco where country = '{country}' group by hcp_id having count(distinct hco_id) >= 1)b \
-    #                         on a.hcp_id = b.hcp_id \
-    #                         where a.country = '{country}' \
-    #                         group by trim(a.hco_id), cast(a.hcp_id as varchar) \
-    #                         having count(*) =1"
-    #         print("payments______________", payments)
-    #         hcp_edges = db.select_df(query)
-    #         print(hcp_edges.shape[0])
-    #         query = f"select distinct cast(Id as varchar) as 'hcp_id', hcp_name from dbo.hcp_info where country = '{country}'"
-    #         hcp_names = db.select_df(query)
-    #         query = f"select distinct trim(ID) as 'hco_id', HCO  as 'hco_name' from app.hco where country = '{country}'"
-    #         hco_names = db.select_df(query)
-    #         merged_hcp = hcp_edges.merge(hcp_names, how='left', left_on=['to'], right_on=['hcp_id'])
-    #         merged_hcp['hcp_name'] = merged_hcp['hcp_name'].str.lower()
-    #         merged_hcp_hco = merged_hcp.merge(hco_names, how='left', left_on=['from'], right_on=['hco_id'])
-    #         merged_hcp_hco['hco_name'] = merged_hcp_hco['hco_name'].str.lower()
-    #
-    #         print(merged_hcp_hco.shape[0])
-    #
-    #         distinct_hcps = merged_hcp_hco[['to', 'hcp_name']].drop_duplicates()
-    #
-    #         distinct_hcos = merged_hcp_hco[['from', 'hco_name']].drop_duplicates()
-    #         print(distinct_hcps.shape[0])
-    #         print(distinct_hcos.shape[0])
-    #
-    #         merged_hcp_payments = distinct_hcps.merge(payments, how='inner', left_on=['hcp_name'],
-    #                                                   right_on=['VendorName'])
-    #
-    #         merged_hco_payments = distinct_hcos.merge(payments, how='inner', left_on=['hco_name'],
-    #                                                   right_on=['VendorName'])
-    #
-    #         print(merged_hcp_payments.shape[0])
-    #         print(merged_hco_payments.shape[0])
-    #
-    #         # for those HCPs which do not ahve payments but are a part of the hcos and have multiple connections
-    #         query = f"select \
-    #                         trim(a.hco_id) as 'from', cast(a.hcp_id as varchar) as 'to', count(*) as 'count' \
-    #                         from app.FactHcpHco a \
-    #                         join \
-    #                         (select hcp_id, count(distinct hco_id) as count_hco from app.FactHcpHco where country = '{country}' group by hcp_id having count(distinct hco_id) > 1)b \
-    #                         on a.hcp_id = b.hcp_id \
-    #                         where a.country = '{country}' \
-    #                         group by trim(a.hco_id), cast(a.hcp_id as varchar) \
-    #                         having count(*) =1"
-    #
-    #         additional_hcps = db.select_df(query)
-    #
-    #         rel_hcps = additional_hcps.merge(merged_hco_payments, how="inner", left_on=["from"], right_on=['from'])
-    #
-    #         print(rel_hcps.shape[0])
-    #         print(
-    #             "---------------------------------------------------------------------------------------------------------------")
-    #         print(rel_hcps)
-    #         rel_hcps = rel_hcps[['from', 'to']]
-    #         print(
-    #             "*******************************************************************************************************************")
-    #         print(rel_hcps)
-    #
-    #         merged_hco_payments_edges = merged_hco_payments[['from', 'VendorName']].drop_duplicates()
-    #         print(merged_hco_payments_edges.shape[0])
-    #
-    #         merged_hcp_payments_edges = merged_hcp_payments[['to', 'VendorName']].drop_duplicates()
-    #         print(merged_hcp_payments_edges)
-    #
-    #         merged_hcp_payments_edges = merged_hcp_payments_edges.rename(
-    #             columns={'to': 'hcp_id_distinct_payments', 'VendorName': 'vn_distinct_payments'})
-    #
-    #         hcp_edges = merged_hcp_hco.merge(merged_hcp_payments_edges, how='inner', left_on=['to'],
-    #                                          right_on=['hcp_id_distinct_payments'])
-    #         hcp_edges = hcp_edges[['from', 'to']]
-    #         print(hcp_edges.shape[0])
-    #
-    #         final_hcps = pd.concat([hcp_edges, rel_hcps], ignore_index=True).drop_duplicates()
-    #         print("£££££££££££££££££££££££££££££££££££££££££££££££")
-    #         print(final_hcps)
-    #         print(final_hcps.shape[0])
-    #
-    #         for i, row in merged_hco_payments_edges.iterrows():
-    #             edges_dict = dict()
-    #
-    #             edges_dict['to'] = row['from']
-    #             edges_dict['from'] = '10001'
-    #             edges_dict['page'] = 1
-    #             edges_list.append(edges_dict)
-    #
-    #         for i, row in hcp_edges.iterrows():
-    #             edges_dict = dict()
-    #
-    #             edges_dict['to'] = row['to']
-    #             edges_dict['from'] = '10001'
-    #             edges_dict['page'] = 1
-    #             edges_list.append(edges_dict)
-    #
-    #         for i, row in final_hcps.iterrows():
-    #             hcp_dict = dict()
-    #             hcp_dict["from"] = row['from']
-    #             hcp_dict["to"] = row["to"]
-    #             hcp_dict['page'] = 1
-    #
-    #             edges_list.append(hcp_dict)
-    #             # print(len(edges_list))
-    #         print(len(edges_list))
-    #
-    #         node_list = []
-    #
-    #         x = {
-    #             "id": str(10001),
-    #             "x": 0,
-    #             "y": 0,
-    #             "fixed": {
-    #                 "x": True,
-    #                 "y": True
-    #             },
-    #             "label": "Company",
-    #             "title": "Company",
-    #             "color": "#fdfd00",
-    #             "size": 100,
-    #             "shape": "image",
-    #             "image": "https://dieselpunkcore.com/wp-content/uploads/2014/06/logo-placeholder.png",
-    #         }
-    #         node_list.append(x)
-    #
-    #         final_edges = pd.concat([merged_hco_payments_edges, final_hcps], ignore_index=True)
-    #         print(final_edges)
-    #         hcos_for_nodes = final_edges[['from']].drop_duplicates()
-    #         hcps_for_nodes = final_edges[['to']].drop_duplicates()
-    #
-    #         print(hcos_for_nodes.shape[0], ",", hcps_for_nodes.shape[0])
-    #
-    #         query = f"SELECT cast(a.Id as varchar) as 'id', a.hcp_name, a.country, max(b.designation) as 'designation' FROM dbo.hcp_info a \
-    #         join app.FactHcpHco b on a.Id = b.hcp_id where a.country = '{country}' group by cast(a.Id as varchar), a.hcp_name, a.country "
-    #         # Execute the query
-    #         df = db.select_df(query)
-    #         nodes_df = df[['id', 'hcp_name', 'designation', 'country']]
-    #
-    #         nodes_merged = hcps_for_nodes.merge(nodes_df, how='inner', left_on=["to"], right_on=["id"])
-    #         print(nodes_merged)
-    #         nodes_merged = nodes_merged.drop_duplicates(subset=['id'])
-    #
-    #         query = f"select a.COUNTRY, a.HCO, a.ID, max(b.hco_id) from app.hco a join app.FactHcpHco b on a.ID = b.hco_id where a.COUNTRY = '{country}' group by a.COUNTRY, a.HCO, a.ID"
-    #
-    #         # Execute the query
-    #         hco_df = db.select_df(query)
-    #
-    #         nodes_hco_df = hco_df.rename(columns={'HCO': 'label', 'ID': 'id', 'COUNTRY': 'country'})
-    #
-    #         nodes_hco_merged = hcos_for_nodes.merge(nodes_hco_df, how='inner', left_on=["from"], right_on=["id"])
-    #
-    #         # nodes_merged = nodes_merged.drop_duplicates(subset = ['Id'])
-    #         # nodes_hco_merged = nodes_hco_merged.drop_duplicates(subset = ['id'])
-    #
-    #         # print(nodes_merged)
-    #         # print(nodes_hco_merged)
-    #         a = 0
-    #         for i, row in nodes_hco_merged.iterrows():
-    #             a += 1
-    #             node_hco_dict = dict()
-    #             node_hco_dict['page'] = 1
-    #
-    #             node_hco_dict['shape'] = 'dot'
-    #             node_hco_dict['color'] = "#fb7e81"
-    #             node_hco_dict['id'] = row['id']
-    #             node_hco_dict['label'] = row['label']
-    #             node_hco_dict['title'] = row['label']
-    #             node_hco_dict['designation'] = ""
-    #             node_list.append(node_hco_dict)
-    #         print(f"number of hco nodes is {a}")
-    #         b = 0
-    #         for i, row in nodes_merged.iterrows():
-    #             if row['to'] == 'NaN':
-    #                 print("if in")
-    #                 continue
-    #             b += 1
-    #             node_dict = dict()
-    #             node_dict['shape'] = 'dot'
-    #             node_dict['color'] = "#95c0f9"
-    #             node_dict['id'] = row['id']
-    #             node_dict['label'] = row['hcp_name']
-    #             node_dict['title'] = row['hcp_name']
-    #             node_dict['designation'] = row['designation']
-    #             node_dict['page'] = 1
-    #
-    #             node_list.append(node_dict)
-    #         print(f"number of hcp nodes is {b}")
-    #
-    #         final_result = dict()
-    #         graph = dict()
-    #
-    #         final_node_list = []
-    #         final_edge_list = []
-    #         for item in node_list:
-    #             final_node_list.append(item)
-    #
-    #         for item in edges_list:
-    #             final_edge_list.append(item)
-    #
-    #         graph['nodes'] = final_node_list
-    #         graph['edges'] = final_edge_list
-    #         graph['price_range'] = [min, int(max)]
-    #         final_result['counter'] = 5
-    #         final_result['graph'] = graph
-    #         final_result['events'] = {}
-    #
-    #         _ret = final_result
-    #
-    #         if link.lower() == 'negative':
-    #             print("negative = data.get('negative')")
-    #             neg_nodes_list = []
-    #             neg_nodes_list.append(x)
-    #             with open("./data/outputhco.json", encoding='latin-1') as inputfile:
-    #                 hco_news = json.load(inputfile)
-    #             with open("./data/NewhcpNewsHeadlines.json", encoding='latin-1') as inputfile:
-    #                 hcp_news = json.load(inputfile)
-    #             for i in final_node_list:
-    #                 # print("isNegative____________________________", i["title"])
-    #                 isNegative = self.get_negative_news(i["title"], hco_news, hcp_news, i["color"])
-    #                 # print("isNegative____________________________", isNegative)
-    #                 if isNegative:
-    #                     neg_nodes_list.append(i)
-    #             graph['nodes'] = neg_nodes_list
-    #
-    #         return True, "data_by_country", _ret
-    #     except Exception as e:
-    #         print("Deepdive.data_by_country(): " + str(e))
-    #         traceback.print_exc()
-    #         return False, "Something went wrong"
 
     def data_by_node(self, data):  # tbd
         try:
@@ -1137,7 +844,7 @@ class Deepdive:
 
             # Rename columns to match the SQL output
             result_df = result_df.rename(columns={'hco_id': 'hco', 'hcp_id': 'hcp'})
-            edges = result_df
+            edges = result_df.fillna('')
             print(edges)
             print(edges.shape[0])
             edges_list = []
@@ -1153,12 +860,13 @@ class Deepdive:
                              .size()
                              .reset_index(name='count'))
 
-                extra_edges = result_df
+                extra_edges = result_df.fillna('')
                 if not extra_edges.empty:
                     print("inif")
                     extra_edges_final = hcps.merge(extra_edges, how='inner', left_on=['hcp'], right_on=['hcp_id'])
                     extra_edges_final = extra_edges_final[['hco_id', 'hcp_id']].drop_duplicates()
                     extra_edges_final = extra_edges_final.dropna(subset=['hcp_id'])
+                    extra_edges_final = extra_edges_final.fillna('')
                     print(extra_edges_final.shape[0])
 
                     for i, row in extra_edges_final.iterrows():
@@ -1168,7 +876,7 @@ class Deepdive:
                             edges_dict['from'] = row['hcp_id']
                             edges_dict['to'] = row['hco_id']
                             edges_list.append(edges_dict)
-
+            edges = edges.fillna('')
             for i, row in edges.iterrows():
                 edges_dict = dict()
                 edges_dict['from'] = row['gsk']
@@ -1201,7 +909,7 @@ class Deepdive:
                 "image": "https://www.mxp-webshop.de/media/image/20/82/24/GSK-Logo.png"
             }
             node_list.append(x)
-
+            extra_edges_final = extra_edges_final.fillna('')
             if not extra_edges_final.empty:
                 hcp1 = extra_edges_final[['hcp_id']].rename(columns={'hcp_id': 'hcp'})
                 hcp2 = edges[['hcp']]
@@ -1210,7 +918,6 @@ class Deepdive:
                 hcps = edges[['hcp']]
 
             hcps = hcps.drop_duplicates()
-
             if not extra_edges_final.empty:
                 hco1 = extra_edges_final[['hco_id']].rename(columns={'hco_id': 'hco'})
                 hco2 = edges[['hco']]
@@ -1221,9 +928,11 @@ class Deepdive:
             hcos = hcos.drop_duplicates()
             vHcp_df = pd.read_csv('data/app2.vHCP.csv', encoding='ISO-8859-1')
             vHcp_df.rename(columns={'ï»¿id': 'id'}, inplace=True)
+            vHcp_df = vHcp_df.fillna('')
             vHcp_df['id'] = vHcp_df['id'].astype(str)
             data_df['hcp_id'] = data_df['hcp_id'].astype(str)
             merged_df = pd.merge(vHcp_df, data_df, left_on='id', right_on='hcp_id')
+            merged_df = merged_df.fillna('')
             print(merged_df.columns)
             print(merged_df)
             result_df = (merged_df
@@ -1231,28 +940,29 @@ class Deepdive:
                          .agg(designation=('designation', 'max'))
                          .reset_index()
                          .rename(columns={'hcp_id': 'id', 'country_x': 'country'}))
-            df = result_df
+            df = result_df.fillna('')
             nodes_df = df[['id', 'hcp_name', 'designation', 'country']]
             print(nodes_df)
             hcps['hcp'] = hcps['hcp'].astype(str)
             nodes_df['id'] = nodes_df['id'].astype(str)
             nodes_merged = hcps.merge(nodes_df, how='inner', left_on=["hcp"], right_on=["id"])
             print(nodes_merged)
-            nodes_merged = nodes_merged.drop_duplicates(subset=['id'])
+            nodes_merged = nodes_merged.drop_duplicates(subset=['id']).fillna('')
 
             vHco_df = pd.read_csv('data/app2.vHco.csv')
-            merged_df = pd.merge(vHco_df, data_df, left_on='ID', right_on='hco_id')
+            merged_df = pd.merge(vHco_df, data_df, left_on='ID', right_on='hco_id').fillna('')
             print(merged_df.columns)
             result_df = (merged_df
                          .groupby(['COUNTRY', 'NAME', 'ID'])
                          .agg(max_hco_id=('hco_id', 'max'))
                          .reset_index())
             # Execute the query
-            hco_df = result_df
+            hco_df = result_df.fillna('')
 
-            nodes_hco_df = hco_df.rename(columns={'NAME': 'label', 'ID': 'id', 'COUNTRY': 'country'})
-            nodes_hco_merged = hcos.merge(nodes_hco_df, how='inner', left_on=["hco"], right_on=["id"])
+            nodes_hco_df = hco_df.rename(columns={'NAME': 'label', 'ID': 'id', 'COUNTRY': 'country'}).fillna('')
+            nodes_hco_merged = hcos.merge(nodes_hco_df, how='inner', left_on=["hco"], right_on=["id"]).fillna('')
             print(nodes_hco_merged.columns)
+            nodes_hco_merged = nodes_hco_merged.fillna('')
             a = 0
             for i, row in nodes_hco_merged.iterrows():
                 a += 1
@@ -1268,6 +978,7 @@ class Deepdive:
                 node_list.append(node_hco_dict)
             print(f"number of hco nodes is {a}")
             b = 0
+            nodes_merged = nodes_merged.fillna('')
             for i, row in nodes_merged.iterrows():
                 b += 1
                 node_dict = dict()
@@ -1540,7 +1251,7 @@ class Deepdive:
             query = f"select ID, [Name], PaymentAmount, InteractionCount, LOWER(Country) as Country from [app2].[vAllNodes] where ID = '{iden}'"
             db = MSSQLConnection()
             # entity = db.select_df(query)
-            file_path = 'data/app2.AllNodes.csv'
+            file_path = 'data/app2.vAllNodes.csv'
             df = pd.read_csv(file_path)
             print(type(iden))
             df['ID'] = df['ID'].astype(str)

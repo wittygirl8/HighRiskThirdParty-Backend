@@ -1,214 +1,1024 @@
-﻿id,hcp_name,country,internal_hcp_id,payment_hcp_id,PaymentCount,PaymentAmount,InteractionCount,,,
-4983,João Silva,BRAZIL,NULL,NULL,0,0,0,,,
-9235,Maria Oliveira,BRAZIL,NULL,NULL,0,0,0,,,
-7666,Pedro Souza,BRAZIL,exist,92648571,2,1824,2,,,
-6402,Ana Lima,BRAZIL,NULL,NULL,0,0,0,,,
-2553,Lucas Santos,BRAZIL,NULL,NULL,0,0,2,,,
-4146,Gabriel Pereira,BRAZIL,NULL,NULL,0,0,0,,,
-2354,Rafael Costa,BRAZIL,NULL,93456128,1,2905,0,,,
-8861,Sofia Fernandes,BRAZIL,NULL,NULL,0,0,1,,,
-8252,Matheus Almeida,BRAZIL,NULL,NULL,0,0,0,,,
-9501,Juliana Ribeiro,BRAZIL,NULL,NULL,0,0,0,,,
-7368,Thiago Martins,BRAZIL,exist,91827364,2,3350,0,,,
-7545,Isabella Gomes,BRAZIL,NULL,NULL,0,0,0,,,
-7722,Felipe Rocha,BRAZIL,NULL,NULL,0,0,0,,,
-7899,María Fernández,SPAIN,NULL,NULL,0,0,2,,,
-8076,José Martínez,SPAIN,NULL,NULL,0,0,0,,,
-8253,Ana López,SPAIN,NULL,94567812,1,2769,0,,,
-8430,Juan García,SPAIN,exist,NULL,0,0,0,,,
-8607,Carmen Rodríguez,SPAIN,NULL,NULL,0,0,1,,,
-8784,Pedro Sánchez,SPAIN,NULL,95382467,2,1234,0,,,
-8961,James Smith,USA,NULL,NULL,0,0,0,,,
-9138,Emily Johnson,USA,exist,NULL,0,0,0,,,
-9315,Michael Williams,USA,NULL,NULL,0,0,0,,,
-9492,Jessica Brown,USA,NULL,96412753,1,3982,1,,,
-9669,David Jones,USA,NULL,NULL,0,0,0,,,
-9846,Sarah Miller,USA,NULL,NULL,0,0,0,,,
-10023,Robert Davis,USA,exist,97531984,1,2456,0,,,
-10200,Ashley Wilson,USA,NULL,NULL,0,0,2,,,
-10377,Camila Andrade,BRAZIL,NULL,NULL,0,0,0,,,
-10554,Bruno Carvalho,BRAZIL,NULL,NULL,0,0,0,,,
-10731,Luis Gómez,SPAIN,NULL,NULL,0,0,0,,,
-10908,Isabel Moreno,SPAIN,NULL,NULL,0,0,0,,,
-11085,Christopher Taylor,USA,NULL,NULL,0,0,0,,,
-11262,Amanda Clark,USA,NULL,NULL,0,0,0,,,
-1024,Bruno Carvalho,BRAZIL,NULL,NULL,0,0,0,,,
-1059,Camila Araújo,BRAZIL,NULL,NULL,0,0,0,,,
-1137,Leonardo Silva,BRAZIL,NULL,90358472,3,13248,1,,,
-1166,Mariana Costa,BRAZIL,NULL,NULL,0,0,0,,,
-1298,André Oliveira,BRAZIL,NULL,NULL,0,0,0,,,
-1345,Larissa Lima,BRAZIL,NULL,NULL,0,0,0,,,
-1406,Diego Pereira,BRAZIL,NULL,95647238,2,14432,2,,,
-1583,Tatiane Santos,BRAZIL,NULL,NULL,0,0,0,,,
-1624,Ricardo Almeida,BRAZIL,NULL,NULL,0,0,0,,,
-1749,Vanessa Rodrigues,BRAZIL,NULL,NULL,0,0,0,,,
-1823,Eduardo Martins,BRAZIL,NULL,98764523,5,17964,3,,,
-1934,Beatriz Fernandes,BRAZIL,NULL,NULL,0,0,0,,,
-2047,Gustavo Rocha,BRAZIL,NULL,NULL,0,0,0,,,
-2132,Roberta Souza,BRAZIL,NULL,NULL,0,0,0,,,
-2261,Vinícius Santos,BRAZIL,NULL,67428391,4,11458,0,,,
-2394,Clara Moreira,BRAZIL,NULL,NULL,0,0,1,,,
-2456,Daniel Ferreira,BRAZIL,NULL,NULL,0,0,0,,,
-2578,Júlia Almeida,BRAZIL,NULL,NULL,0,0,0,,,
-2634,Alexandre Campos,BRAZIL,NULL,56392784,1,18923,0,,,
-2765,Monique Lima,BRAZIL,NULL,NULL,0,0,2,,,
-2841,Henrique Costa,BRAZIL,NULL,NULL,0,0,0,,,
-2957,Ana Paula Oliveira,BRAZIL,NULL,NULL,0,0,0,,,
-3078,Felipe Martins,BRAZIL,NULL,83749216,4,15678,0,,,
-3189,Natália Ribeiro,BRAZIL,NULL,NULL,0,0,0,,,
-3224,Rodrigo Lima,BRAZIL,NULL,NULL,0,0,3,,,
-3317,Érica Almeida,BRAZIL,NULL,94928537,3,11234,0,,,
-3428,Marcelo Silva,BRAZIL,NULL,NULL,0,0,0,,,
-3551,Letícia Carvalho,BRAZIL,NULL,NULL,0,0,1,,,
-3678,Everton Gomes,BRAZIL,NULL,NULL,0,0,0,,,
-3749,Ingrid Souza,BRAZIL,NULL,19273645,2,15876,0,,,
-3881,Luciano Pereira,BRAZIL,NULL,NULL,0,0,0,,,
-3972,Alessandra Oliveira,BRAZIL,NULL,NULL,0,0,0,,,
-4034,Sérgio Costa,BRAZIL,NULL,NULL,0,0,2,,,
-4187,Daniela Ribeiro,BRAZIL,NULL,83456721,5,16352,0,,,
-4295,João Pedro Lima,BRAZIL,NULL,NULL,0,0,0,,,
-4312,Renata Gonçalves,BRAZIL,NULL,NULL,0,0,0,,,
-4456,Matheus Silva,BRAZIL,NULL,12567893,1,17894,0,,,
-4568,Priscila Almeida,BRAZIL,NULL,NULL,0,0,1,,,
-4689,Rafael Oliveira,BRAZIL,NULL,NULL,0,0,0,,,
-4721,Lívia Rocha,BRAZIL,NULL,NULL,0,0,0,,,
-4832,Alan Ferreira,BRAZIL,NULL,98712345,2,14352,0,,,
-4910,Aline Santos,BRAZIL,NULL,NULL,0,0,3,,,
-5043,Carlos Eduardo Silva,BRAZIL,NULL,NULL,0,0,0,,,
-5167,Patrícia Costa,BRAZIL,NULL,56782934,3,12678,0,,,
-5238,Jorge Almeida,BRAZIL,NULL,NULL,0,0,0,,,
-5346,Sandra Mendes,BRAZIL,NULL,NULL,0,0,2,,,
-5479,Thiago Fernandes,BRAZIL,NULL,NULL,0,0,0,,,
-5590,Ana Clara Souza,BRAZIL,NULL,31457892,4,13764,0,,,
-5632,Wellington Campos,BRAZIL,NULL,NULL,0,0,0,,,
-5781,Fernanda Oliveira,BRAZIL,NULL,NULL,0,0,0,,,
-5893,Luis Pérez,SPAIN,NULL,NULL,0,0,1,,,
-5924,Isabel Gómez,SPAIN,NULL,64982371,5,15234,0,,,
-6035,Javier González,SPAIN,NULL,NULL,0,0,0,,,
-6178,Laura Torres,SPAIN,NULL,NULL,0,0,0,,,
-6289,Francisco Ruiz,SPAIN,NULL,NULL,0,0,3,,,
-6354,Marta Morales,SPAIN,NULL,95763482,1,18923,0,,,
-6472,Andrés Martínez,SPAIN,NULL,NULL,0,0,0,,,
-6548,Paula Hernández,SPAIN,NULL,NULL,0,0,0,,,
-6679,Sergio Romero,SPAIN,NULL,28973416,3,11256,0,,,
-6743,Clara Castro,SPAIN,NULL,NULL,0,0,2,,,
-6881,Alberto Moreno,SPAIN,NULL,74529368,4,16432,0,,,
-6987,Beatriz Ortega,SPAIN,NULL,NULL,0,0,0,,,
-7043,Manuel Navarro,SPAIN,NULL,NULL,0,0,0,,,
-7165,Elena Vargas,SPAIN,NULL,NULL,0,0,1,,,
-7238,Francisco Javier Ruiz,SPAIN,NULL,89274651,2,17654,0,,,
-7351,Natalia Delgado,SPAIN,NULL,NULL,0,0,0,,,
-7498,Ricardo Moreno,SPAIN,NULL,NULL,0,0,0,,,
-7589,Adriana Gómez,SPAIN,NULL,12897643,5,19523,0,,,
-7623,Javier Sánchez,SPAIN,NULL,NULL,0,0,3,,,
-7745,Raquel Ramírez,SPAIN,NULL,45678921,4,15784,0,,,
-7869,Alejandro López,SPAIN,NULL,NULL,0,0,0,,,
-7951,Verónica Díaz,SPAIN,NULL,NULL,0,0,2,,,
-8047,Guillermo López,SPAIN,NULL,27348956,1,16789,0,,,
-8192,María José Romero,SPAIN,NULL,NULL,0,0,0,,,
-8284,Sergio García,SPAIN,NULL,NULL,0,0,0,,,
-8396,Patricia Pérez,SPAIN,NULL,65472891,2,16543,1,,,
-8457,Miguel Ángel Morales,SPAIN,NULL,NULL,0,0,0,,,
-8564,Teresa González,SPAIN,NULL,NULL,0,0,0,,,
-8641,Hugo Pérez,SPAIN,NULL,89427365,3,11976,0,,,
-8732,Laura Fernández,SPAIN,NULL,NULL,0,0,0,,,
-8859,Antonio Ortega,SPAIN,NULL,73928416,5,13256,3,,,
-8945,Paula Ruiz,SPAIN,NULL,NULL,0,0,0,,,
-9071,Enrique Fernández,SPAIN,NULL,NULL,0,0,0,,,
-9136,Marta López,SPAIN,NULL,98674512,4,17789,0,,,
-9268,Ramón Castillo,SPAIN,NULL,NULL,0,0,2,,,
-9384,Laura Rodríguez,SPAIN,NULL,NULL,0,0,0,,,
-9472,Pablo Martínez,SPAIN,NULL,56748329,2,15478,0,,,
-9531,Silvia Sánchez,SPAIN,NULL,NULL,0,0,0,,,
-9654,Juan Carlos Ruiz,SPAIN,NULL,45273619,5,19876,0,,,
-9742,Carmen Gómez,SPAIN,NULL,NULL,0,0,1,,,
-9820,Rafael Martín,SPAIN,NULL,98327456,1,13579,0,,,
-9935,Mercedes Fernández,SPAIN,NULL,NULL,0,0,0,,,
-10076,Daniel Ramos,SPAIN,NULL,NULL,0,0,0,,,
-10142,Pilar Sánchez,SPAIN,NULL,29873415,3,12456,0,,,
-10258,Jesús Pérez,SPAIN,NULL,NULL,0,0,3,,,
-10379,Aurora García,SPAIN,NULL,NULL,0,0,0,,,
-10462,Roberto Morales,SPAIN,NULL,78654329,4,18345,0,,,
-10593,Clara Fernández,SPAIN,NULL,NULL,0,0,0,,,
-10784,Vicente Ruiz,SPAIN,NULL,NULL,0,0,2,,,
-10871,Alicia Gómez,SPAIN,NULL,94783216,5,16489,0,,,
-11035,John Anderson,USA,NULL,NULL,0,0,0,,,
-11197,Olivia Taylor,USA,NULL,NULL,0,0,1,,,
-11328,Daniel White,USA,NULL,35876492,2,17765,0,,,
-11469,Ava Harris,USA,NULL,NULL,0,0,0,,,
-11582,Matthew Clark,USA,NULL,NULL,0,0,0,,,
-11749,Mia Lewis,USA,NULL,27349658,3,13256,0,,,
-11862,Christopher Lee,USA,NULL,NULL,0,0,3,,,
-12004,Sophia Walker,USA,NULL,56782134,4,18129,0,,,
-12189,Andrew Hall,USA,NULL,NULL,0,0,0,,,
-12374,Isabella Young,USA,NULL,39487126,5,14987,0,,,
-12593,Joshua King,USA,NULL,NULL,0,0,2,,,
-12685,Emma Scott,USA,NULL,76439528,1,15678,0,,,
-12843,Ryan Adams,USA,NULL,NULL,0,0,0,,,
-12956,Charlotte Nelson,USA,NULL,NULL,0,0,0,,,
-13078,Brandon Carter,USA,NULL,89234716,2,17923,0,,,
-13291,Lily Mitchell,USA,NULL,NULL,0,0,1,,,
-13406,Nathan Perez,USA,NULL,NULL,0,0,0,,,
-13579,Grace Roberts,USA,NULL,15478239,3,16782,0,,,
-13742,Benjamin Turner,USA,NULL,NULL,0,0,0,,,
-13868,Zoe Phillips,USA,NULL,NULL,0,0,0,,,
-14055,William Collins,USA,NULL,29387465,4,17945,3,,,
-14223,Ella Murphy,USA,NULL,NULL,0,0,0,,,
-14392,James Brown,USA,NULL,53829174,5,12348,0,,,
-14567,Abigail Cooper,USA,NULL,NULL,0,0,0,,,
-14680,Alexander Green,USA,NULL,67943285,1,19027,2,,,
-14839,Emily Richardson,USA,NULL,NULL,0,0,0,,,
-14952,Thomas Morgan,USA,NULL,90127384,2,14356,0,,,
-15034,Natalie Baker,USA,NULL,NULL,0,0,1,,,
-15189,Ethan Brooks,USA,NULL,83657249,3,16895,0,,,
-15324,Hannah Gray,USA,NULL,NULL,0,0,0,,,
-15467,Lucas Hughes,USA,NULL,26748391,4,15678,0,,,
-15678,Chloe Barnes,USA,NULL,NULL,0,0,0,,,
-15823,Jack Wilson,USA,NULL,95126374,5,18429,3,,,
-15984,Mia Sanders,USA,NULL,NULL,0,0,0,,,
-16145,Samuel Price,USA,NULL,37489216,1,16543,0,,,
-16297,Scarlett Wood,USA,NULL,NULL,0,0,0,,,
-16408,Henry James,USA,NULL,67982354,2,12356,2,,,
-16579,Aurora Cox,USA,NULL,NULL,0,0,0,,,
-16731,Owen Campbell,USA,NULL,19578362,3,17923,0,,,
-16842,Aria Morris,USA,NULL,94723681,4,14782,1,,,
-17096,Caleb Stewart,USA,NULL,NULL,0,0,0,,,
-17245,Evelyn Rivera,USA,NULL,28479513,5,19124,0,,,
-17432,Gabriel Simmons,USA,NULL,NULL,0,0,0,,,
-17594,Stella Ward,USA,NULL,59847236,1,12478,0,,,
-17783,Logan Hughes,USA,NULL,67192834,2,13579,3,,,
-17942,Alice James,USA,NULL,39482716,3,18876,1,,,
-18065,Eli Bennett,USA,NULL,57492831,4,16893,0,,,
-18239,Mila Murphy,USA,NULL,85237491,5,19345,0,,,
-18356,Adam Rogers,USA,NULL,93874625,1,14321,2,,,
-18572,Nora Ward,USA,NULL,27964385,2,19056,0,,,
-1001,Camila Andrade,BRAZIL,NULL,NULL,0,0,0,,,
-1002,Bruno Carvalho,BRAZIL,NULL,NULL,0,0,0,,,
-1003,Luis Gómez,BRAZIL,NULL,NULL,0,0,0,,,
-1004,Isabel Moreno,BRAZIL,NULL,NULL,0,0,0,,,
-1005,Diego Pereira,BRAZIL,NULL,NULL,0,0,0,,,
-1006,Tatiane Santos,BRAZIL,NULL,NULL,0,0,0,,,
-1007,Ricardo Almeida,BRAZIL,NULL,NULL,0,0,0,,,
-1008,Vanessa Rodrigues,BRAZIL,NULL,NULL,0,0,0,,,
-1009,Eduardo Martins,BRAZIL,NULL,NULL,0,0,0,,,
-1010,Beatriz Fernandes,BRAZIL,NULL,NULL,0,0,0,,,
-1011,Luis Pérez,SPAIN,NULL,NULL,0,0,0,,,
-1012,Isabel Gómez,SPAIN,NULL,NULL,0,0,0,,,
-1013,Javier González,SPAIN,NULL,NULL,0,0,0,,,
-1014,Laura Torres,SPAIN,NULL,NULL,0,0,0,,,
-1015,Francisco Ruiz,SPAIN,NULL,NULL,0,0,0,,,
-1016,Marta Morales,SPAIN,NULL,NULL,0,0,0,,,
-1017,Andrés Martínez,SPAIN,NULL,NULL,0,0,0,,,
-1018,Paula Hernández,SPAIN,NULL,NULL,0,0,0,,,
-1019,Sergio Romero,SPAIN,NULL,NULL,0,0,0,,,
-1020,Clara Castro,SPAIN,NULL,NULL,0,0,0,,,
-1021,John Anderson,USA,NULL,NULL,0,0,0,,,
-1022,Olivia Taylor,USA,NULL,NULL,0,0,0,,,
-1023,Daniel White,USA,NULL,NULL,0,0,0,,,
-1025,Ava Harris,USA,NULL,NULL,0,0,0,,,
-1026,Matthew Clark,USA,NULL,NULL,0,0,0,,,
-1027,Mia Lewis,USA,NULL,NULL,0,0,0,,,
-1028,Christopher Lee,USA,NULL,NULL,0,0,0,,,
-1029,Sophia Walker,USA,NULL,NULL,0,0,0,,,
-1030,Andrew Hall,USA,NULL,NULL,0,0,0,,,
-1031,Isabella Young,USA,NULL,NULL,0,0,0,,,
+id,hcp_name,country,internal_hcp_id,payment_hcp_id,PaymentCount,PaymentAmount,InteractionCount
+1059,Camila Araujo,BRAZIL,,,0,0,0
+1137,Leonardo Silva Gomez,BRAZIL,,93300071,3,13248,1
+1298,Andre Oliveira,BRAZIL,,,0,0,0
+1406,Diego Pereira,BRAZIL,,93300035,2,72160,0
+1823,Eduardo Martins,BRAZIL,,93300379,5,17964,3
+1836,Sofia Ramirez,BRAZIL,,,0,0,0
+1924,Carla Fernandez,BRAZIL,,,0,0,0
+2047,Gustavo Rocha,BRAZIL,,,0,0,0
+2132,Roberta Souza,BRAZIL,,,0,0,0
+2261,Vinicius Santos,BRAZIL,,93300142,4,57290,0
+2354,Rafael Mateo Costa,BRAZIL,,93300001,1,14525,0
+2394,Clara Moreira,BRAZIL,,,0,0,1
+2456,Daniel Ferreira,BRAZIL,,,0,0,0
+2553,Lucas Santos Juan,BRAZIL,,,0,0,2
+2578,Julia Almeida,BRAZIL,,,0,0,0
+2634,Alexandre Campos,BRAZIL,,93300005,1,94615,0
+2765,Monique Lima,BRAZIL,,,0,0,2
+2841,Henrique Costa,BRAZIL,,,0,0,0
+2957,Ana Paula Oliveira,BRAZIL,,,0,0,0
+2974,Fernando Vargas,BRAZIL,,,0,0,0
+3078,Felipe Martins,BRAZIL,,93300143,4,15678,0
+3189,Natalia Ribeiro,BRAZIL,,,0,0,0
+3224,Rodrigo Lima,BRAZIL,,,0,0,3
+3317,Erica Almeida,BRAZIL,,93300072,3,56170,0
+3547,Juan Castillo,BRAZIL,exist,93300022,1,2100,1
+3551,Leticia Carvalho,BRAZIL,,,0,0,1
+3678,Everton Gomes,BRAZIL,,,0,0,0
+3749,Ingrid Souza,BRAZIL,,93300036,2,15876,0
+3841,Valentina Castillo,BRAZIL,,,0,0,0
+3857,Elena Alvarez,BRAZIL,exist,93300055,2,19500,2
+3881,Luciano Pereira,BRAZIL,,,0,0,0
+3890,Elena Julie Torres,BRAZIL,,,0,0,0
+3910,Isabel Fernandez,BRAZIL,,,0,0,0
+3948,Camila Morales,BRAZIL,,,0,0,0
+3972,Alessandra Oliveira,BRAZIL,,,0,0,0
+4034,Sergio Costa,BRAZIL,,,0,0,2
+4146,Gabriel Jean Pereira,BRAZIL,,,0,0,0
+4187,Daniela Ribeiro,BRAZIL,,93300380,5,81760,0
+4278,Isabel Morales,BRAZIL,,,0,0,0
+4295,Joao Pedro Lima,BRAZIL,,,0,0,0
+4312,Renata Goncalves,BRAZIL,,,0,0,0
+4456,Matheus Silva,BRAZIL,,93300006,1,89470,0
+4459,Camila Herrera,BRAZIL,,,0,0,0
+4568,Priscila Almeida,BRAZIL,,,0,0,1
+4612,Emilio Torres,BRAZIL,,,0,0,0
+4689,Rafael Oliveira,BRAZIL,,,0,0,0
+4721,Livia Rocha,BRAZIL,,,0,0,0
+4722,Sofia Vargas,BRAZIL,exist,93300031,1,14500,1
+4762,Julie Gabriel Pereira,BRAZIL,,,0,0,0
+4782,Ana Laura Lima,BRAZIL,,,0,0,0
+4803,Felipe Pereira,BRAZIL,exist,93300062,2,36250,1
+4832,Alan Ferreira,BRAZIL,,93300037,2,71760,0
+4842,Gabriel Costa,BRAZIL,,,0,0,0
+4890,Fernando Castillo,BRAZIL,,,0,0,0
+4909,Lucas Santos Carlos,BRAZIL,,,0,0,0
+4910,Aline Santos,BRAZIL,,,0,0,3
+4936,Emilio Castillo,BRAZIL,exist,93300021,1,13500,1
+4948,Isabel Garcia,BRAZIL,,,0,0,0
+4983,Joao Silva,BRAZIL,,,0,0,0
+5043,Carlos Eduardo Silva,BRAZIL,,,0,0,0
+5238,Jorge Almeida,BRAZIL,,,0,0,0
+5346,Sandra Mendes,BRAZIL,,,0,0,2
+5479,Thiago Fernandes,BRAZIL,,,0,0,0
+5493,Daniel Ortiz,BRAZIL,exist,93300049,2,4200,1
+5590,Ana Clara Souza,BRAZIL,,93300144,4,68820,0
+5632,Wellington Campos,BRAZIL,,,0,0,0
+5704,Joaquin Ramirez,BRAZIL,,,0,0,0
+5731,Laura Martinez,BRAZIL,exist,93300029,1,14000,1
+5739,JoAPSo Mateo Silva,BRAZIL,exist,93300065,2,31000,1
+5781,Fernanda Oliveira,BRAZIL,,,0,0,0
+5840,Isabel Alvarez,BRAZIL,,,0,0,0
+5864,Sofia Lee Fernandes,BRAZIL,exist,93300061,2,32500,2
+5878,Sofia Garcia,BRAZIL,exist,93300086,3,37500,2
+5927,Pedro Torres,BRAZIL,,,0,0,0
+6047,Elena Costa Martinez,BRAZIL,,,0,0,0
+6402,Ana Lima Julia,BRAZIL,,,0,0,0
+6939,Mateo Fernandez,BRAZIL,,,0,0,0
+6948,Valentina Ortiz,BRAZIL,exist,93300051,2,20000,2
+6954,Ana Oliveira Beatriz,BRAZIL,exist,93300089,3,43000,3
+6975,Isabel Almeida Hugo,BRAZIL,exist,93300082,3,6750,2
+6984,Sofia Fernandes,BRAZIL,exist,93300064,2,34500,1
+6985,Felipe Costa Silva,BRAZIL,exist,93300087,3,8100,2
+6990,Ana Lima Fernando,BRAZIL,exist,93300092,3,40500,2
+6992,Lucas Michael Lima,BRAZIL,exist,93300160,4,46500,3
+6993,Ana Oliveira,BRAZIL,exist,93300161,4,46250,3
+7001,Isabella Rodrigues Romero,BRAZIL,exist,93300167,4,7850,3
+7005,Maria Lee Hernandez,BRAZIL,,,0,0,0
+7025,Gabriel David Almeida,BRAZIL,,,0,0,0
+7033,Lucas Oliveira,BRAZIL,,,0,0,0
+7057,Luciana Julie Santos,BRAZIL,,,0,0,0
+7073,Gabriel Jean Almeida,BRAZIL,,,0,0,0
+7077,Rafael Santos Beatriz,BRAZIL,,,0,0,0
+7085,Luiz Gomez Almeida,BRAZIL,,,0,0,0
+7145,Juan Ortiz,BRAZIL,exist,93300017,1,9600,1
+7368,Thiago Mateo Martins,BRAZIL,exist,93300033,2,16750,0
+7389,Isabel Rodriguez,BRAZIL,exist,93300054,2,20750,2
+7545,Isabella Gomes,BRAZIL,,,0,0,0
+7666,Pedro Souza,BRAZIL,exist,93300032,2,9120,2
+7809,Laura Vargas,BRAZIL,,,0,0,0
+7815,Miguel Diaz,BRAZIL,,,0,0,0
+7921,Laura Diaz Silva,BRAZIL,,,0,0,0
+7932,Valentina Diaz,BRAZIL,,,0,0,0
+8001,Isabella Rodrigues,BRAZIL,exist,93300199,4,39250,3
+8005,Maria Hernandez,BRAZIL,exist,93300070,2,27000,2
+8009,Lucas Mateo Costa,BRAZIL,exist,93300114,3,36250,3
+8013,Bruna Souza,BRAZIL,exist,93300115,3,37250,3
+8017,Renata Mateo Costa,BRAZIL,exist,93300407,5,48000,4
+8021,Gustavo Lima,BRAZIL,exist,93300117,3,34500,3
+8025,Gabriel Pedro Almeida,BRAZIL,exist,93300206,4,8750,3
+8029,Larissa Silva,BRAZIL,exist,93300119,3,7400,3
+8033,Lucas Torres Oliveira,BRAZIL,exist,93300209,4,8350,3
+8037,Rodrigo Silva,BRAZIL,exist,93300411,5,9850,4
+8041,Beatriz Almeida,BRAZIL,exist,93300213,4,44250,3
+8045,Camila Oliveira,BRAZIL,exist,93300120,3,34000,3
+8049,Ricardo Lima,BRAZIL,exist,93300414,5,9300,4
+8053,Sofia Almeida,BRAZIL,exist,93300218,4,44500,3
+8057,Luciana Santos,BRAZIL,exist,93300416,5,48000,4
+8061,Gabriela Pereira,BRAZIL,exist,93300222,4,44000,3
+8065,Larissa Lima,BRAZIL,exist,93300224,4,43750,3
+8069,Isabella Rocha,BRAZIL,exist,93300227,4,44500,3
+8073,Gabriel Almeida,BRAZIL,exist,93300420,5,48000,4
+8077,Rafael Juan Santos,BRAZIL,exist,93300231,4,43750,3
+8081,Beatriz Lima,BRAZIL,exist,93300422,5,9550,4
+8085,Luiz Almeida,BRAZIL,exist,93300234,4,8700,3
+8089,Lucas Lima Lucus,BRAZIL,exist,93300424,5,46500,4
+8093,Sofia Costa,BRAZIL,exist,93300238,4,8750,3
+8097,Luciana Souza,BRAZIL,exist,93300426,5,48000,4
+8101,Claudia Hernandez,BRAZIL,exist,93300242,4,38000,3
+8105,Maria Silva,BRAZIL,exist,93300429,5,9450,4
+8109,Renata Almeida,BRAZIL,exist,93300430,5,49000,4
+8117,Marcela Oliveira,BRAZIL,exist,93300433,5,47500,4
+8121,Patricia Lima,BRAZIL,exist,93300247,4,39000,3
+8125,Ana Silva,BRAZIL,exist,93300249,4,42500,3
+8129,Luana Costa,BRAZIL,exist,93300436,5,49500,4
+8133,Ricardo Silva,BRAZIL,exist,93300251,4,41000,3
+8137,Bruno Oliveira,BRAZIL,exist,93300253,4,44500,3
+8141,Lucas Costa,BRAZIL,exist,93300254,4,45000,3
+8143,Gabriela Torres,BRAZIL,,,0,0,0
+8145,Luana Silva,BRAZIL,exist,93300441,5,9700,4
+8149,Aline Leandro Costa,BRAZIL,exist,93300257,4,8400,3
+8153,Ana Leandro Costa,BRAZIL,exist,93300444,5,47000,4
+8157,Fernanda Silva,BRAZIL,exist,93300260,4,43000,3
+8161,Lucas Ikar Silva,BRAZIL,exist,93300261,4,44000,3
+8165,Gabriela Almeida,BRAZIL,exist,93300449,5,48750,4
+8169,Mariana Pedro Silva,BRAZIL,exist,93300264,4,42500,3
+8173,Aline Costa,BRAZIL,exist,93300265,4,41500,3
+8177,Fernanda Costa,BRAZIL,exist,93300455,5,49000,4
+8181,Lucas Gomez  Oliveira,BRAZIL,exist,93300267,4,8600,3
+8189,Claudia Costa,BRAZIL,exist,93300270,4,8900,3
+8193,Mariana Gomez,BRAZIL,exist,93300271,4,42000,3
+8197,Aline Pereira,BRAZIL,exist,93300273,4,44000,3
+8203,Patricia Gonzalez,BRAZIL,exist,93300275,4,8200,3
+8207,Laura Mendoza,BRAZIL,exist,93300276,4,8900,3
+8211,Fernanda Martinez,BRAZIL,exist,93300278,4,40500,3
+8215,Cristina Ruiz,BRAZIL,exist,93300468,5,44000,4
+8219,Juliana Pereira,BRAZIL,exist,93300280,4,8500,3
+8223,Luna Isabela Vargas,BRAZIL,exist,93300282,4,8700,3
+8227,Carlos Mariana Silva,BRAZIL,exist,93300471,5,46500,4
+8231,Francisco Silva,BRAZIL,exist,93300284,4,42000,3
+8235,David Torres,BRAZIL,exist,93300286,4,41500,3
+8239,Leonardo Gomez Gonzalez,BRAZIL,exist,93300474,5,45000,4
+8243,Elena Silva A,BRAZIL,exist,93300288,4,43500,3
+8247,Julian Gomez,BRAZIL,exist,93300477,5,44000,4
+8251,Elena Torres Gomez,BRAZIL,exist,93300479,5,45500,4
+8255,Fernanda Garcia,BRAZIL,exist,93300481,5,44500,4
+8259,Marcela Silva,BRAZIL,exist,93300292,4,44000,3
+8263,Elena Ruiz,BRAZIL,exist,93300483,5,45000,4
+8267,Julian Costa Pedro,BRAZIL,exist,93300485,5,9100,4
+8275,Patricia Mateo Silva,BRAZIL,exist,93300489,5,45000,4
+8279,Marcela Salvador Ruiz,BRAZIL,exist,93300491,5,44000,4
+8283,Laura Silva Vargas,BRAZIL,exist,93300493,5,8900,4
+8287,Mariana Ruiz,BRAZIL,exist,93300495,5,45000,4
+8291,Marcela Torres Romero,BRAZIL,exist,93300497,5,9100,4
+8295,Julian Costa,BRAZIL,exist,93300499,5,9200,4
+8299,Marcela Gonzalez Romero,BRAZIL,exist,93300501,5,44500,4
+8303,Nicolas Martinez Silva,BRAZIL,exist,93300304,4,43000,3
+8307,Felipe Garcia,BRAZIL,exist,93300503,5,44500,4
+8311,Manuel Ruiz,BRAZIL,exist,93300306,4,8300,3
+8315,Alejandro Gonzalez,BRAZIL,exist,93300308,4,8400,3
+8319,Julio Fernandez Ruiz,BRAZIL,exist,93300506,5,9000,4
+8323,Ignacio Pereira,BRAZIL,exist,93300310,4,42500,3
+8331,Juan M Martinez,BRAZIL,exist,93300509,5,44000,4
+8335,Francisco Pedro Ruiz,BRAZIL,exist,93300511,5,44500,4
+8339,Alejandro Martinez,BRAZIL,exist,93300513,5,46000,4
+8343,Ignacio Martinez,BRAZIL,exist,93300515,5,45500,4
+8347,Claudia Beatriz Pereira,BRAZIL,exist,93300517,5,45000,4
+8351,Camila Silva,BRAZIL,exist,93300519,5,44000,4
+8355,Nicolas Pedro Ruiz,BRAZIL,exist,93300521,5,9000,4
+8359,Lucia Ruiz,BRAZIL,exist,93300523,5,44000,4
+8363,Felipe Pereira Romero,BRAZIL,exist,93300525,5,44500,4
+8367,Lucia Costa,BRAZIL,exist,93300527,5,46000,4
+8371,Adriana Ruiz,BRAZIL,exist,93300529,5,44500,4
+8375,Emilio Pereira,BRAZIL,exist,93300531,5,45000,4
+8379,Adriana Martinez Pedro,BRAZIL,exist,93300533,5,46000,4
+8381,Lucia Julie Ruiz,BRAZIL,exist,93300534,5,9200,4
+8385,Valeria Pedro Gomez,BRAZIL,exist,93300536,5,9100,4
+8389,Felipe Ruiz,BRAZIL,exist,93300538,5,44500,4
+8393,Ximena Pilar Rios,BRAZIL,exist,93300540,5,45500,4
+8397,Martina M Pereira,BRAZIL,exist,93300542,5,45000,4
+8401,Daniela Carvalho Ruiz,BRAZIL,exist,93300544,5,44500,4
+8405,Lucia Martinez Ruiz,BRAZIL,exist,93300546,5,9200,4
+8409,Victoria Pereira,BRAZIL,exist,93300548,5,45500,4
+8413,Roberto Silva,BRAZIL,exist,93300550,5,8900,4
+8417,Florencia Hugo Silva,BRAZIL,exist,93300552,5,9100,4
+8425,Nicolas Silva,BRAZIL,exist,93300556,5,46000,4
+8429,Martina Pereira,BRAZIL,exist,93300558,5,44500,4
+8433,Felipe Gomez Hugo,BRAZIL,exist,93300560,5,45500,4
+8437,Juliana Costa,BRAZIL,exist,93300562,5,45000,4
+8441,Florencia Torres,BRAZIL,exist,93300564,5,44000,4
+8445,Juliana Martinez Pedro,BRAZIL,exist,93300566,5,8900,4
+8449,Victoria Torres,BRAZIL,exist,93300568,5,46000,4
+8451,Elena Silva B,BRAZIL,exist,93300707,6,52500,5
+8459,Jorge Silva,BRAZIL,exist,93300711,6,10100,5
+8463,Natalia Ruiz,BRAZIL,exist,93300713,6,53000,5
+8467,Claudia Beatriz,BRAZIL,exist,93300715,6,52000,5
+8471,Esteban Castro,BRAZIL,exist,93300717,6,10700,5
+8475,Diego Silva,BRAZIL,exist,93300719,6,51000,5
+8479,Natalia Gomez Romero,BRAZIL,exist,93300721,6,10800,5
+8483,Mariana Gonzalez,BRAZIL,exist,93300723,6,52000,5
+8487,Florencia Silva,BRAZIL,exist,93300725,6,10600,5
+8491,Martina Costa,BRAZIL,exist,93300727,6,10300,5
+8495,Isabella Martinez,BRAZIL,exist,93300729,6,10500,5
+8499,Elena Leandro Pereira,BRAZIL,exist,93300731,6,53000,5
+8501,Claudia Castro,BRAZIL,exist,93300854,7,57500,6
+8505,Florencia Gonzalez,BRAZIL,exist,93300856,7,56000,6
+8509,Marcelo Gomez,BRAZIL,exist,93300858,7,56500,6
+8513,Bruno Carvalho,BRAZIL,exist,93300860,7,57000,6
+8521,Carla Gonzalez Beatriz,BRAZIL,exist,93300864,7,57500,6
+8525,Natalia Torres,BRAZIL,exist,93300866,7,11200,6
+8529,Diego Leandro Fernandez,BRAZIL,exist,93300868,7,56500,6
+8533,Marcela Gonzalez,BRAZIL,exist,93300870,7,57000,6
+8537,Luciana Torres,BRAZIL,exist,93300872,7,57500,6
+8541,Marcelo Torres Pedro,BRAZIL,exist,93300874,7,56000,6
+8545,Claudia Silva,BRAZIL,exist,93300876,7,11400,6
+8549,Luciana Juan Martinez,BRAZIL,exist,93300878,7,11600,6
+8551,Patricia Silva Beatriz,BRAZIL,exist,93300582,5,40500,4
+8555,Martina omez Fernandez,BRAZIL,exist,93300584,5,8500,4
+8559,Ignacio Silva,BRAZIL,exist,93300586,5,42000,4
+8563,Marcelo Fernandez,BRAZIL,exist,93300588,5,41000,4
+8567,Raul Mateo Silva,BRAZIL,exist,93300590,5,8600,4
+8571,Carolina Fernandez,BRAZIL,exist,93300592,5,41500,4
+8579,Marcelo Castro Romero,BRAZIL,exist,93300596,5,41000,4
+8583,Martina Gomez,BRAZIL,exist,93300598,5,41500,4
+8587,Adriana Ruiz Jack,BRAZIL,exist,93300600,5,42000,4
+8591,Carolina Leandro Martinez,BRAZIL,exist,93300602,5,42500,4
+8595,Martina Castro,BRAZIL,exist,93300604,5,41000,4
+8599,Marcelo Ruiz,BRAZIL,exist,93300606,5,41500,4
+8601,Esteban Silva,BRAZIL,exist,93300745,6,9000,5
+8605,Antonio Fernandez,BRAZIL,exist,93300747,6,45500,5
+8609,Felipe Silva,BRAZIL,exist,93300749,6,46000,5
+8613,Martin Fernandez,BRAZIL,exist,93300751,6,45000,5
+8617,Claudia Beatriz Silva,BRAZIL,exist,93300753,6,9100,5
+8621,Raquel Fernandez,BRAZIL,exist,93300755,6,9200,5
+8625,Natalia Silva,BRAZIL,exist,93300757,6,46500,5
+8629,Gael Rodrigo Martinez,BRAZIL,exist,93300759,6,45500,5
+8633,Carolina Silva Romero,BRAZIL,exist,93300761,6,46000,5
+8637,Raul Gomez Martinez,BRAZIL,exist,93300763,6,46500,5
+8641,David Pedro Silva,BRAZIL,exist,93300765,6,9400,5
+8645,Carla Silva Leandro,BRAZIL,exist,93300767,6,46000,5
+8649,Silvia Martinez Ruiz,BRAZIL,exist,93300769,6,46500,5
+8653,David Leandro Gomez,BRAZIL,exist,93300771,6,47000,5
+8657,Antonio Silva,BRAZIL,exist,93300773,6,46500,5
+8673,Antonio Castro,BRAZIL,exist,93300781,6,46500,5
+8677,David Carlos Silva,BRAZIL,exist,93300783,6,47000,5
+8678,Daniel Pedro Martinez,BRAZIL,exist,93300629,5,7200,4
+8681,Raul Torres Salvador,BRAZIL,exist,93300785,6,46500,5
+8685,Andrea Ruiz,BRAZIL,exist,93300787,6,9400,5
+8686,Pedro Lima,BRAZIL,exist,93300631,5,37000,4
+8694,Alexandre Silva,BRAZIL,exist,93300359,4,7300,3
+8698,Felipe Costa Carlos,BRAZIL,exist,93300635,5,37000,4
+8702,Marcos Silva,BRAZIL,exist,93300637,5,37500,4
+8706,Antonio Vargas,BRAZIL,exist,93300361,4,7300,3
+8710,Diego Pedro Costa,BRAZIL,exist,93300639,5,37000,4
+8714,Fernando Morales Silva,BRAZIL,exist,93300641,5,37500,4
+8718,Raul Torres Beatriz,BRAZIL,exist,93300642,5,37000,4
+8722,Pedro Silva,BRAZIL,exist,93300644,5,37500,4
+8726,Antonio Ruiz Manuel,BRAZIL,exist,93300645,5,37000,4
+8730,Fernando Gonzalez,BRAZIL,exist,93300647,5,37500,4
+8734,Raul Silva Beatriz,BRAZIL,exist,93300648,5,37000,4
+8738,Felipe Pedro Costa,BRAZIL,exist,93300650,5,37500,4
+8742,Antonio Carlos Silva,BRAZIL,exist,93300651,5,7400,4
+8746,Raul Fernandez,BRAZIL,exist,93300653,5,37500,4
+8750,Iker Alejandro Morales,BRAZIL,exist,93300654,5,37000,4
+8754,Monica Fernandez Silva,BRAZIL,exist,93300656,5,7500,4
+8758,Raul Juan Ruiz,BRAZIL,exist,93300657,5,37000,4
+8772,Daniela Alvarez,BRAZIL,exist,93300810,6,40000,4
+8776,Patricia Silva,BRAZIL,exist,93300660,5,7700,3
+8780,Elena Moreno,BRAZIL,exist,93300812,6,39500,4
+8784,Silvia Martinez Romero,BRAZIL,exist,93300662,5,39000,3
+8788,Carolina Silva,BRAZIL,exist,93300814,6,40000,4
+8792,Raul Silva,BRAZIL,exist,93300816,6,7900,4
+8796,Elena Silva C,BRAZIL,exist,93300664,5,39000,3
+8800,Juliana Silva,BRAZIL,exist,93300818,6,39500,4
+8804,Victor Mateo Martinez,BRAZIL,exist,93300666,5,7700,3
+8808,Elena Beatriz Ruiz,BRAZIL,exist,93300820,6,40000,4
+8816,Silvia Ruiz,BRAZIL,exist,93300668,5,39000,3
+8820,Daniel Silva,BRAZIL,exist,93300824,6,39500,4
+8824,Carla Morales,BRAZIL,exist,93300670,5,38500,3
+8832,Raul Ruiz,BRAZIL,exist,93300828,6,39500,4
+8836,Elena Hugo Sanchez,BRAZIL,exist,93300672,5,7800,3
+8844,Victor Sanchez,BRAZIL,exist,93300674,5,38500,3
+8848,Isabel Silva,BRAZIL,exist,93300368,4,42500,3
+8852,Carolina Almeida,BRAZIL,exist,93300676,5,8300,3
+8856,Vanessa Silva,BRAZIL,exist,93300834,6,8500,4
+8860,Adriana Costa,BRAZIL,exist,93300836,6,8300,4
+8864,Isabel Almeida,BRAZIL,exist,93300679,5,8000,3
+8868,Lucia Mendoza,BRAZIL,exist,93300371,4,7800,3
+8872,Carolina Gomez,BRAZIL,exist,93300682,5,8000,3
+8876,Natalia Silva Martinez,BRAZIL,exist,93300684,5,7800,3
+8880,Mariana Juan Silva,BRAZIL,exist,93300686,5,41500,4
+8884,Andrea Costa,BRAZIL,exist,93300372,4,39000,3
+8888,Adriana Leandro Silva,BRAZIL,exist,93300689,5,40000,3
+8892,Patricia Costa,BRAZIL,exist,93300373,4,7900,3
+8896,Carla Silva,BRAZIL,exist,93300692,5,40000,3
+8900,Isabel Jimenez,BRAZIL,exist,93300374,4,39000,3
+8904,Victor Gonzalez,BRAZIL,exist,93300695,5,8000,3
+8908,Carolina Jimenez,BRAZIL,exist,93300375,4,39500,3
+8912,Adriana Martinez,BRAZIL,exist,93300698,5,40000,3
+8920,Elena Sanchez,BRAZIL,exist,93300701,5,40000,3
+8924,Carla Leandro Costa,BRAZIL,exist,93300377,4,7900,3
+8928,Isabel Ruiz,BRAZIL,exist,93300704,5,8000,3
+8932,Victor Silva Jimenez,BRAZIL,exist,93300378,4,39000,3
+9054,Isabel Torres,BRAZIL,,,0,0,0
+9143,Pablo Herrera,BRAZIL,,,0,0,0
+9501,Juliana Juan Ribeiro,BRAZIL,,,0,0,0
+1011,Luis Gomez Perez,SPAIN,,,0,0,0
+1014,Laura Torres,SPAIN,,,0,0,0
+1015,Francisco Carlos Ruiz,SPAIN,,,0,0,0
+1203,Enrique Alvarez,SPAIN,,,0,0,1
+2510,Mateo Gomez,SPAIN,,,0,0,1
+3102,Diego Mendoza,SPAIN,exist,93300048,2,18350,2
+3604,Camila Romero,SPAIN,,,0,0,1
+3851,Valentina Garcia,SPAIN,,,0,0,1
+3919,Laura Alvarez,SPAIN,,,0,0,0
+3921,Antonio Herrera,SPAIN,,,0,0,1
+4817,Laura Garcia,SPAIN,,,0,0,0
+4821,Laura Juan Martinez,SPAIN,exist,93300053,2,19100,2
+4932,Lucia Fernandez,SPAIN,exist,93300020,1,16000,1
+4952,Lucia Juan Sanchez,SPAIN,exist,93300058,2,19000,2
+4953,Sofia Lee Martinez,SPAIN,,,0,0,0
+5237,Renata Cruz,SPAIN,,,0,0,1
+5743,Claudia Torres,SPAIN,,,0,0,1
+5745,Valeria Sanchez,SPAIN,exist,93300059,2,18250,2
+5809,Pedro Garcia,SPAIN,,,0,0,0
+5819,Laura Ramirez,SPAIN,,,0,0,1
+5838,Pedro Diaz,SPAIN,,,0,0,1
+5839,Emilia Garcia,SPAIN,,,0,0,1
+5841,Mateo Garcia,SPAIN,,,0,0,1
+5842,Lucas Santos Pedro,SPAIN,exist,93300088,3,7800,2
+5854,Rafael Santos,SPAIN,exist,93300084,3,40500,3
+5857,Felipe Pedro Rocha,SPAIN,exist,93300106,3,40500,2
+5862,Juliana Lee Ribeiro,SPAIN,exist,93300063,2,33750,1
+5868,Felipe Rocha,SPAIN,exist,93300090,3,7350,2
+5875,Lucas Almeida,SPAIN,exist,93300157,4,9500,3
+5879,Lucas Santos Maria,SPAIN,exist,93300159,4,47250,3
+5886,Rafael Costa Beatriz,SPAIN,exist,93300094,3,40500,2
+5893,Luis Perez,SPAIN,,,0,0,1
+5914,Valeria Diaz,SPAIN,,,0,0,1
+5924,Isabel Mateo Gomez,SPAIN,,93300381,5,76170,0
+5930,Sofia Pedro Garcia,SPAIN,exist,93300026,1,2500,1
+6178,Laura Gomez Torres,SPAIN,,,0,0,0
+6289,Francisco Juan  Ruiz,SPAIN,,,0,0,3
+6354,Marta Morales,SPAIN,,93300007,1,18923,0
+6679,Sergio Romero,SPAIN,,93300074,3,56280,0
+6838,Miguel Sanchez,SPAIN,,,0,0,1
+6845,Joaquin Herrera,SPAIN,,,0,0,1
+6881,Alberto Moreno,SPAIN,,93300145,4,82160,0
+6909,JoAPSo Pereira,SPAIN,exist,93300155,4,48000,3
+6912,Elena Torres Martinez,SPAIN,exist,93300052,2,3450,2
+6915,Claudia Herrera,SPAIN,,,0,0,1
+6932,Felipe Juan Rocha,SPAIN,exist,93300096,3,40500,2
+6938,Gabriel Fernando Pereira,SPAIN,exist,93300156,4,9200,3
+6941,Mateo Torres,SPAIN,exist,93300083,3,37250,3
+6942,Thiago Martins,SPAIN,exist,93300093,3,38500,2
+6943,Lucia  Julie Romero,SPAIN,,,0,0,0
+6945,Pablo Martinez Romero,SPAIN,exist,93300060,2,17250,2
+6961,Joaquin Alvarez,SPAIN,exist,93300162,4,41500,3
+6962,Joao Lucas Lima,SPAIN,exist,93300158,4,44750,3
+6972,Lucas Lima,SPAIN,exist,93300085,3,41000,3
+6987,Beatriz Ortega,SPAIN,,,0,0,0
+6989,Gabriel Juan Pereira,SPAIN,exist,93300095,3,43250,2
+7004,Carlos Morales Beatriz,SPAIN,exist,93300168,4,43250,4
+7008,Javier Perez Salvador,SPAIN,exist,93300169,4,45500,4
+7012,Manuel Lopez Salvador,SPAIN,exist,93300392,5,46500,4
+7016,Pedro M Silva,SPAIN,exist,93300171,4,8700,4
+7020,Sofia Mateo Castillo,SPAIN,exist,93300393,5,53000,4
+7024,Clara Morales,SPAIN,exist,93300394,5,52500,4
+7028,Alfonso Leandro Lopez,SPAIN,exist,93300174,4,44500,3
+7032,Diego Costa Gomez,SPAIN,exist,93300395,5,52250,4
+7036,Ana Leandro Garcia,SPAIN,exist,93300177,4,9300,3
+7040,Luiz Lima Gomez,SPAIN,exist,93300396,5,48250,4
+7043,Manuel Navarro,SPAIN,,,0,0,0
+7044,Adrian Mateo Martinez,SPAIN,exist,93300397,5,9450,4
+7048,Carmen Perez Romero,SPAIN,exist,93300181,4,42500,3
+7052,Fabio Santos,SPAIN,exist,93300398,5,52000,4
+7056,Juan Leonardo Costa,SPAIN,exist,93300184,4,46500,3
+7059,Emiliano Perez,SPAIN,,,0,0,0
+7060,Paulo MateoMendes,SPAIN,exist,93300399,5,53000,4
+7064,Fernanda Gael Costa,SPAIN,exist,93300400,5,9650,4
+7068,Rafael Martinez Romero,SPAIN,exist,93300188,4,9300,3
+7072,Fabio Lima Hugo,SPAIN,exist,93300401,5,10450,4
+7076,Lucas Gomez Silva,SPAIN,exist,93300191,4,46500,3
+7080,Tiago Costa,SPAIN,exist,93300402,5,48250,4
+7084,Adrian Mateo Costa,SPAIN,exist,93300403,5,47250,4
+7088,Carmen Garcia,SPAIN,exist,93300195,4,42500,3
+7092,Fabio Oliveira,SPAIN,exist,93300404,5,52000,4
+7096,Pedro Leonardo Costa,SPAIN,exist,93300198,4,9300,3
+7165,Elena Vargas,SPAIN,,,0,0,1
+7238,Francisco Javier Ruiz,SPAIN,,93300038,2,88270,0
+7351,Natalia Delgado,SPAIN,,,0,0,0
+7498,Ricardo Moreno,SPAIN,,,0,0,0
+7623,Javier Sanchez,SPAIN,,,0,0,3
+7745,Raquel Ramirez,SPAIN,,93300146,4,78920,0
+7869,Alejandro Lopez,SPAIN,,,0,0,0
+7899,Maria Fernandez,SPAIN,,,0,0,2
+7951,Veronica Diaz,SPAIN,,,0,0,2
+7956,Sofia Lopez,SPAIN,exist,93300024,1,14250,1
+8004,Carlos Morales,SPAIN,exist,93300200,4,43250,4
+8008,Javier Perez,SPAIN,exist,93300201,4,45500,4
+8012,Manuel Lopez,SPAIN,exist,93300406,5,9300,4
+8016,Mariana Silva,SPAIN,exist,93300203,4,43500,4
+8020,Sofia Castillo,SPAIN,exist,93300408,5,10600,4
+8024,Clara Beatriz Morales,SPAIN,exist,93300409,5,10500,4
+8028,Alfonso Lopez,SPAIN,exist,93300207,4,44500,3
+8032,Diego Costa Martinez,SPAIN,exist,93300410,5,52250,4
+8036,Ana Garcia,SPAIN,exist,93300211,4,46500,3
+8040,Luiz Lima,SPAIN,exist,93300412,5,48250,4
+8044,Adrian Martinez,SPAIN,exist,93300413,5,47250,4
+8047,Guillermo Lopez,SPAIN,,93300008,1,16789,0
+8048,Carmen Perez,SPAIN,exist,93300216,4,42500,3
+8052,Fabio Beatriz Santos,SPAIN,exist,93300415,5,52000,4
+8056,Leonardo Lee  Costa,SPAIN,exist,93300220,4,46500,3
+8060,Paulo Mendes Beatriz,SPAIN,exist,93300417,5,53000,4
+8064,FernandaVargas  Costa,SPAIN,exist,93300418,5,48250,4
+8068,Rafael Martinez,SPAIN,exist,93300226,4,46500,3
+8072,Fabio Lima,SPAIN,exist,93300419,5,52250,4
+8076,Lucas Pedro Silva,SPAIN,exist,93300230,4,9300,3
+8080,Tiago PedroCosta,SPAIN,exist,93300421,5,48250,4
+8084,Adrian Costa,SPAIN,exist,93300423,5,47250,4
+8088,Carmen Leandro Garcia,SPAIN,exist,93300236,4,42500,3
+8092,Fabio Oliveira Hugo,SPAIN,exist,93300425,5,52000,4
+8096,Leonardo Costa,SPAIN,exist,93300240,4,46500,3
+8100,Paulo Mendes,SPAIN,exist,93300427,5,53000,4
+8104,Antonio Alvarez,SPAIN,exist,93300243,4,41000,4
+8108,IsabelHugo  Martinez,SPAIN,exist,93300244,4,45000,3
+8112,Manuel Gonzalez,SPAIN,exist,93300431,5,50000,4
+8116,Javier Gomez,SPAIN,exist,93300246,4,8600,3
+8120,Roberto Lopez,SPAIN,exist,93300434,5,47500,4
+8124,Enrique Martinez,SPAIN,exist,93300435,5,9400,4
+8128,Pedro Lopez,SPAIN,exist,93300250,4,8800,3
+8132,Juan Alvarez,SPAIN,exist,93300437,5,45500,4
+8136,Carmen Gomez,SPAIN,exist,93300438,5,9600,4
+8140,Carla Martinez Romero,SPAIN,exist,93300440,5,47500,4
+8144,Antonio Diaz,SPAIN,exist,93300256,4,8700,3
+8148,Esteban Perez,SPAIN,exist,93300442,5,47000,4
+8152,Leonardo Silva,SPAIN,exist,93300258,4,44000,3
+8156,Marco Lopez,SPAIN,exist,93300445,5,46000,4
+8160,Clara Gonzalez,SPAIN,exist,93300447,5,48500,4
+8164,Elena  Pedro Costa,SPAIN,exist,93300448,5,47000,4
+8168,Antonio Garcia,SPAIN,exist,93300450,5,47500,4
+8172,Esteban Hugo Costa,SPAIN,exist,93300452,5,9650,4
+8176,Marco Silva,SPAIN,exist,93300454,5,46500,4
+8180,Leonardo Torres,SPAIN,exist,93300456,5,9500,4
+8184,Martina Pedro Gomez,SPAIN,exist,93300457,5,9400,4
+8188,Julian Torres,SPAIN,exist,93300459,5,48000,4
+8192,Antonio Torres Martinez,SPAIN,exist,93300461,5,9300,4
+8196,Juan Roberto Silva,SPAIN,exist,93300462,5,9700,4
+8200,Marco Martinez,SPAIN,exist,93300464,5,47000,4
+8201,Elena Garcia,SPAIN,exist,93300274,4,42500,3
+8205,Camila Costa,SPAIN,exist,93300465,5,46500,4
+8209,Ana Ruiz,SPAIN,exist,93300277,4,43000,3
+8213,Marcela Gomez,SPAIN,exist,93300467,5,9200,4
+8217,Guillermo Martinez,SPAIN,exist,93300279,4,43500,3
+8221,Isabella Torres Salvador,SPAIN,exist,93300281,4,42000,3
+8225,Claudia Mendoza,SPAIN,exist,93300470,5,47500,4
+8229,Ana Costa,SPAIN,exist,93300283,4,43000,3
+8233,Miguel Gomez,SPAIN,exist,93300285,4,44500,3
+8237,Cristina Martinez,SPAIN,exist,93300473,5,9200,4
+8241,Roberto Garcia,SPAIN,exist,93300287,4,8800,3
+8245,Guillermo Ruiz,SPAIN,exist,93300476,5,47500,4
+8249,Victoria Martinez Salvador,SPAIN,exist,93300478,5,48000,4
+8253,Guillermo Gonzalez,SPAIN,exist,93300480,5,9400,4
+8257,Carla Michael Ruiz,SPAIN,exist,93300291,4,8600,3
+8261,Patricia Torres Martinez,SPAIN,exist,93300482,5,47500,4
+8265,Victoria Julie Pereira,SPAIN,exist,93300484,5,9700,4
+8269,Marcela Pereira,SPAIN,exist,93300486,5,9300,4
+8273,Laura Torres Santos,SPAIN,exist,93300488,5,47000,4
+8277,Elena Torres,SPAIN,exist,93300490,5,47500,4
+8281,Carla Torres,SPAIN,exist,93300492,5,48000,4
+8285,Julian Martinez,SPAIN,exist,93300494,5,48500,4
+8289,Elena Costa Gonzalez,SPAIN,exist,93300496,5,47500,4
+8293,Fernanda Ruiz,SPAIN,exist,93300498,5,9600,4
+8297,Elena Pereira,SPAIN,exist,93300500,5,47500,4
+8301,Lucas Pereira,SPAIN,exist,93300303,4,46000,3
+8305,Alonso Torres,SPAIN,exist,93300502,5,46500,4
+8313,Valeria Torres,SPAIN,exist,93300307,4,43000,3
+8317,Renata Costa,SPAIN,exist,93300505,5,47000,4
+8321,Luna Isabela Mateo Vargas,SPAIN,exist,93300309,4,8700,3
+8325,Victoria Gonzalez,SPAIN,exist,93300311,4,44500,3
+8329,Renata Pereira,SPAIN,exist,93300508,5,48000,4
+8333,Dario Esteban Ruiz,SPAIN,exist,93300510,5,47500,4
+8337,Julio Silva,SPAIN,exist,93300512,5,48500,4
+8341,Elena Costa,SPAIN,exist,93300514,5,48000,4
+8345,Valeria Gomez,SPAIN,exist,93300516,5,9500,4
+8349,Florencia Costa,SPAIN,exist,93300518,5,47000,4
+8353,Adriana Torres,SPAIN,exist,93300520,5,9600,4
+8357,Sofia Torres Beatriz,SPAIN,exist,93300522,5,47500,4
+8361,Martina Lee Costa,SPAIN,exist,93300524,5,9700,4
+8365,Victoria Silva,SPAIN,exist,93300526,5,48000,4
+8369,Nicolas Costa,SPAIN,exist,93300528,5,9500,4
+8373,Felipe Torres,SPAIN,exist,93300530,5,48000,4
+8377,Valeria Ruiz,SPAIN,exist,93300532,5,47500,4
+8383,Antonio RodrigoSilva,SPAIN,exist,93300535,5,47500,4
+8387,Roberto Gomez Martinez,SPAIN,exist,93300537,5,47000,4
+8391,Adriana Silva,SPAIN,exist,93300539,5,46500,4
+8396,Patricia Perez,SPAIN,,93300039,2,82715,1
+8399,Julian Torres Iker,SPAIN,exist,93300543,5,9200,4
+8403,Emilia Costa,SPAIN,exist,93300545,5,47500,4
+8407,Valeria Silva,SPAIN,exist,93300547,5,47000,4
+8411,Emilio Silva,SPAIN,exist,93300549,5,46000,4
+8412,Carla Rodriguez,SPAIN,,,0,0,1
+8415,Dario Ruiz,SPAIN,exist,93300551,5,47500,4
+8419,Victoria Martinez Beatriz,SPAIN,exist,93300553,5,48000,4
+8423,Esteban Costa,SPAIN,exist,93300555,5,47000,4
+8427,Emilio Torres Vargas,SPAIN,exist,93300557,5,47500,4
+8431,Estela Silva,SPAIN,exist,93300559,5,9600,4
+8435,Emilia Silva,SPAIN,exist,93300561,5,47000,4
+8439,Lucia Pedro Ruiz,SPAIN,exist,93300563,5,47500,4
+8443,Martina Juan Gomez,SPAIN,exist,93300565,5,9700,4
+8447,Lucia Pereira,SPAIN,exist,93300567,5,47500,4
+8453,Antonio Lee Martinez,SPAIN,exist,93300708,6,49000,5
+8457,Paula Torres,SPAIN,exist,93300710,6,49500,5
+8461,Daniel Martinez,SPAIN,exist,93300712,6,50000,5
+8465,Isabella Torres,SPAIN,exist,93300714,6,51000,5
+8469,Martin Silva,SPAIN,exist,93300716,6,50500,5
+8473,Marcelo Torres Jiminez,SPAIN,exist,93300718,6,48500,5
+8477,Roberto Pedro Martinez,SPAIN,exist,93300720,6,10000,5
+8481,AntonioPedro Silva,SPAIN,exist,93300722,6,49000,5
+8485,Daniela Torres,SPAIN,exist,93300724,6,10000,5
+8489,Elena Pedro Gomez,SPAIN,exist,93300726,6,51000,5
+8493,Antonio Torres,SPAIN,exist,93300728,6,50500,5
+8503,Marcela Salvador Silva,SPAIN,exist,93300855,7,10500,6
+8507,Diego Castro Romero,SPAIN,exist,93300857,7,10700,6
+8511,Roberto Carlos Silva,SPAIN,exist,93300859,7,54000,6
+8515,Victoria Martinez,SPAIN,exist,93300861,7,54500,6
+8519,Antonio Martinez,SPAIN,exist,93300863,7,53000,6
+8523,Mariana Martinez,SPAIN,exist,93300865,7,53500,6
+8527,Isabella Ruiz,SPAIN,exist,93300867,7,52500,6
+8531,Julian Silva,SPAIN,exist,93300869,7,54000,6
+8539,Diego Martinez,SPAIN,exist,93300873,7,53000,6
+8543,Antonio Gomez,SPAIN,exist,93300875,7,10400,6
+8547,Julian Ruiz,SPAIN,exist,93300877,7,52500,6
+8553,Elena Gomez,SPAIN,exist,93300583,5,41000,4
+8557,Sofia JulieMartinez,SPAIN,exist,93300585,5,8000,4
+8561,Lucas Gomez,SPAIN,exist,93300587,5,39500,4
+8565,Javier Torres,SPAIN,exist,93300589,5,39000,4
+8569,Antonio Gonzalez,SPAIN,exist,93300591,5,38500,4
+8573,Raul Torres,SPAIN,exist,93300593,5,7900,4
+8577,Lucas Ruiz,SPAIN,exist,93300595,5,7800,4
+8581,Sofia Torres,SPAIN,exist,93300597,5,38000,4
+8585,Daniela Castro,SPAIN,exist,93300599,5,39500,4
+8589,Lucas Castro,SPAIN,exist,93300601,5,39000,4
+8593,Raul Gomez,SPAIN,exist,93300603,5,7700,4
+8597,Lucas Torres,SPAIN,exist,93300605,5,7800,4
+8603,David Ruiz,SPAIN,exist,93300746,6,43000,5
+8607,Victor Torres,SPAIN,exist,93300748,6,43500,5
+8611,Manuel Gomez,SPAIN,exist,93300750,6,44000,5
+8615,Oscar Martinez Torres,SPAIN,exist,93300752,6,43500,5
+8619,Elena Martinez,SPAIN,exist,93300754,6,44000,5
+8623,Paola Torres,SPAIN,exist,93300756,6,8900,5
+8627,Jorge Martinez Salvador,SPAIN,exist,93300758,6,43500,5
+8631,Elena Thomas Torres,SPAIN,exist,93300760,6,44000,5
+8635,Michael Daniel Gomez,SPAIN,exist,93300762,6,44000,5
+8639,Victor Ruiz,SPAIN,exist,93300764,6,44500,5
+8643,Marcela Torres,SPAIN,exist,93300766,6,43500,5
+8647,Oscar Mateo Martinez,SPAIN,exist,93300768,6,44000,5
+8651,Manuel Torres,SPAIN,exist,93300770,6,8900,5
+8655,Marcelo Torres,SPAIN,exist,93300772,6,8800,5
+8659,Oscar Ruiz Romero,SPAIN,exist,93300774,6,44500,5
+8663,David Martinez,SPAIN,exist,93300776,6,8800,5
+8667,Luciana Martinez,SPAIN,exist,93300778,6,44500,5
+8671,Marcelo Martinez,SPAIN,exist,93300780,6,44000,5
+8675,Oscar Gonzalez,SPAIN,exist,93300782,6,44500,5
+8679,Martina Julie Gomez,SPAIN,exist,93300784,6,44000,5
+8680,Samuel Silva,SPAIN,exist,93300789,6,7500,5
+8683,Jose Martinez Romero,SPAIN,exist,93300786,6,44500,5
+8684,Oscar Ortega,SPAIN,exist,93300790,6,7600,5
+8688,Enrique Torres,SPAIN,exist,93300791,6,39000,5
+8692,Victor Martinez Romero,SPAIN,exist,93300792,6,7700,5
+8696,Julio Fernandez Salvador,SPAIN,exist,93300793,6,7600,5
+8700,Juan Ortega,SPAIN,exist,93300794,6,38500,5
+8704,Daniel Silva Gomez,SPAIN,exist,93300795,6,39000,5
+8708,Marco Torres,SPAIN,exist,93300796,6,38000,5
+8712,Jorge Ortega,SPAIN,exist,93300797,6,7800,5
+8716,Natalia Gomez,SPAIN,exist,93300798,6,38500,5
+8720,Victor Fernandez,SPAIN,exist,93300799,6,7600,5
+8724,Oscar Vargas Salvador,SPAIN,exist,93300800,6,39000,5
+8728,Julio Costa,SPAIN,exist,93300801,6,38500,5
+8732,Victor Silva,SPAIN,exist,93300802,6,38000,5
+8736,Marco Gonzalez,SPAIN,exist,93300803,6,39000,5
+8740,Oscar Mateo Jimenez,SPAIN,exist,93300804,6,38000,5
+8744,Victor Ortega,SPAIN,exist,93300805,6,38500,5
+8748,Daniela Gonzalez,SPAIN,exist,93300806,6,7600,5
+8752,Oscar Jimenez Salvador,SPAIN,exist,93300807,6,39000,5
+8756,Juan Morales,SPAIN,exist,93300808,6,7600,5
+8760,Oscar Vargas Beatriz,SPAIN,exist,93300809,6,39000,5
+8774,Lucia Martinez,SPAIN,exist,93300879,7,41000,5
+8778,Carla Vargas,SPAIN,exist,93300880,7,8300,5
+8782,Monica Fernandez,SPAIN,exist,93300881,7,40500,5
+8786,Oscar Jimenez,SPAIN,exist,93300882,7,41000,5
+8790,Jorge Martinez,SPAIN,exist,93300883,7,41500,5
+8794,Victor Ortega Silva,SPAIN,exist,93300884,7,8200,5
+8798,Oscar Vargas,SPAIN,exist,93300885,7,40500,5
+8802,Lucia Gomez,SPAIN,exist,93300886,7,41500,5
+8806,Monica Jimenez,SPAIN,exist,93300887,7,41000,5
+8810,Jorge Ruiz,SPAIN,exist,93300888,7,41500,5
+8814,Lucia Sanchez,SPAIN,exist,93300889,7,8200,5
+8818,Marcelo Silva,SPAIN,exist,93300890,7,40500,5
+8822,Monica Julie Ruiz,SPAIN,exist,93300891,7,8200,5
+8826,Jorge Sanchez Romero,SPAIN,exist,93300892,7,40500,5
+8830,Monica Morales,SPAIN,exist,93300893,7,41000,5
+8834,Victor Jimenez,SPAIN,exist,93300894,7,8300,5
+8838,Lucia Ruiz Santos,SPAIN,exist,93300895,7,40500,5
+8842,Juliana Morales,SPAIN,exist,93300896,7,41000,5
+8846,Jorge Jimenez,SPAIN,exist,93300897,7,40500,5
+8850,Emma Lopez,SPAIN,exist,93300832,6,41000,4
+8854,Laura Isabela,SPAIN,exist,93300369,4,40500,3
+8858,Natalia Ruiz Leandro,SPAIN,exist,93300835,6,41000,4
+8859,Antonio Ortega,SPAIN,,93300383,5,66280,3
+8862,Sofia Jimenez,SPAIN,exist,93300678,5,39500,4
+8866,Carmen Ruiz,SPAIN,exist,93300680,5,8300,4
+8870,Adriana Jimenez,SPAIN,exist,93300838,6,41000,4
+8874,Lina Torres,SPAIN,exist,93300683,5,40500,4
+8878,Laura Julie Jimenez,SPAIN,exist,93300685,5,41000,4
+8882,Isabel Gomez,SPAIN,exist,93300687,5,40500,4
+8886,Victoria Ruiz,SPAIN,exist,93300842,6,41000,4
+8890,Sofia Sanchez,SPAIN,exist,93300690,5,8300,4
+8894,Laura Juan Silva,SPAIN,exist,93300844,6,40500,4
+8898,Carmen Sanchez,SPAIN,exist,93300693,5,41000,4
+8902,Marcelo Sanchez,SPAIN,exist,93300846,6,41500,4
+8910,Juliana Gomez Sanchez,SPAIN,exist,93300848,6,41000,4
+8914,Sofia Ruiz,SPAIN,exist,93300699,5,41500,4
+8918,Isabel Martinez,SPAIN,exist,93300850,6,8100,4
+8922,Carmen Jimenez,SPAIN,exist,93300702,5,41000,4
+8926,Marcelo Lopez,SPAIN,exist,93300852,6,41500,4
+8930,Laura Jean Martinez,SPAIN,exist,93300705,5,40500,4
+8945,Paula Ruiz,SPAIN,,,0,0,0
+9071,Enrique Fernandez,SPAIN,,,0,0,0
+9074,Mariana Vargas,SPAIN,,,0,0,0
+9136,Marta Lopez,SPAIN,,93300147,4,88945,0
+9268,Ramon Castillo,SPAIN,,,0,0,2
+9325,Sofia Pedro Martinez,SPAIN,,,0,0,0
+9384,Laura Rodriguez,SPAIN,,,0,0,0
+9472,Pablo Martinez,SPAIN,,93300040,2,15478,0
+9531,Silvia Sanchez,SPAIN,,,0,0,0
+9654,Juan Carlos Ruiz,SPAIN,,93300384,5,19876,0
+9820,Rafael Martin,SPAIN,,93300009,1,67895,0
+9821,Pablo Navarro,SPAIN,,,0,0,2
+9834,Alejandro Garcia,SPAIN,exist,93300015,1,6000,1
+9935,Mercedes Fernandez,SPAIN,,,0,0,0
+10076,Daniel Ramos,SPAIN,,,0,0,0
+10142,Pilar Sanchez,SPAIN,,93300076,3,62280,0
+10258,Jesus Perez,SPAIN,,,0,0,3
+10379,Aurora Garcia,SPAIN,,,0,0,0
+10462,Roberto Morales,SPAIN,,93300148,4,91725,0
+10593,Clara Fernandez,SPAIN,,,0,0,0
+10731,Luis Gomez,SPAIN,,,0,0,0
+10784,Vicente Ruiz,SPAIN,,,0,0,2
+10871,Alicia Gomez,SPAIN,,93300385,5,82445,0
+10908,Isabel Moreno,SPAIN,,,0,0,0
+2509,Roberto Paul Martinez,USA,exist,93300050,2,3550,2
+2540,Pedro Morales,USA,,,0,0,0
+2938,Camila Sanchez,USA,,,0,0,0
+3617,Sofia Gomez,USA,exist,93300019,1,14350,1
+3728,Lucas Lee Oliveira,USA,exist,93300066,2,16000,2
+3745,Claudia Sanchez,USA,,,0,0,0
+3756,Camila Vargas,USA,,,0,0,0
+3758,Miguel Vargas,USA,,,0,0,0
+3759,Thiago MartinsBeatriz,USA,exist,93300104,3,36750,2
+3765,Pedro Rocha Romero,USA,exist,93300068,2,31000,1
+3774,Ana Leandro Fernandes,USA,exist,93300069,2,6750,2
+3814,Sofia Fernandez,USA,exist,93300027,1,14750,1
+3823,Pedro Rocha,USA,exist,93300165,4,9500,3
+3845,Valentina Lima,USA,exist,93300097,3,35750,2
+3847,Juan Lee Castillo,USA,,,0,0,0
+3849,Claudia Martins,USA,exist,93300102,3,34500,1
+3874,Miguel Lopez,USA,,,0,0,0
+3896,Valeria Herrera,USA,,,0,0,0
+3915,Joaquin Torres,USA,,,0,0,0
+3965,Valentina Romero,USA,exist,93300016,1,15500,1
+4714,Pedro Martinez,USA,,,0,0,0
+4718,Felipe Carlos Rocha,USA,exist,93300098,3,37250,2
+4720,Lucia Ramirez,USA,,,0,0,0
+4729,Valeria Fernandez,USA,,,0,0,0
+4731,JoAPSo Silva,USA,exist,93300107,3,39000,2
+4734,Joaquin Castillo,USA,,,0,0,0
+4736,Juliana Jean Ribeiro,USA,exist,93300101,3,7700,2
+4758,Petricia Lucas Santos,USA,exist,93300099,3,35500,2
+4786,Claudia Diaz,USA,exist,93300166,4,47250,3
+4794,Ana Lima Pedro,USA,exist,93300100,3,38500,2
+4814,Rafael Costa,USA,exist,93300105,3,8100,2
+4836,Lucia Romero,USA,,,0,0,0
+4903,Juliana Ribeiro,USA,exist,93300164,4,48000,3
+5219,Alejandra Lopez,USA,,,0,0,0
+5612,Miguel Torres,USA,,,0,0,0
+5732,Valentina Vargas,USA,,,0,0,0
+5746,Ana Fernandes,USA,exist,93300067,2,32000,2
+5824,Felipe Michel Costa,USA,exist,93300154,4,44500,3
+5910,Mariana Diaz,USA,,,0,0,0
+5937,Joaquin Fernandez,USA,,,0,0,0
+6014,Martina Morales,USA,exist,93300018,1,2500,1
+6037,Miguel Martinez,USA,,,0,0,0
+6837,Fernando Diaz,USA,,,0,0,0
+6849,Pedro Gomez Romero,USA,exist,93300025,1,2300,1
+7002,Fernando Michael Gomez,USA,exist,93300391,5,46000,4
+7006,Luiz Pereira Gomez,USA,exist,93300110,3,4300,3
+7010,Ana Mateo Gomez,USA,exist,93300170,4,40750,3
+7014,RafaelPocha Gonzalez,USA,exist,93300111,3,7400,3
+7018,Felipe Hugo Ramos,USA,exist,93300172,4,42250,3
+7019,Emilio Herrera,USA,exist,93300030,1,11000,1
+7022,Lucia Gonzalez Rios,USA,exist,93300173,4,42500,3
+7026,Victor Perez,USA,exist,93300112,3,36000,2
+7030,Martina Lee Gonzalez,USA,exist,93300175,4,8400,3
+7034,Juliana Martinez Juan,USA,exist,93300176,4,33750,3
+7038,Marina Torres,USA,exist,93300178,4,43500,3
+7042,Fernando Iker Costa,USA,exist,93300179,4,7350,3
+7046,Matias Torres Gomez,USA,exist,93300180,4,39000,3
+7050,Marcos Rocha,USA,exist,93300182,4,7800,3
+7054,Julio Fernandes,USA,exist,93300183,4,8500,3
+7058,Victor Oliveira Gomez,USA,exist,93300185,4,39000,3
+7062,Carlos Beatriz Torres,USA,exist,93300186,4,43500,3
+7066,Fernando Lee Gomez,USA,exist,93300187,4,36750,3
+7070,Mariana Mateo Costa,USA,exist,93300189,4,8700,3
+7074,Juliana Torres,USA,exist,93300190,4,36750,3
+7078,Marcos Gomez Romero,USA,exist,93300192,4,43500,3
+7082,Fernando Silva,USA,exist,93300193,4,7350,3
+7086,Matias Fernandez,USA,exist,93300194,4,39000,3
+7090,Marcos Perez Romero,USA,exist,93300196,4,39000,3
+7094,Julio Gomez Silva,USA,exist,93300197,4,42500,3
+7312,Juan Sanchez,USA,,,0,0,0
+7510,Laura Diaz,USA,,93300047,2,2450,2
+7817,Pedro Castillo,USA,,,0,0,0
+7954,Roberto Diaz,USA,exist,93300023,1,2600,1
+8002,Fernando John Gomez,USA,exist,93300405,5,9200,4
+8006,Luiz Pereira,USA,exist,93300113,3,21500,3
+8010,Ana Gomez,USA,exist,93300202,4,40750,3
+8014,Rafael Gonzalez,USA,exist,93300116,3,7400,3
+8018,Felipe Ramos,USA,exist,93300204,4,42250,3
+8022,Lucia Gonzalez,USA,exist,93300205,4,8500,3
+8026,Victor Perez Silva,USA,exist,93300118,3,36000,2
+8030,Martina Gonzalez,USA,exist,93300208,4,8400,3
+8034,Juliana Martinez,USA,exist,93300210,4,33750,3
+8038,Marina Lee Torres,USA,exist,93300212,4,8700,3
+8042,Fernando Alejandro Costa,USA,exist,93300214,4,36750,3
+8046,Matias Gomez,USA,exist,93300215,4,39000,3
+8050,Marcos Fernandez Rocha,USA,exist,93300217,4,39000,3
+8054,Julio Fernandes Salvador,USA,exist,93300219,4,42500,3
+8058,Victor Oliveira,USA,exist,93300221,4,7800,3
+8062,Carlos Torres,USA,exist,93300223,4,43500,3
+8066,Fernando William Gomez,USA,exist,93300225,4,36750,3
+8070,Mariana Costa,USA,exist,93300228,4,43500,3
+8074,Juliana Juan Torres,USA,exist,93300229,4,36750,3
+8078,Marcos Gomez,USA,exist,93300232,4,8700,3
+8082,Fernando Silva Pedro,USA,exist,93300233,4,36750,3
+8086,Matias M Fernandez,USA,exist,93300235,4,39000,3
+8090,Marcos Perez,USA,exist,93300237,4,39000,3
+8094,Julio Gomez Pedro,USA,exist,93300239,4,42500,3
+8098,Renato Santos,USA,exist,93300241,4,39000,3
+8102,Victor Ramirez,USA,exist,93300428,5,8900,4
+8106,Julian Ortega,USA,exist,93300121,3,32500,2
+8110,Diego Sanchez,USA,exist,93300122,3,35000,3
+8114,Esteban Romero,USA,exist,93300432,5,43500,4
+8118,Francisco Lee Ruiz,USA,exist,93300123,3,36000,2
+8122,Jorge Sanchez,USA,exist,93300248,4,38000,3
+8126,Oscar Ramirez,USA,exist,93300124,3,33500,2
+8130,Felipe Gonzalez,USA,exist,93300125,3,37000,2
+8134,Adriana John Martinez,USA,exist,93300252,4,35500,3
+8138,Mariana Torres Ruiz,USA,exist,93300439,5,43500,4
+8142,Martina Sanchez,USA,exist,93300255,4,7300,3
+8146,Roberto Pedro Gomez,USA,exist,93300126,3,35500,2
+8150,Julio Fernandez,USA,exist,93300443,5,43000,4
+8154,David Gomez,USA,exist,93300259,4,36500,3
+8162,Valeria Juan Gomez,USA,exist,93300262,4,37500,3
+8166,Manuel Sanchez,USA,exist,93300263,4,38000,3
+8170,Roberto Torres,USA,exist,93300451,5,43500,4
+8174,Julian Ramirez,USA,exist,93300453,5,7800,4
+8178,David Sanchez,USA,exist,93300266,4,7600,3
+8182,Natalia Gonzalez,USA,exist,93300268,4,7800,3
+8186,Ricardo Garcia,USA,exist,93300458,5,7900,4
+8190,David Gonzalez,USA,exist,93300460,5,38500,4
+8194,Leonardo Ramirez,USA,exist,93300272,4,37000,3
+8198,Julio Gomez,USA,exist,93300463,5,37500,4
+8204,Enrique Perez,USA,exist,93300127,3,7100,2
+8208,Daniel Fernando Gomez,USA,exist,93300466,5,39000,4
+8212,Esteban Lopez,USA,exist,93300128,3,7000,2
+8216,Julian Mendoza,USA,exist,93300129,3,37000,2
+8220,Roberto Sanchez,USA,exist,93300469,5,38000,4
+8224,Miguel Ruiz,USA,exist,93300130,3,36500,2
+8228,Esteban Ruiz,USA,exist,93300131,3,35500,2
+8232,Patricia Lopez,USA,exist,93300472,5,7500,4
+8236,Carla Costa,USA,exist,93300132,3,7200,2
+8240,Marcela Ruiz,USA,exist,93300133,3,7400,2
+8244,Daniela Mendoza,USA,exist,93300475,5,36500,4
+8248,Patricia Pereira,USA,exist,93300289,4,37500,3
+8252,David Lee Silva,USA,exist,93300290,4,36500,3
+8256,Daniel Gomez,USA,exist,93300134,3,37000,2
+8260,Antonio Ruiz Fernando,USA,exist,93300293,4,37000,3
+8264,Leonardo Gomez,USA,exist,93300135,3,36000,2
+8268,Daniela Costa Ruiz,USA,exist,93300294,4,37500,3
+8272,David Beatriz Ruiz,USA,exist,93300295,4,36500,3
+8276,Fernando Nicole Gomez,USA,exist,93300296,4,7400,3
+8280,Francisco Mendoza,USA,exist,93300297,4,36500,3
+8284,Roberto Ruiz,USA,exist,93300298,4,7400,3
+8288,Daniel Beatriz Silva,USA,exist,93300299,4,36000,3
+8292,David Silva,USA,exist,93300300,4,7300,3
+8304,Valentina Gomez,USA,exist,93300136,3,36500,2
+8308,Emilia Mendoza,USA,exist,93300137,3,7400,2
+8312,Adriana Gomez,USA,exist,93300504,5,39000,4
+8316,Daniela Pereira,USA,exist,93300138,3,35500,2
+8320,Lucia Silva,USA,exist,93300139,3,37500,2
+8324,Sofia Valeria Martinez,USA,exist,93300507,5,7300,4
+8328,Oscar Silva Salvador,USA,exist,93300140,3,37000,2
+8332,Daniel Gonzalez,USA,exist,93300313,4,7500,3
+8336,Estela Costa,USA,exist,93300314,4,36000,3
+8340,Renata Torres,USA,exist,93300315,4,7400,3
+8344,Esteban Gael Ruiz,USA,exist,93300316,4,37000,3
+8348,Lucia Martinez Rios,USA,exist,93300317,4,36500,3
+8352,Oscar Pereira,USA,exist,93300318,4,7400,3
+8356,Emilia Hugo Pereira,USA,exist,93300319,4,37500,3
+8360,Juan Silva,USA,exist,93300320,4,36500,3
+8364,Estela Ruiz,USA,exist,93300321,4,7400,3
+8368,Valentina Ruiz,USA,exist,93300322,4,7500,3
+8372,Juan Martinez,USA,exist,93300323,4,37000,3
+8376,Martina Silva,USA,exist,93300324,4,36000,3
+8380,Oscar Silva Beatriz,USA,exist,93300325,4,37000,3
+8382,Emilia Gonzalez,USA,exist,93300326,4,7400,3
+8386,JulianaTorres Silva,USA,exist,93300327,4,36500,3
+8390,Camila Gomez,USA,exist,93300141,3,36000,2
+8394,Victoria Costa Torres,USA,exist,93300328,4,37000,3
+8398,Nicolas Gomez,USA,exist,93300329,4,37500,3
+8402,Adriana Lee Gonzalez,USA,exist,93300330,4,7300,3
+8406,Oscar Torres,USA,exist,93300331,4,7400,3
+8410,Martina Ruiz,USA,exist,93300332,4,36500,3
+8414,Nicolas Ruiz,USA,exist,93300333,4,37000,3
+8418,Emilia Pereira,USA,exist,93300334,4,36000,3
+8422,Oscar Ruiz,USA,exist,93300335,4,37000,3
+8426,Roberto Gomez,USA,exist,93300336,4,36500,3
+8430,Valeria Julie Ruiz,USA,exist,93300337,4,7500,3
+8434,Roberto Juan Ruiz,USA,exist,93300338,4,37000,3
+8438,Victoria Pedro Silva,USA,exist,93300339,4,7400,3
+8446,Esteban Beatriz Silva,USA,exist,93300341,4,7400,3
+8450,Roberto Martinez,USA,exist,93300342,4,36500,3
+8452,Diego Fernandez,USA,exist,93300569,5,43500,4
+8456,Andres Castro,USA,exist,93300570,5,43000,4
+8460,Vanessa Gomez,USA,exist,93300571,5,8500,4
+8464,Mario Gonzalez,USA,exist,93300572,5,43500,4
+8468,Julian Gomez Salvador,USA,exist,93300573,5,8600,4
+8472,Andrea Martinez,USA,exist,93300574,5,44000,4
+8476,Valeria Lopez Gomez,USA,exist,93300575,5,42500,4
+8480,Martina Fernandez,USA,exist,93300576,5,43500,4
+8484,Jorge Gonzalez,USA,exist,93300577,5,43000,4
+8488,Oscar Martinez Salvador,USA,exist,93300578,5,44000,4
+8492,Marcela Gomez Salvador,USA,exist,93300579,5,8700,4
+8496,Natalia Fernandez,USA,exist,93300580,5,44000,4
+8500,Diego Torres,USA,exist,93300581,5,8700,4
+8502,Julian Torres Alejandro,USA,exist,93300732,6,47500,5
+8506,Laura Martinez Michael,USA,exist,93300733,6,48000,5
+8510,Andrea Torres,USA,exist,93300734,6,47000,5
+8514,Oscar Silva Gonzalez,USA,exist,93300735,6,47500,5
+8518,Juan Gomez,USA,exist,93300736,6,48000,5
+8522,Diego Beatriz Silva,USA,exist,93300737,6,9400,5
+8526,Marcelo Castro,USA,exist,93300738,6,46500,5
+8530,Andrea Gomez,USA,exist,93300739,6,46000,5
+8534,Oscar Martinez,USA,exist,93300740,6,9400,5
+8538,Laura Silva,USA,exist,93300741,6,9300,5
+8542,Natalia Martinez,USA,exist,93300742,6,9200,5
+8546,Diego Castro,USA,exist,93300743,6,47000,5
+8550,Oscar Silva,USA,exist,93300744,6,46000,5
+8552,Jose Martinez,USA,exist,93300343,4,7400,3
+8556,Raul Gonzalez,USA,exist,93300344,4,36500,3
+8560,Carla Julie Ruiz,USA,exist,93300345,4,7100,3
+8564,Adriana Juan Gonzalez,USA,exist,93300346,4,7200,3
+8568,Veronica Ruiz,USA,exist,93300347,4,7100,3
+8572,Jose Gomez,USA,exist,93300348,4,7400,3
+8576,Elena Pedro Gonzalez,USA,exist,93300349,4,7300,3
+8580,Carla Martinez ,USA,exist,93300350,4,35500,3
+8584,Raul Martinez,USA,exist,93300351,4,7200,3
+8588,Elena Lee Torres,USA,exist,93300352,4,7100,3
+8592,Jose Ruiz,USA,exist,93300353,4,7400,3
+8596,Adriana Lee Martinez,USA,exist,93300354,4,36500,3
+8600,Elena Castro,USA,exist,93300355,4,36000,3
+8602,Laura Gomez Silva ,USA,exist,93300607,5,41500,4
+8606,Carla Gonzalez,USA,exist,93300608,5,42500,4
+8610,Veronica Juan Ruiz,USA,exist,93300609,5,41000,4
+8614,Monica Ruiz,USA,exist,93300610,5,41500,4
+8618,Leonardo Gonzalez,USA,exist,93300611,5,8400,4
+8622,Pedro Gomez,USA,exist,93300612,5,8500,4
+8630,Luis Gonzalez,USA,exist,93300614,5,41500,4
+8634,Carlos Antonio Ruiz,USA,exist,93300615,5,42000,4
+8638,Monica Silva,USA,exist,93300616,5,8200,4
+8642,Adriana Gonzalez,USA,exist,93300617,5,41500,4
+8646,Javier Gonzalez,USA,exist,93300618,5,8400,4
+8650,Elena Gonzalez,USA,exist,93300619,5,8300,4
+8654,Laura Gonzalez,USA,exist,93300620,5,41000,4
+8658,Carolina Martinez,USA,exist,93300621,5,41500,4
+8662,Santiago Gonzalez,USA,exist,93300622,5,41000,4
+8666,Jose Torres,USA,exist,93300623,5,41500,4
+8670,Esteban Gonzalez,USA,exist,93300624,5,8200,4
+8674,Laura Juan Torres,USA,exist,93300625,5,8300,4
+8682,Silvia Martinez,USA,exist,93300627,5,41500,4
+8687,Veronica Silva,USA,exist,93300632,5,35000,4
+8691,Daniela Leandro Ramirez,USA,exist,93300358,4,6700,3
+8695,Carolina Ortega,USA,exist,93300634,5,7100,4
+8699,Adriana Lopez,USA,exist,93300636,5,34500,4
+8703,Elena Fernandez,USA,exist,93300360,4,34000,3
+8707,Silvia Morales,USA,exist,93300638,5,35000,4
+8711,Laura Ruiz,USA,exist,93300640,5,7200,4
+8715,Daniela Ramirez,USA,exist,93300362,4,34500,3
+8719,Jessica Costa,USA,exist,93300643,5,6800,4
+8723,Laura Jimenez,USA,exist,93300363,4,35500,3
+8727,Daniela Fernandez,USA,exist,93300646,5,34500,4
+8731,Adriana Morales,USA,exist,93300364,4,6800,3
+8735,Patricia Ruiz Torres,USA,exist,93300649,5,36000,4
+8739,Jessica Gomez,USA,exist,93300365,4,33500,3
+8743,Carolina Beatriz Gomez,USA,exist,93300652,5,6900,4
+8747,Natalia Mateo Ruiz,USA,exist,93300366,4,34000,3
+8755,Daniela Costa,USA,exist,93300367,4,6700,3
+8759,Veronica omez Silva,USA,exist,93300658,5,36000,4
+8773,Julio Diaz Sanchez,USA,exist,93300659,5,7500,3
+8777,Antonio Lopez Gomez,USA,exist,93300811,6,7400,4
+8781,Raul Ramirez,USA,exist,93300661,5,7200,3
+8785,Juliana Gomez,USA,exist,93300813,6,37000,4
+8789,Adriana Sanchez,USA,exist,93300815,6,36500,4
+8793,Daniela Ruiz,USA,exist,93300663,5,37000,3
+8797,Patricia Martinez,USA,exist,93300817,6,36000,4
+8801,Antonio Sanchez,USA,exist,93300665,5,36500,3
+8805,Carla Sanchez,USA,exist,93300819,6,37000,4
+8809,Julio Gonzalez,USA,exist,93300821,6,37500,4
+8813,Antonio Ruiz,USA,exist,93300667,5,7200,3
+8817,Juliana Sanchez,USA,exist,93300823,6,7400,4
+8821,Antonio Lopez Lee,USA,exist,93300669,5,36500,3
+8825,Patricia Ruiz,USA,exist,93300825,6,37000,4
+8829,Julio Ruiz,USA,exist,93300827,6,37500,4
+8833,Carla Lopez,USA,exist,93300671,5,36000,3
+8837,Antonio Morales,USA,exist,93300829,6,37000,4
+8841,Carla Lee Ruiz,USA,exist,93300673,5,7300,3
+8845,Elena Morales,USA,exist,93300831,6,37000,4
+8849,Francisco Vargas,USA,exist,93300675,5,39500,4
+8857,Ricardo Sanchez,USA,exist,93300677,5,39000,3
+8861,Victor Gomez,USA,exist,93300370,4,37500,3
+8865,Paola Martinez,USA,exist,93300837,6,7600,4
+8869,Julio Sanchez,USA,exist,93300681,5,7400,4
+8873,Francisco Jimenez,USA,exist,93300839,6,7300,4
+8877,Roberto Gonzalez,USA,exist,93300840,6,37000,4
+8881,Daniel Ruiz,USA,exist,93300841,6,37500,3
+8885,Raul Sanchez,USA,exist,93300688,5,38000,4
+8889,Felipe Gomez,USA,exist,93300843,6,7400,4
+8893,Julian Lopez,USA,exist,93300691,5,36500,4
+8897,Victor Martinez,USA,exist,93300845,6,37500,4
+8901,Francisco Michael Ruiz,USA,exist,93300694,5,37000,4
+8905,Daniela Silva,USA,exist,93300847,6,7300,4
+8909,Ricardo Martinez,USA,exist,93300697,5,38000,4
+8913,Felipe Sanchez,USA,exist,93300849,6,37000,4
+8917,Victoria Jimenez,USA,exist,93300700,5,7300,4
+8921,Francisco Gomez,USA,exist,93300851,6,7500,4
+8925,Daniela Martinez,USA,exist,93300703,5,37000,4
+8929,Julian Jimenez,USA,exist,93300853,6,36500,4
+8933,Felipe Lopez,USA,exist,93300706,5,7600,4
+8961,James Smith,USA,,,0,0,0
+9138,Emily Johnson,USA,exist,,0,0,0
+9315,Michael Williams,USA,,,0,0,0
+9492,Jessica Brown,USA,,93300003,1,19910,1
+9669,David Jones,USA,,,0,0,0
+9732,Antonio Lopez,USA,,,0,0,0
+9846,Sarah Miller,USA,,,0,0,0
+10023,Robert Davis,USA,exist,93300004,1,12280,0
+10200,Ashley Wilson,USA,,,0,0,2
+11035,John Anderson,USA,,,0,0,0
+11085,Christopher Taylor,USA,,,0,0,0
+11262,Amanda Clark,USA,,,0,0,0
+11328,Daniel White,USA,,93300041,2,88825,0
+11749,Mia Lewis,USA,,93300077,3,66280,0
+12004,Sophia Walker,USA,,93300149,4,18129,0
+12374,Isabella Young,USA,,93300386,5,74935,0
+12593,Joshua King,USA,,,0,0,2
+12685,Emma Scott,USA,,93300010,1,15678,0
+12843,Ryan Adams,USA,,,0,0,0
+12956,Charlotte Nelson,USA,,,0,0,0
+13078,Brandon Carter,USA,,93300042,2,89615,0
+13291,Lily Mitchell,USA,,,0,0,1
+13406,Nathan Perez,USA,,,0,0,0
+13579,Grace Roberts,USA,,93300078,3,83910,0
+13742,Benjamin Turner,USA,,,0,0,0
+13868,Zoe Phillips,USA,,,0,0,0
+14055,William Collins,USA,,93300150,4,89725,3
+14223,Ella Murphy,USA,,,0,0,0
+14392,James Brown,USA,,93300387,5,61740,0
+14680,Alexander Green,USA,,93300011,1,95135,2
+14839,Emily Richardson,USA,,,0,0,0
+14952,Thomas Morgan,USA,,93300043,2,71780,0
+15034,Natalie Baker,USA,,,0,0,1
+15189,Ethan Brooks,USA,,93300079,3,16895,0
+15324,Hannah Gray,USA,,,0,0,0
+15467,Lucas Hughes,USA,,93300151,4,15678,0
+15678,Chloe Barnes,USA,,,0,0,0
+15823,Jack Wilson,USA,,93300388,5,18429,3
+15984,Mia Sanders,USA,,,0,0,0
+16145,Samuel Price,USA,,93300012,1,82715,0
+16297,Scarlett Wood,USA,,,0,0,0
+16408,Henry James,USA,,93300044,2,61780,2
+16579,Aurora Cox,USA,,,0,0,0
+16731,Owen Campbell,USA,,93300080,3,89615,0
+16842,Aria Morris,USA,,93300152,4,73910,1
+17096,Caleb Stewart,USA,,,0,0,0
+17245,Evelyn Rivera,USA,,93300389,5,19124,0
+17432,Gabriel Simmons,USA,,,0,0,0
+17594,Stella Ward,USA,,93300013,1,12478,0
+17783,Logan Hughes,USA,,93300045,2,67895,3
+17942,Alice James,USA,,93300081,3,94380,0
+18065,Eli Bennett,USA,,93300153,4,84465,0
+18239,Mila Murphy,USA,,93300390,5,96725,0
+18356,Adam Rogers,USA,,93300014,1,71605,2
+18572,Nora Ward,USA,,93300046,2,19056,0

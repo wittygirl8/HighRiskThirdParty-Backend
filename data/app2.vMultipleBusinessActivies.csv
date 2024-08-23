@@ -2,14 +2,8 @@ Country,VendorName,VendorNumber,PaymentCount,PaymentAmount,InvoiceLineAmountLoca
 Brazil,Alianca Social Brasileira,9990000258,3,999,333,BRL,9990000258,Taxi Fares,CERPS Invoice,Logistics,HCP Fee for Service,12-01-2022
 Brazil,Alianca Social Brasileira,9990000258,3,999,333,BRL,9990000258,Vehicle Parking,CERPS Invoice,PaidScholarship,Other HCO Expenditure,12-05-2022
 Brazil,Alianca Social Brasileira,9990000258,3,999,333,BRL,9990000258,Vehicle Parking,Monetory TOV,PaidScholarship,Travel Expenses,09-08-2022
-USA,American Heart of Service,9990000005,1,4335,4335,USD,9990000005,Employee Training,Monetory TOV,PaidTravel Expenses,Sponsorships,09-10-2023
-Spain,Asociacian de Bienestar Integral,9990000047,1,56756,56756,EUR,9990000047,Other Travel Cost,CERPS Invoice,PaidScholarship,Gifts,29-06-2023
-Spain,Asociacian de Bienestar Social,9990000057,1,167570,167570,EUR,9990000057,Vehicle Parking,Monetory TOV,N/A,Membership Fees,15-04-2023
 Spain,Asociacian de Salud Integral,9990000200,2,14881,7440,EUR,9990000200,Postage & Couriers,CERPS Invoice,N/A,Market Research,22-05-2022
 Spain,Asociacian de Salud Integral,9990000200,2,14881,7440,EUR,9990000200,Employee Training,CERPS Invoice,Networking,Travel Expenses,03-06-2023
-Spain,Asociacian de Salud y Vida,9990000224,2,14883,7441,EUR,9990000224,Postage & Couriers,CERPS Invoice,N/A,Sponsorships,23-08-2023
-Spain,Asociacian de Salud y Vida,9990000224,2,14883,7441,EUR,9990000224,Hotel & Accomidation,CERPS Invoice,N/A,Sponsorships,19-03-2022
-Spain,Asociacian de Vida y Bienestar,9990000036,1,16755,16755,EUR,9990000036,Digital Production,Monetory TOV,N/A,HCP Fee for Service,12-03-2022
 Spain,Asociacian de Vida y Salud,9990000235,2,14950,7475,EUR,9990000235,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Market Research,03-01-2022
 Spain,Asociacian de Vida y Salud,9990000235,2,14950,7475,EUR,9990000235,Digital Production,Monetory TOV,PaidScholarship,Travel Expenses,12-11-2023
 Spain,Asociacian Esperanza para Todos,9990000210,2,17660,8830,EUR,9990000210,Postage & Couriers,CERPS Invoice,Networking,Grants & Donations,01-10-2023
@@ -18,26 +12,10 @@ Spain,Asociacian Esperanza Renaciente,9990000198,2,1765900,882950,EUR,9990000198
 Spain,Asociacian Esperanza Renaciente,9990000198,2,1765900,882950,EUR,9990000198,Employee Training,Monetory TOV,PaidTravel Expenses,Sponsorships,16-01-2022
 Spain,Asociacian Esperanza Renueva,9990000222,2,17661,8830,EUR,9990000222,Vehicle Parking,CERPS Invoice,Networking,Sponsorships,18-07-2022
 Spain,Asociacian Esperanza Renueva,9990000222,2,17661,8830,EUR,9990000222,Air Fares,CERPS Invoice,N/A,Travel Expenses,24-12-2022
-Spain,Asociacian Esperanza Viva,9990000024,1,1765400,1765400,EUR,9990000024,Digital Production,Monetory TOV,Logistics,Membership Fees,21-10-2022
-Spain,Asociacian Esperanza y Vida,9990000046,1,17656,17656,EUR,9990000046,Taxi Fares,CERPS Invoice,N/A,Training,30-03-2023
-Spain,Asociacian Futuro Salud,9990000117,1,28200,28200,EUR,9990000117,Other Travel Cost,Monetory TOV,N/A,Gifts,18-02-2023
-Spain,Asociacian Nueva Esperanza,9990000034,1,35468,35468,EUR,9990000034,Taxi Fares,CERPS Invoice,Logistics,Training,11-03-2023
-Spain,Asociacian Nuevas Oportunidades,9990000045,1,15469,15469,EUR,9990000045,Vehicle Parking,CERPS Invoice,Logistics,Entertainment,01-05-2023
-Spain,Asociacian Nuevas Perspectivas,9990000065,1,754720,754720,EUR,9990000065,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Travel Expenses,30-01-2023
-Spain,Asociacian Nuevas Vidas,9990000056,1,15470,15470,EUR,9990000056,Other Travel Cost,Monetory TOV,N/A,Gifts,27-06-2022
-Spain,Asociacian Progreso y Salud,9990000017,1,16345,16345,EUR,9990000017,Vehicle Parking,Monetory TOV,Networking,Other HCO Expenditure,18-03-2022
-Spain,Asociacian Progreso y Vida,9990000025,1,36754,36754,EUR,9990000025,Digital Production,CERPS Invoice,Networking,Membership Fees,10-12-2022
 Spain,Asociacian Salud y Futuro,9990000249,2,36200,18100,EUR,9990000249,Hotel & Accomidation,CERPS Invoice,Networking,HCP Fee for Service,22-11-2022
 Spain,Asociacian Salud y Futuro,9990000249,2,36200,18100,EUR,9990000249,Hotel & Accomidation,CERPS Invoice,N/A,Membership Fees,26-03-2023
-Spain,Asociacian Vida Plena,9990000023,1,15467,15467,EUR,9990000023,Other Travel Cost,Monetory TOV,PaidScholarship,Travel Expenses,11-07-2022
-Spain,Asociacian Vitalidad,9990000251,2,46000,23000,EUR,9990000251,Digital Production,Monetory TOV,PaidScholarship,Travel Expenses,21-02-2023
-Spain,Asociacian Vitalidad,9990000251,2,46000,23000,EUR,9990000251,Air Fares,Monetory TOV,PaidScholarship,Travel Expenses,14-08-2022
-Spain,Asociacian Viva la Vida,9990000035,1,17653,17653,EUR,9990000035,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Training,13-07-2022
 Spain,Asociacion Nueva Luz,9990000128,2,15543,7771,EUR,9990000128,Taxi Fares,CERPS Invoice,N/A,HCP Fee for Service,10-06-2022
 Spain,Asociacion Nueva Luz,9990000128,2,15543,7771,EUR,9990000128,Air Fares,Monetory TOV,PaidTravel Expenses,Gifts,10-05-2023
-Spain,Asociacion Progreso Solidario,9990000010,1,12123,12123,EUR,9990000010,Other Travel Cost,CERPS Invoice,PaidScholarship,HCP Fee for Service,21-11-2022
-Spain,Asociacion Progreso y Bienestar,9990000004,1,3234,3234,EUR,9990000004,Air Fares,CERPS Invoice,Logistics,Grants & Donations,11-12-2022
-Brazil,Associacao Nova Esperanca,9990000001,1,2340,2340,BRL,9990000001,Digital Production,CERPS Invoice,N/A,Training,10-08-2022
 USA,Bright Future Initiative,9990000260,3,53320,17773,USD,9990000260,Employee Training,Monetory TOV,PaidScholarship,Sponsorships,14-05-2023
 USA,Bright Future Initiative,9990000260,3,53320,17773,USD,9990000260,Hotel & Accomidation,CERPS Invoice,N/A,Market Research,07-05-2023
 USA,Bright Future Initiative,9990000260,3,53320,17773,USD,9990000260,Other Travel Cost,CERPS Invoice,Networking,Entertainment,03-11-2022
@@ -50,20 +28,14 @@ Brazil,Centro de Acao Humanitaria do Amazonas,9990000257,3,2210000,736666,BRL,99
 Brazil,Centro de Acao Humanitaria do Amazonas,9990000257,3,2210000,736666,BRL,9990000257,Other Travel Cost,CERPS Invoice,N/A,Market Research,07-12-2022
 Spain,Centro de Accion Social Esperanza,9990000129,2,16543,8271,EUR,9990000129,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,HCP Fee for Service,05-04-2023
 Spain,Centro de Accion Social Esperanza,9990000129,2,16543,8271,EUR,9990000129,Vehicle Parking,Monetory TOV,Logistics,Gifts,30-04-2022
-Spain,Centro de Accion Social Iberia,9990000003,1,78900,78900,EUR,9990000003,Air Fares,Monetory TOV,PaidTravel Expenses,Training,10-06-2022
 Spain,Centro de Apoyo Esperanza,9990000136,2,15234,7617,EUR,9990000136,Hotel & Accomidation,CERPS Invoice,N/A,Travel Expenses,03-06-2022
 Spain,Centro de Apoyo Esperanza,9990000136,2,15234,7617,EUR,9990000136,Digital Production,CERPS Invoice,Networking,Other HCO Expenditure,02-07-2022
 Spain,Centro de Apoyo y Esperanza,9990000127,2,14678,7339,EUR,9990000127,Employee Training,CERPS Invoice,Logistics,Membership Fees,29-10-2023
 Spain,Centro de Apoyo y Esperanza,9990000127,2,14678,7339,EUR,9990000127,Postage & Couriers,CERPS Invoice,Networking,Training,11-04-2022
-Spain,Centro de Bienestar Comunitario,9990000067,1,54572,54572,EUR,9990000067,Taxi Fares,Monetory TOV,Logistics,Grants & Donations,14-04-2023
-Spain,Centro de Bienestar Familiar,9990000102,1,34650,34650,EUR,9990000102,Air Fares,CERPS Invoice,Logistics,Entertainment,27-07-2023
-Spain,Centro de Bienestar Integral,9990000079,1,345730,345730,EUR,9990000079,Postage & Couriers,CERPS Invoice,Networking,HCP Fee for Service,01-09-2022
-Spain,Centro de Bienestar Social,9990000092,1,14574,14574,EUR,9990000092,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Market Research,13-12-2022
 Spain,Centro de Bienestar y Salud,9990000171,2,14569,7284,EUR,9990000171,Digital Production,Monetory TOV,Logistics,Market Research,02-02-2022
 Spain,Centro de Bienestar y Salud,9990000171,2,14569,7284,EUR,9990000171,Air Fares,Monetory TOV,Logistics,HCP Fee for Service,02-05-2023
 Spain,Centro de Bienestar y Vida,9990000184,2,14570,7285,EUR,9990000184,Other Travel Cost,Monetory TOV,Networking,Gifts,20-01-2023
 Spain,Centro de Bienestar y Vida,9990000184,2,14570,7285,EUR,9990000184,Air Fares,Monetory TOV,N/A,HCP Fee for Service,30-01-2023
-Brazil,Centro de ReabilitaASSapso Brasil,9990000114,1,47900,47900,BRL,9990000114,Hotel & Accomidation,Monetory TOV,Logistics,HCP Fee for Service,25-01-2023
 Spain,Centro de Rehabilitacian Esperanza,9990000143,2,14321,7160,EUR,9990000143,Hotel & Accomidation,Monetory TOV,Logistics,Sponsorships,24-04-2023
 Spain,Centro de Rehabilitacian Esperanza,9990000143,2,14321,7160,EUR,9990000143,Air Fares,CERPS Invoice,N/A,Market Research,30-05-2022
 Spain,Centro de Rehabilitacian Integral,9990000170,2,44323,22161,EUR,9990000170,Taxi Fares,Monetory TOV,PaidScholarship,Grants & Donations,13-06-2023
@@ -80,40 +52,26 @@ Spain,Centro de Rehabilitacian y Vida,9990000157,2,143220,71610,EUR,9990000157,H
 Spain,Centro de Rehabilitacian y Vida,9990000157,2,143220,71610,EUR,9990000157,Hotel & Accomidation,CERPS Invoice,N/A,Entertainment,05-04-2023
 Spain,Centro de Salud Integral,9990000144,2,14567,7283,EUR,9990000144,Air Fares,Monetory TOV,Networking,HCP Fee for Service,29-05-2022
 Spain,Centro de Salud Integral,9990000144,2,14567,7283,EUR,9990000144,Employee Training,Monetory TOV,N/A,Travel Expenses,05-05-2023
-Spain,Centro de Salud Vida,9990000115,1,24800,24800,EUR,9990000115,Employee Training,Monetory TOV,Networking,Market Research,26-05-2023
 Spain,Centro de Salud y Esperanza,9990000158,2,14568,7284,EUR,9990000158,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Market Research,04-04-2022
 Spain,Centro de Salud y Esperanza,9990000158,2,14568,7284,EUR,9990000158,Digital Production,Monetory TOV,N/A,Entertainment,16-11-2023
-Brazil,Centro Macdico Santa Maria,9990000020,1,17654,17654,BRL,9990000020,Vehicle Parking,CERPS Invoice,Networking,Gifts,01-03-2022
-Brazil,Centro Macdico Sapso Gabriel,9990000109,1,77800,77800,BRL,9990000109,Other Travel Cost,CERPS Invoice,Logistics,Gifts,06-09-2022
-Brazil,Centro Macdico Sapso Joapso,9990000042,1,17656,17656,BRL,9990000042,Vehicle Parking,Monetory TOV,PaidScholarship,HCP Fee for Service,07-03-2022
-Brazil,Centro Macdico Sapso Lucas,9990000031,1,67653,67653,BRL,9990000031,Other Travel Cost,CERPS Invoice,N/A,Travel Expenses,09-06-2023
-Brazil,Centro Macdico Sapso Marcos,9990000088,1,17661,17661,BRL,9990000088,Other Travel Cost,Monetory TOV,Networking,Training,10-08-2022
-Brazil,Centro Macdico Sapso Mateus,9990000053,1,17657,17657,BRL,9990000053,Hotel & Accomidation,Monetory TOV,PaidTravel Expenses,Sponsorships,12-11-2023
-Brazil,Centro Macdico Sapso Pedro,9990000076,1,17660,17660,BRL,9990000076,Air Fares,CERPS Invoice,PaidScholarship,HCP Fee for Service,18-09-2022
-Brazil,Centro Macdico Sapso Rafael,9990000063,1,77659,77659,BRL,9990000063,Other Travel Cost,CERPS Invoice,Logistics,Travel Expenses,10-11-2023
 Spain,Centro Macdico y Bienestar,9990000250,2,78600,39300,EUR,9990000250,Hotel & Accomidation,Monetory TOV,PaidScholarship,Sponsorships,09-03-2022
 Spain,Centro Macdico y Bienestar,9990000250,2,78600,39300,EUR,9990000250,Digital Production,Monetory TOV,PaidTravel Expenses,Training,24-06-2023
 Brazil,Clanica Boa Saaode,9990000246,2,14600,7300,BRL,9990000246,Air Fares,Monetory TOV,N/A,Gifts,15-11-2023
 Brazil,Clanica Boa Saaode,9990000246,2,14600,7300,BRL,9990000246,Digital Production,Monetory TOV,PaidScholarship,HCP Fee for Service,08-07-2023
-Brazil,Clanica Santa Maria,9990000111,1,342000,342000,BRL,9990000111,Taxi Fares,CERPS Invoice,Logistics,Other HCO Expenditure,11-03-2023
 Brazil,Clanica Sapso Benedito,9990000166,2,3345800,1672900,BRL,9990000166,Air Fares,CERPS Invoice,N/A,Gifts,26-04-2022
 Brazil,Clanica Sapso Benedito,9990000166,2,3345800,1672900,BRL,9990000166,Employee Training,CERPS Invoice,PaidScholarship,Training,21-05-2022
 Brazil,Clanica Sapso Carlos,9990000216,2,13463,6731,BRL,9990000216,Other Travel Cost,Monetory TOV,Networking,Membership Fees,17-12-2022
 Brazil,Clanica Sapso Carlos,9990000216,2,13463,6731,BRL,9990000216,Air Fares,CERPS Invoice,PaidScholarship,Entertainment,19-07-2022
-Brazil,Clanica Sapso Francisco,9990000021,1,13546,13546,BRL,9990000021,Taxi Fares,CERPS Invoice,Logistics,Travel Expenses,19-07-2023
 Brazil,Clanica Sapso Gabriel,9990000179,2,13459,6729,BRL,9990000179,Other Travel Cost,Monetory TOV,PaidTravel Expenses,HCP Fee for Service,23-08-2022
 Brazil,Clanica Sapso Gabriel,9990000179,2,13459,6729,BRL,9990000179,Digital Production,CERPS Invoice,Networking,Training,01-01-2023
 Brazil,Clanica Sapso Geraldo,9990000206,2,13462,6731,BRL,9990000206,Air Fares,Monetory TOV,PaidTravel Expenses,Entertainment,18-10-2023
 Brazil,Clanica Sapso Geraldo,9990000206,2,13462,6731,BRL,9990000206,Employee Training,CERPS Invoice,Networking,Market Research,20-07-2022
 Brazil,Clanica Sapso Joapso,9990000241,2,13600,6800,BRL,9990000241,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Membership Fees,31-08-2022
 Brazil,Clanica Sapso Joapso,9990000241,2,13600,6800,BRL,9990000241,Digital Production,CERPS Invoice,PaidTravel Expenses,Travel Expenses,15-09-2023
-Brazil,Clanica Sapso Jorge,9990000032,1,53547,53547,BRL,9990000032,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Market Research,17-12-2022
 Brazil,Clanica Sapso Josac,9990000193,2,434610,217305,BRL,9990000193,Taxi Fares,Monetory TOV,PaidScholarship,Sponsorships,22-03-2023
 Brazil,Clanica Sapso Josac,9990000193,2,434610,217305,BRL,9990000193,Air Fares,CERPS Invoice,N/A,Travel Expenses,04-12-2023
 Brazil,Clanica Sapso Judas,9990000139,2,13456,6728,BRL,9990000139,Hotel & Accomidation,Monetory TOV,PaidTravel Expenses,Other HCO Expenditure,23-10-2022
 Brazil,Clanica Sapso Judas,9990000139,2,13456,6728,BRL,9990000139,Air Fares,CERPS Invoice,PaidScholarship,Sponsorships,12-03-2022
-Brazil,Clanica Sapso Lucas,9990000043,1,13548,13548,BRL,9990000043,Taxi Fares,Monetory TOV,N/A,Gifts,24-07-2023
-Brazil,Clanica Sapso Marcos,9990000054,1,13549,13549,BRL,9990000054,Air Fares,CERPS Invoice,PaidTravel Expenses,Membership Fees,23-12-2022
 Brazil,Clanica Sapso Paulo,9990000219,2,14772,7386,BRL,9990000219,Air Fares,Monetory TOV,N/A,Travel Expenses,28-12-2023
 Brazil,Clanica Sapso Paulo,9990000219,2,14772,7386,BRL,9990000219,Postage & Couriers,CERPS Invoice,Networking,Membership Fees,06-10-2022
 Brazil,Clanica Sapso Pedro,9990000153,2,43457,21728,BRL,9990000153,Air Fares,Monetory TOV,Networking,Travel Expenses,23-03-2023
@@ -130,8 +88,6 @@ Brazil,Fundacao Oswaldo Cruz (Fiocruz),9990000125,2,13789,6894,BRL,9990000125,Ai
 Brazil,Fundacao Oswaldo Cruz (Fiocruz),9990000125,2,13789,6894,BRL,9990000125,Employee Training,Monetory TOV,PaidTravel Expenses,Market Research,28-11-2023
 Brazil,Fundacao Vida Verde,9990000121,2,23090,11545,BRL,9990000121,Hotel & Accomidation,Monetory TOV,N/A,Membership Fees,26-08-2022
 Brazil,Fundacao Vida Verde,9990000121,2,23090,11545,BRL,9990000121,Postage & Couriers,Monetory TOV,PaidScholarship,Sponsorships,03-04-2023
-Spain,Fundacian Apoyo Vital,9990000223,2,378970,189485,EUR,9990000223,Other Travel Cost,Monetory TOV,PaidScholarship,Grants & Donations,01-06-2022
-Spain,Fundacian Apoyo Vital,9990000223,2,378970,189485,EUR,9990000223,Hotel & Accomidation,Monetory TOV,Logistics,Grants & Donations,04-06-2023
 Spain,Fundacian Apoyo y Salud,9990000234,2,17950,8975,EUR,9990000234,Taxi Fares,CERPS Invoice,Logistics,Other HCO Expenditure,10-10-2022
 Spain,Fundacian Apoyo y Salud,9990000234,2,17950,8975,EUR,9990000234,Taxi Fares,Monetory TOV,PaidScholarship,Travel Expenses,23-05-2022
 Spain,Fundacian Bienestar Integral,9990000146,2,45987,22993,EUR,9990000146,Hotel & Accomidation,CERPS Invoice,PaidScholarship,Travel Expenses,22-10-2022
@@ -140,60 +96,36 @@ Spain,Fundacian Cuidado Pleno,9990000211,2,17896,8948,EUR,9990000211,Employee Tr
 Spain,Fundacian Cuidado Pleno,9990000211,2,17896,8948,EUR,9990000211,Digital Production,CERPS Invoice,Networking,Gifts,12-05-2022
 Spain,Fundacian Cuidado Responsable,9990000199,2,17895,8947,EUR,9990000199,Vehicle Parking,CERPS Invoice,Logistics,Travel Expenses,10-04-2023
 Spain,Fundacian Cuidado Responsable,9990000199,2,17895,8947,EUR,9990000199,Taxi Fares,CERPS Invoice,Networking,Membership Fees,05-05-2022
-Spain,Fundacian Desarrollo Sustentable,9990000066,1,15992,15992,EUR,9990000066,Employee Training,Monetory TOV,PaidTravel Expenses,Gifts,16-04-2022
-Spain,Fundacian Desarrollo y Futuro,9990000078,1,15993,15993,EUR,9990000078,Other Travel Cost,Monetory TOV,PaidScholarship,Travel Expenses,25-11-2023
 Spain,Fundacian Esperanza,9990000248,2,55500,27750,EUR,9990000248,Air Fares,Monetory TOV,N/A,Entertainment,18-12-2023
 Spain,Fundacian Esperanza,9990000248,2,55500,27750,EUR,9990000248,Vehicle Parking,Monetory TOV,Logistics,Market Research,25-05-2023
-Spain,Fundacian Futuro para Todos,9990000101,1,16050,16050,EUR,9990000101,Digital Production,CERPS Invoice,Networking,Entertainment,29-11-2023
-Spain,Fundacian Futuro y Vida,9990000091,1,15994,15994,EUR,9990000091,Digital Production,Monetory TOV,Logistics,Grants & Donations,20-06-2023
 Spain,Fundacian Integral de Salud,9990000160,2,15988,7994,EUR,9990000160,Taxi Fares,CERPS Invoice,Networking,Training,24-06-2022
 Spain,Fundacian Integral de Salud,9990000160,2,15988,7994,EUR,9990000160,Hotel & Accomidation,Monetory TOV,N/A,Grants & Donations,08-08-2022
 Spain,Fundacian Integral de Vida,9990000173,2,1598900,799450,EUR,9990000173,Hotel & Accomidation,CERPS Invoice,PaidTravel Expenses,Grants & Donations,31-07-2023
 Spain,Fundacian Integral de Vida,9990000173,2,1598900,799450,EUR,9990000173,Air Fares,Monetory TOV,PaidScholarship,Training,03-11-2023
 Spain,Fundacian Luz,9990000252,2,16900,8450,EUR,9990000252,Air Fares,Monetory TOV,PaidScholarship,HCP Fee for Service,04-04-2023
 Spain,Fundacian Luz,9990000252,2,16900,8450,EUR,9990000252,Postage & Couriers,Monetory TOV,Networking,Sponsorships,23-10-2023
-Spain,Fundacian Luz y Vida,9990000110,1,15500,15500,EUR,9990000110,Air Fares,Monetory TOV,N/A,Training,06-07-2023
-Spain,Fundacian Renueva,9990000116,1,17900,17900,EUR,9990000116,Air Fares,Monetory TOV,PaidTravel Expenses,Travel Expenses,08-08-2023
 Spain,Fundacian Salud Total,9990000142,2,1467800,733900,EUR,9990000142,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Gifts,17-02-2022
 Spain,Fundacian Salud Total,9990000142,2,1467800,733900,EUR,9990000142,Hotel & Accomidation,Monetory TOV,N/A,Grants & Donations,13-10-2023
 Spain,Fundacian Salud y Bienestar,9990000221,2,14685,7342,EUR,9990000221,Postage & Couriers,CERPS Invoice,N/A,Travel Expenses,09-04-2022
 Spain,Fundacian Salud y Bienestar,9990000221,2,14685,7342,EUR,9990000221,Digital Production,Monetory TOV,Networking,Sponsorships,23-12-2023
-Spain,Fundacian Salud y Vida,9990000156,2,14679,7339,EUR,9990000156,Vehicle Parking,Monetory TOV,PaidScholarship,HCP Fee for Service,22-09-2022
-Spain,Fundacian Salud y Vida,9990000156,2,14679,7339,EUR,9990000156,Taxi Fares,CERPS Invoice,PaidTravel Expenses,HCP Fee for Service,23-04-2022
-Spain,Fundacian Vida Activa,9990000069,1,15329,15329,EUR,9990000069,Employee Training,CERPS Invoice,Networking,Membership Fees,27-09-2023
-Spain,Fundacian Vida en Plenitud,9990000081,1,15332,15332,EUR,9990000081,Postage & Couriers,Monetory TOV,Networking,Travel Expenses,01-05-2022
 Spain,Fundacian Vida Integral,9990000186,2,45990,22995,EUR,9990000186,Vehicle Parking,CERPS Invoice,PaidScholarship,Travel Expenses,18-03-2022
 Spain,Fundacian Vida Integral,9990000186,2,45990,22995,EUR,9990000186,Hotel & Accomidation,Monetory TOV,Networking,HCP Fee for Service,08-05-2023
-Spain,Fundacian Vida Nueva,9990000016,1,14876,14876,EUR,9990000016,Other Travel Cost,CERPS Invoice,N/A,Market Research,04-06-2023
 Spain,Fundacian Vida Plena,9990000169,2,14680,7340,EUR,9990000169,Air Fares,Monetory TOV,PaidTravel Expenses,Entertainment,02-03-2022
 Spain,Fundacian Vida Plena,9990000169,2,14680,7340,EUR,9990000169,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Sponsorships,16-07-2022
 Spain,Fundacian Vida Saludable,9990000182,2,14681,7340,EUR,9990000182,Hotel & Accomidation,CERPS Invoice,N/A,Travel Expenses,22-01-2023
 Spain,Fundacian Vida Saludable,9990000182,2,14681,7340,EUR,9990000182,Air Fares,Monetory TOV,N/A,Other HCO Expenditure,21-01-2022
 Spain,Fundacian Vida Sana,9990000232,2,14790,7395,EUR,9990000232,Digital Production,Monetory TOV,Networking,Grants & Donations,27-07-2023
 Spain,Fundacian Vida Sana,9990000232,2,14790,7395,EUR,9990000232,Postage & Couriers,Monetory TOV,Logistics,Other HCO Expenditure,16-11-2023
-Spain,Fundacian Vida y Futuro,9990000104,1,55450,55450,EUR,9990000104,Postage & Couriers,CERPS Invoice,N/A,Other HCO Expenditure,20-09-2023
-Spain,Fundacian Vida y Salud,9990000094,1,15335,15335,EUR,9990000094,Air Fares,CERPS Invoice,Networking,Gifts,13-08-2022
-Spain,Fundacion Esperanza Solidaria,9990000008,1,17890,17890,EUR,9990000008,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Travel Expenses,19-08-2023
-Spain,Fundacion Esperanza y Futuro,9990000009,1,19234,19234,EUR,9990000009,Air Fares,CERPS Invoice,Logistics,Market Research,08-05-2023
 Spain,Fundacion Luz de Esperanza,9990000122,2,24509,12254,EUR,9990000122,Taxi Fares,Monetory TOV,Logistics,Travel Expenses,02-09-2023
 Spain,Fundacion Luz de Esperanza,9990000122,2,24509,12254,EUR,9990000122,Vehicle Parking,Monetory TOV,Networking,Sponsorships,08-04-2023
 Spain,Fundacion Luz y Esperanza,9990000130,2,17321,8660,EUR,9990000130,Postage & Couriers,Monetory TOV,N/A,Grants & Donations,13-12-2022
 Spain,Fundacion Luz y Esperanza,9990000130,2,17321,8660,EUR,9990000130,Other Travel Cost,Monetory TOV,PaidTravel Expenses,Other HCO Expenditure,14-08-2022
 USA,Future Health Initiative,9990000132,2,19876,9938,USD,9990000132,Postage & Couriers,CERPS Invoice,PaidScholarship,Training,09-08-2022
 USA,Future Health Initiative,9990000132,2,19876,9938,USD,9990000132,Vehicle Parking,Monetory TOV,Networking,Travel Expenses,13-05-2023
-USA,Future Wellness Foundation,9990000120,1,77800,77800,USD,9990000120,Digital Production,Monetory TOV,N/A,Travel Expenses,10-02-2023
-USA,Futures for Care,9990000050,1,17656,17656,USD,9990000050,Vehicle Parking,Monetory TOV,N/A,Gifts,14-07-2022
-USA,Futures for Health,9990000028,1,17654,17654,USD,9990000028,Hotel & Accomidation,CERPS Invoice,Networking,Gifts,03-08-2022
 USA,Futures for Health and Care,9990000203,2,87660,43830,USD,9990000203,Postage & Couriers,Monetory TOV,Logistics,Membership Fees,29-06-2023
 USA,Futures for Health and Care,9990000203,2,87660,43830,USD,9990000203,Employee Training,Monetory TOV,N/A,Market Research,11-11-2023
-USA,Futures for Health and Wellness,9990000060,1,17657,17657,USD,9990000060,Postage & Couriers,CERPS Invoice,Networking,Other HCO Expenditure,23-08-2023
 USA,Futures for Health Network,9990000227,2,17662,8831,USD,9990000227,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Training,30-10-2023
 USA,Futures for Health Network,9990000227,2,17662,8831,USD,9990000227,Hotel & Accomidation,CERPS Invoice,N/A,Market Research,15-10-2023
-USA,Futures for Wellness,9990000039,1,17655,17655,USD,9990000039,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Membership Fees,13-05-2023
-USA,Global Care Alliance,9990000108,1,15470,15470,USD,9990000108,Other Travel Cost,Monetory TOV,Logistics,Travel Expenses,21-06-2022
-USA,Global Care Foundation,9990000074,1,15331,15331,USD,9990000074,Digital Production,Monetory TOV,PaidTravel Expenses,HCP Fee for Service,09-05-2023
-USA,Global Care Initiative,9990000097,1,15337,15337,USD,9990000097,Digital Production,CERPS Invoice,Networking,Gifts,17-09-2023
-USA,Global Care Solutions,9990000086,1,453340,453340,USD,9990000086,Vehicle Parking,CERPS Invoice,PaidScholarship,Sponsorships,09-11-2023
 USA,Global Health and Care,9990000191,2,565460,282730,USD,9990000191,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Travel Expenses,17-07-2023
 USA,Global Health and Care,9990000191,2,565460,282730,USD,9990000191,Employee Training,CERPS Invoice,N/A,Sponsorships,16-09-2023
 USA,Global Health Initiative,9990000137,2,13567,6783,USD,9990000137,Vehicle Parking,Monetory TOV,N/A,Grants & Donations,01-12-2022
@@ -216,57 +148,34 @@ USA,Global Wellness Partnership,9990000174,2,36545,18272,USD,9990000174,Air Fare
 USA,Global Wellness Partnership,9990000174,2,36545,18272,USD,9990000174,Other Travel Cost,Monetory TOV,PaidScholarship,Travel Expenses,19-04-2022
 USA,Global Wellness Society,9990000225,2,16550,8275,USD,9990000225,Vehicle Parking,CERPS Invoice,N/A,Travel Expenses,07-05-2023
 USA,Global Wellness Society,9990000225,2,16550,8275,USD,9990000225,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Membership Fees,13-05-2023
-USA,Health Alliance Network,9990000105,1,15460,15460,USD,9990000105,Digital Production,Monetory TOV,PaidScholarship,Membership Fees,21-03-2023
-USA,Health and Care Alliance,9990000051,1,1789200,1789200,USD,9990000051,Taxi Fares,CERPS Invoice,PaidScholarship,Market Research,24-09-2022
-USA,Health and Care Foundation,9990000040,1,278910,278910,USD,9990000040,Digital Production,Monetory TOV,PaidTravel Expenses,Market Research,16-04-2023
 USA,Health and Care Network,9990000204,2,76549,38274,USD,9990000204,Other Travel Cost,Monetory TOV,PaidScholarship,HCP Fee for Service,02-07-2023
 USA,Health and Care Network,9990000204,2,76549,38274,USD,9990000204,Postage & Couriers,Monetory TOV,N/A,Market Research,22-11-2022
-USA,Health and Wellness Alliance,9990000061,1,17893,17893,USD,9990000061,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Entertainment,28-11-2023
-USA,Health and Wellness Foundation,9990000029,1,1789000,1789000,USD,9990000029,Postage & Couriers,Monetory TOV,N/A,HCP Fee for Service,09-11-2022
 USA,Health and Wellness Network,9990000239,2,16660,8330,USD,9990000239,Digital Production,CERPS Invoice,PaidTravel Expenses,Sponsorships,02-04-2022
 USA,Health and Wellness Network,9990000239,2,16660,8330,USD,9990000239,Employee Training,CERPS Invoice,Networking,Market Research,17-06-2022
 USA,Health and Wellness Solutions,9990000214,2,16550,8275,USD,9990000214,Hotel & Accomidation,Monetory TOV,N/A,HCP Fee for Service,23-05-2023
 USA,Health and Wellness Solutions,9990000214,2,16550,8275,USD,9990000214,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Gifts,06-05-2023
-USA,Health Care Alliance,9990000026,1,4532400,4532400,USD,9990000026,Vehicle Parking,CERPS Invoice,PaidScholarship,Market Research,04-07-2022
-USA,Health Care United,9990000037,1,153250,153250,USD,9990000037,Other Travel Cost,CERPS Invoice,Logistics,Other HCO Expenditure,10-01-2022
 USA,Health First Alliance,9990000255,2,18000,9000,USD,9990000255,Hotel & Accomidation,Monetory TOV,Logistics,HCP Fee for Service,22-02-2023
 USA,Health First Alliance,9990000255,2,18000,9000,USD,9990000255,Hotel & Accomidation,CERPS Invoice,N/A,Training,12-07-2022
-USA,Health Network Alliance,9990000048,1,15326,15326,USD,9990000048,Hotel & Accomidation,Monetory TOV,Networking,Training,25-11-2023
-USA,Health Network Foundation,9990000058,1,15327,15327,USD,9990000058,Digital Production,Monetory TOV,PaidScholarship,Entertainment,12-08-2022
-USA,Health Network Solutions,9990000082,1,15333,15333,USD,9990000082,Air Fares,Monetory TOV,N/A,Training,26-05-2022
-USA,Health Network Support,9990000070,1,15330,15330,USD,9990000070,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Membership Fees,21-12-2022
-USA,Health Solutions Group,9990000118,1,14100,14100,USD,9990000118,Vehicle Parking,CERPS Invoice,PaidScholarship,Sponsorships,30-05-2023
-USA,Hope America Foundation,9990000162,2,14877,7438,USD,9990000162,Taxi Fares,CERPS Invoice,PaidScholarship,Travel Expenses,04-12-2023
-USA,Hope America Foundation,9990000162,2,14877,7438,USD,9990000162,Taxi Fares,CERPS Invoice,Logistics,Travel Expenses,12-11-2023
 USA,Hope for a Better Future,9990000213,2,14882,7441,USD,9990000213,Hotel & Accomidation,CERPS Invoice,Networking,Travel Expenses,06-10-2022
 USA,Hope for a Better Future,9990000213,2,14882,7441,USD,9990000213,Digital Production,Monetory TOV,N/A,Membership Fees,04-04-2023
 USA,Hope for a Healthy Future,9990000201,2,14881,7440,USD,9990000201,Employee Training,CERPS Invoice,PaidTravel Expenses,Gifts,05-05-2022
 USA,Hope for a Healthy Future,9990000201,2,14881,7440,USD,9990000201,Employee Training,CERPS Invoice,PaidScholarship,Travel Expenses,09-08-2022
-USA,Hope for Tomorrow Alliance,9990000237,2,14960,7480,USD,9990000237,Vehicle Parking,CERPS Invoice,PaidScholarship,Grants & Donations,18-12-2022
-USA,Hope for Tomorrow Alliance,9990000237,2,14960,7480,USD,9990000237,Vehicle Parking,CERPS Invoice,Networking,Grants & Donations,26-02-2022
 USA,Hope for Tomorrow Foundation,9990000188,2,14879,7439,USD,9990000188,Digital Production,CERPS Invoice,PaidScholarship,Gifts,23-08-2023
 USA,Hope for Tomorrow Foundation,9990000188,2,14879,7439,USD,9990000188,Postage & Couriers,CERPS Invoice,PaidScholarship,HCP Fee for Service,03-02-2023
 USA,Hope Foundation America,9990000148,2,14876,7438,USD,9990000148,Digital Production,CERPS Invoice,PaidScholarship,Other HCO Expenditure,29-11-2022
 USA,Hope Foundation America,9990000148,2,14876,7438,USD,9990000148,Taxi Fares,Monetory TOV,Logistics,Market Research,23-03-2023
 Brazil,Hospice Santa Maria,9990000135,2,14523,7261,BRL,9990000135,Hotel & Accomidation,CERPS Invoice,Networking,Membership Fees,04-04-2023
 Brazil,Hospice Santa Maria,9990000135,2,14523,7261,BRL,9990000135,Air Fares,CERPS Invoice,Networking,HCP Fee for Service,17-10-2023
-Brazil,Hospital da Boa EsperanASSa,9990000100,1,17770,17770,BRL,9990000100,Employee Training,CERPS Invoice,PaidTravel Expenses,Travel Expenses,19-08-2022
 Brazil,Hospital da CrianASSa,9990000168,2,2476700,1238350,BRL,9990000168,Other Travel Cost,CERPS Invoice,Logistics,Travel Expenses,24-03-2022
 Brazil,Hospital da CrianASSa,9990000168,2,2476700,1238350,BRL,9990000168,Digital Production,CERPS Invoice,PaidTravel Expenses,Training,09-09-2022
-Brazil,Hospital da EsperanASSa,9990000077,1,676610,676610,BRL,9990000077,Other Travel Cost,Monetory TOV,PaidTravel Expenses,Other HCO Expenditure,16-01-2023
 Brazil,Hospital da Luz,9990000141,2,14765,7382,BRL,9990000141,Hotel & Accomidation,CERPS Invoice,PaidTravel Expenses,Gifts,10-02-2022
 Brazil,Hospital da Luz,9990000141,2,14765,7382,BRL,9990000141,Taxi Fares,Monetory TOV,PaidScholarship,HCP Fee for Service,20-12-2022
-Brazil,Hospital da RedenASSapso,9990000090,1,676620,676620,BRL,9990000090,Other Travel Cost,CERPS Invoice,N/A,Entertainment,27-09-2022
 Brazil,Hospital da Saaode,9990000181,2,14768,7384,BRL,9990000181,Air Fares,Monetory TOV,Logistics,Grants & Donations,18-01-2022
 Brazil,Hospital da Saaode,9990000181,2,14768,7384,BRL,9990000181,Taxi Fares,Monetory TOV,Networking,Membership Fees,26-07-2022
 Brazil,Hospital da Vida,9990000155,2,147660,73830,BRL,9990000155,Digital Production,CERPS Invoice,Networking,Other HCO Expenditure,29-08-2022
 Brazil,Hospital da Vida,9990000155,2,147660,73830,BRL,9990000155,Employee Training,CERPS Invoice,PaidTravel Expenses,Entertainment,07-11-2022
-Brazil,Hospital das Clanicas,9990000245,2,18900,9450,BRL,9990000245,Vehicle Parking,CERPS Invoice,N/A,HCP Fee for Service,26-01-2023
-Brazil,Hospital das Clanicas,9990000245,2,18900,9450,BRL,9990000245,Taxi Fares,Monetory TOV,Networking,HCP Fee for Service,09-11-2022
 Brazil,Hospital de Cancer de Barretos,9990000124,2,17312,8656,BRL,9990000124,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Grants & Donations,10-07-2023
 Brazil,Hospital de Cancer de Barretos,9990000124,2,17312,8656,BRL,9990000124,Other Travel Cost,Monetory TOV,Logistics,Gifts,12-03-2023
-Brazil,Hospital de Coracao de Sao Paulo,9990000007,1,12345,12345,BRL,9990000007,Digital Production,Monetory TOV,PaidScholarship,Membership Fees,11-03-2022
-Brazil,Hospital Israelita Albert Einstein,9990000006,1,16457,16457,BRL,9990000006,Air Fares,CERPS Invoice,Logistics,Entertainment,31-01-2023
 Brazil,Hospital Nossa Senhora de FA!tima,9990000152,2,1423500,711750,BRL,9990000152,Other Travel Cost,CERPS Invoice,Logistics,Membership Fees,12-05-2022
 Brazil,Hospital Nossa Senhora de FA!tima,9990000152,2,1423500,711750,BRL,9990000152,Digital Production,Monetory TOV,Logistics,Travel Expenses,08-05-2023
 Brazil,Hospital Santa Clara,9990000242,2,18900,9450,BRL,9990000242,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Grants & Donations,19-07-2023
@@ -297,110 +206,53 @@ Brazil,Hospital Sapso Lucas,9990000192,2,14239,7119,BRL,9990000192,Other Travel 
 Brazil,Hospital Sapso Lucas,9990000192,2,14239,7119,BRL,9990000192,Digital Production,Monetory TOV,Logistics,Market Research,11-02-2022
 Brazil,Hospital Sapso Luiz,9990000247,2,15200,7600,BRL,9990000247,Digital Production,Monetory TOV,PaidScholarship,Training,28-04-2022
 Brazil,Hospital Sapso Luiz,9990000247,2,15200,7600,BRL,9990000247,Postage & Couriers,CERPS Invoice,PaidScholarship,Market Research,20-12-2022
-Brazil,Hospital Sapso Marcos,9990000167,2,18766,9383,BRL,9990000167,Taxi Fares,Monetory TOV,PaidScholarship,Travel Expenses,30-01-2022
-Brazil,Hospital Sapso Marcos,9990000167,2,18766,9383,BRL,9990000167,Employee Training,CERPS Invoice,N/A,Travel Expenses,04-02-2023
 Brazil,Hospital Sapso Mateus,9990000215,2,14241,7120,BRL,9990000215,Hotel & Accomidation,CERPS Invoice,PaidScholarship,Travel Expenses,18-02-2022
 Brazil,Hospital Sapso Mateus,9990000215,2,14241,7120,BRL,9990000215,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Membership Fees,03-02-2023
 Brazil,Hospital Sapso Miguel,9990000180,2,18767,9383,BRL,9990000180,Digital Production,Monetory TOV,PaidTravel Expenses,Gifts,27-01-2023
 Brazil,Hospital Sapso Miguel,9990000180,2,18767,9383,BRL,9990000180,Vehicle Parking,Monetory TOV,N/A,HCP Fee for Service,02-10-2023
 Brazil,Hospital Sapso Pedro,9990000230,2,15890,7945,BRL,9990000230,Employee Training,Monetory TOV,Logistics,Membership Fees,19-04-2023
 Brazil,Hospital Sapso Pedro,9990000230,2,15890,7945,BRL,9990000230,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Travel Expenses,23-07-2023
-Brazil,Hospital Sapso Rafael,9990000154,2,18764,9382,BRL,9990000154,Vehicle Parking,CERPS Invoice,N/A,Other HCO Expenditure,04-01-2023
-Brazil,Hospital Sapso Rafael,9990000154,2,18764,9382,BRL,9990000154,Taxi Fares,Monetory TOV,PaidTravel Expenses,Other HCO Expenditure,05-06-2023
 Brazil,Hospital UniversitA!rio,9990000205,2,64240,32120,BRL,9990000205,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,HCP Fee for Service,20-04-2022
 Brazil,Hospital UniversitA!rio,9990000205,2,64240,32120,BRL,9990000205,Employee Training,CERPS Invoice,PaidTravel Expenses,Gifts,10-08-2023
-Brazil,Instituto Brasileiro de Cardiologia,9990000062,1,15326,15326,BRL,9990000062,Taxi Fares,Monetory TOV,Networking,Travel Expenses,27-01-2023
-Brazil,Instituto Brasileiro de Dermatologia,9990000087,1,35328,35328,BRL,9990000087,Digital Production,Monetory TOV,Logistics,Training,06-02-2022
 Brazil,Instituto Brasileiro de Neurologia,9990000220,2,16551,8275,BRL,9990000220,Vehicle Parking,Monetory TOV,PaidScholarship,Training,29-05-2022
 Brazil,Instituto Brasileiro de Neurologia,9990000220,2,16551,8275,BRL,9990000220,Digital Production,Monetory TOV,N/A,Entertainment,23-03-2022
 Brazil,Instituto Brasileiro de Oftalmologia,9990000231,2,16660,8330,BRL,9990000231,Postage & Couriers,Monetory TOV,Networking,Gifts,28-09-2022
 Brazil,Instituto Brasileiro de Oftalmologia,9990000231,2,16660,8330,BRL,9990000231,Taxi Fares,Monetory TOV,Logistics,Other HCO Expenditure,08-07-2023
-Brazil,Instituto Brasileiro de Oncologia,9990000052,1,15324,15324,BRL,9990000052,Digital Production,CERPS Invoice,N/A,Membership Fees,05-10-2022
-Brazil,Instituto Brasileiro de Saaode,9990000041,1,15323,15323,BRL,9990000041,Vehicle Parking,CERPS Invoice,N/A,Entertainment,07-08-2023
-Brazil,Instituto de CAC/ncer Sapso Paulo,9990000015,1,13234,13234,BRL,9990000015,Employee Training,Monetory TOV,PaidScholarship,Sponsorships,19-07-2023
-Brazil,Instituto de Saaode Central,9990000112,1,374000,374000,BRL,9990000112,Other Travel Cost,CERPS Invoice,Networking,Travel Expenses,21-01-2023
-Brazil,Instituto de Saaode da Mulher,9990000113,1,13500,13500,BRL,9990000113,Hotel & Accomidation,CERPS Invoice,N/A,Membership Fees,17-07-2022
-Brazil,Instituto do CoraASSapso Paulista,9990000030,1,25322,25322,BRL,9990000030,Employee Training,CERPS Invoice,N/A,Grants & Donations,09-02-2023
 Brazil,Instituto do Coracao (InCor),9990000126,2,15234,7617,BRL,9990000126,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Grants & Donations,04-06-2022
 Brazil,Instituto do Coracao (InCor),9990000126,2,15234,7617,BRL,9990000126,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Market Research,09-04-2022
-Brazil,Instituto Nacional de Cardiologia,9990000075,1,15327,15327,BRL,9990000075,Digital Production,Monetory TOV,Networking,Sponsorships,31-12-2023
-Brazil,Instituto Nacional de Oncologia,9990000098,1,15430,15430,BRL,9990000098,Other Travel Cost,CERPS Invoice,PaidScholarship,Membership Fees,03-08-2023
-Brazil,Instituto Paulista de Cardiologia,9990000033,1,17653,17653,BRL,9990000033,Digital Production,CERPS Invoice,Networking,Other HCO Expenditure,16-05-2022
-Brazil,Instituto Paulista de Endocrinologia,9990000055,1,1765700,1765700,BRL,9990000055,Air Fares,CERPS Invoice,Networking,Gifts,23-01-2022
-Brazil,Instituto Paulista de Ginecologia,9990000089,1,13553,13553,BRL,9990000089,Digital Production,CERPS Invoice,PaidScholarship,Training,23-12-2023
-Brazil,Instituto Paulista de Nefrologia,9990000044,1,37656,37656,BRL,9990000044,Hotel & Accomidation,CERPS Invoice,Logistics,Membership Fees,20-06-2022
 Brazil,Instituto Paulista de Oftalmologia,9990000196,2,66548,33274,BRL,9990000196,Other Travel Cost,Monetory TOV,Logistics,Entertainment,19-02-2023
 Brazil,Instituto Paulista de Oftalmologia,9990000196,2,66548,33274,BRL,9990000196,Postage & Couriers,Monetory TOV,PaidTravel Expenses,Membership Fees,05-08-2023
-Brazil,Instituto Paulista de Pediatria,9990000064,1,13551,13551,BRL,9990000064,Other Travel Cost,CERPS Invoice,N/A,Membership Fees,04-02-2023
-Brazil,Instituto Paulista de Saaode,9990000022,1,17654,17654,BRL,9990000022,Taxi Fares,Monetory TOV,N/A,Sponsorships,23-02-2023
-Brazil,Instituto Paulista de Urologia,9990000099,1,13650,13650,BRL,9990000099,Vehicle Parking,CERPS Invoice,N/A,Training,25-06-2022
-Brazil,Instituto Vida e Saaode,9990000019,1,15321,15321,BRL,9990000019,Air Fares,CERPS Invoice,Logistics,Gifts,09-06-2022
 USA,National Care Network,9990000256,2,16200,8100,USD,9990000256,Employee Training,Monetory TOV,N/A,Training,20-03-2023
 USA,National Care Network,9990000256,2,16200,8100,USD,9990000256,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Gifts,27-12-2022
-USA,National Health and Wellness Network,9990000014,1,17234,17234,USD,9990000014,Hotel & Accomidation,Monetory TOV,PaidTravel Expenses,Sponsorships,09-08-2022
-USA,National Health Initiative,9990000038,1,53655,53655,USD,9990000038,Taxi Fares,Monetory TOV,PaidTravel Expenses,Other HCO Expenditure,14-12-2023
-USA,National Health Network,9990000027,1,13654,13654,USD,9990000027,Air Fares,Monetory TOV,Networking,Travel Expenses,05-10-2023
-USA,National Health Organization,9990000059,1,236570,236570,USD,9990000059,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Market Research,24-11-2023
-USA,National Health Partners,9990000119,1,15400,15400,USD,9990000119,Taxi Fares,CERPS Invoice,PaidScholarship,Other HCO Expenditure,25-10-2023
-USA,National Health Service,9990000071,1,13659,13659,USD,9990000071,Air Fares,CERPS Invoice,N/A,Travel Expenses,18-11-2023
-USA,National Health Services,9990000083,1,13660,13660,USD,9990000083,Vehicle Parking,CERPS Invoice,Networking,Travel Expenses,06-10-2023
-USA,National Health Support,9990000049,1,13656,13656,USD,9990000049,Taxi Fares,Monetory TOV,Networking,Market Research,31-01-2023
 USA,National Wellness Foundation,9990000131,2,17984,8992,USD,9990000131,Digital Production,Monetory TOV,N/A,Market Research,26-08-2022
 USA,National Wellness Foundation,9990000131,2,17984,8992,USD,9990000131,Employee Training,Monetory TOV,PaidScholarship,Gifts,23-10-2023
-USA,National Wellness Initiative,9990000106,1,13760,13760,USD,9990000106,Vehicle Parking,Monetory TOV,N/A,Training,04-02-2023
-USA,Nationwide Care Network,9990000150,2,15467,7733,USD,9990000150,Vehicle Parking,Monetory TOV,N/A,Travel Expenses,26-02-2022
-USA,Nationwide Care Network,9990000150,2,15467,7733,USD,9990000150,Other Travel Cost,Monetory TOV,Networking,Travel Expenses,12-10-2023
-USA,Nationwide Health Alliance,9990000096,1,17898,17898,USD,9990000096,Digital Production,CERPS Invoice,N/A,Training,27-02-2022
 USA,Nationwide Health Foundation,9990000176,2,15469,7734,USD,9990000176,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Gifts,22-03-2023
 USA,Nationwide Health Foundation,9990000176,2,15469,7734,USD,9990000176,Hotel & Accomidation,CERPS Invoice,Networking,Sponsorships,03-05-2023
-USA,Nationwide Health Initiative,9990000107,1,17960,17960,USD,9990000107,Taxi Fares,CERPS Invoice,PaidScholarship,Training,18-04-2023
-USA,Nationwide Health Partners,9990000073,1,17896,17896,USD,9990000073,Digital Production,CERPS Invoice,Logistics,Travel Expenses,28-06-2023
-USA,Nationwide Health Support Network,9990000013,1,13789,13789,USD,9990000013,Other Travel Cost,CERPS Invoice,N/A,Market Research,31-01-2023
-USA,Nationwide Hope Foundation,9990000123,2,87000,43500,USD,9990000123,Postage & Couriers,Monetory TOV,PaidTravel Expenses,HCP Fee for Service,04-02-2023
-USA,Nationwide Hope Foundation,9990000123,2,87000,43500,USD,9990000123,Digital Production,CERPS Invoice,PaidTravel Expenses,HCP Fee for Service,05-12-2023
 USA,Nationwide Wellness Initiative,9990000190,2,15470,7735,USD,9990000190,Vehicle Parking,Monetory TOV,Networking,Travel Expenses,17-04-2023
 USA,Nationwide Wellness Initiative,9990000190,2,15470,7735,USD,9990000190,Air Fares,CERPS Invoice,N/A,Membership Fees,17-01-2022
 USA,Nationwide Wellness Network,9990000164,2,15468,7734,USD,9990000164,Taxi Fares,Monetory TOV,Networking,Gifts,25-08-2022
 USA,Nationwide Wellness Network,9990000164,2,15468,7734,USD,9990000164,Employee Training,CERPS Invoice,PaidScholarship,Travel Expenses,07-08-2023
-USA,Nationwide Wellness Partners,9990000085,1,17897,17897,USD,9990000085,Employee Training,Monetory TOV,PaidScholarship,Market Research,26-11-2023
-Brazil,Projeto Cidadania e Futuro,9990000002,1,23089,23089,BRL,9990000002,Vehicle Parking,CERPS Invoice,Logistics,Market Research,31-12-2022
-Spain,Red de Apoyo y Bienestar,9990000068,1,16759,16759,EUR,9990000068,Other Travel Cost,CERPS Invoice,Networking,Membership Fees,08-07-2023
 Spain,Red de Bienestar y Progreso,9990000172,2,17892,8946,EUR,9990000172,Vehicle Parking,Monetory TOV,PaidScholarship,Training,10-06-2023
 Spain,Red de Bienestar y Progreso,9990000172,2,17892,8946,EUR,9990000172,Digital Production,CERPS Invoice,Logistics,Other HCO Expenditure,03-07-2023
 Spain,Red de Progreso y Salud,9990000185,2,17893,8946,EUR,9990000185,Air Fares,Monetory TOV,PaidScholarship,Travel Expenses,20-08-2022
 Spain,Red de Progreso y Salud,9990000185,2,17893,8946,EUR,9990000185,Taxi Fares,Monetory TOV,N/A,Membership Fees,09-04-2022
 Spain,Red de Salud Esperanza,9990000145,2,17890,8945,EUR,9990000145,Hotel & Accomidation,Monetory TOV,PaidScholarship,HCP Fee for Service,19-08-2022
 Spain,Red de Salud Esperanza,9990000145,2,17890,8945,EUR,9990000145,Digital Production,CERPS Invoice,N/A,Sponsorships,02-03-2023
-Spain,Red de Salud Integral,9990000103,1,46850,46850,EUR,9990000103,Employee Training,CERPS Invoice,Networking,Grants & Donations,29-08-2023
-Spain,Red de Salud PAoblica,9990000093,1,16761,16761,EUR,9990000093,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Sponsorships,26-09-2022
-Spain,Red de Salud y Vida,9990000080,1,16760,16760,EUR,9990000080,Digital Production,Monetory TOV,PaidScholarship,Travel Expenses,02-01-2023
 Spain,Red de Vida y Progreso,9990000159,2,17891,8945,EUR,9990000159,Vehicle Parking,CERPS Invoice,PaidScholarship,Market Research,23-07-2022
 Spain,Red de Vida y Progreso,9990000159,2,17891,8945,EUR,9990000159,Taxi Fares,CERPS Invoice,Logistics,Training,27-03-2022
-Spain,Red Esperanza y Desarrollo,9990000011,1,16342,16342,EUR,9990000011,Other Travel Cost,Monetory TOV,Logistics,Training,21-01-2023
-USA,Unified Care Alliance,9990000202,2,16347,8173,USD,9990000202,Employee Training,CERPS Invoice,PaidTravel Expenses,Sponsorships,11-01-2023
-USA,Unified Care Alliance,9990000202,2,16347,8173,USD,9990000202,Employee Training,Monetory TOV,PaidScholarship,Sponsorships,13-01-2022
 USA,Unified Care Network,9990000163,2,36343,18171,USD,9990000163,Digital Production,CERPS Invoice,Logistics,Training,25-03-2022
 USA,Unified Care Network,9990000163,2,36343,18171,USD,9990000163,Digital Production,Monetory TOV,N/A,Other HCO Expenditure,15-04-2023
 USA,Unified Health Network,9990000254,2,36900,18450,USD,9990000254,Hotel & Accomidation,Monetory TOV,Networking,Membership Fees,19-12-2022
 USA,Unified Health Network,9990000254,2,36900,18450,USD,9990000254,Employee Training,CERPS Invoice,Networking,Travel Expenses,13-12-2023
 USA,Unified Health Partners,9990000189,2,16345,8172,USD,9990000189,Employee Training,CERPS Invoice,PaidTravel Expenses,Other HCO Expenditure,18-07-2022
 USA,Unified Health Partners,9990000189,2,16345,8172,USD,9990000189,Air Fares,Monetory TOV,N/A,Travel Expenses,14-02-2023
-USA,Unified Health Solutions,9990000149,2,16342,8171,USD,9990000149,Hotel & Accomidation,CERPS Invoice,PaidTravel Expenses,Market Research,12-06-2023
-USA,Unified Health Solutions,9990000149,2,16342,8171,USD,9990000149,Other Travel Cost,CERPS Invoice,PaidScholarship,Market Research,02-01-2022
-USA,Unified Wellness Initiative,9990000175,2,16344,8172,USD,9990000175,Taxi Fares,Monetory TOV,PaidScholarship,Entertainment,29-04-2023
-USA,Unified Wellness Initiative,9990000175,2,16344,8172,USD,9990000175,Other Travel Cost,Monetory TOV,PaidTravel Expenses,Entertainment,14-05-2022
 USA,Unified Wellness Partners,9990000238,2,16460,8230,USD,9990000238,Air Fares,CERPS Invoice,N/A,Travel Expenses,02-12-2022
 USA,Unified Wellness Partners,9990000238,2,16460,8230,USD,9990000238,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Other HCO Expenditure,07-07-2023
 USA,Unified Wellness Solutions,9990000226,2,263490,131745,USD,9990000226,Digital Production,CERPS Invoice,Logistics,Other HCO Expenditure,16-07-2022
 USA,Unified Wellness Solutions,9990000226,2,263490,131745,USD,9990000226,Vehicle Parking,Monetory TOV,Logistics,Membership Fees,20-05-2022
-USA,United Care Network,9990000018,1,1543200,1543200,USD,9990000018,Air Fares,Monetory TOV,PaidScholarship,Membership Fees,07-03-2023
 USA,United Community Aid Network,9990000259,3,34564,11521,USD,9990000259,Hotel & Accomidation,CERPS Invoice,PaidTravel Expenses,Entertainment,18-03-2023
 USA,United Community Aid Network,9990000259,3,34564,11521,USD,9990000259,Digital Production,CERPS Invoice,Logistics,Grants & Donations,01-02-2022
 USA,United Community Aid Network,9990000259,3,34564,11521,USD,9990000259,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Other HCO Expenditure,23-06-2022
-USA,United Health Care Network,9990000012,1,12456,12456,USD,9990000012,Employee Training,CERPS Invoice,Networking,Market Research,12-11-2023
-USA,United Wellness Foundation,9990000072,1,15472,15472,USD,9990000072,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Other HCO Expenditure,21-08-2022
-USA,United Wellness Initiative,9990000084,1,15473,15473,USD,9990000084,Hotel & Accomidation,CERPS Invoice,Networking,Training,19-05-2023
-USA,United Wellness Network,9990000095,1,15475,15475,USD,9990000095,Postage & Couriers,Monetory TOV,N/A,Grants & Donations,03-03-2023
 USA,Wellness Foundation of America,9990000253,2,17500,8750,USD,9990000253,Other Travel Cost,Monetory TOV,PaidScholarship,Gifts,24-09-2022
 USA,Wellness Foundation of America,9990000253,2,17500,8750,USD,9990000253,Taxi Fares,CERPS Invoice,Networking,Training,21-03-2023
 BRAZIL,Leonardo Silva Gomez,93300071,3,13248,4416,BRL,93300071,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Entertainment,18-07-2022
@@ -417,8 +269,6 @@ BRAZIL,Vinicius Santos,93300142,4,57290,14322,BRL,93300142,Postage & Couriers,Mo
 BRAZIL,Vinicius Santos,93300142,4,57290,14322,BRL,93300142,Air Fares,CERPS Invoice,PaidScholarship,Market Research,07-12-2022
 BRAZIL,Vinicius Santos,93300142,4,57290,14322,BRL,93300142,Other Travel Cost,Monetory TOV,N/A,Training,25-06-2023
 BRAZIL,Vinicius Santos,93300142,4,57290,14322,BRL,93300142,Taxi Fares,CERPS Invoice,N/A,Entertainment,10-11-2022
-BRAZIL,Rafael Mateo Costa,93300001,1,14525,14525,BRL,93300001,Other Travel Cost,Monetory TOV,Logistics,Grants & Donations,15-09-2023
-BRAZIL,Alexandre Campos,93300005,1,94615,94615,BRL,93300005,Vehicle Parking,CERPS Invoice,Networking,Training,19-01-2023
 BRAZIL,Felipe Martins,93300143,4,15678,3919,BRL,93300143,Vehicle Parking,CERPS Invoice,Logistics,Other HCO Expenditure,09-07-2023
 BRAZIL,Felipe Martins,93300143,4,15678,3919,BRL,93300143,Digital Production,CERPS Invoice,Logistics,Sponsorships,26-03-2022
 BRAZIL,Felipe Martins,93300143,4,15678,3919,BRL,93300143,Vehicle Parking,Monetory TOV,PaidScholarship,Training,30-11-2022
@@ -426,7 +276,6 @@ BRAZIL,Felipe Martins,93300143,4,15678,3919,BRL,93300143,Air Fares,CERPS Invoice
 BRAZIL,Erica Almeida,93300072,3,56170,18723,BRL,93300072,Hotel & Accomidation,CERPS Invoice,N/A,Market Research,29-08-2023
 BRAZIL,Erica Almeida,93300072,3,56170,18723,BRL,93300072,Postage & Couriers,CERPS Invoice,Logistics,Travel Expenses,29-07-2023
 BRAZIL,Erica Almeida,93300072,3,56170,18723,BRL,93300072,Vehicle Parking,Monetory TOV,Logistics,Travel Expenses,04-09-2022
-BRAZIL,Juan Castillo,93300022,1,2100,2100,BRL,93300022,Digital Production,CERPS Invoice,Networking,Market Research,20-08-2023
 BRAZIL,Ingrid Souza,93300036,2,15876,7938,BRL,93300036,Air Fares,CERPS Invoice,N/A,Entertainment,18-10-2022
 BRAZIL,Ingrid Souza,93300036,2,15876,7938,BRL,93300036,Hotel & Accomidation,CERPS Invoice,Networking,Market Research,26-05-2023
 BRAZIL,Elena Alvarez,93300055,2,19500,9750,BRL,93300055,Postage & Couriers,Monetory TOV,N/A,HCP Fee for Service,28-10-2023
@@ -436,20 +285,16 @@ BRAZIL,Daniela Ribeiro,93300380,5,81760,16352,BRL,93300380,Other Travel Cost,Mon
 BRAZIL,Daniela Ribeiro,93300380,5,81760,16352,BRL,93300380,Other Travel Cost,Monetory TOV,Networking,Market Research,03-07-2023
 BRAZIL,Daniela Ribeiro,93300380,5,81760,16352,BRL,93300380,Air Fares,Monetory TOV,Logistics,Sponsorships,16-09-2023
 BRAZIL,Daniela Ribeiro,93300380,5,81760,16352,BRL,93300380,Vehicle Parking,CERPS Invoice,Logistics,Gifts,18-10-2022
-BRAZIL,Matheus Silva,93300006,1,89470,89470,BRL,93300006,Taxi Fares,Monetory TOV,Networking,Travel Expenses,20-10-2023
-BRAZIL,Sofia Vargas,93300031,1,14500,14500,BRL,93300031,Postage & Couriers,CERPS Invoice,PaidScholarship,Membership Fees,23-09-2023
 BRAZIL,Felipe Pereira,93300062,2,36250,18125,BRL,93300062,Air Fares,Monetory TOV,PaidScholarship,Market Research,11-10-2023
 BRAZIL,Felipe Pereira,93300062,2,36250,18125,BRL,93300062,Taxi Fares,Monetory TOV,Logistics,Other HCO Expenditure,20-06-2022
 BRAZIL,Alan Ferreira,93300037,2,71760,35880,BRL,93300037,Other Travel Cost,CERPS Invoice,PaidScholarship,Gifts,12-08-2022
 BRAZIL,Alan Ferreira,93300037,2,71760,35880,BRL,93300037,Hotel & Accomidation,CERPS Invoice,N/A,Entertainment,18-05-2022
-BRAZIL,Emilio Castillo,93300021,1,13500,13500,BRL,93300021,Vehicle Parking,Monetory TOV,Logistics,Other HCO Expenditure,06-03-2022
 BRAZIL,Daniel Ortiz,93300049,2,4200,2100,BRL,93300049,Other Travel Cost,CERPS Invoice,N/A,Grants & Donations,30-03-2022
 BRAZIL,Daniel Ortiz,93300049,2,4200,2100,BRL,93300049,Hotel & Accomidation,Monetory TOV,PaidScholarship,Travel Expenses,20-07-2022
 BRAZIL,Ana Clara Souza,93300144,4,68820,17205,BRL,93300144,Postage & Couriers,CERPS Invoice,N/A,Entertainment,19-05-2022
 BRAZIL,Ana Clara Souza,93300144,4,68820,17205,BRL,93300144,Employee Training,CERPS Invoice,Logistics,Travel Expenses,26-01-2023
 BRAZIL,Ana Clara Souza,93300144,4,68820,17205,BRL,93300144,Taxi Fares,Monetory TOV,PaidTravel Expenses,Other HCO Expenditure,19-10-2022
 BRAZIL,Ana Clara Souza,93300144,4,68820,17205,BRL,93300144,Employee Training,Monetory TOV,Logistics,Membership Fees,25-07-2022
-BRAZIL,Laura Martinez,93300029,1,14000,14000,BRL,93300029,Hotel & Accomidation,Monetory TOV,PaidTravel Expenses,HCP Fee for Service,25-12-2023
 BRAZIL,JoAPSo Mateo Silva,93300065,2,31000,15500,BRL,93300065,Air Fares,Monetory TOV,PaidTravel Expenses,Market Research,20-07-2022
 BRAZIL,JoAPSo Mateo Silva,93300065,2,31000,15500,BRL,93300065,Digital Production,Monetory TOV,PaidScholarship,Sponsorships,26-07-2022
 BRAZIL,Sofia Lee Fernandes,93300061,2,32500,16250,BRL,93300061,Employee Training,CERPS Invoice,PaidTravel Expenses,Gifts,29-05-2023
@@ -457,8 +302,6 @@ BRAZIL,Sofia Lee Fernandes,93300061,2,32500,16250,BRL,93300061,Hotel & Accomidat
 BRAZIL,Sofia Garcia,93300086,3,37500,12500,BRL,93300086,Hotel & Accomidation,CERPS Invoice,PaidTravel Expenses,Gifts,13-11-2022
 BRAZIL,Sofia Garcia,93300086,3,37500,12500,BRL,93300086,Vehicle Parking,Monetory TOV,Networking,HCP Fee for Service,22-09-2022
 BRAZIL,Sofia Garcia,93300086,3,37500,12500,BRL,93300086,Digital Production,CERPS Invoice,PaidScholarship,Sponsorships,02-01-2023
-BRAZIL,Valentina Ortiz,93300051,2,20000,10000,BRL,93300051,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Travel Expenses,10-03-2022
-BRAZIL,Valentina Ortiz,93300051,2,20000,10000,BRL,93300051,Employee Training,CERPS Invoice,PaidScholarship,Travel Expenses,08-02-2022
 BRAZIL,Ana Oliveira Beatriz,93300089,3,43000,14333,BRL,93300089,Postage & Couriers,Monetory TOV,Networking,Market Research,21-08-2023
 BRAZIL,Ana Oliveira Beatriz,93300089,3,43000,14333,BRL,93300089,Postage & Couriers,Monetory TOV,N/A,Travel Expenses,23-10-2022
 BRAZIL,Ana Oliveira Beatriz,93300089,3,43000,14333,BRL,93300089,Taxi Fares,Monetory TOV,N/A,Market Research,30-04-2023
@@ -485,19 +328,14 @@ BRAZIL,Isabella Rodrigues Romero,93300167,4,7850,1962,BRL,93300167,Other Travel 
 BRAZIL,Isabella Rodrigues Romero,93300167,4,7850,1962,BRL,93300167,Postage & Couriers,Monetory TOV,Networking,HCP Fee for Service,10-08-2023
 BRAZIL,Isabella Rodrigues Romero,93300167,4,7850,1962,BRL,93300167,Digital Production,Monetory TOV,Networking,Grants & Donations,04-02-2022
 BRAZIL,Isabella Rodrigues Romero,93300167,4,7850,1962,BRL,93300167,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Travel Expenses,13-03-2023
-BRAZIL,Juan Ortiz,93300017,1,9600,9600,BRL,93300017,Vehicle Parking,CERPS Invoice,Networking,Travel Expenses,17-04-2022
 BRAZIL,Thiago Mateo Martins,93300033,2,16750,8375,BRL,93300033,Taxi Fares,CERPS Invoice,N/A,Travel Expenses,21-05-2023
 BRAZIL,Thiago Mateo Martins,93300033,2,16750,8375,BRL,93300033,Other Travel Cost,Monetory TOV,PaidScholarship,Market Research,06-12-2023
-BRAZIL,Isabel Rodriguez,93300054,2,20750,10375,BRL,93300054,Other Travel Cost,Monetory TOV,Logistics,Membership Fees,28-08-2023
-BRAZIL,Isabel Rodriguez,93300054,2,20750,10375,BRL,93300054,Employee Training,Monetory TOV,Logistics,Membership Fees,19-05-2022
 BRAZIL,Pedro Souza,93300032,2,9120,4560,BRL,93300032,Postage & Couriers,CERPS Invoice,PaidScholarship,Entertainment,19-06-2022
 BRAZIL,Pedro Souza,93300032,2,9120,4560,BRL,93300032,Air Fares,Monetory TOV,PaidTravel Expenses,Grants & Donations,23-01-2023
 BRAZIL,Isabella Rodrigues,93300199,4,39250,9812,BRL,93300199,Vehicle Parking,CERPS Invoice,N/A,HCP Fee for Service,15-10-2022
 BRAZIL,Isabella Rodrigues,93300199,4,39250,9812,BRL,93300199,Digital Production,CERPS Invoice,Logistics,Travel Expenses,16-05-2022
 BRAZIL,Isabella Rodrigues,93300199,4,39250,9812,BRL,93300199,Hotel & Accomidation,CERPS Invoice,Logistics,Travel Expenses,26-03-2023
 BRAZIL,Isabella Rodrigues,93300199,4,39250,9812,BRL,93300199,Air Fares,Monetory TOV,PaidScholarship,Entertainment,06-02-2023
-BRAZIL,Maria Hernandez,93300070,2,27000,13500,BRL,93300070,Taxi Fares,Monetory TOV,PaidScholarship,Travel Expenses,18-04-2022
-BRAZIL,Maria Hernandez,93300070,2,27000,13500,BRL,93300070,Air Fares,CERPS Invoice,PaidScholarship,Travel Expenses,23-05-2022
 BRAZIL,Lucas Mateo Costa,93300114,3,36250,12083,BRL,93300114,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Sponsorships,28-01-2023
 BRAZIL,Lucas Mateo Costa,93300114,3,36250,12083,BRL,93300114,Digital Production,Monetory TOV,PaidScholarship,HCP Fee for Service,04-07-2023
 BRAZIL,Lucas Mateo Costa,93300114,3,36250,12083,BRL,93300114,Digital Production,CERPS Invoice,PaidScholarship,Grants & Donations,23-12-2023
@@ -1594,7 +1432,6 @@ SPAIN,Diego Mendoza,93300048,2,18350,9175,EUR,93300048,Vehicle Parking,CERPS Inv
 SPAIN,Diego Mendoza,93300048,2,18350,9175,EUR,93300048,Digital Production,CERPS Invoice,Logistics,Sponsorships,02-11-2022
 SPAIN,Laura Juan Martinez,93300053,2,19100,9550,EUR,93300053,Digital Production,CERPS Invoice,Networking,Training,20-03-2023
 SPAIN,Laura Juan Martinez,93300053,2,19100,9550,EUR,93300053,Vehicle Parking,CERPS Invoice,N/A,Travel Expenses,02-06-2022
-SPAIN,Lucia Fernandez,93300020,1,16000,16000,EUR,93300020,Digital Production,Monetory TOV,Networking,Grants & Donations,31-01-2023
 SPAIN,Lucia Juan Sanchez,93300058,2,19000,9500,EUR,93300058,Postage & Couriers,Monetory TOV,Networking,Travel Expenses,06-06-2023
 SPAIN,Lucia Juan Sanchez,93300058,2,19000,9500,EUR,93300058,Other Travel Cost,Monetory TOV,N/A,Other HCO Expenditure,15-11-2023
 SPAIN,Valeria Sanchez,93300059,2,18250,9125,EUR,93300059,Postage & Couriers,Monetory TOV,N/A,Travel Expenses,05-10-2022
@@ -1629,8 +1466,6 @@ SPAIN,Isabel Mateo Gomez,93300381,5,76170,15234,EUR,93300381,Taxi Fares,CERPS In
 SPAIN,Isabel Mateo Gomez,93300381,5,76170,15234,EUR,93300381,Taxi Fares,Monetory TOV,PaidTravel Expenses,Training,27-04-2023
 SPAIN,Isabel Mateo Gomez,93300381,5,76170,15234,EUR,93300381,Vehicle Parking,CERPS Invoice,Logistics,Entertainment,30-11-2023
 SPAIN,Isabel Mateo Gomez,93300381,5,76170,15234,EUR,93300381,Vehicle Parking,CERPS Invoice,PaidScholarship,Gifts,02-09-2023
-SPAIN,Sofia Pedro Garcia,93300026,1,2500,2500,EUR,93300026,Postage & Couriers,Monetory TOV,PaidScholarship,HCP Fee for Service,01-10-2022
-SPAIN,Marta Morales,93300007,1,18923,18923,EUR,93300007,Taxi Fares,Monetory TOV,PaidScholarship,Travel Expenses,28-06-2022
 SPAIN,Sergio Romero,93300074,3,56280,18760,EUR,93300074,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Training,18-10-2023
 SPAIN,Sergio Romero,93300074,3,56280,18760,EUR,93300074,Hotel & Accomidation,CERPS Invoice,N/A,Membership Fees,05-05-2023
 SPAIN,Sergio Romero,93300074,3,56280,18760,EUR,93300074,Air Fares,Monetory TOV,PaidScholarship,Membership Fees,02-06-2022
@@ -1788,7 +1623,6 @@ SPAIN,Raquel Ramirez,93300146,4,78920,19730,EUR,93300146,Vehicle Parking,Monetor
 SPAIN,Raquel Ramirez,93300146,4,78920,19730,EUR,93300146,Digital Production,Monetory TOV,Logistics,Sponsorships,20-06-2023
 SPAIN,Raquel Ramirez,93300146,4,78920,19730,EUR,93300146,Other Travel Cost,Monetory TOV,Logistics,Travel Expenses,21-12-2023
 SPAIN,Raquel Ramirez,93300146,4,78920,19730,EUR,93300146,Taxi Fares,Monetory TOV,PaidScholarship,Entertainment,29-04-2023
-SPAIN,Sofia Lopez,93300024,1,14250,14250,EUR,93300024,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Sponsorships,26-06-2022
 SPAIN,Carlos Morales,93300200,4,43250,10812,EUR,93300200,Postage & Couriers,CERPS Invoice,PaidScholarship,Grants & Donations,03-07-2022
 SPAIN,Carlos Morales,93300200,4,43250,10812,EUR,93300200,Air Fares,CERPS Invoice,PaidTravel Expenses,Training,27-06-2022
 SPAIN,Carlos Morales,93300200,4,43250,10812,EUR,93300200,Hotel & Accomidation,CERPS Invoice,PaidTravel Expenses,Grants & Donations,29-03-2022
@@ -1839,7 +1673,6 @@ SPAIN,Adrian Martinez,93300413,5,47250,9450,EUR,93300413,Taxi Fares,CERPS Invoic
 SPAIN,Adrian Martinez,93300413,5,47250,9450,EUR,93300413,Employee Training,CERPS Invoice,PaidScholarship,Entertainment,30-04-2023
 SPAIN,Adrian Martinez,93300413,5,47250,9450,EUR,93300413,Air Fares,CERPS Invoice,PaidScholarship,Other HCO Expenditure,07-09-2023
 SPAIN,Adrian Martinez,93300413,5,47250,9450,EUR,93300413,Vehicle Parking,Monetory TOV,Networking,Sponsorships,11-05-2022
-SPAIN,Guillermo Lopez,93300008,1,16789,16789,EUR,93300008,Hotel & Accomidation,Monetory TOV,Networking,Sponsorships,25-04-2023
 SPAIN,Carmen Perez,93300216,4,42500,10625,EUR,93300216,Digital Production,CERPS Invoice,PaidTravel Expenses,Other HCO Expenditure,14-04-2023
 SPAIN,Carmen Perez,93300216,4,42500,10625,EUR,93300216,Employee Training,CERPS Invoice,N/A,Grants & Donations,31-05-2023
 SPAIN,Carmen Perez,93300216,4,42500,10625,EUR,93300216,Hotel & Accomidation,Monetory TOV,Networking,Gifts,15-09-2022
@@ -3018,15 +2851,11 @@ SPAIN,Marta Lopez,93300147,4,88945,22236,EUR,93300147,Other Travel Cost,Monetory
 SPAIN,Marta Lopez,93300147,4,88945,22236,EUR,93300147,Digital Production,CERPS Invoice,PaidTravel Expenses,Grants & Donations,07-02-2022
 SPAIN,Marta Lopez,93300147,4,88945,22236,EUR,93300147,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Travel Expenses,05-06-2022
 SPAIN,Marta Lopez,93300147,4,88945,22236,EUR,93300147,Hotel & Accomidation,Monetory TOV,Networking,Entertainment,10-09-2023
-SPAIN,Pablo Martinez,93300040,2,15478,7739,EUR,93300040,Other Travel Cost,CERPS Invoice,PaidScholarship,Market Research,05-06-2022
-SPAIN,Pablo Martinez,93300040,2,15478,7739,EUR,93300040,Employee Training,Monetory TOV,PaidScholarship,Market Research,18-11-2023
 SPAIN,Juan Carlos Ruiz,93300384,5,19876,3975,EUR,93300384,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Entertainment,03-01-2022
 SPAIN,Juan Carlos Ruiz,93300384,5,19876,3975,EUR,93300384,Other Travel Cost,Monetory TOV,Logistics,Training,12-02-2023
 SPAIN,Juan Carlos Ruiz,93300384,5,19876,3975,EUR,93300384,Air Fares,Monetory TOV,Logistics,Travel Expenses,27-10-2023
 SPAIN,Juan Carlos Ruiz,93300384,5,19876,3975,EUR,93300384,Vehicle Parking,CERPS Invoice,Networking,Travel Expenses,14-12-2022
 SPAIN,Juan Carlos Ruiz,93300384,5,19876,3975,EUR,93300384,Employee Training,Monetory TOV,Logistics,Sponsorships,25-08-2022
-SPAIN,Rafael Martin,93300009,1,67895,67895,EUR,93300009,Taxi Fares,Monetory TOV,Logistics,Sponsorships,04-09-2023
-SPAIN,Alejandro Garcia,93300015,1,6000,6000,EUR,93300015,Other Travel Cost,CERPS Invoice,PaidScholarship,Travel Expenses,02-12-2022
 SPAIN,Pilar Sanchez,93300076,3,62280,20760,EUR,93300076,Employee Training,Monetory TOV,Networking,Travel Expenses,21-05-2022
 SPAIN,Pilar Sanchez,93300076,3,62280,20760,EUR,93300076,Postage & Couriers,Monetory TOV,PaidScholarship,Travel Expenses,12-04-2023
 SPAIN,Pilar Sanchez,93300076,3,62280,20760,EUR,93300076,Employee Training,Monetory TOV,PaidScholarship,HCP Fee for Service,21-03-2023
@@ -3041,7 +2870,6 @@ SPAIN,Alicia Gomez,93300385,5,82445,16489,EUR,93300385,Air Fares,Monetory TOV,Pa
 SPAIN,Alicia Gomez,93300385,5,82445,16489,EUR,93300385,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Training,03-05-2023
 USA,Roberto Paul Martinez,93300050,2,3550,1775,USD,93300050,Other Travel Cost,Monetory TOV,N/A,Market Research,06-08-2022
 USA,Roberto Paul Martinez,93300050,2,3550,1775,USD,93300050,Vehicle Parking,CERPS Invoice,Networking,Travel Expenses,26-06-2023
-USA,Sofia Gomez,93300019,1,14350,14350,USD,93300019,Digital Production,CERPS Invoice,Logistics,Sponsorships,25-09-2022
 USA,Lucas Lee Oliveira,93300066,2,16000,8000,USD,93300066,Employee Training,Monetory TOV,Networking,Grants & Donations,19-04-2023
 USA,Lucas Lee Oliveira,93300066,2,16000,8000,USD,93300066,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Sponsorships,09-02-2023
 USA,Thiago MartinsBeatriz,93300104,3,36750,12250,USD,93300104,Employee Training,Monetory TOV,PaidScholarship,Sponsorships,25-08-2023
@@ -3051,7 +2879,6 @@ USA,Pedro Rocha Romero,93300068,2,31000,15500,USD,93300068,Digital Production,CE
 USA,Pedro Rocha Romero,93300068,2,31000,15500,USD,93300068,Vehicle Parking,Monetory TOV,Networking,Travel Expenses,25-11-2022
 USA,Ana Leandro Fernandes,93300069,2,6750,3375,USD,93300069,Taxi Fares,Monetory TOV,Logistics,Other HCO Expenditure,28-09-2023
 USA,Ana Leandro Fernandes,93300069,2,6750,3375,USD,93300069,Vehicle Parking,CERPS Invoice,Networking,Sponsorships,08-12-2023
-USA,Sofia Fernandez,93300027,1,14750,14750,USD,93300027,Postage & Couriers,Monetory TOV,Logistics,Travel Expenses,16-06-2022
 USA,Pedro Rocha,93300165,4,9500,2375,USD,93300165,Other Travel Cost,Monetory TOV,N/A,Travel Expenses,06-06-2023
 USA,Pedro Rocha,93300165,4,9500,2375,USD,93300165,Postage & Couriers,CERPS Invoice,N/A,Market Research,15-09-2022
 USA,Pedro Rocha,93300165,4,9500,2375,USD,93300165,Employee Training,Monetory TOV,N/A,HCP Fee for Service,24-11-2022
@@ -3062,7 +2889,6 @@ USA,Valentina Lima,93300097,3,35750,11916,USD,93300097,Hotel & Accomidation,Mone
 USA,Claudia Martins,93300102,3,34500,11500,USD,93300102,Digital Production,Monetory TOV,N/A,Membership Fees,05-04-2022
 USA,Claudia Martins,93300102,3,34500,11500,USD,93300102,Postage & Couriers,CERPS Invoice,Networking,Entertainment,14-11-2023
 USA,Claudia Martins,93300102,3,34500,11500,USD,93300102,Taxi Fares,CERPS Invoice,Networking,Entertainment,22-06-2023
-USA,Valentina Romero,93300016,1,15500,15500,USD,93300016,Other Travel Cost,CERPS Invoice,Logistics,Entertainment,22-04-2023
 USA,Felipe Carlos Rocha,93300098,3,37250,12416,USD,93300098,Digital Production,Monetory TOV,N/A,Sponsorships,23-10-2023
 USA,Felipe Carlos Rocha,93300098,3,37250,12416,USD,93300098,Employee Training,Monetory TOV,Logistics,Training,19-11-2023
 USA,Felipe Carlos Rocha,93300098,3,37250,12416,USD,93300098,Air Fares,CERPS Invoice,PaidTravel Expenses,Gifts,25-09-2022
@@ -3095,8 +2921,6 @@ USA,Felipe Michel Costa,93300154,4,44500,11125,USD,93300154,Digital Production,C
 USA,Felipe Michel Costa,93300154,4,44500,11125,USD,93300154,Vehicle Parking,CERPS Invoice,Logistics,HCP Fee for Service,12-06-2022
 USA,Felipe Michel Costa,93300154,4,44500,11125,USD,93300154,Postage & Couriers,CERPS Invoice,Logistics,Travel Expenses,08-10-2022
 USA,Felipe Michel Costa,93300154,4,44500,11125,USD,93300154,Digital Production,Monetory TOV,N/A,Market Research,11-06-2022
-USA,Martina Morales,93300018,1,2500,2500,USD,93300018,Other Travel Cost,CERPS Invoice,PaidScholarship,Training,07-11-2023
-USA,Pedro Gomez Romero,93300025,1,2300,2300,USD,93300025,Postage & Couriers,CERPS Invoice,N/A,Market Research,06-07-2022
 USA,Fernando Michael Gomez,93300391,5,46000,9200,USD,93300391,Digital Production,Monetory TOV,N/A,Other HCO Expenditure,01-06-2023
 USA,Fernando Michael Gomez,93300391,5,46000,9200,USD,93300391,Air Fares,CERPS Invoice,Networking,Entertainment,01-09-2023
 USA,Fernando Michael Gomez,93300391,5,46000,9200,USD,93300391,Digital Production,Monetory TOV,Networking,Travel Expenses,29-07-2023
@@ -3116,7 +2940,6 @@ USA,Felipe Hugo Ramos,93300172,4,42250,10562,USD,93300172,Taxi Fares,CERPS Invoi
 USA,Felipe Hugo Ramos,93300172,4,42250,10562,USD,93300172,Employee Training,Monetory TOV,PaidScholarship,Grants & Donations,07-02-2023
 USA,Felipe Hugo Ramos,93300172,4,42250,10562,USD,93300172,Postage & Couriers,CERPS Invoice,N/A,Training,31-10-2022
 USA,Felipe Hugo Ramos,93300172,4,42250,10562,USD,93300172,Taxi Fares,CERPS Invoice,PaidScholarship,Gifts,02-09-2023
-USA,Emilio Herrera,93300030,1,11000,11000,USD,93300030,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Travel Expenses,22-08-2022
 USA,Lucia Gonzalez Rios,93300173,4,42500,10625,USD,93300173,Digital Production,Monetory TOV,N/A,Other HCO Expenditure,12-02-2023
 USA,Lucia Gonzalez Rios,93300173,4,42500,10625,USD,93300173,Air Fares,Monetory TOV,PaidScholarship,Membership Fees,25-08-2023
 USA,Lucia Gonzalez Rios,93300173,4,42500,10625,USD,93300173,Air Fares,CERPS Invoice,Networking,Grants & Donations,05-10-2023
@@ -3194,7 +3017,6 @@ USA,Julio Gomez Silva,93300197,4,42500,10625,USD,93300197,Digital Production,CER
 USA,Julio Gomez Silva,93300197,4,42500,10625,USD,93300197,Air Fares,Monetory TOV,N/A,Gifts,24-09-2023
 USA,Laura Diaz,93300047,2,2450,1225,USD,93300047,Digital Production,Monetory TOV,Logistics,Other HCO Expenditure,12-06-2022
 USA,Laura Diaz,93300047,2,2450,1225,USD,93300047,Air Fares,Monetory TOV,PaidScholarship,HCP Fee for Service,12-07-2022
-USA,Roberto Diaz,93300023,1,2600,2600,USD,93300023,Postage & Couriers,CERPS Invoice,PaidTravel Expenses,Travel Expenses,14-09-2022
 USA,Fernando John Gomez,93300405,5,9200,1840,USD,93300405,Air Fares,CERPS Invoice,Logistics,Membership Fees,31-12-2023
 USA,Fernando John Gomez,93300405,5,9200,1840,USD,93300405,Employee Training,CERPS Invoice,N/A,Market Research,16-09-2023
 USA,Fernando John Gomez,93300405,5,9200,1840,USD,93300405,Employee Training,Monetory TOV,PaidTravel Expenses,Membership Fees,24-09-2023
@@ -4215,8 +4037,6 @@ USA,Felipe Lopez,93300706,5,7600,1520,USD,93300706,Postage & Couriers,CERPS Invo
 USA,Felipe Lopez,93300706,5,7600,1520,USD,93300706,Digital Production,CERPS Invoice,PaidScholarship,HCP Fee for Service,04-03-2022
 USA,Felipe Lopez,93300706,5,7600,1520,USD,93300706,Digital Production,CERPS Invoice,PaidTravel Expenses,Gifts,23-07-2023
 USA,Felipe Lopez,93300706,5,7600,1520,USD,93300706,Employee Training,CERPS Invoice,N/A,Grants & Donations,01-12-2023
-USA,Jessica Brown,93300003,1,19910,19910,USD,93300003,Vehicle Parking,Monetory TOV,PaidTravel Expenses,Gifts,17-05-2022
-USA,Robert Davis,93300004,1,12280,12280,USD,93300004,Hotel & Accomidation,Monetory TOV,Logistics,Grants & Donations,06-09-2022
 USA,Daniel White,93300041,2,88825,44412,USD,93300041,Digital Production,CERPS Invoice,Networking,Sponsorships,01-10-2022
 USA,Daniel White,93300041,2,88825,44412,USD,93300041,Employee Training,CERPS Invoice,PaidScholarship,HCP Fee for Service,25-05-2022
 USA,Mia Lewis,93300077,3,66280,22093,USD,93300077,Digital Production,CERPS Invoice,PaidScholarship,Grants & Donations,21-09-2023
@@ -4231,7 +4051,6 @@ USA,Isabella Young,93300386,5,74935,14987,USD,93300386,Postage & Couriers,CERPS 
 USA,Isabella Young,93300386,5,74935,14987,USD,93300386,Employee Training,CERPS Invoice,PaidScholarship,Entertainment,30-05-2023
 USA,Isabella Young,93300386,5,74935,14987,USD,93300386,Employee Training,Monetory TOV,N/A,Training,19-04-2023
 USA,Isabella Young,93300386,5,74935,14987,USD,93300386,Hotel & Accomidation,CERPS Invoice,Networking,Market Research,11-05-2023
-USA,Emma Scott,93300010,1,15678,15678,USD,93300010,Digital Production,Monetory TOV,Logistics,Sponsorships,19-01-2022
 USA,Brandon Carter,93300042,2,89615,44807,USD,93300042,Taxi Fares,CERPS Invoice,PaidScholarship,Other HCO Expenditure,30-08-2022
 USA,Brandon Carter,93300042,2,89615,44807,USD,93300042,Employee Training,CERPS Invoice,PaidTravel Expenses,Grants & Donations,20-01-2023
 USA,Grace Roberts,93300078,3,83910,27970,USD,93300078,Vehicle Parking,CERPS Invoice,PaidScholarship,Travel Expenses,15-08-2022
@@ -4246,7 +4065,6 @@ USA,James Brown,93300387,5,61740,12348,USD,93300387,Postage & Couriers,CERPS Inv
 USA,James Brown,93300387,5,61740,12348,USD,93300387,Taxi Fares,CERPS Invoice,Logistics,Entertainment,28-05-2023
 USA,James Brown,93300387,5,61740,12348,USD,93300387,Hotel & Accomidation,CERPS Invoice,Logistics,Travel Expenses,08-08-2022
 USA,James Brown,93300387,5,61740,12348,USD,93300387,Hotel & Accomidation,CERPS Invoice,Logistics,Other HCO Expenditure,08-01-2022
-USA,Alexander Green,93300011,1,95135,95135,USD,93300011,Hotel & Accomidation,Monetory TOV,Networking,Sponsorships,18-03-2023
 USA,Thomas Morgan,93300043,2,71780,35890,USD,93300043,Digital Production,CERPS Invoice,N/A,Market Research,23-10-2022
 USA,Thomas Morgan,93300043,2,71780,35890,USD,93300043,Employee Training,Monetory TOV,N/A,HCP Fee for Service,22-09-2022
 USA,Ethan Brooks,93300079,3,16895,5631,USD,93300079,Other Travel Cost,CERPS Invoice,PaidTravel Expenses,Membership Fees,22-10-2023
@@ -4261,7 +4079,6 @@ USA,Jack Wilson,93300388,5,18429,3685,USD,93300388,Hotel & Accomidation,CERPS In
 USA,Jack Wilson,93300388,5,18429,3685,USD,93300388,Other Travel Cost,Monetory TOV,Logistics,Market Research,06-04-2022
 USA,Jack Wilson,93300388,5,18429,3685,USD,93300388,Hotel & Accomidation,Monetory TOV,N/A,HCP Fee for Service,14-03-2022
 USA,Jack Wilson,93300388,5,18429,3685,USD,93300388,Taxi Fares,CERPS Invoice,Logistics,Entertainment,06-12-2022
-USA,Samuel Price,93300012,1,82715,82715,USD,93300012,Postage & Couriers,CERPS Invoice,N/A,Sponsorships,28-07-2022
 USA,Henry James,93300044,2,61780,30890,USD,93300044,Employee Training,CERPS Invoice,PaidTravel Expenses,Travel Expenses,25-03-2022
 USA,Henry James,93300044,2,61780,30890,USD,93300044,Taxi Fares,Monetory TOV,N/A,Training,30-11-2023
 USA,Owen Campbell,93300080,3,89615,29871,USD,93300080,Employee Training,Monetory TOV,PaidScholarship,HCP Fee for Service,02-05-2022
@@ -4276,7 +4093,6 @@ USA,Evelyn Rivera,93300389,5,19124,3824,USD,93300389,Air Fares,Monetory TOV,N/A,
 USA,Evelyn Rivera,93300389,5,19124,3824,USD,93300389,Vehicle Parking,CERPS Invoice,PaidTravel Expenses,Travel Expenses,27-03-2023
 USA,Evelyn Rivera,93300389,5,19124,3824,USD,93300389,Postage & Couriers,CERPS Invoice,Networking,Other HCO Expenditure,01-11-2023
 USA,Evelyn Rivera,93300389,5,19124,3824,USD,93300389,Other Travel Cost,Monetory TOV,PaidScholarship,Travel Expenses,09-10-2022
-USA,Stella Ward,93300013,1,12478,12478,USD,93300013,Air Fares,Monetory TOV,PaidTravel Expenses,Gifts,03-04-2023
 USA,Logan Hughes,93300045,2,67895,33947,USD,93300045,Vehicle Parking,Monetory TOV,PaidTravel Expenses,HCP Fee for Service,20-04-2022
 USA,Logan Hughes,93300045,2,67895,33947,USD,93300045,Vehicle Parking,Monetory TOV,Networking,Travel Expenses,25-05-2023
 USA,Alice James,93300081,3,94380,31460,USD,93300081,Postage & Couriers,Monetory TOV,Networking,Membership Fees,06-11-2022
@@ -4291,6 +4107,5 @@ USA,Mila Murphy,93300390,5,96725,19345,USD,93300390,Other Travel Cost,Monetory T
 USA,Mila Murphy,93300390,5,96725,19345,USD,93300390,Taxi Fares,Monetory TOV,PaidScholarship,Other HCO Expenditure,22-09-2023
 USA,Mila Murphy,93300390,5,96725,19345,USD,93300390,Employee Training,CERPS Invoice,N/A,Travel Expenses,29-07-2023
 USA,Mila Murphy,93300390,5,96725,19345,USD,93300390,Employee Training,CERPS Invoice,Logistics,Gifts,12-01-2023
-USA,Adam Rogers,93300014,1,71605,71605,USD,93300014,Digital Production,CERPS Invoice,Networking,Sponsorships,15-12-2022
 USA,Nora Ward,93300046,2,19056,9528,USD,93300046,Digital Production,CERPS Invoice,N/A,Travel Expenses,15-05-2023
 USA,Nora Ward,93300046,2,19056,9528,USD,93300046,Taxi Fares,CERPS Invoice,PaidTravel Expenses,Training,07-05-2022

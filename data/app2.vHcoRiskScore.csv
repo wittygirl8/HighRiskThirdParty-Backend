@@ -1,46 +1,294 @@
-﻿OriginalEntityID,Country,Name,RiskScore
-B001,Brazil,Instituto Esperança Brasil,55
-B002,Brazil,Fundação Vida Verde,34
-B003,Brazil,Rede Solidariedade Brasil,12
-B004,Brazil,Centro de Ação Humanitária do Amazonas,10
-B005,Brazil,Associação Nova Esperança,18
-B006,Brazil,Projeto Cidadania e Futuro,24
-B007,Brazil,Aliança Social Brasileira,37
-S001,Spain,Fundación Luz de Esperanza,45
-S002,Spain,Red Solidaridad España,21
-S003,Spain,Centro de Acción Social Iberia,38
-S004,Spain,Asociación Progreso y Bienestar,56
-U001,USA,Nationwide Hope Foundation,42
-U002,USA,United Community Aid Network,21
-U003,USA,American Heart of Service,11
-U004,USA,Bright Future Initiative,17
-B008,Brazil,Hospital das Clínicas de São Paulo,23
-B009,Brazil,Hospital de Câncer de Barretos,17
-B010,Brazil,Hospital Israelita Albert Einstein,30
-B011,Brazil,Hospital Sírio-Libanês,50
-B012,Brazil,Fundação Oswaldo Cruz (Fiocruz),39
-B013,Brazil,Hospital de Coração de São Paulo,27
-B014,Brazil,Instituto do Coração (InCor),48
-B015,Brazil,Hospital São Luiz,32
-S005,Spain,Fundación Esperanza Solidaria,41
-S006,Spain,Centro de Apoyo y Esperanza,26
-S007,Spain,Red de Solidaridad y Progreso,33
-S008,Spain,Asociación Nueva Luz,49
-S009,Spain,Fundación Esperanza y Futuro,40
-S010,Spain,Centro de Acción Social Esperanza,22
-S011,Spain,Red de Apoyo Integral,52
-S012,Spain,Asociación Progreso Solidario,28
-S013,Spain,Fundación Luz y Esperanza,57
-S014,Spain,Centro de Bienestar y Solidaridad,31
-S015,Spain,Red Esperanza y Desarrollo,43
-U005,USA,National Wellness Foundation,46
-U006,USA,United Health Care Network,25
-U007,USA,American Care Alliance,35
-U008,USA,Future Health Initiative,29
-U009,USA,Hope and Healing Foundation,54
-U010,USA,Nationwide Health Support Network,20
-U011,USA,Unified Care Solutions,53
-U012,USA,Bright Horizons Health Foundation,44
-U013,USA,National Health and Wellness Network,58
-U014,USA,American Wellness Partners,19
-U015,USA,Comprehensive Care Initiative,51
+OriginalEntityId,COUNTRY,Name,RiskScore
+B007,Brazil,Alianca Social Brasileira,19
+U007,USA,American Care Alliance,51
+U003,USA,American Heart of Service,37
+U014,USA,American Wellness Partners,17
+S149,Spain,Asociacian de Bienestar Integral,30
+S159,Spain,Asociacian de Bienestar Social,26
+S179,Spain,Asociacian de Salud Integral,53
+S199,Spain,Asociacian de Salud y Vida,35
+S139,Spain,Asociacian de Vida y Bienestar,27
+S209,Spain,Asociacian de Vida y Salud,31
+S185,Spain,Asociacian Esperanza para Todos,21
+S175,Spain,Asociacian Esperanza Renaciente,35
+S195,Spain,Asociacian Esperanza Renueva,22
+S125,Spain,Asociacian Esperanza Viva,28
+S145,Spain,Asociacian Esperanza y Vida,21
+S229,Spain,Asociacian Futuro Salud,7
+S132,Spain,Asociacian Nueva Esperanza,52
+S142,Spain,Asociacian Nuevas Oportunidades,48
+S172,Spain,Asociacian Nuevas Perspectivas,39
+S152,Spain,Asociacian Nuevas Vidas,8
+S103,Spain,Asociacian Progreso y Salud,27
+S129,Spain,Asociacian Progreso y Vida,18
+S223,Spain,Asociacian Salud y Futuro,9
+S122,Spain,Asociacian Vida Plena,22
+S226,Spain,Asociacian Vitalidad,5
+S135,Spain,Asociacian Viva la Vida,57
+S008,Spain,Asociacion Nueva Luz,54
+S012,Spain,Asociacion Progreso Solidario,44
+S004,Spain,Asociacion Progreso y Bienestar,31
+B005,Brazil,Associacao Nova Esperanca,25
+U004,USA,Bright Future Initiative,16
+U012,USA,Bright Horizons Health Foundation,45
+B223,Brazil,Centro Clanico Rio Grande,55
+B004,Brazil,Centro de Acao Humanitaria do Amazonas,5
+S010,Spain,Centro de Accion Social Esperanza,46
+S003,Spain,Centro de Accion Social Iberia,41
+S102,Spain,Centro de Apoyo Esperanza,51
+S006,Spain,Centro de Apoyo y Esperanza,49
+S176,Spain,Centro de Bienestar Comunitario,24
+S206,Spain,Centro de Bienestar Familiar,24
+S186,Spain,Centro de Bienestar Integral,10
+S196,Spain,Centro de Bienestar Social,31
+S146,Spain,Centro de Bienestar y Salud,38
+S014,Spain,Centro de Bienestar y Solidaridad,27
+S156,Spain,Centro de Bienestar y Vida,24
+B229,Brazil,Centro de ReabilitaASSapso Brasil,37
+S123,Spain,Centro de Rehabilitacian Esperanza,14
+S143,Spain,Centro de Rehabilitacian Integral,53
+S173,Spain,Centro de Rehabilitacian Nueva Vida,29
+S203,Spain,Centro de Rehabilitacian San Juan,40
+S183,Spain,Centro de Rehabilitacian Vida Nueva,23
+S153,Spain,Centro de Rehabilitacian y Progreso,52
+S133,Spain,Centro de Rehabilitacian y Vida,8
+S126,Spain,Centro de Salud Integral,32
+S222,Spain,Centro de Salud Vida,54
+S136,Spain,Centro de Salud y Esperanza,48
+B124,Brazil,Centro Macdico Santa Maria,24
+B214,Brazil,Centro Macdico Sapso Gabriel,13
+B144,Brazil,Centro Macdico Sapso Joapso,33
+B134,Brazil,Centro Macdico Sapso Lucas,13
+B194,Brazil,Centro Macdico Sapso Marcos,11
+B154,Brazil,Centro Macdico Sapso Mateus,30
+B184,Brazil,Centro Macdico Sapso Pedro,10
+B174,Brazil,Centro Macdico Sapso Rafael,24
+S225,Spain,Centro Macdico y Bienestar,10
+B228,Brazil,Clanica Boa Saaode,44
+B222,Brazil,Clanica Santa Maria,25
+B143,Brazil,Clanica Sapso Benedito,45
+B193,Brazil,Clanica Sapso Carlos,19
+B128,Brazil,Clanica Sapso Francisco,51
+B153,Brazil,Clanica Sapso Gabriel,35
+B183,Brazil,Clanica Sapso Geraldo,9
+B213,Brazil,Clanica Sapso Joapso,53
+B138,Brazil,Clanica Sapso Jorge,8
+B173,Brazil,Clanica Sapso Josac,6
+B123,Brazil,Clanica Sapso Judas,52
+B148,Brazil,Clanica Sapso Lucas,29
+B158,Brazil,Clanica Sapso Marcos,55
+B198,Brazil,Clanica Sapso Paulo,21
+B133,Brazil,Clanica Sapso Pedro,47
+B218,Brazil,Clanica Sapso Rafael,32
+B178,Brazil,Clanica Sapso Tomac,15
+B203,Brazil,Clanica Sapso Vicente,32
+U015,USA,Comprehensive Care Initiative,18
+B012,Brazil,Fundacao Oswaldo Cruz (Fiocruz),8
+B002,Brazil,Fundacao Vida Verde,10
+S197,Spain,Fundacian Apoyo Vital,32
+S207,Spain,Fundacian Apoyo y Salud,25
+S130,Spain,Fundacian Bienestar Integral,35
+S147,Spain,Fundacian Cuidado de Vida,36
+S157,Spain,Fundacian Cuidado Integral,53
+S187,Spain,Fundacian Cuidado Pleno,32
+S177,Spain,Fundacian Cuidado Responsable,59
+S137,Spain,Fundacian Cuidado Total,39
+S127,Spain,Fundacian de Cuidado Integral,28
+S144,Spain,Fundacian Desarrollo Social,56
+S174,Spain,Fundacian Desarrollo Sustentable,13
+S154,Spain,Fundacian Desarrollo y Bienestar,54
+S184,Spain,Fundacian Desarrollo y Futuro,44
+S221,Spain,Fundacian Esperanza,37
+S204,Spain,Fundacian Futuro para Todos,37
+S194,Spain,Fundacian Futuro y Vida,13
+S140,Spain,Fundacian Integral de Salud,6
+S150,Spain,Fundacian Integral de Vida,18
+S230,Spain,Fundacian Luz,29
+S220,Spain,Fundacian Luz y Vida,23
+S134,Spain,Fundacian Progreso Social,7
+S124,Spain,Fundacian Progreso y Salud,14
+S224,Spain,Fundacian Renueva,11
+S121,Spain,Fundacian Salud Total,16
+S191,Spain,Fundacian Salud y Bienestar,52
+S131,Spain,Fundacian Salud y Vida,21
+S180,Spain,Fundacian Vida Activa,45
+S190,Spain,Fundacian Vida en Plenitud,59
+S160,Spain,Fundacian Vida Integral,15
+S101,Spain,Fundacian Vida Nueva,9
+S141,Spain,Fundacian Vida Plena,51
+S151,Spain,Fundacian Vida Saludable,24
+S201,Spain,Fundacian Vida Sana,37
+S210,Spain,Fundacian Vida y Futuro,56
+S200,Spain,Fundacian Vida y Salud,20
+S005,Spain,Fundacion Esperanza Solidaria,25
+S009,Spain,Fundacion Esperanza y Futuro,29
+S001,Spain,Fundacion Luz de Esperanza,14
+S013,Spain,Fundacion Luz y Esperanza,27
+U008,USA,Future Health Initiative,10
+U228,USA,Future Wellness Foundation,12
+U147,USA,Futures for Care,18
+U127,USA,Futures for Health,54
+U177,USA,Futures for Health and Care,33
+U157,USA,Futures for Health and Wellness,42
+U197,USA,Futures for Health Network,11
+U137,USA,Futures for Wellness,27
+U210,USA,Global Care Alliance,28
+U180,USA,Global Care Foundation,51
+U200,USA,Global Care Initiative,48
+U190,USA,Global Care Solutions,22
+U160,USA,Global Health and Care,16
+U101,USA,Global Health Initiative,45
+U201,USA,Global Health Network,26
+U150,USA,Global Health Organization,46
+U130,USA,Global Health Partners,56
+U131,USA,Global Wellness Foundation,57
+U151,USA,Global Wellness Health,47
+U121,USA,Global Wellness Initiative,39
+U181,USA,Global Wellness Network,18
+U141,USA,Global Wellness Partnership,56
+U191,USA,Global Wellness Society,36
+U202,USA,Health Alliance Network,14
+U149,USA,Health and Care Alliance,37
+U139,USA,Health and Care Foundation,35
+U179,USA,Health and Care Network,34
+U159,USA,Health and Wellness Alliance,21
+U129,USA,Health and Wellness Foundation,7
+U209,USA,Health and Wellness Network,39
+U189,USA,Health and Wellness Solutions,39
+U122,USA,Health Care Alliance,56
+U132,USA,Health Care United,33
+U227,USA,Health First Alliance,14
+U142,USA,Health Network Alliance,43
+U152,USA,Health Network Foundation,34
+U182,USA,Health Network Solutions,37
+U172,USA,Health Network Support,29
+U222,USA,Health Solutions Group,33
+U133,USA,Hope America Foundation,58
+U009,USA,Hope and Healing Foundation,19
+U183,USA,Hope for a Better Future,37
+U173,USA,Hope for a Healthy Future,57
+U102,USA,Hope for Health Foundation,52
+U203,USA,Hope for Tomorrow Alliance,27
+U153,USA,Hope for Tomorrow Foundation,41
+U123,USA,Hope Foundation America,48
+B101,Brazil,Hospice Santa Maria,28
+B209,Brazil,Hospital da Boa EsperanASSa,49
+B149,Brazil,Hospital da CrianASSa,24
+B189,Brazil,Hospital da EsperanASSa,33
+B129,Brazil,Hospital da Luz,49
+B199,Brazil,Hospital da RedenASSapso,29
+B159,Brazil,Hospital da Saaode,29
+B139,Brazil,Hospital da Vida,41
+B225,Brazil,Hospital das Clanicas,51
+B008,Brazil,Hospital das Clinicas de Sao Paulo,12
+B009,Brazil,Hospital de Cancer de Barretos,27
+B013,Brazil,Hospital de Coracao de Sao Paulo,54
+B010,Brazil,Hospital Israelita Albert Einstein,12
+B131,Brazil,Hospital Nossa Senhora de FA!tima,59
+B215,Brazil,Hospital Santa Clara,36
+B141,Brazil,Hospital Santa Helena,25
+B205,Brazil,Hospital Santa Maria,28
+B195,Brazil,Hospital Santa Marta,31
+B185,Brazil,Hospital Santa Teresa,41
+B151,Brazil,Hospital Santo AntA'nio,36
+B015,Brazil,Hospital Sao Luiz,44
+B176,Brazil,Hospital Sapso Bento,14
+B196,Brazil,Hospital Sapso Domingos,8
+B211,Brazil,Hospital Sapso Francisco,59
+B186,Brazil,Hospital Sapso Gabriel,41
+B121,Brazil,Hospital Sapso Joapso,7
+B126,Brazil,Hospital Sapso Josac,38
+B171,Brazil,Hospital Sapso Lucas,51
+B230,Brazil,Hospital Sapso Luiz,12
+B146,Brazil,Hospital Sapso Marcos,38
+B191,Brazil,Hospital Sapso Mateus,15
+B156,Brazil,Hospital Sapso Miguel,16
+B102,Brazil,Hospital Sapso Paulo Norte,43
+B206,Brazil,Hospital Sapso Pedro,12
+B136,Brazil,Hospital Sapso Rafael,56
+B011,Brazil,Hospital Sirio-Libanes,6
+B181,Brazil,Hospital UniversitA!rio,52
+B145,Brazil,Hospital Vila Boa,24
+B155,Brazil,Hospital Vila Clara,39
+B125,Brazil,Hospital Vila Mariana,37
+B135,Brazil,Hospital Vila Nova,47
+B172,Brazil,Instituto Brasileiro de Cardiologia,51
+B192,Brazil,Instituto Brasileiro de Dermatologia,5
+B200,Brazil,Instituto Brasileiro de Neurologia,33
+B210,Brazil,Instituto Brasileiro de Oftalmologia,6
+B152,Brazil,Instituto Brasileiro de Oncologia,21
+B142,Brazil,Instituto Brasileiro de Saaode,40
+B103,Brazil,Instituto de CAC/ncer Sapso Paulo,53
+B224,Brazil,Instituto de Saaode Central,5
+B227,Brazil,Instituto de Saaode da Mulher,37
+B132,Brazil,Instituto do CoraASSapso Paulista,19
+B014,Brazil,Instituto do Coracao (InCor),47
+B001,Brazil,Instituto Esperanca Brasil,58
+B182,Brazil,Instituto Nacional de Cardiologia,52
+B202,Brazil,Instituto Nacional de Oncologia,9
+B127,Brazil,Instituto Paulista de CAC/ncer,25
+B140,Brazil,Instituto Paulista de Cardiologia,5
+B160,Brazil,Instituto Paulista de Endocrinologia,13
+B197,Brazil,Instituto Paulista de Ginecologia,48
+B147,Brazil,Instituto Paulista de Hematologia,12
+B150,Brazil,Instituto Paulista de Nefrologia,44
+B180,Brazil,Instituto Paulista de Oftalmologia,54
+B137,Brazil,Instituto Paulista de Oncologia,5
+B177,Brazil,Instituto Paulista de Pediatria,12
+B157,Brazil,Instituto Paulista de Reumatologia,39
+B130,Brazil,Instituto Paulista de Saaode,37
+B207,Brazil,Instituto Paulista de Urologia,29
+B122,Brazil,Instituto Vida e Saaode,12
+U229,USA,National Care Network,39
+U013,USA,National Health and Wellness Network,33
+U134,USA,National Health Initiative,35
+U124,USA,National Health Network,44
+U154,USA,National Health Organization,57
+U224,USA,National Health Partners,46
+U174,USA,National Health Service,54
+U184,USA,National Health Services,7
+U144,USA,National Health Support,37
+U005,USA,National Wellness Foundation,9
+U204,USA,National Wellness Initiative,21
+U128,USA,Nationwide Care Network,19
+U198,USA,Nationwide Health Alliance,37
+U148,USA,Nationwide Health Foundation,23
+U208,USA,Nationwide Health Initiative,24
+U178,USA,Nationwide Health Partners,57
+U010,USA,Nationwide Health Support Network,55
+U001,USA,Nationwide Hope Foundation,12
+U158,USA,Nationwide Wellness Initiative,19
+U138,USA,Nationwide Wellness Network,48
+U188,USA,Nationwide Wellness Partners,27
+B006,Brazil,Projeto Cidadania e Futuro,8
+S011,Spain,Red de Apoyo Integral,7
+S178,Spain,Red de Apoyo y Bienestar,55
+S148,Spain,Red de Bienestar y Progreso,14
+S158,Spain,Red de Progreso y Salud,23
+S128,Spain,Red de Salud Esperanza,24
+S208,Spain,Red de Salud Integral,44
+S198,Spain,Red de Salud PAoblica,52
+S188,Spain,Red de Salud y Vida,16
+S007,Spain,Red de Solidaridad y Progreso,22
+S138,Spain,Red de Vida y Progreso,21
+S015,Spain,Red Esperanza y Desarrollo,31
+S002,Spain,Red Solidaridad Espana,34
+B003,Brazil,Rede Solidariedade Brasil,45
+U175,USA,Unified Care Alliance,48
+U135,USA,Unified Care Network,42
+U011,USA,Unified Care Solutions,12
+U225,USA,Unified Health Network,23
+U155,USA,Unified Health Partners,51
+U125,USA,Unified Health Solutions,56
+U145,USA,Unified Wellness Initiative,30
+U205,USA,Unified Wellness Partners,52
+U195,USA,Unified Wellness Solutions,46
+U126,USA,United Care Initiative,24
+U103,USA,United Care Network,55
+U002,USA,United Community Aid Network,31
+U006,USA,United Health Care Network,51
+U136,USA,United Health Partners,27
+U176,USA,United Wellness Foundation,45
+U186,USA,United Wellness Initiative,48
+U196,USA,United Wellness Network,9
+U223,USA,Wellness Foundation of America,28

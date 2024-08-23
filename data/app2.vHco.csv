@@ -1,46 +1,294 @@
-﻿COUNTRY,NAME,ID,LINK,LINK2,internal_hco_id,orgkey,payment_hco_id,PaymentCount,PaymentAmount,InteractionCount
-BRAZIL,Instituto Esperança Brasil,B001,https://www.institutoesperancabrasil.org/,NULL,NULL,orgK990234984753,9900123456,0,124,0
-BRAZIL,Fundação Vida Verde,B002,NULL,NULL,NULL,NULL,9900789345,2,2309,0
-BRAZIL,Rede Solidariedade Brasil,B003,NULL,NULL,NULL,orgK990876543210,NULL,0,3410,0
-BRAZIL,Centro de Ação Humanitária do Amazonas,B004,https://www.rede-solidariedade-brasil.org/,NULL,NULL,orgK990123456789,9900234567,3,2210,1
-BRAZIL,Associação Nova Esperança,B005,NULL,NULL,NULL,NULL,9900987654,1,234,0
-BRAZIL,Projeto Cidadania e Futuro,B006,https://www.associacaonovaesperanca.org/,NULL,NULL,orgK990345678901,9900456789,1,23089,0
-BRAZIL,Aliança Social Brasileira,B007,NULL,NULL,NULL,orgK990567890123,9900765432,3,999,1
-SPAIN,Fundación Luz de Esperanza,S001,NULL,NULL,NULL,NULL,9900345678,2,24509,0
-SPAIN,Red Solidaridad España,S002,https://www.projetocidadaniaefuturo.org/,NULL,NULL,orgK990234567890,NULL,0,550,0
-SPAIN,Centro de Acción Social Iberia,S003,NULL,NULL,NULL,orgK990456789012,9900129876,1,789,0
-SPAIN,Asociación Progreso y Bienestar,S004,NULL,NULL,NULL,NULL,9900567890,1,3234,2
-USA,Nationwide Hope Foundation,U001,https://www.redsolidaridadespana.org/,NULL,NULL,orgK990678901234,9900432109,2,870,0
-USA,United Community Aid Network,U002,NULL,NULL,NULL,orgK990789012345,9900871234,3,34564,0
-USA,American Heart of Service,U003,NULL,NULL,NULL,NULL,9900650987,1,4335,2
-USA,Bright Future Initiative,U004,https://www.brightfutureinitiative.org/,NULL,NULL,orgK990890123456,9900237890,3,5332,1
-BRAZIL,Hospital das Clínicas de São Paulo,B008,www.hospitaldasclinicas.com.br,NULL,NULL,orgK991234567890,NULL,NULL,NULL,0
-BRAZIL,Hospital de Câncer de Barretos,B009,www.hospitaldecancerbarretos.com.br,NULL,NULL,NULL,9900543210,2,17312,0
-BRAZIL,Hospital Israelita Albert Einstein,B010,www.hospitalalberteinstein.org.br,NULL,NULL,orgK993456789012,9900876543,1,16457,0
-BRAZIL,Hospital Sírio-Libanês,B011,www.hospitalsiriolibanes.com.br,NULL,NULL,orgK994567890123,NULL,NULL,NULL,1
-BRAZIL,Fundação Oswaldo Cruz (Fiocruz),B012,www.fiocruz.org.br,NULL,NULL,NULL,9900678901,2,13789,0
-BRAZIL,Hospital de Coração de São Paulo,B013,www.hospitalcoracaosaopaulo.com.br,NULL,NULL,orgK996789012345,9900923456,1,12345,0
-BRAZIL,Instituto do Coração (InCor),B014,www.incor.org.br,NULL,NULL,orgK997890123456,9900765433,2,15234,1
-BRAZIL,Hospital São Luiz,B015,www.hospitalsaoluiz.com.br,NULL,NULL,NULL,NULL,NULL,NULL,0
-SPAIN,Fundación Esperanza Solidaria,S005,www.fundacionesperanzasolidaria.org,NULL,NULL,orgK990112345678,9900345679,1,17890,0
-SPAIN,Centro de Apoyo y Esperanza,S006,www.centroapoyoyesperanza.org,NULL,NULL,orgK990223456789,9900654321,2,14678,0
-SPAIN,Red de Solidaridad y Progreso,S007,www.redsolidaridadyprogreso.org,NULL,NULL,NULL,NULL,NULL,NULL,2
-SPAIN,Asociación Nueva Luz,S008,www.asociacionnuevaluz.org,NULL,NULL,NULL,9900987655,2,15543,0
-SPAIN,Fundación Esperanza y Futuro,S009,www.fundacionesperanzayfuturo.org,NULL,NULL,orgK990556789012,9900234568,1,19234,0
-SPAIN,Centro de Acción Social Esperanza,S010,www.centroaccionalsocialesperanza.org,NULL,NULL,NULL,9900871235,2,16543,2
-SPAIN,Red de Apoyo Integral,S011,www.redapoyointegral.org,NULL,NULL,NULL,NULL,NULL,NULL,1
-SPAIN,Asociación Progreso Solidario,S012,www.asociacionprogresosolidario.org,NULL,NULL,orgK990889012345,9900567891,1,12123,0
-SPAIN,Fundación Luz y Esperanza,S013,www.fundacionluzyesperanza.org,NULL,NULL,orgK991001234567,9900543211,2,17321,0
-SPAIN,Centro de Bienestar y Solidaridad,S014,www.centrobienestarysolidaridad.org,NULL,NULL,orgK991112345678,NULL,NULL,NULL,0
-SPAIN,Red Esperanza y Desarrollo,S015,www.redesperanzaydesarrollo.org,NULL,NULL,NULL,9900237891,1,16342,1
-USA,National Wellness Foundation,U005,www.nationalwellnessfoundation.org,NULL,NULL,orgK990112345678,9900984321,2,17984,0
-USA,United Health Care Network,U006,www.unitedhealthcarenetwork.org,NULL,NULL,NULL,9900650988,1,12456,0
-USA,American Care Alliance,U007,www.americancarealliance.org,NULL,NULL,orgK990334567890,NULL,NULL,NULL,1
-USA,Future Health Initiative,U008,www.futurehealthinitiative.org,NULL,NULL,NULL,9900123457,2,19876,0
-USA,Hope and Healing Foundation,U009,www.hopeandhealingfoundation.org,NULL,NULL,orgK990556789012,NULL,NULL,NULL,0
-USA,Nationwide Health Support Network,U010,www.nationwidehealthsupport.org,NULL,NULL,NULL,9900789346,1,13789,0
-USA,Unified Care Solutions,U011,www.unifiedcaresolutions.org,NULL,NULL,orgK990778901234,NULL,NULL,NULL,2
-USA,Bright Horizons Health Foundation,U012,www.brighthorizonshealth.org,NULL,NULL,NULL,9900432111,2,14567,0
-USA,National Health and Wellness Network,U013,www.nationalhealthandwellness.org,NULL,NULL,orgK991001234567,9900765434,1,17234,0
-USA,American Wellness Partners,U014,www.americanwellnesspartners.org,NULL,NULL,orgK991112345678,NULL,NULL,NULL,2
-USA,Comprehensive Care Initiative,U015,www.comprehensivecareinitiative.org,NULL,NULL,NULL,9900456799,2,17543,1
+COUNTRY,NAME,ID,LINK,LINK2,internal_hco_id,orgkey,payment_hco_id,PaymentCount,PaymentAmount,InteractionCount
+Brazil,Alianca Social Brasileira,B007,,,,orgK990567890123,9990000258,3,999,1
+USA,American Care Alliance,U007,www.americancarealliance.org,,,orgK990334567890,,0,0,1
+USA,American Heart of Service,U003,,,,,9990000005,1,4335,2
+USA,American Wellness Partners,U014,www.americanwellnesspartners.org,,,orgK991112345678,,0,0,2
+Spain,Asociacian de Bienestar Integral,S149,www.asociaciondebienestarintegral.org,,,,9990000047,1,56756,0
+Spain,Asociacian de Bienestar Social,S159,www.asociaciondebienestarsocial.org,,,,9990000057,1,167570,0
+Spain,Asociacian de Salud Integral,S179,www.asociaciondesaludintegral.com,,,orgK990889012351,9990000200,2,14881,1
+Spain,Asociacian de Salud y Vida,S199,www.asociaciondesaludyvida.org,,,orgK990889012357,9990000224,2,14883,1
+Spain,Asociacian de Vida y Bienestar,S139,www.asociaciondevidaybienestar.org,,,,9990000036,1,16755,0
+Spain,Asociacian de Vida y Salud,S209,www.asociaciondevidaysalud.org,,,orgK990889012361,9990000235,2,14950,1
+Spain,Asociacian Esperanza para Todos,S185,www.asociacionesperanzaparatodos.org,,,,9990000210,2,17660,1
+Spain,Asociacian Esperanza Renaciente,S175,www.asociacionesperanzarenaciente.com,,,,9990000198,2,1765900,1
+Spain,Asociacian Esperanza Renueva,S195,www.asociacionesperanzarenueva.org,,,,9990000222,2,17661,1
+Spain,Asociacian Esperanza Viva,S125,www.asociacionesperanzaviva.org,,,,9990000024,1,1765400,0
+Spain,Asociacian Esperanza y Vida,S145,www.asociacionesperanzayvida.org,,,,9990000046,1,17656,0
+Spain,Asociacian Futuro Salud,S229,www.asociacionfuturosalud.org,,,orgK991678901234,9990000117,1,28200,1
+Spain,Asociacian Nueva Esperanza,S132,www.asociacionnuevaesperanza.org,,,,9990000034,1,35468,0
+Spain,Asociacian Nuevas Oportunidades,S142,www.asociacionnuevasoportunidades.org,,,,9990000045,1,15469,0
+Spain,Asociacian Nuevas Perspectivas,S172,www.asociacionnuevasperspectivas.com,,,,9990000065,1,754720,2
+Spain,Asociacian Nuevas Vidas,S152,www.asociacionnuevasvidas.org,,,,9990000056,1,15470,0
+Spain,Asociacian Progreso y Salud,S103,www.asociacionprogresoysalud.org,,,orgK990556789012,9990000017,1,16345,0
+Spain,Asociacian Progreso y Vida,S129,www.asociacionprogresoyvida.org,,,,9990000025,1,36754,0
+Spain,Asociacian Salud y Futuro,S223,www.asociacionsaludyfuturo.org,,,orgK990987654321,9990000249,2,36200,1
+Spain,Asociacian Vida Plena,S122,www.asociacionvidaplena.org,,,,9990000023,1,15467,0
+Spain,Asociacian Vitalidad,S226,www.asociacionvitalidad.org,,,orgK991345678901,9990000251,2,46000,2
+Spain,Asociacian Viva la Vida,S135,www.asociacionvivalavida.org,,,,9990000035,1,17653,0
+Spain,Asociacion Nueva Luz,S008,www.asociacionnuevaluz.org,,,,9990000128,2,15543,0
+Spain,Asociacion Progreso Solidario,S012,www.asociacionprogresosolidario.org,,,orgK990889012345,9990000010,1,12123,0
+Spain,Asociacion Progreso y Bienestar,S004,,,,,9990000004,1,3234,2
+Brazil,Associacao Nova Esperanca,B005,,,,,9990000001,1,2340,0
+USA,Bright Future Initiative,U004,https://www.brightfutureinitiative.org/,,,orgK990890123456,9990000260,3,53320,1
+USA,Bright Horizons Health Foundation,U012,www.brighthorizonshealth.org,,,,9990000133,2,14567,0
+Brazil,Centro Clanico Rio Grande,B223,www.centroclinico.com.br,,,orgK990778901234,9990000244,2,16300,1
+Brazil,Centro de Acao Humanitaria do Amazonas,B004,https://www.rede-solidariedade-brasil.org/,,,orgK990123456789,9990000257,3,2210000,1
+Spain,Centro de Accion Social Esperanza,S010,www.centroaccionalsocialesperanza.org,,,,9990000129,2,16543,2
+Spain,Centro de Accion Social Iberia,S003,,,,orgK990456789012,9990000003,1,78900,0
+Spain,Centro de Apoyo Esperanza,S102,www.centroapoyoesperanza.org,,,,9990000136,2,15234,0
+Spain,Centro de Apoyo y Esperanza,S006,www.centroapoyoyesperanza.org,,,orgK990223456789,9990000127,2,14678,0
+Spain,Centro de Bienestar Comunitario,S176,www.centrobienestarcomunitario.com,,,orgK990556789028,9990000067,1,54572,2
+Spain,Centro de Bienestar Familiar,S206,www.centrobienestarfamiliar.org,,,orgK990556789038,9990000102,1,34650,2
+Spain,Centro de Bienestar Integral,S186,www.centrobienestarintegral.org,,,orgK990556789032,9990000079,1,345730,2
+Spain,Centro de Bienestar Social,S196,www.centrobienestarsocial.org,,,orgK990556789035,9990000092,1,14574,2
+Spain,Centro de Bienestar y Salud,S146,www.centrobienestarysalud.org,,,orgK990556789016,9990000171,2,14569,0
+Spain,Centro de Bienestar y Solidaridad,S014,www.centrobienestarysolidaridad.org,,,orgK991112345678,,0,0,0
+Spain,Centro de Bienestar y Vida,S156,www.centrobienestaryvida.org,,,orgK990556789020,9990000184,2,14570,0
+Brazil,Centro de ReabilitaASSapso Brasil,B229,www.centrodereabilitacao.com.br,,,orgK998543210987,9990000114,1,47900,1
+Spain,Centro de Rehabilitacian Esperanza,S123,www.centrorehabilitacionesperanza.org,,,orgK990112345678,9990000143,2,14321,1
+Spain,Centro de Rehabilitacian Integral,S143,www.centrorehabilitacionintegral.org,,,orgK990334567894,9990000170,2,44323,1
+Spain,Centro de Rehabilitacian Nueva Vida,S173,www.centrorehabilitacionnuevavida.com,,,orgK990334567906,9990000197,2,44326,1
+Spain,Centro de Rehabilitacian San Juan,S203,www.centrorehabilitacionsanjuan.org,,,orgK990334567919,9990000233,2,344500,1
+Spain,Centro de Rehabilitacian Vida Nueva,S183,www.centrorehabilitacionvidanueva.org,,,orgK990334567911,9990000209,2,14327,1
+Spain,Centro de Rehabilitacian y Progreso,S153,www.centrorehabilitacionyprogreso.org,,,orgK990334567898,9990000183,2,14324,1
+Spain,Centro de Rehabilitacian y Vida,S133,www.centrorehabilitacionyvida.org,,,orgK990334567891,9990000157,2,143220,1
+Spain,Centro de Salud Integral,S126,www.centrosaludintegral.org,,,orgK990556789012,9990000144,2,14567,0
+Spain,Centro de Salud Vida,S222,www.centrosaludvida.org,,,orgK990876543210,9990000115,1,24800,2
+Spain,Centro de Salud y Esperanza,S136,www.centrosaludyesperanza.org,,,orgK990556789013,9990000158,2,14568,0
+Brazil,Centro Macdico Santa Maria,B124,www.centromedicosantamaria.com.br,,,orgK990223456789,9990000020,1,17654,0
+Brazil,Centro Macdico Sapso Gabriel,B214,www.centromedicosaogabriel.com.br,,,orgK990334567922,9990000109,1,77800,2
+Brazil,Centro Macdico Sapso Joapso,B144,www.centromedicosaojoao.com.br,,,orgK990334567893,9990000042,1,17656,0
+Brazil,Centro Macdico Sapso Lucas,B134,www.centromedicosaolucas.com.br,,,orgK990334567891,9990000031,1,67653,0
+Brazil,Centro Macdico Sapso Marcos,B194,www.centromedicosaomarcos.com.br,,,orgK990334567914,9990000088,1,17661,2
+Brazil,Centro Macdico Sapso Mateus,B154,www.centromedicosaomateus.com.br,,,orgK990334567897,9990000053,1,17657,0
+Brazil,Centro Macdico Sapso Pedro,B184,www.centromedicosaopedro.com.br,,,orgK990334567910,9990000076,1,17660,2
+Brazil,Centro Macdico Sapso Rafael,B174,www.centromedicosaorafael.com.br,,,orgK990334567905,9990000063,1,77659,2
+Spain,Centro Macdico y Bienestar,S225,www.centromedicobienestar.org,,,orgK991209876543,9990000250,2,78600,1
+Brazil,Clanica Boa Saaode,B228,www.clinicaboasaude.com.br,,,orgK998654321234,9990000246,2,14600,2
+Brazil,Clanica Santa Maria,B222,www.clinicasantamaria.com.br,,,orgK990667890123,9990000111,1,342000,2
+Brazil,Clanica Sapso Benedito,B143,www.clinicasaobenedito.com.br,,,orgK990223456781,9990000166,2,3345800,0
+Brazil,Clanica Sapso Carlos,B193,www.clinicasaocarlos.com.br,,,orgK990223456792,9990000216,2,13463,1
+Brazil,Clanica Sapso Francisco,B128,www.clinicasaofrancisco.com.br,,,,9990000021,1,13546,0
+Brazil,Clanica Sapso Gabriel,B153,www.clinicasaogabriel.com.br,,,orgK990223456782,9990000179,2,13459,0
+Brazil,Clanica Sapso Geraldo,B183,www.clinicasaogeraldo.com.br,,,orgK990223456789,9990000206,2,13462,1
+Brazil,Clanica Sapso Joapso,B213,www.clinicasaojoao.com.br,,,orgK990223456798,9990000241,2,13600,1
+Brazil,Clanica Sapso Jorge,B138,www.clinicasaojorge.com.br,,,,9990000032,1,53547,0
+Brazil,Clanica Sapso Josac,B173,www.clinicasaojose.com.br,,,orgK990223456786,9990000193,2,434610,1
+Brazil,Clanica Sapso Judas,B123,www.clinicasaojudas.com.br,,,orgK990112345678,9990000139,2,13456,0
+Brazil,Clanica Sapso Lucas,B148,www.clinicasaolucas.com.br,,,,9990000043,1,13548,0
+Brazil,Clanica Sapso Marcos,B158,www.clinicasaomarcos.com.br,,,,9990000054,1,13549,0
+Brazil,Clanica Sapso Paulo,B198,www.clinicasaopaulo.com.br,,,,9990000219,2,14772,2
+Brazil,Clanica Sapso Pedro,B133,www.clinicasaopedro.com.br,,,orgK990223456780,9990000153,2,43457,0
+Brazil,Clanica Sapso Rafael,B218,www.clinicasaorafael.com.br,,,,9990000243,2,14900,2
+Brazil,Clanica Sapso Tomac,B178,www.clinicasaotome.com.br,,,,9990000195,2,84770,2
+Brazil,Clanica Sapso Vicente,B203,www.clinicasaovicente.com.br,,,orgK990223456795,9990000228,2,13580,1
+USA,Comprehensive Care Initiative,U015,www.comprehensivecareinitiative.org,,,,9990000134,2,17543,1
+Brazil,Fundacao Oswaldo Cruz (Fiocruz),B012,www.fiocruz.org.br,,,,9990000125,2,13789,0
+Brazil,Fundacao Vida Verde,B002,,,,,9990000121,2,23090,0
+Spain,Fundacian Apoyo Vital,S197,www.fundacionapoyovital.org,,,orgK990334567916,9990000223,2,378970,1
+Spain,Fundacian Apoyo y Salud,S207,www.fundacionapoyoysalud.org,,,orgK990334567920,9990000234,2,17950,1
+Spain,Fundacian Bienestar Integral,S130,www.fundacionbienestarintegral.org,,,orgK990556789012,9990000146,2,45987,2
+Spain,Fundacian Cuidado de Vida,S147,www.fundacioncuidadodevida.org,,,orgK990334567895,,0,0,2
+Spain,Fundacian Cuidado Integral,S157,www.fundacioncuidadointegral.org,,,orgK990334567899,,0,0,2
+Spain,Fundacian Cuidado Pleno,S187,www.fundacioncuidadopleno.org,,,orgK990334567912,9990000211,2,17896,1
+Spain,Fundacian Cuidado Responsable,S177,www.fundacioncuidadoresponsable.com,,,orgK990334567907,9990000199,2,17895,1
+Spain,Fundacian Cuidado Total,S137,www.fundacioncuidadototal.org,,,orgK990334567892,,0,0,2
+Spain,Fundacian de Cuidado Integral,S127,www.fundaciondecuidadointegral.org,,,orgK990334567890,,0,0,2
+Spain,Fundacian Desarrollo Social,S144,www.fundaciondesarrollosocial.org,,,orgK990223456781,,0,0,0
+Spain,Fundacian Desarrollo Sustentable,S174,www.fundaciondesarrollosustentable.com,,,orgK990445678917,9990000066,1,15992,2
+Spain,Fundacian Desarrollo y Bienestar,S154,www.fundaciondesarrolloybienestar.org,,,orgK990223456783,,0,0,0
+Spain,Fundacian Desarrollo y Futuro,S184,www.fundaciondesarrolloyfuturo.org,,,orgK990445678921,9990000078,1,15993,2
+Spain,Fundacian Esperanza,S221,www.fundacionesperanza.org,,,orgK990765432345,9990000248,2,55500,1
+Spain,Fundacian Futuro para Todos,S204,www.fundacionfuturopatodos.org,,,orgK990445678927,9990000101,1,16050,2
+Spain,Fundacian Futuro y Vida,S194,www.fundacionfuturoyvida.org,,,orgK990445678924,9990000091,1,15994,2
+Spain,Fundacian Integral de Salud,S140,www.fundacionintegraldesalud.org,,,orgK990556789014,9990000160,2,15988,2
+Spain,Fundacian Integral de Vida,S150,www.fundacionintegraldevida.org,,,orgK990556789017,9990000173,2,1598900,2
+Spain,Fundacian Luz,S230,www.fundacionluz.org,,,orgK991789012345,9990000252,2,16900,2
+Spain,Fundacian Luz y Vida,S220,www.fundacionluzvida.org,,,orgK998765432134,9990000110,1,15500,2
+Spain,Fundacian Progreso Social,S134,www.fundacionprogresosocial.org,,,orgK990223456780,,0,0,0
+Spain,Fundacian Progreso y Salud,S124,www.fundacionprogresoysalud.org,,,orgK990223456789,,0,0,0
+Spain,Fundacian Renueva,S224,www.fundacionrenueva.org,,,orgK991098765432,9990000116,1,17900,2
+Spain,Fundacian Salud Total,S121,www.fundacionsaludtotal.org,,,,9990000142,2,1467800,0
+Spain,Fundacian Salud y Bienestar,S191,www.fundacionsaludybienestar.org,,,orgK990223456793,9990000221,2,14685,1
+Spain,Fundacian Salud y Vida,S131,www.fundacionsaludyvida.org,,,,9990000156,2,14679,0
+Spain,Fundacian Vida Activa,S180,www.fundacionvidaactiva.com,,,orgK998765432118,9990000069,1,15329,2
+Spain,Fundacian Vida en Plenitud,S190,www.fundacionvidaenplenitud.org,,,orgK998765432122,9990000081,1,15332,2
+Spain,Fundacian Vida Integral,S160,www.fundacionvidaintegral.org,,,orgK990556789021,9990000186,2,45990,2
+Spain,Fundacian Vida Nueva,S101,www.fundacionvidanueva.org,,,,9990000016,1,14876,1
+Spain,Fundacian Vida Plena,S141,www.fundacionvidaplena.org,,,,9990000169,2,14680,0
+Spain,Fundacian Vida Saludable,S151,www.fundacionvidasaludable.org,,,,9990000182,2,14681,0
+Spain,Fundacian Vida Sana,S201,www.fundacionvidasana.org,,,orgK990223456796,9990000232,2,14790,1
+Spain,Fundacian Vida y Futuro,S210,www.fundacionvidayfuturo.org,,,orgK998765432130,9990000104,1,55450,2
+Spain,Fundacian Vida y Salud,S200,www.fundacionvidaysalud.org,,,orgK998765432126,9990000094,1,15335,2
+Spain,Fundacion Esperanza Solidaria,S005,www.fundacionesperanzasolidaria.org,,,orgK990112345678,9990000008,1,17890,0
+Spain,Fundacion Esperanza y Futuro,S009,www.fundacionesperanzayfuturo.org,,,orgK990556789012,9990000009,1,19234,0
+Spain,Fundacion Luz de Esperanza,S001,,,,,9990000122,2,24509,0
+Spain,Fundacion Luz y Esperanza,S013,www.fundacionluzyesperanza.org,,,orgK991001234567,9990000130,2,17321,0
+USA,Future Health Initiative,U008,www.futurehealthinitiative.org,,,,9990000132,2,19876,0
+USA,Future Wellness Foundation,U228,www.futurewellnessfoundation.org,,,orgK991678901243,9990000120,1,77800,2
+USA,Futures for Care,U147,www.futuresforcare.org,,,orgK990334567896,9990000050,1,17656,0
+USA,Futures for Health,U127,www.futuresforhealth.org,,,orgK990334567890,9990000028,1,17654,0
+USA,Futures for Health and Care,U177,www.futuresforhealthandcare.com,,,,9990000203,2,87660,1
+USA,Futures for Health and Wellness,U157,www.futuresforhealthandwellness.org,,,orgK990334567900,9990000060,1,17657,1
+USA,Futures for Health Network,U197,www.futuresforhealthnetwork.org,,,,9990000227,2,17662,1
+USA,Futures for Wellness,U137,www.futuresforwellness.org,,,orgK990334567893,9990000039,1,17655,0
+USA,Global Care Alliance,U210,www.globalcarealliance.org,,,orgK998765432131,9990000108,1,15470,2
+USA,Global Care Foundation,U180,www.globalcarefoundation.com,,,orgK998765432119,9990000074,1,15331,2
+USA,Global Care Initiative,U200,www.globalcareinitiative.org,,,orgK998765432127,9990000097,1,15337,2
+USA,Global Care Solutions,U190,www.globalcaresolutions.org,,,orgK998765432123,9990000086,1,453340,2
+USA,Global Health and Care,U160,www.globalhealthandcare.org,,,orgK990556789022,9990000191,2,565460,1
+USA,Global Health Initiative,U101,www.globalhealthinitiative.org,,,,9990000137,2,13567,1
+USA,Global Health Network,U201,www.globalhealthnetwork.org,,,orgK990223456797,9990000236,2,16650,1
+USA,Global Health Organization,U150,www.globalhealthorganization.org,,,orgK990556789018,9990000177,2,16545,0
+USA,Global Health Partners,U130,www.globalhealthpartners.org,,,orgK990556789012,9990000151,2,76543,0
+USA,Global Wellness Foundation,U131,www.globalwellnessfoundation.org,,,,9990000161,2,16544,1
+USA,Global Wellness Health,U151,www.globalwellnesshealth.org,,,,9990000187,2,16546,1
+USA,Global Wellness Initiative,U121,www.globalwellnessinitiative.org,,,,9990000147,2,26543,1
+USA,Global Wellness Network,U181,www.globalwellnessnetwork.org,,,orgK990223456791,9990000212,2,16549,1
+USA,Global Wellness Partnership,U141,www.globalwellnesspartnership.org,,,,9990000174,2,36545,1
+USA,Global Wellness Society,U191,www.globalwellnesssociety.org,,,orgK990223456794,9990000225,2,16550,1
+USA,Health Alliance Network,U202,www.healthalliancenetwork.org,,,,9990000105,1,15460,2
+USA,Health and Care Alliance,U149,www.healthandcarealliance.org,,,,9990000051,1,1789200,0
+USA,Health and Care Foundation,U139,www.healthandcarefoundation.org,,,,9990000040,1,278910,0
+USA,Health and Care Network,U179,www.healthandcarenetwork.com,,,,9990000204,2,76549,1
+USA,Health and Wellness Alliance,U159,www.healthandwellnessalliance.org,,,,9990000061,1,17893,1
+USA,Health and Wellness Foundation,U129,www.healthandwellnessfoundation.org,,,,9990000029,1,1789000,0
+USA,Health and Wellness Network,U209,www.healthandwellnessnetwork.org,,,,9990000239,2,16660,1
+USA,Health and Wellness Solutions,U189,www.healthandwellnesssolutions.org,,,,9990000214,2,16550,1
+USA,Health Care Alliance,U122,www.healthcarealliance.org,,,,9990000026,1,4532400,0
+USA,Health Care United,U132,www.healthcareunited.org,,,,9990000037,1,153250,0
+USA,Health First Alliance,U227,www.healthfirstalliance.org,,,orgK991567890132,9990000255,2,18000,1
+USA,Health Network Alliance,U142,www.healthnetworkalliance.org,,,,9990000048,1,15326,0
+USA,Health Network Foundation,U152,www.healthnetworkfoundation.org,,,,9990000058,1,15327,1
+USA,Health Network Solutions,U182,www.healthnetworksolutions.org,,,,9990000082,1,15333,2
+USA,Health Network Support,U172,www.healthnetworksupport.com,,,,9990000070,1,15330,2
+USA,Health Solutions Group,U222,www.healthsolutionsgroup.org,,,orgK990987654321,9990000118,1,14100,2
+USA,Hope America Foundation,U133,www.hopeamericafoundation.org,,,orgK990112345679,9990000162,2,14877,0
+USA,Hope and Healing Foundation,U009,www.hopeandhealingfoundation.org,,,orgK990556789012,,0,0,0
+USA,Hope for a Better Future,U183,www.hopeforabetterfuture.org,,,orgK990334567913,9990000213,2,14882,1
+USA,Hope for a Healthy Future,U173,www.hopeforahealthyfuture.com,,,orgK990334567908,9990000201,2,14881,1
+USA,Hope for Health Foundation,U102,www.hopeforhealthfoundation.org,,,orgK991001234567,,0,0,0
+USA,Hope for Tomorrow Alliance,U203,www.hopefortomorrowalliance.org,,,orgK990334567921,9990000237,2,14960,1
+USA,Hope for Tomorrow Foundation,U153,www.hopefortomorrowfoundation.org,,,orgK990112345681,9990000188,2,14879,1
+USA,Hope Foundation America,U123,www.hopefoundationamerica.org,,,orgK990112345678,9990000148,2,14876,0
+Brazil,Hospice Santa Maria,B101,www.hospicesantamaria.com.br,,,orgK998765432109,9990000135,2,14523,0
+Brazil,Hospital da Boa EsperanASSa,B209,www.hospitaldaboaesperanca.com.br,,,orgK990889012360,9990000100,1,17770,1
+Brazil,Hospital da CrianASSa,B149,www.hospitaldacrianca.com.br,,,,9990000168,2,2476700,0
+Brazil,Hospital da EsperanASSa,B189,www.hospitaldaesperanca.com.br,,,orgK990889012353,9990000077,1,676610,1
+Brazil,Hospital da Luz,B129,www.hospitaldaluz.com.br,,,,9990000141,2,14765,0
+Brazil,Hospital da RedenASSapso,B199,www.hospitaldaredencao.com.br,,,orgK990889012356,9990000090,1,676620,1
+Brazil,Hospital da Saaode,B159,www.hospitaldasaude.com.br,,,,9990000181,2,14768,0
+Brazil,Hospital da Vida,B139,www.hospitaldavida.com.br,,,,9990000155,2,147660,0
+Brazil,Hospital das Clanicas,B225,www.hospitaldasclinicas.com.br,,,orgK998877665544,9990000245,2,18900,1
+Brazil,Hospital das Clinicas de Sao Paulo,B008,www.hospitaldasclinicas.com.br,,,orgK991234567890,,0,0,0
+Brazil,Hospital de Cancer de Barretos,B009,www.hospitaldecancerbarretos.com.br,,,,9990000124,2,17312,0
+Brazil,Hospital de Coracao de Sao Paulo,B013,www.hospitalcoracaosaopaulo.com.br,,,orgK996789012345,9990000007,1,12345,0
+Brazil,Hospital Israelita Albert Einstein,B010,www.hospitalalberteinstein.org.br,,,orgK993456789012,9990000006,1,16457,0
+Brazil,Hospital Nossa Senhora de FA!tima,B131,www.hospitalnossasenhoradefatima.com.br,,,orgK998765432112,9990000152,2,1423500,0
+Brazil,Hospital Santa Clara,B215,www.hospitalsantaclara.com.br,,,orgK990445678929,9990000242,2,18900,1
+Brazil,Hospital Santa Helena,B141,www.hospitalsantahelena.com.br,,,orgK998765432113,9990000165,2,14236,0
+Brazil,Hospital Santa Maria,B205,www.hospitalsantamaria.com.br,,,orgK990445678926,9990000229,2,18890,1
+Brazil,Hospital Santa Marta,B195,www.hospitalsantamarta.com.br,,,orgK990445678923,9990000217,2,18771,1
+Brazil,Hospital Santa Teresa,B185,www.hospitalsantateresa.com.br,,,orgK990445678920,9990000207,2,48770,1
+Brazil,Hospital Santo AntA'nio,B151,www.hospitalsantoantonio.com.br,,,orgK998765432114,9990000178,2,14237,0
+Brazil,Hospital Sao Luiz,B015,www.hospitalsaoluiz.com.br,,,,,0,0,0
+Brazil,Hospital Sapso Bento,B176,www.hospitalsaobento.com.br,,,,9990000194,2,15782,2
+Brazil,Hospital Sapso Domingos,B196,www.hospitalsaodomingos.com.br,,,,9990000218,2,15784,2
+Brazil,Hospital Sapso Francisco,B211,www.hospitalsaofrancisco.com.br,,,orgK998765432132,9990000240,2,644000,1
+Brazil,Hospital Sapso Gabriel,B186,www.hospitalsaogabriel.com.br,,,,9990000208,2,15783,2
+Brazil,Hospital Sapso Joapso,B121,www.hospitalsaojoao.com.br,,,orgK998765432111,9990000138,2,14234,0
+Brazil,Hospital Sapso Josac,B126,www.hospitalsaojose.com.br,,,,9990000140,2,18765,1
+Brazil,Hospital Sapso Lucas,B171,www.hospitalsaolucas.com.br,,,orgK998765432116,9990000192,2,14239,1
+Brazil,Hospital Sapso Luiz,B230,www.hospitalsaoluiz.com.br,,,orgK998432109876,9990000247,2,15200,2
+Brazil,Hospital Sapso Marcos,B146,www.hospitalsaomarcos.com.br,,,,9990000167,2,18766,1
+Brazil,Hospital Sapso Mateus,B191,www.hospitalsaomateus.com.br,,,orgK998765432124,9990000215,2,14241,1
+Brazil,Hospital Sapso Miguel,B156,www.hospitalsaomiguel.com.br,,,,9990000180,2,18767,1
+Brazil,Hospital Sapso Paulo Norte,B102,www.hospitalsaopaulonorte.com.br,,,orgK991234567890,,0,0,0
+Brazil,Hospital Sapso Pedro,B206,www.hospitalsaopedro.com.br,,,,9990000230,2,15890,2
+Brazil,Hospital Sapso Rafael,B136,www.hospitalsaorafael.com.br,,,,9990000154,2,18764,1
+Brazil,Hospital Sirio-Libanes,B011,www.hospitalsiriolibanes.com.br,,,orgK994567890123,,0,0,1
+Brazil,Hospital UniversitA!rio,B181,www.hospitaluniversitario.com.br,,,orgK998765432120,9990000205,2,64240,1
+Brazil,Hospital Vila Boa,B145,www.hospitalvilaboa.com.br,,,orgK990445678913,,0,0,2
+Brazil,Hospital Vila Clara,B155,www.hospitalvilaclara.com.br,,,orgK990445678914,,0,0,2
+Brazil,Hospital Vila Mariana,B125,www.hospitalvilamariana.com.br,,,orgK990334567890,,0,0,2
+Brazil,Hospital Vila Nova,B135,www.hospitalvilanova.com.br,,,orgK990445678902,,0,0,2
+Brazil,Instituto Brasileiro de Cardiologia,B172,www.institutobrasileirodecardiologia.com.br,,,,9990000062,1,15326,2
+Brazil,Instituto Brasileiro de Dermatologia,B192,www.institutobrasileirodedermatologia.com.br,,,,9990000087,1,35328,2
+Brazil,Instituto Brasileiro de Neurologia,B200,www.institutobrasileirodeneorologia.com.br,,,orgK998765432125,9990000220,2,16551,2
+Brazil,Instituto Brasileiro de Oftalmologia,B210,www.institutobrasileirodeoftalmologia.com.br,,,orgK998765432129,9990000231,2,16660,2
+Brazil,Instituto Brasileiro de Oncologia,B152,www.institutobrasileirodeoncologia.com.br,,,,9990000052,1,15324,2
+Brazil,Instituto Brasileiro de Saaode,B142,www.institutobrasileirodesaude.com.br,,,,9990000041,1,15323,2
+Brazil,Instituto de CAC/ncer Sapso Paulo,B103,www.institutodecancersp.com.br,,,,9990000015,1,13234,0
+Brazil,Instituto de Saaode Central,B224,www.institutosaude.com.br,,,orgK990889012345,9990000112,1,374000,2
+Brazil,Instituto de Saaode da Mulher,B227,www.institutosaudedamulher.com.br,,,orgK998765432144,9990000113,1,13500,1
+Brazil,Instituto do CoraASSapso Paulista,B132,www.institutodocoraopaulista.com.br,,,,9990000030,1,25322,2
+Brazil,Instituto do Coracao (InCor),B014,www.incor.org.br,,,orgK997890123456,9990000126,2,15234,1
+Brazil,Instituto Esperanca Brasil,B001,https://www.institutoesperancabrasil.org/,,,orgK990234984753,,0,12400,0
+Brazil,Instituto Nacional de Cardiologia,B182,www.institutonacionaldecardiologia.com.br,,,,9990000075,1,15327,2
+Brazil,Instituto Nacional de Oncologia,B202,www.institutonacionaldeoncologia.com.br,,,,9990000098,1,15430,2
+Brazil,Instituto Paulista de CAC/ncer,B127,www.institutopaulistadecancer.com.br,,,orgK990556789012,,0,0,0
+Brazil,Instituto Paulista de Cardiologia,B140,www.institutopaulistadecardiologia.com.br,,,orgK990889012346,9990000033,1,17653,1
+Brazil,Instituto Paulista de Endocrinologia,B160,www.institutopaulistadeendocrinologia.com.br,,,orgK990889012348,9990000055,1,1765700,1
+Brazil,Instituto Paulista de Ginecologia,B197,www.institutopaulistadeginecologia.com.br,,,orgK990556789034,9990000089,1,13553,1
+Brazil,Instituto Paulista de Hematologia,B147,www.institutopaulistadehematologia.com.br,,,orgK990556789015,,0,0,0
+Brazil,Instituto Paulista de Nefrologia,B150,www.institutopaulistadenefrologia.com.br,,,orgK990889012347,9990000044,1,37656,1
+Brazil,Instituto Paulista de Oftalmologia,B180,www.institutopaulistadeoftalmologia.com.br,,,orgK998765432117,9990000196,2,66548,2
+Brazil,Instituto Paulista de Oncologia,B137,www.institutopaulistadeoncologia.com.br,,,orgK990556789013,,0,0,0
+Brazil,Instituto Paulista de Pediatria,B177,www.institutopaulistadepediatria.com.br,,,orgK990556789027,9990000064,1,13551,1
+Brazil,Instituto Paulista de Reumatologia,B157,www.institutopaulistadereumatologia.com.br,,,orgK990556789019,,0,0,0
+Brazil,Instituto Paulista de Saaode,B130,www.institutopaulistadesaude.com.br,,,orgK990889012345,9990000022,1,17654,1
+Brazil,Instituto Paulista de Urologia,B207,www.institutopaulistadeurologia.com.br,,,orgK990556789037,9990000099,1,13650,1
+Brazil,Instituto Vida e Saaode,B122,www.institutovidaesaude.com.br,,,,9990000019,1,15321,2
+USA,National Care Network,U229,www.nationalcarenetwork.org,,,orgK991789012354,9990000256,2,16200,1
+USA,National Health and Wellness Network,U013,www.nationalhealthandwellness.org,,,orgK991001234567,9990000014,1,17234,0
+USA,National Health Initiative,U134,www.nationalhealthinitiative.org,,,,9990000038,1,53655,0
+USA,National Health Network,U124,www.nationalhealthnetwork.org,,,,9990000027,1,13654,0
+USA,National Health Organization,U154,www.nationalhealthorganization.org,,,,9990000059,1,236570,1
+USA,National Health Partners,U224,www.nationalhealthpartners.org,,,orgK991209876543,9990000119,1,15400,2
+USA,National Health Service,U174,www.nationalhealthservice.com,,,orgK990445678918,9990000071,1,13659,2
+USA,National Health Services,U184,www.nationalhealthservices.org,,,orgK990445678922,9990000083,1,13660,2
+USA,National Health Support,U144,www.nationalhealthsupport.org,,,,9990000049,1,13656,0
+USA,National Wellness Foundation,U005,www.nationalwellnessfoundation.org,,,orgK990112345678,9990000131,2,17984,0
+USA,National Wellness Initiative,U204,www.nationalwellnessinitiative.org,,,orgK990445678928,9990000106,1,13760,2
+USA,Nationwide Care Network,U128,www.nationwidecarenetwork.org,,,,9990000150,2,15467,1
+USA,Nationwide Health Alliance,U198,www.nationwidehealthalliance.org,,,orgK990889012358,9990000096,1,17898,2
+USA,Nationwide Health Foundation,U148,www.nationwidehealthfoundation.org,,,,9990000176,2,15469,1
+USA,Nationwide Health Initiative,U208,www.nationwidehealthinitiative.org,,,orgK990889012362,9990000107,1,17960,2
+USA,Nationwide Health Partners,U178,www.nationwidehealthpartners.com,,,orgK990889012352,9990000073,1,17896,2
+USA,Nationwide Health Support Network,U010,www.nationwidehealthsupport.org,,,,9990000013,1,13789,0
+USA,Nationwide Hope Foundation,U001,https://www.redsolidaridadespana.org/,,,orgK990678901234,9990000123,2,87000,0
+USA,Nationwide Wellness Initiative,U158,www.nationwidewellnessinitiative.org,,,,9990000190,2,15470,1
+USA,Nationwide Wellness Network,U138,www.nationwidewellnessnetwork.org,,,,9990000164,2,15468,1
+USA,Nationwide Wellness Partners,U188,www.nationwidewellnesspartners.org,,,orgK990889012355,9990000085,1,17897,2
+Brazil,Projeto Cidadania e Futuro,B006,https://www.associacaonovaesperanca.org/,,,orgK990345678901,9990000002,1,23089,0
+Spain,Red de Apoyo Integral,S011,www.redapoyointegral.org,,,,,0,0,1
+Spain,Red de Apoyo y Bienestar,S178,www.reddeapoyoybienestar.com,,,,9990000068,1,16759,2
+Spain,Red de Bienestar y Progreso,S148,www.reddebienestaryprogreso.org,,,,9990000172,2,17892,0
+Spain,Red de Progreso y Salud,S158,www.reddeprogresoysalud.org,,,,9990000185,2,17893,0
+Spain,Red de Salud Esperanza,S128,www.redsaludesperanza.org,,,,9990000145,2,17890,0
+Spain,Red de Salud Integral,S208,www.redsaludintegral.org,,,,9990000103,1,46850,2
+Spain,Red de Salud PAoblica,S198,www.reddesaludpublica.org,,,,9990000093,1,16761,2
+Spain,Red de Salud y Vida,S188,www.redsaludyvida.org,,,,9990000080,1,16760,2
+Spain,Red de Solidaridad y Progreso,S007,www.redsolidaridadyprogreso.org,,,,,0,0,2
+Spain,Red de Vida y Progreso,S138,www.reddevidayprogreso.org,,,,9990000159,2,17891,0
+Spain,Red Esperanza y Desarrollo,S015,www.redesperanzaydesarrollo.org,,,,9990000011,1,16342,1
+Spain,Red Solidaridad Espana,S002,https://www.projetocidadaniaefuturo.org/,,,orgK990234567890,,0,55000,0
+Brazil,Rede Solidariedade Brasil,B003,,,,orgK990876543210,,0,34100,0
+USA,Unified Care Alliance,U175,www.unifiedcarealliance.com,,,,9990000202,2,16347,1
+USA,Unified Care Network,U135,www.unifiedcarenetwork.org,,,,9990000163,2,36343,1
+USA,Unified Care Solutions,U011,www.unifiedcaresolutions.org,,,orgK990778901234,,0,0,2
+USA,Unified Health Network,U225,www.unifiedhealthnetwork.org,,,orgK991345678910,9990000254,2,36900,1
+USA,Unified Health Partners,U155,www.unifiedhealthpartners.org,,,,9990000189,2,16345,1
+USA,Unified Health Solutions,U125,www.unifiedhealthsolutions.org,,,,9990000149,2,16342,1
+USA,Unified Wellness Initiative,U145,www.unifiedwellnessinitiative.org,,,,9990000175,2,16344,1
+USA,Unified Wellness Partners,U205,www.unifiedwellnesspartners.org,,,,9990000238,2,16460,1
+USA,Unified Wellness Solutions,U195,www.unifiedwellnesssolutions.org,,,,9990000226,2,263490,1
+USA,United Care Initiative,U126,www.unitedcareinitiative.org,,,orgK990223456789,,0,0,0
+USA,United Care Network,U103,www.unitedcarenetwork.org,,,orgK991112345678,9990000018,1,1543200,0
+USA,United Community Aid Network,U002,,,,orgK990789012345,9990000259,3,34564,0
+USA,United Health Care Network,U006,www.unitedhealthcarenetwork.org,,,,9990000012,1,12456,0
+USA,United Health Partners,U136,www.unitedhealthpartners.org,,,orgK990223456781,,0,0,0
+USA,United Wellness Foundation,U176,www.unitedwellnessfoundation.com,,,orgK990556789029,9990000072,1,15472,2
+USA,United Wellness Initiative,U186,www.unitedwellnessinitiative.org,,,orgK990556789033,9990000084,1,15473,2
+USA,United Wellness Network,U196,www.unitedwellnessnetwork.org,,,orgK990556789036,9990000095,1,15475,2
+USA,Wellness Foundation of America,U223,www.wellnessfoundation.org,,,orgK991098765432,9990000253,2,17500,1
