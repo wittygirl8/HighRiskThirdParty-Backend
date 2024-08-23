@@ -1100,7 +1100,7 @@ class Deepdive:
             df_filtered = df[df['VendorNumber'] == payment_id]
             df_filtered = df_filtered[
                 ['ThirdPartyPaymentsLineId', 'InvoiceGIDate', 'PaymentType', 'PaymentSubtype', 'InvoiceLineAmountLocal',
-                 'AllText', 'Currency', 'VendorNumber', 'VendorName']]
+                 'BusinessActivity', 'Currency', 'VendorNumber', 'VendorName']]
             payments = df_filtered.sort_values(by='InvoiceGIDate')
             print("error", payments.columns)
             if not payments.empty:
@@ -1114,7 +1114,7 @@ class Deepdive:
                     x = '{:,.2f}'.format(row['InvoiceLineAmountLocal'])
                     print("type",type(x))
                     x=str(x)
-                    event_dict['description'] = x + ' ' + str(row['Currency']) + ' | ' + str(row['AllText'])  # format with thousands separaters and 2dp
+                    event_dict['description'] = x + ' ' + str(row['Currency']) + ' | ' + str(row['BusinessActivity'])  # format with thousands separaters and 2dp
                     timeline_list.append(event_dict)
 
             # def convert_to_date(date_str):
