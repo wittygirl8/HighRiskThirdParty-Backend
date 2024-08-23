@@ -85,7 +85,8 @@ class Deepdive:
             # get payment range
             currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
             # set default minimum to 1 and default to no max
-            payment_min = data['min'] if (data['min'] not in ('0', 'null')) else 1  # (10000 if country == 'usa' else 5000)
+            payment_min = data['min'] if (
+                    data['min'] not in ('0', 'null')) else 1  # (10000 if country == 'usa' else 5000)
             payment_max = data['max'] if (data['max'] not in ('0', 'null')) else None
 
             print("payment_max", payment_max)
@@ -162,10 +163,9 @@ class Deepdive:
             subqueryA = f"select hco_id, hcp_id from [app2].{edgeSource} where country = '{country}'"
 
             file_path = 'data/app2.vAllEdges.csv' if conn == 'weak' else 'data/app2.vStrongEdges.csv'
-            print('filepath',file_path)
+            print('filepath', file_path)
             df2 = pd.read_csv(file_path)
             df2['country'] = df2['country'].str.lower()
-
 
             if org == 'hco':
                 # Filter for Country records
@@ -174,7 +174,7 @@ class Deepdive:
                 # Perform self join on hcp_id and apply the condition hco_id_A < hco_id_B
                 result2 = df2.merge(df2, on='hcp_id', suffixes=('_A', '_B'))
                 print(result2)
-                print(result2[['hco_id_A','hco_id_B']])
+                print(result2[['hco_id_A', 'hco_id_B']])
                 result2 = result2[result2['hco_id_A'] != result2['hco_id_B']]
 
                 # Select and rename the required columns
@@ -266,13 +266,15 @@ class Deepdive:
                     "x": True,
                     "y": True
                 },
-                "label": "GSK",
-                "title": "GSK",
+                "label": "Company",
+                "title": "Company",
                 "color": "#fdfd00",
                 "size": 100,
+
                 "shape": "image",
-                "image": "https://www.mxp-webshop.de/media/image/20/82/24/GSK-Logo.png"
+                "image": "https://dieselpunkcore.com/wp-content/uploads/2014/06/logo-placeholder.png",
             }
+
             nodes_list.append(x)
 
             for rowIndex, row in base_nodes.iterrows():
@@ -354,7 +356,7 @@ class Deepdive:
             # if data["country"].strip().lower() == "usa":
             #     _ret = self.read_json("usa.json")
             # TILL HERE
-            print("data____________",data)
+            print("data____________", data)
             country = data['country']
             conn = data.get('connection')
             link = data.get('link')
@@ -371,7 +373,8 @@ class Deepdive:
             # print("payments___________", payments.head(3))
             # print("payments.shape[0]___", payments.shape[0])
             payments = payments.copy()  # Make a copy of the DataFrame
-            payments.loc[:, 'Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4, labels=['Q1', 'Q2', 'Q3', 'Q4'])
+            payments.loc[:, 'Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4,
+                                                  labels=['Q1', 'Q2', 'Q3', 'Q4'])
             payments = payments.copy()  # Make a copy of the DataFrame
             payments['Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4, labels=['Q1', 'Q2', 'Q3', 'Q4'])
             # print("payments_hgygg__________", payments)
@@ -388,7 +391,8 @@ class Deepdive:
 
             # payments = payments[payments['InvoiceLineAmountLocal']>=10000]
 
-            payments = payments[(payments['InvoiceLineAmountLocal'] >= min) & (payments['InvoiceLineAmountLocal'] <= max)]
+            payments = payments[
+                (payments['InvoiceLineAmountLocal'] >= min) & (payments['InvoiceLineAmountLocal'] <= max)]
             print(payments.shape[0])
             payments['VendorName'] = payments['VendorName'].str.lower()
             payments = payments[['VendorName']].drop_duplicates()
@@ -579,7 +583,7 @@ class Deepdive:
             print("merged_hco_payments_edges", merged_hco_payments_edges)
             merged_hco_payments_edges = merged_hco_payments_edges.fillna('')
             # Removing the connections back to GSK for now
-            for i,row in merged_hco_payments_edges.iterrows():
+            for i, row in merged_hco_payments_edges.iterrows():
                 edges_dict = dict()
 
                 edges_dict['to'] = row['from']
@@ -589,7 +593,7 @@ class Deepdive:
 
             hcp_edges = hcp_edges.fillna('')
             # print("hcp_edges", hcp_edges)
-            for i,row in hcp_edges.iterrows():
+            for i, row in hcp_edges.iterrows():
                 edges_dict = dict()
 
                 edges_dict['to'] = row['from']
@@ -618,12 +622,13 @@ class Deepdive:
                     "x": True,
                     "y": True
                 },
-                "label": "GSK",
-                "title": "GSK",
+                "label": "Company",
+                "title": "Company",
                 "color": "#fdfd00",
                 "size": 100,
+
                 "shape": "image",
-                "image": "https://www.mxp-webshop.de/media/image/20/82/24/GSK-Logo.png"
+                "image": "https://dieselpunkcore.com/wp-content/uploads/2014/06/logo-placeholder.png",
             }
             node_list.append(x)
 
@@ -705,7 +710,8 @@ class Deepdive:
 
                 # Load CSV files into pandas DataFrames
                 df_hco = pd.read_csv('data/app2.vHco.csv')  # Replace with the path to your vHco CSV
-                df_strong_edges = pd.read_csv('data/app2.vStrongEdges.csv')  # Replace with the path to your vStrongEdges CSV
+                df_strong_edges = pd.read_csv(
+                    'data/app2.vStrongEdges.csv')  # Replace with the path to your vStrongEdges CSV
 
                 # Filter the data for the specific country
                 df_hco_filtered = df_hco[df_hco['COUNTRY'] == country.upper()]
@@ -800,9 +806,9 @@ class Deepdive:
                 with open("./data/NewhcpNewsHeadlines.json", encoding='latin-1') as inputfile:
                     hcp_news = json.load(inputfile)
                 for i in final_node_list:
-                    #print("isNegative____________________________", i["title"])
+                    # print("isNegative____________________________", i["title"])
                     isNegative = self.get_negative_news(i["title"], hco_news, hcp_news, i["color"])
-                    #print("isNegative____________________________", isNegative)
+                    # print("isNegative____________________________", isNegative)
                     if isNegative:
                         neg_nodes_list.append(i)
                 graph['nodes'] = neg_nodes_list
@@ -835,7 +841,7 @@ class Deepdive:
                 iden = str(iden)
                 data_df['hcp_id'] = data_df['hcp_id'].astype(str)
                 filtered_df = data_df[data_df['hcp_id'] == iden]
-                print("filtered",filtered_df)
+                print("filtered", filtered_df)
             result_df = (filtered_df
                          .groupby(['hco_id', 'hcp_id'])
                          .size()
@@ -901,12 +907,13 @@ class Deepdive:
                     "x": True,
                     "y": True
                 },
-                "label": "GSK",
-                "title": "GSK",
+                "label": "Company",
+                "title": "Company",
                 "color": "#fdfd00",
-                "size": 75,
+                "size": 65,
+
                 "shape": "image",
-                "image": "https://www.mxp-webshop.de/media/image/20/82/24/GSK-Logo.png"
+                "image": "https://dieselpunkcore.com/wp-content/uploads/2014/06/logo-placeholder.png",
             }
             node_list.append(x)
             extra_edges_final = extra_edges_final.fillna('')
@@ -1050,7 +1057,7 @@ class Deepdive:
                 df = pd.read_csv('data/app2.vHCP.csv')
                 df['id'] = df['id'].astype(str)
                 df_filtered = df[df['id'] == iden]
-                print("found id",df_filtered)
+                print("found id", df_filtered)
                 entity = df_filtered[['hcp_name', 'payment_hcp_id']]
                 for i, row in entity.iterrows():
                     entity_name = row['hcp_name']
@@ -1112,9 +1119,10 @@ class Deepdive:
                     event_dict['date'] = str(row['InvoiceGIDate'])
                     event_dict['sortdate'] = row['InvoiceGIDate']
                     x = '{:,.2f}'.format(row['InvoiceLineAmountLocal'])
-                    print("type",type(x))
-                    x=str(x)
-                    event_dict['description'] = x + ' ' + str(row['Currency']) + ' | ' + str(row['AllText'])  # format with thousands separaters and 2dp
+                    print("type", type(x))
+                    x = str(x)
+                    event_dict['description'] = x + ' ' + str(row['Currency']) + ' | ' + str(
+                        row['AllText'])  # format with thousands separaters and 2dp
                     timeline_list.append(event_dict)
 
             # def convert_to_date(date_str):
@@ -1268,7 +1276,8 @@ class Deepdive:
                     currency = currency_mapping[row['Country'].lower()]
                     break
 
-            return_dict['totalPaymentMade'] = '{:,.2f}'.format(payment_amount) + ' ' + currency  # format with thousands separaters and 2dp
+            return_dict['totalPaymentMade'] = '{:,.2f}'.format(
+                payment_amount) + ' ' + currency  # format with thousands separaters and 2dp
 
             return_dict['totalInteraction'] = str(total_interactions)
             return_dict['selectedName'] = entity_name
