@@ -1487,6 +1487,7 @@ class Deepdive:
             df_filtered = df_filtered[
                 ['InteractionType', 'InteractionSubtype', 'InteractionTopic', 'ParentCallId', 'InteractionStart',
                  'HcpName']]
+            # df_filtered['InteractionStart'] = pd.to_datetime(df_filtered['InteractionStart'], format="%d-%m-%Y")
             interactions = df_filtered.sort_values(by='InteractionStart')
             if not interactions.empty:
                 for i, row in interactions.iterrows():
@@ -1495,9 +1496,11 @@ class Deepdive:
                     event_dict["tag"] = row['InteractionSubtype'] + ' with ' + row["HcpName"]
                     event_dict["category"] = row['InteractionType']
                     event_dict['date'] = str(row['InteractionStart'])
-                    event_dict['sortdate'] = row['InteractionStart']
+                    event_dict['sortdate'] = datetime.date.fromtimestamp(
+                        datetime.datetime.strptime(row['InteractionStart'], "%d-%m-%Y").timestamp())
                     event_dict['description'] = row['ParentCallId'] + ' | ' + row['InteractionTopic']
                     timeline_list.append(event_dict)
+                    print('sort', event_dict['sortdate'])
 
             # payments
             df = pd.read_csv('data/app2.vPayments.csv')
@@ -1514,8 +1517,10 @@ class Deepdive:
                     event_dict["tag"] = str(row['PaymentSubtype']) + ' for ' + str(row["VendorName"])
                     event_dict["category"] = row['PaymentType']
                     event_dict['date'] = str(row['InvoiceGIDate'])
-                    event_dict['sortdate'] = row['InvoiceGIDate']
+                    event_dict['sortdate'] = datetime.date.fromtimestamp(
+                        datetime.datetime.strptime(row['InvoiceGIDate'], "%d-%m-%Y").timestamp())
                     x = '{:,.2f}'.format(row['InvoiceLineAmountLocal'])
+                    print(type(event_dict['sortdate']))
                     print("type", type(x))
                     x = str(x)
                     event_dict['description'] = x + ' ' + str(row['Currency']) + ' | ' + str(
@@ -1537,9 +1542,9 @@ class Deepdive:
             # for item in timeline_list:
             #     item['sortdate'] = convert_to_date(item['sortdate'])
             #
-            # newlist = sorted(timeline_list, key=lambda d: d['sortdate'])
-            # _ret = newlist
-            _ret = timeline_list
+            newlist = sorted(timeline_list, key=lambda d: d['sortdate'])
+            _ret = newlist
+            # _ret = timeline_list
             print(_ret)
             return True, "timeline", _ret
 
