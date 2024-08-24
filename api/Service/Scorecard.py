@@ -129,6 +129,7 @@ class Scorecard:
                 return False, "Invalid country"
             value_to_find = 'B003'
             columns_with_value = data_df.columns[data_df.apply(lambda col: value_to_find in col.values)]
+            print("columns_with_value[0]", columns_with_value)
             data_df = data_df.rename(columns={columns_with_value[0]: 'ID'})
             data_df['InvoiceLineAmountLocal'] = pd.to_numeric(data_df['InvoiceLineAmountLocal'], errors='coerce')
             # Filter data based on provided country and organization type

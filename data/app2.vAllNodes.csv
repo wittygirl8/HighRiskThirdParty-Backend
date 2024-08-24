@@ -1,1317 +1,1317 @@
 ID,country,Name,NodeType,InteractionId,PaymentId,PaymentCount,PaymentAmount,InteractionCount
-B007,Brazil,Alianca Social Brasileira,HCO,exist,9990000258.0,3,999,1
-U007,USA,American Care Alliance,HCO,exist,,0,0,1
-U003,USA,American Heart of Service,HCO,exist,9990000005.0,1,4335,2
-U014,USA,American Wellness Partners,HCO,exist,,0,0,2
-S149,Spain,Asociacian de Bienestar Integral,HCO,NULL,9990000047.0,1,56756,0
-S159,Spain,Asociacian de Bienestar Social,HCO,NULL,9990000057.0,1,167570,0
-S179,Spain,Asociacian de Salud Integral,HCO,exist,9990000200.0,2,14881,1
-S199,Spain,Asociacian de Salud y Vida,HCO,exist,9990000224.0,2,14883,1
-S139,Spain,Asociacian de Vida y Bienestar,HCO,NULL,9990000036.0,1,16755,0
-S209,Spain,Asociacian de Vida y Salud,HCO,exist,9990000235.0,2,14950,1
-S185,Spain,Asociacian Esperanza para Todos,HCO,exist,9990000210.0,2,17660,1
-S175,Spain,Asociacian Esperanza Renaciente,HCO,exist,9990000198.0,2,1765900,1
-S195,Spain,Asociacian Esperanza Renueva,HCO,exist,9990000222.0,2,17661,1
-S125,Spain,Asociacian Esperanza Viva,HCO,NULL,9990000024.0,1,1765400,0
-S145,Spain,Asociacian Esperanza y Vida,HCO,NULL,9990000046.0,1,17656,0
-S229,Spain,Asociacian Futuro Salud,HCO,exist,9990000117.0,1,28200,1
-S132,Spain,Asociacian Nueva Esperanza,HCO,NULL,9990000034.0,1,35468,0
-S142,Spain,Asociacian Nuevas Oportunidades,HCO,NULL,9990000045.0,1,15469,0
-S172,Spain,Asociacian Nuevas Perspectivas,HCO,exist,9990000065.0,1,754720,2
-S152,Spain,Asociacian Nuevas Vidas,HCO,NULL,9990000056.0,1,15470,0
-S103,Spain,Asociacian Progreso y Salud,HCO,NULL,9990000017.0,1,16345,0
-S129,Spain,Asociacian Progreso y Vida,HCO,NULL,9990000025.0,1,36754,0
-S223,Spain,Asociacian Salud y Futuro,HCO,exist,9990000249.0,2,36200,1
-S122,Spain,Asociacian Vida Plena,HCO,NULL,9990000023.0,1,15467,0
-S226,Spain,Asociacian Vitalidad,HCO,exist,9990000251.0,2,46000,2
-S135,Spain,Asociacian Viva la Vida,HCO,NULL,9990000035.0,1,17653,0
-S008,Spain,Asociacion Nueva Luz,HCO,NULL,9990000128.0,2,15543,0
-S012,Spain,Asociacion Progreso Solidario,HCO,NULL,9990000010.0,1,12123,0
-S004,Spain,Asociacion Progreso y Bienestar,HCO,exist,9990000004.0,1,3234,2
-B005,Brazil,Associacao Nova Esperanca,HCO,NULL,9990000001.0,1,2340,0
-U004,USA,Bright Future Initiative,HCO,exist,9990000260.0,3,53320,1
-U012,USA,Bright Horizons Health Foundation,HCO,NULL,9990000133.0,2,14567,0
-B223,Brazil,Centro Clanico Rio Grande,HCO,exist,9990000244.0,2,16300,1
-B004,Brazil,Centro de Acao Humanitaria do Amazonas,HCO,exist,9990000257.0,3,2210000,1
-S010,Spain,Centro de Accion Social Esperanza,HCO,exist,9990000129.0,2,16543,2
-S003,Spain,Centro de Accion Social Iberia,HCO,NULL,9990000003.0,1,78900,0
-S102,Spain,Centro de Apoyo Esperanza,HCO,NULL,9990000136.0,2,15234,0
-S006,Spain,Centro de Apoyo y Esperanza,HCO,NULL,9990000127.0,2,14678,0
-S176,Spain,Centro de Bienestar Comunitario,HCO,exist,9990000067.0,1,54572,2
-S206,Spain,Centro de Bienestar Familiar,HCO,exist,9990000102.0,1,34650,2
-S186,Spain,Centro de Bienestar Integral,HCO,exist,9990000079.0,1,345730,2
-S196,Spain,Centro de Bienestar Social,HCO,exist,9990000092.0,1,14574,2
-S146,Spain,Centro de Bienestar y Salud,HCO,NULL,9990000171.0,2,14569,0
-S014,Spain,Centro de Bienestar y Solidaridad,HCO,NULL,,0,0,0
-S156,Spain,Centro de Bienestar y Vida,HCO,NULL,9990000184.0,2,14570,0
-B229,Brazil,Centro de ReabilitaASSapso Brasil,HCO,exist,9990000114.0,1,47900,1
-S123,Spain,Centro de Rehabilitacian Esperanza,HCO,exist,9990000143.0,2,14321,1
-S143,Spain,Centro de Rehabilitacian Integral,HCO,exist,9990000170.0,2,44323,1
-S173,Spain,Centro de Rehabilitacian Nueva Vida,HCO,exist,9990000197.0,2,44326,1
-S203,Spain,Centro de Rehabilitacian San Juan,HCO,exist,9990000233.0,2,344500,1
-S183,Spain,Centro de Rehabilitacian Vida Nueva,HCO,exist,9990000209.0,2,14327,1
-S153,Spain,Centro de Rehabilitacian y Progreso,HCO,exist,9990000183.0,2,14324,1
-S133,Spain,Centro de Rehabilitacian y Vida,HCO,exist,9990000157.0,2,143220,1
-S126,Spain,Centro de Salud Integral,HCO,NULL,9990000144.0,2,14567,0
-S222,Spain,Centro de Salud Vida,HCO,exist,9990000115.0,1,24800,2
-S136,Spain,Centro de Salud y Esperanza,HCO,NULL,9990000158.0,2,14568,0
-B124,Brazil,Centro Macdico Santa Maria,HCO,NULL,9990000020.0,1,17654,0
-B214,Brazil,Centro Macdico Sapso Gabriel,HCO,exist,9990000109.0,1,77800,2
-B144,Brazil,Centro Macdico Sapso Joapso,HCO,NULL,9990000042.0,1,17656,0
-B134,Brazil,Centro Macdico Sapso Lucas,HCO,NULL,9990000031.0,1,67653,0
-B194,Brazil,Centro Macdico Sapso Marcos,HCO,exist,9990000088.0,1,17661,2
-B154,Brazil,Centro Macdico Sapso Mateus,HCO,NULL,9990000053.0,1,17657,0
-B184,Brazil,Centro Macdico Sapso Pedro,HCO,exist,9990000076.0,1,17660,2
-B174,Brazil,Centro Macdico Sapso Rafael,HCO,exist,9990000063.0,1,77659,2
-S225,Spain,Centro Macdico y Bienestar,HCO,exist,9990000250.0,2,78600,1
-B228,Brazil,Clanica Boa Saaode,HCO,exist,9990000246.0,2,14600,2
-B222,Brazil,Clanica Santa Maria,HCO,exist,9990000111.0,1,342000,2
-B143,Brazil,Clanica Sapso Benedito,HCO,NULL,9990000166.0,2,3345800,0
-B193,Brazil,Clanica Sapso Carlos,HCO,exist,9990000216.0,2,13463,1
-B128,Brazil,Clanica Sapso Francisco,HCO,NULL,9990000021.0,1,13546,0
-B153,Brazil,Clanica Sapso Gabriel,HCO,NULL,9990000179.0,2,13459,0
-B183,Brazil,Clanica Sapso Geraldo,HCO,exist,9990000206.0,2,13462,1
-B213,Brazil,Clanica Sapso Joapso,HCO,exist,9990000241.0,2,13600,1
-B138,Brazil,Clanica Sapso Jorge,HCO,NULL,9990000032.0,1,53547,0
-B173,Brazil,Clanica Sapso Josac,HCO,exist,9990000193.0,2,434610,1
-B123,Brazil,Clanica Sapso Judas,HCO,NULL,9990000139.0,2,13456,0
-B148,Brazil,Clanica Sapso Lucas,HCO,NULL,9990000043.0,1,13548,0
-B158,Brazil,Clanica Sapso Marcos,HCO,NULL,9990000054.0,1,13549,0
-B198,Brazil,Clanica Sapso Paulo,HCO,exist,9990000219.0,2,14772,2
-B133,Brazil,Clanica Sapso Pedro,HCO,NULL,9990000153.0,2,43457,0
-B218,Brazil,Clanica Sapso Rafael,HCO,exist,9990000243.0,2,14900,2
-B178,Brazil,Clanica Sapso Tomac,HCO,exist,9990000195.0,2,84770,2
-B203,Brazil,Clanica Sapso Vicente,HCO,exist,9990000228.0,2,13580,1
-U015,USA,Comprehensive Care Initiative,HCO,exist,9990000134.0,2,17543,1
-B012,Brazil,Fundacao Oswaldo Cruz (Fiocruz),HCO,NULL,9990000125.0,2,13789,0
-B002,Brazil,Fundacao Vida Verde,HCO,NULL,9990000121.0,2,23090,0
-S197,Spain,Fundacian Apoyo Vital,HCO,exist,9990000223.0,2,378970,1
-S207,Spain,Fundacian Apoyo y Salud,HCO,exist,9990000234.0,2,17950,1
-S130,Spain,Fundacian Bienestar Integral,HCO,exist,9990000146.0,2,45987,2
-S147,Spain,Fundacian Cuidado de Vida,HCO,exist,,0,0,2
-S157,Spain,Fundacian Cuidado Integral,HCO,exist,,0,0,2
-S187,Spain,Fundacian Cuidado Pleno,HCO,exist,9990000211.0,2,17896,1
-S177,Spain,Fundacian Cuidado Responsable,HCO,exist,9990000199.0,2,17895,1
-S137,Spain,Fundacian Cuidado Total,HCO,exist,,0,0,2
-S127,Spain,Fundacian de Cuidado Integral,HCO,exist,,0,0,2
-S144,Spain,Fundacian Desarrollo Social,HCO,NULL,,0,0,0
-S174,Spain,Fundacian Desarrollo Sustentable,HCO,exist,9990000066.0,1,15992,2
-S154,Spain,Fundacian Desarrollo y Bienestar,HCO,NULL,,0,0,0
-S184,Spain,Fundacian Desarrollo y Futuro,HCO,exist,9990000078.0,1,15993,2
-S221,Spain,Fundacian Esperanza,HCO,exist,9990000248.0,2,55500,1
-S204,Spain,Fundacian Futuro para Todos,HCO,exist,9990000101.0,1,16050,2
-S194,Spain,Fundacian Futuro y Vida,HCO,exist,9990000091.0,1,15994,2
-S140,Spain,Fundacian Integral de Salud,HCO,exist,9990000160.0,2,15988,2
-S150,Spain,Fundacian Integral de Vida,HCO,exist,9990000173.0,2,1598900,2
-S230,Spain,Fundacian Luz,HCO,exist,9990000252.0,2,16900,2
-S220,Spain,Fundacian Luz y Vida,HCO,exist,9990000110.0,1,15500,2
-S134,Spain,Fundacian Progreso Social,HCO,NULL,,0,0,0
-S124,Spain,Fundacian Progreso y Salud,HCO,NULL,,0,0,0
-S224,Spain,Fundacian Renueva,HCO,exist,9990000116.0,1,17900,2
-S121,Spain,Fundacian Salud Total,HCO,NULL,9990000142.0,2,1467800,0
-S191,Spain,Fundacian Salud y Bienestar,HCO,exist,9990000221.0,2,14685,1
-S131,Spain,Fundacian Salud y Vida,HCO,NULL,9990000156.0,2,14679,0
-S180,Spain,Fundacian Vida Activa,HCO,exist,9990000069.0,1,15329,2
-S190,Spain,Fundacian Vida en Plenitud,HCO,exist,9990000081.0,1,15332,2
-S160,Spain,Fundacian Vida Integral,HCO,exist,9990000186.0,2,45990,2
-S101,Spain,Fundacian Vida Nueva,HCO,exist,9990000016.0,1,14876,1
-S141,Spain,Fundacian Vida Plena,HCO,NULL,9990000169.0,2,14680,0
-S151,Spain,Fundacian Vida Saludable,HCO,NULL,9990000182.0,2,14681,0
-S201,Spain,Fundacian Vida Sana,HCO,exist,9990000232.0,2,14790,1
-S210,Spain,Fundacian Vida y Futuro,HCO,exist,9990000104.0,1,55450,2
-S200,Spain,Fundacian Vida y Salud,HCO,exist,9990000094.0,1,15335,2
-S005,Spain,Fundacion Esperanza Solidaria,HCO,NULL,9990000008.0,1,17890,0
-S009,Spain,Fundacion Esperanza y Futuro,HCO,NULL,9990000009.0,1,19234,0
-S001,Spain,Fundacion Luz de Esperanza,HCO,NULL,9990000122.0,2,24509,0
-S013,Spain,Fundacion Luz y Esperanza,HCO,NULL,9990000130.0,2,17321,0
-U008,USA,Future Health Initiative,HCO,NULL,9990000132.0,2,19876,0
-U228,USA,Future Wellness Foundation,HCO,exist,9990000120.0,1,77800,2
-U147,USA,Futures for Care,HCO,NULL,9990000050.0,1,17656,0
-U127,USA,Futures for Health,HCO,NULL,9990000028.0,1,17654,0
-U177,USA,Futures for Health and Care,HCO,exist,9990000203.0,2,87660,1
-U157,USA,Futures for Health and Wellness,HCO,exist,9990000060.0,1,17657,1
-U197,USA,Futures for Health Network,HCO,exist,9990000227.0,2,17662,1
-U137,USA,Futures for Wellness,HCO,NULL,9990000039.0,1,17655,0
-U210,USA,Global Care Alliance,HCO,exist,9990000108.0,1,15470,2
-U180,USA,Global Care Foundation,HCO,exist,9990000074.0,1,15331,2
-U200,USA,Global Care Initiative,HCO,exist,9990000097.0,1,15337,2
-U190,USA,Global Care Solutions,HCO,exist,9990000086.0,1,453340,2
-U160,USA,Global Health and Care,HCO,exist,9990000191.0,2,565460,1
-U101,USA,Global Health Initiative,HCO,exist,9990000137.0,2,13567,1
-U201,USA,Global Health Network,HCO,exist,9990000236.0,2,16650,1
-U150,USA,Global Health Organization,HCO,NULL,9990000177.0,2,16545,0
-U130,USA,Global Health Partners,HCO,NULL,9990000151.0,2,76543,0
-U131,USA,Global Wellness Foundation,HCO,exist,9990000161.0,2,16544,1
-U151,USA,Global Wellness Health,HCO,exist,9990000187.0,2,16546,1
-U121,USA,Global Wellness Initiative,HCO,exist,9990000147.0,2,26543,1
-U181,USA,Global Wellness Network,HCO,exist,9990000212.0,2,16549,1
-U141,USA,Global Wellness Partnership,HCO,exist,9990000174.0,2,36545,1
-U191,USA,Global Wellness Society,HCO,exist,9990000225.0,2,16550,1
-U202,USA,Health Alliance Network,HCO,exist,9990000105.0,1,15460,2
-U149,USA,Health and Care Alliance,HCO,NULL,9990000051.0,1,1789200,0
-U139,USA,Health and Care Foundation,HCO,NULL,9990000040.0,1,278910,0
-U179,USA,Health and Care Network,HCO,exist,9990000204.0,2,76549,1
-U159,USA,Health and Wellness Alliance,HCO,exist,9990000061.0,1,17893,1
-U129,USA,Health and Wellness Foundation,HCO,NULL,9990000029.0,1,1789000,0
-U209,USA,Health and Wellness Network,HCO,exist,9990000239.0,2,16660,1
-U189,USA,Health and Wellness Solutions,HCO,exist,9990000214.0,2,16550,1
-U122,USA,Health Care Alliance,HCO,NULL,9990000026.0,1,4532400,0
-U132,USA,Health Care United,HCO,NULL,9990000037.0,1,153250,0
-U227,USA,Health First Alliance,HCO,exist,9990000255.0,2,18000,1
-U142,USA,Health Network Alliance,HCO,NULL,9990000048.0,1,15326,0
-U152,USA,Health Network Foundation,HCO,exist,9990000058.0,1,15327,1
-U182,USA,Health Network Solutions,HCO,exist,9990000082.0,1,15333,2
-U172,USA,Health Network Support,HCO,exist,9990000070.0,1,15330,2
-U222,USA,Health Solutions Group,HCO,exist,9990000118.0,1,14100,2
-U133,USA,Hope America Foundation,HCO,NULL,9990000162.0,2,14877,0
-U009,USA,Hope and Healing Foundation,HCO,NULL,,0,0,0
-U183,USA,Hope for a Better Future,HCO,exist,9990000213.0,2,14882,1
-U173,USA,Hope for a Healthy Future,HCO,exist,9990000201.0,2,14881,1
-U102,USA,Hope for Health Foundation,HCO,NULL,,0,0,0
-U203,USA,Hope for Tomorrow Alliance,HCO,exist,9990000237.0,2,14960,1
-U153,USA,Hope for Tomorrow Foundation,HCO,exist,9990000188.0,2,14879,1
-U123,USA,Hope Foundation America,HCO,NULL,9990000148.0,2,14876,0
-B101,Brazil,Hospice Santa Maria,HCO,NULL,9990000135.0,2,14523,0
-B209,Brazil,Hospital da Boa EsperanASSa,HCO,exist,9990000100.0,1,17770,1
-B149,Brazil,Hospital da CrianASSa,HCO,NULL,9990000168.0,2,2476700,0
-B189,Brazil,Hospital da EsperanASSa,HCO,exist,9990000077.0,1,676610,1
-B129,Brazil,Hospital da Luz,HCO,NULL,9990000141.0,2,14765,0
-B199,Brazil,Hospital da RedenASSapso,HCO,exist,9990000090.0,1,676620,1
-B159,Brazil,Hospital da Saaode,HCO,NULL,9990000181.0,2,14768,0
-B139,Brazil,Hospital da Vida,HCO,NULL,9990000155.0,2,147660,0
-B225,Brazil,Hospital das Clanicas,HCO,exist,9990000245.0,2,18900,1
-B008,Brazil,Hospital das Clinicas de Sao Paulo,HCO,NULL,,0,0,0
-B009,Brazil,Hospital de Cancer de Barretos,HCO,NULL,9990000124.0,2,17312,0
-B013,Brazil,Hospital de Coracao de Sao Paulo,HCO,NULL,9990000007.0,1,12345,0
-B010,Brazil,Hospital Israelita Albert Einstein,HCO,NULL,9990000006.0,1,16457,0
-B131,Brazil,Hospital Nossa Senhora de FA!tima,HCO,NULL,9990000152.0,2,1423500,0
-B215,Brazil,Hospital Santa Clara,HCO,exist,9990000242.0,2,18900,1
-B141,Brazil,Hospital Santa Helena,HCO,NULL,9990000165.0,2,14236,0
-B205,Brazil,Hospital Santa Maria,HCO,exist,9990000229.0,2,18890,1
-B195,Brazil,Hospital Santa Marta,HCO,exist,9990000217.0,2,18771,1
-B185,Brazil,Hospital Santa Teresa,HCO,exist,9990000207.0,2,48770,1
-B151,Brazil,Hospital Santo AntA'nio,HCO,NULL,9990000178.0,2,14237,0
-B015,Brazil,Hospital Sao Luiz,HCO,NULL,,0,0,0
-B176,Brazil,Hospital Sapso Bento,HCO,exist,9990000194.0,2,15782,2
-B196,Brazil,Hospital Sapso Domingos,HCO,exist,9990000218.0,2,15784,2
-B211,Brazil,Hospital Sapso Francisco,HCO,exist,9990000240.0,2,644000,1
-B186,Brazil,Hospital Sapso Gabriel,HCO,exist,9990000208.0,2,15783,2
-B121,Brazil,Hospital Sapso Joapso,HCO,NULL,9990000138.0,2,14234,0
-B126,Brazil,Hospital Sapso Josac,HCO,exist,9990000140.0,2,18765,1
-B171,Brazil,Hospital Sapso Lucas,HCO,exist,9990000192.0,2,14239,1
-B230,Brazil,Hospital Sapso Luiz,HCO,exist,9990000247.0,2,15200,2
-B146,Brazil,Hospital Sapso Marcos,HCO,exist,9990000167.0,2,18766,1
-B191,Brazil,Hospital Sapso Mateus,HCO,exist,9990000215.0,2,14241,1
-B156,Brazil,Hospital Sapso Miguel,HCO,exist,9990000180.0,2,18767,1
-B102,Brazil,Hospital Sapso Paulo Norte,HCO,NULL,,0,0,0
-B206,Brazil,Hospital Sapso Pedro,HCO,exist,9990000230.0,2,15890,2
-B136,Brazil,Hospital Sapso Rafael,HCO,exist,9990000154.0,2,18764,1
-B011,Brazil,Hospital Sirio-Libanes,HCO,exist,,0,0,1
-B181,Brazil,Hospital UniversitA!rio,HCO,exist,9990000205.0,2,64240,1
-B145,Brazil,Hospital Vila Boa,HCO,exist,,0,0,2
-B155,Brazil,Hospital Vila Clara,HCO,exist,,0,0,2
-B125,Brazil,Hospital Vila Mariana,HCO,exist,,0,0,2
-B135,Brazil,Hospital Vila Nova,HCO,exist,,0,0,2
-B172,Brazil,Instituto Brasileiro de Cardiologia,HCO,exist,9990000062.0,1,15326,2
-B192,Brazil,Instituto Brasileiro de Dermatologia,HCO,exist,9990000087.0,1,35328,2
-B200,Brazil,Instituto Brasileiro de Neurologia,HCO,exist,9990000220.0,2,16551,2
-B210,Brazil,Instituto Brasileiro de Oftalmologia,HCO,exist,9990000231.0,2,16660,2
-B152,Brazil,Instituto Brasileiro de Oncologia,HCO,exist,9990000052.0,1,15324,2
-B142,Brazil,Instituto Brasileiro de Saaode,HCO,exist,9990000041.0,1,15323,2
-B103,Brazil,Instituto de CAC/ncer Sapso Paulo,HCO,NULL,9990000015.0,1,13234,0
-B224,Brazil,Instituto de Saaode Central,HCO,exist,9990000112.0,1,374000,2
-B227,Brazil,Instituto de Saaode da Mulher,HCO,exist,9990000113.0,1,13500,1
-B132,Brazil,Instituto do CoraASSapso Paulista,HCO,exist,9990000030.0,1,25322,2
-B014,Brazil,Instituto do Coracao (InCor),HCO,exist,9990000126.0,2,15234,1
-B001,Brazil,Instituto Esperanca Brasil,HCO,NULL,,0,12400,0
-B182,Brazil,Instituto Nacional de Cardiologia,HCO,exist,9990000075.0,1,15327,2
-B202,Brazil,Instituto Nacional de Oncologia,HCO,exist,9990000098.0,1,15430,2
-B127,Brazil,Instituto Paulista de CAC/ncer,HCO,NULL,,0,0,0
-B140,Brazil,Instituto Paulista de Cardiologia,HCO,exist,9990000033.0,1,17653,1
-B160,Brazil,Instituto Paulista de Endocrinologia,HCO,exist,9990000055.0,1,1765700,1
-B197,Brazil,Instituto Paulista de Ginecologia,HCO,exist,9990000089.0,1,13553,1
-B147,Brazil,Instituto Paulista de Hematologia,HCO,NULL,,0,0,0
-B150,Brazil,Instituto Paulista de Nefrologia,HCO,exist,9990000044.0,1,37656,1
-B180,Brazil,Instituto Paulista de Oftalmologia,HCO,exist,9990000196.0,2,66548,2
-B137,Brazil,Instituto Paulista de Oncologia,HCO,NULL,,0,0,0
-B177,Brazil,Instituto Paulista de Pediatria,HCO,exist,9990000064.0,1,13551,1
-B157,Brazil,Instituto Paulista de Reumatologia,HCO,NULL,,0,0,0
-B130,Brazil,Instituto Paulista de Saaode,HCO,exist,9990000022.0,1,17654,1
-B207,Brazil,Instituto Paulista de Urologia,HCO,exist,9990000099.0,1,13650,1
-B122,Brazil,Instituto Vida e Saaode,HCO,exist,9990000019.0,1,15321,2
-U229,USA,National Care Network,HCO,exist,9990000256.0,2,16200,1
-U013,USA,National Health and Wellness Network,HCO,NULL,9990000014.0,1,17234,0
-U134,USA,National Health Initiative,HCO,NULL,9990000038.0,1,53655,0
-U124,USA,National Health Network,HCO,NULL,9990000027.0,1,13654,0
-U154,USA,National Health Organization,HCO,exist,9990000059.0,1,236570,1
-U224,USA,National Health Partners,HCO,exist,9990000119.0,1,15400,2
-U174,USA,National Health Service,HCO,exist,9990000071.0,1,13659,2
-U184,USA,National Health Services,HCO,exist,9990000083.0,1,13660,2
-U144,USA,National Health Support,HCO,NULL,9990000049.0,1,13656,0
-U005,USA,National Wellness Foundation,HCO,NULL,9990000131.0,2,17984,0
-U204,USA,National Wellness Initiative,HCO,exist,9990000106.0,1,13760,2
-U128,USA,Nationwide Care Network,HCO,exist,9990000150.0,2,15467,1
-U198,USA,Nationwide Health Alliance,HCO,exist,9990000096.0,1,17898,2
-U148,USA,Nationwide Health Foundation,HCO,exist,9990000176.0,2,15469,1
-U208,USA,Nationwide Health Initiative,HCO,exist,9990000107.0,1,17960,2
-U178,USA,Nationwide Health Partners,HCO,exist,9990000073.0,1,17896,2
-U010,USA,Nationwide Health Support Network,HCO,NULL,9990000013.0,1,13789,0
-U001,USA,Nationwide Hope Foundation,HCO,NULL,9990000123.0,2,87000,0
-U158,USA,Nationwide Wellness Initiative,HCO,exist,9990000190.0,2,15470,1
-U138,USA,Nationwide Wellness Network,HCO,exist,9990000164.0,2,15468,1
-U188,USA,Nationwide Wellness Partners,HCO,exist,9990000085.0,1,17897,2
-B006,Brazil,Projeto Cidadania e Futuro,HCO,NULL,9990000002.0,1,23089,0
-S011,Spain,Red de Apoyo Integral,HCO,exist,,0,0,1
-S178,Spain,Red de Apoyo y Bienestar,HCO,exist,9990000068.0,1,16759,2
-S148,Spain,Red de Bienestar y Progreso,HCO,NULL,9990000172.0,2,17892,0
-S158,Spain,Red de Progreso y Salud,HCO,NULL,9990000185.0,2,17893,0
-S128,Spain,Red de Salud Esperanza,HCO,NULL,9990000145.0,2,17890,0
-S208,Spain,Red de Salud Integral,HCO,exist,9990000103.0,1,46850,2
-S198,Spain,Red de Salud PAoblica,HCO,exist,9990000093.0,1,16761,2
-S188,Spain,Red de Salud y Vida,HCO,exist,9990000080.0,1,16760,2
-S007,Spain,Red de Solidaridad y Progreso,HCO,exist,,0,0,2
-S138,Spain,Red de Vida y Progreso,HCO,NULL,9990000159.0,2,17891,0
-S015,Spain,Red Esperanza y Desarrollo,HCO,exist,9990000011.0,1,16342,1
-S002,Spain,Red Solidaridad Espana,HCO,NULL,,0,55000,0
-B003,Brazil,Rede Solidariedade Brasil,HCO,NULL,,0,34100,0
-U175,USA,Unified Care Alliance,HCO,exist,9990000202.0,2,16347,1
-U135,USA,Unified Care Network,HCO,exist,9990000163.0,2,36343,1
-U011,USA,Unified Care Solutions,HCO,exist,,0,0,2
-U225,USA,Unified Health Network,HCO,exist,9990000254.0,2,36900,1
-U155,USA,Unified Health Partners,HCO,exist,9990000189.0,2,16345,1
-U125,USA,Unified Health Solutions,HCO,exist,9990000149.0,2,16342,1
-U145,USA,Unified Wellness Initiative,HCO,exist,9990000175.0,2,16344,1
-U205,USA,Unified Wellness Partners,HCO,exist,9990000238.0,2,16460,1
-U195,USA,Unified Wellness Solutions,HCO,exist,9990000226.0,2,263490,1
-U126,USA,United Care Initiative,HCO,NULL,,0,0,0
-U103,USA,United Care Network,HCO,NULL,9990000018.0,1,1543200,0
-U002,USA,United Community Aid Network,HCO,NULL,9990000259.0,3,34564,0
-U006,USA,United Health Care Network,HCO,NULL,9990000012.0,1,12456,0
-U136,USA,United Health Partners,HCO,NULL,,0,0,0
-U176,USA,United Wellness Foundation,HCO,exist,9990000072.0,1,15472,2
-U186,USA,United Wellness Initiative,HCO,exist,9990000084.0,1,15473,2
-U196,USA,United Wellness Network,HCO,exist,9990000095.0,1,15475,2
-U223,USA,Wellness Foundation of America,HCO,exist,9990000253.0,2,17500,1
-1059,BRAZIL,Camila Araujo,HCP,NULL,,0,0,0
-1137,BRAZIL,Leonardo Silva Gomez,HCP,exist,93300071.0,3,13248,1
-1298,BRAZIL,Andre Oliveira,HCP,NULL,,0,0,0
-1406,BRAZIL,Diego Pereira,HCP,NULL,93300035.0,2,72160,0
-1823,BRAZIL,Eduardo Martins,HCP,exist,93300379.0,5,17964,3
-1836,BRAZIL,Sofia Ramirez,HCP,NULL,,0,0,0
-1924,BRAZIL,Carla Fernandez,HCP,NULL,,0,0,0
-2047,BRAZIL,Gustavo Rocha,HCP,NULL,,0,0,0
-2132,BRAZIL,Roberta Souza,HCP,NULL,,0,0,0
-2261,BRAZIL,Vinicius Santos,HCP,NULL,93300142.0,4,57290,0
-2354,BRAZIL,Rafael Mateo Costa,HCP,NULL,93300001.0,1,14525,0
-2394,BRAZIL,Clara Moreira,HCP,exist,,0,0,1
-2456,BRAZIL,Daniel Ferreira,HCP,NULL,,0,0,0
-2553,BRAZIL,Lucas Santos Juan,HCP,exist,,0,0,2
-2578,BRAZIL,Julia Almeida,HCP,NULL,,0,0,0
-2634,BRAZIL,Alexandre Campos,HCP,NULL,93300005.0,1,94615,0
-2765,BRAZIL,Monique Lima,HCP,exist,,0,0,2
-2841,BRAZIL,Henrique Costa,HCP,NULL,,0,0,0
-2957,BRAZIL,Ana Paula Oliveira,HCP,NULL,,0,0,0
-2974,BRAZIL,Fernando Vargas,HCP,NULL,,0,0,0
-3078,BRAZIL,Felipe Martins,HCP,NULL,93300143.0,4,15678,0
-3189,BRAZIL,Natalia Ribeiro,HCP,NULL,,0,0,0
-3224,BRAZIL,Rodrigo Lima,HCP,exist,,0,0,3
-3317,BRAZIL,Erica Almeida,HCP,NULL,93300072.0,3,56170,0
-3547,BRAZIL,Juan Castillo,HCP,exist,93300022.0,1,2100,1
-3551,BRAZIL,Leticia Carvalho,HCP,exist,,0,0,1
-3678,BRAZIL,Everton Gomes,HCP,NULL,,0,0,0
-3749,BRAZIL,Ingrid Souza,HCP,NULL,93300036.0,2,15876,0
-3841,BRAZIL,Valentina Castillo,HCP,NULL,,0,0,0
-3857,BRAZIL,Elena Alvarez,HCP,exist,93300055.0,2,19500,2
-3881,BRAZIL,Luciano Pereira,HCP,NULL,,0,0,0
-3890,BRAZIL,Elena Julie Torres,HCP,NULL,,0,0,0
-3910,BRAZIL,Isabel Fernandez,HCP,NULL,,0,0,0
-3948,BRAZIL,Camila Morales,HCP,NULL,,0,0,0
-3972,BRAZIL,Alessandra Oliveira,HCP,NULL,,0,0,0
-4034,BRAZIL,Sergio Costa,HCP,exist,,0,0,2
-4146,BRAZIL,Gabriel Jean Pereira,HCP,NULL,,0,0,0
-4187,BRAZIL,Daniela Ribeiro,HCP,NULL,93300380.0,5,81760,0
-4278,BRAZIL,Isabel Morales,HCP,NULL,,0,0,0
-4295,BRAZIL,Joao Pedro Lima,HCP,NULL,,0,0,0
-4312,BRAZIL,Renata Goncalves,HCP,NULL,,0,0,0
-4456,BRAZIL,Matheus Silva,HCP,NULL,93300006.0,1,89470,0
-4459,BRAZIL,Camila Herrera,HCP,NULL,,0,0,0
-4568,BRAZIL,Priscila Almeida,HCP,exist,,0,0,1
-4612,BRAZIL,Emilio Torres,HCP,NULL,,0,0,0
-4689,BRAZIL,Rafael Oliveira,HCP,NULL,,0,0,0
-4721,BRAZIL,Livia Rocha,HCP,NULL,,0,0,0
-4722,BRAZIL,Sofia Vargas,HCP,exist,93300031.0,1,14500,1
-4762,BRAZIL,Julie Gabriel Pereira,HCP,NULL,,0,0,0
-4782,BRAZIL,Ana Laura Lima,HCP,NULL,,0,0,0
-4803,BRAZIL,Felipe Pereira,HCP,exist,93300062.0,2,36250,1
-4832,BRAZIL,Alan Ferreira,HCP,NULL,93300037.0,2,71760,0
-4842,BRAZIL,Gabriel Costa,HCP,NULL,,0,0,0
-4890,BRAZIL,Fernando Castillo,HCP,NULL,,0,0,0
-4909,BRAZIL,Lucas Santos Carlos,HCP,NULL,,0,0,0
-4910,BRAZIL,Aline Santos,HCP,exist,,0,0,3
-4936,BRAZIL,Emilio Castillo,HCP,exist,93300021.0,1,13500,1
-4948,BRAZIL,Isabel Garcia,HCP,NULL,,0,0,0
-4983,BRAZIL,Joao Silva,HCP,NULL,,0,0,0
-5043,BRAZIL,Carlos Eduardo Silva,HCP,NULL,,0,0,0
-5238,BRAZIL,Jorge Almeida,HCP,NULL,,0,0,0
-5346,BRAZIL,Sandra Mendes,HCP,exist,,0,0,2
-5479,BRAZIL,Thiago Fernandes,HCP,NULL,,0,0,0
-5493,BRAZIL,Daniel Ortiz,HCP,exist,93300049.0,2,4200,1
-5590,BRAZIL,Ana Clara Souza,HCP,NULL,93300144.0,4,68820,0
-5632,BRAZIL,Wellington Campos,HCP,NULL,,0,0,0
-5704,BRAZIL,Joaquin Ramirez,HCP,NULL,,0,0,0
-5731,BRAZIL,Laura Martinez,HCP,exist,93300029.0,1,14000,1
-5739,BRAZIL,JoAPSo Mateo Silva,HCP,exist,93300065.0,2,31000,1
-5781,BRAZIL,Fernanda Oliveira,HCP,NULL,,0,0,0
-5840,BRAZIL,Isabel Alvarez,HCP,NULL,,0,0,0
-5864,BRAZIL,Sofia Lee Fernandes,HCP,exist,93300061.0,2,32500,2
-5878,BRAZIL,Sofia Garcia,HCP,exist,93300086.0,3,37500,2
-5927,BRAZIL,Pedro Torres,HCP,NULL,,0,0,0
-6047,BRAZIL,Elena Costa Martinez,HCP,NULL,,0,0,0
-6402,BRAZIL,Ana Lima Julia,HCP,NULL,,0,0,0
-6939,BRAZIL,Mateo Fernandez,HCP,NULL,,0,0,0
-6948,BRAZIL,Valentina Ortiz,HCP,exist,93300051.0,2,20000,2
-6954,BRAZIL,Ana Oliveira Beatriz,HCP,exist,93300089.0,3,43000,3
-6975,BRAZIL,Isabel Almeida Hugo,HCP,exist,93300082.0,3,6750,2
-6984,BRAZIL,Sofia Fernandes,HCP,exist,93300064.0,2,34500,1
-6985,BRAZIL,Felipe Costa Silva,HCP,exist,93300087.0,3,8100,2
-6990,BRAZIL,Ana Lima Fernando,HCP,exist,93300092.0,3,40500,2
-6992,BRAZIL,Lucas Michael Lima,HCP,exist,93300160.0,4,46500,3
-6993,BRAZIL,Ana Oliveira,HCP,exist,93300161.0,4,46250,3
-7001,BRAZIL,Isabella Rodrigues Romero,HCP,exist,93300167.0,4,7850,3
-7005,BRAZIL,Maria Lee Hernandez,HCP,NULL,,0,0,0
-7025,BRAZIL,Gabriel David Almeida,HCP,NULL,,0,0,0
-7033,BRAZIL,Lucas Oliveira,HCP,NULL,,0,0,0
-7057,BRAZIL,Luciana Julie Santos,HCP,NULL,,0,0,0
-7073,BRAZIL,Gabriel Jean Almeida,HCP,NULL,,0,0,0
-7077,BRAZIL,Rafael Santos Beatriz,HCP,NULL,,0,0,0
-7085,BRAZIL,Luiz Gomez Almeida,HCP,NULL,,0,0,0
-7145,BRAZIL,Juan Ortiz,HCP,exist,93300017.0,1,9600,1
-7368,BRAZIL,Thiago Mateo Martins,HCP,NULL,93300033.0,2,16750,0
-7389,BRAZIL,Isabel Rodriguez,HCP,exist,93300054.0,2,20750,2
-7545,BRAZIL,Isabella Gomes,HCP,NULL,,0,0,0
-7666,BRAZIL,Pedro Souza,HCP,exist,93300032.0,2,9120,2
-7809,BRAZIL,Laura Vargas,HCP,NULL,,0,0,0
-7815,BRAZIL,Miguel Diaz,HCP,NULL,,0,0,0
-7921,BRAZIL,Laura Diaz Silva,HCP,NULL,,0,0,0
-7932,BRAZIL,Valentina Diaz,HCP,NULL,,0,0,0
-8001,BRAZIL,Isabella Rodrigues,HCP,exist,93300199.0,4,39250,3
-8005,BRAZIL,Maria Hernandez,HCP,exist,93300070.0,2,27000,2
-8009,BRAZIL,Lucas Mateo Costa,HCP,exist,93300114.0,3,36250,3
-8013,BRAZIL,Bruna Souza,HCP,exist,93300115.0,3,37250,3
-8017,BRAZIL,Renata Mateo Costa,HCP,exist,93300407.0,5,48000,4
-8021,BRAZIL,Gustavo Lima,HCP,exist,93300117.0,3,34500,3
-8025,BRAZIL,Gabriel Pedro Almeida,HCP,exist,93300206.0,4,8750,3
-8029,BRAZIL,Larissa Silva,HCP,exist,93300119.0,3,7400,3
-8033,BRAZIL,Lucas Torres Oliveira,HCP,exist,93300209.0,4,8350,3
-8037,BRAZIL,Rodrigo Silva,HCP,exist,93300411.0,5,9850,4
-8041,BRAZIL,Beatriz Almeida,HCP,exist,93300213.0,4,44250,3
-8045,BRAZIL,Camila Oliveira,HCP,exist,93300120.0,3,34000,3
-8049,BRAZIL,Ricardo Lima,HCP,exist,93300414.0,5,9300,4
-8053,BRAZIL,Sofia Almeida,HCP,exist,93300218.0,4,44500,3
-8057,BRAZIL,Luciana Santos,HCP,exist,93300416.0,5,48000,4
-8061,BRAZIL,Gabriela Pereira,HCP,exist,93300222.0,4,44000,3
-8065,BRAZIL,Larissa Lima,HCP,exist,93300224.0,4,43750,3
-8069,BRAZIL,Isabella Rocha,HCP,exist,93300227.0,4,44500,3
-8073,BRAZIL,Gabriel Almeida,HCP,exist,93300420.0,5,48000,4
-8077,BRAZIL,Rafael Juan Santos,HCP,exist,93300231.0,4,43750,3
-8081,BRAZIL,Beatriz Lima,HCP,exist,93300422.0,5,9550,4
-8085,BRAZIL,Luiz Almeida,HCP,exist,93300234.0,4,8700,3
-8089,BRAZIL,Lucas Lima Lucus,HCP,exist,93300424.0,5,46500,4
-8093,BRAZIL,Sofia Costa,HCP,exist,93300238.0,4,8750,3
-8097,BRAZIL,Luciana Souza,HCP,exist,93300426.0,5,48000,4
-8101,BRAZIL,Claudia Hernandez,HCP,exist,93300242.0,4,38000,3
-8105,BRAZIL,Maria Silva,HCP,exist,93300429.0,5,9450,4
-8109,BRAZIL,Renata Almeida,HCP,exist,93300430.0,5,49000,4
-8117,BRAZIL,Marcela Oliveira,HCP,exist,93300433.0,5,47500,4
-8121,BRAZIL,Patricia Lima,HCP,exist,93300247.0,4,39000,3
-8125,BRAZIL,Ana Silva,HCP,exist,93300249.0,4,42500,3
-8129,BRAZIL,Luana Costa,HCP,exist,93300436.0,5,49500,4
-8133,BRAZIL,Ricardo Silva,HCP,exist,93300251.0,4,41000,3
-8137,BRAZIL,Bruno Oliveira,HCP,exist,93300253.0,4,44500,3
-8141,BRAZIL,Lucas Costa,HCP,exist,93300254.0,4,45000,3
-8143,BRAZIL,Gabriela Torres,HCP,NULL,,0,0,0
-8145,BRAZIL,Luana Silva,HCP,exist,93300441.0,5,9700,4
-8149,BRAZIL,Aline Leandro Costa,HCP,exist,93300257.0,4,8400,3
-8153,BRAZIL,Ana Leandro Costa,HCP,exist,93300444.0,5,47000,4
-8157,BRAZIL,Fernanda Silva,HCP,exist,93300260.0,4,43000,3
-8161,BRAZIL,Lucas Ikar Silva,HCP,exist,93300261.0,4,44000,3
-8165,BRAZIL,Gabriela Almeida,HCP,exist,93300449.0,5,48750,4
-8169,BRAZIL,Mariana Pedro Silva,HCP,exist,93300264.0,4,42500,3
-8173,BRAZIL,Aline Costa,HCP,exist,93300265.0,4,41500,3
-8177,BRAZIL,Fernanda Costa,HCP,exist,93300455.0,5,49000,4
-8181,BRAZIL,Lucas Gomez  Oliveira,HCP,exist,93300267.0,4,8600,3
-8189,BRAZIL,Claudia Costa,HCP,exist,93300270.0,4,8900,3
-8193,BRAZIL,Mariana Gomez,HCP,exist,93300271.0,4,42000,3
-8197,BRAZIL,Aline Pereira,HCP,exist,93300273.0,4,44000,3
-8203,BRAZIL,Patricia Gonzalez,HCP,exist,93300275.0,4,8200,3
-8207,BRAZIL,Laura Mendoza,HCP,exist,93300276.0,4,8900,3
-8211,BRAZIL,Fernanda Martinez,HCP,exist,93300278.0,4,40500,3
-8215,BRAZIL,Cristina Ruiz,HCP,exist,93300468.0,5,44000,4
-8219,BRAZIL,Juliana Pereira,HCP,exist,93300280.0,4,8500,3
-8223,BRAZIL,Luna Isabela Vargas,HCP,exist,93300282.0,4,8700,3
-8227,BRAZIL,Carlos Mariana Silva,HCP,exist,93300471.0,5,46500,4
-8231,BRAZIL,Francisco Silva,HCP,exist,93300284.0,4,42000,3
-8235,BRAZIL,David Torres,HCP,exist,93300286.0,4,41500,3
-8239,BRAZIL,Leonardo Gomez Gonzalez,HCP,exist,93300474.0,5,45000,4
-8243,BRAZIL,Elena Silva A,HCP,exist,93300288.0,4,43500,3
-8247,BRAZIL,Julian Gomez,HCP,exist,93300477.0,5,44000,4
-8251,BRAZIL,Elena Torres Gomez,HCP,exist,93300479.0,5,45500,4
-8255,BRAZIL,Fernanda Garcia,HCP,exist,93300481.0,5,44500,4
-8259,BRAZIL,Marcela Silva,HCP,exist,93300292.0,4,44000,3
-8263,BRAZIL,Elena Ruiz,HCP,exist,93300483.0,5,45000,4
-8267,BRAZIL,Julian Costa Pedro,HCP,exist,93300485.0,5,9100,4
-8275,BRAZIL,Patricia Mateo Silva,HCP,exist,93300489.0,5,45000,4
-8279,BRAZIL,Marcela Salvador Ruiz,HCP,exist,93300491.0,5,44000,4
-8283,BRAZIL,Laura Silva Vargas,HCP,exist,93300493.0,5,8900,4
-8287,BRAZIL,Mariana Ruiz,HCP,exist,93300495.0,5,45000,4
-8291,BRAZIL,Marcela Torres Romero,HCP,exist,93300497.0,5,9100,4
-8295,BRAZIL,Julian Costa,HCP,exist,93300499.0,5,9200,4
-8299,BRAZIL,Marcela Gonzalez Romero,HCP,exist,93300501.0,5,44500,4
-8303,BRAZIL,Nicolas Martinez Silva,HCP,exist,93300304.0,4,43000,3
-8307,BRAZIL,Felipe Garcia,HCP,exist,93300503.0,5,44500,4
-8311,BRAZIL,Manuel Ruiz,HCP,exist,93300306.0,4,8300,3
-8315,BRAZIL,Alejandro Gonzalez,HCP,exist,93300308.0,4,8400,3
-8319,BRAZIL,Julio Fernandez Ruiz,HCP,exist,93300506.0,5,9000,4
-8323,BRAZIL,Ignacio Pereira,HCP,exist,93300310.0,4,42500,3
-8331,BRAZIL,Juan M Martinez,HCP,exist,93300509.0,5,44000,4
-8335,BRAZIL,Francisco Pedro Ruiz,HCP,exist,93300511.0,5,44500,4
-8339,BRAZIL,Alejandro Martinez,HCP,exist,93300513.0,5,46000,4
-8343,BRAZIL,Ignacio Martinez,HCP,exist,93300515.0,5,45500,4
-8347,BRAZIL,Claudia Beatriz Pereira,HCP,exist,93300517.0,5,45000,4
-8351,BRAZIL,Camila Silva,HCP,exist,93300519.0,5,44000,4
-8355,BRAZIL,Nicolas Pedro Ruiz,HCP,exist,93300521.0,5,9000,4
-8359,BRAZIL,Lucia Ruiz,HCP,exist,93300523.0,5,44000,4
-8363,BRAZIL,Felipe Pereira Romero,HCP,exist,93300525.0,5,44500,4
-8367,BRAZIL,Lucia Costa,HCP,exist,93300527.0,5,46000,4
-8371,BRAZIL,Adriana Ruiz,HCP,exist,93300529.0,5,44500,4
-8375,BRAZIL,Emilio Pereira,HCP,exist,93300531.0,5,45000,4
-8379,BRAZIL,Adriana Martinez Pedro,HCP,exist,93300533.0,5,46000,4
-8381,BRAZIL,Lucia Julie Ruiz,HCP,exist,93300534.0,5,9200,4
-8385,BRAZIL,Valeria Pedro Gomez,HCP,exist,93300536.0,5,9100,4
-8389,BRAZIL,Felipe Ruiz,HCP,exist,93300538.0,5,44500,4
-8393,BRAZIL,Ximena Pilar Rios,HCP,exist,93300540.0,5,45500,4
-8397,BRAZIL,Martina M Pereira,HCP,exist,93300542.0,5,45000,4
-8401,BRAZIL,Daniela Carvalho Ruiz,HCP,exist,93300544.0,5,44500,4
-8405,BRAZIL,Lucia Martinez Ruiz,HCP,exist,93300546.0,5,9200,4
-8409,BRAZIL,Victoria Pereira,HCP,exist,93300548.0,5,45500,4
-8413,BRAZIL,Roberto Silva,HCP,exist,93300550.0,5,8900,4
-8417,BRAZIL,Florencia Hugo Silva,HCP,exist,93300552.0,5,9100,4
-8425,BRAZIL,Nicolas Silva,HCP,exist,93300556.0,5,46000,4
-8429,BRAZIL,Martina Pereira,HCP,exist,93300558.0,5,44500,4
-8433,BRAZIL,Felipe Gomez Hugo,HCP,exist,93300560.0,5,45500,4
-8437,BRAZIL,Juliana Costa,HCP,exist,93300562.0,5,45000,4
-8441,BRAZIL,Florencia Torres,HCP,exist,93300564.0,5,44000,4
-8445,BRAZIL,Juliana Martinez Pedro,HCP,exist,93300566.0,5,8900,4
-8449,BRAZIL,Victoria Torres,HCP,exist,93300568.0,5,46000,4
-8451,BRAZIL,Elena Silva B,HCP,exist,93300707.0,6,52500,5
-8459,BRAZIL,Jorge Silva,HCP,exist,93300711.0,6,10100,5
-8463,BRAZIL,Natalia Ruiz,HCP,exist,93300713.0,6,53000,5
-8467,BRAZIL,Claudia Beatriz,HCP,exist,93300715.0,6,52000,5
-8471,BRAZIL,Esteban Castro,HCP,exist,93300717.0,6,10700,5
-8475,BRAZIL,Diego Silva,HCP,exist,93300719.0,6,51000,5
-8479,BRAZIL,Natalia Gomez Romero,HCP,exist,93300721.0,6,10800,5
-8483,BRAZIL,Mariana Gonzalez,HCP,exist,93300723.0,6,52000,5
-8487,BRAZIL,Florencia Silva,HCP,exist,93300725.0,6,10600,5
-8491,BRAZIL,Martina Costa,HCP,exist,93300727.0,6,10300,5
-8495,BRAZIL,Isabella Martinez,HCP,exist,93300729.0,6,10500,5
-8499,BRAZIL,Elena Leandro Pereira,HCP,exist,93300731.0,6,53000,5
-8501,BRAZIL,Claudia Castro,HCP,exist,93300854.0,7,57500,6
-8505,BRAZIL,Florencia Gonzalez,HCP,exist,93300856.0,7,56000,6
-8509,BRAZIL,Marcelo Gomez,HCP,exist,93300858.0,7,56500,6
-8513,BRAZIL,Bruno Carvalho,HCP,exist,93300860.0,7,57000,6
-8521,BRAZIL,Carla Gonzalez Beatriz,HCP,exist,93300864.0,7,57500,6
-8525,BRAZIL,Natalia Torres,HCP,exist,93300866.0,7,11200,6
-8529,BRAZIL,Diego Leandro Fernandez,HCP,exist,93300868.0,7,56500,6
-8533,BRAZIL,Marcela Gonzalez,HCP,exist,93300870.0,7,57000,6
-8537,BRAZIL,Luciana Torres,HCP,exist,93300872.0,7,57500,6
-8541,BRAZIL,Marcelo Torres Pedro,HCP,exist,93300874.0,7,56000,6
-8545,BRAZIL,Claudia Silva,HCP,exist,93300876.0,7,11400,6
-8549,BRAZIL,Luciana Juan Martinez,HCP,exist,93300878.0,7,11600,6
-8551,BRAZIL,Patricia Silva Beatriz,HCP,exist,93300582.0,5,40500,4
-8555,BRAZIL,Martina omez Fernandez,HCP,exist,93300584.0,5,8500,4
-8559,BRAZIL,Ignacio Silva,HCP,exist,93300586.0,5,42000,4
-8563,BRAZIL,Marcelo Fernandez,HCP,exist,93300588.0,5,41000,4
-8567,BRAZIL,Raul Mateo Silva,HCP,exist,93300590.0,5,8600,4
-8571,BRAZIL,Carolina Fernandez,HCP,exist,93300592.0,5,41500,4
-8579,BRAZIL,Marcelo Castro Romero,HCP,exist,93300596.0,5,41000,4
-8583,BRAZIL,Martina Gomez,HCP,exist,93300598.0,5,41500,4
-8587,BRAZIL,Adriana Ruiz Jack,HCP,exist,93300600.0,5,42000,4
-8591,BRAZIL,Carolina Leandro Martinez,HCP,exist,93300602.0,5,42500,4
-8595,BRAZIL,Martina Castro,HCP,exist,93300604.0,5,41000,4
-8599,BRAZIL,Marcelo Ruiz,HCP,exist,93300606.0,5,41500,4
-8601,BRAZIL,Esteban Silva,HCP,exist,93300745.0,6,9000,5
-8605,BRAZIL,Antonio Fernandez,HCP,exist,93300747.0,6,45500,5
-8609,BRAZIL,Felipe Silva,HCP,exist,93300749.0,6,46000,5
-8613,BRAZIL,Martin Fernandez,HCP,exist,93300751.0,6,45000,5
-8617,BRAZIL,Claudia Beatriz Silva,HCP,exist,93300753.0,6,9100,5
-8621,BRAZIL,Raquel Fernandez,HCP,exist,93300755.0,6,9200,5
-8625,BRAZIL,Natalia Silva,HCP,exist,93300757.0,6,46500,5
-8629,BRAZIL,Gael Rodrigo Martinez,HCP,exist,93300759.0,6,45500,5
-8633,BRAZIL,Carolina Silva Romero,HCP,exist,93300761.0,6,46000,5
-8637,BRAZIL,Raul Gomez Martinez,HCP,exist,93300763.0,6,46500,5
-8641,BRAZIL,David Pedro Silva,HCP,exist,93300765.0,6,9400,5
-8645,BRAZIL,Carla Silva Leandro,HCP,exist,93300767.0,6,46000,5
-8649,BRAZIL,Silvia Martinez Ruiz,HCP,exist,93300769.0,6,46500,5
-8653,BRAZIL,David Leandro Gomez,HCP,exist,93300771.0,6,47000,5
-8657,BRAZIL,Antonio Silva,HCP,exist,93300773.0,6,46500,5
-8673,BRAZIL,Antonio Castro,HCP,exist,93300781.0,6,46500,5
-8677,BRAZIL,David Carlos Silva,HCP,exist,93300783.0,6,47000,5
-8678,BRAZIL,Daniel Pedro Martinez,HCP,exist,93300629.0,5,7200,4
-8681,BRAZIL,Raul Torres Salvador,HCP,exist,93300785.0,6,46500,5
-8685,BRAZIL,Andrea Ruiz,HCP,exist,93300787.0,6,9400,5
-8686,BRAZIL,Pedro Lima,HCP,exist,93300631.0,5,37000,4
-8694,BRAZIL,Alexandre Silva,HCP,exist,93300359.0,4,7300,3
-8698,BRAZIL,Felipe Costa Carlos,HCP,exist,93300635.0,5,37000,4
-8702,BRAZIL,Marcos Silva,HCP,exist,93300637.0,5,37500,4
-8706,BRAZIL,Antonio Vargas,HCP,exist,93300361.0,4,7300,3
-8710,BRAZIL,Diego Pedro Costa,HCP,exist,93300639.0,5,37000,4
-8714,BRAZIL,Fernando Morales Silva,HCP,exist,93300641.0,5,37500,4
-8718,BRAZIL,Raul Torres Beatriz,HCP,exist,93300642.0,5,37000,4
-8722,BRAZIL,Pedro Silva,HCP,exist,93300644.0,5,37500,4
-8726,BRAZIL,Antonio Ruiz Manuel,HCP,exist,93300645.0,5,37000,4
-8730,BRAZIL,Fernando Gonzalez,HCP,exist,93300647.0,5,37500,4
-8734,BRAZIL,Raul Silva Beatriz,HCP,exist,93300648.0,5,37000,4
-8738,BRAZIL,Felipe Pedro Costa,HCP,exist,93300650.0,5,37500,4
-8742,BRAZIL,Antonio Carlos Silva,HCP,exist,93300651.0,5,7400,4
-8746,BRAZIL,Raul Fernandez,HCP,exist,93300653.0,5,37500,4
-8750,BRAZIL,Iker Alejandro Morales,HCP,exist,93300654.0,5,37000,4
-8754,BRAZIL,Monica Fernandez Silva,HCP,exist,93300656.0,5,7500,4
-8758,BRAZIL,Raul Juan Ruiz,HCP,exist,93300657.0,5,37000,4
-8772,BRAZIL,Daniela Alvarez,HCP,exist,93300810.0,6,40000,4
-8776,BRAZIL,Patricia Silva,HCP,exist,93300660.0,5,7700,3
-8780,BRAZIL,Elena Moreno,HCP,exist,93300812.0,6,39500,4
-8784,BRAZIL,Silvia Martinez Romero,HCP,exist,93300662.0,5,39000,3
-8788,BRAZIL,Carolina Silva,HCP,exist,93300814.0,6,40000,4
-8792,BRAZIL,Raul Silva,HCP,exist,93300816.0,6,7900,4
-8796,BRAZIL,Elena Silva C,HCP,exist,93300664.0,5,39000,3
-8800,BRAZIL,Juliana Silva,HCP,exist,93300818.0,6,39500,4
-8804,BRAZIL,Victor Mateo Martinez,HCP,exist,93300666.0,5,7700,3
-8808,BRAZIL,Elena Beatriz Ruiz,HCP,exist,93300820.0,6,40000,4
-8816,BRAZIL,Silvia Ruiz,HCP,exist,93300668.0,5,39000,3
-8820,BRAZIL,Daniel Silva,HCP,exist,93300824.0,6,39500,4
-8824,BRAZIL,Carla Morales,HCP,exist,93300670.0,5,38500,3
-8832,BRAZIL,Raul Ruiz,HCP,exist,93300828.0,6,39500,4
-8836,BRAZIL,Elena Hugo Sanchez,HCP,exist,93300672.0,5,7800,3
-8844,BRAZIL,Victor Sanchez,HCP,exist,93300674.0,5,38500,3
-8848,BRAZIL,Isabel Silva,HCP,exist,93300368.0,4,42500,3
-8852,BRAZIL,Carolina Almeida,HCP,exist,93300676.0,5,8300,3
-8856,BRAZIL,Vanessa Silva,HCP,exist,93300834.0,6,8500,4
-8860,BRAZIL,Adriana Costa,HCP,exist,93300836.0,6,8300,4
-8864,BRAZIL,Isabel Almeida,HCP,exist,93300679.0,5,8000,3
-8868,BRAZIL,Lucia Mendoza,HCP,exist,93300371.0,4,7800,3
-8872,BRAZIL,Carolina Gomez,HCP,exist,93300682.0,5,8000,3
-8876,BRAZIL,Natalia Silva Martinez,HCP,exist,93300684.0,5,7800,3
-8880,BRAZIL,Mariana Juan Silva,HCP,exist,93300686.0,5,41500,4
-8884,BRAZIL,Andrea Costa,HCP,exist,93300372.0,4,39000,3
-8888,BRAZIL,Adriana Leandro Silva,HCP,exist,93300689.0,5,40000,3
-8892,BRAZIL,Patricia Costa,HCP,exist,93300373.0,4,7900,3
-8896,BRAZIL,Carla Silva,HCP,exist,93300692.0,5,40000,3
-8900,BRAZIL,Isabel Jimenez,HCP,exist,93300374.0,4,39000,3
-8904,BRAZIL,Victor Gonzalez,HCP,exist,93300695.0,5,8000,3
-8908,BRAZIL,Carolina Jimenez,HCP,exist,93300375.0,4,39500,3
-8912,BRAZIL,Adriana Martinez,HCP,exist,93300698.0,5,40000,3
-8920,BRAZIL,Elena Sanchez,HCP,exist,93300701.0,5,40000,3
-8924,BRAZIL,Carla Leandro Costa,HCP,exist,93300377.0,4,7900,3
-8928,BRAZIL,Isabel Ruiz,HCP,exist,93300704.0,5,8000,3
-8932,BRAZIL,Victor Silva Jimenez,HCP,exist,93300378.0,4,39000,3
-9054,BRAZIL,Isabel Torres,HCP,NULL,,0,0,0
-9143,BRAZIL,Pablo Herrera,HCP,NULL,,0,0,0
-9501,BRAZIL,Juliana Juan Ribeiro,HCP,NULL,,0,0,0
-1011,SPAIN,Luis Gomez Perez,HCP,NULL,,0,0,0
-1014,SPAIN,Laura Torres,HCP,NULL,,0,0,0
-1015,SPAIN,Francisco Carlos Ruiz,HCP,NULL,,0,0,0
-1203,SPAIN,Enrique Alvarez,HCP,exist,,0,0,1
-2510,SPAIN,Mateo Gomez,HCP,exist,,0,0,1
-3102,SPAIN,Diego Mendoza,HCP,exist,93300048.0,2,18350,2
-3604,SPAIN,Camila Romero,HCP,exist,,0,0,1
-3851,SPAIN,Valentina Garcia,HCP,exist,,0,0,1
-3919,SPAIN,Laura Alvarez,HCP,NULL,,0,0,0
-3921,SPAIN,Antonio Herrera,HCP,exist,,0,0,1
-4817,SPAIN,Laura Garcia,HCP,NULL,,0,0,0
-4821,SPAIN,Laura Juan Martinez,HCP,exist,93300053.0,2,19100,2
-4932,SPAIN,Lucia Fernandez,HCP,exist,93300020.0,1,16000,1
-4952,SPAIN,Lucia Juan Sanchez,HCP,exist,93300058.0,2,19000,2
-4953,SPAIN,Sofia Lee Martinez,HCP,NULL,,0,0,0
-5237,SPAIN,Renata Cruz,HCP,exist,,0,0,1
-5743,SPAIN,Claudia Torres,HCP,exist,,0,0,1
-5745,SPAIN,Valeria Sanchez,HCP,exist,93300059.0,2,18250,2
-5809,SPAIN,Pedro Garcia,HCP,NULL,,0,0,0
-5819,SPAIN,Laura Ramirez,HCP,exist,,0,0,1
-5838,SPAIN,Pedro Diaz,HCP,exist,,0,0,1
-5839,SPAIN,Emilia Garcia,HCP,exist,,0,0,1
-5841,SPAIN,Mateo Garcia,HCP,exist,,0,0,1
-5842,SPAIN,Lucas Santos Pedro,HCP,exist,93300088.0,3,7800,2
-5854,SPAIN,Rafael Santos,HCP,exist,93300084.0,3,40500,3
-5857,SPAIN,Felipe Pedro Rocha,HCP,exist,93300106.0,3,40500,2
-5862,SPAIN,Juliana Lee Ribeiro,HCP,exist,93300063.0,2,33750,1
-5868,SPAIN,Felipe Rocha,HCP,exist,93300090.0,3,7350,2
-5875,SPAIN,Lucas Almeida,HCP,exist,93300157.0,4,9500,3
-5879,SPAIN,Lucas Santos Maria,HCP,exist,93300159.0,4,47250,3
-5886,SPAIN,Rafael Costa Beatriz,HCP,exist,93300094.0,3,40500,2
-5893,SPAIN,Luis Perez,HCP,exist,,0,0,1
-5914,SPAIN,Valeria Diaz,HCP,exist,,0,0,1
-5924,SPAIN,Isabel Mateo Gomez,HCP,NULL,93300381.0,5,76170,0
-5930,SPAIN,Sofia Pedro Garcia,HCP,exist,93300026.0,1,2500,1
-6178,SPAIN,Laura Gomez Torres,HCP,NULL,,0,0,0
-6289,SPAIN,Francisco Juan  Ruiz,HCP,exist,,0,0,3
-6354,SPAIN,Marta Morales,HCP,NULL,93300007.0,1,18923,0
-6679,SPAIN,Sergio Romero,HCP,NULL,93300074.0,3,56280,0
-6838,SPAIN,Miguel Sanchez,HCP,exist,,0,0,1
-6845,SPAIN,Joaquin Herrera,HCP,exist,,0,0,1
-6881,SPAIN,Alberto Moreno,HCP,NULL,93300145.0,4,82160,0
-6909,SPAIN,JoAPSo Pereira,HCP,exist,93300155.0,4,48000,3
-6912,SPAIN,Elena Torres Martinez,HCP,exist,93300052.0,2,3450,2
-6915,SPAIN,Claudia Herrera,HCP,exist,,0,0,1
-6932,SPAIN,Felipe Juan Rocha,HCP,exist,93300096.0,3,40500,2
-6938,SPAIN,Gabriel Fernando Pereira,HCP,exist,93300156.0,4,9200,3
-6941,SPAIN,Mateo Torres,HCP,exist,93300083.0,3,37250,3
-6942,SPAIN,Thiago Martins,HCP,exist,93300093.0,3,38500,2
-6943,SPAIN,Lucia  Julie Romero,HCP,NULL,,0,0,0
-6945,SPAIN,Pablo Martinez Romero,HCP,exist,93300060.0,2,17250,2
-6961,SPAIN,Joaquin Alvarez,HCP,exist,93300162.0,4,41500,3
-6962,SPAIN,Joao Lucas Lima,HCP,exist,93300158.0,4,44750,3
-6972,SPAIN,Lucas Lima,HCP,exist,93300085.0,3,41000,3
-6987,SPAIN,Beatriz Ortega,HCP,NULL,,0,0,0
-6989,SPAIN,Gabriel Juan Pereira,HCP,exist,93300095.0,3,43250,2
-7004,SPAIN,Carlos Morales Beatriz,HCP,exist,93300168.0,4,43250,4
-7008,SPAIN,Javier Perez Salvador,HCP,exist,93300169.0,4,45500,4
-7012,SPAIN,Manuel Lopez Salvador,HCP,exist,93300392.0,5,46500,4
-7016,SPAIN,Pedro M Silva,HCP,exist,93300171.0,4,8700,4
-7020,SPAIN,Sofia Mateo Castillo,HCP,exist,93300393.0,5,53000,4
-7024,SPAIN,Clara Morales,HCP,exist,93300394.0,5,52500,4
-7028,SPAIN,Alfonso Leandro Lopez,HCP,exist,93300174.0,4,44500,3
-7032,SPAIN,Diego Costa Gomez,HCP,exist,93300395.0,5,52250,4
-7036,SPAIN,Ana Leandro Garcia,HCP,exist,93300177.0,4,9300,3
-7040,SPAIN,Luiz Lima Gomez,HCP,exist,93300396.0,5,48250,4
-7043,SPAIN,Manuel Navarro,HCP,NULL,,0,0,0
-7044,SPAIN,Adrian Mateo Martinez,HCP,exist,93300397.0,5,9450,4
-7048,SPAIN,Carmen Perez Romero,HCP,exist,93300181.0,4,42500,3
-7052,SPAIN,Fabio Santos,HCP,exist,93300398.0,5,52000,4
-7056,SPAIN,Juan Leonardo Costa,HCP,exist,93300184.0,4,46500,3
-7059,SPAIN,Emiliano Perez,HCP,NULL,,0,0,0
-7060,SPAIN,Paulo MateoMendes,HCP,exist,93300399.0,5,53000,4
-7064,SPAIN,Fernanda Gael Costa,HCP,exist,93300400.0,5,9650,4
-7068,SPAIN,Rafael Martinez Romero,HCP,exist,93300188.0,4,9300,3
-7072,SPAIN,Fabio Lima Hugo,HCP,exist,93300401.0,5,10450,4
-7076,SPAIN,Lucas Gomez Silva,HCP,exist,93300191.0,4,46500,3
-7080,SPAIN,Tiago Costa,HCP,exist,93300402.0,5,48250,4
-7084,SPAIN,Adrian Mateo Costa,HCP,exist,93300403.0,5,47250,4
-7088,SPAIN,Carmen Garcia,HCP,exist,93300195.0,4,42500,3
-7092,SPAIN,Fabio Oliveira,HCP,exist,93300404.0,5,52000,4
-7096,SPAIN,Pedro Leonardo Costa,HCP,exist,93300198.0,4,9300,3
-7165,SPAIN,Elena Vargas,HCP,exist,,0,0,1
-7238,SPAIN,Francisco Javier Ruiz,HCP,NULL,93300038.0,2,88270,0
-7351,SPAIN,Natalia Delgado,HCP,NULL,,0,0,0
-7498,SPAIN,Ricardo Moreno,HCP,NULL,,0,0,0
-7623,SPAIN,Javier Sanchez,HCP,exist,,0,0,3
-7745,SPAIN,Raquel Ramirez,HCP,NULL,93300146.0,4,78920,0
-7869,SPAIN,Alejandro Lopez,HCP,NULL,,0,0,0
-7899,SPAIN,Maria Fernandez,HCP,exist,,0,0,2
-7951,SPAIN,Veronica Diaz,HCP,exist,,0,0,2
-7956,SPAIN,Sofia Lopez,HCP,exist,93300024.0,1,14250,1
-8004,SPAIN,Carlos Morales,HCP,exist,93300200.0,4,43250,4
-8008,SPAIN,Javier Perez,HCP,exist,93300201.0,4,45500,4
-8012,SPAIN,Manuel Lopez,HCP,exist,93300406.0,5,9300,4
-8016,SPAIN,Mariana Silva,HCP,exist,93300203.0,4,43500,4
-8020,SPAIN,Sofia Castillo,HCP,exist,93300408.0,5,10600,4
-8024,SPAIN,Clara Beatriz Morales,HCP,exist,93300409.0,5,10500,4
-8028,SPAIN,Alfonso Lopez,HCP,exist,93300207.0,4,44500,3
-8032,SPAIN,Diego Costa Martinez,HCP,exist,93300410.0,5,52250,4
-8036,SPAIN,Ana Garcia,HCP,exist,93300211.0,4,46500,3
-8040,SPAIN,Luiz Lima,HCP,exist,93300412.0,5,48250,4
-8044,SPAIN,Adrian Martinez,HCP,exist,93300413.0,5,47250,4
-8047,SPAIN,Guillermo Lopez,HCP,NULL,93300008.0,1,16789,0
-8048,SPAIN,Carmen Perez,HCP,exist,93300216.0,4,42500,3
-8052,SPAIN,Fabio Beatriz Santos,HCP,exist,93300415.0,5,52000,4
-8056,SPAIN,Leonardo Lee  Costa,HCP,exist,93300220.0,4,46500,3
-8060,SPAIN,Paulo Mendes Beatriz,HCP,exist,93300417.0,5,53000,4
-8064,SPAIN,FernandaVargas  Costa,HCP,exist,93300418.0,5,48250,4
-8068,SPAIN,Rafael Martinez,HCP,exist,93300226.0,4,46500,3
-8072,SPAIN,Fabio Lima,HCP,exist,93300419.0,5,52250,4
-8076,SPAIN,Lucas Pedro Silva,HCP,exist,93300230.0,4,9300,3
-8080,SPAIN,Tiago PedroCosta,HCP,exist,93300421.0,5,48250,4
-8084,SPAIN,Adrian Costa,HCP,exist,93300423.0,5,47250,4
-8088,SPAIN,Carmen Leandro Garcia,HCP,exist,93300236.0,4,42500,3
-8092,SPAIN,Fabio Oliveira Hugo,HCP,exist,93300425.0,5,52000,4
-8096,SPAIN,Leonardo Costa,HCP,exist,93300240.0,4,46500,3
-8100,SPAIN,Paulo Mendes,HCP,exist,93300427.0,5,53000,4
-8104,SPAIN,Antonio Alvarez,HCP,exist,93300243.0,4,41000,4
-8108,SPAIN,IsabelHugo  Martinez,HCP,exist,93300244.0,4,45000,3
-8112,SPAIN,Manuel Gonzalez,HCP,exist,93300431.0,5,50000,4
-8116,SPAIN,Javier Gomez,HCP,exist,93300246.0,4,8600,3
-8120,SPAIN,Roberto Lopez,HCP,exist,93300434.0,5,47500,4
-8124,SPAIN,Enrique Martinez,HCP,exist,93300435.0,5,9400,4
-8128,SPAIN,Pedro Lopez,HCP,exist,93300250.0,4,8800,3
-8132,SPAIN,Juan Alvarez,HCP,exist,93300437.0,5,45500,4
-8136,SPAIN,Carmen Gomez,HCP,exist,93300438.0,5,9600,4
-8140,SPAIN,Carla Martinez Romero,HCP,exist,93300440.0,5,47500,4
-8144,SPAIN,Antonio Diaz,HCP,exist,93300256.0,4,8700,3
-8148,SPAIN,Esteban Perez,HCP,exist,93300442.0,5,47000,4
-8152,SPAIN,Leonardo Silva,HCP,exist,93300258.0,4,44000,3
-8156,SPAIN,Marco Lopez,HCP,exist,93300445.0,5,46000,4
-8160,SPAIN,Clara Gonzalez,HCP,exist,93300447.0,5,48500,4
-8164,SPAIN,Elena  Pedro Costa,HCP,exist,93300448.0,5,47000,4
-8168,SPAIN,Antonio Garcia,HCP,exist,93300450.0,5,47500,4
-8172,SPAIN,Esteban Hugo Costa,HCP,exist,93300452.0,5,9650,4
-8176,SPAIN,Marco Silva,HCP,exist,93300454.0,5,46500,4
-8180,SPAIN,Leonardo Torres,HCP,exist,93300456.0,5,9500,4
-8184,SPAIN,Martina Pedro Gomez,HCP,exist,93300457.0,5,9400,4
-8188,SPAIN,Julian Torres,HCP,exist,93300459.0,5,48000,4
-8192,SPAIN,Antonio Torres Martinez,HCP,exist,93300461.0,5,9300,4
-8196,SPAIN,Juan Roberto Silva,HCP,exist,93300462.0,5,9700,4
-8200,SPAIN,Marco Martinez,HCP,exist,93300464.0,5,47000,4
-8201,SPAIN,Elena Garcia,HCP,exist,93300274.0,4,42500,3
-8205,SPAIN,Camila Costa,HCP,exist,93300465.0,5,46500,4
-8209,SPAIN,Ana Ruiz,HCP,exist,93300277.0,4,43000,3
-8213,SPAIN,Marcela Gomez,HCP,exist,93300467.0,5,9200,4
-8217,SPAIN,Guillermo Martinez,HCP,exist,93300279.0,4,43500,3
-8221,SPAIN,Isabella Torres Salvador,HCP,exist,93300281.0,4,42000,3
-8225,SPAIN,Claudia Mendoza,HCP,exist,93300470.0,5,47500,4
-8229,SPAIN,Ana Costa,HCP,exist,93300283.0,4,43000,3
-8233,SPAIN,Miguel Gomez,HCP,exist,93300285.0,4,44500,3
-8237,SPAIN,Cristina Martinez,HCP,exist,93300473.0,5,9200,4
-8241,SPAIN,Roberto Garcia,HCP,exist,93300287.0,4,8800,3
-8245,SPAIN,Guillermo Ruiz,HCP,exist,93300476.0,5,47500,4
-8249,SPAIN,Victoria Martinez Salvador,HCP,exist,93300478.0,5,48000,4
-8253,SPAIN,Guillermo Gonzalez,HCP,exist,93300480.0,5,9400,4
-8257,SPAIN,Carla Michael Ruiz,HCP,exist,93300291.0,4,8600,3
-8261,SPAIN,Patricia Torres Martinez,HCP,exist,93300482.0,5,47500,4
-8265,SPAIN,Victoria Julie Pereira,HCP,exist,93300484.0,5,9700,4
-8269,SPAIN,Marcela Pereira,HCP,exist,93300486.0,5,9300,4
-8273,SPAIN,Laura Torres Santos,HCP,exist,93300488.0,5,47000,4
-8277,SPAIN,Elena Torres,HCP,exist,93300490.0,5,47500,4
-8281,SPAIN,Carla Torres,HCP,exist,93300492.0,5,48000,4
-8285,SPAIN,Julian Martinez,HCP,exist,93300494.0,5,48500,4
-8289,SPAIN,Elena Costa Gonzalez,HCP,exist,93300496.0,5,47500,4
-8293,SPAIN,Fernanda Ruiz,HCP,exist,93300498.0,5,9600,4
-8297,SPAIN,Elena Pereira,HCP,exist,93300500.0,5,47500,4
-8301,SPAIN,Lucas Pereira,HCP,exist,93300303.0,4,46000,3
-8305,SPAIN,Alonso Torres,HCP,exist,93300502.0,5,46500,4
-8313,SPAIN,Valeria Torres,HCP,exist,93300307.0,4,43000,3
-8317,SPAIN,Renata Costa,HCP,exist,93300505.0,5,47000,4
-8321,SPAIN,Luna Isabela Mateo Vargas,HCP,exist,93300309.0,4,8700,3
-8325,SPAIN,Victoria Gonzalez,HCP,exist,93300311.0,4,44500,3
-8329,SPAIN,Renata Pereira,HCP,exist,93300508.0,5,48000,4
-8333,SPAIN,Dario Esteban Ruiz,HCP,exist,93300510.0,5,47500,4
-8337,SPAIN,Julio Silva,HCP,exist,93300512.0,5,48500,4
-8341,SPAIN,Elena Costa,HCP,exist,93300514.0,5,48000,4
-8345,SPAIN,Valeria Gomez,HCP,exist,93300516.0,5,9500,4
-8349,SPAIN,Florencia Costa,HCP,exist,93300518.0,5,47000,4
-8353,SPAIN,Adriana Torres,HCP,exist,93300520.0,5,9600,4
-8357,SPAIN,Sofia Torres Beatriz,HCP,exist,93300522.0,5,47500,4
-8361,SPAIN,Martina Lee Costa,HCP,exist,93300524.0,5,9700,4
-8365,SPAIN,Victoria Silva,HCP,exist,93300526.0,5,48000,4
-8369,SPAIN,Nicolas Costa,HCP,exist,93300528.0,5,9500,4
-8373,SPAIN,Felipe Torres,HCP,exist,93300530.0,5,48000,4
-8377,SPAIN,Valeria Ruiz,HCP,exist,93300532.0,5,47500,4
-8383,SPAIN,Antonio RodrigoSilva,HCP,exist,93300535.0,5,47500,4
-8387,SPAIN,Roberto Gomez Martinez,HCP,exist,93300537.0,5,47000,4
-8391,SPAIN,Adriana Silva,HCP,exist,93300539.0,5,46500,4
-8396,SPAIN,Patricia Perez,HCP,exist,93300039.0,2,82715,1
-8399,SPAIN,Julian Torres Iker,HCP,exist,93300543.0,5,9200,4
-8403,SPAIN,Emilia Costa,HCP,exist,93300545.0,5,47500,4
-8407,SPAIN,Valeria Silva,HCP,exist,93300547.0,5,47000,4
-8411,SPAIN,Emilio Silva,HCP,exist,93300549.0,5,46000,4
-8412,SPAIN,Carla Rodriguez,HCP,exist,,0,0,1
-8415,SPAIN,Dario Ruiz,HCP,exist,93300551.0,5,47500,4
-8419,SPAIN,Victoria Martinez Beatriz,HCP,exist,93300553.0,5,48000,4
-8423,SPAIN,Esteban Costa,HCP,exist,93300555.0,5,47000,4
-8427,SPAIN,Emilio Torres Vargas,HCP,exist,93300557.0,5,47500,4
-8431,SPAIN,Estela Silva,HCP,exist,93300559.0,5,9600,4
-8435,SPAIN,Emilia Silva,HCP,exist,93300561.0,5,47000,4
-8439,SPAIN,Lucia Pedro Ruiz,HCP,exist,93300563.0,5,47500,4
-8443,SPAIN,Martina Juan Gomez,HCP,exist,93300565.0,5,9700,4
-8447,SPAIN,Lucia Pereira,HCP,exist,93300567.0,5,47500,4
-8453,SPAIN,Antonio Lee Martinez,HCP,exist,93300708.0,6,49000,5
-8457,SPAIN,Paula Torres,HCP,exist,93300710.0,6,49500,5
-8461,SPAIN,Daniel Martinez,HCP,exist,93300712.0,6,50000,5
-8465,SPAIN,Isabella Torres,HCP,exist,93300714.0,6,51000,5
-8469,SPAIN,Martin Silva,HCP,exist,93300716.0,6,50500,5
-8473,SPAIN,Marcelo Torres Jiminez,HCP,exist,93300718.0,6,48500,5
-8477,SPAIN,Roberto Pedro Martinez,HCP,exist,93300720.0,6,10000,5
-8481,SPAIN,AntonioPedro Silva,HCP,exist,93300722.0,6,49000,5
-8485,SPAIN,Daniela Torres,HCP,exist,93300724.0,6,10000,5
-8489,SPAIN,Elena Pedro Gomez,HCP,exist,93300726.0,6,51000,5
-8493,SPAIN,Antonio Torres,HCP,exist,93300728.0,6,50500,5
-8503,SPAIN,Marcela Salvador Silva,HCP,exist,93300855.0,7,10500,6
-8507,SPAIN,Diego Castro Romero,HCP,exist,93300857.0,7,10700,6
-8511,SPAIN,Roberto Carlos Silva,HCP,exist,93300859.0,7,54000,6
-8515,SPAIN,Victoria Martinez,HCP,exist,93300861.0,7,54500,6
-8519,SPAIN,Antonio Martinez,HCP,exist,93300863.0,7,53000,6
-8523,SPAIN,Mariana Martinez,HCP,exist,93300865.0,7,53500,6
-8527,SPAIN,Isabella Ruiz,HCP,exist,93300867.0,7,52500,6
-8531,SPAIN,Julian Silva,HCP,exist,93300869.0,7,54000,6
-8539,SPAIN,Diego Martinez,HCP,exist,93300873.0,7,53000,6
-8543,SPAIN,Antonio Gomez,HCP,exist,93300875.0,7,10400,6
-8547,SPAIN,Julian Ruiz,HCP,exist,93300877.0,7,52500,6
-8553,SPAIN,Elena Gomez,HCP,exist,93300583.0,5,41000,4
-8557,SPAIN,Sofia JulieMartinez,HCP,exist,93300585.0,5,8000,4
-8561,SPAIN,Lucas Gomez,HCP,exist,93300587.0,5,39500,4
-8565,SPAIN,Javier Torres,HCP,exist,93300589.0,5,39000,4
-8569,SPAIN,Antonio Gonzalez,HCP,exist,93300591.0,5,38500,4
-8573,SPAIN,Raul Torres,HCP,exist,93300593.0,5,7900,4
-8577,SPAIN,Lucas Ruiz,HCP,exist,93300595.0,5,7800,4
-8581,SPAIN,Sofia Torres,HCP,exist,93300597.0,5,38000,4
-8585,SPAIN,Daniela Castro,HCP,exist,93300599.0,5,39500,4
-8589,SPAIN,Lucas Castro,HCP,exist,93300601.0,5,39000,4
-8593,SPAIN,Raul Gomez,HCP,exist,93300603.0,5,7700,4
-8597,SPAIN,Lucas Torres,HCP,exist,93300605.0,5,7800,4
-8603,SPAIN,David Ruiz,HCP,exist,93300746.0,6,43000,5
-8607,SPAIN,Victor Torres,HCP,exist,93300748.0,6,43500,5
-8611,SPAIN,Manuel Gomez,HCP,exist,93300750.0,6,44000,5
-8615,SPAIN,Oscar Martinez Torres,HCP,exist,93300752.0,6,43500,5
-8619,SPAIN,Elena Martinez,HCP,exist,93300754.0,6,44000,5
-8623,SPAIN,Paola Torres,HCP,exist,93300756.0,6,8900,5
-8627,SPAIN,Jorge Martinez Salvador,HCP,exist,93300758.0,6,43500,5
-8631,SPAIN,Elena Thomas Torres,HCP,exist,93300760.0,6,44000,5
-8635,SPAIN,Michael Daniel Gomez,HCP,exist,93300762.0,6,44000,5
-8639,SPAIN,Victor Ruiz,HCP,exist,93300764.0,6,44500,5
-8643,SPAIN,Marcela Torres,HCP,exist,93300766.0,6,43500,5
-8647,SPAIN,Oscar Mateo Martinez,HCP,exist,93300768.0,6,44000,5
-8651,SPAIN,Manuel Torres,HCP,exist,93300770.0,6,8900,5
-8655,SPAIN,Marcelo Torres,HCP,exist,93300772.0,6,8800,5
-8659,SPAIN,Oscar Ruiz Romero,HCP,exist,93300774.0,6,44500,5
-8663,SPAIN,David Martinez,HCP,exist,93300776.0,6,8800,5
-8667,SPAIN,Luciana Martinez,HCP,exist,93300778.0,6,44500,5
-8671,SPAIN,Marcelo Martinez,HCP,exist,93300780.0,6,44000,5
-8675,SPAIN,Oscar Gonzalez,HCP,exist,93300782.0,6,44500,5
-8679,SPAIN,Martina Julie Gomez,HCP,exist,93300784.0,6,44000,5
-8680,SPAIN,Samuel Silva,HCP,exist,93300789.0,6,7500,5
-8683,SPAIN,Jose Martinez Romero,HCP,exist,93300786.0,6,44500,5
-8684,SPAIN,Oscar Ortega,HCP,exist,93300790.0,6,7600,5
-8688,SPAIN,Enrique Torres,HCP,exist,93300791.0,6,39000,5
-8692,SPAIN,Victor Martinez Romero,HCP,exist,93300792.0,6,7700,5
-8696,SPAIN,Julio Fernandez Salvador,HCP,exist,93300793.0,6,7600,5
-8700,SPAIN,Juan Ortega,HCP,exist,93300794.0,6,38500,5
-8704,SPAIN,Daniel Silva Gomez,HCP,exist,93300795.0,6,39000,5
-8708,SPAIN,Marco Torres,HCP,exist,93300796.0,6,38000,5
-8712,SPAIN,Jorge Ortega,HCP,exist,93300797.0,6,7800,5
-8716,SPAIN,Natalia Gomez,HCP,exist,93300798.0,6,38500,5
-8720,SPAIN,Victor Fernandez,HCP,exist,93300799.0,6,7600,5
-8724,SPAIN,Oscar Vargas Salvador,HCP,exist,93300800.0,6,39000,5
-8728,SPAIN,Julio Costa,HCP,exist,93300801.0,6,38500,5
-8732,SPAIN,Victor Silva,HCP,exist,93300802.0,6,38000,5
-8736,SPAIN,Marco Gonzalez,HCP,exist,93300803.0,6,39000,5
-8740,SPAIN,Oscar Mateo Jimenez,HCP,exist,93300804.0,6,38000,5
-8744,SPAIN,Victor Ortega,HCP,exist,93300805.0,6,38500,5
-8748,SPAIN,Daniela Gonzalez,HCP,exist,93300806.0,6,7600,5
-8752,SPAIN,Oscar Jimenez Salvador,HCP,exist,93300807.0,6,39000,5
-8756,SPAIN,Juan Morales,HCP,exist,93300808.0,6,7600,5
-8760,SPAIN,Oscar Vargas Beatriz,HCP,exist,93300809.0,6,39000,5
-8774,SPAIN,Lucia Martinez,HCP,exist,93300879.0,7,41000,5
-8778,SPAIN,Carla Vargas,HCP,exist,93300880.0,7,8300,5
-8782,SPAIN,Monica Fernandez,HCP,exist,93300881.0,7,40500,5
-8786,SPAIN,Oscar Jimenez,HCP,exist,93300882.0,7,41000,5
-8790,SPAIN,Jorge Martinez,HCP,exist,93300883.0,7,41500,5
-8794,SPAIN,Victor Ortega Silva,HCP,exist,93300884.0,7,8200,5
-8798,SPAIN,Oscar Vargas,HCP,exist,93300885.0,7,40500,5
-8802,SPAIN,Lucia Gomez,HCP,exist,93300886.0,7,41500,5
-8806,SPAIN,Monica Jimenez,HCP,exist,93300887.0,7,41000,5
-8810,SPAIN,Jorge Ruiz,HCP,exist,93300888.0,7,41500,5
-8814,SPAIN,Lucia Sanchez,HCP,exist,93300889.0,7,8200,5
-8818,SPAIN,Marcelo Silva,HCP,exist,93300890.0,7,40500,5
-8822,SPAIN,Monica Julie Ruiz,HCP,exist,93300891.0,7,8200,5
-8826,SPAIN,Jorge Sanchez Romero,HCP,exist,93300892.0,7,40500,5
-8830,SPAIN,Monica Morales,HCP,exist,93300893.0,7,41000,5
-8834,SPAIN,Victor Jimenez,HCP,exist,93300894.0,7,8300,5
-8838,SPAIN,Lucia Ruiz Santos,HCP,exist,93300895.0,7,40500,5
-8842,SPAIN,Juliana Morales,HCP,exist,93300896.0,7,41000,5
-8846,SPAIN,Jorge Jimenez,HCP,exist,93300897.0,7,40500,5
-8850,SPAIN,Emma Lopez,HCP,exist,93300832.0,6,41000,4
-8854,SPAIN,Laura Isabela,HCP,exist,93300369.0,4,40500,3
-8858,SPAIN,Natalia Ruiz Leandro,HCP,exist,93300835.0,6,41000,4
-8859,SPAIN,Antonio Ortega,HCP,exist,93300383.0,5,66280,3
-8862,SPAIN,Sofia Jimenez,HCP,exist,93300678.0,5,39500,4
-8866,SPAIN,Carmen Ruiz,HCP,exist,93300680.0,5,8300,4
-8870,SPAIN,Adriana Jimenez,HCP,exist,93300838.0,6,41000,4
-8874,SPAIN,Lina Torres,HCP,exist,93300683.0,5,40500,4
-8878,SPAIN,Laura Julie Jimenez,HCP,exist,93300685.0,5,41000,4
-8882,SPAIN,Isabel Gomez,HCP,exist,93300687.0,5,40500,4
-8886,SPAIN,Victoria Ruiz,HCP,exist,93300842.0,6,41000,4
-8890,SPAIN,Sofia Sanchez,HCP,exist,93300690.0,5,8300,4
-8894,SPAIN,Laura Juan Silva,HCP,exist,93300844.0,6,40500,4
-8898,SPAIN,Carmen Sanchez,HCP,exist,93300693.0,5,41000,4
-8902,SPAIN,Marcelo Sanchez,HCP,exist,93300846.0,6,41500,4
-8910,SPAIN,Juliana Gomez Sanchez,HCP,exist,93300848.0,6,41000,4
-8914,SPAIN,Sofia Ruiz,HCP,exist,93300699.0,5,41500,4
-8918,SPAIN,Isabel Martinez,HCP,exist,93300850.0,6,8100,4
-8922,SPAIN,Carmen Jimenez,HCP,exist,93300702.0,5,41000,4
-8926,SPAIN,Marcelo Lopez,HCP,exist,93300852.0,6,41500,4
-8930,SPAIN,Laura Jean Martinez,HCP,exist,93300705.0,5,40500,4
-8945,SPAIN,Paula Ruiz,HCP,NULL,,0,0,0
-9071,SPAIN,Enrique Fernandez,HCP,NULL,,0,0,0
-9074,SPAIN,Mariana Vargas,HCP,NULL,,0,0,0
-9136,SPAIN,Marta Lopez,HCP,NULL,93300147.0,4,88945,0
-9268,SPAIN,Ramon Castillo,HCP,exist,,0,0,2
-9325,SPAIN,Sofia Pedro Martinez,HCP,NULL,,0,0,0
-9384,SPAIN,Laura Rodriguez,HCP,NULL,,0,0,0
-9472,SPAIN,Pablo Martinez,HCP,NULL,93300040.0,2,15478,0
-9531,SPAIN,Silvia Sanchez,HCP,NULL,,0,0,0
-9654,SPAIN,Juan Carlos Ruiz,HCP,NULL,93300384.0,5,19876,0
-9820,SPAIN,Rafael Martin,HCP,NULL,93300009.0,1,67895,0
-9821,SPAIN,Pablo Navarro,HCP,exist,,0,0,2
-9834,SPAIN,Alejandro Garcia,HCP,exist,93300015.0,1,6000,1
-9935,SPAIN,Mercedes Fernandez,HCP,NULL,,0,0,0
-10076,SPAIN,Daniel Ramos,HCP,NULL,,0,0,0
-10142,SPAIN,Pilar Sanchez,HCP,NULL,93300076.0,3,62280,0
-10258,SPAIN,Jesus Perez,HCP,exist,,0,0,3
-10379,SPAIN,Aurora Garcia,HCP,NULL,,0,0,0
-10462,SPAIN,Roberto Morales,HCP,NULL,93300148.0,4,91725,0
-10593,SPAIN,Clara Fernandez,HCP,NULL,,0,0,0
-10731,SPAIN,Luis Gomez,HCP,NULL,,0,0,0
-10784,SPAIN,Vicente Ruiz,HCP,exist,,0,0,2
-10871,SPAIN,Alicia Gomez,HCP,NULL,93300385.0,5,82445,0
-10908,SPAIN,Isabel Moreno,HCP,NULL,,0,0,0
-2509,USA,Roberto Paul Martinez,HCP,exist,93300050.0,2,3550,2
-2540,USA,Pedro Morales,HCP,NULL,,0,0,0
-2938,USA,Camila Sanchez,HCP,NULL,,0,0,0
-3617,USA,Sofia Gomez,HCP,exist,93300019.0,1,14350,1
-3728,USA,Lucas Lee Oliveira,HCP,exist,93300066.0,2,16000,2
-3745,USA,Claudia Sanchez,HCP,NULL,,0,0,0
-3756,USA,Camila Vargas,HCP,NULL,,0,0,0
-3758,USA,Miguel Vargas,HCP,NULL,,0,0,0
-3759,USA,Thiago MartinsBeatriz,HCP,exist,93300104.0,3,36750,2
-3765,USA,Pedro Rocha Romero,HCP,exist,93300068.0,2,31000,1
-3774,USA,Ana Leandro Fernandes,HCP,exist,93300069.0,2,6750,2
-3814,USA,Sofia Fernandez,HCP,exist,93300027.0,1,14750,1
-3823,USA,Pedro Rocha,HCP,exist,93300165.0,4,9500,3
-3845,USA,Valentina Lima,HCP,exist,93300097.0,3,35750,2
-3847,USA,Juan Lee Castillo,HCP,NULL,,0,0,0
-3849,USA,Claudia Martins,HCP,exist,93300102.0,3,34500,1
-3874,USA,Miguel Lopez,HCP,NULL,,0,0,0
-3896,USA,Valeria Herrera,HCP,NULL,,0,0,0
-3915,USA,Joaquin Torres,HCP,NULL,,0,0,0
-3965,USA,Valentina Romero,HCP,exist,93300016.0,1,15500,1
-4714,USA,Pedro Martinez,HCP,NULL,,0,0,0
-4718,USA,Felipe Carlos Rocha,HCP,exist,93300098.0,3,37250,2
-4720,USA,Lucia Ramirez,HCP,NULL,,0,0,0
-4729,USA,Valeria Fernandez,HCP,NULL,,0,0,0
-4731,USA,JoAPSo Silva,HCP,exist,93300107.0,3,39000,2
-4734,USA,Joaquin Castillo,HCP,NULL,,0,0,0
-4736,USA,Juliana Jean Ribeiro,HCP,exist,93300101.0,3,7700,2
-4758,USA,Petricia Lucas Santos,HCP,exist,93300099.0,3,35500,2
-4786,USA,Claudia Diaz,HCP,exist,93300166.0,4,47250,3
-4794,USA,Ana Lima Pedro,HCP,exist,93300100.0,3,38500,2
-4814,USA,Rafael Costa,HCP,exist,93300105.0,3,8100,2
-4836,USA,Lucia Romero,HCP,NULL,,0,0,0
-4903,USA,Juliana Ribeiro,HCP,exist,93300164.0,4,48000,3
-5219,USA,Alejandra Lopez,HCP,NULL,,0,0,0
-5612,USA,Miguel Torres,HCP,NULL,,0,0,0
-5732,USA,Valentina Vargas,HCP,NULL,,0,0,0
-5746,USA,Ana Fernandes,HCP,exist,93300067.0,2,32000,2
-5824,USA,Felipe Michel Costa,HCP,exist,93300154.0,4,44500,3
-5910,USA,Mariana Diaz,HCP,NULL,,0,0,0
-5937,USA,Joaquin Fernandez,HCP,NULL,,0,0,0
-6014,USA,Martina Morales,HCP,exist,93300018.0,1,2500,1
-6037,USA,Miguel Martinez,HCP,NULL,,0,0,0
-6837,USA,Fernando Diaz,HCP,NULL,,0,0,0
-6849,USA,Pedro Gomez Romero,HCP,exist,93300025.0,1,2300,1
-7002,USA,Fernando Michael Gomez,HCP,exist,93300391.0,5,46000,4
-7006,USA,Luiz Pereira Gomez,HCP,exist,93300110.0,3,4300,3
-7010,USA,Ana Mateo Gomez,HCP,exist,93300170.0,4,40750,3
-7014,USA,RafaelPocha Gonzalez,HCP,exist,93300111.0,3,7400,3
-7018,USA,Felipe Hugo Ramos,HCP,exist,93300172.0,4,42250,3
-7019,USA,Emilio Herrera,HCP,exist,93300030.0,1,11000,1
-7022,USA,Lucia Gonzalez Rios,HCP,exist,93300173.0,4,42500,3
-7026,USA,Victor Perez,HCP,exist,93300112.0,3,36000,2
-7030,USA,Martina Lee Gonzalez,HCP,exist,93300175.0,4,8400,3
-7034,USA,Juliana Martinez Juan,HCP,exist,93300176.0,4,33750,3
-7038,USA,Marina Torres,HCP,exist,93300178.0,4,43500,3
-7042,USA,Fernando Iker Costa,HCP,exist,93300179.0,4,7350,3
-7046,USA,Matias Torres Gomez,HCP,exist,93300180.0,4,39000,3
-7050,USA,Marcos Rocha,HCP,exist,93300182.0,4,7800,3
-7054,USA,Julio Fernandes,HCP,exist,93300183.0,4,8500,3
-7058,USA,Victor Oliveira Gomez,HCP,exist,93300185.0,4,39000,3
-7062,USA,Carlos Beatriz Torres,HCP,exist,93300186.0,4,43500,3
-7066,USA,Fernando Lee Gomez,HCP,exist,93300187.0,4,36750,3
-7070,USA,Mariana Mateo Costa,HCP,exist,93300189.0,4,8700,3
-7074,USA,Juliana Torres,HCP,exist,93300190.0,4,36750,3
-7078,USA,Marcos Gomez Romero,HCP,exist,93300192.0,4,43500,3
-7082,USA,Fernando Silva,HCP,exist,93300193.0,4,7350,3
-7086,USA,Matias Fernandez,HCP,exist,93300194.0,4,39000,3
-7090,USA,Marcos Perez Romero,HCP,exist,93300196.0,4,39000,3
-7094,USA,Julio Gomez Silva,HCP,exist,93300197.0,4,42500,3
-7312,USA,Juan Sanchez,HCP,NULL,,0,0,0
-7510,USA,Laura Diaz,HCP,exist,93300047.0,2,2450,2
-7817,USA,Pedro Castillo,HCP,NULL,,0,0,0
-7954,USA,Roberto Diaz,HCP,exist,93300023.0,1,2600,1
-8002,USA,Fernando John Gomez,HCP,exist,93300405.0,5,9200,4
-8006,USA,Luiz Pereira,HCP,exist,93300113.0,3,21500,3
-8010,USA,Ana Gomez,HCP,exist,93300202.0,4,40750,3
-8014,USA,Rafael Gonzalez,HCP,exist,93300116.0,3,7400,3
-8018,USA,Felipe Ramos,HCP,exist,93300204.0,4,42250,3
-8022,USA,Lucia Gonzalez,HCP,exist,93300205.0,4,8500,3
-8026,USA,Victor Perez Silva,HCP,exist,93300118.0,3,36000,2
-8030,USA,Martina Gonzalez,HCP,exist,93300208.0,4,8400,3
-8034,USA,Juliana Martinez,HCP,exist,93300210.0,4,33750,3
-8038,USA,Marina Lee Torres,HCP,exist,93300212.0,4,8700,3
-8042,USA,Fernando Alejandro Costa,HCP,exist,93300214.0,4,36750,3
-8046,USA,Matias Gomez,HCP,exist,93300215.0,4,39000,3
-8050,USA,Marcos Fernandez Rocha,HCP,exist,93300217.0,4,39000,3
-8054,USA,Julio Fernandes Salvador,HCP,exist,93300219.0,4,42500,3
-8058,USA,Victor Oliveira,HCP,exist,93300221.0,4,7800,3
-8062,USA,Carlos Torres,HCP,exist,93300223.0,4,43500,3
-8066,USA,Fernando William Gomez,HCP,exist,93300225.0,4,36750,3
-8070,USA,Mariana Costa,HCP,exist,93300228.0,4,43500,3
-8074,USA,Juliana Juan Torres,HCP,exist,93300229.0,4,36750,3
-8078,USA,Marcos Gomez,HCP,exist,93300232.0,4,8700,3
-8082,USA,Fernando Silva Pedro,HCP,exist,93300233.0,4,36750,3
-8086,USA,Matias M Fernandez,HCP,exist,93300235.0,4,39000,3
-8090,USA,Marcos Perez,HCP,exist,93300237.0,4,39000,3
-8094,USA,Julio Gomez Pedro,HCP,exist,93300239.0,4,42500,3
-8098,USA,Renato Santos,HCP,exist,93300241.0,4,39000,3
-8102,USA,Victor Ramirez,HCP,exist,93300428.0,5,8900,4
-8106,USA,Julian Ortega,HCP,exist,93300121.0,3,32500,2
-8110,USA,Diego Sanchez,HCP,exist,93300122.0,3,35000,3
-8114,USA,Esteban Romero,HCP,exist,93300432.0,5,43500,4
-8118,USA,Francisco Lee Ruiz,HCP,exist,93300123.0,3,36000,2
-8122,USA,Jorge Sanchez,HCP,exist,93300248.0,4,38000,3
-8126,USA,Oscar Ramirez,HCP,exist,93300124.0,3,33500,2
-8130,USA,Felipe Gonzalez,HCP,exist,93300125.0,3,37000,2
-8134,USA,Adriana John Martinez,HCP,exist,93300252.0,4,35500,3
-8138,USA,Mariana Torres Ruiz,HCP,exist,93300439.0,5,43500,4
-8142,USA,Martina Sanchez,HCP,exist,93300255.0,4,7300,3
-8146,USA,Roberto Pedro Gomez,HCP,exist,93300126.0,3,35500,2
-8150,USA,Julio Fernandez,HCP,exist,93300443.0,5,43000,4
-8154,USA,David Gomez,HCP,exist,93300259.0,4,36500,3
-8162,USA,Valeria Juan Gomez,HCP,exist,93300262.0,4,37500,3
-8166,USA,Manuel Sanchez,HCP,exist,93300263.0,4,38000,3
-8170,USA,Roberto Torres,HCP,exist,93300451.0,5,43500,4
-8174,USA,Julian Ramirez,HCP,exist,93300453.0,5,7800,4
-8178,USA,David Sanchez,HCP,exist,93300266.0,4,7600,3
-8182,USA,Natalia Gonzalez,HCP,exist,93300268.0,4,7800,3
-8186,USA,Ricardo Garcia,HCP,exist,93300458.0,5,7900,4
-8190,USA,David Gonzalez,HCP,exist,93300460.0,5,38500,4
-8194,USA,Leonardo Ramirez,HCP,exist,93300272.0,4,37000,3
-8198,USA,Julio Gomez,HCP,exist,93300463.0,5,37500,4
-8204,USA,Enrique Perez,HCP,exist,93300127.0,3,7100,2
-8208,USA,Daniel Fernando Gomez,HCP,exist,93300466.0,5,39000,4
-8212,USA,Esteban Lopez,HCP,exist,93300128.0,3,7000,2
-8216,USA,Julian Mendoza,HCP,exist,93300129.0,3,37000,2
-8220,USA,Roberto Sanchez,HCP,exist,93300469.0,5,38000,4
-8224,USA,Miguel Ruiz,HCP,exist,93300130.0,3,36500,2
-8228,USA,Esteban Ruiz,HCP,exist,93300131.0,3,35500,2
-8232,USA,Patricia Lopez,HCP,exist,93300472.0,5,7500,4
-8236,USA,Carla Costa,HCP,exist,93300132.0,3,7200,2
-8240,USA,Marcela Ruiz,HCP,exist,93300133.0,3,7400,2
-8244,USA,Daniela Mendoza,HCP,exist,93300475.0,5,36500,4
-8248,USA,Patricia Pereira,HCP,exist,93300289.0,4,37500,3
-8252,USA,David Lee Silva,HCP,exist,93300290.0,4,36500,3
-8256,USA,Daniel Gomez,HCP,exist,93300134.0,3,37000,2
-8260,USA,Antonio Ruiz Fernando,HCP,exist,93300293.0,4,37000,3
-8264,USA,Leonardo Gomez,HCP,exist,93300135.0,3,36000,2
-8268,USA,Daniela Costa Ruiz,HCP,exist,93300294.0,4,37500,3
-8272,USA,David Beatriz Ruiz,HCP,exist,93300295.0,4,36500,3
-8276,USA,Fernando Nicole Gomez,HCP,exist,93300296.0,4,7400,3
-8280,USA,Francisco Mendoza,HCP,exist,93300297.0,4,36500,3
-8284,USA,Roberto Ruiz,HCP,exist,93300298.0,4,7400,3
-8288,USA,Daniel Beatriz Silva,HCP,exist,93300299.0,4,36000,3
-8292,USA,David Silva,HCP,exist,93300300.0,4,7300,3
-8304,USA,Valentina Gomez,HCP,exist,93300136.0,3,36500,2
-8308,USA,Emilia Mendoza,HCP,exist,93300137.0,3,7400,2
-8312,USA,Adriana Gomez,HCP,exist,93300504.0,5,39000,4
-8316,USA,Daniela Pereira,HCP,exist,93300138.0,3,35500,2
-8320,USA,Lucia Silva,HCP,exist,93300139.0,3,37500,2
-8324,USA,Sofia Valeria Martinez,HCP,exist,93300507.0,5,7300,4
-8328,USA,Oscar Silva Salvador,HCP,exist,93300140.0,3,37000,2
-8332,USA,Daniel Gonzalez,HCP,exist,93300313.0,4,7500,3
-8336,USA,Estela Costa,HCP,exist,93300314.0,4,36000,3
-8340,USA,Renata Torres,HCP,exist,93300315.0,4,7400,3
-8344,USA,Esteban Gael Ruiz,HCP,exist,93300316.0,4,37000,3
-8348,USA,Lucia Martinez Rios,HCP,exist,93300317.0,4,36500,3
-8352,USA,Oscar Pereira,HCP,exist,93300318.0,4,7400,3
-8356,USA,Emilia Hugo Pereira,HCP,exist,93300319.0,4,37500,3
-8360,USA,Juan Silva,HCP,exist,93300320.0,4,36500,3
-8364,USA,Estela Ruiz,HCP,exist,93300321.0,4,7400,3
-8368,USA,Valentina Ruiz,HCP,exist,93300322.0,4,7500,3
-8372,USA,Juan Martinez,HCP,exist,93300323.0,4,37000,3
-8376,USA,Martina Silva,HCP,exist,93300324.0,4,36000,3
-8380,USA,Oscar Silva Beatriz,HCP,exist,93300325.0,4,37000,3
-8382,USA,Emilia Gonzalez,HCP,exist,93300326.0,4,7400,3
-8386,USA,JulianaTorres Silva,HCP,exist,93300327.0,4,36500,3
-8390,USA,Camila Gomez,HCP,exist,93300141.0,3,36000,2
-8394,USA,Victoria Costa Torres,HCP,exist,93300328.0,4,37000,3
-8398,USA,Nicolas Gomez,HCP,exist,93300329.0,4,37500,3
-8402,USA,Adriana Lee Gonzalez,HCP,exist,93300330.0,4,7300,3
-8406,USA,Oscar Torres,HCP,exist,93300331.0,4,7400,3
-8410,USA,Martina Ruiz,HCP,exist,93300332.0,4,36500,3
-8414,USA,Nicolas Ruiz,HCP,exist,93300333.0,4,37000,3
-8418,USA,Emilia Pereira,HCP,exist,93300334.0,4,36000,3
-8422,USA,Oscar Ruiz,HCP,exist,93300335.0,4,37000,3
-8426,USA,Roberto Gomez,HCP,exist,93300336.0,4,36500,3
-8430,USA,Valeria Julie Ruiz,HCP,exist,93300337.0,4,7500,3
-8434,USA,Roberto Juan Ruiz,HCP,exist,93300338.0,4,37000,3
-8438,USA,Victoria Pedro Silva,HCP,exist,93300339.0,4,7400,3
-8446,USA,Esteban Beatriz Silva,HCP,exist,93300341.0,4,7400,3
-8450,USA,Roberto Martinez,HCP,exist,93300342.0,4,36500,3
-8452,USA,Diego Fernandez,HCP,exist,93300569.0,5,43500,4
-8456,USA,Andres Castro,HCP,exist,93300570.0,5,43000,4
-8460,USA,Vanessa Gomez,HCP,exist,93300571.0,5,8500,4
-8464,USA,Mario Gonzalez,HCP,exist,93300572.0,5,43500,4
-8468,USA,Julian Gomez Salvador,HCP,exist,93300573.0,5,8600,4
-8472,USA,Andrea Martinez,HCP,exist,93300574.0,5,44000,4
-8476,USA,Valeria Lopez Gomez,HCP,exist,93300575.0,5,42500,4
-8480,USA,Martina Fernandez,HCP,exist,93300576.0,5,43500,4
-8484,USA,Jorge Gonzalez,HCP,exist,93300577.0,5,43000,4
-8488,USA,Oscar Martinez Salvador,HCP,exist,93300578.0,5,44000,4
-8492,USA,Marcela Gomez Salvador,HCP,exist,93300579.0,5,8700,4
-8496,USA,Natalia Fernandez,HCP,exist,93300580.0,5,44000,4
-8500,USA,Diego Torres,HCP,exist,93300581.0,5,8700,4
-8502,USA,Julian Torres Alejandro,HCP,exist,93300732.0,6,47500,5
-8506,USA,Laura Martinez Michael,HCP,exist,93300733.0,6,48000,5
-8510,USA,Andrea Torres,HCP,exist,93300734.0,6,47000,5
-8514,USA,Oscar Silva Gonzalez,HCP,exist,93300735.0,6,47500,5
-8518,USA,Juan Gomez,HCP,exist,93300736.0,6,48000,5
-8522,USA,Diego Beatriz Silva,HCP,exist,93300737.0,6,9400,5
-8526,USA,Marcelo Castro,HCP,exist,93300738.0,6,46500,5
-8530,USA,Andrea Gomez,HCP,exist,93300739.0,6,46000,5
-8534,USA,Oscar Martinez,HCP,exist,93300740.0,6,9400,5
-8538,USA,Laura Silva,HCP,exist,93300741.0,6,9300,5
-8542,USA,Natalia Martinez,HCP,exist,93300742.0,6,9200,5
-8546,USA,Diego Castro,HCP,exist,93300743.0,6,47000,5
-8550,USA,Oscar Silva,HCP,exist,93300744.0,6,46000,5
-8552,USA,Jose Martinez,HCP,exist,93300343.0,4,7400,3
-8556,USA,Raul Gonzalez,HCP,exist,93300344.0,4,36500,3
-8560,USA,Carla Julie Ruiz,HCP,exist,93300345.0,4,7100,3
-8564,USA,Adriana Juan Gonzalez,HCP,exist,93300346.0,4,7200,3
-8568,USA,Veronica Ruiz,HCP,exist,93300347.0,4,7100,3
-8572,USA,Jose Gomez,HCP,exist,93300348.0,4,7400,3
-8576,USA,Elena Pedro Gonzalez,HCP,exist,93300349.0,4,7300,3
-8580,USA,Carla Martinez ,HCP,exist,93300350.0,4,35500,3
-8584,USA,Raul Martinez,HCP,exist,93300351.0,4,7200,3
-8588,USA,Elena Lee Torres,HCP,exist,93300352.0,4,7100,3
-8592,USA,Jose Ruiz,HCP,exist,93300353.0,4,7400,3
-8596,USA,Adriana Lee Martinez,HCP,exist,93300354.0,4,36500,3
-8600,USA,Elena Castro,HCP,exist,93300355.0,4,36000,3
-8602,USA,Laura Gomez Silva ,HCP,exist,93300607.0,5,41500,4
-8606,USA,Carla Gonzalez,HCP,exist,93300608.0,5,42500,4
-8610,USA,Veronica Juan Ruiz,HCP,exist,93300609.0,5,41000,4
-8614,USA,Monica Ruiz,HCP,exist,93300610.0,5,41500,4
-8618,USA,Leonardo Gonzalez,HCP,exist,93300611.0,5,8400,4
-8622,USA,Pedro Gomez,HCP,exist,93300612.0,5,8500,4
-8630,USA,Luis Gonzalez,HCP,exist,93300614.0,5,41500,4
-8634,USA,Carlos Antonio Ruiz,HCP,exist,93300615.0,5,42000,4
-8638,USA,Monica Silva,HCP,exist,93300616.0,5,8200,4
-8642,USA,Adriana Gonzalez,HCP,exist,93300617.0,5,41500,4
-8646,USA,Javier Gonzalez,HCP,exist,93300618.0,5,8400,4
-8650,USA,Elena Gonzalez,HCP,exist,93300619.0,5,8300,4
-8654,USA,Laura Gonzalez,HCP,exist,93300620.0,5,41000,4
-8658,USA,Carolina Martinez,HCP,exist,93300621.0,5,41500,4
-8662,USA,Santiago Gonzalez,HCP,exist,93300622.0,5,41000,4
-8666,USA,Jose Torres,HCP,exist,93300623.0,5,41500,4
-8670,USA,Esteban Gonzalez,HCP,exist,93300624.0,5,8200,4
-8674,USA,Laura Juan Torres,HCP,exist,93300625.0,5,8300,4
-8682,USA,Silvia Martinez,HCP,exist,93300627.0,5,41500,4
-8687,USA,Veronica Silva,HCP,exist,93300632.0,5,35000,4
-8691,USA,Daniela Leandro Ramirez,HCP,exist,93300358.0,4,6700,3
-8695,USA,Carolina Ortega,HCP,exist,93300634.0,5,7100,4
-8699,USA,Adriana Lopez,HCP,exist,93300636.0,5,34500,4
-8703,USA,Elena Fernandez,HCP,exist,93300360.0,4,34000,3
-8707,USA,Silvia Morales,HCP,exist,93300638.0,5,35000,4
-8711,USA,Laura Ruiz,HCP,exist,93300640.0,5,7200,4
-8715,USA,Daniela Ramirez,HCP,exist,93300362.0,4,34500,3
-8719,USA,Jessica Costa,HCP,exist,93300643.0,5,6800,4
-8723,USA,Laura Jimenez,HCP,exist,93300363.0,4,35500,3
-8727,USA,Daniela Fernandez,HCP,exist,93300646.0,5,34500,4
-8731,USA,Adriana Morales,HCP,exist,93300364.0,4,6800,3
-8735,USA,Patricia Ruiz Torres,HCP,exist,93300649.0,5,36000,4
-8739,USA,Jessica Gomez,HCP,exist,93300365.0,4,33500,3
-8743,USA,Carolina Beatriz Gomez,HCP,exist,93300652.0,5,6900,4
-8747,USA,Natalia Mateo Ruiz,HCP,exist,93300366.0,4,34000,3
-8755,USA,Daniela Costa,HCP,exist,93300367.0,4,6700,3
-8759,USA,Veronica omez Silva,HCP,exist,93300658.0,5,36000,4
-8773,USA,Julio Diaz Sanchez,HCP,exist,93300659.0,5,7500,3
-8777,USA,Antonio Lopez Gomez,HCP,exist,93300811.0,6,7400,4
-8781,USA,Raul Ramirez,HCP,exist,93300661.0,5,7200,3
-8785,USA,Juliana Gomez,HCP,exist,93300813.0,6,37000,4
-8789,USA,Adriana Sanchez,HCP,exist,93300815.0,6,36500,4
-8793,USA,Daniela Ruiz,HCP,exist,93300663.0,5,37000,3
-8797,USA,Patricia Martinez,HCP,exist,93300817.0,6,36000,4
-8801,USA,Antonio Sanchez,HCP,exist,93300665.0,5,36500,3
-8805,USA,Carla Sanchez,HCP,exist,93300819.0,6,37000,4
-8809,USA,Julio Gonzalez,HCP,exist,93300821.0,6,37500,4
-8813,USA,Antonio Ruiz,HCP,exist,93300667.0,5,7200,3
-8817,USA,Juliana Sanchez,HCP,exist,93300823.0,6,7400,4
-8821,USA,Antonio Lopez Lee,HCP,exist,93300669.0,5,36500,3
-8825,USA,Patricia Ruiz,HCP,exist,93300825.0,6,37000,4
-8829,USA,Julio Ruiz,HCP,exist,93300827.0,6,37500,4
-8833,USA,Carla Lopez,HCP,exist,93300671.0,5,36000,3
-8837,USA,Antonio Morales,HCP,exist,93300829.0,6,37000,4
-8841,USA,Carla Lee Ruiz,HCP,exist,93300673.0,5,7300,3
-8845,USA,Elena Morales,HCP,exist,93300831.0,6,37000,4
-8849,USA,Francisco Vargas,HCP,exist,93300675.0,5,39500,4
-8857,USA,Ricardo Sanchez,HCP,exist,93300677.0,5,39000,3
-8861,USA,Victor Gomez,HCP,exist,93300370.0,4,37500,3
-8865,USA,Paola Martinez,HCP,exist,93300837.0,6,7600,4
-8869,USA,Julio Sanchez,HCP,exist,93300681.0,5,7400,4
-8873,USA,Francisco Jimenez,HCP,exist,93300839.0,6,7300,4
-8877,USA,Roberto Gonzalez,HCP,exist,93300840.0,6,37000,4
-8881,USA,Daniel Ruiz,HCP,exist,93300841.0,6,37500,3
-8885,USA,Raul Sanchez,HCP,exist,93300688.0,5,38000,4
-8889,USA,Felipe Gomez,HCP,exist,93300843.0,6,7400,4
-8893,USA,Julian Lopez,HCP,exist,93300691.0,5,36500,4
-8897,USA,Victor Martinez,HCP,exist,93300845.0,6,37500,4
-8901,USA,Francisco Michael Ruiz,HCP,exist,93300694.0,5,37000,4
-8905,USA,Daniela Silva,HCP,exist,93300847.0,6,7300,4
-8909,USA,Ricardo Martinez,HCP,exist,93300697.0,5,38000,4
-8913,USA,Felipe Sanchez,HCP,exist,93300849.0,6,37000,4
-8917,USA,Victoria Jimenez,HCP,exist,93300700.0,5,7300,4
-8921,USA,Francisco Gomez,HCP,exist,93300851.0,6,7500,4
-8925,USA,Daniela Martinez,HCP,exist,93300703.0,5,37000,4
-8929,USA,Julian Jimenez,HCP,exist,93300853.0,6,36500,4
-8933,USA,Felipe Lopez,HCP,exist,93300706.0,5,7600,4
-8961,USA,James Smith,HCP,NULL,,0,0,0
-9138,USA,Emily Johnson,HCP,NULL,,0,0,0
-9315,USA,Michael Williams,HCP,NULL,,0,0,0
-9492,USA,Jessica Brown,HCP,exist,93300003.0,1,19910,1
-9669,USA,David Jones,HCP,NULL,,0,0,0
-9732,USA,Antonio Lopez,HCP,NULL,,0,0,0
-9846,USA,Sarah Miller,HCP,NULL,,0,0,0
-10023,USA,Robert Davis,HCP,NULL,93300004.0,1,12280,0
-10200,USA,Ashley Wilson,HCP,exist,,0,0,2
-11035,USA,John Anderson,HCP,NULL,,0,0,0
-11085,USA,Christopher Taylor,HCP,NULL,,0,0,0
-11262,USA,Amanda Clark,HCP,NULL,,0,0,0
-11328,USA,Daniel White,HCP,NULL,93300041.0,2,88825,0
-11749,USA,Mia Lewis,HCP,NULL,93300077.0,3,66280,0
-12004,USA,Sophia Walker,HCP,NULL,93300149.0,4,18129,0
-12374,USA,Isabella Young,HCP,NULL,93300386.0,5,74935,0
-12593,USA,Joshua King,HCP,exist,,0,0,2
-12685,USA,Emma Scott,HCP,NULL,93300010.0,1,15678,0
-12843,USA,Ryan Adams,HCP,NULL,,0,0,0
-12956,USA,Charlotte Nelson,HCP,NULL,,0,0,0
-13078,USA,Brandon Carter,HCP,NULL,93300042.0,2,89615,0
-13291,USA,Lily Mitchell,HCP,exist,,0,0,1
-13406,USA,Nathan Perez,HCP,NULL,,0,0,0
-13579,USA,Grace Roberts,HCP,NULL,93300078.0,3,83910,0
-13742,USA,Benjamin Turner,HCP,NULL,,0,0,0
-13868,USA,Zoe Phillips,HCP,NULL,,0,0,0
-14055,USA,William Collins,HCP,exist,93300150.0,4,89725,3
-14223,USA,Ella Murphy,HCP,NULL,,0,0,0
-14392,USA,James Brown,HCP,NULL,93300387.0,5,61740,0
-14680,USA,Alexander Green,HCP,exist,93300011.0,1,95135,2
-14839,USA,Emily Richardson,HCP,NULL,,0,0,0
-14952,USA,Thomas Morgan,HCP,NULL,93300043.0,2,71780,0
-15034,USA,Natalie Baker,HCP,exist,,0,0,1
-15189,USA,Ethan Brooks,HCP,NULL,93300079.0,3,16895,0
-15324,USA,Hannah Gray,HCP,NULL,,0,0,0
-15467,USA,Lucas Hughes,HCP,NULL,93300151.0,4,15678,0
-15678,USA,Chloe Barnes,HCP,NULL,,0,0,0
-15823,USA,Jack Wilson,HCP,exist,93300388.0,5,18429,3
-15984,USA,Mia Sanders,HCP,NULL,,0,0,0
-16145,USA,Samuel Price,HCP,NULL,93300012.0,1,82715,0
-16297,USA,Scarlett Wood,HCP,NULL,,0,0,0
-16408,USA,Henry James,HCP,exist,93300044.0,2,61780,2
-16579,USA,Aurora Cox,HCP,NULL,,0,0,0
-16731,USA,Owen Campbell,HCP,NULL,93300080.0,3,89615,0
-16842,USA,Aria Morris,HCP,exist,93300152.0,4,73910,1
-17096,USA,Caleb Stewart,HCP,NULL,,0,0,0
-17245,USA,Evelyn Rivera,HCP,NULL,93300389.0,5,19124,0
-17432,USA,Gabriel Simmons,HCP,NULL,,0,0,0
-17594,USA,Stella Ward,HCP,NULL,93300013.0,1,12478,0
-17783,USA,Logan Hughes,HCP,exist,93300045.0,2,67895,3
-17942,USA,Alice James,HCP,NULL,93300081.0,3,94380,0
-18065,USA,Eli Bennett,HCP,NULL,93300153.0,4,84465,0
-18239,USA,Mila Murphy,HCP,NULL,93300390.0,5,96725,0
-18356,USA,Adam Rogers,HCP,exist,93300014.0,1,71605,2
-18572,USA,Nora Ward,HCP,NULL,93300046.0,2,19056,0
+B007,BRAZIL,Alianca Social Brasileira,HCO,exist,9990000258.0,3,181829.0,1
+U007,USA,American Care Alliance,HCO,exist,,0,880910.0,1
+U003,USA,American Heart of Service,HCO,exist,9990000005.0,1,120268.0,2
+U014,USA,American Wellness Partners,HCO,exist,,0,2167752.0,2
+S149,SPAIN,Asociacian de Bienestar Integral,HCO,NULL,9990000047.0,1,688843.0,0
+S159,SPAIN,Asociacian de Bienestar Social,HCO,NULL,9990000057.0,1,582843.0,0
+S179,SPAIN,Asociacian de Salud Integral,HCO,exist,9990000200.0,2,233165.0,1
+S199,SPAIN,Asociacian de Salud y Vida,HCO,exist,9990000224.0,2,341236.0,1
+S139,SPAIN,Asociacian de Vida y Bienestar,HCO,NULL,9990000036.0,1,543556.0,0
+S209,SPAIN,Asociacian de Vida y Salud,HCO,exist,9990000235.0,2,658663.0,1
+S185,SPAIN,Asociacian Esperanza para Todos,HCO,exist,9990000210.0,2,531430.0,1
+S175,SPAIN,Asociacian Esperanza Renaciente,HCO,exist,9990000198.0,2,212283.0,1
+S195,SPAIN,Asociacian Esperanza Renueva,HCO,exist,9990000222.0,2,658531.0,1
+S125,SPAIN,Asociacian Esperanza Viva,HCO,NULL,9990000024.0,1,545822.0,0
+S145,SPAIN,Asociacian Esperanza y Vida,HCO,NULL,9990000046.0,1,2521101.0,0
+S229,SPAIN,Asociacian Futuro Salud,HCO,exist,9990000117.0,1,490754.0,1
+S132,SPAIN,Asociacian Nueva Esperanza,HCO,NULL,9990000034.0,1,141932.0,0
+S142,SPAIN,Asociacian Nuevas Oportunidades,HCO,NULL,9990000045.0,1,2079111.0,0
+S172,SPAIN,Asociacian Nuevas Perspectivas,HCO,exist,9990000065.0,1,2928434.0,2
+S152,SPAIN,Asociacian Nuevas Vidas,HCO,NULL,9990000056.0,1,312918.0,0
+S103,SPAIN,Asociacian Progreso y Salud,HCO,NULL,9990000017.0,1,3720246.0,0
+S129,SPAIN,Asociacian Progreso y Vida,HCO,NULL,9990000025.0,1,4011243.0,0
+S223,SPAIN,Asociacian Salud y Futuro,HCO,exist,9990000249.0,2,246584.0,1
+S122,SPAIN,Asociacian Vida Plena,HCO,NULL,9990000023.0,1,4117697.0,0
+S226,SPAIN,Asociacian Vitalidad,HCO,exist,9990000251.0,2,574685.0,2
+S135,SPAIN,Asociacian Viva la Vida,HCO,NULL,9990000035.0,1,1269536.0,0
+S008,SPAIN,Asociacion Nueva Luz,HCO,NULL,9990000128.0,2,2013343.0,0
+S012,SPAIN,Asociacion Progreso Solidario,HCO,NULL,9990000010.0,1,734839.0,0
+S004,SPAIN,Asociacion Progreso y Bienestar,HCO,exist,9990000004.0,1,3016716.0,2
+B005,BRAZIL,Associacao Nova Esperanca,HCO,NULL,9990000001.0,1,1288998.0,0
+U004,USA,Bright Future Initiative,HCO,exist,9990000260.0,3,741912.0,1
+U012,USA,Bright Horizons Health Foundation,HCO,NULL,9990000133.0,2,565839.0,0
+B223,BRAZIL,Centro Clanico Rio Grande,HCO,exist,9990000244.0,2,3009021.0,1
+B004,BRAZIL,Centro de Acao Humanitaria do Amazonas,HCO,exist,9990000257.0,3,537035.0,1
+S010,SPAIN,Centro de Accion Social Esperanza,HCO,exist,9990000129.0,2,224176.0,2
+S003,SPAIN,Centro de Accion Social Iberia,HCO,NULL,9990000003.0,1,78148.0,0
+S102,SPAIN,Centro de Apoyo Esperanza,HCO,NULL,9990000136.0,2,664811.0,0
+S006,SPAIN,Centro de Apoyo y Esperanza,HCO,NULL,9990000127.0,2,249629.0,0
+S176,SPAIN,Centro de Bienestar Comunitario,HCO,exist,9990000067.0,1,147337.0,2
+S206,SPAIN,Centro de Bienestar Familiar,HCO,exist,9990000102.0,1,920790.0,2
+S186,SPAIN,Centro de Bienestar Integral,HCO,exist,9990000079.0,1,571353.0,2
+S196,SPAIN,Centro de Bienestar Social,HCO,exist,9990000092.0,1,960110.0,2
+S146,SPAIN,Centro de Bienestar y Salud,HCO,NULL,9990000171.0,2,4238992.0,0
+S014,SPAIN,Centro de Bienestar y Solidaridad,HCO,NULL,,0,274712.0,0
+S156,SPAIN,Centro de Bienestar y Vida,HCO,NULL,9990000184.0,2,2838756.0,0
+B229,BRAZIL,Centro de ReabilitaASSapso Brasil,HCO,exist,9990000114.0,1,4782875.0,1
+S123,SPAIN,Centro de Rehabilitacian Esperanza,HCO,exist,9990000143.0,2,427113.0,1
+S143,SPAIN,Centro de Rehabilitacian Integral,HCO,exist,9990000170.0,2,1542335.0,1
+S173,SPAIN,Centro de Rehabilitacian Nueva Vida,HCO,exist,9990000197.0,2,3235000.0,1
+S203,SPAIN,Centro de Rehabilitacian San Juan,HCO,exist,9990000233.0,2,916606.0,1
+S183,SPAIN,Centro de Rehabilitacian Vida Nueva,HCO,exist,9990000209.0,2,497879.0,1
+S153,SPAIN,Centro de Rehabilitacian y Progreso,HCO,exist,9990000183.0,2,469773.0,1
+S133,SPAIN,Centro de Rehabilitacian y Vida,HCO,exist,9990000157.0,2,2870230.0,1
+S126,SPAIN,Centro de Salud Integral,HCO,NULL,9990000144.0,2,470337.0,0
+S222,SPAIN,Centro de Salud Vida,HCO,exist,9990000115.0,1,3161196.0,2
+S136,SPAIN,Centro de Salud y Esperanza,HCO,NULL,9990000158.0,2,4470495.0,0
+B124,BRAZIL,Centro Macdico Santa Maria,HCO,NULL,9990000020.0,1,526588.0,0
+B214,BRAZIL,Centro Macdico Sapso Gabriel,HCO,exist,9990000109.0,1,2972990.0,2
+B144,BRAZIL,Centro Macdico Sapso Joapso,HCO,NULL,9990000042.0,1,909159.0,0
+B134,BRAZIL,Centro Macdico Sapso Lucas,HCO,NULL,9990000031.0,1,113355.0,0
+B194,BRAZIL,Centro Macdico Sapso Marcos,HCO,exist,9990000088.0,1,130151.0,2
+B154,BRAZIL,Centro Macdico Sapso Mateus,HCO,NULL,9990000053.0,1,3484413.0,0
+B184,BRAZIL,Centro Macdico Sapso Pedro,HCO,exist,9990000076.0,1,1489570.0,2
+B174,BRAZIL,Centro Macdico Sapso Rafael,HCO,exist,9990000063.0,1,3864747.0,2
+S225,SPAIN,Centro Macdico y Bienestar,HCO,exist,9990000250.0,2,708361.0,1
+B228,BRAZIL,Clanica Boa Saaode,HCO,exist,9990000246.0,2,713550.0,2
+B222,BRAZIL,Clanica Santa Maria,HCO,exist,9990000111.0,1,3231785.0,2
+B143,BRAZIL,Clanica Sapso Benedito,HCO,NULL,9990000166.0,2,116530.0,0
+B193,BRAZIL,Clanica Sapso Carlos,HCO,exist,9990000216.0,2,483254.0,1
+B128,BRAZIL,Clanica Sapso Francisco,HCO,NULL,9990000021.0,1,4136729.0,0
+B153,BRAZIL,Clanica Sapso Gabriel,HCO,NULL,9990000179.0,2,815889.0,0
+B183,BRAZIL,Clanica Sapso Geraldo,HCO,exist,9990000206.0,2,4560920.0,1
+B213,BRAZIL,Clanica Sapso Joapso,HCO,exist,9990000241.0,2,1214020.0,1
+B138,BRAZIL,Clanica Sapso Jorge,HCO,NULL,9990000032.0,1,431909.0,0
+B173,BRAZIL,Clanica Sapso Josac,HCO,exist,9990000193.0,2,261995.0,1
+B123,BRAZIL,Clanica Sapso Judas,HCO,NULL,9990000139.0,2,813591.0,0
+B148,BRAZIL,Clanica Sapso Lucas,HCO,NULL,9990000043.0,1,131958.0,0
+B158,BRAZIL,Clanica Sapso Marcos,HCO,NULL,9990000054.0,1,964698.0,0
+B198,BRAZIL,Clanica Sapso Paulo,HCO,exist,9990000219.0,2,3548421.0,2
+B133,BRAZIL,Clanica Sapso Pedro,HCO,NULL,9990000153.0,2,331879.0,0
+B218,BRAZIL,Clanica Sapso Rafael,HCO,exist,9990000243.0,2,4683561.0,2
+B178,BRAZIL,Clanica Sapso Tomac,HCO,exist,9990000195.0,2,1379989.0,2
+B203,BRAZIL,Clanica Sapso Vicente,HCO,exist,9990000228.0,2,1200235.0,1
+U015,USA,Comprehensive Care Initiative,HCO,exist,9990000134.0,2,752139.0,1
+B012,BRAZIL,Fundacao Oswaldo Cruz (Fiocruz),HCO,NULL,9990000125.0,2,3935840.0,0
+B002,BRAZIL,Fundacao Vida Verde,HCO,NULL,9990000121.0,2,1061087.0,0
+S197,SPAIN,Fundacian Apoyo Vital,HCO,exist,9990000223.0,2,51090.0,1
+S207,SPAIN,Fundacian Apoyo y Salud,HCO,exist,9990000234.0,2,3712422.0,1
+S130,SPAIN,Fundacian Bienestar Integral,HCO,exist,9990000146.0,2,3995765.0,2
+S147,SPAIN,Fundacian Cuidado de Vida,HCO,exist,,0,185203.0,2
+S157,SPAIN,Fundacian Cuidado Integral,HCO,exist,,0,4693435.0,2
+S187,SPAIN,Fundacian Cuidado Pleno,HCO,exist,9990000211.0,2,166730.0,1
+S177,SPAIN,Fundacian Cuidado Responsable,HCO,exist,9990000199.0,2,338947.0,1
+S137,SPAIN,Fundacian Cuidado Total,HCO,exist,,0,462366.0,2
+S127,SPAIN,Fundacian de Cuidado Integral,HCO,exist,,0,351097.0,2
+S144,SPAIN,Fundacian Desarrollo Social,HCO,NULL,,0,2321685.0,0
+S174,SPAIN,Fundacian Desarrollo Sustentable,HCO,exist,9990000066.0,1,3021900.0,2
+S154,SPAIN,Fundacian Desarrollo y Bienestar,HCO,NULL,,0,269178.0,0
+S184,SPAIN,Fundacian Desarrollo y Futuro,HCO,exist,9990000078.0,1,698519.0,2
+S221,SPAIN,Fundacian Esperanza,HCO,exist,9990000248.0,2,2306002.0,1
+S204,SPAIN,Fundacian Futuro para Todos,HCO,exist,9990000101.0,1,1075766.0,2
+S194,SPAIN,Fundacian Futuro y Vida,HCO,exist,9990000091.0,1,3316121.0,2
+S140,SPAIN,Fundacian Integral de Salud,HCO,exist,9990000160.0,2,206769.0,2
+S150,SPAIN,Fundacian Integral de Vida,HCO,exist,9990000173.0,2,3832868.0,2
+S230,SPAIN,Fundacian Luz,HCO,exist,9990000252.0,2,4430534.0,2
+S220,SPAIN,Fundacian Luz y Vida,HCO,exist,9990000110.0,1,3539448.0,2
+S134,SPAIN,Fundacian Progreso Social,HCO,NULL,,0,215041.0,0
+S124,SPAIN,Fundacian Progreso y Salud,HCO,NULL,,0,394681.0,0
+S224,SPAIN,Fundacian Renueva,HCO,exist,9990000116.0,1,915778.0,2
+S121,SPAIN,Fundacian Salud Total,HCO,NULL,9990000142.0,2,1139182.0,0
+S191,SPAIN,Fundacian Salud y Bienestar,HCO,exist,9990000221.0,2,3782592.0,1
+S131,SPAIN,Fundacian Salud y Vida,HCO,NULL,9990000156.0,2,1021959.0,0
+S180,SPAIN,Fundacian Vida Activa,HCO,exist,9990000069.0,1,1999238.0,2
+S190,SPAIN,Fundacian Vida en Plenitud,HCO,exist,9990000081.0,1,1769598.0,2
+S160,SPAIN,Fundacian Vida Integral,HCO,exist,9990000186.0,2,499492.0,2
+S101,SPAIN,Fundacian Vida Nueva,HCO,exist,9990000016.0,1,729064.0,1
+S141,SPAIN,Fundacian Vida Plena,HCO,NULL,9990000169.0,2,2575557.0,0
+S151,SPAIN,Fundacian Vida Saludable,HCO,NULL,9990000182.0,2,2843400.0,0
+S201,SPAIN,Fundacian Vida Sana,HCO,exist,9990000232.0,2,3959034.0,1
+S210,SPAIN,Fundacian Vida y Futuro,HCO,exist,9990000104.0,1,1184064.0,2
+S200,SPAIN,Fundacian Vida y Salud,HCO,exist,9990000094.0,1,266840.0,2
+S005,SPAIN,Fundacion Esperanza Solidaria,HCO,NULL,9990000008.0,1,1996107.0,0
+S009,SPAIN,Fundacion Esperanza y Futuro,HCO,NULL,9990000009.0,1,1973548.0,0
+S001,SPAIN,Fundacion Luz de Esperanza,HCO,NULL,9990000122.0,2,675987.0,0
+S013,SPAIN,Fundacion Luz y Esperanza,HCO,NULL,9990000130.0,2,1813168.0,0
+U008,USA,Future Health Initiative,HCO,NULL,9990000132.0,2,218261.0,0
+U228,USA,Future Wellness Foundation,HCO,exist,9990000120.0,1,922756.0,2
+U147,USA,Futures for Care,HCO,NULL,9990000050.0,1,832352.0,0
+U127,USA,Futures for Health,HCO,NULL,9990000028.0,1,1416880.0,0
+U177,USA,Futures for Health and Care,HCO,exist,9990000203.0,2,4267824.0,1
+U157,USA,Futures for Health and Wellness,HCO,exist,9990000060.0,1,359457.0,1
+U197,USA,Futures for Health Network,HCO,exist,9990000227.0,2,339365.0,1
+U137,USA,Futures for Wellness,HCO,NULL,9990000039.0,1,268795.0,0
+U210,USA,Global Care Alliance,HCO,exist,9990000108.0,1,912648.0,2
+U180,USA,Global Care Foundation,HCO,exist,9990000074.0,1,3262990.0,2
+U200,USA,Global Care Initiative,HCO,exist,9990000097.0,1,97498.0,2
+U190,USA,Global Care Solutions,HCO,exist,9990000086.0,1,94654.0,2
+U160,USA,Global Health and Care,HCO,exist,9990000191.0,2,4806618.0,1
+U101,USA,Global Health Initiative,HCO,exist,9990000137.0,2,786997.0,1
+U201,USA,Global Health Network,HCO,exist,9990000236.0,2,2496176.0,1
+U150,USA,Global Health Organization,HCO,NULL,9990000177.0,2,159503.0,0
+U130,USA,Global Health Partners,HCO,NULL,9990000151.0,2,143767.0,0
+U131,USA,Global Wellness Foundation,HCO,exist,9990000161.0,2,4738856.0,1
+U151,USA,Global Wellness Health,HCO,exist,9990000187.0,2,2948260.0,1
+U121,USA,Global Wellness Initiative,HCO,exist,9990000147.0,2,1177789.0,1
+U181,USA,Global Wellness Network,HCO,exist,9990000212.0,2,572332.0,1
+U141,USA,Global Wellness Partnership,HCO,exist,9990000174.0,2,614365.0,1
+U191,USA,Global Wellness Society,HCO,exist,9990000225.0,2,194779.0,1
+U202,USA,Health Alliance Network,HCO,exist,9990000105.0,1,33247.0,2
+U149,USA,Health and Care Alliance,HCO,NULL,9990000051.0,1,4433977.0,0
+U139,USA,Health and Care Foundation,HCO,NULL,9990000040.0,1,2201482.0,0
+U179,USA,Health and Care Network,HCO,exist,9990000204.0,2,3298816.0,1
+U159,USA,Health and Wellness Alliance,HCO,exist,9990000061.0,1,283538.0,1
+U129,USA,Health and Wellness Foundation,HCO,NULL,9990000029.0,1,3512667.0,0
+U209,USA,Health and Wellness Network,HCO,exist,9990000239.0,2,337069.0,1
+U189,USA,Health and Wellness Solutions,HCO,exist,9990000214.0,2,288167.0,1
+U122,USA,Health Care Alliance,HCO,NULL,9990000026.0,1,1439792.0,0
+U132,USA,Health Care United,HCO,NULL,9990000037.0,1,280936.0,0
+U227,USA,Health First Alliance,HCO,exist,9990000255.0,2,3665702.0,1
+U142,USA,Health Network Alliance,HCO,NULL,9990000048.0,1,4602279.0,0
+U152,USA,Health Network Foundation,HCO,exist,9990000058.0,1,325139.0,1
+U182,USA,Health Network Solutions,HCO,exist,9990000082.0,1,3991650.0,2
+U172,USA,Health Network Support,HCO,exist,9990000070.0,1,1109556.0,2
+U222,USA,Health Solutions Group,HCO,exist,9990000118.0,1,728315.0,2
+U133,USA,Hope America Foundation,HCO,NULL,9990000162.0,2,2798792.0,0
+U009,USA,Hope and Healing Foundation,HCO,NULL,,0,2531266.0,0
+U183,USA,Hope for a Better Future,HCO,exist,9990000213.0,2,3061083.0,1
+U173,USA,Hope for a Healthy Future,HCO,exist,9990000201.0,2,654167.0,1
+U102,USA,Hope for Health Foundation,HCO,NULL,,0,617086.0,0
+U203,USA,Hope for Tomorrow Alliance,HCO,exist,9990000237.0,2,658143.0,1
+U153,USA,Hope for Tomorrow Foundation,HCO,exist,9990000188.0,2,3350770.0,1
+U123,USA,Hope Foundation America,HCO,NULL,9990000148.0,2,3414976.0,0
+B101,BRAZIL,Hospice Santa Maria,HCO,NULL,9990000135.0,2,201335.0,0
+B209,BRAZIL,Hospital da Boa EsperanASSa,HCO,exist,9990000100.0,1,139981.0,1
+B149,BRAZIL,Hospital da CrianASSa,HCO,NULL,9990000168.0,2,999436.0,0
+B189,BRAZIL,Hospital da EsperanASSa,HCO,exist,9990000077.0,1,375838.0,1
+B129,BRAZIL,Hospital da Luz,HCO,NULL,9990000141.0,2,2627880.0,0
+B199,BRAZIL,Hospital da RedenASSapso,HCO,exist,9990000090.0,1,4344014.0,1
+B159,BRAZIL,Hospital da Saaode,HCO,NULL,9990000181.0,2,575894.0,0
+B139,BRAZIL,Hospital da Vida,HCO,NULL,9990000155.0,2,273160.0,0
+B225,BRAZIL,Hospital das Clanicas,HCO,exist,9990000245.0,2,801743.0,1
+B008,BRAZIL,Hospital das Clinicas de Sao Paulo,HCO,NULL,,0,3688612.0,0
+B009,BRAZIL,Hospital de Cancer de Barretos,HCO,NULL,9990000124.0,2,245796.0,0
+B013,BRAZIL,Hospital de Coracao de Sao Paulo,HCO,NULL,9990000007.0,1,3870442.0,0
+B010,BRAZIL,Hospital Israelita Albert Einstein,HCO,NULL,9990000006.0,1,4014862.0,0
+B131,BRAZIL,Hospital Nossa Senhora de FA!tima,HCO,NULL,9990000152.0,2,209041.0,0
+B215,BRAZIL,Hospital Santa Clara,HCO,exist,9990000242.0,2,742180.0,1
+B141,BRAZIL,Hospital Santa Helena,HCO,NULL,9990000165.0,2,1897421.0,0
+B205,BRAZIL,Hospital Santa Maria,HCO,exist,9990000229.0,2,963277.0,1
+B195,BRAZIL,Hospital Santa Marta,HCO,exist,9990000217.0,2,792038.0,1
+B185,BRAZIL,Hospital Santa Teresa,HCO,exist,9990000207.0,2,927040.0,1
+B151,BRAZIL,Hospital Santo AntA'nio,HCO,NULL,9990000178.0,2,4521441.0,0
+B015,BRAZIL,Hospital Sao Luiz,HCO,NULL,,0,797201.0,0
+B176,BRAZIL,Hospital Sapso Bento,HCO,exist,9990000194.0,2,358951.0,2
+B196,BRAZIL,Hospital Sapso Domingos,HCO,exist,9990000218.0,2,34300.0,2
+B211,BRAZIL,Hospital Sapso Francisco,HCO,exist,9990000240.0,2,1765313.0,1
+B186,BRAZIL,Hospital Sapso Gabriel,HCO,exist,9990000208.0,2,2206914.0,2
+B121,BRAZIL,Hospital Sapso Joapso,HCO,NULL,9990000138.0,2,2213475.0,0
+B126,BRAZIL,Hospital Sapso Josac,HCO,exist,9990000140.0,2,4872998.0,1
+B171,BRAZIL,Hospital Sapso Lucas,HCO,exist,9990000192.0,2,596146.0,1
+B230,BRAZIL,Hospital Sapso Luiz,HCO,exist,9990000247.0,2,3869990.0,2
+B146,BRAZIL,Hospital Sapso Marcos,HCO,exist,9990000167.0,2,465808.0,1
+B191,BRAZIL,Hospital Sapso Mateus,HCO,exist,9990000215.0,2,995067.0,1
+B156,BRAZIL,Hospital Sapso Miguel,HCO,exist,9990000180.0,2,4057213.0,1
+B102,BRAZIL,Hospital Sapso Paulo Norte,HCO,NULL,,0,2503165.0,0
+B206,BRAZIL,Hospital Sapso Pedro,HCO,exist,9990000230.0,2,1127948.0,2
+B136,BRAZIL,Hospital Sapso Rafael,HCO,exist,9990000154.0,2,74820.0,1
+B011,BRAZIL,Hospital Sirio-Libanes,HCO,exist,,0,311648.0,1
+B181,BRAZIL,Hospital UniversitA!rio,HCO,exist,9990000205.0,2,357449.0,1
+B145,BRAZIL,Hospital Vila Boa,HCO,exist,,0,249931.0,2
+B155,BRAZIL,Hospital Vila Clara,HCO,exist,,0,3907360.0,2
+B125,BRAZIL,Hospital Vila Mariana,HCO,exist,,0,3121690.0,2
+B135,BRAZIL,Hospital Vila Nova,HCO,exist,,0,1122409.0,2
+B172,BRAZIL,Instituto Brasileiro de Cardiologia,HCO,exist,9990000062.0,1,3714227.0,2
+B192,BRAZIL,Instituto Brasileiro de Dermatologia,HCO,exist,9990000087.0,1,4747389.0,2
+B200,BRAZIL,Instituto Brasileiro de Neurologia,HCO,exist,9990000220.0,2,2701240.0,2
+B210,BRAZIL,Instituto Brasileiro de Oftalmologia,HCO,exist,9990000231.0,2,2098591.0,2
+B152,BRAZIL,Instituto Brasileiro de Oncologia,HCO,exist,9990000052.0,1,266508.0,2
+B142,BRAZIL,Instituto Brasileiro de Saaode,HCO,exist,9990000041.0,1,363531.0,2
+B103,BRAZIL,Instituto de CAC/ncer Sapso Paulo,HCO,NULL,9990000015.0,1,2886013.0,0
+B224,BRAZIL,Instituto de Saaode Central,HCO,exist,9990000112.0,1,139312.0,2
+B227,BRAZIL,Instituto de Saaode da Mulher,HCO,exist,9990000113.0,1,774469.0,1
+B132,BRAZIL,Instituto do CoraASSapso Paulista,HCO,exist,9990000030.0,1,4853339.0,2
+B014,BRAZIL,Instituto do Coracao (InCor),HCO,exist,9990000126.0,2,1402690.0,1
+B001,BRAZIL,Instituto Esperanca Brasil,HCO,NULL,,0,1043585.0,0
+B182,BRAZIL,Instituto Nacional de Cardiologia,HCO,exist,9990000075.0,1,1065318.0,2
+B202,BRAZIL,Instituto Nacional de Oncologia,HCO,exist,9990000098.0,1,3123091.0,2
+B127,BRAZIL,Instituto Paulista de CAC/ncer,HCO,NULL,,0,906942.0,0
+B140,BRAZIL,Instituto Paulista de Cardiologia,HCO,exist,9990000033.0,1,633587.0,1
+B160,BRAZIL,Instituto Paulista de Endocrinologia,HCO,exist,9990000055.0,1,3050731.0,1
+B197,BRAZIL,Instituto Paulista de Ginecologia,HCO,exist,9990000089.0,1,4793700.0,1
+B147,BRAZIL,Instituto Paulista de Hematologia,HCO,NULL,,0,1874371.0,0
+B150,BRAZIL,Instituto Paulista de Nefrologia,HCO,exist,9990000044.0,1,230884.0,1
+B180,BRAZIL,Instituto Paulista de Oftalmologia,HCO,exist,9990000196.0,2,787089.0,2
+B137,BRAZIL,Instituto Paulista de Oncologia,HCO,NULL,,0,477281.0,0
+B177,BRAZIL,Instituto Paulista de Pediatria,HCO,exist,9990000064.0,1,3878391.0,1
+B157,BRAZIL,Instituto Paulista de Reumatologia,HCO,NULL,,0,4011062.0,0
+B130,BRAZIL,Instituto Paulista de Saaode,HCO,exist,9990000022.0,1,284329.0,1
+B207,BRAZIL,Instituto Paulista de Urologia,HCO,exist,9990000099.0,1,329030.0,1
+B122,BRAZIL,Instituto Vida e Saaode,HCO,exist,9990000019.0,1,3725928.0,2
+U229,USA,National Care Network,HCO,exist,9990000256.0,2,1039353.0,1
+U013,USA,National Health and Wellness Network,HCO,NULL,9990000014.0,1,58984.0,0
+U134,USA,National Health Initiative,HCO,NULL,9990000038.0,1,4920412.0,0
+U124,USA,National Health Network,HCO,NULL,9990000027.0,1,1225281.0,0
+U154,USA,National Health Organization,HCO,exist,9990000059.0,1,3290227.0,1
+U224,USA,National Health Partners,HCO,exist,9990000119.0,1,3082263.0,2
+U174,USA,National Health Service,HCO,exist,9990000071.0,1,3506075.0,2
+U184,USA,National Health Services,HCO,exist,9990000083.0,1,64886.0,2
+U144,USA,National Health Support,HCO,NULL,9990000049.0,1,4539798.0,0
+U005,USA,National Wellness Foundation,HCO,NULL,9990000131.0,2,2480415.0,0
+U204,USA,National Wellness Initiative,HCO,exist,9990000106.0,1,496232.0,2
+U128,USA,Nationwide Care Network,HCO,exist,9990000150.0,2,4777075.0,1
+U198,USA,Nationwide Health Alliance,HCO,exist,9990000096.0,1,146330.0,2
+U148,USA,Nationwide Health Foundation,HCO,exist,9990000176.0,2,1228576.0,1
+U208,USA,Nationwide Health Initiative,HCO,exist,9990000107.0,1,75725.0,2
+U178,USA,Nationwide Health Partners,HCO,exist,9990000073.0,1,3215603.0,2
+U010,USA,Nationwide Health Support Network,HCO,NULL,9990000013.0,1,681155.0,0
+U001,USA,Nationwide Hope Foundation,HCO,NULL,9990000123.0,2,538178.0,0
+U158,USA,Nationwide Wellness Initiative,HCO,exist,9990000190.0,2,589879.0,1
+U138,USA,Nationwide Wellness Network,HCO,exist,9990000164.0,2,3838128.0,1
+U188,USA,Nationwide Wellness Partners,HCO,exist,9990000085.0,1,4360011.0,2
+B006,BRAZIL,Projeto Cidadania e Futuro,HCO,NULL,9990000002.0,1,999913.0,0
+S011,SPAIN,Red de Apoyo Integral,HCO,exist,,0,3948089.0,1
+S178,SPAIN,Red de Apoyo y Bienestar,HCO,exist,9990000068.0,1,988732.0,2
+S148,SPAIN,Red de Bienestar y Progreso,HCO,NULL,9990000172.0,2,510186.0,0
+S158,SPAIN,Red de Progreso y Salud,HCO,NULL,9990000185.0,2,847646.0,0
+S128,SPAIN,Red de Salud Esperanza,HCO,NULL,9990000145.0,2,4256415.0,0
+S208,SPAIN,Red de Salud Integral,HCO,exist,9990000103.0,1,4460605.0,2
+S198,SPAIN,Red de Salud PAoblica,HCO,exist,9990000093.0,1,3109818.0,2
+S188,SPAIN,Red de Salud y Vida,HCO,exist,9990000080.0,1,2954109.0,2
+S007,SPAIN,Red de Solidaridad y Progreso,HCO,exist,,0,4446532.0,2
+S138,SPAIN,Red de Vida y Progreso,HCO,NULL,9990000159.0,2,2384250.0,0
+S015,SPAIN,Red Esperanza y Desarrollo,HCO,exist,9990000011.0,1,4363854.0,1
+S002,SPAIN,Red Solidaridad Espana,HCO,NULL,,0,936075.0,0
+B003,BRAZIL,Rede Solidariedade Brasil,HCO,NULL,,0,2459933.0,0
+U175,USA,Unified Care Alliance,HCO,exist,9990000202.0,2,281836.0,1
+U135,USA,Unified Care Network,HCO,exist,9990000163.0,2,23986.0,1
+U011,USA,Unified Care Solutions,HCO,exist,,0,1984346.0,2
+U225,USA,Unified Health Network,HCO,exist,9990000254.0,2,2400804.0,1
+U155,USA,Unified Health Partners,HCO,exist,9990000189.0,2,448974.0,1
+U125,USA,Unified Health Solutions,HCO,exist,9990000149.0,2,1770746.0,1
+U145,USA,Unified Wellness Initiative,HCO,exist,9990000175.0,2,4112754.0,1
+U205,USA,Unified Wellness Partners,HCO,exist,9990000238.0,2,442315.0,1
+U195,USA,Unified Wellness Solutions,HCO,exist,9990000226.0,2,2694490.0,1
+U126,USA,United Care Initiative,HCO,NULL,,0,2154454.0,0
+U103,USA,United Care Network,HCO,NULL,9990000018.0,1,1499046.0,0
+U002,USA,United Community Aid Network,HCO,NULL,9990000259.0,3,4331068.0,0
+U006,USA,United Health Care Network,HCO,NULL,9990000012.0,1,1351279.0,0
+U136,USA,United Health Partners,HCO,NULL,,0,2419945.0,0
+U176,USA,United Wellness Foundation,HCO,exist,9990000072.0,1,1491234.0,2
+U186,USA,United Wellness Initiative,HCO,exist,9990000084.0,1,601723.0,2
+U196,USA,United Wellness Network,HCO,exist,9990000095.0,1,386896.0,2
+U223,USA,Wellness Foundation of America,HCO,exist,9990000253.0,2,0.0,1
+1059,BRAZIL,Camila Araujo,HCP,NULL,,0,0.0,0
+1137,BRAZIL,Leonardo Silva Gomez,HCP,exist,93300071.0,3,13248.0,1
+1298,BRAZIL,Andre Oliveira,HCP,NULL,,0,0.0,0
+1406,BRAZIL,Diego Pereira,HCP,NULL,93300035.0,2,72160.0,0
+1823,BRAZIL,Eduardo Martins,HCP,exist,93300379.0,5,17964.0,3
+1836,BRAZIL,Sofia Ramirez,HCP,NULL,,0,0.0,0
+1924,BRAZIL,Carla Fernandez,HCP,NULL,,0,0.0,0
+2047,BRAZIL,Gustavo Rocha,HCP,NULL,,0,0.0,0
+2132,BRAZIL,Roberta Souza,HCP,NULL,,0,0.0,0
+2261,BRAZIL,Vinicius Santos,HCP,NULL,93300142.0,4,57290.0,0
+2354,BRAZIL,Rafael Mateo Costa,HCP,NULL,93300001.0,1,14525.0,0
+2394,BRAZIL,Clara Moreira,HCP,exist,,0,0.0,1
+2456,BRAZIL,Daniel Ferreira,HCP,NULL,,0,0.0,0
+2553,BRAZIL,Lucas Santos Juan,HCP,exist,,0,0.0,2
+2578,BRAZIL,Julia Almeida,HCP,NULL,,0,0.0,0
+2634,BRAZIL,Alexandre Campos,HCP,NULL,93300005.0,1,94615.0,0
+2765,BRAZIL,Monique Lima,HCP,exist,,0,0.0,2
+2841,BRAZIL,Henrique Costa,HCP,NULL,,0,0.0,0
+2957,BRAZIL,Ana Paula Oliveira,HCP,NULL,,0,0.0,0
+2974,BRAZIL,Fernando Vargas,HCP,NULL,,0,0.0,0
+3078,BRAZIL,Felipe Martins,HCP,NULL,93300143.0,4,15678.0,0
+3189,BRAZIL,Natalia Ribeiro,HCP,NULL,,0,0.0,0
+3224,BRAZIL,Rodrigo Lima,HCP,exist,,0,0.0,3
+3317,BRAZIL,Erica Almeida,HCP,NULL,93300072.0,3,56170.0,0
+3547,BRAZIL,Juan Castillo,HCP,exist,93300022.0,1,2100.0,1
+3551,BRAZIL,Leticia Carvalho,HCP,exist,,0,0.0,1
+3678,BRAZIL,Everton Gomes,HCP,NULL,,0,0.0,0
+3749,BRAZIL,Ingrid Souza,HCP,NULL,93300036.0,2,15876.0,0
+3841,BRAZIL,Valentina Castillo,HCP,NULL,,0,0.0,0
+3857,BRAZIL,Elena Alvarez,HCP,exist,93300055.0,2,19500.0,2
+3881,BRAZIL,Luciano Pereira,HCP,NULL,,0,0.0,0
+3890,BRAZIL,Elena Julie Torres,HCP,NULL,,0,0.0,0
+3910,BRAZIL,Isabel Fernandez,HCP,NULL,,0,0.0,0
+3948,BRAZIL,Camila Morales,HCP,NULL,,0,0.0,0
+3972,BRAZIL,Alessandra Oliveira,HCP,NULL,,0,0.0,0
+4034,BRAZIL,Sergio Costa,HCP,exist,,0,0.0,2
+4146,BRAZIL,Gabriel Jean Pereira,HCP,NULL,,0,0.0,0
+4187,BRAZIL,Daniela Ribeiro,HCP,NULL,93300380.0,5,81760.0,0
+4278,BRAZIL,Isabel Morales,HCP,NULL,,0,0.0,0
+4295,BRAZIL,Joao Pedro Lima,HCP,NULL,,0,0.0,0
+4312,BRAZIL,Renata Goncalves,HCP,NULL,,0,0.0,0
+4456,BRAZIL,Matheus Silva,HCP,NULL,93300006.0,1,89470.0,0
+4459,BRAZIL,Camila Herrera,HCP,NULL,,0,0.0,0
+4568,BRAZIL,Priscila Almeida,HCP,exist,,0,0.0,1
+4612,BRAZIL,Emilio Torres,HCP,NULL,,0,0.0,0
+4689,BRAZIL,Rafael Oliveira,HCP,NULL,,0,0.0,0
+4721,BRAZIL,Livia Rocha,HCP,NULL,,0,0.0,0
+4722,BRAZIL,Sofia Vargas,HCP,exist,93300031.0,1,14500.0,1
+4762,BRAZIL,Julie Gabriel Pereira,HCP,NULL,,0,0.0,0
+4782,BRAZIL,Ana Laura Lima,HCP,NULL,,0,0.0,0
+4803,BRAZIL,Felipe Pereira,HCP,exist,93300062.0,2,36250.0,1
+4832,BRAZIL,Alan Ferreira,HCP,NULL,93300037.0,2,71760.0,0
+4842,BRAZIL,Gabriel Costa,HCP,NULL,,0,0.0,0
+4890,BRAZIL,Fernando Castillo,HCP,NULL,,0,0.0,0
+4909,BRAZIL,Lucas Santos Carlos,HCP,NULL,,0,0.0,0
+4910,BRAZIL,Aline Santos,HCP,exist,,0,0.0,3
+4936,BRAZIL,Emilio Castillo,HCP,exist,93300021.0,1,13500.0,1
+4948,BRAZIL,Isabel Garcia,HCP,NULL,,0,0.0,0
+4983,BRAZIL,Joao Silva,HCP,NULL,,0,0.0,0
+5043,BRAZIL,Carlos Eduardo Silva,HCP,NULL,,0,0.0,0
+5238,BRAZIL,Jorge Almeida,HCP,NULL,,0,0.0,0
+5346,BRAZIL,Sandra Mendes,HCP,exist,,0,0.0,2
+5479,BRAZIL,Thiago Fernandes,HCP,NULL,,0,0.0,0
+5493,BRAZIL,Daniel Ortiz,HCP,exist,93300049.0,2,4200.0,1
+5590,BRAZIL,Ana Clara Souza,HCP,NULL,93300144.0,4,68820.0,0
+5632,BRAZIL,Wellington Campos,HCP,NULL,,0,0.0,0
+5704,BRAZIL,Joaquin Ramirez,HCP,NULL,,0,0.0,0
+5731,BRAZIL,Laura Martinez,HCP,exist,93300029.0,1,14000.0,1
+5739,BRAZIL,JoAPSo Mateo Silva,HCP,exist,93300065.0,2,31000.0,1
+5781,BRAZIL,Fernanda Oliveira,HCP,NULL,,0,0.0,0
+5840,BRAZIL,Isabel Alvarez,HCP,NULL,,0,0.0,0
+5864,BRAZIL,Sofia Lee Fernandes,HCP,exist,93300061.0,2,32500.0,2
+5878,BRAZIL,Sofia Garcia,HCP,exist,93300086.0,3,37500.0,2
+5927,BRAZIL,Pedro Torres,HCP,NULL,,0,0.0,0
+6047,BRAZIL,Elena Costa Martinez,HCP,NULL,,0,0.0,0
+6402,BRAZIL,Ana Lima Julia,HCP,NULL,,0,0.0,0
+6939,BRAZIL,Mateo Fernandez,HCP,NULL,,0,0.0,0
+6948,BRAZIL,Valentina Ortiz,HCP,exist,93300051.0,2,20000.0,2
+6954,BRAZIL,Ana Oliveira Beatriz,HCP,exist,93300089.0,3,43000.0,3
+6975,BRAZIL,Isabel Almeida Hugo,HCP,exist,93300082.0,3,6750.0,2
+6984,BRAZIL,Sofia Fernandes,HCP,exist,93300064.0,2,34500.0,1
+6985,BRAZIL,Felipe Costa Silva,HCP,exist,93300087.0,3,8100.0,2
+6990,BRAZIL,Ana Lima Fernando,HCP,exist,93300092.0,3,40500.0,2
+6992,BRAZIL,Lucas Michael Lima,HCP,exist,93300160.0,4,46500.0,3
+6993,BRAZIL,Ana Oliveira,HCP,exist,93300161.0,4,46250.0,3
+7001,BRAZIL,Isabella Rodrigues Romero,HCP,exist,93300167.0,4,7850.0,3
+7005,BRAZIL,Maria Lee Hernandez,HCP,NULL,,0,0.0,0
+7025,BRAZIL,Gabriel David Almeida,HCP,NULL,,0,0.0,0
+7033,BRAZIL,Lucas Oliveira,HCP,NULL,,0,0.0,0
+7057,BRAZIL,Luciana Julie Santos,HCP,NULL,,0,0.0,0
+7073,BRAZIL,Gabriel Jean Almeida,HCP,NULL,,0,0.0,0
+7077,BRAZIL,Rafael Santos Beatriz,HCP,NULL,,0,0.0,0
+7085,BRAZIL,Luiz Gomez Almeida,HCP,NULL,,0,0.0,0
+7145,BRAZIL,Juan Ortiz,HCP,exist,93300017.0,1,9600.0,1
+7368,BRAZIL,Thiago Mateo Martins,HCP,NULL,93300033.0,2,16750.0,0
+7389,BRAZIL,Isabel Rodriguez,HCP,exist,93300054.0,2,20750.0,2
+7545,BRAZIL,Isabella Gomes,HCP,NULL,,0,0.0,0
+7666,BRAZIL,Pedro Souza,HCP,exist,93300032.0,2,9120.0,2
+7809,BRAZIL,Laura Vargas,HCP,NULL,,0,0.0,0
+7815,BRAZIL,Miguel Diaz,HCP,NULL,,0,0.0,0
+7921,BRAZIL,Laura Diaz Silva,HCP,NULL,,0,0.0,0
+7932,BRAZIL,Valentina Diaz,HCP,NULL,,0,0.0,0
+8001,BRAZIL,Isabella Rodrigues,HCP,exist,93300199.0,4,39250.0,3
+8005,BRAZIL,Maria Hernandez,HCP,exist,93300070.0,2,27000.0,2
+8009,BRAZIL,Lucas Mateo Costa,HCP,exist,93300114.0,3,36250.0,3
+8013,BRAZIL,Bruna Souza,HCP,exist,93300115.0,3,37250.0,3
+8017,BRAZIL,Renata Mateo Costa,HCP,exist,93300407.0,5,48000.0,4
+8021,BRAZIL,Gustavo Lima,HCP,exist,93300117.0,3,34500.0,3
+8025,BRAZIL,Gabriel Pedro Almeida,HCP,exist,93300206.0,4,8750.0,3
+8029,BRAZIL,Larissa Silva,HCP,exist,93300119.0,3,7400.0,3
+8033,BRAZIL,Lucas Torres Oliveira,HCP,exist,93300209.0,4,8350.0,3
+8037,BRAZIL,Rodrigo Silva,HCP,exist,93300411.0,5,9850.0,4
+8041,BRAZIL,Beatriz Almeida,HCP,exist,93300213.0,4,44250.0,3
+8045,BRAZIL,Camila Oliveira,HCP,exist,93300120.0,3,34000.0,3
+8049,BRAZIL,Ricardo Lima,HCP,exist,93300414.0,5,9300.0,4
+8053,BRAZIL,Sofia Almeida,HCP,exist,93300218.0,4,44500.0,3
+8057,BRAZIL,Luciana Santos,HCP,exist,93300416.0,5,48000.0,4
+8061,BRAZIL,Gabriela Pereira,HCP,exist,93300222.0,4,44000.0,3
+8065,BRAZIL,Larissa Lima,HCP,exist,93300224.0,4,43750.0,3
+8069,BRAZIL,Isabella Rocha,HCP,exist,93300227.0,4,44500.0,3
+8073,BRAZIL,Gabriel Almeida,HCP,exist,93300420.0,5,48000.0,4
+8077,BRAZIL,Rafael Juan Santos,HCP,exist,93300231.0,4,43750.0,3
+8081,BRAZIL,Beatriz Lima,HCP,exist,93300422.0,5,9550.0,4
+8085,BRAZIL,Luiz Almeida,HCP,exist,93300234.0,4,8700.0,3
+8089,BRAZIL,Lucas Lima Lucus,HCP,exist,93300424.0,5,46500.0,4
+8093,BRAZIL,Sofia Costa,HCP,exist,93300238.0,4,8750.0,3
+8097,BRAZIL,Luciana Souza,HCP,exist,93300426.0,5,48000.0,4
+8101,BRAZIL,Claudia Hernandez,HCP,exist,93300242.0,4,38000.0,3
+8105,BRAZIL,Maria Silva,HCP,exist,93300429.0,5,9450.0,4
+8109,BRAZIL,Renata Almeida,HCP,exist,93300430.0,5,49000.0,4
+8117,BRAZIL,Marcela Oliveira,HCP,exist,93300433.0,5,47500.0,4
+8121,BRAZIL,Patricia Lima,HCP,exist,93300247.0,4,39000.0,3
+8125,BRAZIL,Ana Silva,HCP,exist,93300249.0,4,42500.0,3
+8129,BRAZIL,Luana Costa,HCP,exist,93300436.0,5,49500.0,4
+8133,BRAZIL,Ricardo Silva,HCP,exist,93300251.0,4,41000.0,3
+8137,BRAZIL,Bruno Oliveira,HCP,exist,93300253.0,4,44500.0,3
+8141,BRAZIL,Lucas Costa,HCP,exist,93300254.0,4,45000.0,3
+8143,BRAZIL,Gabriela Torres,HCP,NULL,,0,0.0,0
+8145,BRAZIL,Luana Silva,HCP,exist,93300441.0,5,9700.0,4
+8149,BRAZIL,Aline Leandro Costa,HCP,exist,93300257.0,4,8400.0,3
+8153,BRAZIL,Ana Leandro Costa,HCP,exist,93300444.0,5,47000.0,4
+8157,BRAZIL,Fernanda Silva,HCP,exist,93300260.0,4,43000.0,3
+8161,BRAZIL,Lucas Ikar Silva,HCP,exist,93300261.0,4,44000.0,3
+8165,BRAZIL,Gabriela Almeida,HCP,exist,93300449.0,5,48750.0,4
+8169,BRAZIL,Mariana Pedro Silva,HCP,exist,93300264.0,4,42500.0,3
+8173,BRAZIL,Aline Costa,HCP,exist,93300265.0,4,41500.0,3
+8177,BRAZIL,Fernanda Costa,HCP,exist,93300455.0,5,49000.0,4
+8181,BRAZIL,Lucas Gomez  Oliveira,HCP,exist,93300267.0,4,8600.0,3
+8189,BRAZIL,Claudia Costa,HCP,exist,93300270.0,4,8900.0,3
+8193,BRAZIL,Mariana Gomez,HCP,exist,93300271.0,4,42000.0,3
+8197,BRAZIL,Aline Pereira,HCP,exist,93300273.0,4,44000.0,3
+8203,BRAZIL,Patricia Gonzalez,HCP,exist,93300275.0,4,8200.0,3
+8207,BRAZIL,Laura Mendoza,HCP,exist,93300276.0,4,8900.0,3
+8211,BRAZIL,Fernanda Martinez,HCP,exist,93300278.0,4,40500.0,3
+8215,BRAZIL,Cristina Ruiz,HCP,exist,93300468.0,5,44000.0,4
+8219,BRAZIL,Juliana Pereira,HCP,exist,93300280.0,4,8500.0,3
+8223,BRAZIL,Luna Isabela Vargas,HCP,exist,93300282.0,4,8700.0,3
+8227,BRAZIL,Carlos Mariana Silva,HCP,exist,93300471.0,5,46500.0,4
+8231,BRAZIL,Francisco Silva,HCP,exist,93300284.0,4,42000.0,3
+8235,BRAZIL,David Torres,HCP,exist,93300286.0,4,41500.0,3
+8239,BRAZIL,Leonardo Gomez Gonzalez,HCP,exist,93300474.0,5,45000.0,4
+8243,BRAZIL,Elena Silva A,HCP,exist,93300288.0,4,43500.0,3
+8247,BRAZIL,Julian Gomez,HCP,exist,93300477.0,5,44000.0,4
+8251,BRAZIL,Elena Torres Gomez,HCP,exist,93300479.0,5,45500.0,4
+8255,BRAZIL,Fernanda Garcia,HCP,exist,93300481.0,5,44500.0,4
+8259,BRAZIL,Marcela Silva,HCP,exist,93300292.0,4,44000.0,3
+8263,BRAZIL,Elena Ruiz,HCP,exist,93300483.0,5,45000.0,4
+8267,BRAZIL,Julian Costa Pedro,HCP,exist,93300485.0,5,9100.0,4
+8275,BRAZIL,Patricia Mateo Silva,HCP,exist,93300489.0,5,45000.0,4
+8279,BRAZIL,Marcela Salvador Ruiz,HCP,exist,93300491.0,5,44000.0,4
+8283,BRAZIL,Laura Silva Vargas,HCP,exist,93300493.0,5,8900.0,4
+8287,BRAZIL,Mariana Ruiz,HCP,exist,93300495.0,5,45000.0,4
+8291,BRAZIL,Marcela Torres Romero,HCP,exist,93300497.0,5,9100.0,4
+8295,BRAZIL,Julian Costa,HCP,exist,93300499.0,5,9200.0,4
+8299,BRAZIL,Marcela Gonzalez Romero,HCP,exist,93300501.0,5,44500.0,4
+8303,BRAZIL,Nicolas Martinez Silva,HCP,exist,93300304.0,4,43000.0,3
+8307,BRAZIL,Felipe Garcia,HCP,exist,93300503.0,5,44500.0,4
+8311,BRAZIL,Manuel Ruiz,HCP,exist,93300306.0,4,8300.0,3
+8315,BRAZIL,Alejandro Gonzalez,HCP,exist,93300308.0,4,8400.0,3
+8319,BRAZIL,Julio Fernandez Ruiz,HCP,exist,93300506.0,5,9000.0,4
+8323,BRAZIL,Ignacio Pereira,HCP,exist,93300310.0,4,42500.0,3
+8331,BRAZIL,Juan M Martinez,HCP,exist,93300509.0,5,44000.0,4
+8335,BRAZIL,Francisco Pedro Ruiz,HCP,exist,93300511.0,5,44500.0,4
+8339,BRAZIL,Alejandro Martinez,HCP,exist,93300513.0,5,46000.0,4
+8343,BRAZIL,Ignacio Martinez,HCP,exist,93300515.0,5,45500.0,4
+8347,BRAZIL,Claudia Beatriz Pereira,HCP,exist,93300517.0,5,45000.0,4
+8351,BRAZIL,Camila Silva,HCP,exist,93300519.0,5,44000.0,4
+8355,BRAZIL,Nicolas Pedro Ruiz,HCP,exist,93300521.0,5,9000.0,4
+8359,BRAZIL,Lucia Ruiz,HCP,exist,93300523.0,5,44000.0,4
+8363,BRAZIL,Felipe Pereira Romero,HCP,exist,93300525.0,5,44500.0,4
+8367,BRAZIL,Lucia Costa,HCP,exist,93300527.0,5,46000.0,4
+8371,BRAZIL,Adriana Ruiz,HCP,exist,93300529.0,5,44500.0,4
+8375,BRAZIL,Emilio Pereira,HCP,exist,93300531.0,5,45000.0,4
+8379,BRAZIL,Adriana Martinez Pedro,HCP,exist,93300533.0,5,46000.0,4
+8381,BRAZIL,Lucia Julie Ruiz,HCP,exist,93300534.0,5,9200.0,4
+8385,BRAZIL,Valeria Pedro Gomez,HCP,exist,93300536.0,5,9100.0,4
+8389,BRAZIL,Felipe Ruiz,HCP,exist,93300538.0,5,44500.0,4
+8393,BRAZIL,Ximena Pilar Rios,HCP,exist,93300540.0,5,45500.0,4
+8397,BRAZIL,Martina M Pereira,HCP,exist,93300542.0,5,45000.0,4
+8401,BRAZIL,Daniela Carvalho Ruiz,HCP,exist,93300544.0,5,44500.0,4
+8405,BRAZIL,Lucia Martinez Ruiz,HCP,exist,93300546.0,5,9200.0,4
+8409,BRAZIL,Victoria Pereira,HCP,exist,93300548.0,5,45500.0,4
+8413,BRAZIL,Roberto Silva,HCP,exist,93300550.0,5,8900.0,4
+8417,BRAZIL,Florencia Hugo Silva,HCP,exist,93300552.0,5,9100.0,4
+8425,BRAZIL,Nicolas Silva,HCP,exist,93300556.0,5,46000.0,4
+8429,BRAZIL,Martina Pereira,HCP,exist,93300558.0,5,44500.0,4
+8433,BRAZIL,Felipe Gomez Hugo,HCP,exist,93300560.0,5,45500.0,4
+8437,BRAZIL,Juliana Costa,HCP,exist,93300562.0,5,45000.0,4
+8441,BRAZIL,Florencia Torres,HCP,exist,93300564.0,5,44000.0,4
+8445,BRAZIL,Juliana Martinez Pedro,HCP,exist,93300566.0,5,8900.0,4
+8449,BRAZIL,Victoria Torres,HCP,exist,93300568.0,5,46000.0,4
+8451,BRAZIL,Elena Silva B,HCP,exist,93300707.0,6,52500.0,5
+8459,BRAZIL,Jorge Silva,HCP,exist,93300711.0,6,10100.0,5
+8463,BRAZIL,Natalia Ruiz,HCP,exist,93300713.0,6,53000.0,5
+8467,BRAZIL,Claudia Beatriz,HCP,exist,93300715.0,6,52000.0,5
+8471,BRAZIL,Esteban Castro,HCP,exist,93300717.0,6,10700.0,5
+8475,BRAZIL,Diego Silva,HCP,exist,93300719.0,6,51000.0,5
+8479,BRAZIL,Natalia Gomez Romero,HCP,exist,93300721.0,6,10800.0,5
+8483,BRAZIL,Mariana Gonzalez,HCP,exist,93300723.0,6,52000.0,5
+8487,BRAZIL,Florencia Silva,HCP,exist,93300725.0,6,10600.0,5
+8491,BRAZIL,Martina Costa,HCP,exist,93300727.0,6,10300.0,5
+8495,BRAZIL,Isabella Martinez,HCP,exist,93300729.0,6,10500.0,5
+8499,BRAZIL,Elena Leandro Pereira,HCP,exist,93300731.0,6,53000.0,5
+8501,BRAZIL,Claudia Castro,HCP,exist,93300854.0,7,57500.0,6
+8505,BRAZIL,Florencia Gonzalez,HCP,exist,93300856.0,7,56000.0,6
+8509,BRAZIL,Marcelo Gomez,HCP,exist,93300858.0,7,56500.0,6
+8513,BRAZIL,Bruno Carvalho,HCP,exist,93300860.0,7,57000.0,6
+8521,BRAZIL,Carla Gonzalez Beatriz,HCP,exist,93300864.0,7,57500.0,6
+8525,BRAZIL,Natalia Torres,HCP,exist,93300866.0,7,11200.0,6
+8529,BRAZIL,Diego Leandro Fernandez,HCP,exist,93300868.0,7,56500.0,6
+8533,BRAZIL,Marcela Gonzalez,HCP,exist,93300870.0,7,57000.0,6
+8537,BRAZIL,Luciana Torres,HCP,exist,93300872.0,7,57500.0,6
+8541,BRAZIL,Marcelo Torres Pedro,HCP,exist,93300874.0,7,56000.0,6
+8545,BRAZIL,Claudia Silva,HCP,exist,93300876.0,7,11400.0,6
+8549,BRAZIL,Luciana Juan Martinez,HCP,exist,93300878.0,7,11600.0,6
+8551,BRAZIL,Patricia Silva Beatriz,HCP,exist,93300582.0,5,40500.0,4
+8555,BRAZIL,Martina omez Fernandez,HCP,exist,93300584.0,5,8500.0,4
+8559,BRAZIL,Ignacio Silva,HCP,exist,93300586.0,5,42000.0,4
+8563,BRAZIL,Marcelo Fernandez,HCP,exist,93300588.0,5,41000.0,4
+8567,BRAZIL,Raul Mateo Silva,HCP,exist,93300590.0,5,8600.0,4
+8571,BRAZIL,Carolina Fernandez,HCP,exist,93300592.0,5,41500.0,4
+8579,BRAZIL,Marcelo Castro Romero,HCP,exist,93300596.0,5,41000.0,4
+8583,BRAZIL,Martina Gomez,HCP,exist,93300598.0,5,41500.0,4
+8587,BRAZIL,Adriana Ruiz Jack,HCP,exist,93300600.0,5,42000.0,4
+8591,BRAZIL,Carolina Leandro Martinez,HCP,exist,93300602.0,5,42500.0,4
+8595,BRAZIL,Martina Castro,HCP,exist,93300604.0,5,41000.0,4
+8599,BRAZIL,Marcelo Ruiz,HCP,exist,93300606.0,5,41500.0,4
+8601,BRAZIL,Esteban Silva,HCP,exist,93300745.0,6,9000.0,5
+8605,BRAZIL,Antonio Fernandez,HCP,exist,93300747.0,6,45500.0,5
+8609,BRAZIL,Felipe Silva,HCP,exist,93300749.0,6,46000.0,5
+8613,BRAZIL,Martin Fernandez,HCP,exist,93300751.0,6,45000.0,5
+8617,BRAZIL,Claudia Beatriz Silva,HCP,exist,93300753.0,6,9100.0,5
+8621,BRAZIL,Raquel Fernandez,HCP,exist,93300755.0,6,9200.0,5
+8625,BRAZIL,Natalia Silva,HCP,exist,93300757.0,6,46500.0,5
+8629,BRAZIL,Gael Rodrigo Martinez,HCP,exist,93300759.0,6,45500.0,5
+8633,BRAZIL,Carolina Silva Romero,HCP,exist,93300761.0,6,46000.0,5
+8637,BRAZIL,Raul Gomez Martinez,HCP,exist,93300763.0,6,46500.0,5
+8641,BRAZIL,David Pedro Silva,HCP,exist,93300765.0,6,9400.0,5
+8645,BRAZIL,Carla Silva Leandro,HCP,exist,93300767.0,6,46000.0,5
+8649,BRAZIL,Silvia Martinez Ruiz,HCP,exist,93300769.0,6,46500.0,5
+8653,BRAZIL,David Leandro Gomez,HCP,exist,93300771.0,6,47000.0,5
+8657,BRAZIL,Antonio Silva,HCP,exist,93300773.0,6,46500.0,5
+8673,BRAZIL,Antonio Castro,HCP,exist,93300781.0,6,46500.0,5
+8677,BRAZIL,David Carlos Silva,HCP,exist,93300783.0,6,47000.0,5
+8678,BRAZIL,Daniel Pedro Martinez,HCP,exist,93300629.0,5,7200.0,4
+8681,BRAZIL,Raul Torres Salvador,HCP,exist,93300785.0,6,46500.0,5
+8685,BRAZIL,Andrea Ruiz,HCP,exist,93300787.0,6,9400.0,5
+8686,BRAZIL,Pedro Lima,HCP,exist,93300631.0,5,37000.0,4
+8694,BRAZIL,Alexandre Silva,HCP,exist,93300359.0,4,7300.0,3
+8698,BRAZIL,Felipe Costa Carlos,HCP,exist,93300635.0,5,37000.0,4
+8702,BRAZIL,Marcos Silva,HCP,exist,93300637.0,5,37500.0,4
+8706,BRAZIL,Antonio Vargas,HCP,exist,93300361.0,4,7300.0,3
+8710,BRAZIL,Diego Pedro Costa,HCP,exist,93300639.0,5,37000.0,4
+8714,BRAZIL,Fernando Morales Silva,HCP,exist,93300641.0,5,37500.0,4
+8718,BRAZIL,Raul Torres Beatriz,HCP,exist,93300642.0,5,37000.0,4
+8722,BRAZIL,Pedro Silva,HCP,exist,93300644.0,5,37500.0,4
+8726,BRAZIL,Antonio Ruiz Manuel,HCP,exist,93300645.0,5,37000.0,4
+8730,BRAZIL,Fernando Gonzalez,HCP,exist,93300647.0,5,37500.0,4
+8734,BRAZIL,Raul Silva Beatriz,HCP,exist,93300648.0,5,37000.0,4
+8738,BRAZIL,Felipe Pedro Costa,HCP,exist,93300650.0,5,37500.0,4
+8742,BRAZIL,Antonio Carlos Silva,HCP,exist,93300651.0,5,7400.0,4
+8746,BRAZIL,Raul Fernandez,HCP,exist,93300653.0,5,37500.0,4
+8750,BRAZIL,Iker Alejandro Morales,HCP,exist,93300654.0,5,37000.0,4
+8754,BRAZIL,Monica Fernandez Silva,HCP,exist,93300656.0,5,7500.0,4
+8758,BRAZIL,Raul Juan Ruiz,HCP,exist,93300657.0,5,37000.0,4
+8772,BRAZIL,Daniela Alvarez,HCP,exist,93300810.0,6,40000.0,4
+8776,BRAZIL,Patricia Silva,HCP,exist,93300660.0,5,7700.0,3
+8780,BRAZIL,Elena Moreno,HCP,exist,93300812.0,6,39500.0,4
+8784,BRAZIL,Silvia Martinez Romero,HCP,exist,93300662.0,5,39000.0,3
+8788,BRAZIL,Carolina Silva,HCP,exist,93300814.0,6,40000.0,4
+8792,BRAZIL,Raul Silva,HCP,exist,93300816.0,6,7900.0,4
+8796,BRAZIL,Elena Silva C,HCP,exist,93300664.0,5,39000.0,3
+8800,BRAZIL,Juliana Silva,HCP,exist,93300818.0,6,39500.0,4
+8804,BRAZIL,Victor Mateo Martinez,HCP,exist,93300666.0,5,7700.0,3
+8808,BRAZIL,Elena Beatriz Ruiz,HCP,exist,93300820.0,6,40000.0,4
+8816,BRAZIL,Silvia Ruiz,HCP,exist,93300668.0,5,39000.0,3
+8820,BRAZIL,Daniel Silva,HCP,exist,93300824.0,6,39500.0,4
+8824,BRAZIL,Carla Morales,HCP,exist,93300670.0,5,38500.0,3
+8832,BRAZIL,Raul Ruiz,HCP,exist,93300828.0,6,39500.0,4
+8836,BRAZIL,Elena Hugo Sanchez,HCP,exist,93300672.0,5,7800.0,3
+8844,BRAZIL,Victor Sanchez,HCP,exist,93300674.0,5,38500.0,3
+8848,BRAZIL,Isabel Silva,HCP,exist,93300368.0,4,42500.0,3
+8852,BRAZIL,Carolina Almeida,HCP,exist,93300676.0,5,8300.0,3
+8856,BRAZIL,Vanessa Silva,HCP,exist,93300834.0,6,8500.0,4
+8860,BRAZIL,Adriana Costa,HCP,exist,93300836.0,6,8300.0,4
+8864,BRAZIL,Isabel Almeida,HCP,exist,93300679.0,5,8000.0,3
+8868,BRAZIL,Lucia Mendoza,HCP,exist,93300371.0,4,7800.0,3
+8872,BRAZIL,Carolina Gomez,HCP,exist,93300682.0,5,8000.0,3
+8876,BRAZIL,Natalia Silva Martinez,HCP,exist,93300684.0,5,7800.0,3
+8880,BRAZIL,Mariana Juan Silva,HCP,exist,93300686.0,5,41500.0,4
+8884,BRAZIL,Andrea Costa,HCP,exist,93300372.0,4,39000.0,3
+8888,BRAZIL,Adriana Leandro Silva,HCP,exist,93300689.0,5,40000.0,3
+8892,BRAZIL,Patricia Costa,HCP,exist,93300373.0,4,7900.0,3
+8896,BRAZIL,Carla Silva,HCP,exist,93300692.0,5,40000.0,3
+8900,BRAZIL,Isabel Jimenez,HCP,exist,93300374.0,4,39000.0,3
+8904,BRAZIL,Victor Gonzalez,HCP,exist,93300695.0,5,8000.0,3
+8908,BRAZIL,Carolina Jimenez,HCP,exist,93300375.0,4,39500.0,3
+8912,BRAZIL,Adriana Martinez,HCP,exist,93300698.0,5,40000.0,3
+8920,BRAZIL,Elena Sanchez,HCP,exist,93300701.0,5,40000.0,3
+8924,BRAZIL,Carla Leandro Costa,HCP,exist,93300377.0,4,7900.0,3
+8928,BRAZIL,Isabel Ruiz,HCP,exist,93300704.0,5,8000.0,3
+8932,BRAZIL,Victor Silva Jimenez,HCP,exist,93300378.0,4,39000.0,3
+9054,BRAZIL,Isabel Torres,HCP,NULL,,0,0.0,0
+9143,BRAZIL,Pablo Herrera,HCP,NULL,,0,0.0,0
+9501,BRAZIL,Juliana Juan Ribeiro,HCP,NULL,,0,0.0,0
+1011,SPAIN,Luis Gomez Perez,HCP,NULL,,0,0.0,0
+1014,SPAIN,Laura Torres,HCP,NULL,,0,0.0,0
+1015,SPAIN,Francisco Carlos Ruiz,HCP,NULL,,0,0.0,0
+1203,SPAIN,Enrique Alvarez,HCP,exist,,0,0.0,1
+2510,SPAIN,Mateo Gomez,HCP,exist,,0,0.0,1
+3102,SPAIN,Diego Mendoza,HCP,exist,93300048.0,2,18350.0,2
+3604,SPAIN,Camila Romero,HCP,exist,,0,0.0,1
+3851,SPAIN,Valentina Garcia,HCP,exist,,0,0.0,1
+3919,SPAIN,Laura Alvarez,HCP,NULL,,0,0.0,0
+3921,SPAIN,Antonio Herrera,HCP,exist,,0,0.0,1
+4817,SPAIN,Laura Garcia,HCP,NULL,,0,0.0,0
+4821,SPAIN,Laura Juan Martinez,HCP,exist,93300053.0,2,19100.0,2
+4932,SPAIN,Lucia Fernandez,HCP,exist,93300020.0,1,16000.0,1
+4952,SPAIN,Lucia Juan Sanchez,HCP,exist,93300058.0,2,19000.0,2
+4953,SPAIN,Sofia Lee Martinez,HCP,NULL,,0,0.0,0
+5237,SPAIN,Renata Cruz,HCP,exist,,0,0.0,1
+5743,SPAIN,Claudia Torres,HCP,exist,,0,0.0,1
+5745,SPAIN,Valeria Sanchez,HCP,exist,93300059.0,2,18250.0,2
+5809,SPAIN,Pedro Garcia,HCP,NULL,,0,0.0,0
+5819,SPAIN,Laura Ramirez,HCP,exist,,0,0.0,1
+5838,SPAIN,Pedro Diaz,HCP,exist,,0,0.0,1
+5839,SPAIN,Emilia Garcia,HCP,exist,,0,0.0,1
+5841,SPAIN,Mateo Garcia,HCP,exist,,0,0.0,1
+5842,SPAIN,Lucas Santos Pedro,HCP,exist,93300088.0,3,7800.0,2
+5854,SPAIN,Rafael Santos,HCP,exist,93300084.0,3,40500.0,3
+5857,SPAIN,Felipe Pedro Rocha,HCP,exist,93300106.0,3,40500.0,2
+5862,SPAIN,Juliana Lee Ribeiro,HCP,exist,93300063.0,2,33750.0,1
+5868,SPAIN,Felipe Rocha,HCP,exist,93300090.0,3,7350.0,2
+5875,SPAIN,Lucas Almeida,HCP,exist,93300157.0,4,9500.0,3
+5879,SPAIN,Lucas Santos Maria,HCP,exist,93300159.0,4,47250.0,3
+5886,SPAIN,Rafael Costa Beatriz,HCP,exist,93300094.0,3,40500.0,2
+5893,SPAIN,Luis Perez,HCP,exist,,0,0.0,1
+5914,SPAIN,Valeria Diaz,HCP,exist,,0,0.0,1
+5924,SPAIN,Isabel Mateo Gomez,HCP,NULL,93300381.0,5,76170.0,0
+5930,SPAIN,Sofia Pedro Garcia,HCP,exist,93300026.0,1,2500.0,1
+6178,SPAIN,Laura Gomez Torres,HCP,NULL,,0,0.0,0
+6289,SPAIN,Francisco Juan  Ruiz,HCP,exist,,0,0.0,3
+6354,SPAIN,Marta Morales,HCP,NULL,93300007.0,1,18923.0,0
+6679,SPAIN,Sergio Romero,HCP,NULL,93300074.0,3,56280.0,0
+6838,SPAIN,Miguel Sanchez,HCP,exist,,0,0.0,1
+6845,SPAIN,Joaquin Herrera,HCP,exist,,0,0.0,1
+6881,SPAIN,Alberto Moreno,HCP,NULL,93300145.0,4,82160.0,0
+6909,SPAIN,JoAPSo Pereira,HCP,exist,93300155.0,4,48000.0,3
+6912,SPAIN,Elena Torres Martinez,HCP,exist,93300052.0,2,3450.0,2
+6915,SPAIN,Claudia Herrera,HCP,exist,,0,0.0,1
+6932,SPAIN,Felipe Juan Rocha,HCP,exist,93300096.0,3,40500.0,2
+6938,SPAIN,Gabriel Fernando Pereira,HCP,exist,93300156.0,4,9200.0,3
+6941,SPAIN,Mateo Torres,HCP,exist,93300083.0,3,37250.0,3
+6942,SPAIN,Thiago Martins,HCP,exist,93300093.0,3,38500.0,2
+6943,SPAIN,Lucia  Julie Romero,HCP,NULL,,0,0.0,0
+6945,SPAIN,Pablo Martinez Romero,HCP,exist,93300060.0,2,17250.0,2
+6961,SPAIN,Joaquin Alvarez,HCP,exist,93300162.0,4,41500.0,3
+6962,SPAIN,Joao Lucas Lima,HCP,exist,93300158.0,4,44750.0,3
+6972,SPAIN,Lucas Lima,HCP,exist,93300085.0,3,41000.0,3
+6987,SPAIN,Beatriz Ortega,HCP,NULL,,0,0.0,0
+6989,SPAIN,Gabriel Juan Pereira,HCP,exist,93300095.0,3,43250.0,2
+7004,SPAIN,Carlos Morales Beatriz,HCP,exist,93300168.0,4,43250.0,4
+7008,SPAIN,Javier Perez Salvador,HCP,exist,93300169.0,4,45500.0,4
+7012,SPAIN,Manuel Lopez Salvador,HCP,exist,93300392.0,5,46500.0,4
+7016,SPAIN,Pedro M Silva,HCP,exist,93300171.0,4,8700.0,4
+7020,SPAIN,Sofia Mateo Castillo,HCP,exist,93300393.0,5,53000.0,4
+7024,SPAIN,Clara Morales,HCP,exist,93300394.0,5,52500.0,4
+7028,SPAIN,Alfonso Leandro Lopez,HCP,exist,93300174.0,4,44500.0,3
+7032,SPAIN,Diego Costa Gomez,HCP,exist,93300395.0,5,52250.0,4
+7036,SPAIN,Ana Leandro Garcia,HCP,exist,93300177.0,4,9300.0,3
+7040,SPAIN,Luiz Lima Gomez,HCP,exist,93300396.0,5,48250.0,4
+7043,SPAIN,Manuel Navarro,HCP,NULL,,0,0.0,0
+7044,SPAIN,Adrian Mateo Martinez,HCP,exist,93300397.0,5,9450.0,4
+7048,SPAIN,Carmen Perez Romero,HCP,exist,93300181.0,4,42500.0,3
+7052,SPAIN,Fabio Santos,HCP,exist,93300398.0,5,52000.0,4
+7056,SPAIN,Juan Leonardo Costa,HCP,exist,93300184.0,4,46500.0,3
+7059,SPAIN,Emiliano Perez,HCP,NULL,,0,0.0,0
+7060,SPAIN,Paulo MateoMendes,HCP,exist,93300399.0,5,53000.0,4
+7064,SPAIN,Fernanda Gael Costa,HCP,exist,93300400.0,5,9650.0,4
+7068,SPAIN,Rafael Martinez Romero,HCP,exist,93300188.0,4,9300.0,3
+7072,SPAIN,Fabio Lima Hugo,HCP,exist,93300401.0,5,10450.0,4
+7076,SPAIN,Lucas Gomez Silva,HCP,exist,93300191.0,4,46500.0,3
+7080,SPAIN,Tiago Costa,HCP,exist,93300402.0,5,48250.0,4
+7084,SPAIN,Adrian Mateo Costa,HCP,exist,93300403.0,5,47250.0,4
+7088,SPAIN,Carmen Garcia,HCP,exist,93300195.0,4,42500.0,3
+7092,SPAIN,Fabio Oliveira,HCP,exist,93300404.0,5,52000.0,4
+7096,SPAIN,Pedro Leonardo Costa,HCP,exist,93300198.0,4,9300.0,3
+7165,SPAIN,Elena Vargas,HCP,exist,,0,0.0,1
+7238,SPAIN,Francisco Javier Ruiz,HCP,NULL,93300038.0,2,88270.0,0
+7351,SPAIN,Natalia Delgado,HCP,NULL,,0,0.0,0
+7498,SPAIN,Ricardo Moreno,HCP,NULL,,0,0.0,0
+7623,SPAIN,Javier Sanchez,HCP,exist,,0,0.0,3
+7745,SPAIN,Raquel Ramirez,HCP,NULL,93300146.0,4,78920.0,0
+7869,SPAIN,Alejandro Lopez,HCP,NULL,,0,0.0,0
+7899,SPAIN,Maria Fernandez,HCP,exist,,0,0.0,2
+7951,SPAIN,Veronica Diaz,HCP,exist,,0,0.0,2
+7956,SPAIN,Sofia Lopez,HCP,exist,93300024.0,1,14250.0,1
+8004,SPAIN,Carlos Morales,HCP,exist,93300200.0,4,43250.0,4
+8008,SPAIN,Javier Perez,HCP,exist,93300201.0,4,45500.0,4
+8012,SPAIN,Manuel Lopez,HCP,exist,93300406.0,5,9300.0,4
+8016,SPAIN,Mariana Silva,HCP,exist,93300203.0,4,43500.0,4
+8020,SPAIN,Sofia Castillo,HCP,exist,93300408.0,5,10600.0,4
+8024,SPAIN,Clara Beatriz Morales,HCP,exist,93300409.0,5,10500.0,4
+8028,SPAIN,Alfonso Lopez,HCP,exist,93300207.0,4,44500.0,3
+8032,SPAIN,Diego Costa Martinez,HCP,exist,93300410.0,5,52250.0,4
+8036,SPAIN,Ana Garcia,HCP,exist,93300211.0,4,46500.0,3
+8040,SPAIN,Luiz Lima,HCP,exist,93300412.0,5,48250.0,4
+8044,SPAIN,Adrian Martinez,HCP,exist,93300413.0,5,47250.0,4
+8047,SPAIN,Guillermo Lopez,HCP,NULL,93300008.0,1,16789.0,0
+8048,SPAIN,Carmen Perez,HCP,exist,93300216.0,4,42500.0,3
+8052,SPAIN,Fabio Beatriz Santos,HCP,exist,93300415.0,5,52000.0,4
+8056,SPAIN,Leonardo Lee  Costa,HCP,exist,93300220.0,4,46500.0,3
+8060,SPAIN,Paulo Mendes Beatriz,HCP,exist,93300417.0,5,53000.0,4
+8064,SPAIN,FernandaVargas  Costa,HCP,exist,93300418.0,5,48250.0,4
+8068,SPAIN,Rafael Martinez,HCP,exist,93300226.0,4,46500.0,3
+8072,SPAIN,Fabio Lima,HCP,exist,93300419.0,5,52250.0,4
+8076,SPAIN,Lucas Pedro Silva,HCP,exist,93300230.0,4,9300.0,3
+8080,SPAIN,Tiago PedroCosta,HCP,exist,93300421.0,5,48250.0,4
+8084,SPAIN,Adrian Costa,HCP,exist,93300423.0,5,47250.0,4
+8088,SPAIN,Carmen Leandro Garcia,HCP,exist,93300236.0,4,42500.0,3
+8092,SPAIN,Fabio Oliveira Hugo,HCP,exist,93300425.0,5,52000.0,4
+8096,SPAIN,Leonardo Costa,HCP,exist,93300240.0,4,46500.0,3
+8100,SPAIN,Paulo Mendes,HCP,exist,93300427.0,5,53000.0,4
+8104,SPAIN,Antonio Alvarez,HCP,exist,93300243.0,4,41000.0,4
+8108,SPAIN,IsabelHugo  Martinez,HCP,exist,93300244.0,4,45000.0,3
+8112,SPAIN,Manuel Gonzalez,HCP,exist,93300431.0,5,50000.0,4
+8116,SPAIN,Javier Gomez,HCP,exist,93300246.0,4,8600.0,3
+8120,SPAIN,Roberto Lopez,HCP,exist,93300434.0,5,47500.0,4
+8124,SPAIN,Enrique Martinez,HCP,exist,93300435.0,5,9400.0,4
+8128,SPAIN,Pedro Lopez,HCP,exist,93300250.0,4,8800.0,3
+8132,SPAIN,Juan Alvarez,HCP,exist,93300437.0,5,45500.0,4
+8136,SPAIN,Carmen Gomez,HCP,exist,93300438.0,5,9600.0,4
+8140,SPAIN,Carla Martinez Romero,HCP,exist,93300440.0,5,47500.0,4
+8144,SPAIN,Antonio Diaz,HCP,exist,93300256.0,4,8700.0,3
+8148,SPAIN,Esteban Perez,HCP,exist,93300442.0,5,47000.0,4
+8152,SPAIN,Leonardo Silva,HCP,exist,93300258.0,4,44000.0,3
+8156,SPAIN,Marco Lopez,HCP,exist,93300445.0,5,46000.0,4
+8160,SPAIN,Clara Gonzalez,HCP,exist,93300447.0,5,48500.0,4
+8164,SPAIN,Elena  Pedro Costa,HCP,exist,93300448.0,5,47000.0,4
+8168,SPAIN,Antonio Garcia,HCP,exist,93300450.0,5,47500.0,4
+8172,SPAIN,Esteban Hugo Costa,HCP,exist,93300452.0,5,9650.0,4
+8176,SPAIN,Marco Silva,HCP,exist,93300454.0,5,46500.0,4
+8180,SPAIN,Leonardo Torres,HCP,exist,93300456.0,5,9500.0,4
+8184,SPAIN,Martina Pedro Gomez,HCP,exist,93300457.0,5,9400.0,4
+8188,SPAIN,Julian Torres,HCP,exist,93300459.0,5,48000.0,4
+8192,SPAIN,Antonio Torres Martinez,HCP,exist,93300461.0,5,9300.0,4
+8196,SPAIN,Juan Roberto Silva,HCP,exist,93300462.0,5,9700.0,4
+8200,SPAIN,Marco Martinez,HCP,exist,93300464.0,5,47000.0,4
+8201,SPAIN,Elena Garcia,HCP,exist,93300274.0,4,42500.0,3
+8205,SPAIN,Camila Costa,HCP,exist,93300465.0,5,46500.0,4
+8209,SPAIN,Ana Ruiz,HCP,exist,93300277.0,4,43000.0,3
+8213,SPAIN,Marcela Gomez,HCP,exist,93300467.0,5,9200.0,4
+8217,SPAIN,Guillermo Martinez,HCP,exist,93300279.0,4,43500.0,3
+8221,SPAIN,Isabella Torres Salvador,HCP,exist,93300281.0,4,42000.0,3
+8225,SPAIN,Claudia Mendoza,HCP,exist,93300470.0,5,47500.0,4
+8229,SPAIN,Ana Costa,HCP,exist,93300283.0,4,43000.0,3
+8233,SPAIN,Miguel Gomez,HCP,exist,93300285.0,4,44500.0,3
+8237,SPAIN,Cristina Martinez,HCP,exist,93300473.0,5,9200.0,4
+8241,SPAIN,Roberto Garcia,HCP,exist,93300287.0,4,8800.0,3
+8245,SPAIN,Guillermo Ruiz,HCP,exist,93300476.0,5,47500.0,4
+8249,SPAIN,Victoria Martinez Salvador,HCP,exist,93300478.0,5,48000.0,4
+8253,SPAIN,Guillermo Gonzalez,HCP,exist,93300480.0,5,9400.0,4
+8257,SPAIN,Carla Michael Ruiz,HCP,exist,93300291.0,4,8600.0,3
+8261,SPAIN,Patricia Torres Martinez,HCP,exist,93300482.0,5,47500.0,4
+8265,SPAIN,Victoria Julie Pereira,HCP,exist,93300484.0,5,9700.0,4
+8269,SPAIN,Marcela Pereira,HCP,exist,93300486.0,5,9300.0,4
+8273,SPAIN,Laura Torres Santos,HCP,exist,93300488.0,5,47000.0,4
+8277,SPAIN,Elena Torres,HCP,exist,93300490.0,5,47500.0,4
+8281,SPAIN,Carla Torres,HCP,exist,93300492.0,5,48000.0,4
+8285,SPAIN,Julian Martinez,HCP,exist,93300494.0,5,48500.0,4
+8289,SPAIN,Elena Costa Gonzalez,HCP,exist,93300496.0,5,47500.0,4
+8293,SPAIN,Fernanda Ruiz,HCP,exist,93300498.0,5,9600.0,4
+8297,SPAIN,Elena Pereira,HCP,exist,93300500.0,5,47500.0,4
+8301,SPAIN,Lucas Pereira,HCP,exist,93300303.0,4,46000.0,3
+8305,SPAIN,Alonso Torres,HCP,exist,93300502.0,5,46500.0,4
+8313,SPAIN,Valeria Torres,HCP,exist,93300307.0,4,43000.0,3
+8317,SPAIN,Renata Costa,HCP,exist,93300505.0,5,47000.0,4
+8321,SPAIN,Luna Isabela Mateo Vargas,HCP,exist,93300309.0,4,8700.0,3
+8325,SPAIN,Victoria Gonzalez,HCP,exist,93300311.0,4,44500.0,3
+8329,SPAIN,Renata Pereira,HCP,exist,93300508.0,5,48000.0,4
+8333,SPAIN,Dario Esteban Ruiz,HCP,exist,93300510.0,5,47500.0,4
+8337,SPAIN,Julio Silva,HCP,exist,93300512.0,5,48500.0,4
+8341,SPAIN,Elena Costa,HCP,exist,93300514.0,5,48000.0,4
+8345,SPAIN,Valeria Gomez,HCP,exist,93300516.0,5,9500.0,4
+8349,SPAIN,Florencia Costa,HCP,exist,93300518.0,5,47000.0,4
+8353,SPAIN,Adriana Torres,HCP,exist,93300520.0,5,9600.0,4
+8357,SPAIN,Sofia Torres Beatriz,HCP,exist,93300522.0,5,47500.0,4
+8361,SPAIN,Martina Lee Costa,HCP,exist,93300524.0,5,9700.0,4
+8365,SPAIN,Victoria Silva,HCP,exist,93300526.0,5,48000.0,4
+8369,SPAIN,Nicolas Costa,HCP,exist,93300528.0,5,9500.0,4
+8373,SPAIN,Felipe Torres,HCP,exist,93300530.0,5,48000.0,4
+8377,SPAIN,Valeria Ruiz,HCP,exist,93300532.0,5,47500.0,4
+8383,SPAIN,Antonio RodrigoSilva,HCP,exist,93300535.0,5,47500.0,4
+8387,SPAIN,Roberto Gomez Martinez,HCP,exist,93300537.0,5,47000.0,4
+8391,SPAIN,Adriana Silva,HCP,exist,93300539.0,5,46500.0,4
+8396,SPAIN,Patricia Perez,HCP,exist,93300039.0,2,82715.0,1
+8399,SPAIN,Julian Torres Iker,HCP,exist,93300543.0,5,9200.0,4
+8403,SPAIN,Emilia Costa,HCP,exist,93300545.0,5,47500.0,4
+8407,SPAIN,Valeria Silva,HCP,exist,93300547.0,5,47000.0,4
+8411,SPAIN,Emilio Silva,HCP,exist,93300549.0,5,46000.0,4
+8412,SPAIN,Carla Rodriguez,HCP,exist,,0,0.0,1
+8415,SPAIN,Dario Ruiz,HCP,exist,93300551.0,5,47500.0,4
+8419,SPAIN,Victoria Martinez Beatriz,HCP,exist,93300553.0,5,48000.0,4
+8423,SPAIN,Esteban Costa,HCP,exist,93300555.0,5,47000.0,4
+8427,SPAIN,Emilio Torres Vargas,HCP,exist,93300557.0,5,47500.0,4
+8431,SPAIN,Estela Silva,HCP,exist,93300559.0,5,9600.0,4
+8435,SPAIN,Emilia Silva,HCP,exist,93300561.0,5,47000.0,4
+8439,SPAIN,Lucia Pedro Ruiz,HCP,exist,93300563.0,5,47500.0,4
+8443,SPAIN,Martina Juan Gomez,HCP,exist,93300565.0,5,9700.0,4
+8447,SPAIN,Lucia Pereira,HCP,exist,93300567.0,5,47500.0,4
+8453,SPAIN,Antonio Lee Martinez,HCP,exist,93300708.0,6,49000.0,5
+8457,SPAIN,Paula Torres,HCP,exist,93300710.0,6,49500.0,5
+8461,SPAIN,Daniel Martinez,HCP,exist,93300712.0,6,50000.0,5
+8465,SPAIN,Isabella Torres,HCP,exist,93300714.0,6,51000.0,5
+8469,SPAIN,Martin Silva,HCP,exist,93300716.0,6,50500.0,5
+8473,SPAIN,Marcelo Torres Jiminez,HCP,exist,93300718.0,6,48500.0,5
+8477,SPAIN,Roberto Pedro Martinez,HCP,exist,93300720.0,6,10000.0,5
+8481,SPAIN,AntonioPedro Silva,HCP,exist,93300722.0,6,49000.0,5
+8485,SPAIN,Daniela Torres,HCP,exist,93300724.0,6,10000.0,5
+8489,SPAIN,Elena Pedro Gomez,HCP,exist,93300726.0,6,51000.0,5
+8493,SPAIN,Antonio Torres,HCP,exist,93300728.0,6,50500.0,5
+8503,SPAIN,Marcela Salvador Silva,HCP,exist,93300855.0,7,10500.0,6
+8507,SPAIN,Diego Castro Romero,HCP,exist,93300857.0,7,10700.0,6
+8511,SPAIN,Roberto Carlos Silva,HCP,exist,93300859.0,7,54000.0,6
+8515,SPAIN,Victoria Martinez,HCP,exist,93300861.0,7,54500.0,6
+8519,SPAIN,Antonio Martinez,HCP,exist,93300863.0,7,53000.0,6
+8523,SPAIN,Mariana Martinez,HCP,exist,93300865.0,7,53500.0,6
+8527,SPAIN,Isabella Ruiz,HCP,exist,93300867.0,7,52500.0,6
+8531,SPAIN,Julian Silva,HCP,exist,93300869.0,7,54000.0,6
+8539,SPAIN,Diego Martinez,HCP,exist,93300873.0,7,53000.0,6
+8543,SPAIN,Antonio Gomez,HCP,exist,93300875.0,7,10400.0,6
+8547,SPAIN,Julian Ruiz,HCP,exist,93300877.0,7,52500.0,6
+8553,SPAIN,Elena Gomez,HCP,exist,93300583.0,5,41000.0,4
+8557,SPAIN,Sofia JulieMartinez,HCP,exist,93300585.0,5,8000.0,4
+8561,SPAIN,Lucas Gomez,HCP,exist,93300587.0,5,39500.0,4
+8565,SPAIN,Javier Torres,HCP,exist,93300589.0,5,39000.0,4
+8569,SPAIN,Antonio Gonzalez,HCP,exist,93300591.0,5,38500.0,4
+8573,SPAIN,Raul Torres,HCP,exist,93300593.0,5,7900.0,4
+8577,SPAIN,Lucas Ruiz,HCP,exist,93300595.0,5,7800.0,4
+8581,SPAIN,Sofia Torres,HCP,exist,93300597.0,5,38000.0,4
+8585,SPAIN,Daniela Castro,HCP,exist,93300599.0,5,39500.0,4
+8589,SPAIN,Lucas Castro,HCP,exist,93300601.0,5,39000.0,4
+8593,SPAIN,Raul Gomez,HCP,exist,93300603.0,5,7700.0,4
+8597,SPAIN,Lucas Torres,HCP,exist,93300605.0,5,7800.0,4
+8603,SPAIN,David Ruiz,HCP,exist,93300746.0,6,43000.0,5
+8607,SPAIN,Victor Torres,HCP,exist,93300748.0,6,43500.0,5
+8611,SPAIN,Manuel Gomez,HCP,exist,93300750.0,6,44000.0,5
+8615,SPAIN,Oscar Martinez Torres,HCP,exist,93300752.0,6,43500.0,5
+8619,SPAIN,Elena Martinez,HCP,exist,93300754.0,6,44000.0,5
+8623,SPAIN,Paola Torres,HCP,exist,93300756.0,6,8900.0,5
+8627,SPAIN,Jorge Martinez Salvador,HCP,exist,93300758.0,6,43500.0,5
+8631,SPAIN,Elena Thomas Torres,HCP,exist,93300760.0,6,44000.0,5
+8635,SPAIN,Michael Daniel Gomez,HCP,exist,93300762.0,6,44000.0,5
+8639,SPAIN,Victor Ruiz,HCP,exist,93300764.0,6,44500.0,5
+8643,SPAIN,Marcela Torres,HCP,exist,93300766.0,6,43500.0,5
+8647,SPAIN,Oscar Mateo Martinez,HCP,exist,93300768.0,6,44000.0,5
+8651,SPAIN,Manuel Torres,HCP,exist,93300770.0,6,8900.0,5
+8655,SPAIN,Marcelo Torres,HCP,exist,93300772.0,6,8800.0,5
+8659,SPAIN,Oscar Ruiz Romero,HCP,exist,93300774.0,6,44500.0,5
+8663,SPAIN,David Martinez,HCP,exist,93300776.0,6,8800.0,5
+8667,SPAIN,Luciana Martinez,HCP,exist,93300778.0,6,44500.0,5
+8671,SPAIN,Marcelo Martinez,HCP,exist,93300780.0,6,44000.0,5
+8675,SPAIN,Oscar Gonzalez,HCP,exist,93300782.0,6,44500.0,5
+8679,SPAIN,Martina Julie Gomez,HCP,exist,93300784.0,6,44000.0,5
+8680,SPAIN,Samuel Silva,HCP,exist,93300789.0,6,7500.0,5
+8683,SPAIN,Jose Martinez Romero,HCP,exist,93300786.0,6,44500.0,5
+8684,SPAIN,Oscar Ortega,HCP,exist,93300790.0,6,7600.0,5
+8688,SPAIN,Enrique Torres,HCP,exist,93300791.0,6,39000.0,5
+8692,SPAIN,Victor Martinez Romero,HCP,exist,93300792.0,6,7700.0,5
+8696,SPAIN,Julio Fernandez Salvador,HCP,exist,93300793.0,6,7600.0,5
+8700,SPAIN,Juan Ortega,HCP,exist,93300794.0,6,38500.0,5
+8704,SPAIN,Daniel Silva Gomez,HCP,exist,93300795.0,6,39000.0,5
+8708,SPAIN,Marco Torres,HCP,exist,93300796.0,6,38000.0,5
+8712,SPAIN,Jorge Ortega,HCP,exist,93300797.0,6,7800.0,5
+8716,SPAIN,Natalia Gomez,HCP,exist,93300798.0,6,38500.0,5
+8720,SPAIN,Victor Fernandez,HCP,exist,93300799.0,6,7600.0,5
+8724,SPAIN,Oscar Vargas Salvador,HCP,exist,93300800.0,6,39000.0,5
+8728,SPAIN,Julio Costa,HCP,exist,93300801.0,6,38500.0,5
+8732,SPAIN,Victor Silva,HCP,exist,93300802.0,6,38000.0,5
+8736,SPAIN,Marco Gonzalez,HCP,exist,93300803.0,6,39000.0,5
+8740,SPAIN,Oscar Mateo Jimenez,HCP,exist,93300804.0,6,38000.0,5
+8744,SPAIN,Victor Ortega,HCP,exist,93300805.0,6,38500.0,5
+8748,SPAIN,Daniela Gonzalez,HCP,exist,93300806.0,6,7600.0,5
+8752,SPAIN,Oscar Jimenez Salvador,HCP,exist,93300807.0,6,39000.0,5
+8756,SPAIN,Juan Morales,HCP,exist,93300808.0,6,7600.0,5
+8760,SPAIN,Oscar Vargas Beatriz,HCP,exist,93300809.0,6,39000.0,5
+8774,SPAIN,Lucia Martinez,HCP,exist,93300879.0,7,41000.0,5
+8778,SPAIN,Carla Vargas,HCP,exist,93300880.0,7,8300.0,5
+8782,SPAIN,Monica Fernandez,HCP,exist,93300881.0,7,40500.0,5
+8786,SPAIN,Oscar Jimenez,HCP,exist,93300882.0,7,41000.0,5
+8790,SPAIN,Jorge Martinez,HCP,exist,93300883.0,7,41500.0,5
+8794,SPAIN,Victor Ortega Silva,HCP,exist,93300884.0,7,8200.0,5
+8798,SPAIN,Oscar Vargas,HCP,exist,93300885.0,7,40500.0,5
+8802,SPAIN,Lucia Gomez,HCP,exist,93300886.0,7,41500.0,5
+8806,SPAIN,Monica Jimenez,HCP,exist,93300887.0,7,41000.0,5
+8810,SPAIN,Jorge Ruiz,HCP,exist,93300888.0,7,41500.0,5
+8814,SPAIN,Lucia Sanchez,HCP,exist,93300889.0,7,8200.0,5
+8818,SPAIN,Marcelo Silva,HCP,exist,93300890.0,7,40500.0,5
+8822,SPAIN,Monica Julie Ruiz,HCP,exist,93300891.0,7,8200.0,5
+8826,SPAIN,Jorge Sanchez Romero,HCP,exist,93300892.0,7,40500.0,5
+8830,SPAIN,Monica Morales,HCP,exist,93300893.0,7,41000.0,5
+8834,SPAIN,Victor Jimenez,HCP,exist,93300894.0,7,8300.0,5
+8838,SPAIN,Lucia Ruiz Santos,HCP,exist,93300895.0,7,40500.0,5
+8842,SPAIN,Juliana Morales,HCP,exist,93300896.0,7,41000.0,5
+8846,SPAIN,Jorge Jimenez,HCP,exist,93300897.0,7,40500.0,5
+8850,SPAIN,Emma Lopez,HCP,exist,93300832.0,6,41000.0,4
+8854,SPAIN,Laura Isabela,HCP,exist,93300369.0,4,40500.0,3
+8858,SPAIN,Natalia Ruiz Leandro,HCP,exist,93300835.0,6,41000.0,4
+8859,SPAIN,Antonio Ortega,HCP,exist,93300383.0,5,66280.0,3
+8862,SPAIN,Sofia Jimenez,HCP,exist,93300678.0,5,39500.0,4
+8866,SPAIN,Carmen Ruiz,HCP,exist,93300680.0,5,8300.0,4
+8870,SPAIN,Adriana Jimenez,HCP,exist,93300838.0,6,41000.0,4
+8874,SPAIN,Lina Torres,HCP,exist,93300683.0,5,40500.0,4
+8878,SPAIN,Laura Julie Jimenez,HCP,exist,93300685.0,5,41000.0,4
+8882,SPAIN,Isabel Gomez,HCP,exist,93300687.0,5,40500.0,4
+8886,SPAIN,Victoria Ruiz,HCP,exist,93300842.0,6,41000.0,4
+8890,SPAIN,Sofia Sanchez,HCP,exist,93300690.0,5,8300.0,4
+8894,SPAIN,Laura Juan Silva,HCP,exist,93300844.0,6,40500.0,4
+8898,SPAIN,Carmen Sanchez,HCP,exist,93300693.0,5,41000.0,4
+8902,SPAIN,Marcelo Sanchez,HCP,exist,93300846.0,6,41500.0,4
+8910,SPAIN,Juliana Gomez Sanchez,HCP,exist,93300848.0,6,41000.0,4
+8914,SPAIN,Sofia Ruiz,HCP,exist,93300699.0,5,41500.0,4
+8918,SPAIN,Isabel Martinez,HCP,exist,93300850.0,6,8100.0,4
+8922,SPAIN,Carmen Jimenez,HCP,exist,93300702.0,5,41000.0,4
+8926,SPAIN,Marcelo Lopez,HCP,exist,93300852.0,6,41500.0,4
+8930,SPAIN,Laura Jean Martinez,HCP,exist,93300705.0,5,40500.0,4
+8945,SPAIN,Paula Ruiz,HCP,NULL,,0,0.0,0
+9071,SPAIN,Enrique Fernandez,HCP,NULL,,0,0.0,0
+9074,SPAIN,Mariana Vargas,HCP,NULL,,0,0.0,0
+9136,SPAIN,Marta Lopez,HCP,NULL,93300147.0,4,88945.0,0
+9268,SPAIN,Ramon Castillo,HCP,exist,,0,0.0,2
+9325,SPAIN,Sofia Pedro Martinez,HCP,NULL,,0,0.0,0
+9384,SPAIN,Laura Rodriguez,HCP,NULL,,0,0.0,0
+9472,SPAIN,Pablo Martinez,HCP,NULL,93300040.0,2,15478.0,0
+9531,SPAIN,Silvia Sanchez,HCP,NULL,,0,0.0,0
+9654,SPAIN,Juan Carlos Ruiz,HCP,NULL,93300384.0,5,19876.0,0
+9820,SPAIN,Rafael Martin,HCP,NULL,93300009.0,1,67895.0,0
+9821,SPAIN,Pablo Navarro,HCP,exist,,0,0.0,2
+9834,SPAIN,Alejandro Garcia,HCP,exist,93300015.0,1,6000.0,1
+9935,SPAIN,Mercedes Fernandez,HCP,NULL,,0,0.0,0
+10076,SPAIN,Daniel Ramos,HCP,NULL,,0,0.0,0
+10142,SPAIN,Pilar Sanchez,HCP,NULL,93300076.0,3,62280.0,0
+10258,SPAIN,Jesus Perez,HCP,exist,,0,0.0,3
+10379,SPAIN,Aurora Garcia,HCP,NULL,,0,0.0,0
+10462,SPAIN,Roberto Morales,HCP,NULL,93300148.0,4,91725.0,0
+10593,SPAIN,Clara Fernandez,HCP,NULL,,0,0.0,0
+10731,SPAIN,Luis Gomez,HCP,NULL,,0,0.0,0
+10784,SPAIN,Vicente Ruiz,HCP,exist,,0,0.0,2
+10871,SPAIN,Alicia Gomez,HCP,NULL,93300385.0,5,82445.0,0
+10908,SPAIN,Isabel Moreno,HCP,NULL,,0,0.0,0
+2509,USA,Roberto Paul Martinez,HCP,exist,93300050.0,2,3550.0,2
+2540,USA,Pedro Morales,HCP,NULL,,0,0.0,0
+2938,USA,Camila Sanchez,HCP,NULL,,0,0.0,0
+3617,USA,Sofia Gomez,HCP,exist,93300019.0,1,14350.0,1
+3728,USA,Lucas Lee Oliveira,HCP,exist,93300066.0,2,16000.0,2
+3745,USA,Claudia Sanchez,HCP,NULL,,0,0.0,0
+3756,USA,Camila Vargas,HCP,NULL,,0,0.0,0
+3758,USA,Miguel Vargas,HCP,NULL,,0,0.0,0
+3759,USA,Thiago MartinsBeatriz,HCP,exist,93300104.0,3,36750.0,2
+3765,USA,Pedro Rocha Romero,HCP,exist,93300068.0,2,31000.0,1
+3774,USA,Ana Leandro Fernandes,HCP,exist,93300069.0,2,6750.0,2
+3814,USA,Sofia Fernandez,HCP,exist,93300027.0,1,14750.0,1
+3823,USA,Pedro Rocha,HCP,exist,93300165.0,4,9500.0,3
+3845,USA,Valentina Lima,HCP,exist,93300097.0,3,35750.0,2
+3847,USA,Juan Lee Castillo,HCP,NULL,,0,0.0,0
+3849,USA,Claudia Martins,HCP,exist,93300102.0,3,34500.0,1
+3874,USA,Miguel Lopez,HCP,NULL,,0,0.0,0
+3896,USA,Valeria Herrera,HCP,NULL,,0,0.0,0
+3915,USA,Joaquin Torres,HCP,NULL,,0,0.0,0
+3965,USA,Valentina Romero,HCP,exist,93300016.0,1,15500.0,1
+4714,USA,Pedro Martinez,HCP,NULL,,0,0.0,0
+4718,USA,Felipe Carlos Rocha,HCP,exist,93300098.0,3,37250.0,2
+4720,USA,Lucia Ramirez,HCP,NULL,,0,0.0,0
+4729,USA,Valeria Fernandez,HCP,NULL,,0,0.0,0
+4731,USA,JoAPSo Silva,HCP,exist,93300107.0,3,39000.0,2
+4734,USA,Joaquin Castillo,HCP,NULL,,0,0.0,0
+4736,USA,Juliana Jean Ribeiro,HCP,exist,93300101.0,3,7700.0,2
+4758,USA,Petricia Lucas Santos,HCP,exist,93300099.0,3,35500.0,2
+4786,USA,Claudia Diaz,HCP,exist,93300166.0,4,47250.0,3
+4794,USA,Ana Lima Pedro,HCP,exist,93300100.0,3,38500.0,2
+4814,USA,Rafael Costa,HCP,exist,93300105.0,3,8100.0,2
+4836,USA,Lucia Romero,HCP,NULL,,0,0.0,0
+4903,USA,Juliana Ribeiro,HCP,exist,93300164.0,4,48000.0,3
+5219,USA,Alejandra Lopez,HCP,NULL,,0,0.0,0
+5612,USA,Miguel Torres,HCP,NULL,,0,0.0,0
+5732,USA,Valentina Vargas,HCP,NULL,,0,0.0,0
+5746,USA,Ana Fernandes,HCP,exist,93300067.0,2,32000.0,2
+5824,USA,Felipe Michel Costa,HCP,exist,93300154.0,4,44500.0,3
+5910,USA,Mariana Diaz,HCP,NULL,,0,0.0,0
+5937,USA,Joaquin Fernandez,HCP,NULL,,0,0.0,0
+6014,USA,Martina Morales,HCP,exist,93300018.0,1,2500.0,1
+6037,USA,Miguel Martinez,HCP,NULL,,0,0.0,0
+6837,USA,Fernando Diaz,HCP,NULL,,0,0.0,0
+6849,USA,Pedro Gomez Romero,HCP,exist,93300025.0,1,2300.0,1
+7002,USA,Fernando Michael Gomez,HCP,exist,93300391.0,5,46000.0,4
+7006,USA,Luiz Pereira Gomez,HCP,exist,93300110.0,3,4300.0,3
+7010,USA,Ana Mateo Gomez,HCP,exist,93300170.0,4,40750.0,3
+7014,USA,RafaelPocha Gonzalez,HCP,exist,93300111.0,3,7400.0,3
+7018,USA,Felipe Hugo Ramos,HCP,exist,93300172.0,4,42250.0,3
+7019,USA,Emilio Herrera,HCP,exist,93300030.0,1,11000.0,1
+7022,USA,Lucia Gonzalez Rios,HCP,exist,93300173.0,4,42500.0,3
+7026,USA,Victor Perez,HCP,exist,93300112.0,3,36000.0,2
+7030,USA,Martina Lee Gonzalez,HCP,exist,93300175.0,4,8400.0,3
+7034,USA,Juliana Martinez Juan,HCP,exist,93300176.0,4,33750.0,3
+7038,USA,Marina Torres,HCP,exist,93300178.0,4,43500.0,3
+7042,USA,Fernando Iker Costa,HCP,exist,93300179.0,4,7350.0,3
+7046,USA,Matias Torres Gomez,HCP,exist,93300180.0,4,39000.0,3
+7050,USA,Marcos Rocha,HCP,exist,93300182.0,4,7800.0,3
+7054,USA,Julio Fernandes,HCP,exist,93300183.0,4,8500.0,3
+7058,USA,Victor Oliveira Gomez,HCP,exist,93300185.0,4,39000.0,3
+7062,USA,Carlos Beatriz Torres,HCP,exist,93300186.0,4,43500.0,3
+7066,USA,Fernando Lee Gomez,HCP,exist,93300187.0,4,36750.0,3
+7070,USA,Mariana Mateo Costa,HCP,exist,93300189.0,4,8700.0,3
+7074,USA,Juliana Torres,HCP,exist,93300190.0,4,36750.0,3
+7078,USA,Marcos Gomez Romero,HCP,exist,93300192.0,4,43500.0,3
+7082,USA,Fernando Silva,HCP,exist,93300193.0,4,7350.0,3
+7086,USA,Matias Fernandez,HCP,exist,93300194.0,4,39000.0,3
+7090,USA,Marcos Perez Romero,HCP,exist,93300196.0,4,39000.0,3
+7094,USA,Julio Gomez Silva,HCP,exist,93300197.0,4,42500.0,3
+7312,USA,Juan Sanchez,HCP,NULL,,0,0.0,0
+7510,USA,Laura Diaz,HCP,exist,93300047.0,2,2450.0,2
+7817,USA,Pedro Castillo,HCP,NULL,,0,0.0,0
+7954,USA,Roberto Diaz,HCP,exist,93300023.0,1,2600.0,1
+8002,USA,Fernando John Gomez,HCP,exist,93300405.0,5,9200.0,4
+8006,USA,Luiz Pereira,HCP,exist,93300113.0,3,21500.0,3
+8010,USA,Ana Gomez,HCP,exist,93300202.0,4,40750.0,3
+8014,USA,Rafael Gonzalez,HCP,exist,93300116.0,3,7400.0,3
+8018,USA,Felipe Ramos,HCP,exist,93300204.0,4,42250.0,3
+8022,USA,Lucia Gonzalez,HCP,exist,93300205.0,4,8500.0,3
+8026,USA,Victor Perez Silva,HCP,exist,93300118.0,3,36000.0,2
+8030,USA,Martina Gonzalez,HCP,exist,93300208.0,4,8400.0,3
+8034,USA,Juliana Martinez,HCP,exist,93300210.0,4,33750.0,3
+8038,USA,Marina Lee Torres,HCP,exist,93300212.0,4,8700.0,3
+8042,USA,Fernando Alejandro Costa,HCP,exist,93300214.0,4,36750.0,3
+8046,USA,Matias Gomez,HCP,exist,93300215.0,4,39000.0,3
+8050,USA,Marcos Fernandez Rocha,HCP,exist,93300217.0,4,39000.0,3
+8054,USA,Julio Fernandes Salvador,HCP,exist,93300219.0,4,42500.0,3
+8058,USA,Victor Oliveira,HCP,exist,93300221.0,4,7800.0,3
+8062,USA,Carlos Torres,HCP,exist,93300223.0,4,43500.0,3
+8066,USA,Fernando William Gomez,HCP,exist,93300225.0,4,36750.0,3
+8070,USA,Mariana Costa,HCP,exist,93300228.0,4,43500.0,3
+8074,USA,Juliana Juan Torres,HCP,exist,93300229.0,4,36750.0,3
+8078,USA,Marcos Gomez,HCP,exist,93300232.0,4,8700.0,3
+8082,USA,Fernando Silva Pedro,HCP,exist,93300233.0,4,36750.0,3
+8086,USA,Matias M Fernandez,HCP,exist,93300235.0,4,39000.0,3
+8090,USA,Marcos Perez,HCP,exist,93300237.0,4,39000.0,3
+8094,USA,Julio Gomez Pedro,HCP,exist,93300239.0,4,42500.0,3
+8098,USA,Renato Santos,HCP,exist,93300241.0,4,39000.0,3
+8102,USA,Victor Ramirez,HCP,exist,93300428.0,5,8900.0,4
+8106,USA,Julian Ortega,HCP,exist,93300121.0,3,32500.0,2
+8110,USA,Diego Sanchez,HCP,exist,93300122.0,3,35000.0,3
+8114,USA,Esteban Romero,HCP,exist,93300432.0,5,43500.0,4
+8118,USA,Francisco Lee Ruiz,HCP,exist,93300123.0,3,36000.0,2
+8122,USA,Jorge Sanchez,HCP,exist,93300248.0,4,38000.0,3
+8126,USA,Oscar Ramirez,HCP,exist,93300124.0,3,33500.0,2
+8130,USA,Felipe Gonzalez,HCP,exist,93300125.0,3,37000.0,2
+8134,USA,Adriana John Martinez,HCP,exist,93300252.0,4,35500.0,3
+8138,USA,Mariana Torres Ruiz,HCP,exist,93300439.0,5,43500.0,4
+8142,USA,Martina Sanchez,HCP,exist,93300255.0,4,7300.0,3
+8146,USA,Roberto Pedro Gomez,HCP,exist,93300126.0,3,35500.0,2
+8150,USA,Julio Fernandez,HCP,exist,93300443.0,5,43000.0,4
+8154,USA,David Gomez,HCP,exist,93300259.0,4,36500.0,3
+8162,USA,Valeria Juan Gomez,HCP,exist,93300262.0,4,37500.0,3
+8166,USA,Manuel Sanchez,HCP,exist,93300263.0,4,38000.0,3
+8170,USA,Roberto Torres,HCP,exist,93300451.0,5,43500.0,4
+8174,USA,Julian Ramirez,HCP,exist,93300453.0,5,7800.0,4
+8178,USA,David Sanchez,HCP,exist,93300266.0,4,7600.0,3
+8182,USA,Natalia Gonzalez,HCP,exist,93300268.0,4,7800.0,3
+8186,USA,Ricardo Garcia,HCP,exist,93300458.0,5,7900.0,4
+8190,USA,David Gonzalez,HCP,exist,93300460.0,5,38500.0,4
+8194,USA,Leonardo Ramirez,HCP,exist,93300272.0,4,37000.0,3
+8198,USA,Julio Gomez,HCP,exist,93300463.0,5,37500.0,4
+8204,USA,Enrique Perez,HCP,exist,93300127.0,3,7100.0,2
+8208,USA,Daniel Fernando Gomez,HCP,exist,93300466.0,5,39000.0,4
+8212,USA,Esteban Lopez,HCP,exist,93300128.0,3,7000.0,2
+8216,USA,Julian Mendoza,HCP,exist,93300129.0,3,37000.0,2
+8220,USA,Roberto Sanchez,HCP,exist,93300469.0,5,38000.0,4
+8224,USA,Miguel Ruiz,HCP,exist,93300130.0,3,36500.0,2
+8228,USA,Esteban Ruiz,HCP,exist,93300131.0,3,35500.0,2
+8232,USA,Patricia Lopez,HCP,exist,93300472.0,5,7500.0,4
+8236,USA,Carla Costa,HCP,exist,93300132.0,3,7200.0,2
+8240,USA,Marcela Ruiz,HCP,exist,93300133.0,3,7400.0,2
+8244,USA,Daniela Mendoza,HCP,exist,93300475.0,5,36500.0,4
+8248,USA,Patricia Pereira,HCP,exist,93300289.0,4,37500.0,3
+8252,USA,David Lee Silva,HCP,exist,93300290.0,4,36500.0,3
+8256,USA,Daniel Gomez,HCP,exist,93300134.0,3,37000.0,2
+8260,USA,Antonio Ruiz Fernando,HCP,exist,93300293.0,4,37000.0,3
+8264,USA,Leonardo Gomez,HCP,exist,93300135.0,3,36000.0,2
+8268,USA,Daniela Costa Ruiz,HCP,exist,93300294.0,4,37500.0,3
+8272,USA,David Beatriz Ruiz,HCP,exist,93300295.0,4,36500.0,3
+8276,USA,Fernando Nicole Gomez,HCP,exist,93300296.0,4,7400.0,3
+8280,USA,Francisco Mendoza,HCP,exist,93300297.0,4,36500.0,3
+8284,USA,Roberto Ruiz,HCP,exist,93300298.0,4,7400.0,3
+8288,USA,Daniel Beatriz Silva,HCP,exist,93300299.0,4,36000.0,3
+8292,USA,David Silva,HCP,exist,93300300.0,4,7300.0,3
+8304,USA,Valentina Gomez,HCP,exist,93300136.0,3,36500.0,2
+8308,USA,Emilia Mendoza,HCP,exist,93300137.0,3,7400.0,2
+8312,USA,Adriana Gomez,HCP,exist,93300504.0,5,39000.0,4
+8316,USA,Daniela Pereira,HCP,exist,93300138.0,3,35500.0,2
+8320,USA,Lucia Silva,HCP,exist,93300139.0,3,37500.0,2
+8324,USA,Sofia Valeria Martinez,HCP,exist,93300507.0,5,7300.0,4
+8328,USA,Oscar Silva Salvador,HCP,exist,93300140.0,3,37000.0,2
+8332,USA,Daniel Gonzalez,HCP,exist,93300313.0,4,7500.0,3
+8336,USA,Estela Costa,HCP,exist,93300314.0,4,36000.0,3
+8340,USA,Renata Torres,HCP,exist,93300315.0,4,7400.0,3
+8344,USA,Esteban Gael Ruiz,HCP,exist,93300316.0,4,37000.0,3
+8348,USA,Lucia Martinez Rios,HCP,exist,93300317.0,4,36500.0,3
+8352,USA,Oscar Pereira,HCP,exist,93300318.0,4,7400.0,3
+8356,USA,Emilia Hugo Pereira,HCP,exist,93300319.0,4,37500.0,3
+8360,USA,Juan Silva,HCP,exist,93300320.0,4,36500.0,3
+8364,USA,Estela Ruiz,HCP,exist,93300321.0,4,7400.0,3
+8368,USA,Valentina Ruiz,HCP,exist,93300322.0,4,7500.0,3
+8372,USA,Juan Martinez,HCP,exist,93300323.0,4,37000.0,3
+8376,USA,Martina Silva,HCP,exist,93300324.0,4,36000.0,3
+8380,USA,Oscar Silva Beatriz,HCP,exist,93300325.0,4,37000.0,3
+8382,USA,Emilia Gonzalez,HCP,exist,93300326.0,4,7400.0,3
+8386,USA,JulianaTorres Silva,HCP,exist,93300327.0,4,36500.0,3
+8390,USA,Camila Gomez,HCP,exist,93300141.0,3,36000.0,2
+8394,USA,Victoria Costa Torres,HCP,exist,93300328.0,4,37000.0,3
+8398,USA,Nicolas Gomez,HCP,exist,93300329.0,4,37500.0,3
+8402,USA,Adriana Lee Gonzalez,HCP,exist,93300330.0,4,7300.0,3
+8406,USA,Oscar Torres,HCP,exist,93300331.0,4,7400.0,3
+8410,USA,Martina Ruiz,HCP,exist,93300332.0,4,36500.0,3
+8414,USA,Nicolas Ruiz,HCP,exist,93300333.0,4,37000.0,3
+8418,USA,Emilia Pereira,HCP,exist,93300334.0,4,36000.0,3
+8422,USA,Oscar Ruiz,HCP,exist,93300335.0,4,37000.0,3
+8426,USA,Roberto Gomez,HCP,exist,93300336.0,4,36500.0,3
+8430,USA,Valeria Julie Ruiz,HCP,exist,93300337.0,4,7500.0,3
+8434,USA,Roberto Juan Ruiz,HCP,exist,93300338.0,4,37000.0,3
+8438,USA,Victoria Pedro Silva,HCP,exist,93300339.0,4,7400.0,3
+8446,USA,Esteban Beatriz Silva,HCP,exist,93300341.0,4,7400.0,3
+8450,USA,Roberto Martinez,HCP,exist,93300342.0,4,36500.0,3
+8452,USA,Diego Fernandez,HCP,exist,93300569.0,5,43500.0,4
+8456,USA,Andres Castro,HCP,exist,93300570.0,5,43000.0,4
+8460,USA,Vanessa Gomez,HCP,exist,93300571.0,5,8500.0,4
+8464,USA,Mario Gonzalez,HCP,exist,93300572.0,5,43500.0,4
+8468,USA,Julian Gomez Salvador,HCP,exist,93300573.0,5,8600.0,4
+8472,USA,Andrea Martinez,HCP,exist,93300574.0,5,44000.0,4
+8476,USA,Valeria Lopez Gomez,HCP,exist,93300575.0,5,42500.0,4
+8480,USA,Martina Fernandez,HCP,exist,93300576.0,5,43500.0,4
+8484,USA,Jorge Gonzalez,HCP,exist,93300577.0,5,43000.0,4
+8488,USA,Oscar Martinez Salvador,HCP,exist,93300578.0,5,44000.0,4
+8492,USA,Marcela Gomez Salvador,HCP,exist,93300579.0,5,8700.0,4
+8496,USA,Natalia Fernandez,HCP,exist,93300580.0,5,44000.0,4
+8500,USA,Diego Torres,HCP,exist,93300581.0,5,8700.0,4
+8502,USA,Julian Torres Alejandro,HCP,exist,93300732.0,6,47500.0,5
+8506,USA,Laura Martinez Michael,HCP,exist,93300733.0,6,48000.0,5
+8510,USA,Andrea Torres,HCP,exist,93300734.0,6,47000.0,5
+8514,USA,Oscar Silva Gonzalez,HCP,exist,93300735.0,6,47500.0,5
+8518,USA,Juan Gomez,HCP,exist,93300736.0,6,48000.0,5
+8522,USA,Diego Beatriz Silva,HCP,exist,93300737.0,6,9400.0,5
+8526,USA,Marcelo Castro,HCP,exist,93300738.0,6,46500.0,5
+8530,USA,Andrea Gomez,HCP,exist,93300739.0,6,46000.0,5
+8534,USA,Oscar Martinez,HCP,exist,93300740.0,6,9400.0,5
+8538,USA,Laura Silva,HCP,exist,93300741.0,6,9300.0,5
+8542,USA,Natalia Martinez,HCP,exist,93300742.0,6,9200.0,5
+8546,USA,Diego Castro,HCP,exist,93300743.0,6,47000.0,5
+8550,USA,Oscar Silva,HCP,exist,93300744.0,6,46000.0,5
+8552,USA,Jose Martinez,HCP,exist,93300343.0,4,7400.0,3
+8556,USA,Raul Gonzalez,HCP,exist,93300344.0,4,36500.0,3
+8560,USA,Carla Julie Ruiz,HCP,exist,93300345.0,4,7100.0,3
+8564,USA,Adriana Juan Gonzalez,HCP,exist,93300346.0,4,7200.0,3
+8568,USA,Veronica Ruiz,HCP,exist,93300347.0,4,7100.0,3
+8572,USA,Jose Gomez,HCP,exist,93300348.0,4,7400.0,3
+8576,USA,Elena Pedro Gonzalez,HCP,exist,93300349.0,4,7300.0,3
+8580,USA,Carla Martinez ,HCP,exist,93300350.0,4,35500.0,3
+8584,USA,Raul Martinez,HCP,exist,93300351.0,4,7200.0,3
+8588,USA,Elena Lee Torres,HCP,exist,93300352.0,4,7100.0,3
+8592,USA,Jose Ruiz,HCP,exist,93300353.0,4,7400.0,3
+8596,USA,Adriana Lee Martinez,HCP,exist,93300354.0,4,36500.0,3
+8600,USA,Elena Castro,HCP,exist,93300355.0,4,36000.0,3
+8602,USA,Laura Gomez Silva ,HCP,exist,93300607.0,5,41500.0,4
+8606,USA,Carla Gonzalez,HCP,exist,93300608.0,5,42500.0,4
+8610,USA,Veronica Juan Ruiz,HCP,exist,93300609.0,5,41000.0,4
+8614,USA,Monica Ruiz,HCP,exist,93300610.0,5,41500.0,4
+8618,USA,Leonardo Gonzalez,HCP,exist,93300611.0,5,8400.0,4
+8622,USA,Pedro Gomez,HCP,exist,93300612.0,5,8500.0,4
+8630,USA,Luis Gonzalez,HCP,exist,93300614.0,5,41500.0,4
+8634,USA,Carlos Antonio Ruiz,HCP,exist,93300615.0,5,42000.0,4
+8638,USA,Monica Silva,HCP,exist,93300616.0,5,8200.0,4
+8642,USA,Adriana Gonzalez,HCP,exist,93300617.0,5,41500.0,4
+8646,USA,Javier Gonzalez,HCP,exist,93300618.0,5,8400.0,4
+8650,USA,Elena Gonzalez,HCP,exist,93300619.0,5,8300.0,4
+8654,USA,Laura Gonzalez,HCP,exist,93300620.0,5,41000.0,4
+8658,USA,Carolina Martinez,HCP,exist,93300621.0,5,41500.0,4
+8662,USA,Santiago Gonzalez,HCP,exist,93300622.0,5,41000.0,4
+8666,USA,Jose Torres,HCP,exist,93300623.0,5,41500.0,4
+8670,USA,Esteban Gonzalez,HCP,exist,93300624.0,5,8200.0,4
+8674,USA,Laura Juan Torres,HCP,exist,93300625.0,5,8300.0,4
+8682,USA,Silvia Martinez,HCP,exist,93300627.0,5,41500.0,4
+8687,USA,Veronica Silva,HCP,exist,93300632.0,5,35000.0,4
+8691,USA,Daniela Leandro Ramirez,HCP,exist,93300358.0,4,6700.0,3
+8695,USA,Carolina Ortega,HCP,exist,93300634.0,5,7100.0,4
+8699,USA,Adriana Lopez,HCP,exist,93300636.0,5,34500.0,4
+8703,USA,Elena Fernandez,HCP,exist,93300360.0,4,34000.0,3
+8707,USA,Silvia Morales,HCP,exist,93300638.0,5,35000.0,4
+8711,USA,Laura Ruiz,HCP,exist,93300640.0,5,7200.0,4
+8715,USA,Daniela Ramirez,HCP,exist,93300362.0,4,34500.0,3
+8719,USA,Jessica Costa,HCP,exist,93300643.0,5,6800.0,4
+8723,USA,Laura Jimenez,HCP,exist,93300363.0,4,35500.0,3
+8727,USA,Daniela Fernandez,HCP,exist,93300646.0,5,34500.0,4
+8731,USA,Adriana Morales,HCP,exist,93300364.0,4,6800.0,3
+8735,USA,Patricia Ruiz Torres,HCP,exist,93300649.0,5,36000.0,4
+8739,USA,Jessica Gomez,HCP,exist,93300365.0,4,33500.0,3
+8743,USA,Carolina Beatriz Gomez,HCP,exist,93300652.0,5,6900.0,4
+8747,USA,Natalia Mateo Ruiz,HCP,exist,93300366.0,4,34000.0,3
+8755,USA,Daniela Costa,HCP,exist,93300367.0,4,6700.0,3
+8759,USA,Veronica omez Silva,HCP,exist,93300658.0,5,36000.0,4
+8773,USA,Julio Diaz Sanchez,HCP,exist,93300659.0,5,7500.0,3
+8777,USA,Antonio Lopez Gomez,HCP,exist,93300811.0,6,7400.0,4
+8781,USA,Raul Ramirez,HCP,exist,93300661.0,5,7200.0,3
+8785,USA,Juliana Gomez,HCP,exist,93300813.0,6,37000.0,4
+8789,USA,Adriana Sanchez,HCP,exist,93300815.0,6,36500.0,4
+8793,USA,Daniela Ruiz,HCP,exist,93300663.0,5,37000.0,3
+8797,USA,Patricia Martinez,HCP,exist,93300817.0,6,36000.0,4
+8801,USA,Antonio Sanchez,HCP,exist,93300665.0,5,36500.0,3
+8805,USA,Carla Sanchez,HCP,exist,93300819.0,6,37000.0,4
+8809,USA,Julio Gonzalez,HCP,exist,93300821.0,6,37500.0,4
+8813,USA,Antonio Ruiz,HCP,exist,93300667.0,5,7200.0,3
+8817,USA,Juliana Sanchez,HCP,exist,93300823.0,6,7400.0,4
+8821,USA,Antonio Lopez Lee,HCP,exist,93300669.0,5,36500.0,3
+8825,USA,Patricia Ruiz,HCP,exist,93300825.0,6,37000.0,4
+8829,USA,Julio Ruiz,HCP,exist,93300827.0,6,37500.0,4
+8833,USA,Carla Lopez,HCP,exist,93300671.0,5,36000.0,3
+8837,USA,Antonio Morales,HCP,exist,93300829.0,6,37000.0,4
+8841,USA,Carla Lee Ruiz,HCP,exist,93300673.0,5,7300.0,3
+8845,USA,Elena Morales,HCP,exist,93300831.0,6,37000.0,4
+8849,USA,Francisco Vargas,HCP,exist,93300675.0,5,39500.0,4
+8857,USA,Ricardo Sanchez,HCP,exist,93300677.0,5,39000.0,3
+8861,USA,Victor Gomez,HCP,exist,93300370.0,4,37500.0,3
+8865,USA,Paola Martinez,HCP,exist,93300837.0,6,7600.0,4
+8869,USA,Julio Sanchez,HCP,exist,93300681.0,5,7400.0,4
+8873,USA,Francisco Jimenez,HCP,exist,93300839.0,6,7300.0,4
+8877,USA,Roberto Gonzalez,HCP,exist,93300840.0,6,37000.0,4
+8881,USA,Daniel Ruiz,HCP,exist,93300841.0,6,37500.0,3
+8885,USA,Raul Sanchez,HCP,exist,93300688.0,5,38000.0,4
+8889,USA,Felipe Gomez,HCP,exist,93300843.0,6,7400.0,4
+8893,USA,Julian Lopez,HCP,exist,93300691.0,5,36500.0,4
+8897,USA,Victor Martinez,HCP,exist,93300845.0,6,37500.0,4
+8901,USA,Francisco Michael Ruiz,HCP,exist,93300694.0,5,37000.0,4
+8905,USA,Daniela Silva,HCP,exist,93300847.0,6,7300.0,4
+8909,USA,Ricardo Martinez,HCP,exist,93300697.0,5,38000.0,4
+8913,USA,Felipe Sanchez,HCP,exist,93300849.0,6,37000.0,4
+8917,USA,Victoria Jimenez,HCP,exist,93300700.0,5,7300.0,4
+8921,USA,Francisco Gomez,HCP,exist,93300851.0,6,7500.0,4
+8925,USA,Daniela Martinez,HCP,exist,93300703.0,5,37000.0,4
+8929,USA,Julian Jimenez,HCP,exist,93300853.0,6,36500.0,4
+8933,USA,Felipe Lopez,HCP,exist,93300706.0,5,7600.0,4
+8961,USA,James Smith,HCP,NULL,,0,0.0,0
+9138,USA,Emily Johnson,HCP,NULL,,0,0.0,0
+9315,USA,Michael Williams,HCP,NULL,,0,0.0,0
+9492,USA,Jessica Brown,HCP,exist,93300003.0,1,19910.0,1
+9669,USA,David Jones,HCP,NULL,,0,0.0,0
+9732,USA,Antonio Lopez,HCP,NULL,,0,0.0,0
+9846,USA,Sarah Miller,HCP,NULL,,0,0.0,0
+10023,USA,Robert Davis,HCP,NULL,93300004.0,1,12280.0,0
+10200,USA,Ashley Wilson,HCP,exist,,0,0.0,2
+11035,USA,John Anderson,HCP,NULL,,0,0.0,0
+11085,USA,Christopher Taylor,HCP,NULL,,0,0.0,0
+11262,USA,Amanda Clark,HCP,NULL,,0,0.0,0
+11328,USA,Daniel White,HCP,NULL,93300041.0,2,88825.0,0
+11749,USA,Mia Lewis,HCP,NULL,93300077.0,3,66280.0,0
+12004,USA,Sophia Walker,HCP,NULL,93300149.0,4,18129.0,0
+12374,USA,Isabella Young,HCP,NULL,93300386.0,5,74935.0,0
+12593,USA,Joshua King,HCP,exist,,0,0.0,2
+12685,USA,Emma Scott,HCP,NULL,93300010.0,1,15678.0,0
+12843,USA,Ryan Adams,HCP,NULL,,0,0.0,0
+12956,USA,Charlotte Nelson,HCP,NULL,,0,0.0,0
+13078,USA,Brandon Carter,HCP,NULL,93300042.0,2,89615.0,0
+13291,USA,Lily Mitchell,HCP,exist,,0,0.0,1
+13406,USA,Nathan Perez,HCP,NULL,,0,0.0,0
+13579,USA,Grace Roberts,HCP,NULL,93300078.0,3,83910.0,0
+13742,USA,Benjamin Turner,HCP,NULL,,0,0.0,0
+13868,USA,Zoe Phillips,HCP,NULL,,0,0.0,0
+14055,USA,William Collins,HCP,exist,93300150.0,4,89725.0,3
+14223,USA,Ella Murphy,HCP,NULL,,0,0.0,0
+14392,USA,James Brown,HCP,NULL,93300387.0,5,61740.0,0
+14680,USA,Alexander Green,HCP,exist,93300011.0,1,95135.0,2
+14839,USA,Emily Richardson,HCP,NULL,,0,0.0,0
+14952,USA,Thomas Morgan,HCP,NULL,93300043.0,2,71780.0,0
+15034,USA,Natalie Baker,HCP,exist,,0,0.0,1
+15189,USA,Ethan Brooks,HCP,NULL,93300079.0,3,16895.0,0
+15324,USA,Hannah Gray,HCP,NULL,,0,0.0,0
+15467,USA,Lucas Hughes,HCP,NULL,93300151.0,4,15678.0,0
+15678,USA,Chloe Barnes,HCP,NULL,,0,0.0,0
+15823,USA,Jack Wilson,HCP,exist,93300388.0,5,18429.0,3
+15984,USA,Mia Sanders,HCP,NULL,,0,0.0,0
+16145,USA,Samuel Price,HCP,NULL,93300012.0,1,82715.0,0
+16297,USA,Scarlett Wood,HCP,NULL,,0,0.0,0
+16408,USA,Henry James,HCP,exist,93300044.0,2,61780.0,2
+16579,USA,Aurora Cox,HCP,NULL,,0,0.0,0
+16731,USA,Owen Campbell,HCP,NULL,93300080.0,3,89615.0,0
+16842,USA,Aria Morris,HCP,exist,93300152.0,4,73910.0,1
+17096,USA,Caleb Stewart,HCP,NULL,,0,0.0,0
+17245,USA,Evelyn Rivera,HCP,NULL,93300389.0,5,19124.0,0
+17432,USA,Gabriel Simmons,HCP,NULL,,0,0.0,0
+17594,USA,Stella Ward,HCP,NULL,93300013.0,1,12478.0,0
+17783,USA,Logan Hughes,HCP,exist,93300045.0,2,67895.0,3
+17942,USA,Alice James,HCP,NULL,93300081.0,3,94380.0,0
+18065,USA,Eli Bennett,HCP,NULL,93300153.0,4,84465.0,0
+18239,USA,Mila Murphy,HCP,NULL,93300390.0,5,96725.0,0
+18356,USA,Adam Rogers,HCP,exist,93300014.0,1,71605.0,2
+18572,USA,Nora Ward,HCP,NULL,93300046.0,2,19056.0,0
