@@ -73,14 +73,14 @@ class Scorecard:
                 return True, "dashboard_risk_table", []
             file_path = 'data/app2.vHcoRiskScore.csv'
             df = pd.read_csv(file_path)
-            filtered_df = df[df['Country'].str.lower() == country.lower()]
-            risk_score_df = filtered_df[['OriginalEntityID', 'Name', 'RiskScore']]
+            filtered_df = df[df['COUNTRY'].str.lower() == country.lower()]
+            risk_score_df = filtered_df[['OriginalEntityId', 'Name', 'RiskScore']]
 
             risk_score_data = list()
             for rowIndex, row in risk_score_df.iterrows():
                 risk_score_data.append(
                     {
-                        'id': row['OriginalEntityID'],
+                        'id': row['OriginalEntityId'],
                         'name': row['Name'],
                         'riskscore': row['RiskScore']
                     }
@@ -328,7 +328,7 @@ class Scorecard:
             country = data.get('country')
             org = data.get('orgType')
             media_coverage_df = pd.read_csv('data/app2.vMediaCoverage.csv')
-            media_coverage_df['Country'] = media_coverage_df['Country'].str.lower()
+            media_coverage_df['country'] = media_coverage_df['country'].str.lower()
             hcos_df = pd.read_csv('data/app2.vHco.csv')
             hcos_df['COUNTRY'] = hcos_df['COUNTRY'].str.lower()
             hcps_df = pd.read_csv('data/app2.vHCP.csv',encoding='ISO-8859-1')
@@ -339,35 +339,36 @@ class Scorecard:
 
             if org == 'hco':
                 filtered_media_coverage_df = media_coverage_df[
-                    (media_coverage_df['Country'] == country) &
+                    (media_coverage_df['country'] == country) &
                     (media_coverage_df['EntityType'] == 'HCO')
                     ]
                 print('filtered',filtered_media_coverage_df)
                 merged_df = pd.merge(
                     filtered_media_coverage_df,
                     hcos_df,
-                    left_on=['HCO/HCP', 'Country'],
+                    left_on=['HCO/HCP', 'country'],
                     right_on=['NAME', 'COUNTRY']
                 )
             else:
                 filtered_media_coverage_df = media_coverage_df[
-                    (media_coverage_df['Country'] == country) &
+                    (media_coverage_df['country'] == country) &
                     (media_coverage_df['EntityType'] == 'HCP')
                     ]
                 merged_df = pd.merge(
                     filtered_media_coverage_df,
                     hcps_df,
-                    left_on=['HCO/HCP', 'Country'],
+                    left_on=['HCO/HCP', 'country'],
                     right_on=['hcp_name', 'country']
                 )
                 print("checking", merged_df.columns)
             media_df=merged_df
             media_data_list = list()
             for rowIndex, row in media_df.iterrows():
+                id = row['ID'] if org == 'hco' else row['id']
                 media_data_dict = {
-                    'id': row['ID'],
+                    'id': id,
                     'name': row['HCO/HCP'],
-                    'positive_count': row['Positive Count'],
+                    'positive_count': row['PositiveCount'],
                     'negative_count': row['Negative Count']
                 }
                 media_data_list.append(media_data_dict)
