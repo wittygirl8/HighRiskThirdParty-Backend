@@ -32,8 +32,8 @@ def create_app(config_object='settings'):
     jwt = JWTManager(app)
 
     app.config['MAX_CONTENT_LENGTH'] = 512 * 1024 * 1024  # 512 MB
-    db = MSSQLConnection()
-    db.init_app(app)
+    # db = MSSQLConnection()
+    # db.init_app(app)
 
     @app.route("/check", methods=["GET"])
     def check_app():
