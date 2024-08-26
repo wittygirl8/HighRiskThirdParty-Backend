@@ -1448,6 +1448,7 @@ class Deepdive:
                         event_dict['date'] = article['date']
                         event_dict['sortdate'] = datetime.date.fromtimestamp(
                             datetime.datetime.strptime(article['date'], "%Y-%m-%d").timestamp())
+                        # formatted_date = event_dict['sortdate'].strftime('%d-%m-%Y')
                         event_dict['description'] = article['link']
                         timeline_list.append(event_dict)
             else:
@@ -1495,12 +1496,11 @@ class Deepdive:
                     event_dict["id"] = data['id']
                     event_dict["tag"] = row['InteractionSubtype'] + ' with ' + row["HcpName"]
                     event_dict["category"] = row['InteractionType']
-                    event_dict['date'] = str(row['InteractionStart'])
                     event_dict['sortdate'] = datetime.date.fromtimestamp(
                         datetime.datetime.strptime(row['InteractionStart'], "%d-%m-%Y").timestamp())
+                    event_dict['date'] = event_dict['sortdate'].strftime('%Y-%m-%d')
                     event_dict['description'] = row['ParentCallId'] + ' | ' + row['InteractionTopic']
                     timeline_list.append(event_dict)
-                    print('sort', event_dict['sortdate'])
 
             # payments
             df = pd.read_csv('data/app2.vPayments.csv')
@@ -1519,9 +1519,10 @@ class Deepdive:
                     event_dict['date'] = str(row['InvoiceGIDate'])
                     event_dict['sortdate'] = datetime.date.fromtimestamp(
                         datetime.datetime.strptime(row['InvoiceGIDate'], "%d-%m-%Y").timestamp())
+                    event_dict['sortdate'] = datetime.date.fromtimestamp(
+                        datetime.datetime.strptime(event_dict['sortdate'].strftime('%Y-%m-%d'), "%Y-%m-%d").timestamp())
                     x = '{:,.2f}'.format(row['InvoiceLineAmountLocal'])
-                    print(type(event_dict['sortdate']))
-                    print("type", type(x))
+                    event_dict['date'] = event_dict['sortdate'].strftime('%Y-%m-%d')
                     x = str(x)
                     event_dict['description'] = x + ' ' + str(row['Currency']) + ' | ' + str(
                         row['BusinessActivity'])  # format with thousands separaters and 2dp
