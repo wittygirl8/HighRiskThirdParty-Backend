@@ -1543,7 +1543,7 @@ class Deepdive:
             # for item in timeline_list:
             #     item['sortdate'] = convert_to_date(item['sortdate'])
             #
-            newlist = sorted(timeline_list, key=lambda d: d['sortdate'])
+            newlist = sorted(timeline_list, key=lambda d: d['sortdate'], reverse=True)
             _ret = newlist
             # _ret = timeline_list
             print(_ret)
