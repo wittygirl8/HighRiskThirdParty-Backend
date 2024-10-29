@@ -641,8 +641,8 @@ class Deepdive:
             final_edges = pd.concat([merged_hco_payments_edges, final_hcps], ignore_index=True)
             print("final_edges", final_edges)
 
-            hcos_for_nodes = final_edges[['from']] if country != "SAUDI ARABIA" else final_edges[['from']].drop_duplicates()
-            hcps_for_nodes = final_edges[['to']] if country != "SAUDI ARABIA" else final_edges[['to']].drop_duplicates()
+            hcos_for_nodes = final_edges[['from']].drop_duplicates()
+            hcps_for_nodes = final_edges[['to']].drop_duplicates()
 
             print(hcos_for_nodes.shape[0], ",", hcps_for_nodes.shape[0])
 
