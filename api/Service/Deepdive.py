@@ -83,7 +83,7 @@ class Deepdive:
             print("vAllNodes________", df)
 
             # get payment range
-            currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
+            currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR', 'saudi': 'SAR'}
             # set default minimum to 1 and default to no max
             payment_min = data['min'] if (
                     data['min'] not in ('0', 'null')) else 1  # (10000 if country == 'usa' else 5000)
@@ -357,41 +357,45 @@ class Deepdive:
             #     _ret = self.read_json("usa.json")
             # TILL HERE
             print("data____________", data)
-            country = data['country']
+            country = "SAUDI ARABIA" if data['country'] == "saudi" else data['country']
             conn = data.get('connection')
             link = data.get('link')
             orgType = data.get('orgType')
             if country == 'null':
                 True, "data_by_country", []
 
-            currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
+            currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR', 'SAUDI ARABIA': 'SAR'}
             currency = currency_mapping.get(country.lower())
             file_path = 'data/app2.vPayments.csv'
             df = pd.read_csv(file_path)
+            # print("df_", df)
             # print("currency_mapping.get(country)___", type(currency_mapping.get(country)), type(df['Currency']))
             filtered_df = df[df['Currency'] == currency_mapping.get(country)].fillna('')
+            # print("filtered_df____", filtered_df)
             payments = filtered_df[['VendorName', 'InvoiceLineAmountLocal', 'Currency']]
             # print("payments___________", payments.head(3))
             # print("payments.shape[0]___", payments.shape[0])
-            payments = payments.copy()  # Make a copy of the DataFrame
-            payments.loc[:, 'Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4,
-                                                  labels=['Q1', 'Q2', 'Q3', 'Q4'])
-            payments = payments.copy()  # Make a copy of the DataFrame
-            payments['Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4, labels=['Q1', 'Q2', 'Q3', 'Q4'])
-            # print("payments_hgygg__________", payments)
-            if (data['min'] == '0' and data['max'] == '0') or (data['min'] == 'null' and data['max'] == 'null'):
-                if country == 'usa':
-                    min = 10000
-                else:
-                    min = 5000
-                max = payments['InvoiceLineAmountLocal'].max()
+            if country != "SAUDI ARABIA":
+                payments = payments.copy()  # Make a copy of the DataFrame
+                payments.loc[:, 'Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4,
+                                                      labels=['Q1', 'Q2', 'Q3', 'Q4'])
+                payments = payments.copy()  # Make a copy of the DataFrame
+                payments['Quartile'] = pd.qcut(payments['InvoiceLineAmountLocal'], q=4, labels=['Q1', 'Q2', 'Q3', 'Q4'])
+                # print("payments_hgygg__________", payments)
+                if (data['min'] == '0' and data['max'] == '0') or (data['min'] == 'null' and data['max'] == 'null'):
+                    if country == 'usa':
+                        min = 10000
+                    else:
+                        min = 5000
+                    max = payments['InvoiceLineAmountLocal'].max()
 
-            else:
-                min = int(data['min'])
-                max = int(data['max'])
+                else:
+                    min = int(data['min'])
+                    max = int(data['max'])
 
             # payments = payments[payments['InvoiceLineAmountLocal']>=10000]
-
+            min = 0 if data['min'] == "null" else int(data['min'])
+            max = 100000000000000 if data['min'] == "null" else int(data['max'])
             payments = payments[
                 (payments['InvoiceLineAmountLocal'] >= min) & (payments['InvoiceLineAmountLocal'] <= max)]
             print(payments.shape[0])
@@ -400,7 +404,7 @@ class Deepdive:
 
             edges_list = []
 
-            # print("payments", payments)
+            # print("payments________", payments)
 
             if conn == 'multiple':
                 "select \
@@ -490,13 +494,13 @@ class Deepdive:
             distinct_hcos = merged_hcp_hco[['from', 'hco_name']].drop_duplicates()
             # print("distinct_hcps.shape[0]", distinct_hcps.shape[0])
             # print("distinct_hcos.shape[0]", distinct_hcos.shape[0])
-
+            print("distinct_hcos", distinct_hcos, "\n payments", payments)
             merged_hcp_payments = distinct_hcps.merge(payments, how='inner', left_on=['hcp_name'],
                                                       right_on=['VendorName'])
 
             merged_hco_payments = distinct_hcos.merge(payments, how='inner', left_on=['hco_name'],
                                                       right_on=['VendorName'])
-
+            print("merged_hco_payments", merged_hco_payments)
             # print("merged_hcp_payments.shape[0]", merged_hcp_payments.shape[0])
             # print("merged_hco_payments.shape[0]", merged_hco_payments.shape[0])
 
@@ -564,7 +568,7 @@ class Deepdive:
             print(rel_hcps)
 
             merged_hco_payments_edges = merged_hco_payments[['from', 'VendorName']].drop_duplicates()
-            # print("____merged_hco_payments_edges.shape[0]______",merged_hco_payments_edges.shape[0])
+            print("____merged_hco_payments_edges.shape[0]______",merged_hco_payments_edges.shape[0])
 
             merged_hcp_payments_edges = merged_hcp_payments[['to', 'VendorName']].drop_duplicates()
             # print("merged_hcp_payments_edges_____",merged_hcp_payments_edges)
@@ -633,11 +637,12 @@ class Deepdive:
                 "image": "https://dieselpunkcore.com/wp-content/uploads/2014/06/logo-placeholder.png",
             }
             node_list.append(x)
-
+            print("merged_hco_payments_edges", merged_hco_payments_edges, "\n final_hcps", final_hcps)
             final_edges = pd.concat([merged_hco_payments_edges, final_hcps], ignore_index=True)
-            print(final_edges)
-            hcos_for_nodes = final_edges[['from']].drop_duplicates()
-            hcps_for_nodes = final_edges[['to']].drop_duplicates()
+            print("final_edges", final_edges)
+
+            hcos_for_nodes = final_edges[['from']] if country != "SAUDI ARABIA" else final_edges[['from']].drop_duplicates()
+            hcps_for_nodes = final_edges[['to']] if country != "SAUDI ARABIA" else final_edges[['to']].drop_duplicates()
 
             print(hcos_for_nodes.shape[0], ",", hcps_for_nodes.shape[0])
 
@@ -717,18 +722,23 @@ class Deepdive:
 
                 # Filter the data for the specific country
             df_hco_filtered = df_hco[df_hco['COUNTRY'] == country.upper()]
-
+            # print("df_hco_filtered___", df_hco_filtered, "\n df_strong_edges___", df_strong_edges)
                 # Perform the join operation (equivalent to SQL JOIN)
             merged_df = pd.merge(df_hco_filtered, df_strong_edges, left_on='ID', right_on='hco_id', how='inner')
 
+            # print("merged_df", merged_df)
                 # Group by COUNTRY, HCO, and ID, and get the maximum hco_id
             result_df = merged_df.groupby(['COUNTRY', 'NAME', 'ID'])['hco_id'].max().reset_index()
 
+            # print("result_df", result_df)
             # Execute the query
             hco_df = result_df
 
+            print("hco_df", hco_df)
+
             nodes_hco_df = hco_df.rename(columns={'NAME': 'label', 'ID': 'id', 'COUNTRY': 'country'})
 
+            print("hcos_for_nodes", hcos_for_nodes, "\nnodes_hco_df", nodes_hco_df)
             nodes_hco_merged = hcos_for_nodes.merge(nodes_hco_df, how='inner', left_on=["from"], right_on=["id"])
 
             # nodes_merged = nodes_merged.drop_duplicates(subset = ['Id'])
@@ -842,7 +852,7 @@ class Deepdive:
             if country == 'null':
                 True, "data_by_country", []
 
-            currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
+            currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR', 'saudi': 'SAR'}
 
             file_path = 'data/app2.vPayments.csv'
             df = pd.read_csv(file_path)
@@ -1232,7 +1242,7 @@ class Deepdive:
             if iden == 'null':
                 True, "null_data", []
 
-            if 'B' in iden or 'S' in iden or 'U' in iden:
+            if 'B' in iden or 'S' in iden or 'U' in iden or 'A' in iden:
                 filtered_df = data_df[data_df['hco_id'] == iden]
             else:
                 iden = str(iden)
@@ -1251,7 +1261,7 @@ class Deepdive:
             print(edges)
             print(edges.shape[0])
             edges_list = []
-            if 'B' in iden or 'S' in iden or 'U' in iden:
+            if 'B' in iden or 'S' in iden or 'U' in iden or 'A' in iden:
                 char_first = iden[0]
                 hcps = edges[['hcp']]
                 filtered_df = data_df[
@@ -1427,7 +1437,7 @@ class Deepdive:
             if iden == 'null':
                 True, "null_data", []
 
-            if 'B' in data['id'] or 'S' in data['id'] or 'U' in data['id']:
+            if 'B' in data['id'] or 'S' in data['id'] or 'U' in data['id'] or 'A' in data['id']:
                 df = pd.read_csv('data/app2.vHco.csv')
                 df_filtered = df[df['ID'] == iden]
                 entity = df_filtered[['NAME', 'payment_hco_id']]
@@ -1465,6 +1475,7 @@ class Deepdive:
                     hco_news = json.load(inputfile)
 
                 for article in hco_news:
+                    print("entity_name", entity_name)
                     if article['hcp'].encode('ISO-8859-1').decode('utf-8') == entity_name:
                         event_dict = dict()
                         event_dict["id"] = data['id']
@@ -1564,7 +1575,7 @@ class Deepdive:
                 True, "null_data", []
 
             timeline_list = []
-            if 'B' in data['id'] or 'S' in data['id'] or 'U' in data['id']:
+            if 'B' in data['id'] or 'S' in data['id'] or 'U' in data['id'] or 'A' in data['id']:
                 # query = (f"select HCO from [app2].[vHco] where I"
                 #          f"D = '{iden}'")
                 # db = MSSQLConnection()
@@ -1599,6 +1610,45 @@ class Deepdive:
                         event_dict['category'] = article['category']
                         event_dict['sentiment'] = article['sentiment']
                         event_dict['flag'] = 'HCO'
+                        timeline_list.append(event_dict)
+
+                # New Logic
+
+                # file_path = 'data/app2.vHCP.csv'
+                # df = pd.read_csv(file_path, encoding='latin1')
+                # # pd.read_csv(file_path, encoding='latin1')
+                # print("df____", df)
+                # df.rename(columns={'ï»¿id': 'id'}, inplace=True)
+                # print(df.columns)
+                # iden = str(iden)
+                # df['id'] = df['id'].astype(str)
+                # entity = df[df['id'] == iden]
+                #
+                # print("entity____", entity)
+                # entity_name = ''
+                # for i, row in entity.iterrows():
+                #     entity_name = row['hcp_name']
+                #     break
+                with open("./data/NewhcpNewsHeadlines.json", encoding='utf-8') as inputfile:
+                    hcp_news = json.load(inputfile)
+
+                for article in hcp_news:
+                    print("article", article['hco'], entity_name, article['hco'] == entity_name)
+                    if article['hco'] == entity_name:
+                        event_dict = dict()
+                        event_dict["id"] = data['id']
+                        event_dict["title"] = article['title']
+                        event_dict["hco"] = article['hco']
+                        event_dict["hcp"] = article['hcp']
+                        event_dict['source'] = article['source']
+                        event_dict['date'] = article['date']
+                        event_dict['link'] = article['link']
+                        event_dict['country'] = article['country']
+                        event_dict['collaborators'] = ''
+                        event_dict['category'] = article['category']
+                        event_dict['sentiment'] = article['sentiment']
+                        event_dict['flag'] = "HCP"
+
                         timeline_list.append(event_dict)
             else:
                 query = f"select hcp_name from [app2].[vHcp] where Id = '{iden}'"
@@ -1657,7 +1707,7 @@ class Deepdive:
             if iden == 'null':
                 True, "null_data", []
 
-            currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR'}
+            currency_mapping = {'usa': 'USD', 'brazil': 'BRL', 'spain': 'EUR', 'saudi arabia': 'SAR'}
 
             query = f"select ID, [Name], PaymentAmount, InteractionCount, LOWER(Country) as Country from [app2].[vAllNodes] where ID = '{iden}'"
             db = MSSQLConnection()
@@ -1685,7 +1735,7 @@ class Deepdive:
             return_dict['totalInteraction'] = str(total_interactions)
             return_dict['selectedName'] = entity_name
             print(return_dict, '00000000000000000000000000000000000000000000000000000000000000')
-            if 'B' in data['id'] or 'S' in data['id'] or 'U' in data['id']:
+            if 'B' in data['id'] or 'S' in data['id'] or 'U' in data['id'] or 'A' in data['id']:
                 with open("./data/outputhco.json", encoding='latin-1') as inputfile:
                     hco_news = json.load(inputfile)
                 i = 0
