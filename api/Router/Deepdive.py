@@ -91,4 +91,17 @@ def overview():
     else:
         return Utils.create_response(_ret[1], code=RetCodes.Not_Found)
 
+@deepdive_api_v1.route('/finance', methods=['GET'])
+@jwt_required()
+def finance():
+    data = Utils.get_request_data(request)
+    _ret = Controller.finance(data)
+    print(_ret)
+    print('IN ROUTER')
+    if _ret[0]:
+        print("in if")
+        return Utils.create_response(_ret[1], data=_ret[2])
+    else:
+        return Utils.create_response(_ret[1], code=RetCodes.Not_Found)
+
 

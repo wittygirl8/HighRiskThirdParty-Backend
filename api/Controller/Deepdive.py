@@ -45,3 +45,8 @@ class DeepdiveController:
     def data_by_country_g(data):
         _obj = Deepdive()
         return _obj.data_by_country_g(data)
+
+    @staticmethod
+    def finance(data):
+        _obj = Deepdive()
+        return _obj.finance(data)

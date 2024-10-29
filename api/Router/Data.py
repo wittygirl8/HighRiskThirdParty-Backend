@@ -18,3 +18,5 @@ def test():
         return Utils.create_response(_ret[1], data=_ret[2])
     else:
         return Utils.create_response(_ret[1], code=RetCodes.Not_Found)
+
+

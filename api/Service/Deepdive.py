@@ -1711,3 +1711,14 @@ class Deepdive:
             print("Deepdive.overview(): " + str(e))
             traceback.print_exc()
             return False, "Something went wrong"
+
+    def finance(self, data):
+        try:
+            iden = data['id']
+            conn = data.get('connection')
+            print(iden, conn)
+            return True, "finance", iden
+        except Exception as e:
+            print("Deepdive.overview(): " + str(e))
+            traceback.print_exc()
+            return False, "Something went wrong"
