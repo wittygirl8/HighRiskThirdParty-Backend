@@ -395,7 +395,7 @@ class Deepdive:
 
             # payments = payments[payments['InvoiceLineAmountLocal']>=10000]
             min = 0 if data['min'] == "null" else int(data['min'])
-            max = 100000000000000 if data['min'] == "null" else int(data['max'])
+            max = 10000000 if data['min'] == "null" else int(data['max'])
             payments = payments[
                 (payments['InvoiceLineAmountLocal'] >= min) & (payments['InvoiceLineAmountLocal'] <= max)]
             print(payments.shape[0])
