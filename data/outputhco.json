@@ -148,7 +148,7 @@
         "source": "GNews",
         "link": "https://news.google.com/read/CBMingFBVV95cUxNdzQzUVhNV1Z5WWhvbjhyM21FVTFMZjNXemlyVHJCc1dRU0lYMDhoa3VKRmdvSWJ0b2pkdk1ZZjJKVVBiQllIb0Zlc0tGbkNZbnRZU1htMmxMWi0tYUN5bnFkS2FCb3NXMmtxWTFjRG9tVzdvcDlQN0FlUHBIN1IwVFRQMzVzbk9mTFQ1Qmp0M1NiT2RzYmVkdWU0bVFNQQ?hl=en-IN&gl=IN&ceid=IN%3Aen",
         "summary": "Pasqal, a Massy-based startup, has struck a deal with Saudi Arabian oil group Aramco to install Saudi Arabia's first quantum computer. This 200-qubit system will be delivered and installed by Pasqal in 2025.",
-        "sentiment": "Neutral",
+        "sentiment": "Negative",
         "hco": "Pasqal",
         "country": "Saudi Arabia",
         "category": "Announcement"
@@ -215,7 +215,7 @@
         "link": "https://meconstructionnews.com/22604/snc-lavalin-to-acquire-atkins-for-3-14bn",
         "category": "Announcement",
         "sentiment": "Positive",
-        "hco": "AtkinsRealis",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "SNC-Lavalin Group, a Canadian construction and engineering giant, has announced its acquisition of the UK-based design and project management consultancy WS Atkins for $3.14 billion. Approved by both companies' boards, the cash deal will involve SNC-Lavalin acquiring Atkins' entire share capital at $26.88 per share. With 18,000 employees and a 2016 revenue of $2.5 billion, Atkins brings operations across the UK, Scandinavia, the US, Middle East, and Asia. SNC-Lavalin's CEO Neil Bruce highlighted that this acquisition aligns with their growth strategy, enhances service capabilities, and offers new opportunities for growth across various global regions."
     },
@@ -226,7 +226,7 @@
         "link": "https://meconstructionnews.com/23627/snc-lavalin-completes-acquisition-of-ws-atkins",
         "category": "Announcement",
         "sentiment": "Positive",
-        "hco": "AtkinsRealis",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "SNC-Lavalin has completed the acquisition of WS Atkins, forming a global, fully integrated professional services and project management company with over 50,000 employees and annual revenues of $9.24 billion. The merger strengthens SNC-Lavalin\u00e2\u20ac\u2122s presence in the infrastructure, rail, nuclear, and renewables markets while enhancing its revenue base and global reach. With the addition of Atkins\u00e2\u20ac\u2122 18,000 employees and established positions in the UK, Scandinavia, US, Middle East, and Asia, SNC-Lavalin aims to be among the top three firms in its sector. The acquisition is expected to improve earnings, diversify revenue streams, and create more balanced global coverage. Heath Drewett of Atkins joins SNC-Lavalin's executive committee, aiming to leverage Atkins' project management and consulting expertise within the expanded organization."
     },
@@ -237,7 +237,7 @@
         "link": "https://meconstructionnews.com/23627/snc-lavalin-completes-acquisition-of-ws-atkins",
         "category": "Announcement",
         "sentiment": "Positive",
-        "hco": "AtkinsRealis",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "SNC-Lavalin has finalized its acquisition of WS Atkins, forming a comprehensive global professional services and project management company with over 50,000 employees and $9.24 billion in annual revenue. The merger enhances SNC-Lavalin's global standing, particularly in infrastructure, rail, nuclear, and renewables sectors, and solidifies its position as one of the top three industry leaders. The acquisition brings new expertise, geographic reach, and an expanded customer base, while adding $2.69 billion in high-margin revenue through long-term agreements. Heath Drewett of Atkins will now serve as President of Atkins, SNC-Lavalin\u00e2\u20ac\u2122s fifth business sector, facilitating a broader range of client solutions and cross-selling opportunities within the combined company."
     },
@@ -248,7 +248,7 @@
         "link": "https://www.railjournal.com/financial/snc-lavalin-to-acquire-atkins/",
         "category": "Announcement",
         "sentiment": "Positive",
-        "hco": "AtkinsRealis",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "SNC-Lavalin's acquisition of WS Atkins, approved by both companies' boards and awaiting shareholder approval, is scheduled for completion in the third quarter of this year. The acquisition price reflects a 35% premium on Atkins\u00e2\u20ac\u2122 share value as of March 31. With 18,000 employees and \u00c2\u00a32 billion in 2016 revenue, Atkins brings diverse, complementary capabilities to three of SNC-Lavalin\u00e2\u20ac\u2122s four business sectors, adding value without overlapping existing services."
     },
@@ -259,7 +259,7 @@
         "link": "https://www.railjournal.com/news/snc-lavalin-rebrands-as-atkinsrealis/",
         "category": "Announcement",
         "sentiment": "Positive",
-        "hco": "AtkinsRealis",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "SNC-Lavalin Group, a leading professional services and project management firm, will rebrand as AtkinsR\u00c3\u00a9alis on September 13 to mark a transformative phase for the company. President and CEO Ian Edwards describes the rebranding as aligned with the firm\u00e2\u20ac\u2122s recent strategic shifts, including an exit from non-profitable sectors, a focus on high-growth markets, and a commitment to digital transformation. Based in Montr\u00c3\u00a9al with 36,000 employees, AtkinsR\u00c3\u00a9alis plans to expand through acquisitions, particularly in the US, and aims to shed unprofitable rail contracts. The new name merges 'Atkins' reflecting its 2017 acquisition, with 'R\u00c3\u00a9alis' highlighting its Canadian heritage and outcome-focused approach."
     },
@@ -270,7 +270,7 @@
         "link": "https://infotel.ca/newsitem/snc-atkins-acquisition/cp1057376070",
         "category": "Announcement",
         "sentiment": "Positive",
-        "hco": "AtkinsRealis",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "SNC-Lavalin, based in Montreal, has announced its largest acquisition to date with the purchase of British engineering consultancy WS Atkins for $3.6 billion. Expected to close in the third quarter pending approvals, this acquisition will increase SNC-Lavalin\u00e2\u20ac\u2122s revenue to $12.1 billion and workforce to 53,000 employees. The deal aligns with SNC-Lavalin\u00e2\u20ac\u2122s growth strategy to establish itself as a global engineering and construction leader, expanding its geographic reach and diversifying its customer base. WS Atkins brings 18,000 employees and a strong presence in infrastructure and energy sectors, primarily in the UK, Scandinavia, and beyond. The acquisition, supported by SNC-Lavalin\u00e2\u20ac\u2122s largest shareholder, The Caisse de depot, is expected to generate $120 million in cost savings within a year, enhancing SNC-Lavalin's position in high-growth markets like infrastructure, nuclear, and transit."
     },
@@ -281,7 +281,7 @@
         "link": "https://www.marketwatch.com/story/atkinsrealis-secures-environmental-contract-in-uk-a415fe5a",
         "category": "Announcement",
         "sentiment": "Positive",
-        "hco": "AtkinsRealis",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "AtkinsRealis Group, formerly known as SNC-Lavalin, has been chosen as a partner for a significant environmental initiative with United Utilities, a major U.K. water company. The Canadian firm will design projects across water, wastewater, bio resource, and rainwater management sites for United Utilities. This partnership framework is set to last five years, with an option to extend up to 11 years, potentially yielding \u00c2\u00a390 million ($119.6 million) per partner if fully extended. United Utilities has appointed three design partners for this program, emphasizing a commitment to sustainable water management solutions."
     },
@@ -292,7 +292,7 @@
         "link": "https://www.msn.com/en-ca/money/topstories/atkinsr%C3%A9alis-signs-deal-to-help-modernize-u-k-rail-signalling-system/ar-AA1qFk57?ocid=BingNewsVerp",
         "category": "Announcement",
         "sentiment": "Positive",
-        "hco": "AtkinsRealis",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "AtkinsR\u00c3\u00a9alis Group Inc., formerly SNC-Lavalin, has secured two contracts with Network Rail to assist in a \u00c2\u00a34 billion program to upgrade and digitize the U.K.'s rail signalling infrastructure over the next decade. One contract involves AtkinsR\u00c3\u00a9alis working independently on conventional signalling upgrades, while the other forms a joint venture with CAF to implement digital signalling. This modernization effort is expected to enhance reliability across the U.K. rail network through a blend of traditional and digital signalling solutions."
     },
@@ -303,7 +303,7 @@
         "link": "https://www.nytimes.com/2019/12/18/world/canada/snc-lavalin-guilty-trudeau.html",
         "category": "Legal",
         "sentiment": "Negative",
-        "hco": "AtkinsRealis",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "SNC-Lavalin, a Montreal-based engineering firm, pleaded guilty to bribing Libyan officials to secure contracts, resulting in a fine of 280 million Canadian dollars. This corruption case significantly impacted Prime Minister Justin Trudeau\u00e2\u20ac\u2122s image and re-election campaign, as accusations arose that he and his aides pressured former justice minister Jody Wilson-Raybould to settle the case favorably for the company. Although Trudeau rejected claims of misconduct, the controversy contributed to his party losing its majority in the House of Commons. The plea resolves a protracted political issue, but concerns about public interest and corporate accountability linger."
     },
@@ -313,8 +313,8 @@
         "source": "Bing News",
         "link": "https://www.nytimes.com/2019/12/18/world/canada/snc-lavalin-guilty-trudeau.html",
         "category": "Announcement",
-        "sentiment": "Neutral",
-        "hco": "AtkinsRealis",
+        "sentiment": "Negative",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "In a recent interview, Prime Minister Justin Trudeau discussed the political challenges and controversies surrounding his handling of SNC-Lavalin\u00e2\u20ac\u2122s prosecution, which has impacted his political reputation. Trudeau defended his approach, emphasizing a commitment to 'doing politics differently' by attempting to bridge internal party conflicts rather than swiftly removing dissenting voices. He reflected on his approach to governance and relations with the U.S., maintaining optimism about his leadership style despite criticism. Trudeau\u00e2\u20ac\u2122s stance in response to this scandal showcases his focus on unity within his party and a determination to uphold a fresh, inclusive political approach in the face of opposition."
     },
@@ -325,7 +325,7 @@
         "link": "https://www.nytimes.com/2019/02/15/world/canada/snc-lavalin-justin-trudeau.html",
         "category": "Legal",
         "sentiment": "Negative",
-        "hco": "AtkinsRealis",
+        "hco": "SNC-Lavalin (AtkinsRealis)",
         "country": "Saudi Arabia",
         "summary": "Seven years ago, SNC-Lavalin's involvement in Libya with Col. Muammar Qaddafi\u00e2\u20ac\u2122s regime led to significant controversy and legal repercussions. The company hired Canadian consultant Cynthia Vanier to write a report critical of NATO's actions in Libya, which resulted in her imprisonment in Mexico on charges related to attempting to smuggle Qaddafi\u00e2\u20ac\u2122s son. This episode highlighted SNC-Lavalin's corruption issues, resulting in executive dismissals and arrests. Years later, SNC-Lavalin's dealings in Libya became central to a political scandal involving Canadian Prime Minister Justin Trudeau. Allegations surfaced that Trudeau or his aides pressured former Justice Minister Jody Wilson-Raybould to settle the company\u00e2\u20ac\u2122s bribery charges in Libya, leading to her resignation and an ethics investigation into Trudeau's actions."
     },
@@ -335,7 +335,7 @@
         "source": "GNews",
         "link": "https://news.google.com/read/CBMiqwFBVV95cUxNTXN6OWhRbDhoWno0QXRuZkk4UnB6SDYxNlE1Yk9hY0dFNVRURVgwUWYyZDFPS0pBMFpSRnNYM1FTUGlHUU1aaVJvN09DOFhfTGI3eG5jV2JrQVl2NVJURE82dEJLeUl4a1l2SWluNHNSUmhaM0E5YlFhSUpXMzBNekZaT1ZoOWNqaDMzc19kYXpuajlNTWlHdXBwSjgwb29iWWxJU3MtdVk4eUk?hl=en-IN&gl=IN&ceid=IN%3Aen",
         "summary": "Maire Tecnimont has secured engineering, procurement, and construction contracts that will boost its revenues from 2023 onwards. Works include two polyethylene units using Advanced Dual Loop technology and derivative units.",
-        "sentiment": "Neutral",
+        "sentiment": "Negative",
         "category": "Announcement",
         "hco": "Maire Tecnimont",
         "country": "Saudi Arabia"
@@ -369,7 +369,7 @@
         "sentiment": "positive",
         "link": "https://www.gccksa.com/news/GCC-Awarded-Contract-from-Aramco-and-TotalEnergies",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "country": "Saudi Arabia",
         "summary": "GCC secured a contract from Aramco and TotalEnergies to construct transfer pipelines for the $11 billion Amiral petrochemicals expansion at SATORP refinery. The project, supported by international leaders, will host a major steam cracker, produce 1,650 kt of ethylene annually, attract $4 billion in investments, and create 7,000 jobs."
     },
@@ -379,7 +379,7 @@
         "source": "GNews",
         "sentiment": "positive",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "link": "https://www.gccksa.com/news/green-initiative",
         "summary": "GCC participated in Aramco's 'Dhahran-Jubail Intersection Beautification' project, an environmental initiative. The groundbreaking ceremony in Dhahran was attended by GCC CEO Ahmed Al-Mohammadi and company representatives. Al-Mohammadi received a memento from Aramcos Project Management VP, Abdulkarim Al-Ghamdi, recognizing GCC's involvement in the project",
         "country": "Saudi Arabia"
@@ -390,7 +390,7 @@
         "source": "GNews",
         "sentiment": "positive",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "link": "https://www.gccksa.com/news/gcc-signs-an-agreement-with-spsp",
         "summary": "GCC signed an agreement with Saudi Petroleum Services Polytechnic (SPSP) to support young Saudi talent in industrial projects, reinforcing GCC\u00e2\u20ac\u2122s commitment to national workforce development. With over 70 years in the sector, GCC aims to enable local expertise in fabrication and construction, aligning with SPSP\u00e2\u20ac\u2122s mission to advance Saudization.",
         "country": "Saudi Arabia"
@@ -401,7 +401,7 @@
         "source": "GNews",
         "sentiment": "positive",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "link": "https://www.gccksa.com/news/gcc_celebrates_completion_installing_pipelines_scraping_facilities",
         "summary": "GCC completed the installation of seven new and replacement of 30 non-standard pipeline scraping facilities across 35+ locations in the Saudi Aramco network. These 'pigging' facilities enable continuous pipeline maintenance and monitoring without operation interruption, enhancing efficiency and integrity while supporting critical infrastructure in the Kingdom\u00e2\u20ac\u2122s economy.",
         "country": "Saudi Arabia"
@@ -413,7 +413,7 @@
         "link": "https://www.gccksa.com/news/gcc_exploring_new_partnerships_opportunities",
         "sentiment": "neutral",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "summary": "GCC attended a meeting with Norway\u00e2\u20ac\u2122s Oil and Gas Trade Delegation, hosted by Asharqia Chamber, to explore partnerships and advanced technologies. Led by GCC\u00e2\u20ac\u2122s Technical Support Director and Operations Manager, discussions focused on sustainable solutions, regulatory insights, and collaboration potential to enhance GCC's services and reliability in the evolving energy sector.",
         "country": "Saudi Arabia"
     },
@@ -424,7 +424,7 @@
         "link": "https://www.gccksa.com/news/gcc_appoints_a_new_ceo",
         "sentiment": "positive",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "summary": "GCC appointed Ahmad Almohammadi as CEO on November 21, 2021, succeeding Aiman Mihyar. With 30 years of experience in engineering and business management, including key roles at Baker Hughes, Almohammadi aims to optimize GCC's capabilities, emphasizing resilience and value creation amid rapid industry changes for stakeholders and clients.",
         "country": "Saudi Arabia"
     },
@@ -435,7 +435,7 @@
         "link": "https://www.gccksa.com/news/ompp_onshore_maintain_potential_project_program",
         "sentiment": "positive",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "summary": "Amid rising oil demand, Saudi Arabia aims to boost its Maximum Sustainable Capacity (MSC) to 13 million barrels daily. Supporting this goal, GCC contributes to Saudi Aramco\u00e2\u20ac\u2122s Onshore Maintain Potential Programs, constructing well tie-in piping and key facilities, achieving 2 million safe man-hours and enhancing vital infrastructure across new oil fields.",
         "country": "Saudi Arabia"
     },
@@ -445,7 +445,7 @@
         "source": "GNews",
         "sentiment": "positive",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "link": "https://www.gccksa.com/news/project_highlight_gas_compression_and_stabilization_facility",
         "summary": "GCC achieved Mechanical Completion for a gas compression project at Saudi Aramco\u00e2\u20ac\u2122s Pump Station #3, enhancing stabilization facilities and increasing ASL crude processing by 30%, significantly reducing gas flaring. By installing advanced compression systems, GCC boosted operational efficiency and completed over 20 projects with Aramco, consistently exceeding client standards",
         "country": "Saudi Arabia"
@@ -457,7 +457,7 @@
         "link": "https://www.gccksa.com/news/gcc_project_highlight_connecting_spark_and_modon",
         "sentiment": "positive",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "summary": "GCC completed a key project linking King Salman Energy City (SPARK) and Dammam Third Industrial City (MODON-3) to Saudi Aramco\u00e2\u20ac\u2122s Master Gas System. Delivering high-quality pipeline construction, skids, scraper facilities, metering, and safety systems, GCC demonstrated its reliability and expertise, strengthening Saudi Arabia\u00e2\u20ac\u2122s gas infrastructure and industrial capabilities.",
         "country": "Saudi Arabia"
     },
@@ -468,7 +468,7 @@
         "link": "https://www.gccksa.com/news/gcc_awarded_a_project_by_saudi_aramco",
         "sentiment": "positive",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "summary": "Saudi Aramco selected GCC to construct valve stations, scraper traps, and facilities for SASB-1, SATB-1, and BRT-5 pipelines across Saudi Arabia\u00e2\u20ac\u2122s Eastern Province. GCC\u00e2\u20ac\u2122s expertise enables efficient, simultaneous multi-site operations, covering civil works, communication, and surge system integration, reinforcing GCC\u00e2\u20ac\u2122s reputation as a premier industrial contractor in the Kingdom.",
         "country": "Saudi Arabia"
     },
@@ -478,7 +478,7 @@
         "source": "GNews",
         "sentiment": "positive",
         "category": "announcement",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "link": "https://www.gccksa.com/news/gcc_celebrating_the_completion_of_j_508",
         "summary": "GCC successfully expanded the Sanitary Wastewater Treatment Facility at Saudi Aramco's Abqaiq Plant, doubling its capacity. The project involved installing a 5.6 km gravity sewer line, upgrading aeration tanks, and enhancing septage connections. GCC\u00e2\u20ac\u2122s expertise in infrastructure ensured efficient execution, reinforcing its commitment to excellence in wastewater treatment solutions.",
         "country": "Saudi Arabia"
@@ -490,7 +490,7 @@
         "link": "https://smartwatermagazine.com/news/smart-water-magazine/saudi-water-treatment-project-54-companies-bid-ppp-initiative",
         "summary": "Saudi Arabia\u00e2\u20ac\u2122s Zakat, Tax, and Customs Authority announced that 54 companies, including Gulf Contracting Company, expressed interest in the Water and Sewage Treatment Plants at Land Ports PPP project. The initiative aims to construct and operate treatment plants at ten land ports under a 15-year DBFOMT contract.",
         "sentiment": "positive",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "category": "announcement",
         "country": "Saudi Arabia"
     },
@@ -498,7 +498,7 @@
         "title": "UK-owned contractor accused of Qatar labour abuse",
         "date": "2015-04-16",
         "source": "GNews",
-        "hco": "Gulf Contracting Company",
+        "hco": "Gulf Consolidated Contractors Company",
         "link": "https://www.constructionweekonline.com/people/appointments/article-38515-uk-owned-contractor-accused-of-qatar-labour-abuse",
         "summary": "BK Gulf, co-owned by Balfour Beatty and Gulf Contracting Company (GCC), faces accusations of violating Qatari labor laws, with migrant workers alleging exploitation and mistreatment. While some workers reported satisfactory conditions, concerns remain about labor abuses in the supply chain, prompting Balfour Beatty to review its labor practices.",
         "category": "Legal",
