@@ -1767,436 +1767,432 @@ class Deepdive:
             iden = data['id']
             conn = data.get('connection')
             financial_data= {
-                "ARAM001":[
-                    {
-                        "title": "Total Revenue (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Total Revenue (M, $)",
-                                    "data": [
-                                        428140.8,
-                                        304821,
-                                        424786,
-                                        484107.5,
-                                        444933.8
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Gross Profit (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Gross Profit (M,$)",
-                                    "data": [
-                                        69578.4,
-                                        59008.6,
-                                        85013.3,
-                                        68765.5,
-                                        65563.7
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Net Income (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Net Income (M,$)",
-                                    "data": [
-                                        8325.4,
-                                        4843.5,
-                                        11154.8,
-                                        9947.6,
-                                        8244.4
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "EBITDA (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "EBITDA (M,$)",
-                                    "data": [
-                                        31189.5,
-                                        24610.6,
-                                        36999,
-                                        32692.2,
-                                        30349.8
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "ARAM002":[
-                    {
-                        "title": "Quick ratio (Est.)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Quick ratio",
-                                    "data": [
-                                        0.69,
-                                        6.63,
-                                        55.97,
-                                        2.13
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Total indebtedness (Est.)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Total indebtedness",
-                                    "data": [
-                                        97.64,
-                                        40.23,
-                                        127.94,
-                                        1.8,
-                                        58.43
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Fixed assets/net worth (%, Est.)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2018",
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Fixed assets/net worth %",
-                                    "data": [
-                                        29.94,
-                                        120.58,
-                                        -5.7,
-                                        -0.64,
-                                        32.34
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Current liabilities over net worth (ratio, Est.)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Current liabilities over net worth",
-                                    "data": [
-                                        67.31,
-                                        -53.14,
-                                        1.83,
-                                        97.85
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "ARAM003":[
-                ],
-                "ARAM004":[
-                    {
-                        "title": "Total Revenue (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Total Revenue (M, $)",
-                                    "data": [
-                                        3691.5,
-                                        2927.4,
-                                        3364,
-                                        3599.8,
-                                        4575.1
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Gross Profit (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Gross Profit (M,$)",
-                                    "data": [
-                                        827.1,
-                                        624.9,
-                                        765.1,
-                                        819.2,
-                                        1038.6
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Net Income (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Net Income (M,$)",
-                                    "data": [
-                                        126.5,
-                                        65.9,
-                                        98.5,
-                                        94.5,
-                                        135.5
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "EBITDA (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "EBITDA (M,$)",
-                                    "data": [
-                                        250,
-                                        152.5,
-                                        195.4,
-                                        196.1,
-                                        278.6
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "ARAM005":[
-                ],
-                "ARAM006":[
-                ],
-                "ARAM007":[
-                ],
-                "ARAM008":[
-                ],
-                "ARAM009":[
-                    {
-                        "title": "Total Revenue (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Total Revenue (M, $)",
-                                    "data": [
-                                        5748.4,
-                                        5226.1,
-                                        5879.6,
-                                        5800.3,
-                                        6398.8
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Gross Profit (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Gross Profit (M,$)",
-                                    "data": [
-                                        440.3,
-                                        93.5,
-                                        390.3,
-                                        317.4,
-                                        567.7
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "Net Income (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "Net Income (M,$)",
-                                    "data": [
-                                        247.3,
-                                        -720,
-                                        531.7,
-                                        7.5,
-                                        212.8
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "title": "EBITDA (Standardised, Millions USD)",
-                        "data": {
-                            "labels": [
-                                "31-Dec-2019",
-                                "31-Dec-2020",
-                                "31-Dec-2021",
-                                "31-Dec-2022",
-                                "31-Dec-2023"
-                            ],
-                            "datasets": [
-                                {
-                                    "label": "EBITDA (M,$)",
-                                    "data": [
-                                        2509.4,
-                                        39.7,
-                                        354.6,
-                                        262.2,
-                                        557.3
-                                    ],
-                                    "borderColor": "rgb(100, 119, 182)",
-                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
+                                "ARAM001": [
+                                    {
+                                        "title": "Total Revenue (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Total Revenue (M, $)",
+                                                    "data": [
+                                                        428140.8,
+                                                        304821,
+                                                        424786,
+                                                        484107.5,
+                                                        444933.8
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Gross Profit (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Gross Profit (M,$)",
+                                                    "data": [
+                                                        69578.4,
+                                                        59008.6,
+                                                        85013.3,
+                                                        68765.5,
+                                                        65563.7
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Net Income (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Net Income (M,$)",
+                                                    "data": [
+                                                        8325.4,
+                                                        4843.5,
+                                                        11154.8,
+                                                        9947.6,
+                                                        8244.4
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "EBITDA (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "EBITDA (M,$)",
+                                                    "data": [
+                                                        31189.5,
+                                                        24610.6,
+                                                        36999,
+                                                        32692.2,
+                                                        30349.8
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "ARAM002": [
+                                    {
+                                        "title": "Quick ratio (Est.)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Quick ratio",
+                                                    "data": [
+                                                        0.69,
+                                                        6.63,
+                                                        55.97,
+                                                        2.13
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Fixed assets/net worth (%, Est.)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2018",
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Fixed assets/net worth %",
+                                                    "data": [
+                                                        29.94,
+                                                        120.58,
+                                                        -5.7,
+                                                        -0.64,
+                                                        32.34
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Current liabilities over net worth (ratio, Est.)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Current liabilities over net worth",
+                                                    "data": [
+                                                        67.31,
+                                                        -53.14,
+                                                        1.83,
+                                                        97.85
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Total indebtedness (Est.)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2018",
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Total indebtedness",
+                                                    "data": [
+                                                        97.64,
+                                                        40.23,
+                                                        127.94,
+                                                        1.8,
+                                                        58.43
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "ARAM003": [],
+                                "ARAM004": [
+                                    {
+                                        "title": "Total Revenue (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Total Revenue (M, $)",
+                                                    "data": [
+                                                        3691.5,
+                                                        2927.4,
+                                                        3364,
+                                                        3599.8,
+                                                        4575.1
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Gross Profit (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Gross Profit (M,$)",
+                                                    "data": [
+                                                        827.1,
+                                                        624.9,
+                                                        765.1,
+                                                        819.2,
+                                                        1038.6
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Net Income (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Net Income (M,$)",
+                                                    "data": [
+                                                        126.5,
+                                                        65.9,
+                                                        98.5,
+                                                        94.5,
+                                                        135.5
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "EBITDA (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "EBITDA (M,$)",
+                                                    "data": [
+                                                        250,
+                                                        152.5,
+                                                        195.4,
+                                                        196.1,
+                                                        278.6
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "ARAM005": [],
+                                "ARAM006": [],
+                                "ARAM007": [],
+                                "ARAM008": [],
+                                "ARAM009": [
+                                    {
+                                        "title": "Total Revenue (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Total Revenue (M, $)",
+                                                    "data": [
+                                                        5748.4,
+                                                        5226.1,
+                                                        5879.6,
+                                                        5800.3,
+                                                        6398.8
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Gross Profit (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Gross Profit (M,$)",
+                                                    "data": [
+                                                        440.3,
+                                                        93.5,
+                                                        390.3,
+                                                        317.4,
+                                                        567.7
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Net Income (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "Net Income (M,$)",
+                                                    "data": [
+                                                        247.3,
+                                                        -720,
+                                                        531.7,
+                                                        7.5,
+                                                        212.8
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "EBITDA (Standardised, Millions USD)",
+                                        "data": {
+                                            "labels": [
+                                                "31-Dec-2019",
+                                                "31-Dec-2020",
+                                                "31-Dec-2021",
+                                                "31-Dec-2022",
+                                                "31-Dec-2023"
+                                            ],
+                                            "datasets": [
+                                                {
+                                                    "label": "EBITDA (M,$)",
+                                                    "data": [
+                                                        2509.4,
+                                                        39.7,
+                                                        354.6,
+                                                        262.2,
+                                                        557.3
+                                                    ],
+                                                    "borderColor": "rgb(100, 119, 182)",
+                                                    "backgroundColor": "rgba(100, 119, 182, 0.5)"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
             rs_ = financial_data[iden] if iden in financial_data else []
             print(iden, conn)
             return True, "finance", rs_
