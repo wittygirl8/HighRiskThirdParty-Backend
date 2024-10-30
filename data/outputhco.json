@@ -148,7 +148,7 @@
         "source": "GNews",
         "link": "https://news.google.com/read/CBMingFBVV95cUxNdzQzUVhNV1Z5WWhvbjhyM21FVTFMZjNXemlyVHJCc1dRU0lYMDhoa3VKRmdvSWJ0b2pkdk1ZZjJKVVBiQllIb0Zlc0tGbkNZbnRZU1htMmxMWi0tYUN5bnFkS2FCb3NXMmtxWTFjRG9tVzdvcDlQN0FlUHBIN1IwVFRQMzVzbk9mTFQ1Qmp0M1NiT2RzYmVkdWU0bVFNQQ?hl=en-IN&gl=IN&ceid=IN%3Aen",
         "summary": "Pasqal, a Massy-based startup, has struck a deal with Saudi Arabian oil group Aramco to install Saudi Arabia's first quantum computer. This 200-qubit system will be delivered and installed by Pasqal in 2025.",
-        "sentiment": "Positive",
+        "sentiment": "Negative",
         "hco": "Pasqal",
         "country": "Saudi Arabia",
         "category": "Announcement"
@@ -335,7 +335,7 @@
         "source": "GNews",
         "link": "https://news.google.com/read/CBMiqwFBVV95cUxNTXN6OWhRbDhoWno0QXRuZkk4UnB6SDYxNlE1Yk9hY0dFNVRURVgwUWYyZDFPS0pBMFpSRnNYM1FTUGlHUU1aaVJvN09DOFhfTGI3eG5jV2JrQVl2NVJURE82dEJLeUl4a1l2SWluNHNSUmhaM0E5YlFhSUpXMzBNekZaT1ZoOWNqaDMzc19kYXpuajlNTWlHdXBwSjgwb29iWWxJU3MtdVk4eUk?hl=en-IN&gl=IN&ceid=IN%3Aen",
         "summary": "Maire Tecnimont has secured engineering, procurement, and construction contracts that will boost its revenues from 2023 onwards. Works include two polyethylene units using Advanced Dual Loop technology and derivative units.",
-        "sentiment": "Negative",
+        "sentiment": "Positive",
         "category": "Announcement",
         "hco": "Maire Tecnimont",
         "country": "Saudi Arabia"
