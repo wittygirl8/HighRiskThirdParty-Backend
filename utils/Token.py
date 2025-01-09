@@ -19,7 +19,7 @@ BLACKLIST = set()
 
 def get_access_token(user, additional_claims):
     try:
-        token = create_access_token(identity=user,
+        token = create_access_token(identity=str(user),
                                     additional_claims=additional_claims,
                                     expires_delta=datetime.timedelta(hours=10),
                                     fresh=True)
