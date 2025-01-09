@@ -1,20 +1,45 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Flask API Application
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This project is a Flask-based API application designed to handle various endpoints and functionalities. Follow the instructions below to set up and run the application.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+---
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Table of Contents
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+
+---
+
+## Prerequisites
+
+Before running this application, ensure you have the following installed:
+
+- **Python 3.8 or later**
+- **`pip`** (Python package installer)
+
+---
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository_url>
+   cd <project_folder>
+
+2. **Clone the Repository**:
+   ```bash
+   pip install -r requirements.txt
+
+---
+
+---
+
+## Running the Application
+
+1. **Using `flask run`**:  
+   Run the application directly with the following command:
+   ```bash
+   flask run
+---
