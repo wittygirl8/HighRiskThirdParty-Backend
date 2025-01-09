@@ -31,6 +31,8 @@ def create_app(config_object='settings'):
     app.config['JWT_SECRET_KEY'] = 'your_jwt_secret_key'
     jwt = JWTManager(app)
 
+    print("jwt", jwt)
+
     app.config['MAX_CONTENT_LENGTH'] = 512 * 1024 * 1024  # 512 MB
     # db = MSSQLConnection()
     # db.init_app(app)
@@ -62,6 +64,7 @@ def create_app(config_object='settings'):
 
     @jwt.invalid_token_loader
     def invalid_token_callback(error):
+        app.logger.error(f"Invalid token detected: {error}")
         return jsonify({
             'message': "Use a new token",
             'error': error
