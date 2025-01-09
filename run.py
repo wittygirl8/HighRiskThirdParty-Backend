@@ -63,7 +63,7 @@ def create_app(config_object='settings'):
     @jwt.invalid_token_loader
     def invalid_token_callback(error):
         return jsonify({
-            'message': "Use a new token",
+            'message': "Use a new token__________",
             'error': error
         }), 401
 
