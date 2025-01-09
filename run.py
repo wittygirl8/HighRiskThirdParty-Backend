@@ -66,7 +66,7 @@ def create_app(config_object='settings'):
     def invalid_token_callback(error):
         app.logger.error(f"Invalid token detected: {error}")
         return jsonify({
-            'message': "Use a new token",
+            'message': "Use a new token______________",
             'error': error
         }), 401
 
