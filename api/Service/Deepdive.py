@@ -40,7 +40,7 @@ class Deepdive:
                 country_df = pd.read_csv('data/app.country.csv')
                 users = country_df[['id', 'name', 'code']]
                 users = json.loads(users.to_json(orient='records'))
-            print(users)
+            print("users___________get_countries__________", users)
             return True, "access countries", users
         except Exception as e:
             print("Deepdive.data_by_country(): " + str(e))

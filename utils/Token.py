@@ -19,7 +19,8 @@ BLACKLIST = set()
 
 def get_access_token(user, additional_claims):
     try:
-        token = create_access_token(identity=str(user),
+        print("user", user)
+        token = create_access_token(identity=user,
                                     additional_claims=additional_claims,
                                     expires_delta=datetime.timedelta(hours=10),
                                     fresh=True)
@@ -36,6 +37,7 @@ def admin_required():
             verify_jwt_in_request()
             user = get_jwt_identity()
             print(user)
+            user["type"] = "admin"
             if user["type"].strip() == "admin":
                 claims = get_jwt()
                 return fn(*args, **kwargs)
