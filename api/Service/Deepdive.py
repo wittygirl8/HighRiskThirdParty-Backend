@@ -26,21 +26,23 @@ class Deepdive:
     def get_countries(self, data):  # tbd
         try:
             user = data["user"]
+            if isinstance(user, str): 
+                user = json.dumps(user)
             print("user___get_countries", type(user),user)
-            # if user["type"].strip() != "admin":
-            #     print("in if")
-            #     print("in if")
-            #     access_df = pd.read_csv('data/app.access.csv')
-            #     country_df = pd.read_csv('data/app.country.csv')
-            #     merged_df = pd.merge(access_df, country_df, left_on='country_id', right_on='id', how='inner')
-            #     user_access_df = merged_df[merged_df['user_id'] == user['id']]
-            #     user = user_access_df[['id', 'name', 'code']]
-            #     users = user.rename(columns={'name': 'country'})
-            # else:
-                # print("in else")
-            country_df = pd.read_csv('data/app.country.csv')
-            users = country_df[['id', 'name', 'code']]
-            users = json.loads(users.to_json(orient='records'))
+            if user["type"].strip() != "admin":
+                print("in if")
+                print("in if")
+                access_df = pd.read_csv('data/app.access.csv')
+                country_df = pd.read_csv('data/app.country.csv')
+                merged_df = pd.merge(access_df, country_df, left_on='country_id', right_on='id', how='inner')
+                user_access_df = merged_df[merged_df['user_id'] == user['id']]
+                user = user_access_df[['id', 'name', 'code']]
+                users = user.rename(columns={'name': 'country'})
+            else:
+                print("in else")
+                country_df = pd.read_csv('data/app.country.csv')
+                users = country_df[['id', 'name', 'code']]
+                users = json.loads(users.to_json(orient='records'))
             print("users___________get_countries__________", users)
             return True, "access countries", users
         except Exception as e:
