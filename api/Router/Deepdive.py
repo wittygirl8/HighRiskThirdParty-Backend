@@ -11,7 +11,7 @@ CORS(deepdive_api_v1)
 
 
 @deepdive_api_v1.route('/graph/user', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def data_by_user():
     data = Utils.get_request_data(request)
     print(data)
@@ -25,7 +25,7 @@ def data_by_user():
 
 
 @deepdive_api_v1.route('/graph/country', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def data_by_country():
     data = Utils.get_request_data(request)
     print(data, "--------------------------------------------------------")
@@ -46,7 +46,7 @@ def data_by_country():
 
 
 @deepdive_api_v1.route('/graph/node', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def data_by_node():
     data = Utils.get_request_data(request)
     _ret = Controller.data_by_node(data)
@@ -57,7 +57,7 @@ def data_by_node():
 
 
 @deepdive_api_v1.route('/timeline', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def timeline():
     data = Utils.get_request_data(request)
     _ret = Controller.timeline(data)
@@ -68,7 +68,7 @@ def timeline():
 
 
 @deepdive_api_v1.route('/ext_events', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def ext_events():
     data = Utils.get_request_data(request)
     _ret = Controller.ext_events(data)
@@ -79,7 +79,7 @@ def ext_events():
 
 
 @deepdive_api_v1.route('/overview', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def overview():
     data = Utils.get_request_data(request)
     _ret = Controller.overview(data)
@@ -92,7 +92,7 @@ def overview():
         return Utils.create_response(_ret[1], code=RetCodes.Not_Found)
 
 @deepdive_api_v1.route('/finance', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def finance():
     data = Utils.get_request_data(request)
     _ret = Controller.finance(data)

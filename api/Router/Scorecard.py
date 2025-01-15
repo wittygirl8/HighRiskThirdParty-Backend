@@ -11,7 +11,7 @@ CORS(scorecard_api_v1)
 
 
 @scorecard_api_v1.route('/test', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def test():
     data = Utils.get_request_data(request)
     _ret = Controller.test(data)
@@ -22,7 +22,7 @@ def test():
 
 
 @scorecard_api_v1.route('/dashboard/stats', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def dashboard_stats():
     data = Utils.get_request_data(request)
     _ret = Controller.dashboard_stats(data)
@@ -33,7 +33,7 @@ def dashboard_stats():
     
 
 @scorecard_api_v1.route('/dashboard/riskTable', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def dashboard_risk_table():
     print("hi")
     data = Utils.get_request_data(request)
@@ -47,7 +47,7 @@ def dashboard_risk_table():
     
 
 @scorecard_api_v1.route('/dashboard/businessActivities', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def dashboard_business_activities():
     print('xyz')
     data = Utils.get_request_data(request)
@@ -60,7 +60,7 @@ def dashboard_business_activities():
     
 
 @scorecard_api_v1.route('/dashboard/connections', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def dashboard_connections():
     data = Utils.get_request_data(request)
     _ret = Controller.dashboard_connections(data)
@@ -71,7 +71,7 @@ def dashboard_connections():
     
 
 @scorecard_api_v1.route('/dashboard/globalSpend', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def dashboard_global_spend():
     data = Utils.get_request_data(request)
     _ret = Controller.dashboard_global_spend(data)
@@ -82,7 +82,7 @@ def dashboard_global_spend():
 
 
 @scorecard_api_v1.route('/dashboard/mediaCoverage', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def dashboard_media_coverage():
     data = Utils.get_request_data(request)
     _ret = Controller.dashboard_media_coverage(data)
@@ -93,7 +93,7 @@ def dashboard_media_coverage():
 
 
 @scorecard_api_v1.route('/dashboard/connectionsTable', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def dashboard_connections_table():
     data = Utils.get_request_data(request)
     _ret = Controller.dashboard_connections_table(data)

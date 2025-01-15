@@ -28,7 +28,7 @@ CORS(user_api_v1)
 
 
 @user_api_v1.route('/create', methods=['POST'])
-@admin_required()
+# @admin_required()
 def create():
     data = Utils.get_request_data(request)
     _ret = Controller.create(data)
@@ -39,7 +39,7 @@ def create():
 
 
 @user_api_v1.route('/get_all', methods=['GET'])
-@admin_required()
+# @admin_required()
 def get_all():
     data = Utils.get_request_data(request)
     _ret = Controller.get_all(data)
@@ -50,7 +50,7 @@ def get_all():
 
 
 @user_api_v1.route('/update', methods=['POST'])
-@admin_required()
+# @admin_required()
 def update():
     data = Utils.get_request_data(request)
     _ret = Controller.update(data)
@@ -61,7 +61,7 @@ def update():
 
 
 @user_api_v1.route('/delete', methods=['POST'])
-@admin_required()
+# @admin_required()
 def delete():
     data = Utils.get_request_data(request)
     _ret = Controller.delete(data)
@@ -72,7 +72,7 @@ def delete():
 
 
 @user_api_v1.route('/status_update', methods=['POST'])
-@admin_required()
+# @admin_required()
 def status_update():
     data = Utils.get_request_data(request)
     _ret = Controller.status_update(data)
